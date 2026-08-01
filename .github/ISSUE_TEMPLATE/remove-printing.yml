@@ -1,0 +1,18 @@
+name: Remove a printing
+description: Remove one WLX collector number from future published updates.
+title: "[WLX REMOVE] "
+body:
+  - type: input
+    id: collector
+    attributes:
+      label: WLX collector number
+      description: Enter 002 or WLX #002. Collector numbers are permanently retired and never reused.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this printing will disappear from the active WLX catalog after players update.
+          required: true
