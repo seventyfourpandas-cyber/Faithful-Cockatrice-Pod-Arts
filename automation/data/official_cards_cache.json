@@ -36,6 +36,12 @@
       "oracle_id": "180919a5-67b2-473a-9b90-a828bdc2477c",
       "scryfall_uri": "https://scryfall.com/card/clb/146/shadowheart-dark-justiciar?utm_source=api",
       "verified_at": "2026-08-01"
+    },
+    "ghoulcaller gisa": {
+      "name": "Ghoulcaller Gisa",
+      "oracle_id": "0dd894cb-1968-471c-af08-ea7ec5ce8428",
+      "scryfall_uri": "https://scryfall.com/card/cmm/161/ghoulcaller-gisa?utm_source=api",
+      "verified_at": "2026-08-01"
     }
   }
 }
