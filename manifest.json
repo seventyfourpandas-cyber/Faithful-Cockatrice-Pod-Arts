@@ -3,29 +3,29 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.1",
-  "published_at": "2026-08-01T07:10:15-04:00",
+  "version": "2.0.2",
+  "published_at": "2026-08-01T11:35:55+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "fe93bd1e84357af4e4520bc308fe0f1dc6cc0b604cb9d7a95648923c8928f9f6",
-    "size_bytes": 933,
+    "sha256": "f49e654fed2cd0058f792a41aab67c42229b67a5f28bd142262622881318e2ef",
+    "size_bytes": 1213,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "8a2a6cbdba03110c2a12ca038f8338afcf0342faec05953f7785395e3b3321d7",
+    "sha256": "3a448ea9d4be158e8598a0baff88b945e6b85fc69644a08f6b03feed62142054",
     "size_bytes": 54747
   },
-  "cards": 1,
-  "printings_count": 1,
+  "cards": 2,
+  "printings_count": 2,
   "sets": 1,
   "players": {
-    "Alex": 1,
+    "Alex": 2,
     "Will": 0,
     "Miguel": 0,
     "Jay": 0
@@ -38,32 +38,46 @@
       "player": "Alex",
       "image_sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png"
+    },
+    {
+      "collector_number": "002",
+      "uuid": "b7ed3e04-2245-5304-a933-8ce3975f0a58",
+      "card_name": "Wedding Ring",
+      "player": "Alex",
+      "image_sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png"
     }
   ],
   "files": [
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "8a2a6cbdba03110c2a12ca038f8338afcf0342faec05953f7785395e3b3321d7",
+      "sha256": "3a448ea9d4be158e8598a0baff88b945e6b85fc69644a08f6b03feed62142054",
       "size_bytes": 54747
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/catalog.json",
-      "sha256": "7e05f4d06d600c8babfe48b91a065b0ec68ba30c4d3011057946965dc7e12b62",
-      "size_bytes": 845
+      "sha256": "9db49116d1582d897858f938724114bae65f44a3200e47add568644fb8744a9c",
+      "size_bytes": 1496
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
-      "sha256": "fe93bd1e84357af4e4520bc308fe0f1dc6cc0b604cb9d7a95648923c8928f9f6",
-      "size_bytes": 933
+      "sha256": "f49e654fed2cd0058f792a41aab67c42229b67a5f28bd142262622881318e2ef",
+      "size_bytes": 1213
     },
     {
       "path": "images/WLX/001-680c22b71393.png",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png",
       "sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
       "size_bytes": 5186891
+    },
+    {
+      "path": "images/WLX/002-469c6a028a1c.png",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png",
+      "sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
+      "size_bytes": 9354663
     }
   ]
 }

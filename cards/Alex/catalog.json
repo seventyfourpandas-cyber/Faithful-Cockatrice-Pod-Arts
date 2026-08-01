@@ -13,6 +13,17 @@
       "image_file": "WLX-001.png",
       "image_sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
       "notes": "Original verified WLX printing; UUID preserved from the working v1 release"
+    },
+    {
+      "collector_number": "002",
+      "uuid": "b7ed3e04-2245-5304-a933-8ce3975f0a58",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-002.png",
+      "image_sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
+      "notes": "Submitted by @seventyfourpandas-cyber through issue #1",
+      "official_name": "Wedding Ring"
     }
   ]
 }

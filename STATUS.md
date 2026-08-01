@@ -1,13 +1,13 @@
 # Willex's Whimsical Arts — Published Status
 
-- Version: `2.0.1`
+- Version: `2.0.2`
 - Set: `WLX` — Willex's Whimsical Arts
-- Active card identities: **1**
-- Active printings: **1**
+- Active card identities: **2**
+- Active printings: **2**
 
 | Player | Active printings |
 | --- | ---: |
-| Alex | 1 |
+| Alex | 2 |
 | Will | 0 |
 | Miguel | 0 |
 | Jay | 0 |

@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-01T07:10:15-04:00</createdAt>
+    <createdAt>2026-08-01T11:35:55+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
-    <sourceVersion>2.0.1</sourceVersion>
+    <sourceVersion>2.0.2</sourceVersion>
   </info>
   <sets>
     <set>
@@ -19,6 +19,10 @@
     <card>
       <name>Angel of Vitality</name>
       <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
+    </card>
+    <card>
+      <name>Wedding Ring</name>
+      <set uuid="b7ed3e04-2245-5304-a933-8ce3975f0a58" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png" num="002" rarity="special">WLX</set>
     </card>
   </cards>
 </cockatrice_carddatabase>

@@ -1,13 +1,26 @@
 {
   "schema_version": 1,
-  "next_collector": 2,
+  "next_collector": 3,
   "collectors": {
     "001": {
       "status": "active",
       "player": "Alex",
       "uuid": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10",
       "card_kind": "official"
+    },
+    "002": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "b7ed3e04-2245-5304-a933-8ce3975f0a58",
+      "card_kind": "official"
     }
   },
-  "processed_issues": {}
+  "processed_issues": {
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#1": {
+      "action": "add_printing",
+      "version": "2.0.2",
+      "result": "Added Wedding Ring as WLX #002",
+      "actor": "seventyfourpandas-cyber"
+    }
+  }
 }

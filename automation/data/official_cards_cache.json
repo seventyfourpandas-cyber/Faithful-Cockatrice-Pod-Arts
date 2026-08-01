@@ -6,6 +6,12 @@
       "name": "Angel of Vitality",
       "scryfall_uri": "https://scryfall.com/card/m20/4/angel-of-vitality",
       "verified_at": "2026-08-01"
+    },
+    "wedding ring": {
+      "name": "Wedding Ring",
+      "oracle_id": "0c34e962-99d9-4163-b852-4f61886546aa",
+      "scryfall_uri": "https://scryfall.com/card/voc/32/wedding-ring?utm_source=api",
+      "verified_at": "2026-08-01"
     }
   }
 }

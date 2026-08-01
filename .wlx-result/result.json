@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "changed": true,
+  "action": "add_printing",
+  "collector_number": "002",
+  "name": "Wedding Ring",
+  "version": "2.0.2"
+}
