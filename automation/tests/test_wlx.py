@@ -439,6 +439,26 @@ class CorePublisherTests(unittest.TestCase):
             self.assertIn("Windows\\CurrentVersion\\App Paths\\Cockatrice.exe", updater)
             self.assertIn("cockatrice_exe = $rememberedExe", updater)
             self.assertIn("Hey idiot, where did you move your files?", updater)
+            self.assertIn("Initialize-LauncherWindow", updater)
+            self.assertIn("Collection ready - opening Cockatrice", updater)
+            self.assertIn("Close-LauncherWindow 1500", updater)
+            self.assertIn('$shortcut.TargetPath = $powershellPath', updater)
+            self.assertIn("-ExecutionPolicy Bypass -STA -WindowStyle Hidden", updater)
+            self.assertIn("-WindowStyle Hidden", updater)
+            self.assertNotIn('$shortcut.TargetPath = $env:ComSpec', updater)
+            launcher_start_marker = "$xaml = @'\n"
+            launcher_start = updater.index(launcher_start_marker) + len(launcher_start_marker)
+            launcher_finish = updater.index("\n'@", launcher_start)
+            launcher_xaml = updater[launcher_start:launcher_finish]
+            launcher_root = wlxlib.ET.fromstring(launcher_xaml)
+            self.assertTrue(launcher_root.tag.endswith("Window"))
+            self.assertEqual(launcher_xaml.count('x:Name="FeedLine'), 3)
+            self.assertIn(
+                'Data="M 8,44 L 24,4 L 40,44 M 3,17 L 17,33 L 24,23 L 31,33 L 45,17"',
+                launcher_xaml,
+            )
+            self.assertNotIn("wolf", launcher_xaml.lower())
+            self.assertNotIn("<Button", launcher_xaml)
             reserved, image_type, image_count = struct.unpack("<HHH", embedded_icon[:6])
             self.assertEqual((reserved, image_type), (0, 1))
             self.assertGreaterEqual(image_count, 7)

@@ -13,6 +13,12 @@ needed, verifies the XML with SHA-256, replaces one canonical XML, quarantines m
 or duplicate copies, and opens Cockatrice. On its first use, it asks you to choose Cockatrice.exe
 and remembers that exact location on any drive. It asks again only if Cockatrice.exe is moved.
 
+The shortcut opens a compact WLX launcher instead of a raw Command Prompt. Its three-line activity
+feed reports each real update stage, and the red flame line fills as the work completes. When the
+collection is ready, the launcher pauses briefly, opens Cockatrice, and closes itself automatically.
+There is no OK button or press-any-key screen. A troubleshooting log remains at
+%LOCALAPPDATA%\__INSTALL_FOLDER__\launcher.log.
+
 IMPORTANT
 Do not use Cockatrice's "Add custom sets/cards" button for this pack. That button makes a new
 numbered XML copy each time instead of updating the old one. Always use INSTALL_OR_UPDATE.bat
