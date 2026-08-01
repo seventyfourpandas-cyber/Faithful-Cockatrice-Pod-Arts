@@ -2,8 +2,8 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-01T06:21:28.564299+00:00</createdAt>
-    <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/manifest.json</sourceUrl>
+    <createdAt>2026-08-01T06:33:49.523120+00:00</createdAt>
+    <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
     <sourceVersion>1.0.0</sourceVersion>
   </info>
   <sets>
@@ -18,7 +18,7 @@
   <cards>
     <card>
       <name>Angel of Vitality</name>
-      <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/images/ADP/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">ADP</set>
+      <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/ADP/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">ADP</set>
     </card>
   </cards>
 </cockatrice_carddatabase>
