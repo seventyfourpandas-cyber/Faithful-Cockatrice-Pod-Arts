@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-01T10:45:00-04:00</createdAt>
+    <createdAt>2026-08-01T21:54:53+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
-    <sourceVersion>2.0.4</sourceVersion>
+    <sourceVersion>2.0.5</sourceVersion>
   </info>
   <sets>
     <set>
@@ -19,6 +19,10 @@
     <card>
       <name>Angel of Vitality</name>
       <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
+    </card>
+    <card>
+      <name>Extus, Oriq Overlord // Awaken the Blood Avatar</name>
+      <set uuid="8762d247-abe2-54f9-838b-4e1d76563bb5" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/003-29fe4f892b95.jpg" num="003" rarity="special">WLX</set>
     </card>
     <card>
       <name>Wedding Ring</name>

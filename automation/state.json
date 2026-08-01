@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 3,
+  "next_collector": 4,
   "collectors": {
     "001": {
       "status": "active",
@@ -13,6 +13,12 @@
       "player": "Alex",
       "uuid": "b7ed3e04-2245-5304-a933-8ce3975f0a58",
       "card_kind": "official"
+    },
+    "003": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "8762d247-abe2-54f9-838b-4e1d76563bb5",
+      "card_kind": "official"
     }
   },
   "processed_issues": {
@@ -21,6 +27,12 @@
       "version": "2.0.2",
       "result": "Added Wedding Ring as WLX #002",
       "actor": "seventyfourpandas-cyber"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#2": {
+      "action": "add_printing",
+      "version": "2.0.5",
+      "result": "Added Extus, Oriq Overlord // Awaken the Blood Avatar as WLX #003",
+      "actor": "WillPower-exe"
     }
   }
 }

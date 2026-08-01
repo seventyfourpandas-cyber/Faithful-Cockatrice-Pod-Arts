@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "set_code": "WLX",
   "cards": [
     {
@@ -36,6 +36,24 @@
       "image": "images/WLX/002-469c6a028a1c.png",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png",
       "sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "003",
+      "uuid": "8762d247-abe2-54f9-838b-4e1d76563bb5",
+      "rarity": "special",
+      "image": "images/WLX/003-29fe4f892b95.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/003-29fe4f892b95.jpg",
+      "sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4",
       "dimensions": [
         2976,
         4152
