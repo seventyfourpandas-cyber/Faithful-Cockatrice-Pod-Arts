@@ -1,5 +1,5 @@
 The automated publisher completed this request successfully.
 
-- Added **Extus, Oriq Overlord // Awaken the Blood Avatar** as `WLX #004`
-- Published version: `2.0.6`
+- Removed `WLX #003` from the active catalog
+- Published version: `2.0.7`
 - Existing player shortcuts will receive the change the next time they update and launch Cockatrice.

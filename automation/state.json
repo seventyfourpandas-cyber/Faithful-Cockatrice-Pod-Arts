@@ -15,10 +15,11 @@
       "card_kind": "official"
     },
     "003": {
-      "status": "active",
+      "status": "retired",
       "player": "Will",
       "uuid": "8762d247-abe2-54f9-838b-4e1d76563bb5",
-      "card_kind": "official"
+      "card_kind": "official",
+      "retired_at": "2026-08-01T22:07:09+00:00"
     },
     "004": {
       "status": "active",
@@ -44,6 +45,12 @@
       "action": "add_printing",
       "version": "2.0.6",
       "result": "Added Extus, Oriq Overlord // Awaken the Blood Avatar as WLX #004",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#4": {
+      "action": "remove_printing",
+      "version": "2.0.7",
+      "result": "Removed WLX #003 from the active catalog",
       "actor": "WillPower-exe"
     }
   }

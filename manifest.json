@@ -3,30 +3,30 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.6",
-  "published_at": "2026-08-01T21:55:44+00:00",
+  "version": "2.0.7",
+  "published_at": "2026-08-01T22:07:09+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "69ad104685056b62a44644c69893124c99b52416e2c1acb2bc4ce919012760d4",
-    "size_bytes": 1753,
+    "sha256": "3c7fb576905d537441502ec374e1834a42b91845aeebd0292c87f2924a8ef06b",
+    "size_bytes": 1528,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "1176472db2ed8297c37abf4f953cbd998bb6d39f45370d4b0a3eb64826c4ef09",
+    "sha256": "aad9c59c3b5d635e2b7afd74a8a92cee213cfceb4958d291f3f3b1753ce9deba",
     "size_bytes": 61619
   },
   "cards": 3,
-  "printings_count": 4,
+  "printings_count": 3,
   "sets": 1,
   "players": {
     "Alex": 2,
-    "Will": 2,
+    "Will": 1,
     "Miguel": 0,
     "Jay": 0
   },
@@ -48,14 +48,6 @@
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png"
     },
     {
-      "collector_number": "003",
-      "uuid": "8762d247-abe2-54f9-838b-4e1d76563bb5",
-      "card_name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
-      "player": "Will",
-      "image_sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/003-29fe4f892b95.jpg"
-    },
-    {
       "collector_number": "004",
       "uuid": "594820cd-c94d-5969-8f77-a25b13e60a9f",
       "card_name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
@@ -68,20 +60,20 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "1176472db2ed8297c37abf4f953cbd998bb6d39f45370d4b0a3eb64826c4ef09",
+      "sha256": "aad9c59c3b5d635e2b7afd74a8a92cee213cfceb4958d291f3f3b1753ce9deba",
       "size_bytes": 61619
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/catalog.json",
-      "sha256": "388315f10531fc399e24c4b8234d5eeaff669a8f6b2fc9ffaf9f6d2771ff48f1",
-      "size_bytes": 2868
+      "sha256": "d7986935c19ac762cd02de7353543a983a9a646baf778ce876c37bed260737d3",
+      "size_bytes": 2182
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
-      "sha256": "69ad104685056b62a44644c69893124c99b52416e2c1acb2bc4ce919012760d4",
-      "size_bytes": 1753
+      "sha256": "3c7fb576905d537441502ec374e1834a42b91845aeebd0292c87f2924a8ef06b",
+      "size_bytes": 1528
     },
     {
       "path": "images/WLX/001-680c22b71393.png",
@@ -94,12 +86,6 @@
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png",
       "sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
       "size_bytes": 9354663
-    },
-    {
-      "path": "images/WLX/003-29fe4f892b95.jpg",
-      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/003-29fe4f892b95.jpg",
-      "sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4",
-      "size_bytes": 5377692
     },
     {
       "path": "images/WLX/004-0247de4a9c85.jpg",
