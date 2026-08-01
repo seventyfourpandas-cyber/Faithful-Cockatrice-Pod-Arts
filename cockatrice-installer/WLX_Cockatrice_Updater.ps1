@@ -325,28 +325,174 @@ function Move-NetworkPictureCache([string]$CacheDir, [string]$InstallRoot, [stri
     return $destination
 }
 
+function ConvertTo-CockatriceCandidate([string]$Value) {
+    if (-not $Value) { return "" }
+    $candidate = [Environment]::ExpandEnvironmentVariables($Value).Trim()
+    if ($candidate -match '^"([^"]+)"') {
+        $candidate = $Matches[1]
+    } elseif ($candidate -match '^(.+?\.exe)\s*,\s*-?\d+\s*$') {
+        $candidate = $Matches[1]
+    }
+    $candidate = $candidate.Trim('"')
+    if (Test-Path -LiteralPath $candidate -PathType Container -ErrorAction SilentlyContinue) {
+        $candidate = Join-Path $candidate "Cockatrice.exe"
+    }
+    if (-not [StringComparer]::OrdinalIgnoreCase.Equals([IO.Path]::GetFileName($candidate), "Cockatrice.exe")) {
+        return ""
+    }
+    return $candidate
+}
+
+function Add-CockatriceCandidate($Candidates, $Seen, [string]$Value) {
+    $candidate = ConvertTo-CockatriceCandidate $Value
+    if ($candidate -and $Seen.Add($candidate)) {
+        [void]$Candidates.Add($candidate)
+    }
+}
+
 function Find-CockatriceExe([string]$Explicit, $Settings) {
     $candidates = New-Object System.Collections.Generic.List[string]
-    if ($Explicit) { $candidates.Add($Explicit) }
+    $seen = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+    Add-CockatriceCandidate $candidates $seen $Explicit
     if ($Settings -and $Settings.PSObject.Properties.Name -contains "cockatrice_exe" -and $Settings.cockatrice_exe) {
-        $candidates.Add([string]$Settings.cockatrice_exe)
+        Add-CockatriceCandidate $candidates $seen ([string]$Settings.cockatrice_exe)
     }
-    if ($env:ProgramFiles) { $candidates.Add((Join-Path $env:ProgramFiles "Cockatrice\Cockatrice.exe")) }
-    if (${env:ProgramFiles(x86)}) { $candidates.Add((Join-Path ${env:ProgramFiles(x86)} "Cockatrice\Cockatrice.exe")) }
+
+    # A running copy reveals its real executable path even on a secondary drive.
+    foreach ($process in @(Get-Process -Name "Cockatrice" -ErrorAction SilentlyContinue)) {
+        try { Add-CockatriceCandidate $candidates $seen ([string]$process.Path) } catch { }
+    }
+
+    # Installed copies normally register either an App Paths entry or an
+    # uninstall record. Those records retain custom D:, E:, and other paths.
+    $appPathKeys = @(
+        "Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\Cockatrice.exe",
+        "Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\Cockatrice.exe",
+        "Registry::HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\App Paths\Cockatrice.exe"
+    )
+    foreach ($keyPath in $appPathKeys) {
+        try {
+            if (-not (Test-Path -LiteralPath $keyPath -ErrorAction SilentlyContinue)) { continue }
+            $key = Get-Item -LiteralPath $keyPath -ErrorAction Stop
+            Add-CockatriceCandidate $candidates $seen ([string]$key.GetValue(""))
+            Add-CockatriceCandidate $candidates $seen ([string]$key.GetValue("Path"))
+        } catch { }
+    }
+
+    $uninstallRoots = @(
+        "Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall",
+        "Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall",
+        "Registry::HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+    )
+    foreach ($root in $uninstallRoots) {
+        try {
+            if (-not (Test-Path -LiteralPath $root -ErrorAction SilentlyContinue)) { continue }
+            foreach ($entry in @(Get-ChildItem -LiteralPath $root -ErrorAction SilentlyContinue)) {
+                $record = Get-ItemProperty -LiteralPath $entry.PSPath -ErrorAction SilentlyContinue
+                if ($null -eq $record) { continue }
+                $recordFields = @($record.PSObject.Properties.Name)
+                if ($recordFields -notcontains "DisplayName" -or [string]$record.DisplayName -notlike "*Cockatrice*") { continue }
+                if ($recordFields -contains "DisplayIcon") {
+                    Add-CockatriceCandidate $candidates $seen ([string]$record.DisplayIcon)
+                }
+                if ($recordFields -contains "InstallLocation" -and $record.InstallLocation) {
+                    Add-CockatriceCandidate $candidates $seen (Join-Path ([string]$record.InstallLocation) "Cockatrice.exe")
+                }
+            }
+        } catch { }
+    }
+
+    if ($env:ProgramFiles) { Add-CockatriceCandidate $candidates $seen (Join-Path $env:ProgramFiles "Cockatrice\Cockatrice.exe") }
+    if (${env:ProgramFiles(x86)}) { Add-CockatriceCandidate $candidates $seen (Join-Path ${env:ProgramFiles(x86)} "Cockatrice\Cockatrice.exe") }
     if ($env:LOCALAPPDATA) {
-        $candidates.Add((Join-Path $env:LOCALAPPDATA "Programs\Cockatrice\Cockatrice.exe"))
-        $candidates.Add((Join-Path $env:LOCALAPPDATA "Cockatrice\Cockatrice.exe"))
+        Add-CockatriceCandidate $candidates $seen (Join-Path $env:LOCALAPPDATA "Programs\Cockatrice\Cockatrice.exe")
+        Add-CockatriceCandidate $candidates $seen (Join-Path $env:LOCALAPPDATA "Cockatrice\Cockatrice.exe")
+    }
+    if ($env:USERPROFILE) {
+        Add-CockatriceCandidate $candidates $seen (Join-Path $env:USERPROFILE "scoop\apps\cockatrice\current\Cockatrice.exe")
     }
     try {
-        $fromPath = Get-Command "Cockatrice.exe" -ErrorAction Stop
-        $candidates.Add($fromPath.Source)
-    } catch {
-        # Cockatrice is simply not on PATH.
+        $fromPath = Get-Command "Cockatrice.exe" -CommandType Application -ErrorAction Stop
+        Add-CockatriceCandidate $candidates $seen ([string]$fromPath.Source)
+    } catch { }
+
+    # Existing Windows shortcuts are a fast, drive-agnostic source of truth.
+    if ($env:OS -eq "Windows_NT") {
+        try {
+            $shell = New-Object -ComObject WScript.Shell
+            $shortcutFolders = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+            foreach ($folderName in @("Desktop", "CommonDesktopDirectory", "StartMenu", "CommonStartMenu", "Programs", "CommonPrograms")) {
+                try {
+                    $specialFolder = [System.Enum]::Parse([Environment+SpecialFolder], $folderName)
+                    $folder = [Environment]::GetFolderPath($specialFolder)
+                    if ($folder) { [void]$shortcutFolders.Add($folder) }
+                } catch { }
+            }
+            foreach ($folder in $shortcutFolders) {
+                foreach ($link in @(Get-ChildItem -LiteralPath $folder -Filter "*.lnk" -File -Recurse -ErrorAction SilentlyContinue)) {
+                    try {
+                        $target = $shell.CreateShortcut($link.FullName).TargetPath
+                        Add-CockatriceCandidate $candidates $seen ([string]$target)
+                    } catch { }
+                }
+            }
+        } catch { }
     }
+
+    # Check conventional portable-game locations on every mounted filesystem
+    # drive without recursively crawling entire disks.
+    $driveRelativePaths = @(
+        "Cockatrice\Cockatrice.exe",
+        "Games\Cockatrice\Cockatrice.exe",
+        "Apps\Cockatrice\Cockatrice.exe",
+        "Applications\Cockatrice\Cockatrice.exe",
+        "Program Files\Cockatrice\Cockatrice.exe",
+        "Program Files (x86)\Cockatrice\Cockatrice.exe"
+    )
+    foreach ($drive in @(Get-PSDrive -PSProvider FileSystem -ErrorAction SilentlyContinue)) {
+        if (-not $drive.Root) { continue }
+        foreach ($relativePath in $driveRelativePaths) {
+            Add-CockatriceCandidate $candidates $seen (Join-Path $drive.Root $relativePath)
+        }
+    }
+
     foreach ($candidate in $candidates) {
         if ($candidate -and (Test-Path -LiteralPath $candidate -PathType Leaf)) {
             return (Resolve-Path -LiteralPath $candidate).Path
         }
+    }
+    return ""
+}
+
+function Select-CockatriceExe([string]$SuggestedPath, [string]$DialogTitle) {
+    if ($env:OS -ne "Windows_NT") { return "" }
+    $dialog = $null
+    try {
+        Add-Type -AssemblyName System.Windows.Forms
+        $dialog = New-Object System.Windows.Forms.OpenFileDialog
+        $dialog.Title = $DialogTitle
+        $dialog.Filter = "Cockatrice (Cockatrice.exe)|Cockatrice.exe|Windows applications (*.exe)|*.exe"
+        $dialog.FileName = "Cockatrice.exe"
+        $dialog.CheckFileExists = $true
+        $dialog.Multiselect = $false
+        $dialog.RestoreDirectory = $true
+        $candidate = ConvertTo-CockatriceCandidate $SuggestedPath
+        if ($candidate) {
+            $suggestedDirectory = Split-Path -Parent $candidate
+            if (Test-Path -LiteralPath $suggestedDirectory -PathType Container) {
+                $dialog.InitialDirectory = $suggestedDirectory
+            }
+        }
+        if ($dialog.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { return "" }
+        $selected = ConvertTo-CockatriceCandidate $dialog.FileName
+        if ($selected -and (Test-Path -LiteralPath $selected -PathType Leaf)) {
+            return (Resolve-Path -LiteralPath $selected).Path
+        }
+        Write-Host "[WLX] The selected file was not Cockatrice.exe." -ForegroundColor Yellow
+    } catch {
+        Write-Host "[WLX] The Cockatrice file picker could not be opened: $($_.Exception.Message)" -ForegroundColor Yellow
+    } finally {
+        if ($null -ne $dialog) { $dialog.Dispose() }
     }
     return ""
 }
@@ -616,16 +762,46 @@ $migrationReport = [ordered]@{
 }
 $migrationReport | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $reportPath -Encoding UTF8
 
-if (-not (Test-Path -LiteralPath $settingsPath -PathType Leaf)) {
-    $newSettings = [ordered]@{
-        manifest_url = $ManifestUrl
-        cockatrice_data_dir = $CockatriceDataDir
-        cockatrice_pics_dir = ""
-        cockatrice_network_cache_dir = ""
-        cockatrice_exe = $CockatriceExe
-    }
-    $newSettings | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $settingsPath -Encoding UTF8
+$savedExe = ""
+if ($settings -and $settings.PSObject.Properties.Name -contains "cockatrice_exe" -and $settings.cockatrice_exe) {
+    $savedExe = [string]$settings.cockatrice_exe
 }
+$resolvedExe = ""
+$explicitExe = ConvertTo-CockatriceCandidate $CockatriceExe
+if ($explicitExe -and (Test-Path -LiteralPath $explicitExe -PathType Leaf)) {
+    $resolvedExe = (Resolve-Path -LiteralPath $explicitExe).Path
+} else {
+    $savedCandidate = ConvertTo-CockatriceCandidate $savedExe
+    if ($savedCandidate -and (Test-Path -LiteralPath $savedCandidate -PathType Leaf)) {
+        $resolvedExe = (Resolve-Path -LiteralPath $savedCandidate).Path
+    }
+}
+if (-not $resolvedExe) {
+    $suggestedExe = Find-CockatriceExe $CockatriceExe $settings
+    if ($NoLaunch) {
+        # Automated tests may resolve a harmless executable without opening a GUI.
+        $resolvedExe = $suggestedExe
+    } else {
+        if ($savedExe) {
+            Write-Host "[WLX] Hey idiot, where did you move your files? Choose Cockatrice.exe again." -ForegroundColor Yellow
+            $dialogTitle = "Hey idiot, where did you move your Cockatrice files?"
+        } else {
+            Write-Step "First-time setup: choose Cockatrice.exe once. WLX will remember this exact location."
+            $dialogTitle = "Choose Cockatrice.exe (one-time setup)"
+        }
+        $resolvedExe = Select-CockatriceExe $suggestedExe $dialogTitle
+    }
+}
+$rememberedExe = $resolvedExe
+if (-not $rememberedExe -and $savedExe) { $rememberedExe = $savedExe }
+$newSettings = [ordered]@{
+    manifest_url = $ManifestUrl
+    cockatrice_data_dir = $CockatriceDataDir
+    cockatrice_pics_dir = $picsDir
+    cockatrice_network_cache_dir = $networkCacheDir
+    cockatrice_exe = $rememberedExe
+}
+$newSettings | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $settingsPath -Encoding UTF8
 
 if ($quarantinedXml.Count -gt 0) {
     Write-Step "Ghost cleanup complete: $($quarantinedXml.Count) duplicate XML file(s) quarantined."
@@ -637,7 +813,6 @@ if ($networkCacheQuarantined) {
     Write-Step "Moved Cockatrice's network image cache into recoverable quarantine; images will redownload as needed."
 }
 
-$resolvedExe = Find-CockatriceExe $CockatriceExe $settings
 $shortcutIcon = Install-ShortcutIcon $installRoot
 $existingShortcut = Get-LaunchShortcutPath
 if ($InstallShortcut -or ($existingShortcut -and (Test-Path -LiteralPath $existingShortcut -PathType Leaf))) {
@@ -655,6 +830,6 @@ if ($resolvedExe) {
     Write-Step "Launching Cockatrice..."
     Start-Process -FilePath $resolvedExe
 } else {
-    Write-Step "Update complete. Cockatrice.exe was not auto-detected, so open Cockatrice manually."
-    Write-Host "For a portable/custom install, put its full path in: $settingsPath" -ForegroundColor Yellow
+    Write-Step "Update complete. Cockatrice was not launched because no executable was selected."
+    Write-Host "Use the WLX shortcut again when you are ready to choose Cockatrice.exe." -ForegroundColor Yellow
 }

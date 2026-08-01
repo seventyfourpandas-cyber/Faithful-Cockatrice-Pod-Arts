@@ -3,23 +3,23 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.2",
-  "published_at": "2026-08-01T11:35:55+00:00",
+  "version": "2.0.3",
+  "published_at": "2026-08-01T07:43:31-04:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "f49e654fed2cd0058f792a41aab67c42229b67a5f28bd142262622881318e2ef",
+    "sha256": "e3d25ce183c3858bc6234d0486495cce3daa7f21564d35c1d3c194564440dbf7",
     "size_bytes": 1213,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "3a448ea9d4be158e8598a0baff88b945e6b85fc69644a08f6b03feed62142054",
-    "size_bytes": 54747
+    "sha256": "845b41000e3833c582a41a34d7756a48e497cde8c1459f43d8cfe129f77ed1e6",
+    "size_bytes": 56593
   },
   "cards": 2,
   "printings_count": 2,
@@ -52,19 +52,19 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "3a448ea9d4be158e8598a0baff88b945e6b85fc69644a08f6b03feed62142054",
-      "size_bytes": 54747
+      "sha256": "845b41000e3833c582a41a34d7756a48e497cde8c1459f43d8cfe129f77ed1e6",
+      "size_bytes": 56593
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/catalog.json",
-      "sha256": "9db49116d1582d897858f938724114bae65f44a3200e47add568644fb8744a9c",
+      "sha256": "c14ac07261b56da111cbd553f444d82804ddf52b4f214d414b4cea68af494ee9",
       "size_bytes": 1496
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
-      "sha256": "f49e654fed2cd0058f792a41aab67c42229b67a5f28bd142262622881318e2ef",
+      "sha256": "e3d25ce183c3858bc6234d0486495cce3daa7f21564d35c1d3c194564440dbf7",
       "size_bytes": 1213
     },
     {
