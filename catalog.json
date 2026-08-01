@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "set_code": "WLX",
   "cards": [
     {
@@ -36,6 +36,24 @@
       "image": "images/WLX/002-469c6a028a1c.png",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png",
       "sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Shadowheart, Dark Justiciar",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "005",
+      "uuid": "ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb",
+      "rarity": "special",
+      "image": "images/WLX/005-2b21b1e6af30.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/005-2b21b1e6af30.jpg",
+      "sha256": "2b21b1e6af30181aee5eb96063065f8284f831982be3e42446c56dd38d471508",
       "dimensions": [
         2976,
         4152

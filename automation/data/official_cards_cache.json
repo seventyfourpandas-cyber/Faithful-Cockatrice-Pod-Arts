@@ -30,6 +30,12 @@
       "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
       "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
       "verified_at": "2026-08-01"
+    },
+    "shadowheart, dark justiciar": {
+      "name": "Shadowheart, Dark Justiciar",
+      "oracle_id": "180919a5-67b2-473a-9b90-a828bdc2477c",
+      "scryfall_uri": "https://scryfall.com/card/clb/146/shadowheart-dark-justiciar?utm_source=api",
+      "verified_at": "2026-08-01"
     }
   }
 }

@@ -3,30 +3,30 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.0.8",
-  "published_at": "2026-08-01T22:07:16+00:00",
+  "version": "2.0.9",
+  "published_at": "2026-08-01T22:20:13+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "1780f46bab764fcd02567a7523e142298a237827f71009f5fefcb7785d3d4d77",
-    "size_bytes": 1213,
+    "sha256": "9e3ef3cd8a3841bb2b3ef4685c9d774cb831e0cee45a94a8ec1eac460fe6c639",
+    "size_bytes": 1508,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "1bf465bf72748931a5ba68d0ffc1c295b28c1243f4ed8388046bdb56f07e58f5",
+    "sha256": "b583b6a75b2d8e5cd5630f70cc2409789589ebba431c42dc15258f75c271ff92",
     "size_bytes": 61619
   },
-  "cards": 2,
-  "printings_count": 2,
+  "cards": 3,
+  "printings_count": 3,
   "sets": 1,
   "players": {
     "Alex": 2,
-    "Will": 0,
+    "Will": 1,
     "Miguel": 0,
     "Jay": 0
   },
@@ -46,26 +46,34 @@
       "player": "Alex",
       "image_sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png"
+    },
+    {
+      "collector_number": "005",
+      "uuid": "ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb",
+      "card_name": "Shadowheart, Dark Justiciar",
+      "player": "Will",
+      "image_sha256": "2b21b1e6af30181aee5eb96063065f8284f831982be3e42446c56dd38d471508",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/005-2b21b1e6af30.jpg"
     }
   ],
   "files": [
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "1bf465bf72748931a5ba68d0ffc1c295b28c1243f4ed8388046bdb56f07e58f5",
+      "sha256": "b583b6a75b2d8e5cd5630f70cc2409789589ebba431c42dc15258f75c271ff92",
       "size_bytes": 61619
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/catalog.json",
-      "sha256": "8c77704cdc7da66ec911b2cbc9b9ab2278ef1405e871b491e1b9aedcf370c5a5",
-      "size_bytes": 1496
+      "sha256": "4e1f1a5f32ae4ee301e55235167614426d1dea5c447d6b03fa3b94ae68ddc9ea",
+      "size_bytes": 2162
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
-      "sha256": "1780f46bab764fcd02567a7523e142298a237827f71009f5fefcb7785d3d4d77",
-      "size_bytes": 1213
+      "sha256": "9e3ef3cd8a3841bb2b3ef4685c9d774cb831e0cee45a94a8ec1eac460fe6c639",
+      "size_bytes": 1508
     },
     {
       "path": "images/WLX/001-680c22b71393.png",
@@ -78,6 +86,12 @@
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png",
       "sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
       "size_bytes": 9354663
+    },
+    {
+      "path": "images/WLX/005-2b21b1e6af30.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/005-2b21b1e6af30.jpg",
+      "sha256": "2b21b1e6af30181aee5eb96063065f8284f831982be3e42446c56dd38d471508",
+      "size_bytes": 4068642
     }
   ]
 }

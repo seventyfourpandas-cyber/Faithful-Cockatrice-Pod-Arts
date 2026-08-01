@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "remove_printing",
-  "collector_number": "004",
-  "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
-  "version": "2.0.8"
+  "action": "add_printing",
+  "collector_number": "005",
+  "name": "Shadowheart, Dark Justiciar",
+  "version": "2.0.9"
 }
