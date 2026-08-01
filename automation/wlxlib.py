@@ -10,6 +10,7 @@ Python installations without a dependency installation step.
 
 from __future__ import annotations
 
+import base64
 import csv
 import dataclasses
 import datetime as dt
@@ -828,6 +829,17 @@ def build_repository(root: Path) -> dict[str, Any]:
         write_resolved_csv(staging / "catalog.resolved.csv", printings)
 
         manifest_url = url_for(base_url, "manifest.json")
+        source_dir = root / INSTALLER_SOURCE_RELATIVE
+        shortcut_icon_path = source_dir / "WLX_Shortcut.ico"
+        try:
+            shortcut_icon = shortcut_icon_path.read_bytes()
+        except FileNotFoundError as exc:
+            raise WlxError(f"Required shortcut icon is missing: {shortcut_icon_path.relative_to(root)}") from exc
+        if len(shortcut_icon) < 22 or shortcut_icon[:4] != b"\x00\x00\x01\x00":
+            raise WlxError("WLX_Shortcut.ico is not a valid Windows icon container")
+        icon_count = int.from_bytes(shortcut_icon[4:6], "little")
+        if icon_count < 1 or len(shortcut_icon) < 6 + (16 * icon_count):
+            raise WlxError("WLX_Shortcut.ico has an invalid image directory")
         tokens = {
             "__MANIFEST_URL__": manifest_url,
             "__PACKAGE_VERSION__": str(config["version"]),
@@ -835,8 +847,9 @@ def build_repository(root: Path) -> dict[str, Any]:
             "__PACKAGE_ID__": str(config["package_id"]),
             "__INSTALL_FOLDER__": str(config["install_folder"]),
             "__LEGACY_INSTALL_FOLDER__": str(config.get("legacy_install_folder", "")),
+            "__SHORTCUT_ICON_BASE64__": base64.b64encode(shortcut_icon).decode("ascii"),
+            "__SHORTCUT_ICON_SHA256__": hashlib.sha256(shortcut_icon).hexdigest(),
         }
-        source_dir = root / INSTALLER_SOURCE_RELATIVE
         installer_files = (
             "INSTALL_OR_UPDATE.bat",
             "UPDATE_AND_LAUNCH.bat",

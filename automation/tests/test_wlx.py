@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import binascii
 import hashlib
 import http.server
@@ -398,6 +399,12 @@ class CorePublisherTests(unittest.TestCase):
             self.assertTrue(path.is_file())
             self.assertEqual(wlxlib.sha256_file(path), entry["sha256"])
 
+    def test_build_rejects_a_corrupted_shortcut_icon(self) -> None:
+        icon = self.fixture.root / "automation" / "installer_source" / "WLX_Shortcut.ico"
+        icon.write_bytes(b"not an icon")
+        with self.assertRaisesRegex(wlxlib.WlxError, "not a valid Windows icon"):
+            wlxlib.build_repository(self.fixture.root)
+
     def test_cockatrice_installer_contains_verified_bootstrap(self) -> None:
         manifest = wlxlib.build_repository(self.fixture.root)
         archive_path = self.fixture.root / manifest["cockatrice_installer"]["path"]
@@ -414,6 +421,33 @@ class CorePublisherTests(unittest.TestCase):
             updater = archive.read("WLX_Cockatrice_Updater.ps1").decode("utf-8")
             self.assertIn("Get-ChangedPictureIdentities", updater)
             self.assertIn("picture_url = [string]$identity.picture_url", updater)
+            self.assertNotIn("__SHORTCUT_ICON_BASE64__", updater)
+            self.assertNotIn("__SHORTCUT_ICON_SHA256__", updater)
+            start_marker = "$ShortcutIconBase64 = @'\n"
+            start = updater.index(start_marker) + len(start_marker)
+            finish = updater.index("\n'@", start)
+            embedded_icon = base64.b64decode(updater[start:finish], validate=True)
+            source_icon = (
+                REPOSITORY_ROOT / "automation" / "installer_source" / "WLX_Shortcut.ico"
+            ).read_bytes()
+            self.assertEqual(embedded_icon, source_icon)
+            self.assertIn(hashlib.sha256(source_icon).hexdigest(), updater)
+            self.assertIn('$shortcut.IconLocation = "$IconPath,0"', updater)
+            self.assertIn("Test-Path -LiteralPath $existingShortcut", updater)
+            reserved, image_type, image_count = struct.unpack("<HHH", embedded_icon[:6])
+            self.assertEqual((reserved, image_type), (0, 1))
+            self.assertGreaterEqual(image_count, 7)
+            sizes = set()
+            for index in range(image_count):
+                entry = embedded_icon[6 + index * 16 : 22 + index * 16]
+                width = entry[0] or 256
+                height = entry[1] or 256
+                payload_size, payload_offset = struct.unpack("<II", entry[8:16])
+                self.assertEqual(width, height)
+                self.assertEqual(embedded_icon[payload_offset : payload_offset + 8], b"\x89PNG\r\n\x1a\n")
+                self.assertLessEqual(payload_offset + payload_size, len(embedded_icon))
+                sizes.add(width)
+            self.assertTrue({16, 24, 32, 48, 64, 128, 256}.issubset(sizes))
 
 
 class IssueTransactionTests(unittest.TestCase):

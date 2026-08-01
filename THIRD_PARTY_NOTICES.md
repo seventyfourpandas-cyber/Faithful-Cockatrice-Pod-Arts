@@ -6,6 +6,10 @@ The generated database targets Cockatrice card database version 4. The test fixt
 
 Source: <https://github.com/Cockatrice/Cockatrice/blob/master/doc/carddatabase_v4/cards.xsd>
 
+The WLX desktop shortcut icon is a monochrome derivative of the Cockatrice project's official website favicon. The original white Cockatrice silhouette is retained and the green field is recolored black.
+
+Icon source: <https://github.com/Cockatrice/cockatrice.github.io/blob/master/favicon.svg>
+
 This project is independent of and is not endorsed by the Cockatrice project.
 
 ## Scryfall

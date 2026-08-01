@@ -14,6 +14,11 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 $ProgressPreference = "SilentlyContinue"
+$ShortcutIconName = "WLX_Shortcut.ico"
+$ShortcutIconSha256 = "__SHORTCUT_ICON_SHA256__"
+$ShortcutIconBase64 = @'
+__SHORTCUT_ICON_BASE64__
+'@
 
 function Write-Step([string]$Message) {
     Write-Host "[WLX] $Message" -ForegroundColor Cyan
@@ -28,6 +33,32 @@ function Read-JsonFile([string]$Path) {
         throw "Required file is missing: $Path"
     }
     return Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json
+}
+
+function Install-ShortcutIcon([string]$InstallRoot) {
+    $iconPath = Join-Path $InstallRoot $ShortcutIconName
+    if (Test-Path -LiteralPath $iconPath -PathType Leaf) {
+        $installedHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $iconPath).Hash.ToLowerInvariant()
+        if ($installedHash -eq $ShortcutIconSha256) { return $iconPath }
+    }
+
+    try {
+        $iconBytes = [Convert]::FromBase64String(($ShortcutIconBase64 -replace '\s', ''))
+    } catch {
+        throw "The embedded WLX shortcut icon is invalid."
+    }
+    $temporaryIcon = "$iconPath.pending-$([Guid]::NewGuid().ToString('N'))"
+    try {
+        [IO.File]::WriteAllBytes($temporaryIcon, $iconBytes)
+        $writtenHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $temporaryIcon).Hash.ToLowerInvariant()
+        if ($writtenHash -ne $ShortcutIconSha256) {
+            throw "The embedded WLX shortcut icon failed SHA-256 verification."
+        }
+        Move-Item -LiteralPath $temporaryIcon -Destination $iconPath -Force
+    } finally {
+        Remove-Item -LiteralPath $temporaryIcon -Force -ErrorAction SilentlyContinue
+    }
+    return $iconPath
 }
 
 function Read-XmlFile([string]$Path) {
@@ -320,10 +351,15 @@ function Find-CockatriceExe([string]$Explicit, $Settings) {
     return ""
 }
 
-function New-LaunchShortcut([string]$InstallRoot, [string]$ExePath) {
+function Get-LaunchShortcutPath() {
     $desktop = [Environment]::GetFolderPath("Desktop")
-    if (-not $desktop) { return }
-    $shortcutPath = Join-Path $desktop "__DISPLAY_NAME__.lnk"
+    if (-not $desktop) { return "" }
+    return (Join-Path $desktop "__DISPLAY_NAME__.lnk")
+}
+
+function New-LaunchShortcut([string]$InstallRoot, [string]$IconPath, [string]$ExePath) {
+    $shortcutPath = Get-LaunchShortcutPath
+    if (-not $shortcutPath) { return }
     $batchPath = Join-Path $InstallRoot "UPDATE_AND_LAUNCH.bat"
     $shell = New-Object -ComObject WScript.Shell
     $shortcut = $shell.CreateShortcut($shortcutPath)
@@ -331,7 +367,11 @@ function New-LaunchShortcut([string]$InstallRoot, [string]$ExePath) {
     $shortcut.Arguments = "/c `"`"$batchPath`"`""
     $shortcut.WorkingDirectory = $InstallRoot
     $shortcut.Description = "Update __DISPLAY_NAME__ and launch Cockatrice"
-    if ($ExePath) { $shortcut.IconLocation = "$ExePath,0" }
+    if ($IconPath -and (Test-Path -LiteralPath $IconPath -PathType Leaf)) {
+        $shortcut.IconLocation = "$IconPath,0"
+    } elseif ($ExePath) {
+        $shortcut.IconLocation = "$ExePath,0"
+    }
     $shortcut.Save()
     Write-Step "Desktop shortcut created: $shortcutPath"
 }
@@ -598,7 +638,11 @@ if ($networkCacheQuarantined) {
 }
 
 $resolvedExe = Find-CockatriceExe $CockatriceExe $settings
-if ($InstallShortcut) { New-LaunchShortcut $installRoot $resolvedExe }
+$shortcutIcon = Install-ShortcutIcon $installRoot
+$existingShortcut = Get-LaunchShortcutPath
+if ($InstallShortcut -or ($existingShortcut -and (Test-Path -LiteralPath $existingShortcut -PathType Leaf))) {
+    New-LaunchShortcut $installRoot $shortcutIcon $resolvedExe
+}
 if ($NoLaunch) {
     Write-Step "Update complete; launch was disabled for this test run."
     exit 0

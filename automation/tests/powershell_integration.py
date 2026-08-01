@@ -146,6 +146,12 @@ def main(*, require_pwsh: bool) -> int:
             state_path = install_root / "installed_state.json"
             if not state_path.is_file():
                 raise AssertionError(f"Updater did not create installed state:\n{first_output}")
+            installed_icon = install_root / "WLX_Shortcut.ico"
+            source_icon = repository / "automation" / "installer_source" / "WLX_Shortcut.ico"
+            if not installed_icon.is_file():
+                raise AssertionError("Updater did not install the embedded black shortcut icon")
+            if wlxlib.sha256_file(installed_icon) != wlxlib.sha256_file(source_icon):
+                raise AssertionError("Installed shortcut icon does not match the verified source icon")
             first_state = read_json(state_path)
             installed_xml = Path(str(first_state["installed_xml"]))
             if not installed_xml.is_file():
