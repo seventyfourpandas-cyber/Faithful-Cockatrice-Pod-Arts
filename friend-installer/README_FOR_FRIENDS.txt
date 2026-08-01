@@ -1,4 +1,4 @@
-Willex's Whimsical Arts — Friend Installer v1.0.3
+Willex's Whimsical Arts — Friend Installer v1.0.4
 ========================================================
 
 FIRST TIME
