@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "package_id": "alex-cockatrice-alt-art",
+  "display_name": "Alex's Cockatrice Alternate Art",
+  "version": "1.0.0",
+  "published_at": "2026-08-01T06:21:28.756165+00:00",
+  "release_ready": true,
+  "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/",
+  "cockatrice_xml": {
+    "path": "customsets/alex_alt_art.xml",
+    "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/customsets/alex_alt_art.xml",
+    "install_filename": "alex_alt_art.xml",
+    "sha256": "9a682df7b6964104709cef641b1fd31487281f46d17008c79ec26f4c3380b5ad",
+    "size_bytes": 956,
+    "database_version": 4
+  },
+  "friend_installer": {
+    "path": "Alex_Cockatrice_Alt_Art_Friend_Installer_v1.0.0.zip",
+    "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/Alex_Cockatrice_Alt_Art_Friend_Installer_v1.0.0.zip",
+    "sha256": "a6e2fda428b26ffca87bc54506163d593aee1099b3aa34d671267d877391d83b"
+  },
+  "cards": 1,
+  "sets": 1,
+  "files": [
+    {
+      "path": "Alex_Cockatrice_Alt_Art_Friend_Installer_v1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/Alex_Cockatrice_Alt_Art_Friend_Installer_v1.0.0.zip",
+      "sha256": "a6e2fda428b26ffca87bc54506163d593aee1099b3aa34d671267d877391d83b",
+      "size_bytes": 5911
+    },
+    {
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/catalog.json",
+      "sha256": "c768092766f28099b1eddb2b71073e44fbb7a8d9c9e5688bdab2e86bacdfddc7",
+      "size_bytes": 769
+    },
+    {
+      "path": "customsets/alex_alt_art.xml",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/customsets/alex_alt_art.xml",
+      "sha256": "9a682df7b6964104709cef641b1fd31487281f46d17008c79ec26f4c3380b5ad",
+      "size_bytes": 956
+    },
+    {
+      "path": "images/ADP/001-680c22b71393.png",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/images/ADP/001-680c22b71393.png",
+      "sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
+      "size_bytes": 5186891
+    }
+  ]
+}

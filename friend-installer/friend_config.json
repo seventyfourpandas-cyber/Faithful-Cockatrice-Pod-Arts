@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "package_id": "alex-cockatrice-alt-art",
+  "display_name": "Alex's Cockatrice Alternate Art",
+  "version": "1.0.0",
+  "manifest_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/publish/manifest.json",
+  "install_folder": "AlexCockatriceAltArt"
+}
