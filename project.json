@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "package_id": "willexs-whimsical-arts",
+  "display_name": "Willex's Whimsical Arts",
+  "author": "Alex",
+  "version": "2.0.0",
+  "release_created_at": "2026-08-01T00:00:00-04:00",
+  "public_base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
+  "set_code": "WLX",
+  "set_name": "Willex's Whimsical Arts",
+  "release_date": "2026-08-01",
+  "set_priority": 9999,
+  "xml_filename": "willex_whimsical_arts.xml",
+  "installer_zip_filename": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
+  "install_folder": "WillexsWhimsicalArts",
+  "legacy_install_folder": "AlexCockatriceAltArt",
+  "players": [
+    "Alex",
+    "Will",
+    "Miguel",
+    "Jay"
+  ],
+  "default_rarity": "special",
+  "uuid_pins": {
+    "001": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10"
+  },
+  "scryfall_user_agent": "WillexWhimsicalArtsPublisher/2.0"
+}

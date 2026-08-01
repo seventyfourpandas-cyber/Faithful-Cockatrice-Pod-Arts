@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "description": "Official card names verified against Scryfall for deterministic repository builds.",
+  "cards": {
+    "angel of vitality": {
+      "name": "Angel of Vitality",
+      "scryfall_uri": "https://scryfall.com/card/m20/4/angel-of-vitality",
+      "verified_at": "2026-08-01"
+    }
+  }
+}

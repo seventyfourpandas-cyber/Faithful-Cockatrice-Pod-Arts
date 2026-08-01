@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "next_collector": 2,
+  "collectors": {
+    "001": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10",
+      "card_kind": "official"
+    }
+  },
+  "processed_issues": {}
+}

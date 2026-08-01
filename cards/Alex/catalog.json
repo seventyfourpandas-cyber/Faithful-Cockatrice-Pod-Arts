@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "player": "Alex",
+  "custom_cards": [],
+  "printings": [
+    {
+      "collector_number": "001",
+      "uuid": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10",
+      "card_kind": "official",
+      "official_name": "Angel of Vitality",
+      "flavor_name": "Alex, Divine Priest",
+      "rarity": "rare",
+      "image_file": "WLX-001.png",
+      "image_sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
+      "notes": "Original verified WLX printing; UUID preserved from the working v1 release"
+    }
+  ]
+}

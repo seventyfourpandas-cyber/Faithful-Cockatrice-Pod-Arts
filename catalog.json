@@ -1,10 +1,14 @@
 {
-  "schema_version": 1,
-  "package_id": "alex-cockatrice-alt-art",
-  "version": "1.0.4",
+  "schema_version": 2,
+  "package_id": "willexs-whimsical-arts",
+  "display_name": "Willex's Whimsical Arts",
+  "version": "2.0.0",
+  "set_code": "WLX",
   "cards": [
     {
-      "official_name": "Angel of Vitality",
+      "player": "Alex",
+      "card_kind": "official",
+      "card_name": "Angel of Vitality",
       "flavor_name": "Alex, Divine Priest",
       "set_code": "WLX",
       "set_name": "Willex's Whimsical Arts",
@@ -17,8 +21,7 @@
       "dimensions": [
         1462,
         2048
-      ],
-      "release_date": "2026-08-01"
+      ]
     }
   ]
 }
