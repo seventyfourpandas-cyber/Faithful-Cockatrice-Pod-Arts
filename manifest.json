@@ -3,21 +3,21 @@
   "package_id": "alex-cockatrice-alt-art",
   "display_name": "Willex's Whimsical Arts",
   "version": "1.0.4",
-  "published_at": "2026-08-01T09:17:08.267411+00:00",
+  "published_at": "2026-08-01T10:29:40.201293+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "691c920b1c3b5c62e7903d3f86ae81b0690f0df21c6f8e01203bcc10a82287f8",
+    "sha256": "2140507c952ba3afb97a6b977573d22527e1c321fd232bfc01a5efd36e542b45",
     "size_bytes": 944,
     "database_version": 4
   },
   "friend_installer": {
     "path": "Willexs_Whimsical_Arts_Friend_Installer_v1.0.4.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Friend_Installer_v1.0.4.zip",
-    "sha256": "baf95b41b92572432c2fc553571a4190a0f304497ac7190981207e90f558680b"
+    "sha256": "f0d2d7ee3bd5a649ef23ffb8a05c6fd4065dec46bfef566e208d7cb2fc97364f"
   },
   "cards": 1,
   "sets": 1,
@@ -25,7 +25,7 @@
     {
       "path": "Willexs_Whimsical_Arts_Friend_Installer_v1.0.4.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/Willexs_Whimsical_Arts_Friend_Installer_v1.0.4.zip",
-      "sha256": "baf95b41b92572432c2fc553571a4190a0f304497ac7190981207e90f558680b",
+      "sha256": "f0d2d7ee3bd5a649ef23ffb8a05c6fd4065dec46bfef566e208d7cb2fc97364f",
       "size_bytes": 9978
     },
     {
@@ -37,7 +37,7 @@
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/customsets/willex_whimsical_arts.xml",
-      "sha256": "691c920b1c3b5c62e7903d3f86ae81b0690f0df21c6f8e01203bcc10a82287f8",
+      "sha256": "2140507c952ba3afb97a6b977573d22527e1c321fd232bfc01a5efd36e542b45",
       "size_bytes": 944
     },
     {
