@@ -13,6 +13,17 @@
       "image_sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4",
       "notes": "Submitted by @WillPower-exe through issue #2",
       "official_name": "Extus, Oriq Overlord // Awaken the Blood Avatar"
+    },
+    {
+      "collector_number": "004",
+      "uuid": "594820cd-c94d-5969-8f77-a25b13e60a9f",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-004.jpg",
+      "image_sha256": "0247de4a9c8590c4cc9aac1945cee430f655484457292bcb7afe6964b12f6129",
+      "notes": "Submitted by @WillPower-exe through issue #3",
+      "official_name": "Extus, Oriq Overlord // Awaken the Blood Avatar"
     }
   ]
 }

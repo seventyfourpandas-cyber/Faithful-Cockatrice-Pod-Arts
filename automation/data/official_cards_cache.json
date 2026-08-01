@@ -24,6 +24,12 @@
       "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
       "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
       "verified_at": "2026-08-01"
+    },
+    "extus, oriq overlord": {
+      "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+      "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+      "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
+      "verified_at": "2026-08-01"
     }
   }
 }

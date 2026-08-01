@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 4,
+  "next_collector": 5,
   "collectors": {
     "001": {
       "status": "active",
@@ -19,6 +19,12 @@
       "player": "Will",
       "uuid": "8762d247-abe2-54f9-838b-4e1d76563bb5",
       "card_kind": "official"
+    },
+    "004": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "594820cd-c94d-5969-8f77-a25b13e60a9f",
+      "card_kind": "official"
     }
   },
   "processed_issues": {
@@ -32,6 +38,12 @@
       "action": "add_printing",
       "version": "2.0.5",
       "result": "Added Extus, Oriq Overlord // Awaken the Blood Avatar as WLX #003",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#3": {
+      "action": "add_printing",
+      "version": "2.0.6",
+      "result": "Added Extus, Oriq Overlord // Awaken the Blood Avatar as WLX #004",
       "actor": "WillPower-exe"
     }
   }
