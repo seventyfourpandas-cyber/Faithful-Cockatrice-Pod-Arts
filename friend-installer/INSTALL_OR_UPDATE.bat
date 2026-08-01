@@ -1,10 +1,10 @@
 @echo off
 setlocal
-title Install Alex's Cockatrice Alternate Art
+title Install Willex's Whimsical Arts
 set "INSTALL_DIR=%LOCALAPPDATA%\AlexCockatriceAltArt"
 
 if not exist "%INSTALL_DIR%" mkdir "%INSTALL_DIR%"
-for %%F in (Cockatrice_Alt_Art_Updater.ps1 UPDATE_AND_LAUNCH.bat UNINSTALL.bat README_FOR_FRIENDS.txt friend_config.json) do (
+for %%F in (Cockatrice_Alt_Art_Updater.ps1 UPDATE_AND_LAUNCH.bat REPAIR_ART.bat UNINSTALL.bat README_FOR_FRIENDS.txt friend_config.json) do (
   copy /Y "%~dp0%%F" "%INSTALL_DIR%\%%F" >nul
 )
 

@@ -1,6 +1,6 @@
 @echo off
 setlocal
-title Update Alex's Cockatrice Alternate Art
+title Update Willex's Whimsical Arts
 set "UPDATER=%LOCALAPPDATA%\AlexCockatriceAltArt\Cockatrice_Alt_Art_Updater.ps1"
 if not exist "%UPDATER%" set "UPDATER=%~dp0Cockatrice_Alt_Art_Updater.ps1"
 

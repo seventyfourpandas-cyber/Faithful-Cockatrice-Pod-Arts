@@ -1,8 +1,16 @@
 {
   "schema_version": 1,
   "package_id": "alex-cockatrice-alt-art",
-  "display_name": "Alex's Cockatrice Alternate Art",
-  "version": "1.0.0",
+  "display_name": "Willex's Whimsical Arts",
+  "version": "1.0.3",
   "manifest_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json",
-  "install_folder": "AlexCockatriceAltArt"
+  "install_folder": "AlexCockatriceAltArt",
+  "legacy_printings": [
+    {
+      "official_name": "Angel of Vitality",
+      "set_code": "ADP",
+      "collector_number": "001",
+      "uuid": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10"
+    }
+  ]
 }

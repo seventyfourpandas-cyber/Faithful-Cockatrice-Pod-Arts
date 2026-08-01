@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "package_id": "alex-cockatrice-alt-art",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "cards": [
     {
       "official_name": "Angel of Vitality",
       "flavor_name": "Alex, Divine Priest",
-      "set_code": "ADP",
-      "set_name": "Alex, Divine Priest",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
       "collector_number": "001",
       "uuid": "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10",
       "rarity": "rare",
-      "image": "images/ADP/001-680c22b71393.png",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/ADP/001-680c22b71393.png",
+      "image": "images/WLX/001-680c22b71393.png",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png",
       "sha256": "680c22b71393004d0c10d1ade8eead9bc26b9cb26fb3891bde5498fdd8749384",
       "dimensions": [
         1462,
