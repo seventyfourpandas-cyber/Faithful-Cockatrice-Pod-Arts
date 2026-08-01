@@ -16,6 +16,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 import zipfile
 from pathlib import Path
 
@@ -53,18 +54,27 @@ def read_json(path: Path) -> dict[str, object]:
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def run_pwsh(pwsh: str, script: Path, environment: dict[str, str], *, expect_success: bool) -> str:
+def run_pwsh(
+    pwsh: str,
+    script: Path,
+    environment: dict[str, str],
+    *,
+    expect_success: bool,
+    no_launch: bool = True,
+) -> str:
+    command = [
+        pwsh,
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        str(script),
+    ]
+    if no_launch:
+        command.append("-NoLaunch")
     result = subprocess.run(
-        [
-            pwsh,
-            "-NoLogo",
-            "-NoProfile",
-            "-ExecutionPolicy",
-            "Bypass",
-            "-File",
-            str(script),
-            "-NoLaunch",
-        ],
+        command,
         cwd=script.parent,
         env=environment,
         text=True,
@@ -109,6 +119,12 @@ def main(*, require_pwsh: bool) -> int:
         xdg_config.mkdir()
         xdg_data.mkdir()
         (shim_dir / "powershell.exe").symlink_to(Path(pwsh))
+        launch_marker = test_root / "cockatrice-launched.txt"
+        fake_cockatrice = shim_dir / "Cockatrice.exe"
+        fake_cockatrice.write_text(
+            f"#!/bin/sh\nprintf launched > '{launch_marker}'\n", encoding="utf-8"
+        )
+        fake_cockatrice.chmod(0o755)
 
         environment = os.environ.copy()
         environment.update(
@@ -152,6 +168,9 @@ def main(*, require_pwsh: bool) -> int:
                 raise AssertionError("Updater did not install the embedded black shortcut icon")
             if wlxlib.sha256_file(installed_icon) != wlxlib.sha256_file(source_icon):
                 raise AssertionError("Installed shortcut icon does not match the verified source icon")
+            settings = read_json(install_root / "installer_settings.json")
+            if Path(str(settings["cockatrice_exe"])) != fake_cockatrice.resolve():
+                raise AssertionError("Updater did not remember the resolved Cockatrice executable")
             first_state = read_json(state_path)
             installed_xml = Path(str(first_state["installed_xml"]))
             if not installed_xml.is_file():
@@ -205,6 +224,24 @@ def main(*, require_pwsh: bool) -> int:
             quarantined = list((install_root / "quarantine").rglob(cache_file.name))
             if not quarantined:
                 raise AssertionError("Targeted old artwork cache was not recoverably preserved")
+
+            # The normal shortcut path must use the remembered executable and
+            # actually launch Cockatrice after the verified update completes.
+            launch_output = run_pwsh(
+                pwsh,
+                bootstrap,
+                environment,
+                expect_success=True,
+                no_launch=False,
+            )
+            for _ in range(50):
+                if launch_marker.is_file():
+                    break
+                time.sleep(0.1)
+            if not launch_marker.is_file():
+                raise AssertionError(f"Updater did not launch Cockatrice:\n{launch_output}")
+            if "Launching Cockatrice" not in launch_output:
+                raise AssertionError("Updater launched Cockatrice without reporting the launch step")
 
             # A bad hosted hash must fail without replacing the working XML.
             safe_xml_hash = wlxlib.sha256_file(installed_xml)

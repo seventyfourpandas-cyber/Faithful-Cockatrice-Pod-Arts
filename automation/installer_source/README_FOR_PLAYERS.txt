@@ -10,7 +10,8 @@ FIRST TIME
 EVERY LATER TIME
 Use the Desktop shortcut. It checks the hosted WLX manifest, refreshes the verified updater when
 needed, verifies the XML with SHA-256, replaces one canonical XML, quarantines matching numbered
-or duplicate copies, and opens Cockatrice.
+or duplicate copies, and opens Cockatrice. On its first use, it asks you to choose Cockatrice.exe
+and remembers that exact location on any drive. It asks again only if Cockatrice.exe is moved.
 
 IMPORTANT
 Do not use Cockatrice's "Add custom sets/cards" button for this pack. That button makes a new
