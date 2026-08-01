@@ -1,0 +1,35 @@
+name: Add a card printing
+description: The simple three-field form for one-face official Magic cards.
+title: "[WLX PRINTING] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Add one ordinary official-card printing. For alternate titles or existing WLX originals, choose **Add a card printing — Advanced**. For transform, modal double-faced, or flip cards, choose **Add a double-faced printing**.
+  - type: dropdown
+    id: player
+    attributes:
+      label: Player collection
+      options:
+        - Alex
+        - Will
+        - Miguel
+        - Jay
+    validations:
+      required: true
+  - type: input
+    id: official-name
+    attributes:
+      label: Official Magic card name
+      description: Use the exact English card name. Split and adventure cards are supported here; two-faced cards use their dedicated form.
+      placeholder: Angel of Vitality
+    validations:
+      required: true
+  - type: upload
+    id: image
+    attributes:
+      label: Finished card image
+      description: Upload exactly one complete PNG or JPEG card image, at least 300×400 and no larger than 10 MiB.
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg"
