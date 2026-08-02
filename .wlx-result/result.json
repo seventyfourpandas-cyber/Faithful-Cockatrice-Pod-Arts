@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "remove_printing",
-  "collector_number": "009",
-  "name": "Avatar",
-  "version": "2.1.4"
+  "action": "add_printing",
+  "collector_number": "010",
+  "name": "Armaggon, Future Shark",
+  "version": "2.1.5"
 }

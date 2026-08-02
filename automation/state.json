@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 10,
+  "next_collector": 11,
   "collectors": {
     "001": {
       "status": "active",
@@ -58,6 +58,12 @@
       "uuid": "d3db514b-cbeb-56dc-a448-bbbbac5ea36b",
       "card_kind": "official",
       "retired_at": "2026-08-02T02:26:02+00:00"
+    },
+    "010": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "0284d1b8-7535-5b6e-9898-ff2da5a9bd83",
+      "card_kind": "official"
     }
   },
   "processed_issues": {
@@ -125,6 +131,12 @@
       "action": "remove_printing",
       "version": "2.1.4",
       "result": "Removed WLX #009 from the active catalog",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#17": {
+      "action": "add_printing",
+      "version": "2.1.5",
+      "result": "Added Armaggon, Future Shark as WLX #010",
       "actor": "WillPower-exe"
     }
   }

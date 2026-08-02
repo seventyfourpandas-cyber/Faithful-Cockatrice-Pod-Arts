@@ -242,6 +242,14 @@
       "layout": "token",
       "faces": [],
       "verified_at": "2026-08-02"
+    },
+    "armaggon, future shark": {
+      "name": "Armaggon, Future Shark",
+      "oracle_id": "e2a35850-92c5-40ab-8697-2e995819d7ac",
+      "scryfall_uri": "https://scryfall.com/card/tmt/58/armaggon-future-shark?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-02"
     }
   }
 }

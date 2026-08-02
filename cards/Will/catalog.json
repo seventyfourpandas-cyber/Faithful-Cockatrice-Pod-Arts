@@ -110,6 +110,17 @@
       ],
       "rarity": "special",
       "notes": "Submitted by @WillPower-exe through issue #11"
+    },
+    {
+      "collector_number": "010",
+      "uuid": "0284d1b8-7535-5b6e-9898-ff2da5a9bd83",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-010.jpg",
+      "image_sha256": "c7a5fe7fdcda0910df1cc4ef878e285fea8e8dea551f7232ed7812ef05813bc7",
+      "notes": "Submitted by @WillPower-exe through issue #17",
+      "official_name": "Armaggon, Future Shark"
     }
   ]
 }

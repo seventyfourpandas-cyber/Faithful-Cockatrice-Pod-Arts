@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "set_code": "WLX",
   "cards": [
     {
@@ -144,6 +144,24 @@
       "image": "images/WLX/008-back-b83eb7b6cd87.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-back-b83eb7b6cd87.jpg",
       "sha256": "b83eb7b6cd87920f3a13269f2ea2a61aa8726a816bb237642e7d9047613a2ed9",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Armaggon, Future Shark",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "010",
+      "uuid": "0284d1b8-7535-5b6e-9898-ff2da5a9bd83",
+      "rarity": "special",
+      "image": "images/WLX/010-c7a5fe7fdcda.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/010-c7a5fe7fdcda.jpg",
+      "sha256": "c7a5fe7fdcda0910df1cc4ef878e285fea8e8dea551f7232ed7812ef05813bc7",
       "dimensions": [
         2976,
         4152
