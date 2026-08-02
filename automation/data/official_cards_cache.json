@@ -250,6 +250,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-02"
+    },
+    "breach the multiverse": {
+      "name": "Breach the Multiverse",
+      "oracle_id": "ebbd5b9c-07ff-4b42-81c2-ba09539f3a42",
+      "scryfall_uri": "https://scryfall.com/card/mom/94/breach-the-multiverse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-02"
     }
   }
 }

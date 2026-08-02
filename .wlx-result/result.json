@@ -2,7 +2,7 @@
   "ok": true,
   "changed": true,
   "action": "add_printing",
-  "collector_number": "010",
-  "name": "Armaggon, Future Shark",
-  "version": "2.1.5"
+  "collector_number": "011",
+  "name": "Breach the Multiverse",
+  "version": "2.1.6"
 }
