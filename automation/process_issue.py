@@ -146,10 +146,19 @@ def download_attachment(url: str) -> tuple[bytes, str]:
     return payload, suffix
 
 
-def write_image(root: Path, player: str, collector: str, payload: bytes, suffix: str) -> tuple[str, str]:
+def write_image(
+    root: Path,
+    player: str,
+    collector: str,
+    payload: bytes,
+    suffix: str,
+    *,
+    face: str = "",
+) -> tuple[str, str]:
     directory = wlxlib.player_images_path(root, player)
     directory.mkdir(parents=True, exist_ok=True)
-    filename = f"WLX-{collector}{suffix}"
+    face_component = f"-{face}" if face else ""
+    filename = f"WLX-{collector}{face_component}{suffix}"
     destination = directory / filename
     temporary = destination.with_suffix(destination.suffix + ".tmp")
     temporary.write_bytes(payload)
@@ -207,6 +216,132 @@ def allocate_printing(
     return collector, printing
 
 
+def allocate_official_double_faced_printing(
+    root: Path,
+    config: dict[str, Any],
+    state: dict[str, Any],
+    catalogs: dict[str, dict[str, Any]],
+    *,
+    player: str,
+    card_details: dict[str, Any],
+    front_payload: bytes,
+    front_suffix: str,
+    back_payload: bytes,
+    back_suffix: str,
+    front_flavor_name: str,
+    back_flavor_name: str,
+    actor: str,
+    issue_number: int,
+) -> tuple[str, dict[str, Any]]:
+    collector = f"{int(state['next_collector']):03d}"
+    if collector in state["collectors"]:
+        raise wlxlib.WlxError(f"Internal collector allocation collision at WLX #{collector}")
+    printing_uuid = wlxlib.stable_printing_uuid(
+        str(config["package_id"]), str(config["set_code"]), collector
+    )
+    details_faces = card_details.get("faces")
+    if not isinstance(details_faces, list) or len(details_faces) != 2:
+        raise wlxlib.WlxError("Scryfall did not provide exactly two card faces")
+
+    submitted = {
+        "front": (front_payload, front_suffix, front_flavor_name),
+        "back": (back_payload, back_suffix, back_flavor_name),
+    }
+    faces: list[dict[str, Any]] = []
+    for expected_side, details in zip(("front", "back"), details_faces):
+        if not isinstance(details, dict) or str(details.get("side", "")) != expected_side:
+            raise wlxlib.WlxError("Scryfall returned the card faces in an unexpected order")
+        payload, suffix, flavor_name = submitted[expected_side]
+        image_file, image_hash = write_image(
+            root,
+            player,
+            collector,
+            payload,
+            suffix,
+            face=expected_side,
+        )
+        face_record = {
+            key: str(details.get(key, "")).strip()
+            for key in (
+                "official_name",
+                "side",
+                "mana_cost",
+                "mana_value",
+                "type_line",
+                "rules_text",
+                "colors",
+                "color_identity",
+                "power_toughness",
+                "loyalty",
+                "defense",
+            )
+        }
+        face_record.update(
+            {
+                "flavor_name": flavor_name,
+                "image_file": image_file,
+                "image_sha256": image_hash,
+            }
+        )
+        faces.append(face_record)
+
+    printing: dict[str, Any] = {
+        "collector_number": collector,
+        "uuid": printing_uuid,
+        "card_kind": "official_double_faced",
+        "official_name": str(card_details["name"]),
+        "layout": str(card_details["layout"]),
+        "faces": faces,
+        "rarity": str(config.get("default_rarity", "special")),
+        "notes": f"Submitted by @{actor} through issue #{issue_number}",
+    }
+    catalogs[player]["printings"].append(printing)
+    state["collectors"][collector] = {
+        "status": "active",
+        "player": player,
+        "uuid": printing_uuid,
+        "card_kind": "official_double_faced",
+    }
+    state["next_collector"] = int(state["next_collector"]) + 1
+    return collector, printing
+
+
+def add_official_double_faced_printing(
+    root: Path,
+    config: dict[str, Any],
+    state: dict[str, Any],
+    catalogs: dict[str, dict[str, Any]],
+    sections: dict[str, str],
+    actor: str,
+    issue_number: int,
+) -> tuple[str, str]:
+    player = exact_player(config, field(sections, "Player collection", required=True))
+    requested = field(sections, "Official double-faced Magic card name", required=True)
+    details = wlxlib.verify_official_double_faced(root, requested, config)
+
+    front_url = attachment_url(field(sections, "Front-face card image"), required=True)
+    back_url = attachment_url(field(sections, "Back-face card image"), required=True)
+    front_payload, front_suffix = download_attachment(front_url)
+    back_payload, back_suffix = download_attachment(back_url)
+    collector, _printing = allocate_official_double_faced_printing(
+        root,
+        config,
+        state,
+        catalogs,
+        player=player,
+        card_details=details,
+        front_payload=front_payload,
+        front_suffix=front_suffix,
+        back_payload=back_payload,
+        back_suffix=back_suffix,
+        front_flavor_name=field(sections, "Front-face alternate printed title"),
+        back_flavor_name=field(sections, "Back-face alternate printed title"),
+        actor=actor,
+        issue_number=issue_number,
+    )
+    return collector, str(details["name"])
+
+
 def add_printing(
     root: Path,
     config: dict[str, Any],
@@ -217,18 +352,24 @@ def add_printing(
     issue_number: int,
 ) -> tuple[str, str]:
     player = exact_player(config, field(sections, "Player collection", required=True))
-    source = field(sections, "Card source", required=True)
+    source = field(sections, "Card source") or "Official Magic card"
     official_requested = field(sections, "Official Magic card name")
     custom_requested = field(sections, "Existing WLX original card name")
     flavor_name = field(sections, "Alternate printed title")
     image = attachment_url(field(sections, "Finished card image"), required=True)
-    payload, suffix = download_attachment(image)
     if source == "Official Magic card":
         if not official_requested or custom_requested:
             raise wlxlib.WlxError(
                 "For an official printing, fill only Official Magic card name"
             )
         official_name = wlxlib.verify_official_name(root, official_requested, config)
+        if " // " in official_name:
+            details = wlxlib.scryfall_exact(official_requested, config)
+            if details is not None and details.get("layout") in wlxlib.DOUBLE_FACED_LAYOUTS:
+                raise wlxlib.WlxError(
+                    f"{official_name!r} has two faces. Use Add a Double-Faced Printing so both images are linked."
+                )
+        payload, suffix = download_attachment(image)
         collector, _ = allocate_printing(
             root,
             config,
@@ -252,6 +393,7 @@ def add_printing(
         _owner, _catalog, _index, definition = wlxlib.find_custom_definition(
             catalogs, custom_requested
         )
+        payload, suffix = download_attachment(image)
         collector, _ = allocate_printing(
             root,
             config,
@@ -357,6 +499,10 @@ def update_printing(
 ) -> tuple[str, str]:
     collector = normalize_collector(field(sections, "WLX collector number", required=True))
     old_player, source_catalog, index, printing = wlxlib.find_printing(catalogs, collector)
+    if printing.get("card_kind") == "official_double_faced":
+        raise wlxlib.WlxError(
+            "Use Update a Double-Faced Printing for a two-face WLX collector number"
+        )
     destination_choice = field(sections, "New player collection")
     new_player = old_player
     if destination_choice and destination_choice != "Keep current":
@@ -402,6 +548,85 @@ def update_printing(
         or printing.get("custom_card_id")
     )
     return collector, card_name
+
+
+def update_official_double_faced_printing(
+    root: Path,
+    config: dict[str, Any],
+    state: dict[str, Any],
+    catalogs: dict[str, dict[str, Any]],
+    sections: dict[str, str],
+) -> tuple[str, str]:
+    collector = normalize_collector(field(sections, "WLX collector number", required=True))
+    old_player, source_catalog, index, printing = wlxlib.find_printing(catalogs, collector)
+    if printing.get("card_kind") != "official_double_faced":
+        raise wlxlib.WlxError(
+            "This collector number is not a double-faced printing; use Update a Printing instead"
+        )
+    faces = printing.get("faces")
+    if not isinstance(faces, list) or len(faces) != 2:
+        raise wlxlib.WlxError(f"WLX #{collector} has malformed face data")
+
+    destination_choice = field(sections, "New player collection")
+    new_player = old_player
+    if destination_choice and destination_choice != "Keep current":
+        new_player = exact_player(config, destination_choice)
+
+    attachment_labels = {
+        "front": "Replacement front-face image",
+        "back": "Replacement back-face image",
+    }
+    title_labels = {
+        "front": "New front-face alternate printed title",
+        "back": "New back-face alternate printed title",
+    }
+    urls = {
+        side: attachment_url(field(sections, label), required=False)
+        for side, label in attachment_labels.items()
+    }
+    title_changes = {
+        side: field(sections, label)
+        for side, label in title_labels.items()
+    }
+    if new_player == old_player and not any(urls.values()) and not any(title_changes.values()):
+        raise wlxlib.WlxError("Enter at least one double-faced printing change")
+
+    for expected_side, face in zip(("front", "back"), faces):
+        if not isinstance(face, dict) or str(face.get("side", "")) != expected_side:
+            raise wlxlib.WlxError(f"WLX #{collector} has malformed {expected_side} face data")
+        submitted_title = title_changes[expected_side]
+        if submitted_title:
+            face["flavor_name"] = _clearable(
+                str(face.get("flavor_name", "")), submitted_title
+            )
+
+        old_path = wlxlib.player_images_path(root, old_player) / str(face["image_file"])
+        url = urls[expected_side]
+        if url:
+            payload, suffix = download_attachment(url)
+            new_filename, new_hash = write_image(
+                root,
+                new_player,
+                collector,
+                payload,
+                suffix,
+                face=expected_side,
+            )
+            new_path = wlxlib.player_images_path(root, new_player) / new_filename
+            face["image_file"] = new_filename
+            face["image_sha256"] = new_hash
+            if old_path != new_path and old_path.exists():
+                old_path.unlink()
+        elif new_player != old_player:
+            destination = wlxlib.player_images_path(root, new_player) / old_path.name
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(old_path), str(destination))
+
+    if new_player != old_player:
+        moved = source_catalog["printings"].pop(index)
+        catalogs[new_player]["printings"].append(moved)
+        state["collectors"][collector]["player"] = new_player
+    return collector, str(printing["official_name"])
 
 
 def update_original_card(
@@ -469,10 +694,25 @@ def remove_printing(
         name = str(definition["name"])
     else:
         name = str(printing.get("flavor_name") or printing.get("official_name"))
-    image_path = wlxlib.player_images_path(root, player) / str(printing["image_file"])
+    image_paths: list[Path] = []
+    if printing.get("card_kind") == "official_double_faced":
+        faces = printing.get("faces")
+        if not isinstance(faces, list) or len(faces) != 2:
+            raise wlxlib.WlxError(f"WLX #{collector} has malformed face data")
+        for face in faces:
+            if not isinstance(face, dict):
+                raise wlxlib.WlxError(f"WLX #{collector} has malformed face data")
+            image_paths.append(
+                wlxlib.player_images_path(root, player) / str(face.get("image_file", ""))
+            )
+    else:
+        image_paths.append(
+            wlxlib.player_images_path(root, player) / str(printing["image_file"])
+        )
     catalog["printings"].pop(index)
-    if image_path.exists():
-        image_path.unlink()
+    for image_path in image_paths:
+        if image_path.exists():
+            image_path.unlink()
     entry = state["collectors"].get(collector)
     if not isinstance(entry, dict):
         raise wlxlib.WlxError(f"WLX #{collector} is missing from automation state")
@@ -551,7 +791,15 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
 
         title = str(issue.get("title", ""))
         sections = parse_sections(str(issue.get("body", "")))
-        if title.startswith("[WLX PRINTING]"):
+        if title.startswith("[WLX DOUBLE FACED]"):
+            action = "add_official_double_faced"
+            collector, result_name = add_official_double_faced_printing(
+                root, config, state, catalogs, sections, actor, issue_number
+            )
+            action_text = (
+                f"Added both faces of **{result_name}** as one linked `WLX #{collector}` printing"
+            )
+        elif title.startswith("[WLX PRINTING]"):
             action = "add_printing"
             collector, result_name = add_printing(
                 root, config, state, catalogs, sections, actor, issue_number
@@ -569,6 +817,12 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
                 root, config, state, catalogs, sections
             )
             action_text = f"Updated `WLX #{collector}`"
+        elif title.startswith("[WLX UPDATE DOUBLE FACED]"):
+            action = "update_official_double_faced"
+            collector, result_name = update_official_double_faced_printing(
+                root, config, state, catalogs, sections
+            )
+            action_text = f"Updated both faces of `WLX #{collector}`"
         elif title.startswith("[WLX UPDATE ORIGINAL]"):
             action = "update_original"
             collector, result_name = update_original_card(

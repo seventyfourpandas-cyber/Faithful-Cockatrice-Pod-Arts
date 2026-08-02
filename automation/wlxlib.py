@@ -48,6 +48,13 @@ COLOR_RE = re.compile(r"^[WUBRG]*$")
 MANA_COST_RE = re.compile(r"(?:\{[^{}\s]+\})+")
 ALLOWED_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 ALLOWED_RARITIES = {"common", "uncommon", "rare", "mythic", "special", "bonus"}
+DOUBLE_FACED_LAYOUTS = {
+    "double_faced_token",
+    "flip",
+    "modal_dfc",
+    "reversible_card",
+    "transform",
+}
 PRIMARY_TYPES = (
     "Land",
     "Creature",
@@ -110,6 +117,8 @@ class ResolvedPrinting:
     published_image_path: str
     picture_url: str
     notes: str
+    face_metadata: dict[str, str] | None = None
+    transform_into: str = ""
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -405,10 +414,46 @@ def scryfall_exact(name: str, config: dict[str, Any]) -> dict[str, Any] | None:
         raise WlxError(f"Could not verify the card name with Scryfall: {exc}") from exc
     if not isinstance(payload, dict) or not payload.get("name"):
         raise WlxError("Scryfall returned an unexpected response")
+    faces: list[dict[str, str]] = []
+    raw_faces = payload.get("card_faces", [])
+    if isinstance(raw_faces, list):
+        for index, raw_face in enumerate(raw_faces):
+            if not isinstance(raw_face, dict):
+                continue
+            power = str(raw_face.get("power", "") or "").strip()
+            toughness = str(raw_face.get("toughness", "") or "").strip()
+            power_toughness = ""
+            if power or toughness:
+                power_toughness = f"{power}/{toughness}"
+            raw_colors = raw_face.get("colors", [])
+            colors = "".join(str(value) for value in raw_colors) if isinstance(raw_colors, list) else ""
+            raw_identity = payload.get("color_identity", [])
+            color_identity = (
+                "".join(str(value) for value in raw_identity)
+                if isinstance(raw_identity, list)
+                else ""
+            )
+            faces.append(
+                {
+                    "official_name": str(raw_face.get("name", "")).strip(),
+                    "side": "front" if index == 0 else "back",
+                    "mana_cost": str(raw_face.get("mana_cost", "") or "").strip(),
+                    "mana_value": str(raw_face.get("cmc", "") or "").strip(),
+                    "type_line": str(raw_face.get("type_line", "") or "").strip(),
+                    "rules_text": str(raw_face.get("oracle_text", "") or "").strip(),
+                    "colors": normalize_colors(colors),
+                    "color_identity": normalize_colors(color_identity),
+                    "power_toughness": power_toughness,
+                    "loyalty": str(raw_face.get("loyalty", "") or "").strip(),
+                    "defense": str(raw_face.get("defense", "") or "").strip(),
+                }
+            )
     return {
         "name": str(payload["name"]),
         "oracle_id": str(payload.get("oracle_id", "")),
         "scryfall_uri": str(payload.get("scryfall_uri", "")),
+        "layout": str(payload.get("layout", "")),
+        "faces": faces,
         "verified_at": dt.date.today().isoformat(),
     }
 
@@ -428,6 +473,43 @@ def verify_official_name(root: Path, requested: str, config: dict[str, Any]) -> 
         cache["cards"][requested.casefold()] = result
     write_json(cache_path, cache)
     return canonical
+
+
+def verify_official_double_faced(
+    root: Path, requested: str, config: dict[str, Any]
+) -> dict[str, Any]:
+    """Resolve one official two-faced physical card and cache both face names."""
+    cache_path = root / OFFICIAL_CACHE_RELATIVE
+    cache = load_official_cache(root)
+    cached = cache["cards"].get(requested.casefold())
+    if (
+        isinstance(cached, dict)
+        and cached.get("name")
+        and cached.get("layout") in DOUBLE_FACED_LAYOUTS
+        and isinstance(cached.get("faces"), list)
+        and len(cached["faces"]) == 2
+    ):
+        return cached
+
+    result = scryfall_exact(requested, config)
+    if result is None:
+        raise WlxError(f"Scryfall did not find an official Magic card named {requested!r}")
+    layout = str(result.get("layout", ""))
+    faces = result.get("faces")
+    if layout not in DOUBLE_FACED_LAYOUTS or not isinstance(faces, list) or len(faces) != 2:
+        raise WlxError(
+            f"{result['name']!r} is not a two-faced Magic card. Use Add a Card Printing instead."
+        )
+    face_names = [str(face.get("official_name", "")).strip() for face in faces if isinstance(face, dict)]
+    if len(face_names) != 2 or not all(face_names) or face_names[0].casefold() == face_names[1].casefold():
+        raise WlxError("Scryfall returned malformed double-faced card data")
+
+    canonical = str(result["name"])
+    aliases = {canonical.casefold(), requested.casefold(), *(name.casefold() for name in face_names)}
+    for alias in aliases:
+        cache["cards"][alias] = result
+    write_json(cache_path, cache)
+    return result
 
 
 def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], list[ResolvedPrinting]]:
@@ -506,6 +588,56 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
     seen_collectors: set[str] = set()
     seen_uuids: set[str] = set()
     seen_images: set[Path] = set()
+
+    def resolve_image(
+        player: str,
+        collector: str,
+        raw_image: dict[str, Any],
+        *,
+        published_label: str,
+    ) -> tuple[str, Path, str, int, int, str, str]:
+        image_file = str(raw_image.get("image_file", "")).strip()
+        image_relative = Path(image_file)
+        if (
+            not image_file
+            or image_relative.is_absolute()
+            or len(image_relative.parts) != 1
+            or ".." in image_relative.parts
+            or image_relative.suffix.lower() not in ALLOWED_IMAGE_SUFFIXES
+        ):
+            raise WlxError(f"WLX #{collector} has an unsafe image filename")
+        image_path = player_images_path(root, player) / image_file
+        if not image_path.is_file():
+            raise WlxError(f"WLX #{collector} image is missing: {image_path.relative_to(root)}")
+        if image_path in seen_images:
+            raise WlxError(f"Source image is reused by more than one printing: {image_path}")
+        seen_images.add(image_path)
+        size = image_path.stat().st_size
+        if size < 10_000:
+            raise WlxError(f"WLX #{collector} image is suspiciously small")
+        if size > 10 * 1024 * 1024:
+            raise WlxError(f"WLX #{collector} image exceeds GitHub's 10 MiB form limit")
+        width, height = image_dimensions(image_path)
+        if width < 300 or height < 400:
+            raise WlxError(f"WLX #{collector} image is only {width}x{height}; minimum is 300x400")
+        image_hash = sha256_file(image_path)
+        stored_hash = str(raw_image.get("image_sha256", "")).lower().strip()
+        if stored_hash and stored_hash != image_hash:
+            raise WlxError(
+                f"WLX #{collector} image changed outside the update workflow; submit an Update Printing request"
+            )
+        suffix = ".jpg" if image_path.suffix.lower() in {".jpg", ".jpeg"} else ".png"
+        published = f"images/{set_code}/{published_label}-{image_hash[:12]}{suffix}"
+        return (
+            image_file,
+            image_path,
+            image_hash,
+            width,
+            height,
+            published,
+            url_for(base_url, published),
+        )
+
     for player, catalog in catalogs.items():
         for raw in catalog["printings"]:
             if not isinstance(raw, dict):
@@ -538,6 +670,102 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                 raise WlxError(f"WLX #{collector} state owner does not match {player}'s catalog")
 
             card_kind = str(raw.get("card_kind", "")).strip()
+            state_kind = str(state_entry.get("card_kind", "")).strip()
+            if state_kind and state_kind != card_kind:
+                raise WlxError(f"WLX #{collector} state card kind does not match its catalog")
+            rarity = str(raw.get("rarity", config.get("default_rarity", "special"))).lower().strip()
+            if rarity not in ALLOWED_RARITIES:
+                raise WlxError(f"WLX #{collector} has unsupported rarity {rarity!r}")
+
+            if card_kind == "official_double_faced":
+                combined_name = str(raw.get("official_name", "")).strip()
+                layout = str(raw.get("layout", "")).strip()
+                raw_faces = raw.get("faces")
+                if not combined_name:
+                    raise WlxError(f"WLX #{collector} has no official double-faced card name")
+                if layout not in DOUBLE_FACED_LAYOUTS:
+                    raise WlxError(f"WLX #{collector} has unsupported double-faced layout {layout!r}")
+                if not isinstance(raw_faces, list) or len(raw_faces) != 2:
+                    raise WlxError(f"WLX #{collector} must contain exactly two card faces")
+
+                normalized_faces: list[dict[str, Any]] = []
+                for expected_side, raw_face in zip(("front", "back"), raw_faces):
+                    if not isinstance(raw_face, dict):
+                        raise WlxError(f"WLX #{collector} contains malformed face data")
+                    side = str(raw_face.get("side", "")).strip()
+                    face_name = str(raw_face.get("official_name", "")).strip()
+                    type_line = str(raw_face.get("type_line", "")).strip()
+                    if side != expected_side:
+                        raise WlxError(
+                            f"WLX #{collector} faces must be ordered front, then back"
+                        )
+                    if not face_name or not type_line:
+                        raise WlxError(f"WLX #{collector} {side} face is missing its name or type line")
+                    normalize_colors(str(raw_face.get("colors", "")))
+                    normalize_colors(str(raw_face.get("color_identity", "")))
+                    normalized_faces.append(raw_face)
+                if (
+                    str(normalized_faces[0]["official_name"]).casefold()
+                    == str(normalized_faces[1]["official_name"]).casefold()
+                ):
+                    raise WlxError(f"WLX #{collector} card faces must have different names")
+
+                for index, face in enumerate(normalized_faces):
+                    side = str(face["side"])
+                    other_name = str(normalized_faces[1 - index]["official_name"])
+                    (
+                        image_file,
+                        image_path,
+                        image_hash,
+                        width,
+                        height,
+                        published,
+                        picture_url,
+                    ) = resolve_image(
+                        player,
+                        collector,
+                        face,
+                        published_label=f"{collector}-{side}",
+                    )
+                    face_metadata = {
+                        "layout": layout,
+                        "side": side,
+                        "type_line": str(face.get("type_line", "")).strip(),
+                        "rules_text": str(face.get("rules_text", "")).strip(),
+                        "mana_cost": str(face.get("mana_cost", "")).strip(),
+                        "mana_value": str(face.get("mana_value", "")).strip(),
+                        "colors": normalize_colors(str(face.get("colors", ""))),
+                        "color_identity": normalize_colors(str(face.get("color_identity", ""))),
+                        "power_toughness": str(face.get("power_toughness", "")).strip(),
+                        "loyalty": str(face.get("loyalty", "")).strip(),
+                        "defense": str(face.get("defense", "")).strip(),
+                    }
+                    face_name = str(face["official_name"])
+                    resolved.append(
+                        ResolvedPrinting(
+                            player=player,
+                            card_kind=card_kind,
+                            card_key="official:" + face_name.casefold(),
+                            card_name=face_name,
+                            custom_definition=None,
+                            flavor_name=str(face.get("flavor_name", "")).strip(),
+                            collector_number=collector,
+                            printing_uuid=printing_uuid,
+                            rarity=rarity,
+                            image_file=image_file,
+                            image_path=image_path,
+                            image_sha256=image_hash,
+                            image_width=width,
+                            image_height=height,
+                            published_image_path=published,
+                            picture_url=picture_url,
+                            notes=str(raw.get("notes", "")).strip(),
+                            face_metadata=face_metadata,
+                            transform_into=other_name,
+                        )
+                    )
+                continue
+
             custom_definition: CustomDefinition | None = None
             if card_kind == "official":
                 requested = str(raw.get("official_name", "")).strip()
@@ -554,42 +782,15 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                 card_key = custom_id
             else:
                 raise WlxError(f"WLX #{collector} card_kind must be official or custom")
-
-            rarity = str(raw.get("rarity", config.get("default_rarity", "special"))).lower().strip()
-            if rarity not in ALLOWED_RARITIES:
-                raise WlxError(f"WLX #{collector} has unsupported rarity {rarity!r}")
-            image_file = str(raw.get("image_file", "")).strip()
-            image_relative = Path(image_file)
-            if (
-                not image_file
-                or image_relative.is_absolute()
-                or len(image_relative.parts) != 1
-                or ".." in image_relative.parts
-                or image_relative.suffix.lower() not in ALLOWED_IMAGE_SUFFIXES
-            ):
-                raise WlxError(f"WLX #{collector} has an unsafe image filename")
-            image_path = player_images_path(root, player) / image_file
-            if not image_path.is_file():
-                raise WlxError(f"WLX #{collector} image is missing: {image_path.relative_to(root)}")
-            if image_path in seen_images:
-                raise WlxError(f"Source image is reused by more than one printing: {image_path}")
-            seen_images.add(image_path)
-            size = image_path.stat().st_size
-            if size < 10_000:
-                raise WlxError(f"WLX #{collector} image is suspiciously small")
-            if size > 10 * 1024 * 1024:
-                raise WlxError(f"WLX #{collector} image exceeds GitHub's 10 MiB form limit")
-            width, height = image_dimensions(image_path)
-            if width < 300 or height < 400:
-                raise WlxError(f"WLX #{collector} image is only {width}x{height}; minimum is 300x400")
-            image_hash = sha256_file(image_path)
-            stored_hash = str(raw.get("image_sha256", "")).lower().strip()
-            if stored_hash and stored_hash != image_hash:
-                raise WlxError(
-                    f"WLX #{collector} image changed outside the update workflow; submit an Update Printing request"
-                )
-            suffix = ".jpg" if image_path.suffix.lower() in {".jpg", ".jpeg"} else ".png"
-            published = f"images/{set_code}/{collector}-{image_hash[:12]}{suffix}"
+            (
+                image_file,
+                image_path,
+                image_hash,
+                width,
+                height,
+                published,
+                picture_url,
+            ) = resolve_image(player, collector, raw, published_label=collector)
             resolved.append(
                 ResolvedPrinting(
                     player=player,
@@ -607,7 +808,7 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                     image_width=width,
                     image_height=height,
                     published_image_path=published,
-                    picture_url=url_for(base_url, published),
+                    picture_url=picture_url,
                     notes=str(raw.get("notes", "")).strip(),
                 )
             )
@@ -642,6 +843,24 @@ def custom_prop_values(definition: CustomDefinition) -> list[tuple[str, str]]:
         ("pt", definition.power_toughness),
         ("loyalty", definition.loyalty),
         ("defense", definition.defense),
+    ]
+    return [(key, value) for key, value in result if value != ""]
+
+
+def face_prop_values(metadata: dict[str, str]) -> list[tuple[str, str]]:
+    type_line = metadata.get("type_line", "")
+    result = [
+        ("layout", metadata.get("layout", "")),
+        ("side", metadata.get("side", "")),
+        ("type", type_line),
+        ("maintype", main_type_from_type_line(type_line)),
+        ("manacost", metadata.get("mana_cost", "")),
+        ("cmc", metadata.get("mana_value", "")),
+        ("colors", metadata.get("colors", "")),
+        ("coloridentity", metadata.get("color_identity", "")),
+        ("pt", metadata.get("power_toughness", "")),
+        ("loyalty", metadata.get("loyalty", "")),
+        ("defense", metadata.get("defense", "")),
     ]
     return [(key, value) for key, value in result if value != ""]
 
@@ -681,6 +900,12 @@ def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> 
             prop_node = ET.SubElement(card_node, "prop")
             for key, value in custom_prop_values(definition):
                 ET.SubElement(prop_node, key).text = value
+        elif first.face_metadata is not None:
+            if first.face_metadata.get("rules_text"):
+                ET.SubElement(card_node, "text").text = first.face_metadata["rules_text"]
+            prop_node = ET.SubElement(card_node, "prop")
+            for key, value in face_prop_values(first.face_metadata):
+                ET.SubElement(prop_node, key).text = value
         for printing in sorted(group, key=lambda item: int(item.collector_number)):
             attributes = {
                 "uuid": printing.printing_uuid,
@@ -692,12 +917,18 @@ def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> 
                 attributes["flavorName"] = printing.flavor_name
             set_printing = ET.SubElement(card_node, "set", attributes)
             set_printing.text = str(config["set_code"])
+        if first.transform_into:
+            related = ET.SubElement(card_node, "related", {"attach": "transform"})
+            related.text = first.transform_into
         if first.card_kind == "custom":
             assert first.custom_definition is not None
             definition = first.custom_definition
             if definition.token:
                 ET.SubElement(card_node, "token").text = "true"
             main_type = main_type_from_type_line(definition.type_line)
+            ET.SubElement(card_node, "tablerow").text = str(table_row_for(main_type))
+        elif first.face_metadata is not None:
+            main_type = main_type_from_type_line(first.face_metadata.get("type_line", ""))
             ET.SubElement(card_node, "tablerow").text = str(table_row_for(main_type))
 
     ET.indent(root, space="  ")
@@ -887,6 +1118,7 @@ def build_repository(root: Path) -> dict[str, Any]:
                 }
             )
         xml_relative = xml_path.relative_to(staging).as_posix()
+        physical_printing_ids = {item.printing_uuid for item in printings}
         manifest = {
             "schema_version": 1,
             "publisher_schema_version": 2,
@@ -911,10 +1143,13 @@ def build_repository(root: Path) -> dict[str, Any]:
                 "size_bytes": installer_zip.stat().st_size,
             },
             "cards": len({item.card_key for item in printings}),
-            "printings_count": len(printings),
+            "printings_count": len(physical_printing_ids),
+            "face_entries_count": len(printings),
             "sets": 1,
             "players": {
-                player: sum(1 for item in printings if item.player == player)
+                player: len(
+                    {item.printing_uuid for item in printings if item.player == player}
+                )
                 for player in player_names(config)
             },
             "printings": [
@@ -938,7 +1173,7 @@ def build_repository(root: Path) -> dict[str, Any]:
             f"- Version: `{config['version']}`",
             f"- Set: `{set_code}` — {config['set_name']}",
             f"- Active card identities: **{manifest['cards']}**",
-            f"- Active printings: **{len(printings)}**",
+            f"- Active printings: **{manifest['printings_count']}**",
             "",
             "| Player | Active printings |",
             "| --- | ---: |",
