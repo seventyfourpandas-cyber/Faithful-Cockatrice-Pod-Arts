@@ -41,6 +41,18 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Remove legacy unnumbered issue forms
+        run: |
+          rm -f \
+            .github/ISSUE_TEMPLATE/add-printing.yml \
+            .github/ISSUE_TEMPLATE/add-double-faced-printing.yml \
+            .github/ISSUE_TEMPLATE/add-original-card.yml \
+            .github/ISSUE_TEMPLATE/add-printing-advanced.yml \
+            .github/ISSUE_TEMPLATE/update-printing.yml \
+            .github/ISSUE_TEMPLATE/update-double-faced-printing.yml \
+            .github/ISSUE_TEMPLATE/update-original-card.yml \
+            .github/ISSUE_TEMPLATE/remove-printing.yml
+
       - name: Use Python 3.12
         uses: actions/setup-python@v5
         with:
@@ -146,6 +158,18 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+
+      - name: Remove legacy unnumbered issue forms
+        run: |
+          rm -f \
+            .github/ISSUE_TEMPLATE/add-printing.yml \
+            .github/ISSUE_TEMPLATE/add-double-faced-printing.yml \
+            .github/ISSUE_TEMPLATE/add-original-card.yml \
+            .github/ISSUE_TEMPLATE/add-printing-advanced.yml \
+            .github/ISSUE_TEMPLATE/update-printing.yml \
+            .github/ISSUE_TEMPLATE/update-double-faced-printing.yml \
+            .github/ISSUE_TEMPLATE/update-original-card.yml \
+            .github/ISSUE_TEMPLATE/remove-printing.yml
 
       - name: Use Python 3.12
         uses: actions/setup-python@v5
