@@ -41,6 +41,16 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Repair files flattened by the browser uploader
+        run: |
+          if [ -f process_issue.py ]; then
+            cp process_issue.py automation/process_issue.py
+          fi
+          if [ -f wlxlib.py ]; then
+            cp wlxlib.py automation/wlxlib.py
+          fi
+          rm -f process_issue.py wlxlib.py test_wlx.py add-printing.yml
+
       - name: Remove legacy unnumbered issue forms
         run: |
           rm -f \
@@ -158,6 +168,16 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+
+      - name: Repair files flattened by the browser uploader
+        run: |
+          if [ -f process_issue.py ]; then
+            cp process_issue.py automation/process_issue.py
+          fi
+          if [ -f wlxlib.py ]; then
+            cp wlxlib.py automation/wlxlib.py
+          fi
+          rm -f process_issue.py wlxlib.py test_wlx.py add-printing.yml
 
       - name: Remove legacy unnumbered issue forms
         run: |
