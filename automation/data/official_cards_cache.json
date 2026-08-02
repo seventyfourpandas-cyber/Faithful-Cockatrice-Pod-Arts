@@ -129,6 +129,111 @@
       "oracle_id": "0dd894cb-1968-471c-af08-ea7ec5ce8428",
       "scryfall_uri": "https://scryfall.com/card/cmm/161/ghoulcaller-gisa?utm_source=api",
       "verified_at": "2026-08-01"
+    },
+    "invasion of tolvada": {
+      "name": "Invasion of Tolvada // The Broken Sky",
+      "oracle_id": "7f8dad7f-a573-469f-9095-4ba3886b4f0b",
+      "scryfall_uri": "https://scryfall.com/card/mom/241/invasion-of-tolvada-the-broken-sky?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Tolvada",
+          "side": "front",
+          "mana_cost": "{3}{W}{B}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return target nonbattle permanent card from your graveyard to the battlefield.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "5"
+        },
+        {
+          "official_name": "The Broken Sky",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "Creature tokens you control get +1/+0 and have lifelink.\nAt the beginning of your end step, create a 1/1 white and black Spirit creature token with flying.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
+    },
+    "invasion of tolvada // the broken sky": {
+      "name": "Invasion of Tolvada // The Broken Sky",
+      "oracle_id": "7f8dad7f-a573-469f-9095-4ba3886b4f0b",
+      "scryfall_uri": "https://scryfall.com/card/mom/241/invasion-of-tolvada-the-broken-sky?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Tolvada",
+          "side": "front",
+          "mana_cost": "{3}{W}{B}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return target nonbattle permanent card from your graveyard to the battlefield.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "5"
+        },
+        {
+          "official_name": "The Broken Sky",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "Creature tokens you control get +1/+0 and have lifelink.\nAt the beginning of your end step, create a 1/1 white and black Spirit creature token with flying.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
+    },
+    "the broken sky": {
+      "name": "Invasion of Tolvada // The Broken Sky",
+      "oracle_id": "7f8dad7f-a573-469f-9095-4ba3886b4f0b",
+      "scryfall_uri": "https://scryfall.com/card/mom/241/invasion-of-tolvada-the-broken-sky?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Tolvada",
+          "side": "front",
+          "mana_cost": "{3}{W}{B}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return target nonbattle permanent card from your graveyard to the battlefield.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "5"
+        },
+        {
+          "official_name": "The Broken Sky",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "Creature tokens you control get +1/+0 and have lifelink.\nAt the beginning of your end step, create a 1/1 white and black Spirit creature token with flying.",
+          "colors": "WB",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
     }
   }
 }

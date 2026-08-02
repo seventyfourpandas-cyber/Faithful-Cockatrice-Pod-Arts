@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "set_code": "WLX",
   "cards": [
     {
@@ -108,6 +108,42 @@
       "image": "images/WLX/007-back-29fe4f892b95.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/007-back-29fe4f892b95.jpg",
       "sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "Invasion of Tolvada",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "008",
+      "uuid": "2e847228-b8a4-5e0c-b14c-bc6699af72b9",
+      "rarity": "special",
+      "image": "images/WLX/008-front-58d4748f8013.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-front-58d4748f8013.jpg",
+      "sha256": "58d4748f8013f7ed6963fbaa01dda5ee09c7321e3ca343719f96e706898335b2",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "The Broken Sky",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "008",
+      "uuid": "2e847228-b8a4-5e0c-b14c-bc6699af72b9",
+      "rarity": "special",
+      "image": "images/WLX/008-back-b83eb7b6cd87.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-back-b83eb7b6cd87.jpg",
+      "sha256": "b83eb7b6cd87920f3a13269f2ea2a61aa8726a816bb237642e7d9047613a2ed9",
       "dimensions": [
         2976,
         4152

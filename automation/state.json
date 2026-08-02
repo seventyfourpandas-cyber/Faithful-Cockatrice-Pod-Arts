@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 8,
+  "next_collector": 9,
   "collectors": {
     "001": {
       "status": "active",
@@ -44,6 +44,12 @@
       "status": "active",
       "player": "Will",
       "uuid": "aa42d7ed-2f5c-521b-bd3a-84a39a40bd38",
+      "card_kind": "official_double_faced"
+    },
+    "008": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "2e847228-b8a4-5e0c-b14c-bc6699af72b9",
       "card_kind": "official_double_faced"
     }
   },
@@ -94,6 +100,12 @@
       "action": "add_official_double_faced",
       "version": "2.1.1",
       "result": "Added both faces of Extus, Oriq Overlord // Awaken the Blood Avatar as one linked WLX #007 printing",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#11": {
+      "action": "add_official_double_faced",
+      "version": "2.1.2",
+      "result": "Added both faces of Invasion of Tolvada // The Broken Sky as one linked WLX #008 printing",
       "actor": "WillPower-exe"
     }
   }
