@@ -266,6 +266,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-02"
+    },
+    "eriette of the charmed apple": {
+      "name": "Eriette of the Charmed Apple",
+      "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+      "scryfall_uri": "https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-02"
     }
   }
 }

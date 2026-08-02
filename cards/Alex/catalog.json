@@ -24,6 +24,17 @@
       "image_sha256": "469c6a028a1cbb8451d3c2356e3c0669431d890236459f1b93ef143dd4163cfb",
       "notes": "Submitted by @seventyfourpandas-cyber through issue #1",
       "official_name": "Wedding Ring"
+    },
+    {
+      "collector_number": "013",
+      "uuid": "e01bf7bf-20c5-550f-a790-9c142c3c75d3",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-013.jpg",
+      "image_sha256": "0bb9d9507937143f05bfc2d4d65b7748e3c3b835be0857e1521ae6a7a8daa7d5",
+      "notes": "Submitted by @WillPower-exe through issue #28",
+      "official_name": "Eriette of the Charmed Apple"
     }
   ]
 }

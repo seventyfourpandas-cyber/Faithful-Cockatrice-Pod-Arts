@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 13,
+  "next_collector": 14,
   "collectors": {
     "001": {
       "status": "active",
@@ -75,6 +75,12 @@
       "status": "active",
       "player": "Will",
       "uuid": "a3fb3aaa-0c55-55fc-8e19-0134175117d0",
+      "card_kind": "official"
+    },
+    "013": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "e01bf7bf-20c5-550f-a790-9c142c3c75d3",
       "card_kind": "official"
     }
   },
@@ -161,6 +167,12 @@
       "action": "add_printing",
       "version": "2.1.7",
       "result": "Added Doc Aurlock, Grizzled Genius as WLX #012",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#28": {
+      "action": "add_printing",
+      "version": "2.1.8",
+      "result": "Added Eriette of the Charmed Apple as WLX #013",
       "actor": "WillPower-exe"
     }
   }
