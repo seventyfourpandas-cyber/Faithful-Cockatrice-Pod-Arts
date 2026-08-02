@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-02T02:21:04+00:00</createdAt>
+    <createdAt>2026-08-02T02:26:02+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
-    <sourceVersion>2.1.3</sourceVersion>
+    <sourceVersion>2.1.4</sourceVersion>
   </info>
   <sets>
     <set>
@@ -19,10 +19,6 @@
     <card>
       <name>Angel of Vitality</name>
       <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
-    </card>
-    <card>
-      <name>Avatar</name>
-      <set uuid="d3db514b-cbeb-56dc-a448-bbbbac5ea36b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/009-415b63215dfd.png" num="009" rarity="special">WLX</set>
     </card>
     <card>
       <name>Awaken the Blood Avatar</name>

@@ -53,10 +53,11 @@
       "card_kind": "official_double_faced"
     },
     "009": {
-      "status": "active",
+      "status": "retired",
       "player": "Will",
       "uuid": "d3db514b-cbeb-56dc-a448-bbbbac5ea36b",
-      "card_kind": "official"
+      "card_kind": "official",
+      "retired_at": "2026-08-02T02:26:02+00:00"
     }
   },
   "processed_issues": {
@@ -118,6 +119,12 @@
       "action": "add_printing",
       "version": "2.1.3",
       "result": "Added Avatar as WLX #009",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#13": {
+      "action": "remove_printing",
+      "version": "2.1.4",
+      "result": "Removed WLX #009 from the active catalog",
       "actor": "WillPower-exe"
     }
   }

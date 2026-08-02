@@ -1,5 +1,5 @@
 The automated publisher completed this request successfully.
 
-- Added **Avatar** as `WLX #009`
-- Published version: `2.1.3`
+- Removed `WLX #009` from the active catalog
+- Published version: `2.1.4`
 - Existing player shortcuts will receive the change the next time they update and launch Cockatrice.

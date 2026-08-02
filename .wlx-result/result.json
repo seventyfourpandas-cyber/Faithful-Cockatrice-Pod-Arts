@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "add_printing",
+  "action": "remove_printing",
   "collector_number": "009",
   "name": "Avatar",
-  "version": "2.1.3"
+  "version": "2.1.4"
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "set_code": "WLX",
   "cards": [
     {
@@ -144,24 +144,6 @@
       "image": "images/WLX/008-back-b83eb7b6cd87.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-back-b83eb7b6cd87.jpg",
       "sha256": "b83eb7b6cd87920f3a13269f2ea2a61aa8726a816bb237642e7d9047613a2ed9",
-      "dimensions": [
-        2976,
-        4152
-      ]
-    },
-    {
-      "player": "Will",
-      "card_kind": "official",
-      "card_name": "Avatar",
-      "flavor_name": "",
-      "set_code": "WLX",
-      "set_name": "Willex's Whimsical Arts",
-      "collector_number": "009",
-      "uuid": "d3db514b-cbeb-56dc-a448-bbbbac5ea36b",
-      "rarity": "special",
-      "image": "images/WLX/009-415b63215dfd.png",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/009-415b63215dfd.png",
-      "sha256": "415b63215dfd1a78fff07e6892a05fe0292741c6af963c4484661ed2174ce45d",
       "dimensions": [
         2976,
         4152
