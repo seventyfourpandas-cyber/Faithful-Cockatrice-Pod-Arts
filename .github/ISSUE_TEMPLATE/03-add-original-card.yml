@@ -1,0 +1,99 @@
+name: Add an original card
+description: Add a completely custom card with no official Magic identity.
+title: "[WLX ORIGINAL] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only for a brand-new card. Its name and rules metadata will be defined directly in the WLX Cockatrice database rather than inherited from an official card.
+  - type: dropdown
+    id: player
+    attributes:
+      label: Player collection
+      options:
+        - Alex
+        - Will
+        - Miguel
+        - Jay
+    validations:
+      required: true
+  - type: input
+    id: card-name
+    attributes:
+      label: Original card name
+      description: Must not be the name of an existing official Magic card or another WLX original card.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Card category
+      options:
+        - Regular card
+        - Token
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: mana-cost
+    attributes:
+      label: Mana cost
+      description: Optional. Cockatrice mana notation such as {2}{W}{U}, {X}{R}{R}, or blank for no cost.
+  - type: input
+    id: mana-value
+    attributes:
+      label: Mana value
+      description: Optional non-negative number.
+      placeholder: "4"
+  - type: input
+    id: type-line
+    attributes:
+      label: Type line
+      placeholder: Legendary Creature — Human Wizard
+    validations:
+      required: true
+  - type: textarea
+    id: rules-text
+    attributes:
+      label: Rules text
+      description: Optional but recommended. Preserve paragraph breaks as they should appear in Cockatrice.
+  - type: input
+    id: colors
+    attributes:
+      label: Colors
+      description: Optional WUBRG letters only, such as WU or BRG.
+  - type: input
+    id: color-identity
+    attributes:
+      label: Color identity
+      description: Optional WUBRG letters only, such as WU or BRG.
+  - type: input
+    id: power-toughness
+    attributes:
+      label: Power/Toughness
+      description: Optional. Examples include 3/4, */*, or 0/1.
+  - type: input
+    id: loyalty
+    attributes:
+      label: Loyalty
+      description: Optional starting loyalty for a planeswalker.
+  - type: input
+    id: defense
+    attributes:
+      label: Defense
+      description: Optional starting defense for a battle.
+  - type: upload
+    id: image
+    attributes:
+      label: Finished card image
+      description: Upload exactly one complete PNG or JPEG card image, at least 300×400 and no larger than 10 MiB.
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg"
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is an original custom card, and I checked the submitted name, rules metadata, and final image.
+          required: true

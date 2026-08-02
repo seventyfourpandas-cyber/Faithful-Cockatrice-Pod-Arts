@@ -1,0 +1,60 @@
+name: Add a double-faced printing
+description: Add both images for an official transform, modal double-faced, or flip card.
+title: "[WLX DOUBLE FACED] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One submission creates two separately searchable Cockatrice faces with one shared WLX printing identity. The deck editor gets **View transformation**, and the in-game right-click menu gets **Transform into…**.
+  - type: dropdown
+    id: player
+    attributes:
+      label: Player collection
+      options:
+        - Alex
+        - Will
+        - Miguel
+        - Jay
+    validations:
+      required: true
+  - type: input
+    id: official-name
+    attributes:
+      label: Official double-faced Magic card name
+      description: Enter the combined English name or either face name.
+      placeholder: Extus, Oriq Overlord
+    validations:
+      required: true
+  - type: input
+    id: front-title
+    attributes:
+      label: Front-face alternate printed title
+      description: Optional. Leave blank when the artwork keeps the official front-face name.
+  - type: input
+    id: back-title
+    attributes:
+      label: Back-face alternate printed title
+      description: Optional. Leave blank when the artwork keeps the official back-face name.
+  - type: upload
+    id: front-image
+    attributes:
+      label: Front-face card image
+      description: Upload exactly one complete front-face PNG or JPEG, at least 300×400 and no larger than 10 MiB.
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg"
+  - type: upload
+    id: back-image
+    attributes:
+      label: Back-face card image
+      description: Upload exactly one complete back-face PNG or JPEG, at least 300×400 and no larger than 10 MiB.
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg"
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I attached the front art to the front field and the back art to the back field.
+          required: true
