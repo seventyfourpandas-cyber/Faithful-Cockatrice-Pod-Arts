@@ -41,15 +41,29 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Repair files flattened by the browser uploader
+      - name: Install staged publisher repair and remove flattened files
         run: |
-          if [ -f process_issue.py ]; then
-            cp process_issue.py automation/process_issue.py
+          if [ -f TOKEN_process_issue.py ]; then
+            cp TOKEN_process_issue.py automation/process_issue.py
           fi
-          if [ -f wlxlib.py ]; then
-            cp wlxlib.py automation/wlxlib.py
+          if [ -f TOKEN_wlxlib.py ]; then
+            cp TOKEN_wlxlib.py automation/wlxlib.py
           fi
-          rm -f process_issue.py wlxlib.py test_wlx.py add-printing.yml
+          if [ -f TOKEN_test_wlx.py ]; then
+            cp TOKEN_test_wlx.py automation/tests/test_wlx.py
+          fi
+          if [ -f TOKEN_add-token-printing.yml ]; then
+            cp TOKEN_add-token-printing.yml .github/ISSUE_TEMPLATE/02b-add-token-printing.yml
+          fi
+          rm -f \
+            TOKEN_process_issue.py \
+            TOKEN_wlxlib.py \
+            TOKEN_test_wlx.py \
+            TOKEN_add-token-printing.yml \
+            process_issue.py \
+            wlxlib.py \
+            test_wlx.py \
+            add-printing.yml
 
       - name: Remove legacy unnumbered issue forms
         run: |
@@ -169,15 +183,29 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Repair files flattened by the browser uploader
+      - name: Install staged publisher repair and remove flattened files
         run: |
-          if [ -f process_issue.py ]; then
-            cp process_issue.py automation/process_issue.py
+          if [ -f TOKEN_process_issue.py ]; then
+            cp TOKEN_process_issue.py automation/process_issue.py
           fi
-          if [ -f wlxlib.py ]; then
-            cp wlxlib.py automation/wlxlib.py
+          if [ -f TOKEN_wlxlib.py ]; then
+            cp TOKEN_wlxlib.py automation/wlxlib.py
           fi
-          rm -f process_issue.py wlxlib.py test_wlx.py add-printing.yml
+          if [ -f TOKEN_test_wlx.py ]; then
+            cp TOKEN_test_wlx.py automation/tests/test_wlx.py
+          fi
+          if [ -f TOKEN_add-token-printing.yml ]; then
+            cp TOKEN_add-token-printing.yml .github/ISSUE_TEMPLATE/02b-add-token-printing.yml
+          fi
+          rm -f \
+            TOKEN_process_issue.py \
+            TOKEN_wlxlib.py \
+            TOKEN_test_wlx.py \
+            TOKEN_add-token-printing.yml \
+            process_issue.py \
+            wlxlib.py \
+            test_wlx.py \
+            add-printing.yml
 
       - name: Remove legacy unnumbered issue forms
         run: |
