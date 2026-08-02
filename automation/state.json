@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 12,
+  "next_collector": 13,
   "collectors": {
     "001": {
       "status": "active",
@@ -69,6 +69,12 @@
       "status": "active",
       "player": "Will",
       "uuid": "851a2ffc-3165-5aae-a2f5-15f25ad75846",
+      "card_kind": "official"
+    },
+    "012": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "a3fb3aaa-0c55-55fc-8e19-0134175117d0",
       "card_kind": "official"
     }
   },
@@ -149,6 +155,12 @@
       "action": "add_printing",
       "version": "2.1.6",
       "result": "Added Breach the Multiverse as WLX #011",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#26": {
+      "action": "add_printing",
+      "version": "2.1.7",
+      "result": "Added Doc Aurlock, Grizzled Genius as WLX #012",
       "actor": "WillPower-exe"
     }
   }

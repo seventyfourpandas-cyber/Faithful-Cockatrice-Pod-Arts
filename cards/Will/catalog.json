@@ -132,6 +132,17 @@
       "image_sha256": "15dc271b053a606b2e759ee0c3d2a412578396d0697db83c29abe9b02910d3c1",
       "notes": "Submitted by @WillPower-exe through issue #21",
       "official_name": "Breach the Multiverse"
+    },
+    {
+      "collector_number": "012",
+      "uuid": "a3fb3aaa-0c55-55fc-8e19-0134175117d0",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-012.jpg",
+      "image_sha256": "a6e471f23ca08c002154915644354cdc52ec4e31801b3882bd328a3a680aa154",
+      "notes": "Submitted by @WillPower-exe through issue #26",
+      "official_name": "Doc Aurlock, Grizzled Genius"
     }
   ]
 }

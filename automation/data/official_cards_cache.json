@@ -258,6 +258,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-02"
+    },
+    "doc aurlock, grizzled genius": {
+      "name": "Doc Aurlock, Grizzled Genius",
+      "oracle_id": "3ca32660-bf5f-4398-bef6-a0ec8bc767cf",
+      "scryfall_uri": "https://scryfall.com/card/otj/201/doc-aurlock-grizzled-genius?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-02"
     }
   }
 }
