@@ -39,6 +39,9 @@ STATE_RELATIVE = Path("automation") / "state.json"
 OFFICIAL_CACHE_RELATIVE = Path("automation") / "data" / "official_cards_cache.json"
 INSTALLER_SOURCE_RELATIVE = Path("automation") / "installer_source"
 PROJECT_RELATIVE = Path("project.json")
+COCKATRICE_TOKEN_DATABASE_URL = (
+    "https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml"
+)
 
 COLLECTOR_RE = re.compile(r"^[0-9]{3,}$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
@@ -119,6 +122,7 @@ class ResolvedPrinting:
     notes: str
     face_metadata: dict[str, str] | None = None
     transform_into: str = ""
+    token_metadata: dict[str, Any] | None = None
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -458,6 +462,116 @@ def scryfall_exact(name: str, config: dict[str, Any]) -> dict[str, Any] | None:
     }
 
 
+def parse_cockatrice_token_database(payload: bytes, creator_name: str) -> dict[str, Any]:
+    """Find the one native Cockatrice token related to a creating card face."""
+    try:
+        database = ET.fromstring(payload)
+    except ET.ParseError as exc:
+        raise WlxError("Cockatrice returned a malformed token database") from exc
+    requested = creator_name.strip().casefold()
+    matches: list[tuple[ET.Element, list[dict[str, str]]]] = []
+    allowed_relation_attributes = {
+        "count",
+        "exclude",
+        "attach",
+        "persistent",
+        "facedown",
+    }
+    for card in database.findall("./cards/card"):
+        related: list[dict[str, str]] = []
+        for relation in card.findall("reverse-related"):
+            related_name = (relation.text or "").strip()
+            if related_name.casefold() != requested:
+                continue
+            entry = {"name": related_name}
+            for key, value in relation.attrib.items():
+                if key in allowed_relation_attributes:
+                    entry[key] = value
+            related.append(entry)
+        if related:
+            matches.append((card, related))
+
+    if not matches:
+        raise WlxError(
+            f"Cockatrice has no official token linked to {creator_name!r}"
+        )
+    if len(matches) > 1:
+        token_names = sorted(
+            {
+                ((card.findtext("name") or "").rstrip() or "unnamed token")
+                for card, _related in matches
+            }
+        )
+        raise WlxError(
+            f"{creator_name!r} creates more than one official token ({', '.join(token_names)}); "
+            "this three-field form needs a card face that identifies one token"
+        )
+
+    card, related = matches[0]
+    # Cockatrice deliberately uses trailing spaces to distinguish a few tokens
+    # with the same visible name. Preserve those spaces as part of the identity.
+    name = card.findtext("name") or ""
+    if not name.strip():
+        raise WlxError("Cockatrice returned a token without a name")
+    prop = card.find("prop")
+    properties = {
+        child.tag: (child.text or "").strip()
+        for child in ([] if prop is None else list(prop))
+    }
+    type_line = properties.get("type", "")
+    if not type_line:
+        raise WlxError(f"Cockatrice token {name.rstrip()!r} has no type line")
+    tablerow = (card.findtext("tablerow") or "").strip()
+    if tablerow:
+        try:
+            int(tablerow)
+        except ValueError as exc:
+            raise WlxError(
+                f"Cockatrice token {name.rstrip()!r} has an invalid table row"
+            ) from exc
+    return {
+        "name": name,
+        "display_name": name.rstrip(),
+        "rules_text": (card.findtext("text") or "").strip(),
+        "type_line": type_line,
+        "main_type": properties.get("maintype", "") or main_type_from_type_line(type_line),
+        "mana_cost": properties.get("manacost", ""),
+        "mana_value": properties.get("cmc", ""),
+        "colors": normalize_colors(properties.get("colors", "")),
+        "color_identity": normalize_colors(properties.get("coloridentity", "")),
+        "power_toughness": properties.get("pt", ""),
+        "loyalty": properties.get("loyalty", ""),
+        "defense": properties.get("defense", ""),
+        "tablerow": tablerow,
+        "reverse_related": related,
+        "verified_at": dt.date.today().isoformat(),
+        "source_url": COCKATRICE_TOKEN_DATABASE_URL,
+    }
+
+
+def verify_official_token_for_creator(
+    creator_name: str, config: dict[str, Any]
+) -> dict[str, Any]:
+    """Download Cockatrice's native token data and resolve one creator relation."""
+    request = urllib.request.Request(
+        COCKATRICE_TOKEN_DATABASE_URL,
+        headers={
+            "Accept": "application/xml,text/xml",
+            "User-Agent": str(config.get("scryfall_user_agent", "WillexWhimsicalArts/2.0")),
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            payload = response.read(8 * 1024 * 1024 + 1)
+    except (urllib.error.URLError, TimeoutError) as exc:
+        raise WlxError(
+            f"Could not read Cockatrice's official token database: {exc}"
+        ) from exc
+    if len(payload) > 8 * 1024 * 1024:
+        raise WlxError("Cockatrice's official token database was unexpectedly large")
+    return parse_cockatrice_token_database(payload, creator_name)
+
+
 def verify_official_name(root: Path, requested: str, config: dict[str, Any]) -> str:
     cache_path = root / OFFICIAL_CACHE_RELATIVE
     cache = load_official_cache(root)
@@ -766,6 +880,67 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                     )
                 continue
 
+            if card_kind == "official_token":
+                creator_card = str(raw.get("creator_card", "")).strip()
+                token = raw.get("token_metadata")
+                if not creator_card or not isinstance(token, dict):
+                    raise WlxError(f"WLX #{collector} has malformed official token data")
+                token_name = str(token.get("name", ""))
+                type_line = str(token.get("type_line", "")).strip()
+                if not token_name.strip() or not type_line:
+                    raise WlxError(f"WLX #{collector} token is missing its name or type line")
+                normalize_colors(str(token.get("colors", "")))
+                normalize_colors(str(token.get("color_identity", "")))
+                reverse_related = token.get("reverse_related")
+                if not isinstance(reverse_related, list) or not reverse_related:
+                    raise WlxError(f"WLX #{collector} token has no creating-card relation")
+                if not any(
+                    isinstance(relation, dict)
+                    and str(relation.get("name", "")).casefold() == creator_card.casefold()
+                    for relation in reverse_related
+                ):
+                    raise WlxError(
+                        f"WLX #{collector} token is not linked back to {creator_card!r}"
+                    )
+                tablerow = str(token.get("tablerow", "")).strip()
+                if tablerow:
+                    try:
+                        int(tablerow)
+                    except ValueError as exc:
+                        raise WlxError(f"WLX #{collector} token has an invalid table row") from exc
+                (
+                    image_file,
+                    image_path,
+                    image_hash,
+                    width,
+                    height,
+                    published,
+                    picture_url,
+                ) = resolve_image(player, collector, raw, published_label=collector)
+                resolved.append(
+                    ResolvedPrinting(
+                        player=player,
+                        card_kind=card_kind,
+                        card_key="official-token:" + token_name.casefold(),
+                        card_name=token_name,
+                        custom_definition=None,
+                        flavor_name="",
+                        collector_number=collector,
+                        printing_uuid=printing_uuid,
+                        rarity=rarity,
+                        image_file=image_file,
+                        image_path=image_path,
+                        image_sha256=image_hash,
+                        image_width=width,
+                        image_height=height,
+                        published_image_path=published,
+                        picture_url=picture_url,
+                        notes=str(raw.get("notes", "")).strip(),
+                        token_metadata=token,
+                    )
+                )
+                continue
+
             custom_definition: CustomDefinition | None = None
             if card_kind == "official":
                 requested = str(raw.get("official_name", "")).strip()
@@ -781,7 +956,9 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                 card_name = custom_definition.name
                 card_key = custom_id
             else:
-                raise WlxError(f"WLX #{collector} card_kind must be official or custom")
+                raise WlxError(
+                    f"WLX #{collector} card_kind must be official, official_token, or custom"
+                )
             (
                 image_file,
                 image_path,
@@ -811,6 +988,25 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
                     picture_url=picture_url,
                     notes=str(raw.get("notes", "")).strip(),
                 )
+            )
+
+    creator_names = {
+        item.card_name.casefold()
+        for item in resolved
+        if item.card_kind != "official_token"
+    }
+    for item in resolved:
+        if item.token_metadata is None:
+            continue
+        relations = item.token_metadata.get("reverse_related", [])
+        linked_names = {
+            str(relation.get("name", "")).casefold()
+            for relation in relations
+            if isinstance(relation, dict)
+        }
+        if not linked_names.intersection(creator_names):
+            raise WlxError(
+                f"WLX #{item.collector_number} token has no active creating card face in WLX"
             )
 
     if not resolved:
@@ -865,6 +1061,25 @@ def face_prop_values(metadata: dict[str, str]) -> list[tuple[str, str]]:
     return [(key, value) for key, value in result if value != ""]
 
 
+def token_prop_values(metadata: dict[str, Any]) -> list[tuple[str, str]]:
+    type_line = str(metadata.get("type_line", ""))
+    result = [
+        ("type", type_line),
+        (
+            "maintype",
+            str(metadata.get("main_type", "")) or main_type_from_type_line(type_line),
+        ),
+        ("manacost", str(metadata.get("mana_cost", ""))),
+        ("cmc", str(metadata.get("mana_value", ""))),
+        ("colors", str(metadata.get("colors", ""))),
+        ("coloridentity", str(metadata.get("color_identity", ""))),
+        ("pt", str(metadata.get("power_toughness", ""))),
+        ("loyalty", str(metadata.get("loyalty", ""))),
+        ("defense", str(metadata.get("defense", ""))),
+    ]
+    return [(key, value) for key, value in result if value != ""]
+
+
 def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> bytes:
     printings = list(printings)
     base_url = normalize_base_url(str(config["public_base_url"]))
@@ -906,6 +1121,14 @@ def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> 
             prop_node = ET.SubElement(card_node, "prop")
             for key, value in face_prop_values(first.face_metadata):
                 ET.SubElement(prop_node, key).text = value
+        elif first.token_metadata is not None:
+            if str(first.token_metadata.get("rules_text", "")):
+                ET.SubElement(card_node, "text").text = str(
+                    first.token_metadata["rules_text"]
+                )
+            prop_node = ET.SubElement(card_node, "prop")
+            for key, value in token_prop_values(first.token_metadata):
+                ET.SubElement(prop_node, key).text = value
         for printing in sorted(group, key=lambda item: int(item.collector_number)):
             attributes = {
                 "uuid": printing.printing_uuid,
@@ -920,6 +1143,38 @@ def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> 
         if first.transform_into:
             related = ET.SubElement(card_node, "related", {"attach": "transform"})
             related.text = first.transform_into
+        if first.token_metadata is not None:
+            seen_relations: set[tuple[tuple[str, str], ...]] = set()
+            for printing in group:
+                metadata = printing.token_metadata or {}
+                raw_relations = metadata.get("reverse_related", [])
+                if not isinstance(raw_relations, list):
+                    continue
+                for raw_relation in raw_relations:
+                    if not isinstance(raw_relation, dict):
+                        continue
+                    name = str(raw_relation.get("name", "")).strip()
+                    if not name:
+                        continue
+                    attributes = {
+                        key: str(raw_relation[key])
+                        for key in (
+                            "count",
+                            "exclude",
+                            "attach",
+                            "persistent",
+                            "facedown",
+                        )
+                        if str(raw_relation.get(key, ""))
+                    }
+                    relation_key = tuple(sorted({"name": name, **attributes}.items()))
+                    if relation_key in seen_relations:
+                        continue
+                    seen_relations.add(relation_key)
+                    reverse_related = ET.SubElement(
+                        card_node, "reverse-related", attributes
+                    )
+                    reverse_related.text = name
         if first.card_kind == "custom":
             assert first.custom_definition is not None
             definition = first.custom_definition
@@ -927,6 +1182,19 @@ def xml_bytes(config: dict[str, Any], printings: Iterable[ResolvedPrinting]) -> 
                 ET.SubElement(card_node, "token").text = "true"
             main_type = main_type_from_type_line(definition.type_line)
             ET.SubElement(card_node, "tablerow").text = str(table_row_for(main_type))
+        elif first.token_metadata is not None:
+            ET.SubElement(card_node, "token").text = "true"
+            token_row = str(first.token_metadata.get("tablerow", "")).strip()
+            if not token_row:
+                token_row = str(
+                    table_row_for(
+                        str(first.token_metadata.get("main_type", ""))
+                        or main_type_from_type_line(
+                            str(first.token_metadata.get("type_line", ""))
+                        )
+                    )
+                )
+            ET.SubElement(card_node, "tablerow").text = token_row
         elif first.face_metadata is not None:
             main_type = main_type_from_type_line(first.face_metadata.get("type_line", ""))
             ET.SubElement(card_node, "tablerow").text = str(table_row_for(main_type))

@@ -90,6 +90,29 @@ def extus_details() -> dict[str, object]:
     }
 
 
+def blood_avatar_token_details() -> dict[str, object]:
+    return {
+        "name": "Avatar Token  ",
+        "display_name": "Avatar Token",
+        "rules_text": (
+            "Haste\nWhenever this creature attacks, it deals 3 damage to each opponent."
+        ),
+        "type_line": "Token Creature — Avatar",
+        "main_type": "Creature",
+        "mana_cost": "",
+        "mana_value": "0",
+        "colors": "BR",
+        "color_identity": "",
+        "power_toughness": "3/6",
+        "loyalty": "",
+        "defense": "",
+        "tablerow": "2",
+        "reverse_related": [{"name": "Awaken the Blood Avatar"}],
+        "verified_at": "2026-08-02",
+        "source_url": wlxlib.COCKATRICE_TOKEN_DATABASE_URL,
+    }
+
+
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, _format: str, *args: object) -> None:
         return
@@ -285,6 +308,30 @@ class CorePublisherTests(unittest.TestCase):
         expected = wlxlib.stable_printing_uuid(config["package_id"], "WLX", "001")
         self.assertEqual(printings[0].printing_uuid, expected)
         self.assertEqual(printings[0].card_name, "Angel of Vitality")
+
+    def test_native_token_parser_preserves_cockatrice_identity_and_relation(self) -> None:
+        payload = b"""<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+  <cards>
+    <card>
+      <name>Avatar Token  </name>
+      <text>Haste\nWhenever this creature attacks, it deals 3 damage to each opponent.</text>
+      <prop><colors>BR</colors><type>Token Creature - Avatar</type><maintype>Creature</maintype><cmc>0</cmc><pt>3/6</pt></prop>
+      <set>STX</set>
+      <reverse-related>Awaken the Blood Avatar</reverse-related>
+      <token>1</token><tablerow>2</tablerow>
+    </card>
+  </cards>
+</cockatrice_carddatabase>"""
+        token = wlxlib.parse_cockatrice_token_database(
+            payload, "Awaken the Blood Avatar"
+        )
+        self.assertEqual(token["name"], "Avatar Token  ")
+        self.assertEqual(token["display_name"], "Avatar Token")
+        self.assertEqual(token["power_toughness"], "3/6")
+        self.assertEqual(
+            token["reverse_related"], [{"name": "Awaken the Blood Avatar"}]
+        )
 
     def test_original_card_generates_complete_cockatrice_metadata(self) -> None:
         self.fixture.add_custom()
@@ -675,6 +722,94 @@ _No response_
         self.assertEqual(manifest["printings_count"], 2)
         self.assertEqual(manifest["face_entries_count"], 3)
 
+    def test_token_form_links_native_token_art_to_existing_wlx_face(self) -> None:
+        with AttachmentServer(self.attachments) as base, mock.patch.object(
+            process_issue.wlxlib,
+            "verify_official_double_faced",
+            return_value=extus_details(),
+        ):
+            double_faced_body = f"""### Player collection
+Will
+
+### Official double-faced Magic card name
+Extus, Oriq Overlord
+
+### Front-face card image
+![front.png]({base}front.png)
+
+### Back-face card image
+![back.png]({base}back.png)
+"""
+            status, _result = self.run_event(
+                self.event(24, "[WLX DOUBLE FACED] Extus", double_faced_body),
+                "result-24",
+            )
+            self.assertEqual(status, 0)
+
+            with mock.patch.object(
+                process_issue.wlxlib,
+                "verify_official_token_for_creator",
+                return_value=blood_avatar_token_details(),
+            ):
+                token_body = f"""### Player collection
+Will
+
+### Creating card face
+Awaken the Blood Avatar
+
+### Finished token image
+![card.png]({base}card.png)
+"""
+                status, result = self.run_event(
+                    self.event(25, "[WLX TOKEN] Blood Avatar", token_body),
+                    "result-25",
+                )
+
+        self.assertEqual(status, 0)
+        self.assertEqual(result["collector_number"], "003")
+        will = self.fixture.catalog("Will")
+        token_printing = next(
+            printing
+            for printing in will["printings"]
+            if printing["collector_number"] == "003"
+        )
+        self.assertEqual(token_printing["card_kind"], "official_token")
+        self.assertEqual(token_printing["creator_card"], "Awaken the Blood Avatar")
+        self.assertEqual(token_printing["token_metadata"]["name"], "Avatar Token  ")
+
+        config, _state, printings = wlxlib.validate_repository(self.fixture.root)
+        xml = wlxlib.ET.fromstring(wlxlib.xml_bytes(config, printings))
+        token = next(
+            node
+            for node in xml.findall("./cards/card")
+            if node.findtext("name") == "Avatar Token  "
+        )
+        self.assertEqual(token.findtext("./prop/type"), "Token Creature — Avatar")
+        self.assertEqual(token.findtext("./prop/pt"), "3/6")
+        self.assertEqual(token.findtext("reverse-related"), "Awaken the Blood Avatar")
+        self.assertEqual(token.findtext("token"), "true")
+        self.assertEqual(token.findtext("tablerow"), "2")
+        self.assertEqual(token.find("set").text, "WLX")
+        self.assertEqual(token.find("set").attrib["num"], "003")
+
+    def test_token_form_requires_the_creating_face_to_exist_in_wlx(self) -> None:
+        with AttachmentServer(self.attachments) as base:
+            body = f"""### Player collection
+Will
+
+### Creating card face
+Awaken the Blood Avatar
+
+### Finished token image
+![card.png]({base}card.png)
+"""
+            status, result = self.run_event(
+                self.event(26, "[WLX TOKEN] Missing creator", body), "result-26"
+            )
+        self.assertEqual(status, 1)
+        self.assertIn("publish its card printing first", result["error"])
+        self.assertEqual(len(self.fixture.catalog("Will")["printings"]), 0)
+
     def test_ordinary_form_redirects_double_faced_cards_before_publishing(self) -> None:
         with AttachmentServer(self.attachments) as base, mock.patch.object(
             process_issue.wlxlib,
@@ -979,6 +1114,7 @@ class ShippedRepositoryTests(unittest.TestCase):
         expected = (
             ("01-add-printing.yml", "name: Add a printing"),
             ("02-add-double-faced-printing.yml", "name: Add a double-faced printing"),
+            ("02b-add-token-printing.yml", "name: Add a token printing"),
             ("03-add-original-card.yml", "name: Add an original card"),
             ("04-add-printing-advanced.yml", "name: Add a card printing advanced"),
             ("05-update-printing.yml", "name: Update a printing or its artwork"),
@@ -988,7 +1124,7 @@ class ShippedRepositoryTests(unittest.TestCase):
         )
         form_dir = REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE"
         actual_filenames = tuple(
-            path.name for path in sorted(form_dir.glob("[0-9][0-9]-*.yml"))
+            path.name for path in sorted(form_dir.glob("[0-9]*.yml"))
         )
         self.assertEqual(actual_filenames, tuple(filename for filename, _name in expected))
         for filename, expected_name in expected:
@@ -1040,7 +1176,7 @@ class ShippedRepositoryTests(unittest.TestCase):
                 )
                 self.assertGreaterEqual(validations_index, 0, path.name)
                 self.assertGreater(accept_index, validations_index, path.name)
-        self.assertGreaterEqual(upload_count, 8)
+        self.assertGreaterEqual(upload_count, 9)
 
     def test_seed_preserves_working_wlx_001(self) -> None:
         config, _state, printings = wlxlib.validate_repository(REPOSITORY_ROOT)

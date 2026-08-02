@@ -306,6 +306,51 @@ def allocate_official_double_faced_printing(
     return collector, printing
 
 
+def allocate_official_token_printing(
+    root: Path,
+    config: dict[str, Any],
+    state: dict[str, Any],
+    catalogs: dict[str, dict[str, Any]],
+    *,
+    player: str,
+    creator_card: str,
+    token_metadata: dict[str, Any],
+    image_payload: bytes,
+    image_suffix: str,
+    actor: str,
+    issue_number: int,
+) -> tuple[str, dict[str, Any]]:
+    collector = f"{int(state['next_collector']):03d}"
+    if collector in state["collectors"]:
+        raise wlxlib.WlxError(f"Internal collector allocation collision at WLX #{collector}")
+    printing_uuid = wlxlib.stable_printing_uuid(
+        str(config["package_id"]), str(config["set_code"]), collector
+    )
+    image_file, image_hash = write_image(
+        root, player, collector, image_payload, image_suffix
+    )
+    printing: dict[str, Any] = {
+        "collector_number": collector,
+        "uuid": printing_uuid,
+        "card_kind": "official_token",
+        "creator_card": creator_card,
+        "token_metadata": token_metadata,
+        "rarity": str(config.get("default_rarity", "special")),
+        "image_file": image_file,
+        "image_sha256": image_hash,
+        "notes": f"Submitted by @{actor} through issue #{issue_number}",
+    }
+    catalogs[player]["printings"].append(printing)
+    state["collectors"][collector] = {
+        "status": "active",
+        "player": player,
+        "uuid": printing_uuid,
+        "card_kind": "official_token",
+    }
+    state["next_collector"] = int(state["next_collector"]) + 1
+    return collector, printing
+
+
 def add_official_double_faced_printing(
     root: Path,
     config: dict[str, Any],
@@ -340,6 +385,50 @@ def add_official_double_faced_printing(
         issue_number=issue_number,
     )
     return collector, str(details["name"])
+
+
+def add_official_token_printing(
+    root: Path,
+    config: dict[str, Any],
+    state: dict[str, Any],
+    catalogs: dict[str, dict[str, Any]],
+    sections: dict[str, str],
+    actor: str,
+    issue_number: int,
+) -> tuple[str, str, str]:
+    player = exact_player(config, field(sections, "Player collection", required=True))
+    requested_creator = field(sections, "Creating card face", required=True)
+    _current_config, _current_state, current_printings = wlxlib.validate_repository(root)
+    creator_matches = {
+        printing.card_name
+        for printing in current_printings
+        if printing.card_name.casefold() == requested_creator.casefold()
+    }
+    if not creator_matches:
+        raise wlxlib.WlxError(
+            f"No active WLX card face is named {requested_creator!r}; publish its card printing first"
+        )
+    creator_card = sorted(creator_matches, key=str.casefold)[0]
+    token_metadata = wlxlib.verify_official_token_for_creator(creator_card, config)
+    image = attachment_url(field(sections, "Finished token image"), required=True)
+    payload, suffix = download_attachment(image)
+    collector, _printing = allocate_official_token_printing(
+        root,
+        config,
+        state,
+        catalogs,
+        player=player,
+        creator_card=creator_card,
+        token_metadata=token_metadata,
+        image_payload=payload,
+        image_suffix=suffix,
+        actor=actor,
+        issue_number=issue_number,
+    )
+    token_name = str(
+        token_metadata.get("display_name") or str(token_metadata["name"]).rstrip()
+    )
+    return collector, token_name, creator_card
 
 
 def add_printing(
@@ -546,6 +635,11 @@ def update_printing(
         printing.get("official_name")
         or printing.get("flavor_name")
         or printing.get("custom_card_id")
+        or (
+            printing.get("token_metadata", {}).get("display_name")
+            if isinstance(printing.get("token_metadata"), dict)
+            else ""
+        )
     )
     return collector, card_name
 
@@ -693,7 +787,13 @@ def remove_printing(
         )
         name = str(definition["name"])
     else:
-        name = str(printing.get("flavor_name") or printing.get("official_name"))
+        token_metadata = printing.get("token_metadata")
+        token_name = (
+            str(token_metadata.get("display_name") or token_metadata.get("name", "")).rstrip()
+            if isinstance(token_metadata, dict)
+            else ""
+        )
+        name = str(printing.get("flavor_name") or printing.get("official_name") or token_name)
     image_paths: list[Path] = []
     if printing.get("card_kind") == "official_double_faced":
         faces = printing.get("faces")
@@ -791,7 +891,16 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
 
         title = str(issue.get("title", ""))
         sections = parse_sections(str(issue.get("body", "")))
-        if title.startswith("[WLX DOUBLE FACED]"):
+        if title.startswith("[WLX TOKEN]"):
+            action = "add_official_token"
+            collector, token_name, creator_card = add_official_token_printing(
+                root, config, state, catalogs, sections, actor, issue_number
+            )
+            result_name = token_name
+            action_text = (
+                f"Added **{token_name}** as `WLX #{collector}` for **{creator_card}**"
+            )
+        elif title.startswith("[WLX DOUBLE FACED]"):
             action = "add_official_double_faced"
             collector, result_name = add_official_double_faced_printing(
                 root, config, state, catalogs, sections, actor, issue_number
