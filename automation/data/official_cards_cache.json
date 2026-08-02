@@ -17,19 +17,106 @@
       "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
       "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
       "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
-      "verified_at": "2026-08-01"
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Extus, Oriq Overlord",
+          "side": "front",
+          "mana_cost": "{1}{W}{B}{B}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Human Warlock",
+          "rules_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
+          "colors": "WB",
+          "color_identity": "WBR",
+          "power_toughness": "2/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Awaken the Blood Avatar",
+          "side": "back",
+          "mana_cost": "{6}{B}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.\nEach opponent sacrifices a creature of their choice. Create a 3/6 black and red Avatar creature token with haste and \"Whenever this token attacks, it deals 3 damage to each opponent.\"",
+          "colors": "BR",
+          "color_identity": "WBR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
     },
     "awaken the blood avatar": {
       "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
       "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
       "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
-      "verified_at": "2026-08-01"
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Extus, Oriq Overlord",
+          "side": "front",
+          "mana_cost": "{1}{W}{B}{B}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Human Warlock",
+          "rules_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
+          "colors": "WB",
+          "color_identity": "WBR",
+          "power_toughness": "2/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Awaken the Blood Avatar",
+          "side": "back",
+          "mana_cost": "{6}{B}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.\nEach opponent sacrifices a creature of their choice. Create a 3/6 black and red Avatar creature token with haste and \"Whenever this token attacks, it deals 3 damage to each opponent.\"",
+          "colors": "BR",
+          "color_identity": "WBR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
     },
     "extus, oriq overlord": {
       "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
       "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
       "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?utm_source=api",
-      "verified_at": "2026-08-01"
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Extus, Oriq Overlord",
+          "side": "front",
+          "mana_cost": "{1}{W}{B}{B}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Human Warlock",
+          "rules_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
+          "colors": "WB",
+          "color_identity": "WBR",
+          "power_toughness": "2/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Awaken the Blood Avatar",
+          "side": "back",
+          "mana_cost": "{6}{B}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.\nEach opponent sacrifices a creature of their choice. Create a 3/6 black and red Avatar creature token with haste and \"Whenever this token attacks, it deals 3 damage to each opponent.\"",
+          "colors": "BR",
+          "color_identity": "WBR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-02"
     },
     "shadowheart, dark justiciar": {
       "name": "Shadowheart, Dark Justiciar",

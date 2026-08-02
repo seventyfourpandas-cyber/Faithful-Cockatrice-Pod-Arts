@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-01T18:40:44-04:00</createdAt>
+    <createdAt>2026-08-02T01:58:36+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
-    <sourceVersion>2.1.0</sourceVersion>
+    <sourceVersion>2.1.1</sourceVersion>
   </info>
   <sets>
     <set>
@@ -19,6 +19,41 @@
     <card>
       <name>Angel of Vitality</name>
       <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
+    </card>
+    <card>
+      <name>Awaken the Blood Avatar</name>
+      <text>As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.
+Each opponent sacrifices a creature of their choice. Create a 3/6 black and red Avatar creature token with haste and "Whenever this token attacks, it deals 3 damage to each opponent."</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <manacost>{6}{B}{R}</manacost>
+        <colors>BR</colors>
+        <coloridentity>WBR</coloridentity>
+      </prop>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/007-back-29fe4f892b95.jpg" num="007" rarity="special">WLX</set>
+      <related attach="transform">Extus, Oriq Overlord</related>
+      <tablerow>3</tablerow>
+    </card>
+    <card>
+      <name>Extus, Oriq Overlord</name>
+      <text>Double strike
+Magecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Legendary Creature — Human Warlock</type>
+        <maintype>Creature</maintype>
+        <manacost>{1}{W}{B}{B}</manacost>
+        <colors>WB</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>2/4</pt>
+      </prop>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/007-front-0247de4a9c85.jpg" num="007" rarity="special">WLX</set>
+      <related attach="transform">Awaken the Blood Avatar</related>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Ghoulcaller Gisa</name>

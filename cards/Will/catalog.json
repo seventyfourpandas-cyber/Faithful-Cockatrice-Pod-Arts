@@ -24,6 +24,49 @@
       "image_sha256": "273ccc6e677f60afde3f5d29a42dc625506973a74dddceda5ac433528e4caed9",
       "notes": "Submitted by @WillPower-exe through issue #9",
       "official_name": "Ghoulcaller Gisa"
+    },
+    {
+      "collector_number": "007",
+      "uuid": "aa42d7ed-2f5c-521b-bd3a-84a39a40bd38",
+      "card_kind": "official_double_faced",
+      "official_name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Extus, Oriq Overlord",
+          "side": "front",
+          "mana_cost": "{1}{W}{B}{B}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Human Warlock",
+          "rules_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
+          "colors": "WB",
+          "color_identity": "WBR",
+          "power_toughness": "2/4",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-007-front.jpg",
+          "image_sha256": "0247de4a9c8590c4cc9aac1945cee430f655484457292bcb7afe6964b12f6129"
+        },
+        {
+          "official_name": "Awaken the Blood Avatar",
+          "side": "back",
+          "mana_cost": "{6}{B}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.\nEach opponent sacrifices a creature of their choice. Create a 3/6 black and red Avatar creature token with haste and \"Whenever this token attacks, it deals 3 damage to each opponent.\"",
+          "colors": "BR",
+          "color_identity": "WBR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-007-back.jpg",
+          "image_sha256": "29fe4f892b958ff6a0696390db71216061d44472b8d88309c1f4a6d7774549e4"
+        }
+      ],
+      "rarity": "special",
+      "notes": "Submitted by @WillPower-exe through issue #10"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "add_printing",
-  "collector_number": "006",
-  "name": "Ghoulcaller Gisa",
-  "version": "2.0.10"
+  "action": "add_official_double_faced",
+  "collector_number": "007",
+  "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+  "version": "2.1.1"
 }

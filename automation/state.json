@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 7,
+  "next_collector": 8,
   "collectors": {
     "001": {
       "status": "active",
@@ -39,6 +39,12 @@
       "player": "Will",
       "uuid": "ed2476c2-c159-59e3-8153-d96a2bcae779",
       "card_kind": "official"
+    },
+    "007": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "aa42d7ed-2f5c-521b-bd3a-84a39a40bd38",
+      "card_kind": "official_double_faced"
     }
   },
   "processed_issues": {
@@ -82,6 +88,12 @@
       "action": "add_printing",
       "version": "2.0.10",
       "result": "Added Ghoulcaller Gisa as WLX #006",
+      "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#10": {
+      "action": "add_official_double_faced",
+      "version": "2.1.1",
+      "result": "Added both faces of Extus, Oriq Overlord // Awaken the Blood Avatar as one linked WLX #007 printing",
       "actor": "WillPower-exe"
     }
   }
