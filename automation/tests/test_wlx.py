@@ -52,6 +52,44 @@ def test_png_bytes(width: int = 600, height: int = 840, offset: int = 0) -> byte
     return payload
 
 
+def extus_details() -> dict[str, object]:
+    return {
+        "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+        "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+        "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar",
+        "layout": "modal_dfc",
+        "verified_at": "2026-08-01",
+        "faces": [
+            {
+                "official_name": "Extus, Oriq Overlord",
+                "side": "front",
+                "mana_cost": "{1}{W}{B}{B}",
+                "mana_value": "4",
+                "type_line": "Legendary Creature — Human Warlock",
+                "rules_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
+                "colors": "WB",
+                "color_identity": "WBR",
+                "power_toughness": "2/4",
+                "loyalty": "",
+                "defense": "",
+            },
+            {
+                "official_name": "Awaken the Blood Avatar",
+                "side": "back",
+                "mana_cost": "{6}{B}{R}",
+                "mana_value": "8",
+                "type_line": "Sorcery",
+                "rules_text": "As an additional cost to cast this spell, you may sacrifice any number of creatures.",
+                "colors": "BR",
+                "color_identity": "WBR",
+                "power_toughness": "",
+                "loyalty": "",
+                "defense": "",
+            },
+        ],
+    }
+
+
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, _format: str, *args: object) -> None:
         return
@@ -481,6 +519,9 @@ class IssueTransactionTests(unittest.TestCase):
         self.attachments = Path(tempfile.mkdtemp())
         (self.attachments / "card.png").write_bytes(test_png_bytes(offset=55))
         (self.attachments / "replacement.png").write_bytes(test_png_bytes(offset=77))
+        (self.attachments / "front.png").write_bytes(test_png_bytes(offset=101))
+        (self.attachments / "back.png").write_bytes(test_png_bytes(offset=131))
+        (self.attachments / "front-replacement.png").write_bytes(test_png_bytes(offset=151))
         self.previous_test_setting = os.environ.get("WLX_TEST_ALLOW_LOCAL_ATTACHMENTS")
         os.environ["WLX_TEST_ALLOW_LOCAL_ATTACHMENTS"] = "1"
 
@@ -545,6 +586,118 @@ Wedding Sol Ring
         self.assertEqual(will["printings"][0]["official_name"], "Sol Ring")
         self.assertTrue((self.fixture.root / "cards" / "Will" / "images" / "WLX-002.png").is_file())
         self.assertEqual(wlxlib.read_json(self.fixture.root / "project.json")["version"], "2.0.1")
+
+    def test_simple_official_form_needs_only_three_fields(self) -> None:
+        with AttachmentServer(self.attachments) as base:
+            body = f"""### Player collection
+Will
+
+### Official Magic card name
+Sol Ring
+
+### Finished card image
+![card.png]({base}card.png)
+"""
+            status, result = self.run_event(
+                self.event(21, "[WLX PRINTING] Sol Ring", body), "result-21"
+            )
+        self.assertEqual(status, 0)
+        self.assertEqual(result["collector_number"], "002")
+        self.assertEqual(self.fixture.catalog("Will")["printings"][0]["official_name"], "Sol Ring")
+
+    def test_double_faced_form_creates_two_native_linked_faces(self) -> None:
+        with AttachmentServer(self.attachments) as base, mock.patch.object(
+            process_issue.wlxlib,
+            "verify_official_double_faced",
+            return_value=extus_details(),
+        ):
+            body = f"""### Player collection
+Will
+
+### Official double-faced Magic card name
+Extus, Oriq Overlord
+
+### Front-face alternate printed title
+_No response_
+
+### Back-face alternate printed title
+_No response_
+
+### Front-face card image
+![front.png]({base}front.png)
+
+### Back-face card image
+![back.png]({base}back.png)
+"""
+            status, result = self.run_event(
+                self.event(22, "[WLX DOUBLE FACED] Extus", body), "result-22"
+            )
+        self.assertEqual(status, 0)
+        self.assertEqual(result["collector_number"], "002")
+        will = self.fixture.catalog("Will")
+        self.assertEqual(len(will["printings"]), 1)
+        paired = will["printings"][0]
+        self.assertEqual(paired["card_kind"], "official_double_faced")
+        self.assertEqual([face["side"] for face in paired["faces"]], ["front", "back"])
+        self.assertTrue(
+            (self.fixture.root / "cards" / "Will" / "images" / "WLX-002-front.png").is_file()
+        )
+        self.assertTrue(
+            (self.fixture.root / "cards" / "Will" / "images" / "WLX-002-back.png").is_file()
+        )
+
+        config, _state, printings = wlxlib.validate_repository(self.fixture.root)
+        self.assertEqual(len(printings), 3)
+        face_printings = [item for item in printings if item.collector_number == "002"]
+        self.assertEqual(len(face_printings), 2)
+        self.assertEqual(len({item.printing_uuid for item in face_printings}), 1)
+        xml = wlxlib.ET.fromstring(wlxlib.xml_bytes(config, printings))
+        nodes = {
+            node.findtext("name"): node
+            for node in xml.findall("./cards/card")
+            if node.findtext("name") in {"Extus, Oriq Overlord", "Awaken the Blood Avatar"}
+        }
+        self.assertEqual(set(nodes), {"Extus, Oriq Overlord", "Awaken the Blood Avatar"})
+        front = nodes["Extus, Oriq Overlord"]
+        back = nodes["Awaken the Blood Avatar"]
+        self.assertEqual(front.findtext("./prop/maintype"), "Creature")
+        self.assertEqual(front.findtext("tablerow"), "2")
+        self.assertEqual(back.findtext("./prop/maintype"), "Sorcery")
+        self.assertEqual(back.findtext("tablerow"), "3")
+        self.assertEqual(front.find("related").attrib.get("attach"), "transform")
+        self.assertEqual(front.findtext("related"), "Awaken the Blood Avatar")
+        self.assertEqual(back.find("related").attrib.get("attach"), "transform")
+        self.assertEqual(back.findtext("related"), "Extus, Oriq Overlord")
+        self.assertEqual(front.find("set").attrib["uuid"], back.find("set").attrib["uuid"])
+        self.assertEqual(front.find("set").attrib["num"], back.find("set").attrib["num"])
+
+        manifest = wlxlib.build_repository(self.fixture.root)
+        self.assertEqual(manifest["printings_count"], 2)
+        self.assertEqual(manifest["face_entries_count"], 3)
+
+    def test_ordinary_form_redirects_double_faced_cards_before_publishing(self) -> None:
+        with AttachmentServer(self.attachments) as base, mock.patch.object(
+            process_issue.wlxlib,
+            "verify_official_name",
+            return_value="Extus, Oriq Overlord // Awaken the Blood Avatar",
+        ), mock.patch.object(
+            process_issue.wlxlib,
+            "scryfall_exact",
+            return_value=extus_details(),
+        ):
+            body = f"""### Player collection
+Will
+### Official Magic card name
+Extus, Oriq Overlord
+### Finished card image
+![front.png]({base}front.png)
+"""
+            status, result = self.run_event(
+                self.event(23, "[WLX PRINTING] Extus", body), "result-23"
+            )
+        self.assertEqual(status, 1)
+        self.assertIn("Add a Double-Faced Printing", result["error"])
+        self.assertEqual(len(self.fixture.catalog("Will")["printings"]), 0)
 
     def test_original_card_form_needs_no_official_identity(self) -> None:
         with AttachmentServer(self.attachments) as base, mock.patch.object(
@@ -822,35 +975,72 @@ Bad
 
 
 class ShippedRepositoryTests(unittest.TestCase):
-    def test_issue_upload_fields_follow_github_form_schema(self) -> None:
-        forms = (
-            "add-printing.yml",
-            "add-original-card.yml",
-            "update-printing.yml",
+    def test_issue_forms_have_expected_chooser_order_and_names(self) -> None:
+        expected = (
+            ("01-add-printing.yml", "name: Add a printing"),
+            ("02-add-double-faced-printing.yml", "name: Add a double-faced printing"),
+            ("03-add-original-card.yml", "name: Add an original card"),
+            ("04-add-printing-advanced.yml", "name: Add a card printing advanced"),
+            ("05-update-printing.yml", "name: Update a printing or its artwork"),
+            ("06-update-double-faced-printing.yml", "name: Update a double-faced printing"),
+            ("07-update-original-card.yml", "name: Update an original card definition"),
+            ("08-remove-printing.yml", "name: Remove a printing"),
         )
-        for filename in forms:
-            lines = (
-                REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE" / filename
-            ).read_text(encoding="utf-8").splitlines()
-            inside_upload = False
-            section = ""
-            found_accept = False
-            for line in lines:
-                if line.startswith("  - type:"):
-                    if inside_upload:
-                        break
-                    inside_upload = line.strip() == "- type: upload"
-                    continue
-                if not inside_upload:
-                    continue
-                if line.startswith("    attributes:"):
-                    section = "attributes"
-                elif line.startswith("    validations:"):
-                    section = "validations"
-                elif line.strip().startswith("accept:"):
-                    self.assertEqual(section, "validations", filename)
-                    found_accept = True
-            self.assertTrue(found_accept, filename)
+        form_dir = REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE"
+        actual_filenames = tuple(
+            path.name for path in sorted(form_dir.glob("[0-9][0-9]-*.yml"))
+        )
+        self.assertEqual(actual_filenames, tuple(filename for filename, _name in expected))
+        for filename, expected_name in expected:
+            first_line = (form_dir / filename).read_text(encoding="utf-8").splitlines()[0]
+            self.assertEqual(first_line, expected_name, filename)
+
+        legacy_filenames = (
+            "add-printing.yml",
+            "add-double-faced-printing.yml",
+            "add-original-card.yml",
+            "add-printing-advanced.yml",
+            "update-printing.yml",
+            "update-double-faced-printing.yml",
+            "update-original-card.yml",
+            "remove-printing.yml",
+        )
+        self.assertFalse(
+            any((form_dir / filename).exists() for filename in legacy_filenames)
+        )
+
+    def test_issue_upload_fields_follow_github_form_schema(self) -> None:
+        upload_count = 0
+        form_dir = REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE"
+        for path in sorted(form_dir.glob("*.yml")):
+            lines = path.read_text(encoding="utf-8").splitlines()
+            upload_starts = [
+                index
+                for index, line in enumerate(lines)
+                if line == "  - type: upload"
+            ]
+            for start in upload_starts:
+                upload_count += 1
+                end = next(
+                    (
+                        index
+                        for index in range(start + 1, len(lines))
+                        if lines[index].startswith("  - type:")
+                    ),
+                    len(lines),
+                )
+                block = lines[start:end]
+                validations_index = next(
+                    (index for index, line in enumerate(block) if line == "    validations:"),
+                    -1,
+                )
+                accept_index = next(
+                    (index for index, line in enumerate(block) if line.strip().startswith("accept:")),
+                    -1,
+                )
+                self.assertGreaterEqual(validations_index, 0, path.name)
+                self.assertGreater(accept_index, validations_index, path.name)
+        self.assertGreaterEqual(upload_count, 8)
 
     def test_seed_preserves_working_wlx_001(self) -> None:
         config, _state, printings = wlxlib.validate_repository(REPOSITORY_ROOT)
