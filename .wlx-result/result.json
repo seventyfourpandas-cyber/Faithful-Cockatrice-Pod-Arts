@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "add_official_double_faced",
-  "collector_number": "008",
-  "name": "Invasion of Tolvada // The Broken Sky",
-  "version": "2.1.2"
+  "action": "add_printing",
+  "collector_number": "009",
+  "name": "Avatar",
+  "version": "2.1.3"
 }

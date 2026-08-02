@@ -110,6 +110,17 @@
       ],
       "rarity": "special",
       "notes": "Submitted by @WillPower-exe through issue #11"
+    },
+    {
+      "collector_number": "009",
+      "uuid": "d3db514b-cbeb-56dc-a448-bbbbac5ea36b",
+      "card_kind": "official",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-009.png",
+      "image_sha256": "415b63215dfd1a78fff07e6892a05fe0292741c6af963c4484661ed2174ce45d",
+      "notes": "Submitted by @WillPower-exe through issue #12",
+      "official_name": "Avatar"
     }
   ]
 }

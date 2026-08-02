@@ -234,6 +234,14 @@
         }
       ],
       "verified_at": "2026-08-02"
+    },
+    "avatar": {
+      "name": "Avatar",
+      "oracle_id": "1bbf9c3a-3791-4523-b832-b163263ffc67",
+      "scryfall_uri": "https://scryfall.com/card/tstx/1/avatar?utm_source=api",
+      "layout": "token",
+      "faces": [],
+      "verified_at": "2026-08-02"
     }
   }
 }
