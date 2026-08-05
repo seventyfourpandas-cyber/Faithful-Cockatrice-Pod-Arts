@@ -1,0 +1,12 @@
+Upload every item beside this file to the ROOT of the existing GitHub repository.
+
+The important new items are:
+  .github/
+  imports/
+  tools/
+  importer_config.json
+  requirements-importer.txt
+  README_IMPORTER.txt
+  RUN_IMPORTER_LOCALLY.bat
+
+Do not upload an extra outer folder named wlx_bulk_importer_package.
