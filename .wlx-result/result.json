@@ -1,8 +1,8 @@
 {
   "ok": true,
   "changed": true,
-  "action": "add_printing",
-  "collector_number": "013",
-  "name": "Eriette of the Charmed Apple",
-  "version": "2.1.8"
+  "action": "remove_printing",
+  "collector_number": "012",
+  "name": "Doc Aurlock, Grizzled Genius",
+  "version": "2.1.9"
 }

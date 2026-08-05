@@ -72,10 +72,11 @@
       "card_kind": "official"
     },
     "012": {
-      "status": "active",
+      "status": "retired",
       "player": "Will",
       "uuid": "a3fb3aaa-0c55-55fc-8e19-0134175117d0",
-      "card_kind": "official"
+      "card_kind": "official",
+      "retired_at": "2026-08-05T01:49:06+00:00"
     },
     "013": {
       "status": "active",
@@ -174,6 +175,12 @@
       "version": "2.1.8",
       "result": "Added Eriette of the Charmed Apple as WLX #013",
       "actor": "WillPower-exe"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#73": {
+      "action": "remove_printing",
+      "version": "2.1.9",
+      "result": "Removed WLX #012 from the active catalog",
+      "actor": "seventyfourpandas-cyber"
     }
   }
 }
