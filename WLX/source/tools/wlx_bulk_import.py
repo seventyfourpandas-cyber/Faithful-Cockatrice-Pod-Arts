@@ -34,6 +34,9 @@ SUPPORTED_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 IGNORED_INPUT_SUFFIXES = {".txt", ".md"}
 UPDATE_RE = re.compile(r"^WLX-(?P<collector>[0-9]{3,})(?:-(?P<face>front|back))?$", re.I)
 DEFAULT_CONFIG = Path("bulk_import_config.json")
+SCRYFALL_REQUEST_INTERVAL_SECONDS = 0.55
+SCRYFALL_RATE_LIMIT_COOLDOWN_SECONDS = 35.0
+SCRYFALL_LOOKUP_ATTEMPTS = 3
 
 
 class BulkImportError(RuntimeError):
@@ -244,6 +247,13 @@ def cache_card_details(
             official_cache["cards"][alias] = details
 
 
+def scryfall_retry_delay(error: wlxlib.WlxError, attempt: int) -> float:
+    """Return a safe retry delay for Scryfall's named-card endpoint."""
+    if re.search(r"\bHTTP\s+429\b", str(error), flags=re.I):
+        return SCRYFALL_RATE_LIMIT_COOLDOWN_SECONDS
+    return float(2**attempt)
+
+
 def official_details(
     requested: str,
     project: dict[str, Any],
@@ -261,22 +271,32 @@ def official_details(
     else:
         final_error = ""
         details: dict[str, Any] | None = None
-        for attempt in range(3):
+        for attempt in range(SCRYFALL_LOOKUP_ATTEMPTS):
             try:
                 details = wlxlib.scryfall_exact(requested, project)
                 final_error = ""
                 break
             except wlxlib.WlxError as exc:
                 final_error = str(exc)
-                if attempt < 2:
-                    time.sleep(2**attempt)
+                if attempt < SCRYFALL_LOOKUP_ATTEMPTS - 1:
+                    delay = scryfall_retry_delay(exc, attempt)
+                    if delay == SCRYFALL_RATE_LIMIT_COOLDOWN_SECONDS:
+                        print(
+                            f"Scryfall rate limit reached while checking {requested!r}; "
+                            f"waiting {delay:g} seconds before retry "
+                            f"{attempt + 2} of {SCRYFALL_LOOKUP_ATTEMPTS}.",
+                            flush=True,
+                        )
+                    time.sleep(delay)
         if final_error:
             raise TemporaryServiceError(
                 f"Could not verify {requested!r} after three attempts: {final_error}"
             )
         if details is None:
             raise ValueError(f"No exact official Magic card named {requested!r} was found")
-        time.sleep(0.12)
+        # /cards/named is limited to two requests per second.  A small buffer
+        # keeps large batches safely below that boundary, including network jitter.
+        time.sleep(SCRYFALL_REQUEST_INTERVAL_SECONDS)
     if not isinstance(details, dict) or not str(details.get("name", "")).strip():
         raise TemporaryServiceError("The official-card lookup returned malformed data")
     cache_card_details(official_cache, requested, details)

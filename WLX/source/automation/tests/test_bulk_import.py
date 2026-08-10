@@ -12,6 +12,7 @@ import unittest
 import uuid
 import zlib
 from pathlib import Path
+from unittest import mock
 
 
 AUTOMATION_DIR = Path(__file__).resolve().parents[1]
@@ -275,6 +276,79 @@ class BulkImportTests(unittest.TestCase):
         )
         self.assertEqual(
             wlxlib.read_json(self.fixture.root / "project.json")["version"], "3.0.0"
+        )
+
+    def test_uncached_named_lookup_waits_between_scryfall_requests(self) -> None:
+        cache = {"schema_version": 1, "cards": {}}
+        details = normal_details("Three Visits")
+        with mock.patch.object(
+            bulk.wlxlib, "scryfall_exact", return_value=details
+        ) as lookup, mock.patch.object(bulk.time, "sleep") as sleeping:
+            result = bulk.official_details(
+                "Three Visits", self.fixture.project, cache, fixture_dir=None
+            )
+        self.assertEqual(result, details)
+        lookup.assert_called_once_with("Three Visits", self.fixture.project)
+        sleeping.assert_called_once_with(bulk.SCRYFALL_REQUEST_INTERVAL_SECONDS)
+
+    def test_scryfall_429_waits_full_cooldown_before_retrying(self) -> None:
+        cache = {"schema_version": 1, "cards": {}}
+        details = normal_details("Umbral Collar Zealot")
+        rate_limit = wlxlib.WlxError(
+            "Scryfall returned HTTP 429; try the submission again later"
+        )
+        with mock.patch.object(
+            bulk.wlxlib, "scryfall_exact", side_effect=[rate_limit, details]
+        ) as lookup, mock.patch.object(bulk.time, "sleep") as sleeping:
+            result = bulk.official_details(
+                "Umbral Collar Zealot",
+                self.fixture.project,
+                cache,
+                fixture_dir=None,
+            )
+        self.assertEqual(result, details)
+        self.assertEqual(lookup.call_count, 2)
+        self.assertEqual(
+            [call.args[0] for call in sleeping.call_args_list],
+            [
+                bulk.SCRYFALL_RATE_LIMIT_COOLDOWN_SECONDS,
+                bulk.SCRYFALL_REQUEST_INTERVAL_SECONDS,
+            ],
+        )
+
+    def test_repeated_scryfall_429_leaves_entire_batch_waiting(self) -> None:
+        incoming = self.fixture.incoming(
+            "Will", "Umbral Collar Zealot.png", test_png_bytes(offset=95)
+        )
+        cache_path = self.fixture.root / "automation" / "data" / "official_cards_cache.json"
+        cache_before = cache_path.read_bytes()
+        rate_limit = wlxlib.WlxError(
+            "Scryfall returned HTTP 429; try the submission again later"
+        )
+        with mock.patch.object(
+            bulk.wlxlib,
+            "scryfall_exact",
+            side_effect=[rate_limit] * bulk.SCRYFALL_LOOKUP_ATTEMPTS,
+        ), mock.patch.object(bulk.time, "sleep") as sleeping:
+            with self.assertRaisesRegex(bulk.TemporaryServiceError, "HTTP 429"):
+                bulk.run(
+                    self.fixture.root,
+                    fixture_dir=None,
+                    token_fixture_dir=self.fixture.token_fixtures,
+                    batch_id="rate-limit-test",
+                )
+        self.assertTrue(incoming.exists())
+        self.assertEqual(cache_path.read_bytes(), cache_before)
+        self.assertEqual(
+            len(wlxlib.load_player_catalog(self.fixture.root, "Will")["printings"]),
+            0,
+        )
+        self.assertEqual(
+            wlxlib.read_json(self.fixture.root / "project.json")["version"], "3.0.0"
+        )
+        self.assertEqual(
+            [call.args[0] for call in sleeping.call_args_list],
+            [bulk.SCRYFALL_RATE_LIMIT_COOLDOWN_SECONDS] * 2,
         )
 
     def test_double_faced_images_become_one_linked_printing(self) -> None:
