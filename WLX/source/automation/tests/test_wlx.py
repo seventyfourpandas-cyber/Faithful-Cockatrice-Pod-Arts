@@ -22,7 +22,8 @@ from unittest import mock
 
 
 AUTOMATION_DIR = Path(__file__).resolve().parents[1]
-REPOSITORY_ROOT = AUTOMATION_DIR.parent
+SOURCE_ROOT = AUTOMATION_DIR.parent
+REPOSITORY_ROOT = SOURCE_ROOT.parents[1]
 sys.path.insert(0, str(AUTOMATION_DIR))
 import process_issue  # noqa: E402
 import wlxlib  # noqa: E402
@@ -148,7 +149,7 @@ class RepositoryFixture:
             )
         (self.root / "automation" / "data").mkdir(parents=True)
         shutil.copytree(
-            REPOSITORY_ROOT / "automation" / "installer_source",
+            SOURCE_ROOT / "automation" / "installer_source",
             self.root / "automation" / "installer_source",
         )
         self.config = {
@@ -513,7 +514,7 @@ class CorePublisherTests(unittest.TestCase):
             finish = updater.index("\n'@", start)
             embedded_icon = base64.b64decode(updater[start:finish], validate=True)
             source_icon = (
-                REPOSITORY_ROOT / "automation" / "installer_source" / "WLX_Shortcut.ico"
+                SOURCE_ROOT / "automation" / "installer_source" / "WLX_Shortcut.ico"
             ).read_bytes()
             self.assertEqual(embedded_icon, source_icon)
             self.assertIn(hashlib.sha256(source_icon).hexdigest(), updater)
@@ -1161,18 +1162,54 @@ class ShippedRepositoryTests(unittest.TestCase):
         self.assertEqual(config["set_code"], "WLX")
 
     def test_shipped_manifest_and_installer_are_current(self) -> None:
-        project = wlxlib.read_json(REPOSITORY_ROOT / "project.json")
-        manifest = wlxlib.read_json(REPOSITORY_ROOT / "manifest.json")
+        project = wlxlib.read_json(
+            wlxlib.source_path(REPOSITORY_ROOT, wlxlib.PROJECT_RELATIVE)
+        )
+        publication = wlxlib.published_root(REPOSITORY_ROOT)
+        manifest = wlxlib.read_json(publication / "manifest.json")
         self.assertEqual(manifest["version"], project["version"])
         self.assertEqual(manifest["package_id"], project["package_id"])
         self.assertEqual(manifest["publisher_schema_version"], 2)
         self.assertIn("cockatrice_installer", manifest)
         self.assertTrue(
-            (REPOSITORY_ROOT / "Willexs_Whimsical_Arts_Cockatrice_Installer.zip").is_file()
+            (
+                publication
+                / "Willexs_Whimsical_Arts_Cockatrice_Installer.zip"
+            ).is_file()
         )
 
+    def test_every_shipped_url_uses_the_published_directory(self) -> None:
+        project = wlxlib.read_json(
+            wlxlib.source_path(REPOSITORY_ROOT, wlxlib.PROJECT_RELATIVE)
+        )
+        manifest = wlxlib.read_json(
+            wlxlib.published_root(REPOSITORY_ROOT) / "manifest.json"
+        )
+        expected_base = (
+            "https://raw.githubusercontent.com/seventyfourpandas-cyber/"
+            "Faithful-Cockatrice-Pod-Arts/main/WLX/published/"
+        )
+        self.assertEqual(project["public_base_url"], expected_base)
+        self.assertEqual(manifest["base_url"], expected_base)
+        self.assertTrue(manifest["cockatrice_xml"]["url"].startswith(expected_base))
+        self.assertTrue(
+            manifest["cockatrice_installer"]["url"].startswith(expected_base)
+        )
+        for printing in manifest["printings"]:
+            self.assertTrue(printing["picture_url"].startswith(expected_base))
+        for item in manifest["files"]:
+            self.assertTrue(item["url"].startswith(expected_base))
+
+    def test_workflows_run_the_organized_source_tree(self) -> None:
+        workflow_dir = REPOSITORY_ROOT / ".github" / "workflows"
+        for name in ("import-wlx-cards.yml", "automated-wlx-publisher.yml"):
+            payload = (workflow_dir / name).read_text(encoding="utf-8")
+            self.assertIn("WLX/source/automation", payload)
+            self.assertNotIn("-r automation/", payload)
+            self.assertNotIn("python automation/", payload)
+
     def test_public_payload_is_fetchable_over_http(self) -> None:
-        with AttachmentServer(REPOSITORY_ROOT) as base:
+        with AttachmentServer(wlxlib.published_root(REPOSITORY_ROOT)) as base:
             with urllib.request.urlopen(base + "manifest.json", timeout=5) as response:
                 manifest = json.load(response)
             with urllib.request.urlopen(base + manifest["cockatrice_xml"]["path"], timeout=5) as response:
@@ -1181,6 +1218,25 @@ class ShippedRepositoryTests(unittest.TestCase):
                 hashlib.sha256(xml_payload).hexdigest(),
                 manifest["cockatrice_xml"]["sha256"],
             )
+
+    def test_organized_repository_has_only_intentional_root_entries(self) -> None:
+        visible = {
+            path.name
+            for path in REPOSITORY_ROOT.iterdir()
+            if path.name != ".git" and not path.name.startswith("wlx-publish-")
+        }
+        self.assertEqual(visible, {".github", ".gitignore", "README.md", "WLX", "imports"})
+        for obsolete in (
+            "automation",
+            "cards",
+            "catalog.json",
+            "manifest.json",
+            "customsets",
+            "images",
+            "cockatrice-installer",
+            "STATUS.md",
+        ):
+            self.assertFalse((REPOSITORY_ROOT / obsolete).exists(), obsolete)
 
 
 if __name__ == "__main__":

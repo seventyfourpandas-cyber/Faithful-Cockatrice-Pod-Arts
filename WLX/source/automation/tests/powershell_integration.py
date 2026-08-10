@@ -22,7 +22,7 @@ from pathlib import Path
 
 
 AUTOMATION_DIR = Path(__file__).resolve().parents[1]
-SOURCE_REPOSITORY = AUTOMATION_DIR.parent
+SOURCE_REPOSITORY = AUTOMATION_DIR.parents[2]
 sys.path.insert(0, str(AUTOMATION_DIR))
 import wlxlib  # noqa: E402
 
@@ -104,7 +104,7 @@ def main(*, require_pwsh: bool) -> int:
         shutil.copytree(
             SOURCE_REPOSITORY,
             repository,
-            ignore=shutil.ignore_patterns("__pycache__", "*.pyc", ".wlx-result"),
+            ignore=shutil.ignore_patterns(".git", "__pycache__", "*.pyc", ".wlx-result"),
         )
         local_app_data = test_root / "local-app-data"
         temp_dir = test_root / "windows-temp"
@@ -138,14 +138,18 @@ def main(*, require_pwsh: bool) -> int:
             }
         )
 
-        with PublicationServer(repository) as base_url:
-            project_path = repository / "project.json"
+        with PublicationServer(repository) as repository_url:
+            base_url = repository_url + "WLX/published/"
+            project_path = wlxlib.source_path(repository, wlxlib.PROJECT_RELATIVE)
             project = wlxlib.read_json(project_path)
             project["public_base_url"] = base_url
             wlxlib.write_json(project_path, project)
             wlxlib.build_repository(repository)
 
-            installer_zip = repository / str(project["installer_zip_filename"])
+            installer_zip = (
+                wlxlib.published_root(repository)
+                / str(project["installer_zip_filename"])
+            )
             launch_dir = test_root / "installer-launch"
             with zipfile.ZipFile(installer_zip) as archive:
                 archive.extractall(launch_dir)
@@ -163,7 +167,12 @@ def main(*, require_pwsh: bool) -> int:
             if not state_path.is_file():
                 raise AssertionError(f"Updater did not create installed state:\n{first_output}")
             installed_icon = install_root / "WLX_Shortcut.ico"
-            source_icon = repository / "automation" / "installer_source" / "WLX_Shortcut.ico"
+            source_icon = (
+                wlxlib.source_root(repository)
+                / "automation"
+                / "installer_source"
+                / "WLX_Shortcut.ico"
+            )
             if not installed_icon.is_file():
                 raise AssertionError("Updater did not install the embedded black shortcut icon")
             if wlxlib.sha256_file(installed_icon) != wlxlib.sha256_file(source_icon):
@@ -200,9 +209,9 @@ def main(*, require_pwsh: bool) -> int:
             cache_file.write_bytes(b"old cached picture")
 
             # Publish replacement artwork while retaining the permanent UUID.
-            source_image = repository / "cards" / "Alex" / "images" / "WLX-001.png"
+            source_image = wlxlib.player_images_path(repository, "Alex") / "WLX-001.png"
             source_image.write_bytes(source_image.read_bytes() + b"\nWLX integration replacement\n")
-            alex_catalog_path = repository / "cards" / "Alex" / "catalog.json"
+            alex_catalog_path = wlxlib.player_catalog_path(repository, "Alex")
             alex_catalog = wlxlib.read_json(alex_catalog_path)
             alex_catalog["printings"][0]["image_sha256"] = wlxlib.sha256_file(source_image)
             wlxlib.write_json(alex_catalog_path, alex_catalog)
@@ -245,7 +254,7 @@ def main(*, require_pwsh: bool) -> int:
 
             # A bad hosted hash must fail without replacing the working XML.
             safe_xml_hash = wlxlib.sha256_file(installed_xml)
-            manifest_path = repository / "manifest.json"
+            manifest_path = wlxlib.published_root(repository) / "manifest.json"
             manifest = wlxlib.read_json(manifest_path)
             manifest["cockatrice_xml"]["sha256"] = "0" * 64
             wlxlib.write_json(manifest_path, manifest)

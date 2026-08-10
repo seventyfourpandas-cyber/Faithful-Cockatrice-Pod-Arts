@@ -14,9 +14,10 @@ The complete filename rules and examples are in
 4. Read `imports/LAST_RUN.md` if anything needs attention.
 5. Have players open their normal WLX Cockatrice shortcut.
 
-The importer writes only canonical source files under `cards/<Player>/`, then
+The importer writes only canonical source files under `WLX/source/cards/<Player>/`, then
 the existing builder generates the XML, public images, manifest, readable
-catalog, installer, and status. Never edit generated publication files by hand.
+catalog, installer, and status under `WLX/published/`. Never edit generated
+publication files by hand.
 
 ## Add and update conventions
 
@@ -60,12 +61,12 @@ result report and collector-number sequence easiest to read.
 
 ## Source layout
 
-- `cards/Alex/catalog.json` and `cards/Alex/images/`
-- `cards/Will/catalog.json` and `cards/Will/images/`
-- `cards/Miguel/catalog.json` and `cards/Miguel/images/`
-- `cards/Jay/catalog.json` and `cards/Jay/images/`
+- `WLX/source/cards/Alex/catalog.json` and `WLX/source/cards/Alex/images/`
+- `WLX/source/cards/Will/catalog.json` and `WLX/source/cards/Will/images/`
+- `WLX/source/cards/Miguel/catalog.json` and `WLX/source/cards/Miguel/images/`
+- `WLX/source/cards/Jay/catalog.json` and `WLX/source/cards/Jay/images/`
 
-Generated `images/WLX/` combines every active public printing. The repository
+Generated `WLX/published/images/WLX/` combines every active public printing. The repository
 is public because Cockatrice clients retrieve the manifest, XML, and artwork
 without credentials; treat every uploaded image as public material.
 
@@ -74,11 +75,10 @@ without credentials; treat every uploaded image as public material.
 After an intentional source edit, run:
 
 ```text
-python automation/build.py --repository-root .
-python -m unittest discover -s automation/tests -v
-python automation/tests/schema_validation.py --require-lxml
-python automation/tests/powershell_integration.py --require-pwsh
+python WLX/source/automation/build.py --repository-root .
+python -m unittest discover -s WLX/source/automation/tests -v
+python WLX/source/automation/tests/schema_validation.py --require-lxml
+python WLX/source/automation/tests/powershell_integration.py --require-pwsh
 ```
 
 Never edit only a generated file and expect a later build to preserve it.
-

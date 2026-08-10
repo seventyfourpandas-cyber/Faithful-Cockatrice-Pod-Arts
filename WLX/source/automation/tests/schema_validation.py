@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 HERE = Path(__file__).resolve().parent
-REPOSITORY_ROOT = HERE.parents[1]
+REPOSITORY_ROOT = HERE.parents[3]
 
 
 def main(*, require_lxml: bool) -> int:
@@ -21,7 +21,15 @@ def main(*, require_lxml: bool) -> int:
         return 0
 
     schema = etree.XMLSchema(etree.parse(str(HERE / "cards_v4.xsd")))
-    document = etree.parse(str(REPOSITORY_ROOT / "customsets" / "willex_whimsical_arts.xml"))
+    document = etree.parse(
+        str(
+            REPOSITORY_ROOT
+            / "WLX"
+            / "published"
+            / "customsets"
+            / "willex_whimsical_arts.xml"
+        )
+    )
     schema.assertValid(document)
     print("PASS: generated XML conforms to Cockatrice card database v4 XSD")
     return 0

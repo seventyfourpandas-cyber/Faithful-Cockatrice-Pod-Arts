@@ -6,12 +6,12 @@ both the editable per-player source and the verified public update payload.
 
 ## Install for Cockatrice
 
-Download [Willexs_Whimsical_Arts_Cockatrice_Installer.zip](./Willexs_Whimsical_Arts_Cockatrice_Installer.zip),
+Download [Willexs_Whimsical_Arts_Cockatrice_Installer.zip](./WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip),
 extract it, close Cockatrice, and run `INSTALL_OR_UPDATE.bat` once.
 
 The installer creates a **Willex's Whimsical Arts** desktop shortcut. Use that
 shortcut later: it verifies updates, installs the current WLX XML and artwork
-references, and opens Cockatrice. See [PLAYER_GUIDE.md](./PLAYER_GUIDE.md).
+references, and opens Cockatrice. See [PLAYER_GUIDE.md](./WLX/docs/PLAYER_GUIDE.md).
 
 ## Add or replace artwork
 
@@ -30,7 +30,7 @@ The **Import WLX card art** Action verifies the whole persistent batch, updates
 the canonical player catalogs, rebuilds and tests WLX, removes successful
 incoming copies, and makes one publication commit.
 
-[BULK_IMPORT_GUIDE.md](./BULK_IMPORT_GUIDE.md) documents normal cards,
+[BULK_IMPORT_GUIDE.md](./WLX/docs/BULK_IMPORT_GUIDE.md) documents normal cards,
 automatically paired double-faced cards, linked token art, multiple artworks,
 and collector-number artwork replacement.
 
@@ -43,16 +43,15 @@ is permanently retired rather than reused.
 ## Source organization
 
 ```text
-imports/incoming/        temporary repository-backed intake queue
-imports/needs-attention/ individual permanent input problems
-cards/<Player>/          canonical source catalogs and images
-automation/              validation, XML generation, and installer build
-customsets/              generated Cockatrice XML
-images/WLX/              generated public artwork directory
+.github/                 GitHub workflows and the removal form
+imports/                 card-art intake, results, and needs-attention queue
+WLX/docs/                owner, player, status, and import documentation
+WLX/source/              canonical catalogs, automation, tools, and configuration
+WLX/published/           public XML, images, manifest, catalogs, and installer
 ```
 
-Do not manually edit generated `catalog.json`, `manifest.json`,
-`catalog.resolved.csv`, `customsets/`, `images/WLX/`, or the installer ZIP.
+Do not manually edit generated files under `WLX/published/`; the builder replaces
+them from the canonical data under `WLX/source/`.
 
 ## Safety model
 
@@ -68,7 +67,6 @@ Do not manually edit generated `catalog.json`, `manifest.json`,
 
 ## Notices
 
-See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md). This fan-created,
+See [THIRD_PARTY_NOTICES.md](./WLX/docs/THIRD_PARTY_NOTICES.md). This fan-created,
 non-commercial project is not affiliated with or endorsed by Wizards of the
 Coast or the Cockatrice project.
-

@@ -34,11 +34,15 @@ from pathlib import Path
 from typing import Any, Iterable
 
 
+SOURCE_RELATIVE = Path("WLX") / "source"
+PUBLISHED_RELATIVE = Path("WLX") / "published"
+DOCS_RELATIVE = Path("WLX") / "docs"
 PLAYER_CATALOG_RELATIVE = Path("cards")
 STATE_RELATIVE = Path("automation") / "state.json"
 OFFICIAL_CACHE_RELATIVE = Path("automation") / "data" / "official_cards_cache.json"
 INSTALLER_SOURCE_RELATIVE = Path("automation") / "installer_source"
 PROJECT_RELATIVE = Path("project.json")
+STATUS_RELATIVE = Path("STATUS.md")
 COCKATRICE_TOKEN_DATABASE_URL = (
     "https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml"
 )
@@ -50,6 +54,7 @@ SEMVER_RE = re.compile(r"^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$")
 COLOR_RE = re.compile(r"^[WUBRG]*$")
 MANA_COST_RE = re.compile(r"(?:\{[^{}\s]+\})+")
 ALLOWED_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
+MAX_SOURCE_IMAGE_BYTES = 100 * 1024 * 1024
 ALLOWED_RARITIES = {"common", "uncommon", "rare", "mythic", "special", "bonus"}
 DOUBLE_FACED_LAYOUTS = {
     "double_faced_token",
@@ -260,12 +265,41 @@ def player_names(config: dict[str, Any]) -> list[str]:
     return normalized
 
 
+def source_root(root: Path) -> Path:
+    """Return the canonical source root for either the v3 or legacy layout."""
+    root = root.resolve()
+    organized = root / SOURCE_RELATIVE
+    if organized.is_dir():
+        return organized
+    return root
+
+
+def published_root(root: Path) -> Path:
+    """Return the public payload root while retaining isolated legacy fixtures."""
+    root = root.resolve()
+    if source_root(root) != root:
+        return root / PUBLISHED_RELATIVE
+    return root
+
+
+def docs_root(root: Path) -> Path:
+    """Return the documentation root while retaining isolated legacy fixtures."""
+    root = root.resolve()
+    if source_root(root) != root:
+        return root / DOCS_RELATIVE
+    return root
+
+
+def source_path(root: Path, relative: Path) -> Path:
+    return source_root(root) / relative
+
+
 def player_catalog_path(root: Path, player: str) -> Path:
-    return root / PLAYER_CATALOG_RELATIVE / player / "catalog.json"
+    return source_path(root, PLAYER_CATALOG_RELATIVE) / player / "catalog.json"
 
 
 def player_images_path(root: Path, player: str) -> Path:
-    return root / PLAYER_CATALOG_RELATIVE / player / "images"
+    return source_path(root, PLAYER_CATALOG_RELATIVE) / player / "images"
 
 
 def empty_player_catalog(player: str) -> dict[str, Any]:
@@ -291,7 +325,7 @@ def load_player_catalog(root: Path, player: str) -> dict[str, Any]:
 
 
 def load_all_catalogs(root: Path, config: dict[str, Any] | None = None) -> dict[str, dict[str, Any]]:
-    config = config or read_json(root / PROJECT_RELATIVE)
+    config = config or read_json(source_path(root, PROJECT_RELATIVE))
     return {player: load_player_catalog(root, player) for player in player_names(config)}
 
 
@@ -383,7 +417,7 @@ def custom_definition_from_raw(player: str, raw: dict[str, Any]) -> CustomDefini
 
 
 def load_official_cache(root: Path) -> dict[str, Any]:
-    cache = read_json(root / OFFICIAL_CACHE_RELATIVE)
+    cache = read_json(source_path(root, OFFICIAL_CACHE_RELATIVE))
     if cache.get("schema_version") != 1 or not isinstance(cache.get("cards"), dict):
         raise WlxError("Official-card cache is malformed")
     return cache
@@ -573,7 +607,7 @@ def verify_official_token_for_creator(
 
 
 def verify_official_name(root: Path, requested: str, config: dict[str, Any]) -> str:
-    cache_path = root / OFFICIAL_CACHE_RELATIVE
+    cache_path = source_path(root, OFFICIAL_CACHE_RELATIVE)
     cache = load_official_cache(root)
     cached = cache["cards"].get(requested.casefold())
     if isinstance(cached, dict) and cached.get("name"):
@@ -593,7 +627,7 @@ def verify_official_double_faced(
     root: Path, requested: str, config: dict[str, Any]
 ) -> dict[str, Any]:
     """Resolve one official two-faced physical card and cache both face names."""
-    cache_path = root / OFFICIAL_CACHE_RELATIVE
+    cache_path = source_path(root, OFFICIAL_CACHE_RELATIVE)
     cache = load_official_cache(root)
     cached = cache["cards"].get(requested.casefold())
     if (
@@ -628,8 +662,8 @@ def verify_official_double_faced(
 
 def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], list[ResolvedPrinting]]:
     root = root.resolve()
-    config = read_json(root / PROJECT_RELATIVE)
-    state = read_json(root / STATE_RELATIVE)
+    config = read_json(source_path(root, PROJECT_RELATIVE))
+    state = read_json(source_path(root, STATE_RELATIVE))
     catalogs = load_all_catalogs(root, config)
     official_cache = load_official_cache(root)
 
@@ -729,8 +763,10 @@ def validate_repository(root: Path) -> tuple[dict[str, Any], dict[str, Any], lis
         size = image_path.stat().st_size
         if size < 10_000:
             raise WlxError(f"WLX #{collector} image is suspiciously small")
-        if size > 10 * 1024 * 1024:
-            raise WlxError(f"WLX #{collector} image exceeds GitHub's 10 MiB form limit")
+        if size > MAX_SOURCE_IMAGE_BYTES:
+            raise WlxError(
+                f"WLX #{collector} image exceeds the {MAX_SOURCE_IMAGE_BYTES // (1024 * 1024)} MiB source limit"
+            )
         width, height = image_dimensions(image_path)
         if width < 300 or height < 400:
             raise WlxError(f"WLX #{collector} image is only {width}x{height}; minimum is 300x400")
@@ -1328,7 +1364,7 @@ def build_repository(root: Path) -> dict[str, Any]:
         write_resolved_csv(staging / "catalog.resolved.csv", printings)
 
         manifest_url = url_for(base_url, "manifest.json")
-        source_dir = root / INSTALLER_SOURCE_RELATIVE
+        source_dir = source_path(root, INSTALLER_SOURCE_RELATIVE)
         shortcut_icon_path = source_dir / "WLX_Shortcut.ico"
         try:
             shortcut_icon = shortcut_icon_path.read_bytes()
@@ -1454,22 +1490,40 @@ def build_repository(root: Path) -> dict[str, Any]:
                 "This file is generated automatically. Add or replace art through imports/incoming; use Issues only to remove a printing.",
             ]
         )
-        (staging / "STATUS.md").write_text("\n".join(status_lines) + "\n", encoding="utf-8", newline="\n")
-        (staging / ".nojekyll").write_text("", encoding="utf-8")
+        (staging / "STATUS.md").write_text(
+            "\n".join(status_lines) + "\n", encoding="utf-8", newline="\n"
+        )
 
-        _replace_directory(staging / "customsets", root / "customsets")
-        _replace_directory(staging / "images" / set_code, root / "images" / set_code)
-        _replace_directory(staging / "cockatrice-installer", root / "cockatrice-installer")
-        for filename in ("catalog.json", "catalog.resolved.csv", "manifest.json", "STATUS.md", ".nojekyll", installer_zip_name):
-            _replace_file(staging / filename, root / filename)
-        for obsolete in root.glob("Willexs_Whimsical_Arts_Friend_Installer_v*.zip"):
-            obsolete.unlink()
-        obsolete_stable = root / "Willexs_Whimsical_Arts_Friend_Installer.zip"
-        if obsolete_stable.exists():
-            obsolete_stable.unlink()
-        obsolete_directory = root / "friend-installer"
-        if obsolete_directory.exists():
-            shutil.rmtree(obsolete_directory)
+        publication = published_root(root)
+        documentation = docs_root(root)
+        _replace_directory(staging / "customsets", publication / "customsets")
+        _replace_directory(
+            staging / "images" / set_code, publication / "images" / set_code
+        )
+        _replace_directory(
+            staging / "cockatrice-installer", publication / "cockatrice-installer"
+        )
+        for filename in (
+            "catalog.json",
+            "catalog.resolved.csv",
+            "manifest.json",
+            installer_zip_name,
+        ):
+            _replace_file(staging / filename, publication / filename)
+        _replace_file(staging / "STATUS.md", documentation / STATUS_RELATIVE)
+        for cleanup_root in {root, publication}:
+            for obsolete in cleanup_root.glob(
+                "Willexs_Whimsical_Arts_Friend_Installer_v*.zip"
+            ):
+                obsolete.unlink()
+            obsolete_stable = (
+                cleanup_root / "Willexs_Whimsical_Arts_Friend_Installer.zip"
+            )
+            if obsolete_stable.exists():
+                obsolete_stable.unlink()
+            obsolete_directory = cleanup_root / "friend-installer"
+            if obsolete_directory.exists():
+                shutil.rmtree(obsolete_directory)
         old_readme = root / "README.txt"
         if old_readme.exists():
             old_readme.unlink()

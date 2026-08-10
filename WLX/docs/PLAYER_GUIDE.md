@@ -2,7 +2,7 @@
 
 ## First installation
 
-1. Download `Willexs_Whimsical_Arts_Cockatrice_Installer.zip` from the repository's main page.
+1. Open `WLX/published/` in the repository and download `Willexs_Whimsical_Arts_Cockatrice_Installer.zip`.
 2. Extract the ZIP to a normal folder.
 3. Close Cockatrice.
 4. Double-click `INSTALL_OR_UPDATE.bat`.

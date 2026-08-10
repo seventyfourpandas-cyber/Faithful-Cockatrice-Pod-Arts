@@ -15,11 +15,12 @@ from pathlib import Path
 
 
 AUTOMATION_DIR = Path(__file__).resolve().parents[1]
-REPOSITORY_ROOT = AUTOMATION_DIR.parent
+SOURCE_ROOT = AUTOMATION_DIR.parent
+REPOSITORY_ROOT = SOURCE_ROOT.parents[1]
 sys.path.insert(0, str(AUTOMATION_DIR))
 import wlxlib  # noqa: E402
 
-IMPORTER_PATH = REPOSITORY_ROOT / "tools" / "wlx_bulk_import.py"
+IMPORTER_PATH = SOURCE_ROOT / "tools" / "wlx_bulk_import.py"
 SPEC = importlib.util.spec_from_file_location("wlx_bulk_import", IMPORTER_PATH)
 assert SPEC and SPEC.loader
 bulk = importlib.util.module_from_spec(SPEC)
@@ -136,7 +137,7 @@ class Fixture:
             )
         (self.root / "imports" / "needs-attention").mkdir(parents=True)
         (self.root / "automation" / "data").mkdir(parents=True)
-        shutil.copy2(REPOSITORY_ROOT / "bulk_import_config.json", self.root)
+        shutil.copy2(SOURCE_ROOT / "bulk_import_config.json", self.root)
         self.project = {
             "schema_version": 2,
             "package_id": "bulk-test-wlx",

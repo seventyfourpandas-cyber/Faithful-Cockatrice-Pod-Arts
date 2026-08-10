@@ -16,7 +16,7 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument(
         "--repository-root",
         type=Path,
-        default=Path(__file__).resolve().parents[1],
+        default=Path(__file__).resolve().parents[3],
     )
     result.add_argument(
         "--validate-only",
@@ -56,4 +56,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

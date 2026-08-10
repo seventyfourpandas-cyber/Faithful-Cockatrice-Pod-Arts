@@ -871,8 +871,8 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
         full_name = str(repository.get("full_name", "repository"))
         issue_key = f"{full_name}#{issue_number}"
 
-        config = wlxlib.read_json(root / wlxlib.PROJECT_RELATIVE)
-        state = wlxlib.read_json(root / wlxlib.STATE_RELATIVE)
+        config = wlxlib.read_json(wlxlib.source_path(root, wlxlib.PROJECT_RELATIVE))
+        state = wlxlib.read_json(wlxlib.source_path(root, wlxlib.STATE_RELATIVE))
         catalogs = wlxlib.load_all_catalogs(root, config)
         processed = state.setdefault("processed_issues", {})
         if issue_key in processed:
@@ -956,8 +956,8 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
             "actor": actor,
         }
         wlxlib.persist_catalogs(root, catalogs)
-        wlxlib.write_json(root / wlxlib.STATE_RELATIVE, state)
-        wlxlib.write_json(root / wlxlib.PROJECT_RELATIVE, config)
+        wlxlib.write_json(wlxlib.source_path(root, wlxlib.STATE_RELATIVE), state)
+        wlxlib.write_json(wlxlib.source_path(root, wlxlib.PROJECT_RELATIVE), config)
         wlxlib.validate_repository(root)
         message = (
             "The automated publisher completed this request successfully.\n\n"
@@ -992,7 +992,7 @@ def process(event_path: Path, root: Path, result_dir: Path) -> int:
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description="Process a WLX GitHub Issue Form submission")
     result.add_argument("--event", type=Path, required=True)
-    result.add_argument("--repository-root", type=Path, default=Path(__file__).resolve().parents[1])
+    result.add_argument("--repository-root", type=Path, default=Path(__file__).resolve().parents[3])
     result.add_argument("--result-dir", type=Path, required=True)
     return result
 

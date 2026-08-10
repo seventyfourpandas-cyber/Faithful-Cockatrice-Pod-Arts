@@ -23,8 +23,9 @@ from pathlib import Path
 from typing import Any, Callable
 
 
-REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-AUTOMATION_DIR = REPOSITORY_ROOT / "automation"
+SOURCE_ROOT = Path(__file__).resolve().parents[1]
+REPOSITORY_ROOT = SOURCE_ROOT.parents[1]
+AUTOMATION_DIR = SOURCE_ROOT / "automation"
 sys.path.insert(0, str(AUTOMATION_DIR))
 import wlxlib  # noqa: E402
 
@@ -106,6 +107,8 @@ def utc_now() -> str:
 
 def load_config(root: Path, config_path: Path) -> dict[str, Any]:
     path = config_path if config_path.is_absolute() else root / config_path
+    if not path.is_file() and not config_path.is_absolute():
+        path = wlxlib.source_root(root) / config_path
     value = wlxlib.read_json(path)
     required = {
         "schema_version",
@@ -869,8 +872,8 @@ def run(
             "no files were changed."
         )
 
-    project = wlxlib.read_json(root / wlxlib.PROJECT_RELATIVE)
-    state = wlxlib.read_json(root / wlxlib.STATE_RELATIVE)
+    project = wlxlib.read_json(wlxlib.source_path(root, wlxlib.PROJECT_RELATIVE))
+    state = wlxlib.read_json(wlxlib.source_path(root, wlxlib.STATE_RELATIVE))
     catalogs = wlxlib.load_all_catalogs(root, project)
     official_cache = wlxlib.load_official_cache(root)
     plan = create_plan(
@@ -933,9 +936,11 @@ def run(
 
     if changed_publication:
         wlxlib.persist_catalogs(root, catalogs)
-        wlxlib.write_json(root / wlxlib.STATE_RELATIVE, state)
-        wlxlib.write_json(root / wlxlib.PROJECT_RELATIVE, project)
-    wlxlib.write_json(root / wlxlib.OFFICIAL_CACHE_RELATIVE, official_cache)
+        wlxlib.write_json(wlxlib.source_path(root, wlxlib.STATE_RELATIVE), state)
+        wlxlib.write_json(wlxlib.source_path(root, wlxlib.PROJECT_RELATIVE), project)
+    wlxlib.write_json(
+        wlxlib.source_path(root, wlxlib.OFFICIAL_CACHE_RELATIVE), official_cache
+    )
     wlxlib.validate_repository(root)
 
     successful_images = [item.image for item in plan.singles]

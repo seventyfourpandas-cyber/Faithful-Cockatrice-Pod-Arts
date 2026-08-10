@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-05T01:49:06+00:00</createdAt>
-    <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/manifest.json</sourceUrl>
-    <sourceVersion>2.1.9</sourceVersion>
+    <createdAt>2026-08-10T16:32:25+00:00</createdAt>
+    <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
+    <sourceVersion>3.0.0</sourceVersion>
   </info>
   <sets>
     <set>
@@ -18,11 +18,11 @@
   <cards>
     <card>
       <name>Angel of Vitality</name>
-      <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
+      <set uuid="f6a9cc3e-beac-5fac-84aa-ca36b34d7d10" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/001-680c22b71393.png" num="001" rarity="rare" flavorName="Alex, Divine Priest">WLX</set>
     </card>
     <card>
       <name>Armaggon, Future Shark</name>
-      <set uuid="0284d1b8-7535-5b6e-9898-ff2da5a9bd83" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/010-c7a5fe7fdcda.jpg" num="010" rarity="special">WLX</set>
+      <set uuid="0284d1b8-7535-5b6e-9898-ff2da5a9bd83" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/010-c7a5fe7fdcda.jpg" num="010" rarity="special">WLX</set>
     </card>
     <card>
       <name>Awaken the Blood Avatar</name>
@@ -37,17 +37,17 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
         <colors>BR</colors>
         <coloridentity>WBR</coloridentity>
       </prop>
-      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/007-back-29fe4f892b95.jpg" num="007" rarity="special">WLX</set>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-back-29fe4f892b95.jpg" num="007" rarity="special">WLX</set>
       <related attach="transform">Extus, Oriq Overlord</related>
       <tablerow>3</tablerow>
     </card>
     <card>
       <name>Breach the Multiverse</name>
-      <set uuid="851a2ffc-3165-5aae-a2f5-15f25ad75846" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/011-15dc271b053a.jpg" num="011" rarity="special">WLX</set>
+      <set uuid="851a2ffc-3165-5aae-a2f5-15f25ad75846" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/011-15dc271b053a.jpg" num="011" rarity="special">WLX</set>
     </card>
     <card>
       <name>Eriette of the Charmed Apple</name>
-      <set uuid="e01bf7bf-20c5-550f-a790-9c142c3c75d3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/013-0bb9d9507937.jpg" num="013" rarity="special">WLX</set>
+      <set uuid="e01bf7bf-20c5-550f-a790-9c142c3c75d3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/013-0bb9d9507937.jpg" num="013" rarity="special">WLX</set>
     </card>
     <card>
       <name>Extus, Oriq Overlord</name>
@@ -63,13 +63,13 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
         <coloridentity>WBR</coloridentity>
         <pt>2/4</pt>
       </prop>
-      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/007-front-0247de4a9c85.jpg" num="007" rarity="special">WLX</set>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-front-0247de4a9c85.jpg" num="007" rarity="special">WLX</set>
       <related attach="transform">Awaken the Blood Avatar</related>
       <tablerow>2</tablerow>
     </card>
     <card>
       <name>Ghoulcaller Gisa</name>
-      <set uuid="ed2476c2-c159-59e3-8153-d96a2bcae779" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/006-273ccc6e677f.jpg" num="006" rarity="special">WLX</set>
+      <set uuid="ed2476c2-c159-59e3-8153-d96a2bcae779" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/006-273ccc6e677f.jpg" num="006" rarity="special">WLX</set>
     </card>
     <card>
       <name>Invasion of Tolvada</name>
@@ -85,13 +85,13 @@ When this Siege enters, return target nonbattle permanent card from your graveya
         <coloridentity>WB</coloridentity>
         <defense>5</defense>
       </prop>
-      <set uuid="2e847228-b8a4-5e0c-b14c-bc6699af72b9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-front-58d4748f8013.jpg" num="008" rarity="special">WLX</set>
+      <set uuid="2e847228-b8a4-5e0c-b14c-bc6699af72b9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/008-front-58d4748f8013.jpg" num="008" rarity="special">WLX</set>
       <related attach="transform">The Broken Sky</related>
       <tablerow>1</tablerow>
     </card>
     <card>
       <name>Shadowheart, Dark Justiciar</name>
-      <set uuid="ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/005-2b21b1e6af30.jpg" num="005" rarity="special">WLX</set>
+      <set uuid="ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/005-2b21b1e6af30.jpg" num="005" rarity="special">WLX</set>
     </card>
     <card>
       <name>The Broken Sky</name>
@@ -105,13 +105,13 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
         <colors>WB</colors>
         <coloridentity>WB</coloridentity>
       </prop>
-      <set uuid="2e847228-b8a4-5e0c-b14c-bc6699af72b9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/008-back-b83eb7b6cd87.jpg" num="008" rarity="special">WLX</set>
+      <set uuid="2e847228-b8a4-5e0c-b14c-bc6699af72b9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/008-back-b83eb7b6cd87.jpg" num="008" rarity="special">WLX</set>
       <related attach="transform">Invasion of Tolvada</related>
       <tablerow>1</tablerow>
     </card>
     <card>
       <name>Wedding Ring</name>
-      <set uuid="b7ed3e04-2245-5304-a933-8ce3975f0a58" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/images/WLX/002-469c6a028a1c.png" num="002" rarity="special">WLX</set>
+      <set uuid="b7ed3e04-2245-5304-a933-8ce3975f0a58" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/002-469c6a028a1c.png" num="002" rarity="special">WLX</set>
     </card>
   </cards>
 </cockatrice_carddatabase>
