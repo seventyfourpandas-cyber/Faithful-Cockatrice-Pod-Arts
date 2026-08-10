@@ -160,6 +160,16 @@ def main(*, require_pwsh: bool) -> int:
             (legacy_root / "migration-marker.txt").write_text(
                 "recoverable legacy updater data", encoding="utf-8"
             )
+            (legacy_root / "installer_settings.json").write_text(
+                json.dumps(
+                    {
+                        "manifest_url": repository_url + "manifest.json",
+                    },
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
 
             first_output = run_pwsh(pwsh, bootstrap, environment, expect_success=True)
             install_root = local_app_data / str(project["install_folder"])
@@ -178,6 +188,10 @@ def main(*, require_pwsh: bool) -> int:
             if wlxlib.sha256_file(installed_icon) != wlxlib.sha256_file(source_icon):
                 raise AssertionError("Installed shortcut icon does not match the verified source icon")
             settings = read_json(install_root / "installer_settings.json")
+            if settings["manifest_url"] != base_url + "manifest.json":
+                raise AssertionError(
+                    "Installer retained the obsolete root-level manifest URL"
+                )
             if Path(str(settings["cockatrice_exe"])) != fake_cockatrice.resolve():
                 raise AssertionError("Updater did not remember the resolved Cockatrice executable")
             first_state = read_json(state_path)

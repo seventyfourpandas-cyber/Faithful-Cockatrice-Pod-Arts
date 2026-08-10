@@ -139,7 +139,16 @@ $updater = Join-Path $installRoot "WLX_Cockatrice_Updater.ps1"
 if (-not (Test-Path -LiteralPath $updater -PathType Leaf)) {
     $updater = Join-Path $scriptRoot "WLX_Cockatrice_Updater.ps1"
 }
-$arguments = @("-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", $updater)
+$arguments = @(
+    "-NoLogo",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    $updater,
+    "-ManifestUrl",
+    $manifestUrl
+)
 if ($InstallShortcut) { $arguments += "-InstallShortcut" }
 if ($RepairPictures) { $arguments += "-RepairPictures" }
 if ($NoLaunch) { $arguments += "-NoLaunch" }
