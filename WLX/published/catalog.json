@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "set_code": "WLX",
   "cards": [
     {
@@ -1656,24 +1656,6 @@
       "image": "images/WLX/097-18b475f8e4f0.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/097-18b475f8e4f0.jpg",
       "sha256": "18b475f8e4f02144c106b574b1aba87a236066f161fa31e2c3c33f0d5c564821",
-      "dimensions": [
-        2976,
-        4152
-      ]
-    },
-    {
-      "player": "Will",
-      "card_kind": "official",
-      "card_name": "Reflections of Littjara",
-      "flavor_name": "",
-      "set_code": "WLX",
-      "set_name": "Willex's Whimsical Arts",
-      "collector_number": "098",
-      "uuid": "592733e8-67c2-5a88-a4aa-a3eb81917c58",
-      "rarity": "special",
-      "image": "images/WLX/098-8c97f0c1b634.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/098-8c97f0c1b634.jpg",
-      "sha256": "8c97f0c1b63418cda3ed58a4f86f17b933d9dc39a4ba5dbdbd32b46ac053114f",
       "dimensions": [
         2976,
         4152
