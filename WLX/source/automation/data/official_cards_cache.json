@@ -274,6 +274,855 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-02"
+    },
+    "animar, soul of elements": {
+      "name": "Animar, Soul of Elements",
+      "oracle_id": "725880b2-1675-414f-b61b-cf6533797dbf",
+      "scryfall_uri": "https://scryfall.com/card/2x2/171/animar-soul-of-elements?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "animate dead": {
+      "name": "Animate Dead",
+      "oracle_id": "c0d8fef4-65f4-4769-982d-b397d2b7e977",
+      "scryfall_uri": "https://scryfall.com/card/soc/207/animate-dead?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "annie joins up": {
+      "name": "Annie Joins Up",
+      "oracle_id": "4c3ad545-b375-44a7-a24e-58baacc4e4b6",
+      "scryfall_uri": "https://scryfall.com/card/otj/191/annie-joins-up?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "apex altisaur": {
+      "name": "Apex Altisaur",
+      "oracle_id": "fc467fe5-85ab-4c95-8d21-49096778b107",
+      "scryfall_uri": "https://scryfall.com/card/lcc/232/apex-altisaur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "archfiend of despair": {
+      "name": "Archfiend of Despair",
+      "oracle_id": "9c36760b-57c5-488b-afc9-ef141942c6ab",
+      "scryfall_uri": "https://scryfall.com/card/cmm/137/archfiend-of-despair?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "aura shards": {
+      "name": "Aura Shards",
+      "oracle_id": "8d03d050-391c-4311-8c42-4ee632d40fdc",
+      "scryfall_uri": "https://scryfall.com/card/cmd/182/aura-shards?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "avatar's wrath": {
+      "name": "Avatar's Wrath",
+      "oracle_id": "e3431dae-969c-4896-9f9e-a80e7bec4bdf",
+      "scryfall_uri": "https://scryfall.com/card/tla/12/avatars-wrath?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "avenger of zendikar": {
+      "name": "Avenger of Zendikar",
+      "oracle_id": "4ba5b3f6-503b-43e6-b66e-4f8c55cffed7",
+      "scryfall_uri": "https://scryfall.com/card/ecc/98/avenger-of-zendikar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "barbflare gremlin": {
+      "name": "Barbflare Gremlin",
+      "oracle_id": "bd7accec-ca8a-49c7-9ae4-fe97d99b4a34",
+      "scryfall_uri": "https://scryfall.com/card/dsc/26/barbflare-gremlin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "bastion of remembrance": {
+      "name": "Bastion of Remembrance",
+      "oracle_id": "c7f33cea-2ec8-4081-9208-a5b1d86721b3",
+      "scryfall_uri": "https://scryfall.com/card/tle/160/bastion-of-remembrance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "blood pact": {
+      "name": "Blood Pact",
+      "oracle_id": "cfc5a284-7238-4c98-9d2f-7e5c3329be7b",
+      "scryfall_uri": "https://scryfall.com/card/dsc/76/blood-pact?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "bog witch": {
+      "name": "Bog Witch",
+      "oracle_id": "85573cba-07ae-4421-a167-a8569f85c0f7",
+      "scryfall_uri": "https://scryfall.com/card/arc/11/bog-witch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "bone shards": {
+      "name": "Bone Shards",
+      "oracle_id": "6e760cfe-45b9-4a3f-b2e2-4ca6ec2bd13a",
+      "scryfall_uri": "https://scryfall.com/card/mh2/76/bone-shards?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "bonehoard dracosaur": {
+      "name": "Bonehoard Dracosaur",
+      "oracle_id": "7ba550a5-81fc-42c2-8df8-ad455d938605",
+      "scryfall_uri": "https://scryfall.com/card/lci/134/bonehoard-dracosaur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "brighthearth banneret": {
+      "name": "Brighthearth Banneret",
+      "oracle_id": "04120095-74a5-4284-bfba-aeb0b509dc84",
+      "scryfall_uri": "https://scryfall.com/card/mor/88/brighthearth-banneret?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "cavalier of gales": {
+      "name": "Cavalier of Gales",
+      "oracle_id": "08e2fead-53e9-445b-8fd1-c108bb09d81c",
+      "scryfall_uri": "https://scryfall.com/card/m20/52/cavalier-of-gales?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "cavalier of thorns": {
+      "name": "Cavalier of Thorns",
+      "oracle_id": "96b909ab-55f1-4cde-a675-2504de3da772",
+      "scryfall_uri": "https://scryfall.com/card/ecc/100/cavalier-of-thorns?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "champion of the path": {
+      "name": "Champion of the Path",
+      "oracle_id": "b326ccd5-8ad2-441c-9d73-82ee6390dd36",
+      "scryfall_uri": "https://scryfall.com/card/ecl/130/champion-of-the-path?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "chaos warp": {
+      "name": "Chaos Warp",
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "scryfall_uri": "https://scryfall.com/card/mbc/72/chaos-warp?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "codex shredder": {
+      "name": "Codex Shredder",
+      "oracle_id": "ef7b11ab-24e7-4e7c-91a7-920bade6e60b",
+      "scryfall_uri": "https://scryfall.com/card/cmr/304/codex-shredder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "colossus of akros": {
+      "name": "Colossus of Akros",
+      "oracle_id": "96d508a6-ecd2-4a97-8802-df099a372084",
+      "scryfall_uri": "https://scryfall.com/card/ths/214/colossus-of-akros?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "corpses of the lost": {
+      "name": "Corpses of the Lost",
+      "oracle_id": "78bac92f-333f-4c43-bccf-03c3772ee99b",
+      "scryfall_uri": "https://scryfall.com/card/lci/98/corpses-of-the-lost?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "cream of the crop": {
+      "name": "Cream of the Crop",
+      "oracle_id": "b61a87e3-dc98-4db9-abed-b47b677d81ab",
+      "scryfall_uri": "https://scryfall.com/card/ecc/102/cream-of-the-crop?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "disciple of bolas": {
+      "name": "Disciple of Bolas",
+      "oracle_id": "8f2c8498-5b10-4ec7-8678-598c90987556",
+      "scryfall_uri": "https://scryfall.com/card/tdc/178/disciple-of-bolas?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "eerie interlude": {
+      "name": "Eerie Interlude",
+      "oracle_id": "0634091a-a74c-4cea-b6d1-7324a725554a",
+      "scryfall_uri": "https://scryfall.com/card/khc/22/eerie-interlude?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "eladamri's call": {
+      "name": "Eladamri's Call",
+      "oracle_id": "4acb6612-54e8-428d-acb6-c7259a5ad6a8",
+      "scryfall_uri": "https://scryfall.com/card/mh1/197/eladamris-call?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "elemental bond": {
+      "name": "Elemental Bond",
+      "oracle_id": "d9a7e5a6-3e41-4fc6-987a-18fe1b9d67dd",
+      "scryfall_uri": "https://scryfall.com/card/tdc/254/elemental-bond?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "esper sentinel": {
+      "name": "Esper Sentinel",
+      "oracle_id": "5def9f38-0a0b-4e8d-9f9d-29dcb46520b4",
+      "scryfall_uri": "https://scryfall.com/card/mh2/12/esper-sentinel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "etali, primal conqueror": {
+      "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+      "oracle_id": "7514e401-7aa1-405d-9f7a-312b4e630cc2",
+      "scryfall_uri": "https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Etali, Primal Conqueror",
+          "side": "front",
+          "mana_cost": "{5}{R}{R}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Elder Dinosaur",
+          "rules_text": "Trample\nWhen Etali enters, each player exiles cards from the top of their library until they exile a nonland card. You may cast any number of spells from among the nonland cards exiled this way without paying their mana costs.\n{9}{G/P}: Transform Etali. Activate only as a sorcery.",
+          "colors": "R",
+          "color_identity": "RG",
+          "power_toughness": "7/7",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Etali, Primal Sickness",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Phyrexian Elder Dinosaur",
+          "rules_text": "Trample, indestructible\nWhenever Etali deals combat damage to a player, they get that many poison counters. (A player with ten or more poison counters loses the game.)",
+          "colors": "RG",
+          "color_identity": "RG",
+          "power_toughness": "11/11",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
+    },
+    "etali, primal sickness": {
+      "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+      "oracle_id": "7514e401-7aa1-405d-9f7a-312b4e630cc2",
+      "scryfall_uri": "https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Etali, Primal Conqueror",
+          "side": "front",
+          "mana_cost": "{5}{R}{R}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Elder Dinosaur",
+          "rules_text": "Trample\nWhen Etali enters, each player exiles cards from the top of their library until they exile a nonland card. You may cast any number of spells from among the nonland cards exiled this way without paying their mana costs.\n{9}{G/P}: Transform Etali. Activate only as a sorcery.",
+          "colors": "R",
+          "color_identity": "RG",
+          "power_toughness": "7/7",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Etali, Primal Sickness",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Phyrexian Elder Dinosaur",
+          "rules_text": "Trample, indestructible\nWhenever Etali deals combat damage to a player, they get that many poison counters. (A player with ten or more poison counters loses the game.)",
+          "colors": "RG",
+          "color_identity": "RG",
+          "power_toughness": "11/11",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
+    },
+    "etali, primal conqueror // etali, primal sickness": {
+      "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+      "oracle_id": "7514e401-7aa1-405d-9f7a-312b4e630cc2",
+      "scryfall_uri": "https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Etali, Primal Conqueror",
+          "side": "front",
+          "mana_cost": "{5}{R}{R}",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Elder Dinosaur",
+          "rules_text": "Trample\nWhen Etali enters, each player exiles cards from the top of their library until they exile a nonland card. You may cast any number of spells from among the nonland cards exiled this way without paying their mana costs.\n{9}{G/P}: Transform Etali. Activate only as a sorcery.",
+          "colors": "R",
+          "color_identity": "RG",
+          "power_toughness": "7/7",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Etali, Primal Sickness",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Phyrexian Elder Dinosaur",
+          "rules_text": "Trample, indestructible\nWhenever Etali deals combat damage to a player, they get that many poison counters. (A player with ten or more poison counters loses the game.)",
+          "colors": "RG",
+          "color_identity": "RG",
+          "power_toughness": "11/11",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
+    },
+    "everybody lives!": {
+      "name": "Everybody Lives!",
+      "oracle_id": "39213de3-6a4a-4879-a7f9-70f45013765e",
+      "scryfall_uri": "https://scryfall.com/card/who/18/everybody-lives!?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "faeburrow elder": {
+      "name": "Faeburrow Elder",
+      "oracle_id": "70a6f08e-854d-4e2f-9d8c-c45ec3231157",
+      "scryfall_uri": "https://scryfall.com/card/ecc/53/faeburrow-elder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "fanatic of rhonas": {
+      "name": "Fanatic of Rhonas",
+      "oracle_id": "7973820b-fdaf-46ec-9e3e-d4c0e77b5067",
+      "scryfall_uri": "https://scryfall.com/card/mh3/152/fanatic-of-rhonas?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "far traveler": {
+      "name": "Far Traveler",
+      "oracle_id": "b9432430-df01-497d-b025-7576dce830e4",
+      "scryfall_uri": "https://scryfall.com/card/clb/17/far-traveler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "fate unraveler": {
+      "name": "Fate Unraveler",
+      "oracle_id": "7d66f67d-3148-4636-ac5a-2cf8a51d5e50",
+      "scryfall_uri": "https://scryfall.com/card/dsc/141/fate-unraveler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "fellwar stone": {
+      "name": "Fellwar Stone",
+      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+      "scryfall_uri": "https://scryfall.com/card/mbc/74/fellwar-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "flamebraider": {
+      "name": "Flamebraider",
+      "oracle_id": "c552bd73-ce75-40fd-9d80-9e90b6f45274",
+      "scryfall_uri": "https://scryfall.com/card/ecl/139/flamebraider?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "flamekin harbinger": {
+      "name": "Flamekin Harbinger",
+      "oracle_id": "d6585e30-4ca0-4701-b274-b24f3508dd97",
+      "scryfall_uri": "https://scryfall.com/card/hop/53/flamekin-harbinger?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "fog": {
+      "name": "Fog",
+      "oracle_id": "27e9db49-7af7-4bef-ad4c-bf5dfb92030d",
+      "scryfall_uri": "https://scryfall.com/card/ema/167/fog?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "forerunner of the empire": {
+      "name": "Forerunner of the Empire",
+      "oracle_id": "113c3024-c3bd-4c3a-8c08-3828646d9ca2",
+      "scryfall_uri": "https://scryfall.com/card/rix/102/forerunner-of-the-empire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "foundation breaker": {
+      "name": "Foundation Breaker",
+      "oracle_id": "8b7a3613-f1bd-4262-9b11-b631167c2c2d",
+      "scryfall_uri": "https://scryfall.com/card/ecc/108/foundation-breaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "fury storm": {
+      "name": "Fury Storm",
+      "oracle_id": "371fa9e3-5432-4f2f-89d4-55061b0b4e57",
+      "scryfall_uri": "https://scryfall.com/card/c18/22/fury-storm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "garnet, princess of alexandria": {
+      "name": "Garnet, Princess of Alexandria",
+      "oracle_id": "8c709873-84b5-46c2-bb29-85b041a6df88",
+      "scryfall_uri": "https://scryfall.com/card/fin/222/garnet-princess-of-alexandria?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "ghostfire slice": {
+      "name": "Ghostfire Slice",
+      "oracle_id": "986a7ad0-527a-4079-aa1b-c8acdf087020",
+      "scryfall_uri": "https://scryfall.com/card/mh3/123/ghostfire-slice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "ghyrson starn, kelermorph": {
+      "name": "Ghyrson Starn, Kelermorph",
+      "oracle_id": "b110b8e6-859b-4370-aceb-b21c6cf61532",
+      "scryfall_uri": "https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "gleeful arsonist": {
+      "name": "Gleeful Arsonist",
+      "oracle_id": "9025b3ce-f6ae-431d-9eb5-02d713b8c9b8",
+      "scryfall_uri": "https://scryfall.com/card/dsc/27/gleeful-arsonist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "grave sifter": {
+      "name": "Grave Sifter",
+      "oracle_id": "07a26388-773e-4614-a3de-f133c6694d59",
+      "scryfall_uri": "https://scryfall.com/card/cma/112/grave-sifter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "greenwarden of murasa": {
+      "name": "Greenwarden of Murasa",
+      "oracle_id": "2facb1b3-4522-4610-a0ab-29ac53ca7fcd",
+      "scryfall_uri": "https://scryfall.com/card/ecc/110/greenwarden-of-murasa?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "harsh mentor": {
+      "name": "Harsh Mentor",
+      "oracle_id": "168336e2-d795-4b75-bf21-ce128b0dd7b0",
+      "scryfall_uri": "https://scryfall.com/card/dsc/165/harsh-mentor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "high perfect morcant": {
+      "name": "High Perfect Morcant",
+      "oracle_id": "dd27c5fa-4355-4e5c-8219-b74cfe209da0",
+      "scryfall_uri": "https://scryfall.com/card/ecl/229/high-perfect-morcant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "hulking raptor": {
+      "name": "Hulking Raptor",
+      "oracle_id": "9f2e7533-cfc1-4dd8-a9b8-09cdc712ef2f",
+      "scryfall_uri": "https://scryfall.com/card/lci/191/hulking-raptor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "illuminor szeras": {
+      "name": "Illuminor Szeras",
+      "oracle_id": "10f274f9-9044-447b-81c9-d4906ad9e6be",
+      "scryfall_uri": "https://scryfall.com/card/40k/37/illuminor-szeras?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "incandescent soulstoke": {
+      "name": "Incandescent Soulstoke",
+      "oracle_id": "934bd9f9-937b-4c6b-a849-012ae6bd3321",
+      "scryfall_uri": "https://scryfall.com/card/ecc/94/incandescent-soulstoke?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "ingot chewer": {
+      "name": "Ingot Chewer",
+      "oracle_id": "127795e6-3f0e-4318-95ad-ccb1912580ac",
+      "scryfall_uri": "https://scryfall.com/card/ecc/95/ingot-chewer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "kardur, doomscourge": {
+      "name": "Kardur, Doomscourge",
+      "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+      "scryfall_uri": "https://scryfall.com/card/dsc/223/kardur-doomscourge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "kederekt parasite": {
+      "name": "Kederekt Parasite",
+      "oracle_id": "fc7b46af-6c07-455a-99c7-f1bccaa2a5f4",
+      "scryfall_uri": "https://scryfall.com/card/dsc/144/kederekt-parasite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "lae'zel's acrobatics": {
+      "name": "Lae'zel's Acrobatics",
+      "oracle_id": "3efe6ac8-f92e-4108-913b-077e41c0a841",
+      "scryfall_uri": "https://scryfall.com/card/clb/30/laezels-acrobatics?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "lavaspur boots": {
+      "name": "Lavaspur Boots",
+      "oracle_id": "63bfb9ca-d9d5-4c17-be39-82eb115bc20c",
+      "scryfall_uri": "https://scryfall.com/card/otj/243/lavaspur-boots?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "library of leng": {
+      "name": "Library of Leng",
+      "oracle_id": "867def48-4be8-4056-bcf1-d6b00450b9a3",
+      "scryfall_uri": "https://scryfall.com/card/me4/211/library-of-leng?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "lurking predators": {
+      "name": "Lurking Predators",
+      "oracle_id": "15fbb7b1-c62d-4f82-9f35-2c10299779f4",
+      "scryfall_uri": "https://scryfall.com/card/jmp/410/lurking-predators?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "maelstrom wanderer": {
+      "name": "Maelstrom Wanderer",
+      "oracle_id": "ad9b7fbc-61c8-43ee-a65c-99206fd1e4df",
+      "scryfall_uri": "https://scryfall.com/card/ecc/127/maelstrom-wanderer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "manabarbs": {
+      "name": "Manabarbs",
+      "oracle_id": "0f1afedd-c60f-454f-b84a-c8117aec0128",
+      "scryfall_uri": "https://scryfall.com/card/m12/150/manabarbs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "mayhem devil": {
+      "name": "Mayhem Devil",
+      "oracle_id": "4709f11c-aef8-45ac-b2bf-e640c568dfac",
+      "scryfall_uri": "https://scryfall.com/card/eoc/121/mayhem-devil?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "mind stone": {
+      "name": "Mind Stone",
+      "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+      "scryfall_uri": "https://scryfall.com/card/mbc/76/mind-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "molten echoes": {
+      "name": "Molten Echoes",
+      "oracle_id": "26486a42-4dc6-472b-9a9b-3c3ca78cc3b5",
+      "scryfall_uri": "https://scryfall.com/card/voc/148/molten-echoes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "monstrous vortex": {
+      "name": "Monstrous Vortex",
+      "oracle_id": "6e27956e-ba2f-41a9-8e39-ec54424591b6",
+      "scryfall_uri": "https://scryfall.com/card/mh3/162/monstrous-vortex?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "nightshade harvester": {
+      "name": "Nightshade Harvester",
+      "oracle_id": "875c3db1-2752-48e7-9664-bbb12120c032",
+      "scryfall_uri": "https://scryfall.com/card/dsc/150/nightshade-harvester?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "oath of lieges": {
+      "name": "Oath of Lieges",
+      "oracle_id": "87038354-6762-4069-be34-7d40ae308a8d",
+      "scryfall_uri": "https://scryfall.com/card/exo/11/oath-of-lieges?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "omnath, locus of rage": {
+      "name": "Omnath, Locus of Rage",
+      "oracle_id": "1816eede-c5bd-49df-958f-a3af64cb2932",
+      "scryfall_uri": "https://scryfall.com/card/ecc/129/omnath-locus-of-rage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "omnath, locus of the roil": {
+      "name": "Omnath, Locus of the Roil",
+      "oracle_id": "ffd34151-457a-4a93-82db-24b18319a06b",
+      "scryfall_uri": "https://scryfall.com/card/ecc/130/omnath-locus-of-the-roil?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "otepec huntmaster": {
+      "name": "Otepec Huntmaster",
+      "oracle_id": "41623eab-38b5-4058-8de2-e6b8706de7a2",
+      "scryfall_uri": "https://scryfall.com/card/lcc/229/otepec-huntmaster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "overgrowth elemental": {
+      "name": "Overgrowth Elemental",
+      "oracle_id": "3271e3b9-1710-4dfe-a381-00a3ee1032b2",
+      "scryfall_uri": "https://scryfall.com/card/m20/187/overgrowth-elemental?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "painful quandary": {
+      "name": "Painful Quandary",
+      "oracle_id": "c37051cc-6683-4dbb-b5ff-5c3a5bdab1df",
+      "scryfall_uri": "https://scryfall.com/card/fdn/179/painful-quandary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "pantlaza, sun-favored": {
+      "name": "Pantlaza, Sun-Favored",
+      "oracle_id": "b828ba28-e98d-498b-9ab4-d4aa7143e407",
+      "scryfall_uri": "https://scryfall.com/card/lcc/4/pantlaza-sun-favored?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "persistent constrictor": {
+      "name": "Persistent Constrictor",
+      "oracle_id": "bf0ee9da-6071-440c-9149-d441f730fcfb",
+      "scryfall_uri": "https://scryfall.com/card/dsc/22/persistent-constrictor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "phyrexian dreadnought": {
+      "name": "Phyrexian Dreadnought",
+      "oracle_id": "a7950edb-5670-46fd-a30e-0fe888a5a32b",
+      "scryfall_uri": "https://scryfall.com/card/mir/315/phyrexian-dreadnought?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "phyrexian triniform": {
+      "name": "Phyrexian Triniform",
+      "oracle_id": "f8526a36-eb8f-457d-b532-e12b47622cfa",
+      "scryfall_uri": "https://scryfall.com/card/cmm/969/phyrexian-triniform?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "plagon, lord of the beach": {
+      "name": "Plagon, Lord of the Beach",
+      "oracle_id": "1c95b7cf-be4d-4961-9073-3e39487492c8",
+      "scryfall_uri": "https://scryfall.com/card/j25/37/plagon-lord-of-the-beach?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "pyre of heroes": {
+      "name": "Pyre of Heroes",
+      "oracle_id": "691ba449-40e1-4976-8dab-9b1741ea37b8",
+      "scryfall_uri": "https://scryfall.com/card/khm/241/pyre-of-heroes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "raggadragga, goreguts boss": {
+      "name": "Raggadragga, Goreguts Boss",
+      "oracle_id": "a7641ee0-9c0d-4201-9827-a775ed03797c",
+      "scryfall_uri": "https://scryfall.com/card/clb/291/raggadragga-goreguts-boss?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "railway brawler": {
+      "name": "Railway Brawler",
+      "oracle_id": "b653db44-ddae-44e8-8fa6-6af3232cd586",
+      "scryfall_uri": "https://scryfall.com/card/otj/175/railway-brawler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rakdos charm": {
+      "name": "Rakdos Charm",
+      "oracle_id": "5e62b51d-faec-4aa0-9504-cf2c282d08ea",
+      "scryfall_uri": "https://scryfall.com/card/eoc/125/rakdos-charm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rakdos signet": {
+      "name": "Rakdos Signet",
+      "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+      "scryfall_uri": "https://scryfall.com/card/dsc/250/rakdos-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rakdos, lord of riots": {
+      "name": "Rakdos, Lord of Riots",
+      "oracle_id": "143a269a-b9ee-48ba-bd7b-4aa46eb36778",
+      "scryfall_uri": "https://scryfall.com/card/dsc/230/rakdos-lord-of-riots?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rampant growth": {
+      "name": "Rampant Growth",
+      "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+      "scryfall_uri": "https://scryfall.com/card/tdc/265/rampant-growth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "reflections of littjara": {
+      "name": "Reflections of Littjara",
+      "oracle_id": "c3fdfb94-2d10-4743-864c-a59fdd57d8b7",
+      "scryfall_uri": "https://scryfall.com/card/tdc/164/reflections-of-littjara?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "renewed solidarity": {
+      "name": "Renewed Solidarity",
+      "oracle_id": "bea3ff6e-7649-4e51-b2ad-763f9ac2d4b8",
+      "scryfall_uri": "https://scryfall.com/card/drc/7/renewed-solidarity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "return of the wildspeaker": {
+      "name": "Return of the Wildspeaker",
+      "oracle_id": "2b76f9e9-cd28-4eaf-8674-215c34263f96",
+      "scryfall_uri": "https://scryfall.com/card/ecc/115/return-of-the-wildspeaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rex, cyber-hound": {
+      "name": "Rex, Cyber-Hound",
+      "oracle_id": "7ad52f9c-48d8-486f-90b7-73ce5cb3b9db",
+      "scryfall_uri": "https://scryfall.com/card/pip/117/rex-cyber-hound?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "ripples of undeath": {
+      "name": "Ripples of Undeath",
+      "oracle_id": "2acf8e34-9215-4a72-a24f-09d3bdd0083a",
+      "scryfall_uri": "https://scryfall.com/card/mh3/107/ripples-of-undeath?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "risen reef": {
+      "name": "Risen Reef",
+      "oracle_id": "2ae71e86-4400-4a30-9077-4d57a43e7395",
+      "scryfall_uri": "https://scryfall.com/card/ecc/132/risen-reef?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "roiling vortex": {
+      "name": "Roiling Vortex",
+      "oracle_id": "34f83b7a-45a7-40a8-abcb-31d7aae4cea1",
+      "scryfall_uri": "https://scryfall.com/card/znr/156/roiling-vortex?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rotting regisaur": {
+      "name": "Rotting Regisaur",
+      "oracle_id": "acdbaa99-18c9-4aa1-8797-69837ca7d8f5",
+      "scryfall_uri": "https://scryfall.com/card/m20/111/rotting-regisaur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "rug of smothering": {
+      "name": "Rug of Smothering",
+      "oracle_id": "da1035c4-bafe-434e-b1bd-5b08960d4c91",
+      "scryfall_uri": "https://scryfall.com/card/clb/336/rug-of-smothering?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "sawhorn nemesis": {
+      "name": "Sawhorn Nemesis",
+      "oracle_id": "2f9107c5-991a-4c20-9b77-2e2fb4b9dc53",
+      "scryfall_uri": "https://scryfall.com/card/m3c/60/sawhorn-nemesis?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
     }
   }
 }
