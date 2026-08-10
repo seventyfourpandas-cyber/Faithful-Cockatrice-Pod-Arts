@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "set_code": "WLX",
   "cards": [
     {
@@ -1530,24 +1530,6 @@
       "image": "images/WLX/087-c1229e76bf4b.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/087-c1229e76bf4b.jpg",
       "sha256": "c1229e76bf4b7a646f809f18eb2e584e3f4020892042b3092821bd041a332d9e",
-      "dimensions": [
-        2976,
-        4152
-      ]
-    },
-    {
-      "player": "Will",
-      "card_kind": "official",
-      "card_name": "Phyrexian Dreadnought",
-      "flavor_name": "",
-      "set_code": "WLX",
-      "set_name": "Willex's Whimsical Arts",
-      "collector_number": "088",
-      "uuid": "b59a9567-d590-554e-bdb3-228001c0d379",
-      "rarity": "special",
-      "image": "images/WLX/088-a81793aab5a4.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/088-a81793aab5a4.jpg",
-      "sha256": "a81793aab5a4b1afa677269e5c34f6d8db96c542461a371512113d1bcfe442de",
       "dimensions": [
         2976,
         4152

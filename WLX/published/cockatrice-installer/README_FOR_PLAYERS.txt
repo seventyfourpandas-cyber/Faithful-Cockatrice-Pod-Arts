@@ -1,4 +1,4 @@
-Willex's Whimsical Arts — WLX Cockatrice Installer v3.0.2
+Willex's Whimsical Arts — WLX Cockatrice Installer v3.0.3
 ===============================================================
 
 FIRST TIME
