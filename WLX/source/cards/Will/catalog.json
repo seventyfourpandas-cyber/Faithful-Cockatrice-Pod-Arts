@@ -4,17 +4,6 @@
   "custom_cards": [],
   "printings": [
     {
-      "collector_number": "005",
-      "uuid": "ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb",
-      "card_kind": "official",
-      "flavor_name": "",
-      "rarity": "special",
-      "image_file": "WLX-005.jpg",
-      "image_sha256": "2b21b1e6af30181aee5eb96063065f8284f831982be3e42446c56dd38d471508",
-      "notes": "Submitted by @WillPower-exe through issue #7",
-      "official_name": "Shadowheart, Dark Justiciar"
-    },
-    {
       "collector_number": "006",
       "uuid": "ed2476c2-c159-59e3-8153-d96a2bcae779",
       "card_kind": "official",
