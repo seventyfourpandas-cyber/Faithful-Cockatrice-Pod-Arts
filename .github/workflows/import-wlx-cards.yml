@@ -1,0 +1,96 @@
+name: Import WLX card art
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "WLX_BULK_IMPORT_INSTALL.zip"
+      - "imports/incoming/**"
+  workflow_dispatch:
+
+concurrency:
+  group: wlx-publication
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    permissions:
+      contents: write
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Use Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install clean importer or process the waiting batch
+        id: intake
+        env:
+          BATCH_ID: ${{ github.sha }}
+        run: |
+          if [ -f WLX_BULK_IMPORT_INSTALL.zip ]; then
+            install_dir="$RUNNER_TEMP/wlx-bulk-install"
+            mkdir -p "$install_dir"
+            python -m zipfile -e WLX_BULK_IMPORT_INSTALL.zip "$install_dir"
+            python "$install_dir/install.py" \
+              --repository-root . \
+              --package-root "$install_dir"
+            rm -f WLX_BULK_IMPORT_INSTALL.zip
+            echo "mode=install" >> "$GITHUB_OUTPUT"
+          else
+            if [ ! -f .wlx-bulk-importer-installed ]; then
+              echo "The clean importer is not installed yet. Upload WLX_BULK_IMPORT_INSTALL.zip first." >&2
+              exit 1
+            fi
+            python tools/wlx_bulk_import.py \
+              --repository-root . \
+              --batch-id "${BATCH_ID:0:10}"
+            echo "mode=import" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install pinned validation dependency
+        run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
+
+      - name: Build the complete public release
+        run: python automation/build.py --repository-root .
+
+      - name: Run every repository and importer test
+        run: |
+          python -m unittest discover -s automation/tests -v
+          python automation/tests/schema_validation.py --require-lxml
+          python automation/tests/powershell_integration.py --require-pwsh
+
+      - name: Show the batch result
+        if: steps.intake.outputs.mode == 'import'
+        run: |
+          if [ -f imports/LAST_RUN.md ]; then
+            cat imports/LAST_RUN.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit the verified transaction
+        env:
+          MODE: ${{ steps.intake.outputs.mode }}
+        run: |
+          git config user.name "WLX Publisher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No repository changes were needed."
+            exit 0
+          fi
+          if [ "$MODE" = "install" ]; then
+            message="Install clean WLX bulk importer [skip ci]"
+          else
+            message="Publish WLX file import ${GITHUB_SHA:0:10} [skip ci]"
+          fi
+          git commit -m "$message"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,106 +1,59 @@
-name: Automated WLX Publisher
+name: Remove WLX printing
 
 on:
   issues:
     types: [opened, edited, reopened]
-  push:
-    branches: [main]
-    paths:
-      - "cards/**"
-      - "automation/**"
-      - "project.json"
-      - ".github/ISSUE_TEMPLATE/**"
-      - ".github/workflows/automated-wlx-publisher.yml"
-      - "manifest.json"
-      - "catalog.json"
-      - "catalog.resolved.csv"
-      - "customsets/**"
-      - "images/WLX/**"
-      - "cockatrice-installer/**"
-      - "Willexs_Whimsical_Arts_Cockatrice_Installer.zip"
   workflow_dispatch:
 
 concurrency:
-  group: automated-wlx-publisher
+  group: wlx-publication
   cancel-in-progress: false
 
 jobs:
-  submission:
+  removal:
     if: >-
       github.event_name == 'issues' &&
       contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.issue.author_association) &&
-      startsWith(github.event.issue.title, '[WLX ')
+      startsWith(github.event.issue.title, '[WLX REMOVE]')
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     permissions:
       contents: write
       issues: write
     steps:
-      - name: Check out the current main branch
+      - name: Check out current main
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-
-      - name: Install staged publisher repair and remove flattened files
-        run: |
-          if [ -f TOKEN_process_issue.py ]; then
-            cp TOKEN_process_issue.py automation/process_issue.py
-          fi
-          if [ -f TOKEN_wlxlib.py ]; then
-            cp TOKEN_wlxlib.py automation/wlxlib.py
-          fi
-          if [ -f TOKEN_test_wlx.py ]; then
-            cp TOKEN_test_wlx.py automation/tests/test_wlx.py
-          fi
-          if [ -f TOKEN_add-token-printing.yml ]; then
-            cp TOKEN_add-token-printing.yml .github/ISSUE_TEMPLATE/02b-add-token-printing.yml
-          fi
-          rm -f \
-            TOKEN_process_issue.py \
-            TOKEN_wlxlib.py \
-            TOKEN_test_wlx.py \
-            TOKEN_add-token-printing.yml \
-            process_issue.py \
-            wlxlib.py \
-            test_wlx.py \
-            add-printing.yml
-
-      - name: Remove legacy unnumbered issue forms
-        run: |
-          rm -f \
-            .github/ISSUE_TEMPLATE/add-printing.yml \
-            .github/ISSUE_TEMPLATE/add-double-faced-printing.yml \
-            .github/ISSUE_TEMPLATE/add-original-card.yml \
-            .github/ISSUE_TEMPLATE/add-printing-advanced.yml \
-            .github/ISSUE_TEMPLATE/update-printing.yml \
-            .github/ISSUE_TEMPLATE/update-double-faced-printing.yml \
-            .github/ISSUE_TEMPLATE/update-original-card.yml \
-            .github/ISSUE_TEMPLATE/remove-printing.yml
 
       - name: Use Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install the pinned schema-test dependency
+      - name: Install pinned validation dependency
         run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
 
-      - name: Process the request
+      - name: Process the removal
         id: intake
         continue-on-error: true
+        env:
+          RESULT_DIR: ${{ runner.temp }}/wlx-result
         run: >-
           python automation/process_issue.py
           --event "$GITHUB_EVENT_PATH"
           --repository-root .
-          --result-dir .wlx-result
+          --result-dir "$RESULT_DIR"
 
-      - name: Build and validate the public release
+      - name: Build the complete public release
         id: build
         if: steps.intake.outcome == 'success'
         continue-on-error: true
         run: python automation/build.py --repository-root .
 
-      - name: Run the complete automated test suite
+      - name: Run every repository and importer test
         id: tests
         if: steps.intake.outcome == 'success' && steps.build.outcome == 'success'
         continue-on-error: true
@@ -109,12 +62,12 @@ jobs:
           python automation/tests/schema_validation.py --require-lxml
           python automation/tests/powershell_integration.py --require-pwsh
 
-      - name: Commit the completed transaction
+      - name: Commit the verified removal
         id: publish
         if: >-
           steps.intake.outcome == 'success' &&
-          steps.tests.outcome == 'success' &&
-          steps.build.outcome == 'success'
+          steps.build.outcome == 'success' &&
+          steps.tests.outcome == 'success'
         continue-on-error: true
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
@@ -125,127 +78,61 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Publish WLX request #${ISSUE_NUMBER} [skip ci]"
+          git commit -m "Remove WLX printing from request #${ISSUE_NUMBER} [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Confirm publication on the request
+      - name: Confirm removal on the Issue
         if: >-
           steps.intake.outcome == 'success' &&
-          steps.tests.outcome == 'success' &&
           steps.build.outcome == 'success' &&
+          steps.tests.outcome == 'success' &&
           steps.publish.outcome == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RESULT_DIR: ${{ runner.temp }}/wlx-result
         run: |
-          gh issue comment "$ISSUE_NUMBER" --body-file .wlx-result/success.md
+          gh issue comment "$ISSUE_NUMBER" --body-file "$RESULT_DIR/success.md"
           gh issue close "$ISSUE_NUMBER" --reason completed
 
-      - name: Explain a rejected transaction
+      - name: Explain a rejected removal
         if: >-
           always() &&
           (steps.intake.outcome == 'failure' ||
-           steps.tests.outcome == 'failure' ||
            steps.build.outcome == 'failure' ||
+           steps.tests.outcome == 'failure' ||
            steps.publish.outcome == 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RESULT_DIR: ${{ runner.temp }}/wlx-result
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          if [ ! -f .wlx-result/failure.md ]; then
-            mkdir -p .wlx-result
+          mkdir -p "$RESULT_DIR"
+          if [ ! -f "$RESULT_DIR/failure.md" ]; then
             printf '%s\n\n%s\n' \
-              'This request was not published. The current live WLX release was left unchanged.' \
-              "Automated validation details: ${RUN_URL}" > .wlx-result/failure.md
+              'This removal was not published. The live WLX release is unchanged.' \
+              "Validation details: ${RUN_URL}" > "$RESULT_DIR/failure.md"
           fi
-          gh issue comment "$ISSUE_NUMBER" --body-file .wlx-result/failure.md
+          gh issue comment "$ISSUE_NUMBER" --body-file "$RESULT_DIR/failure.md"
+          exit 1
 
-      - name: Mark a rejected transaction as failed
-        if: >-
-          always() &&
-          (steps.intake.outcome == 'failure' ||
-           steps.tests.outcome == 'failure' ||
-           steps.build.outcome == 'failure' ||
-           steps.publish.outcome == 'failure')
-        run: exit 1
-
-  repository-build:
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+  validation:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     permissions:
-      contents: write
+      contents: read
     steps:
-      - name: Check out the current main branch
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Install staged publisher repair and remove flattened files
-        run: |
-          if [ -f TOKEN_process_issue.py ]; then
-            cp TOKEN_process_issue.py automation/process_issue.py
-          fi
-          if [ -f TOKEN_wlxlib.py ]; then
-            cp TOKEN_wlxlib.py automation/wlxlib.py
-          fi
-          if [ -f TOKEN_test_wlx.py ]; then
-            cp TOKEN_test_wlx.py automation/tests/test_wlx.py
-          fi
-          if [ -f TOKEN_add-token-printing.yml ]; then
-            cp TOKEN_add-token-printing.yml .github/ISSUE_TEMPLATE/02b-add-token-printing.yml
-          fi
-          rm -f \
-            TOKEN_process_issue.py \
-            TOKEN_wlxlib.py \
-            TOKEN_test_wlx.py \
-            TOKEN_add-token-printing.yml \
-            process_issue.py \
-            wlxlib.py \
-            test_wlx.py \
-            add-printing.yml
-
-      - name: Remove legacy unnumbered issue forms
-        run: |
-          rm -f \
-            .github/ISSUE_TEMPLATE/add-printing.yml \
-            .github/ISSUE_TEMPLATE/add-double-faced-printing.yml \
-            .github/ISSUE_TEMPLATE/add-original-card.yml \
-            .github/ISSUE_TEMPLATE/add-printing-advanced.yml \
-            .github/ISSUE_TEMPLATE/update-printing.yml \
-            .github/ISSUE_TEMPLATE/update-double-faced-printing.yml \
-            .github/ISSUE_TEMPLATE/update-original-card.yml \
-            .github/ISSUE_TEMPLATE/remove-printing.yml
-
-      - name: Use Python 3.12
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install the pinned schema-test dependency
-        run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
-
-      - name: Build and validate the public release
-        run: python automation/build.py --repository-root .
-
-      - name: Run the complete automated test suite
-        run: |
+      - run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
+      - run: python automation/build.py --repository-root . --validate-only
+      - run: |
           python -m unittest discover -s automation/tests -v
           python automation/tests/schema_validation.py --require-lxml
           python automation/tests/powershell_integration.py --require-pwsh
-
-      - name: Commit generated corrections when needed
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          git config user.name "WLX Publisher"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            exit 0
-          fi
-          git commit -m "Rebuild WLX publication (${EVENT_NAME}) [skip ci]"
-          git pull --rebase origin main
-          git push origin HEAD:main
