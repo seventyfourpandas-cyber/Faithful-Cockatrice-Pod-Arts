@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "incoming_dir": "imports/incoming",
+  "needs_attention_dir": "imports/needs-attention",
+  "report_json": "imports/last-run.json",
+  "report_markdown": "imports/LAST_RUN.md",
+  "max_images_per_batch": 100,
+  "minimum_width": 300,
+  "minimum_height": 400,
+  "minimum_bytes": 10000,
+  "maximum_bytes": 104857600,
+  "duplicate_separator": " __ ",
+  "token_prefix": "TOKEN - ",
+  "player_folders": {
+    "alex": "Alex",
+    "will": "Will",
+    "miguel": "Miguel",
+    "jay": "Jay"
+  }
+}

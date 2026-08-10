@@ -1451,7 +1451,7 @@ def build_repository(root: Path) -> dict[str, Any]:
         status_lines.extend(
             [
                 "",
-                "This file is generated automatically. Use the repository issue forms to make changes.",
+                "This file is generated automatically. Add or replace art through imports/incoming; use Issues only to remove a printing.",
             ]
         )
         (staging / "STATUS.md").write_text("\n".join(status_lines) + "\n", encoding="utf-8", newline="\n")

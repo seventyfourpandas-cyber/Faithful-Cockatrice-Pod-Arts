@@ -1110,18 +1110,8 @@ Bad
 
 
 class ShippedRepositoryTests(unittest.TestCase):
-    def test_issue_forms_have_expected_chooser_order_and_names(self) -> None:
-        expected = (
-            ("01-add-printing.yml", "name: Add a printing"),
-            ("02-add-double-faced-printing.yml", "name: Add a double-faced printing"),
-            ("02b-add-token-printing.yml", "name: Add a token printing"),
-            ("03-add-original-card.yml", "name: Add an original card"),
-            ("04-add-printing-advanced.yml", "name: Add a card printing advanced"),
-            ("05-update-printing.yml", "name: Update a printing or its artwork"),
-            ("06-update-double-faced-printing.yml", "name: Update a double-faced printing"),
-            ("07-update-original-card.yml", "name: Update an original card definition"),
-            ("08-remove-printing.yml", "name: Remove a printing"),
-        )
+    def test_only_removal_uses_an_issue_form(self) -> None:
+        expected = (("01-remove-printing.yml", "name: Remove a printing"),)
         form_dir = REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE"
         actual_filenames = tuple(
             path.name for path in sorted(form_dir.glob("[0-9]*.yml"))
@@ -1131,7 +1121,7 @@ class ShippedRepositoryTests(unittest.TestCase):
             first_line = (form_dir / filename).read_text(encoding="utf-8").splitlines()[0]
             self.assertEqual(first_line, expected_name, filename)
 
-        legacy_filenames = (
+        forbidden_filenames = (
             "add-printing.yml",
             "add-double-faced-printing.yml",
             "add-original-card.yml",
@@ -1140,43 +1130,25 @@ class ShippedRepositoryTests(unittest.TestCase):
             "update-double-faced-printing.yml",
             "update-original-card.yml",
             "remove-printing.yml",
+            "01-add-printing.yml",
+            "02-add-double-faced-printing.yml",
+            "02b-add-token-printing.yml",
+            "03-add-original-card.yml",
+            "04-add-printing-advanced.yml",
+            "05-update-printing.yml",
+            "06-update-double-faced-printing.yml",
+            "07-update-original-card.yml",
+            "08-remove-printing.yml",
         )
         self.assertFalse(
-            any((form_dir / filename).exists() for filename in legacy_filenames)
+            any((form_dir / filename).exists() for filename in forbidden_filenames)
         )
 
-    def test_issue_upload_fields_follow_github_form_schema(self) -> None:
-        upload_count = 0
+    def test_removal_issue_form_has_no_upload_field(self) -> None:
         form_dir = REPOSITORY_ROOT / ".github" / "ISSUE_TEMPLATE"
-        for path in sorted(form_dir.glob("*.yml")):
-            lines = path.read_text(encoding="utf-8").splitlines()
-            upload_starts = [
-                index
-                for index, line in enumerate(lines)
-                if line == "  - type: upload"
-            ]
-            for start in upload_starts:
-                upload_count += 1
-                end = next(
-                    (
-                        index
-                        for index in range(start + 1, len(lines))
-                        if lines[index].startswith("  - type:")
-                    ),
-                    len(lines),
-                )
-                block = lines[start:end]
-                validations_index = next(
-                    (index for index, line in enumerate(block) if line == "    validations:"),
-                    -1,
-                )
-                accept_index = next(
-                    (index for index, line in enumerate(block) if line.strip().startswith("accept:")),
-                    -1,
-                )
-                self.assertGreaterEqual(validations_index, 0, path.name)
-                self.assertGreater(accept_index, validations_index, path.name)
-        self.assertGreaterEqual(upload_count, 9)
+        forms = tuple(sorted(form_dir.glob("[0-9]*.yml")))
+        self.assertEqual(len(forms), 1)
+        self.assertNotIn("type: upload", forms[0].read_text(encoding="utf-8"))
 
     def test_seed_preserves_working_wlx_001(self) -> None:
         config, _state, printings = wlxlib.validate_repository(REPOSITORY_ROOT)

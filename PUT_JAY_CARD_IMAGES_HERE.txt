@@ -1,8 +1,0 @@
-Place finished card images for Jay in this folder.
-
-Name each image exactly after the official Magic card name, for example:
-Sol Ring.png
-Angel of Vitality.png
-
-This visible file exists so GitHub preserves and displays the folder.
-The importer ignores .txt files.

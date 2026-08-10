@@ -12,4 +12,4 @@
 | Miguel | 0 |
 | Jay | 0 |
 
-This file is generated automatically. Use the repository issue forms to make changes.
+This file is generated automatically. Add or replace art through imports/incoming; use Issues only to remove a printing.

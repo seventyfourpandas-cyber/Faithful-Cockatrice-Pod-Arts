@@ -1,0 +1,1 @@
+Upload Alex's card images into this folder. See BULK_IMPORT_GUIDE.md.
