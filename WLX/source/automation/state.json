@@ -554,10 +554,11 @@
       "card_kind": "official"
     },
     "092": {
-      "status": "active",
+      "status": "retired",
       "player": "Will",
       "uuid": "949ef209-2a7e-5a40-9c89-f21832c6f385",
-      "card_kind": "official"
+      "card_kind": "official",
+      "retired_at": "2026-08-10T20:29:52+00:00"
     },
     "093": {
       "status": "active",
@@ -757,6 +758,12 @@
       "action": "remove_printing",
       "version": "3.0.3",
       "result": "Removed WLX #088 from the active catalog",
+      "actor": "seventyfourpandas-cyber"
+    },
+    "seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts#75": {
+      "action": "remove_printing",
+      "version": "3.0.4",
+      "result": "Removed WLX #092 from the active catalog",
       "actor": "seventyfourpandas-cyber"
     }
   }

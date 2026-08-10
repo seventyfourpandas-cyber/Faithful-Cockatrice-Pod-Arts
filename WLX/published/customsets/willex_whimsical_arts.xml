@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-10T20:29:39+00:00</createdAt>
+    <createdAt>2026-08-10T20:29:52+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.0.3</sourceVersion>
+    <sourceVersion>3.0.4</sourceVersion>
   </info>
   <sets>
     <set>
@@ -432,10 +432,6 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Pyre of Heroes</name>
       <set uuid="97c1f95e-da60-5876-84e8-a8db9ee8d115" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/091-9e2df6eb568a.jpg" num="091" rarity="special">WLX</set>
-    </card>
-    <card>
-      <name>Raggadragga, Goreguts Boss</name>
-      <set uuid="949ef209-2a7e-5a40-9c89-f21832c6f385" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/092-5ff12bb8f74b.jpg" num="092" rarity="special">WLX</set>
     </card>
     <card>
       <name>Railway Brawler</name>

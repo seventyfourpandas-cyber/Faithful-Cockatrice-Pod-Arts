@@ -3,31 +3,31 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.0.3",
-  "published_at": "2026-08-10T20:29:39+00:00",
+  "version": "3.0.4",
+  "published_at": "2026-08-10T20:29:52+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "ca7a047e4f31a9fef8189c1b769dd51dc08abe977c8e178c1bb31c34a2e5bc98",
-    "size_bytes": 36144,
+    "sha256": "717fb329c871bb2f146e6e9283e69467fba4622be0548ee0d5fd6a7100ee3c06",
+    "size_bytes": 35836,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "e49c4ac88d64f7397d8dbbc6bb6b3b6d9219ef09df7d79b9ca897d4afec5e3c9",
+    "sha256": "29e1533a8b81a75b56c6af20f0b289a42d563bc0be16c005f23c2447cca75aab",
     "size_bytes": 61641
   },
-  "cards": 106,
-  "printings_count": 103,
-  "face_entries_count": 106,
+  "cards": 105,
+  "printings_count": 102,
+  "face_entries_count": 105,
   "sets": 1,
   "players": {
     "Alex": 3,
-    "Will": 100,
+    "Will": 99,
     "Miguel": 0,
     "Jay": 0
   },
@@ -737,14 +737,6 @@
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/091-9e2df6eb568a.jpg"
     },
     {
-      "collector_number": "092",
-      "uuid": "949ef209-2a7e-5a40-9c89-f21832c6f385",
-      "card_name": "Raggadragga, Goreguts Boss",
-      "player": "Will",
-      "image_sha256": "5ff12bb8f74b49e0804a2b6bc64f9591f152fb66e459278c72f1c2c5c3707824",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/092-5ff12bb8f74b.jpg"
-    },
-    {
       "collector_number": "093",
       "uuid": "8e571301-ea33-57b8-957d-1a780fa47d1c",
       "card_name": "Railway Brawler",
@@ -885,20 +877,20 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "e49c4ac88d64f7397d8dbbc6bb6b3b6d9219ef09df7d79b9ca897d4afec5e3c9",
+      "sha256": "29e1533a8b81a75b56c6af20f0b289a42d563bc0be16c005f23c2447cca75aab",
       "size_bytes": 61641
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "7b66e8bcb8630f298e9b3f72ee5c6840f560a1b097766fea9fc273411aa366de",
-      "size_bytes": 71360
+      "sha256": "7adc00e607a32f9d268dee564220ba2bb6cc5141cbf80eb378c6abbc8336c203",
+      "size_bytes": 70681
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "ca7a047e4f31a9fef8189c1b769dd51dc08abe977c8e178c1bb31c34a2e5bc98",
-      "size_bytes": 36144
+      "sha256": "717fb329c871bb2f146e6e9283e69467fba4622be0548ee0d5fd6a7100ee3c06",
+      "size_bytes": 35836
     },
     {
       "path": "images/WLX/001-680c22b71393.png",
@@ -1427,12 +1419,6 @@
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/091-9e2df6eb568a.jpg",
       "sha256": "9e2df6eb568a977aa18fccfd902aa82106e5421c4f8c06d8b14dbe2edcbd9682",
       "size_bytes": 4095646
-    },
-    {
-      "path": "images/WLX/092-5ff12bb8f74b.jpg",
-      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/092-5ff12bb8f74b.jpg",
-      "sha256": "5ff12bb8f74b49e0804a2b6bc64f9591f152fb66e459278c72f1c2c5c3707824",
-      "size_bytes": 6995717
     },
     {
       "path": "images/WLX/093-bed878edce63.jpg",
