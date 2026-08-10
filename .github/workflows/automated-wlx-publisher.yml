@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install pinned validation dependency
-        run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
+        run: python -m pip install --disable-pip-version-check --no-input -r WLX/source/automation/requirements-test.txt
 
       - name: Process the removal
         id: intake
@@ -42,7 +42,7 @@ jobs:
         env:
           RESULT_DIR: ${{ runner.temp }}/wlx-result
         run: >-
-          python automation/process_issue.py
+          python WLX/source/automation/process_issue.py
           --event "$GITHUB_EVENT_PATH"
           --repository-root .
           --result-dir "$RESULT_DIR"
@@ -51,16 +51,16 @@ jobs:
         id: build
         if: steps.intake.outcome == 'success'
         continue-on-error: true
-        run: python automation/build.py --repository-root .
+        run: python WLX/source/automation/build.py --repository-root .
 
       - name: Run every repository and importer test
         id: tests
         if: steps.intake.outcome == 'success' && steps.build.outcome == 'success'
         continue-on-error: true
         run: |
-          python -m unittest discover -s automation/tests -v
-          python automation/tests/schema_validation.py --require-lxml
-          python automation/tests/powershell_integration.py --require-pwsh
+          python -m unittest discover -s WLX/source/automation/tests -v
+          python WLX/source/automation/tests/schema_validation.py --require-lxml
+          python WLX/source/automation/tests/powershell_integration.py --require-pwsh
 
       - name: Commit the verified removal
         id: publish
@@ -130,9 +130,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
-      - run: python automation/build.py --repository-root . --validate-only
+      - run: python -m pip install --disable-pip-version-check --no-input -r WLX/source/automation/requirements-test.txt
+      - run: python WLX/source/automation/build.py --repository-root . --validate-only
       - run: |
-          python -m unittest discover -s automation/tests -v
-          python automation/tests/schema_validation.py --require-lxml
-          python automation/tests/powershell_integration.py --require-pwsh
+          python -m unittest discover -s WLX/source/automation/tests -v
+          python WLX/source/automation/tests/schema_validation.py --require-lxml
+          python WLX/source/automation/tests/powershell_integration.py --require-pwsh

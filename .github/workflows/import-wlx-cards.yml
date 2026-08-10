@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "WLX_BULK_IMPORT_INSTALL.zip"
+      - "WLX_LAYOUT_REWIRE_INSTALL.zip"
       - "imports/incoming/**"
   workflow_dispatch:
 
@@ -31,42 +31,42 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install clean importer or process the waiting batch
+      - name: Install the organized layout wiring or process the waiting batch
         id: intake
         env:
           BATCH_ID: ${{ github.sha }}
         run: |
-          if [ -f WLX_BULK_IMPORT_INSTALL.zip ]; then
-            install_dir="$RUNNER_TEMP/wlx-bulk-install"
+          if [ -f WLX_LAYOUT_REWIRE_INSTALL.zip ]; then
+            install_dir="$RUNNER_TEMP/wlx-layout-rewire"
             mkdir -p "$install_dir"
-            python -m zipfile -e WLX_BULK_IMPORT_INSTALL.zip "$install_dir"
+            python -m zipfile -e WLX_LAYOUT_REWIRE_INSTALL.zip "$install_dir"
             python "$install_dir/install.py" \
               --repository-root . \
               --package-root "$install_dir"
-            rm -f WLX_BULK_IMPORT_INSTALL.zip
-            echo "mode=install" >> "$GITHUB_OUTPUT"
+            rm -f WLX_LAYOUT_REWIRE_INSTALL.zip
+            echo "mode=rewire" >> "$GITHUB_OUTPUT"
           else
-            if [ ! -f .wlx-bulk-importer-installed ]; then
-              echo "The clean importer is not installed yet. Upload WLX_BULK_IMPORT_INSTALL.zip first." >&2
+            if [ ! -f WLX/source/.wlx-bulk-importer-installed ]; then
+              echo "The organized WLX importer is not installed yet." >&2
               exit 1
             fi
-            python tools/wlx_bulk_import.py \
+            python WLX/source/tools/wlx_bulk_import.py \
               --repository-root . \
               --batch-id "${BATCH_ID:0:10}"
             echo "mode=import" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install pinned validation dependency
-        run: python -m pip install --disable-pip-version-check --no-input -r automation/requirements-test.txt
+        run: python -m pip install --disable-pip-version-check --no-input -r WLX/source/automation/requirements-test.txt
 
       - name: Build the complete public release
-        run: python automation/build.py --repository-root .
+        run: python WLX/source/automation/build.py --repository-root .
 
       - name: Run every repository and importer test
         run: |
-          python -m unittest discover -s automation/tests -v
-          python automation/tests/schema_validation.py --require-lxml
-          python automation/tests/powershell_integration.py --require-pwsh
+          python -m unittest discover -s WLX/source/automation/tests -v
+          python WLX/source/automation/tests/schema_validation.py --require-lxml
+          python WLX/source/automation/tests/powershell_integration.py --require-pwsh
 
       - name: Show the batch result
         if: steps.intake.outputs.mode == 'import'
@@ -86,8 +86,8 @@ jobs:
             echo "No repository changes were needed."
             exit 0
           fi
-          if [ "$MODE" = "install" ]; then
-            message="Install clean WLX bulk importer [skip ci]"
+          if [ "$MODE" = "rewire" ]; then
+            message="Finish organized WLX layout migration [skip ci]"
           else
             message="Publish WLX file import ${GITHUB_SHA:0:10} [skip ci]"
           fi
