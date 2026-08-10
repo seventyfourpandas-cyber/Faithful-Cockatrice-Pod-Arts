@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-10T20:29:52+00:00</createdAt>
+    <createdAt>2026-08-10T20:39:35+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.0.4</sourceVersion>
+    <sourceVersion>3.0.5</sourceVersion>
   </info>
   <sets>
     <set>
@@ -47,6 +47,22 @@
     <card>
       <name>Aura Shards</name>
       <set uuid="5b3ae90a-7589-5031-873b-9cbb0050bf0e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/019-8db38160562c.jpg" num="019" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Avatar Token  </name>
+      <text>Haste
+Whenever this creature attacks, it deals 3 damage to each opponent.</text>
+      <prop>
+        <type>Token Creature — Avatar</type>
+        <maintype>Creature</maintype>
+        <cmc>0</cmc>
+        <colors>BR</colors>
+        <pt>3/6</pt>
+      </prop>
+      <set uuid="1b2d65b7-11d5-5c54-9ac9-dcd010619788" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/140-415b63215dfd.png" num="140" rarity="special">WLX</set>
+      <reverse-related>Awaken the Blood Avatar</reverse-related>
+      <token>true</token>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Avatar's Wrath</name>
@@ -494,8 +510,76 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="577ae408-e88c-5d9a-b2a7-4ca03f4f42de" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/107-770a9bf22e46.jpg" num="107" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Scion of Calamity</name>
+      <set uuid="831067cb-33c5-5457-8cd1-fe2f6cf1d11b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/109-bf7e58450ce7.jpg" num="109" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Selvala, Heart of the Wilds</name>
+      <set uuid="bcbd667e-bf58-5681-94cf-4de9415b5d9c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/110-ad1a69271419.jpg" num="110" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Shadowgrange Archfiend</name>
+      <set uuid="72beb555-48b2-5e39-a173-4392df28a4eb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/111-7badf7ac6a54.jpg" num="111" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Shadowheart, Dark Justiciar</name>
       <set uuid="ecb6b1ff-fb7b-527b-8ae1-7c87302c8bfb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/005-2b21b1e6af30.jpg" num="005" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Sign in Blood</name>
+      <set uuid="48932781-9315-560a-9bbb-4ddb4fc96b92" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/112-197ed15dfe4f.jpg" num="112" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Skull Storm</name>
+      <set uuid="95e98a94-adb8-5870-ab38-baa7da540048" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/113-5af3f8faf350.jpg" num="113" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Sneak Attack</name>
+      <set uuid="7da8f0ff-dc9f-5db4-96d0-d825d4c2007d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/114-06ebd9301984.jpg" num="114" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Soldevi Adnate</name>
+      <set uuid="6e0f22c8-0046-5944-8a94-64a790aba183" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/115-a941943adceb.jpg" num="115" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Solphim, Mayhem Dominus</name>
+      <set uuid="088e3e7d-1a0b-5ca8-ac90-a59033f00021" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/116-cc59d4418e3d.jpg" num="116" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Songs of the Damned</name>
+      <set uuid="29250f84-615a-5e25-814f-301a67e3d0bf" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/117-faefadb48e9a.jpg" num="117" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Spiteful Visions</name>
+      <set uuid="54588855-d49c-5382-b48f-f9490566d40b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/118-6de0f9b9d16d.jpg" num="118" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Star Athlete</name>
+      <set uuid="557a64d0-b5a3-56cc-aa65-e0a99f3fb01e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/119-09647ba640ae.jpg" num="119" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Stormfist Crusader</name>
+      <set uuid="a39ba1b9-c840-5fcb-b949-ccb98bcccf0b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/120-5a43795e3c2e.jpg" num="120" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Sundial of the Infinite</name>
+      <set uuid="3a207b04-a6fd-588b-a74b-c92a907421fd" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/121-8c3ded4fc498.jpg" num="121" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Suspended Sentence</name>
+      <set uuid="7658cc5f-fd63-56bd-8596-5904d40d776b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/122-b63457743113.jpg" num="122" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Talisman of Indulgence</name>
+      <set uuid="4ce74e2f-414e-5435-9534-5760e9c80db5" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/123-4b1cb82e82cc.jpg" num="123" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Temple Altisaur</name>
+      <set uuid="396fe8d7-a4d4-578e-b179-8c3c9b18b0c7" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/124-5d5ef2a6b60e.jpg" num="124" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Teval's Judgment</name>
+      <set uuid="f8714545-a33d-5e9b-a783-e19aeebbb0cd" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/125-9217cf728b24.jpg" num="125" rarity="special">WLX</set>
     </card>
     <card>
       <name>The Broken Sky</name>
@@ -514,8 +598,64 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <tablerow>1</tablerow>
     </card>
     <card>
+      <name>The Great Henge</name>
+      <set uuid="3213f7f0-673a-5a65-9e07-9569a411ac89" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/126-92769fe21939.jpg" num="126" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>The Meathook Massacre</name>
+      <set uuid="cafd6ac2-33eb-549d-8089-80edf9371242" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/127-447cab1034ff.jpg" num="127" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Thought Vessel</name>
+      <set uuid="7ca2838a-7cb1-5faa-9a06-033192490d18" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/128-340ec78213b4.jpg" num="128" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Three Visits</name>
+      <set uuid="37ae3ec8-18e5-51ec-a987-01cba1fd34b6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/129-70258f4a6a8e.jpg" num="129" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Timeless Lotus</name>
+      <set uuid="3613bec9-545c-5f39-9d7d-b02f28ca388d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/130-4c0f3be7fc84.jpg" num="130" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Torbran, Thane of Red Fell</name>
+      <set uuid="c82c6bf9-440d-5049-85df-bc6426693aeb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/131-c6dd52b376ec.jpg" num="131" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Umbral Collar Zealot</name>
+      <set uuid="a735e69b-f9ae-5bd2-a773-ca21d4e78aa5" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/132-fdff0079ebbe.jpg" num="132" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Valgavoth, Terror Eater</name>
+      <set uuid="18e0dd50-06b6-5eae-9abd-7f7fb27bdfca" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/133-794cd536aa3f.jpg" num="133" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Vile Entomber</name>
+      <set uuid="f0d4e14d-2ab4-596c-b99f-47276b25f754" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/134-a46da6494948.jpg" num="134" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Warstorm Surge</name>
+      <set uuid="9d926a49-75e8-54d2-85f4-872bbdc7c2c9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/135-3d796c773f33.jpg" num="135" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Wedding Ring</name>
       <set uuid="b7ed3e04-2245-5304-a933-8ce3975f0a58" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/002-469c6a028a1c.png" num="002" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Whip of Erebos</name>
+      <set uuid="7381320b-ccc5-5cc6-9d28-5a269fce6a3c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/136-7e4219d3701a.jpg" num="136" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Wrathful Raptors</name>
+      <set uuid="aef21de6-606a-584a-bcee-7c0e1ce82fa1" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/137-a396ef696b14.jpg" num="137" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Yurlok of Scorch Thrash</name>
+      <set uuid="52248ee2-127b-5eb4-87b3-432b24b685ee" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-b326a42052a7.jpg" num="138" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Zero Point Ballad</name>
+      <set uuid="bc7e50cf-d4c2-54fe-a470-36e43a53792b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/139-9e2c4d1b08c1.jpg" num="139" rarity="special">WLX</set>
     </card>
   </cards>
 </cockatrice_carddatabase>

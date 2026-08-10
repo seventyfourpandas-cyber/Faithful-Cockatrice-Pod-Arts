@@ -1123,6 +1123,359 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-10"
+    },
+    "scion of calamity": {
+      "name": "Scion of Calamity",
+      "oracle_id": "75fddffb-68f4-4b65-bf3b-4e2ada62a522",
+      "scryfall_uri": "https://scryfall.com/card/lcc/93/scion-of-calamity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "selvala, heart of the wilds": {
+      "name": "Selvala, Heart of the Wilds",
+      "oracle_id": "1d725121-e50c-42f0-9128-56802f07c89e",
+      "scryfall_uri": "https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "shadowgrange archfiend": {
+      "name": "Shadowgrange Archfiend",
+      "oracle_id": "8f3705ff-e8e5-48e7-ab68-df6849d78867",
+      "scryfall_uri": "https://scryfall.com/card/voc/22/shadowgrange-archfiend?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "sign in blood": {
+      "name": "Sign in Blood",
+      "oracle_id": "c6207f6a-a624-4754-88f5-dbe700c841ff",
+      "scryfall_uri": "https://scryfall.com/card/dsc/156/sign-in-blood?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "skull storm": {
+      "name": "Skull Storm",
+      "oracle_id": "6f34d70e-7a3a-43f7-b2c9-f89519804d3c",
+      "scryfall_uri": "https://scryfall.com/card/c18/18/skull-storm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "sneak attack": {
+      "name": "Sneak Attack",
+      "oracle_id": "e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d",
+      "scryfall_uri": "https://scryfall.com/card/dmr/139/sneak-attack?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "soldevi adnate": {
+      "name": "Soldevi Adnate",
+      "oracle_id": "e3174070-542f-429e-9149-b572f6614537",
+      "scryfall_uri": "https://scryfall.com/card/all/60a/soldevi-adnate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "solphim, mayhem dominus": {
+      "name": "Solphim, Mayhem Dominus",
+      "oracle_id": "895f23a2-55b7-4cc0-8939-2efaaf097e6f",
+      "scryfall_uri": "https://scryfall.com/card/one/150/solphim-mayhem-dominus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "songs of the damned": {
+      "name": "Songs of the Damned",
+      "oracle_id": "39419d29-47e7-4d71-953b-96a2e14ae964",
+      "scryfall_uri": "https://scryfall.com/card/uma/115/songs-of-the-damned?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "spiteful visions": {
+      "name": "Spiteful Visions",
+      "oracle_id": "922cf963-2b1b-43ad-819e-6e49133e6aae",
+      "scryfall_uri": "https://scryfall.com/card/dsc/233/spiteful-visions?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "star athlete": {
+      "name": "Star Athlete",
+      "oracle_id": "fb03befb-b4e4-4ae9-908d-a16d5b03b054",
+      "scryfall_uri": "https://scryfall.com/card/dsc/29/star-athlete?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "stormfist crusader": {
+      "name": "Stormfist Crusader",
+      "oracle_id": "0d3bebc6-662a-4cd4-ad1e-aeed0c5e04f6",
+      "scryfall_uri": "https://scryfall.com/card/dsc/234/stormfist-crusader?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "sundial of the infinite": {
+      "name": "Sundial of the Infinite",
+      "oracle_id": "79d46e09-2548-440f-9c02-3c3dc39a0cd1",
+      "scryfall_uri": "https://scryfall.com/card/m12/218/sundial-of-the-infinite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "suspended sentence": {
+      "name": "Suspended Sentence",
+      "oracle_id": "98641070-93bd-4088-90cb-956c2b21979e",
+      "scryfall_uri": "https://scryfall.com/card/dsc/25/suspended-sentence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "talisman of indulgence": {
+      "name": "Talisman of Indulgence",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "scryfall_uri": "https://scryfall.com/card/msc/220/talisman-of-indulgence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "temple altisaur": {
+      "name": "Temple Altisaur",
+      "oracle_id": "1f499d39-b963-45c0-9604-d3cab98c9e05",
+      "scryfall_uri": "https://scryfall.com/card/lcc/138/temple-altisaur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "teval's judgment": {
+      "name": "Teval's Judgment",
+      "oracle_id": "71fc2393-f55c-4b06-897c-fb7d4199b5f5",
+      "scryfall_uri": "https://scryfall.com/card/tdc/28/tevals-judgment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "the great henge": {
+      "name": "The Great Henge",
+      "oracle_id": "78427103-9543-41fb-b6d4-72963fe87275",
+      "scryfall_uri": "https://scryfall.com/card/cmm/294/the-great-henge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "the meathook massacre": {
+      "name": "The Meathook Massacre",
+      "oracle_id": "127de52b-df75-4342-95a0-20d84c5bf916",
+      "scryfall_uri": "https://scryfall.com/card/inr/122/the-meathook-massacre?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "thought vessel": {
+      "name": "Thought Vessel",
+      "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be",
+      "scryfall_uri": "https://scryfall.com/card/mbc/78/thought-vessel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "three visits": {
+      "name": "Three Visits",
+      "oracle_id": "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e",
+      "scryfall_uri": "https://scryfall.com/card/msc/181/three-visits?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "timeless lotus": {
+      "name": "Timeless Lotus",
+      "oracle_id": "fec77e0a-433e-4d32-9260-e26a37f6ad23",
+      "scryfall_uri": "https://scryfall.com/card/ecc/143/timeless-lotus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "torbran, thane of red fell": {
+      "name": "Torbran, Thane of Red Fell",
+      "oracle_id": "8c3495bf-02e7-4ad9-949d-92eb3d2b662a",
+      "scryfall_uri": "https://scryfall.com/card/eld/147/torbran-thane-of-red-fell?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "umbral collar zealot": {
+      "name": "Umbral Collar Zealot",
+      "oracle_id": "12db6263-75c2-442f-a1a5-7af7915f8f9f",
+      "scryfall_uri": "https://scryfall.com/card/soc/227/umbral-collar-zealot?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "valgavoth, terror eater": {
+      "name": "Valgavoth, Terror Eater",
+      "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+      "scryfall_uri": "https://scryfall.com/card/dsk/120/valgavoth-terror-eater?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "vile entomber": {
+      "name": "Vile Entomber",
+      "oracle_id": "556dd333-4066-41f7-98f6-41794754de71",
+      "scryfall_uri": "https://scryfall.com/card/fdn/616/vile-entomber?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "warstorm surge": {
+      "name": "Warstorm Surge",
+      "oracle_id": "42fb1a1c-ab3d-4cdc-a6ff-a591f7481583",
+      "scryfall_uri": "https://scryfall.com/card/clb/815/warstorm-surge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "whip of erebos": {
+      "name": "Whip of Erebos",
+      "oracle_id": "53987a39-c18c-4c13-b1ea-fd1b2a369f9e",
+      "scryfall_uri": "https://scryfall.com/card/dsc/159/whip-of-erebos?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "wrathful raptors": {
+      "name": "Wrathful Raptors",
+      "oracle_id": "1ba92b64-d821-4c24-aed6-fc90d0c63c10",
+      "scryfall_uri": "https://scryfall.com/card/lcc/88/wrathful-raptors?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "yurlok of scorch thrash": {
+      "name": "Yurlok of Scorch Thrash",
+      "oracle_id": "7baaf462-b0e6-4e21-86a7-73a883c4c9f7",
+      "scryfall_uri": "https://scryfall.com/card/cmr/293/yurlok-of-scorch-thrash?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "zero point ballad": {
+      "name": "Zero Point Ballad",
+      "oracle_id": "835abd35-27ea-45fe-b55d-25081c57bd4a",
+      "scryfall_uri": "https://scryfall.com/card/eoe/128/zero-point-ballad?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-10"
+    },
+    "invasion of ikoria": {
+      "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
+      "oracle_id": "21d90735-5e04-4a8c-a546-ff26d4d5998d",
+      "scryfall_uri": "https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Ikoria",
+          "side": "front",
+          "mana_cost": "{X}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, search your library and/or graveyard for a non-Human creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "6"
+        },
+        {
+          "official_name": "Zilortha, Apex of Ikoria",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Dinosaur",
+          "rules_text": "Reach\nFor each non-Human creature you control, you may have that creature assign its combat damage as though it weren't blocked.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "8/8",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
+    },
+    "zilortha, apex of ikoria": {
+      "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
+      "oracle_id": "21d90735-5e04-4a8c-a546-ff26d4d5998d",
+      "scryfall_uri": "https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Ikoria",
+          "side": "front",
+          "mana_cost": "{X}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, search your library and/or graveyard for a non-Human creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "6"
+        },
+        {
+          "official_name": "Zilortha, Apex of Ikoria",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Dinosaur",
+          "rules_text": "Reach\nFor each non-Human creature you control, you may have that creature assign its combat damage as though it weren't blocked.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "8/8",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
+    },
+    "invasion of ikoria // zilortha, apex of ikoria": {
+      "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
+      "oracle_id": "21d90735-5e04-4a8c-a546-ff26d4d5998d",
+      "scryfall_uri": "https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Ikoria",
+          "side": "front",
+          "mana_cost": "{X}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, search your library and/or graveyard for a non-Human creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "6"
+        },
+        {
+          "official_name": "Zilortha, Apex of Ikoria",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Creature — Dinosaur",
+          "rules_text": "Reach\nFor each non-Human creature you control, you may have that creature assign its combat damage as though it weren't blocked.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "8/8",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-10"
     }
   }
 }
