@@ -1,5 +1,0 @@
-This image was not published.
-
-No exact official Magic card named 'Fear of Missing' was found
-
-Fix or rename it, then move it back into the matching imports/incoming/<player> folder.
