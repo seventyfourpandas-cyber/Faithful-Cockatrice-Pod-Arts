@@ -34,11 +34,26 @@ incoming copies, and makes one publication commit.
 automatically paired double-faced cards, linked token art, multiple artworks,
 and collector-number artwork replacement.
 
+## View or bulk-edit the collection
+
+Open [`WLX/CARD_MANAGER.csv`](./WLX/CARD_MANAGER.csv) to see one row per
+physical printing. Download it, edit only the blank `CHANGE_` columns, and
+upload it back to the same location in one commit. The Action can move cards
+between player collections, renumber several cards atomically, deliberately
+reuse a retired gap, and change rarity or printed titles without hand-editing
+catalog JSON or image paths. Renumbering preserves the printing's permanent
+Cockatrice UUID.
+
+[`CARD_MANAGER_GUIDE.md`](./WLX/docs/CARD_MANAGER_GUIDE.md) gives the exact
+spreadsheet workflow. `WLX/published/catalog.resolved.csv` remains a generated,
+read-only report; edits there are overwritten by the next build.
+
 ## Remove a printing
 
 Removal is the only routine operation that uses **Issues → New issue**. Choose
 **Remove a printing**, enter the WLX collector number, and confirm. The number
-is permanently retired rather than reused.
+is retired automatically. A retired number is reused only when an owner
+deliberately assigns it through `CARD_MANAGER.csv`.
 
 ## Source organization
 
@@ -46,6 +61,7 @@ is permanently retired rather than reused.
 .github/                 GitHub workflows and the removal form
 imports/                 card-art intake, results, and needs-attention queue
 WLX/docs/                owner, player, status, and import documentation
+WLX/CARD_MANAGER.csv     editable collection-management spreadsheet
 WLX/source/              canonical catalogs, automation, tools, and configuration
 WLX/published/           public XML, images, manifest, catalogs, and installer
 ```
@@ -58,7 +74,8 @@ them from the canonical data under `WLX/source/`.
 - One commit is one batch; the workflow does not create one event per card.
 - The committed incoming folder is the queue. A cancelled pending workflow run
   cannot erase an image request.
-- Collector numbers are globally allocated once and never reused.
+- New imports never reuse collector numbers; only an explicit manager edit can
+  reclaim a retired number.
 - Artwork replacement preserves the collector number and UUID.
 - Public image URLs are content-addressed, so changed art cannot be hidden by a
   stale Cockatrice cache.

@@ -43,6 +43,7 @@ OFFICIAL_CACHE_RELATIVE = Path("automation") / "data" / "official_cards_cache.js
 INSTALLER_SOURCE_RELATIVE = Path("automation") / "installer_source"
 PROJECT_RELATIVE = Path("project.json")
 STATUS_RELATIVE = Path("STATUS.md")
+CARD_MANAGER_RELATIVE = Path("WLX") / "CARD_MANAGER.csv"
 COCKATRICE_TOKEN_DATABASE_URL = (
     "https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml"
 )
@@ -56,6 +57,23 @@ MANA_COST_RE = re.compile(r"(?:\{[^{}\s]+\})+")
 ALLOWED_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 MAX_SOURCE_IMAGE_BYTES = 100 * 1024 * 1024
 ALLOWED_RARITIES = {"common", "uncommon", "rare", "mythic", "special", "bonus"}
+CARD_MANAGER_FIELDS = [
+    "current_collector",
+    "card_name",
+    "current_owner",
+    "CHANGE_owner_to",
+    "CHANGE_collector_to",
+    "current_rarity",
+    "CHANGE_rarity_to",
+    "current_front_title",
+    "CHANGE_front_title_to",
+    "current_back_title",
+    "CHANGE_back_title_to",
+    "card_kind",
+    "printing_uuid",
+    "source_images",
+    "notes",
+]
 DOUBLE_FACED_LAYOUTS = {
     "double_faced_token",
     "flip",
@@ -1293,6 +1311,75 @@ def write_resolved_csv(path: Path, printings: Iterable[ResolvedPrinting]) -> Non
             )
 
 
+def card_manager_path(root: Path) -> Path:
+    """Return the user-editable manager location for organized or test layouts."""
+    root = root.resolve()
+    if source_root(root) != root:
+        return root / CARD_MANAGER_RELATIVE
+    return root / "CARD_MANAGER.csv"
+
+
+def card_manager_rows(printings: Iterable[ResolvedPrinting]) -> list[dict[str, str]]:
+    """Collapse resolved faces into one editable row per physical printing."""
+    grouped: dict[str, list[ResolvedPrinting]] = defaultdict(list)
+    for printing in printings:
+        grouped[printing.printing_uuid].append(printing)
+
+    rows: list[dict[str, str]] = []
+    ordered = sorted(
+        grouped.values(), key=lambda group: int(group[0].collector_number)
+    )
+    for group in ordered:
+        first = group[0]
+        faces = sorted(
+            group,
+            key=lambda item: 0
+            if item.face_metadata and item.face_metadata.get("side") == "front"
+            else 1,
+        )
+        if first.card_kind == "official_double_faced":
+            card_name = " // ".join(item.card_name for item in faces)
+            front_title = faces[0].flavor_name
+            back_title = faces[1].flavor_name
+        else:
+            card_name = first.card_name.rstrip()
+            front_title = first.flavor_name
+            back_title = ""
+        rows.append(
+            {
+                "current_collector": f"WLX-{first.collector_number}",
+                "card_name": card_name,
+                "current_owner": first.player,
+                "CHANGE_owner_to": "",
+                "CHANGE_collector_to": "",
+                "current_rarity": first.rarity,
+                "CHANGE_rarity_to": "",
+                "current_front_title": front_title,
+                "CHANGE_front_title_to": "",
+                "current_back_title": back_title,
+                "CHANGE_back_title_to": "",
+                "card_kind": first.card_kind,
+                "printing_uuid": first.printing_uuid,
+                "source_images": " | ".join(item.image_file for item in faces),
+                "notes": first.notes,
+            }
+        )
+    return rows
+
+
+def write_card_manager_csv(
+    path: Path, printings: Iterable[ResolvedPrinting]
+) -> None:
+    """Write the Excel-friendly control sheet with all request cells blank."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=CARD_MANAGER_FIELDS)
+        writer.writeheader()
+        writer.writerows(card_manager_rows(printings))
+    temporary.replace(path)
+
+
 def _replace_directory(source: Path, destination: Path) -> None:
     if destination.exists():
         shutil.rmtree(destination)
@@ -1471,6 +1558,8 @@ def build_repository(root: Path) -> dict[str, Any]:
         }
         write_json(staging / "manifest.json", manifest)
 
+        write_card_manager_csv(staging / "CARD_MANAGER.csv", printings)
+
         status_lines = [
             f"# {config['display_name']} — Published Status",
             "",
@@ -1510,6 +1599,7 @@ def build_repository(root: Path) -> dict[str, Any]:
             installer_zip_name,
         ):
             _replace_file(staging / filename, publication / filename)
+        _replace_file(staging / "CARD_MANAGER.csv", card_manager_path(root))
         _replace_file(staging / "STATUS.md", documentation / STATUS_RELATIVE)
         for cleanup_root in {root, publication}:
             for obsolete in cleanup_root.glob(

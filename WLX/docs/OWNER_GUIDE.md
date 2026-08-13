@@ -19,6 +19,19 @@ the existing builder generates the XML, public images, manifest, readable
 catalog, installer, and status under `WLX/published/`. Never edit generated
 publication files by hand.
 
+## View, transfer, or renumber existing cards
+
+Use `WLX/CARD_MANAGER.csv`. It lists one row per physical printing, including
+one combined row for a double-faced card. Edit only columns whose names begin
+with `CHANGE_`, then replace the file in one commit. The same serialized Action
+updates the real player catalogs, state, UUIDs, source-image folders and names,
+public XML, manifest, installer, and readable catalogs together.
+
+See [CARD_MANAGER_GUIDE.md](./CARD_MANAGER_GUIDE.md) for examples, retired-gap
+reuse, swaps, title clearing, and the failure rules. Do not edit
+`WLX/published/catalog.resolved.csv`; it is regenerated from the canonical
+sources.
+
 ## Add and update conventions
 
 - `Sol Ring.jpg` adds a new official printing.
@@ -36,8 +49,9 @@ routine Issue form for it.
 ## Remove a printing
 
 Use **Issues → New issue → Remove a printing**. Enter its collector number and
-confirm. The number becomes a permanent tombstone. If it was the final printing
-of an original definition, the unused definition is removed as well.
+confirm. The number becomes a retired tombstone unless an owner later reclaims
+that exact gap deliberately through `CARD_MANAGER.csv`. If it was the final
+printing of an original definition, the unused definition is removed as well.
 
 ## Reading a result
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import binascii
+import csv
 import hashlib
 import http.server
 import importlib
@@ -1207,6 +1208,22 @@ class ShippedRepositoryTests(unittest.TestCase):
             self.assertIn("WLX/source/automation", payload)
             self.assertNotIn("-r automation/", payload)
             self.assertNotIn("python automation/", payload)
+        importer = (workflow_dir / "import-wlx-cards.yml").read_text(encoding="utf-8")
+        self.assertIn('"WLX/CARD_MANAGER.csv"', importer)
+        self.assertIn("wlx_catalog_manager.py", importer)
+
+    def test_shipped_card_manager_matches_the_active_physical_printings(self) -> None:
+        manager_path = wlxlib.card_manager_path(REPOSITORY_ROOT)
+        self.assertTrue(manager_path.is_file())
+        with manager_path.open("r", encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            self.assertEqual(reader.fieldnames, wlxlib.CARD_MANAGER_FIELDS)
+            rows = list(reader)
+        _config, _state, resolved = wlxlib.validate_repository(REPOSITORY_ROOT)
+        self.assertEqual(rows, wlxlib.card_manager_rows(resolved))
+        self.assertTrue(
+            all(not row[field] for row in rows for field in wlxlib.CARD_MANAGER_FIELDS if field.startswith("CHANGE_"))
+        )
 
     def test_public_payload_is_fetchable_over_http(self) -> None:
         with AttachmentServer(wlxlib.published_root(REPOSITORY_ROOT)) as base:
