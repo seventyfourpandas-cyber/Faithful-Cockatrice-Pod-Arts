@@ -1,512 +1,304 @@
 {
   "schema_version": 1,
-  "batch_id": "be96fa5cd2",
-  "started_at": "2026-08-13T19:52:39+00:00",
-  "finished_at": "2026-08-13T19:52:40+00:00",
-  "found": 100,
-  "version_before": "3.2.1",
-  "version_after": "3.2.2",
+  "batch_id": "6d6432a8d3",
+  "started_at": "2026-08-13T21:22:39+00:00",
+  "finished_at": "2026-08-13T21:22:40+00:00",
+  "found": 62,
+  "version_before": "3.2.2",
+  "version_after": "3.2.3",
   "added": [
     {
-      "collector_number": "141",
-      "name": "All That Glitters",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "142",
-      "name": "An Offer You Can't Refuse",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "143",
-      "name": "Avatar's Wrath",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "144",
-      "name": "Dovin's Veto",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "145",
-      "name": "Enlightened Tutor",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "146",
-      "name": "Isochron Scepter",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "147",
-      "name": "Kynaios and Tiro of Meletis",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "148",
-      "name": "Spectral Searchlight",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "149",
-      "name": "Veteran Explorer",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "150",
-      "name": "Wavebreak Hippocamp",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "151",
-      "name": "Iroh, Grand Lotus",
-      "player": "Jay"
-    },
-    {
-      "collector_number": "152",
-      "name": "The Muckslinger Gang",
-      "player": "Miguel"
-    },
-    {
-      "collector_number": "153",
-      "name": "The Wise Mothman",
-      "player": "Miguel"
-    },
-    {
-      "collector_number": "154",
-      "name": "Akroma's Memorial",
-      "player": "Will"
-    },
-    {
-      "collector_number": "155",
-      "name": "Altar of Dementia",
-      "player": "Will"
-    },
-    {
-      "collector_number": "156",
-      "name": "An Offer You Can't Refuse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "157",
-      "name": "Ancient Stone Idol",
-      "player": "Will"
-    },
-    {
-      "collector_number": "158",
-      "name": "Anger",
-      "player": "Will"
-    },
-    {
-      "collector_number": "159",
-      "name": "Arcane Denial",
-      "player": "Will"
-    },
-    {
-      "collector_number": "160",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "161",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "162",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "163",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "164",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "165",
-      "name": "Arcane Signet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "166",
-      "name": "Artful Dodge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "167",
-      "name": "Asceticism",
-      "player": "Will"
-    },
-    {
-      "collector_number": "168",
-      "name": "Berserkers' Onslaught",
-      "player": "Will"
-    },
-    {
-      "collector_number": "169",
-      "name": "Blasphemous Act",
-      "player": "Will"
-    },
-    {
-      "collector_number": "170",
-      "name": "Bolt Bend",
-      "player": "Will"
-    },
-    {
-      "collector_number": "171",
-      "name": "Bronzebeak Foragers",
-      "player": "Will"
-    },
-    {
-      "collector_number": "172",
-      "name": "Chandra's Ignition",
-      "player": "Will"
-    },
-    {
-      "collector_number": "173",
-      "name": "Chaos Warp",
-      "player": "Will"
-    },
-    {
-      "collector_number": "174",
-      "name": "Charming Scoundrel",
-      "player": "Will"
-    },
-    {
-      "collector_number": "175",
-      "name": "Cityscape Leveler",
-      "player": "Will"
-    },
-    {
-      "collector_number": "176",
-      "name": "Cloud Key",
-      "player": "Will"
-    },
-    {
-      "collector_number": "177",
-      "name": "Collective Inferno",
-      "player": "Will"
-    },
-    {
-      "collector_number": "178",
-      "name": "Collective Resistance",
-      "player": "Will"
-    },
-    {
-      "collector_number": "179",
-      "name": "Combustible Gearhulk",
-      "player": "Will"
-    },
-    {
-      "collector_number": "180",
-      "name": "Crash Through",
+      "collector_number": "238",
+      "name": "Aeve, Progenitor Ooze",
       "player": "Will"
     },
     {
-      "collector_number": "181",
-      "name": "Cultivate",
+      "collector_number": "239",
+      "name": "Aeve, Progenitor Ooze",
       "player": "Will"
     },
     {
-      "collector_number": "182",
-      "name": "Curiosity Crafter",
+      "collector_number": "240",
+      "name": "Fear of Missing Out",
       "player": "Will"
     },
     {
-      "collector_number": "183",
-      "name": "Cursed Mirror",
+      "collector_number": "241",
+      "name": "Garruk's Uprising",
       "player": "Will"
     },
     {
-      "collector_number": "184",
-      "name": "Cyclonic Rift",
+      "collector_number": "242",
+      "name": "Rain of Riches",
       "player": "Will"
     },
     {
-      "collector_number": "185",
-      "name": "Cyclonic Rift",
+      "collector_number": "243",
+      "name": "Rapid Hybridization",
       "player": "Will"
     },
     {
-      "collector_number": "186",
-      "name": "Defiler of Instinct",
+      "collector_number": "244",
+      "name": "Razaketh, the Foulblooded",
       "player": "Will"
     },
     {
-      "collector_number": "187",
-      "name": "Devil Dinosaur",
+      "collector_number": "245",
+      "name": "Reaver Titan",
       "player": "Will"
     },
     {
-      "collector_number": "188",
-      "name": "Distortion Strike",
+      "collector_number": "246",
+      "name": "Redoubled Stormsinger",
       "player": "Will"
     },
     {
-      "collector_number": "189",
-      "name": "Dour Port-Mage",
+      "collector_number": "247",
+      "name": "Reflections of Littjara",
       "player": "Will"
     },
     {
-      "collector_number": "190",
-      "name": "Duplicant",
+      "collector_number": "248",
+      "name": "Rhythm of the Wild",
       "player": "Will"
     },
     {
-      "collector_number": "191",
-      "name": "Eidolon of Blossoms",
+      "collector_number": "249",
+      "name": "Rionya, Fire Dancer",
       "player": "Will"
     },
     {
-      "collector_number": "192",
-      "name": "Enduring Curiosity",
+      "collector_number": "250",
+      "name": "Sanctum Weaver",
       "player": "Will"
     },
     {
-      "collector_number": "193",
-      "name": "Enter the Enigma",
+      "collector_number": "251",
+      "name": "Sarkhan's Unsealing",
       "player": "Will"
     },
     {
-      "collector_number": "194",
-      "name": "Eternal Witness",
+      "collector_number": "252",
+      "name": "Sceptre of Eternal Glory",
       "player": "Will"
     },
     {
-      "collector_number": "195",
-      "name": "Extinguisher Battleship",
+      "collector_number": "253",
+      "name": "Shadow Rift",
       "player": "Will"
     },
     {
-      "collector_number": "196",
-      "name": "Faithless Looting",
+      "collector_number": "254",
+      "name": "Shadowheart, Dark Justiciar",
       "player": "Will"
     },
     {
-      "collector_number": "197",
-      "name": "Fiery Emancipation",
+      "collector_number": "255",
+      "name": "Shore Up",
       "player": "Will"
     },
     {
-      "collector_number": "198",
-      "name": "Flameshadow Conjuring",
+      "collector_number": "256",
+      "name": "Skitterbeam Battalion",
       "player": "Will"
     },
     {
-      "collector_number": "199",
-      "name": "Flow State",
+      "collector_number": "257",
+      "name": "Slime Against Humanity",
       "player": "Will"
     },
     {
-      "collector_number": "200",
-      "name": "Frontier Siege",
+      "collector_number": "258",
+      "name": "Snap",
       "player": "Will"
     },
     {
-      "collector_number": "201",
-      "name": "Ghalta and Mavren",
+      "collector_number": "259",
+      "name": "Sneak Attack",
       "player": "Will"
     },
     {
-      "collector_number": "202",
-      "name": "Gisa, the Hellraiser",
+      "collector_number": "260",
+      "name": "Soraya the Falconer",
       "player": "Will"
     },
     {
-      "collector_number": "203",
-      "name": "Glorious Sunrise",
+      "collector_number": "261",
+      "name": "Spectacular Showdown",
       "player": "Will"
     },
     {
-      "collector_number": "204",
-      "name": "Goblin Anarchomancer",
+      "collector_number": "262",
+      "name": "Spider Manifestation",
       "player": "Will"
     },
     {
-      "collector_number": "205",
-      "name": "Goldlust Triad",
+      "collector_number": "263",
+      "name": "Sundial of the Infinite",
       "player": "Will"
     },
     {
-      "collector_number": "206",
-      "name": "Great Train Heist",
+      "collector_number": "264",
+      "name": "Swan Song",
       "player": "Will"
     },
     {
-      "collector_number": "207",
-      "name": "Greater Good",
+      "collector_number": "265",
+      "name": "Talisman of Impulse",
       "player": "Will"
     },
     {
-      "collector_number": "208",
-      "name": "Gruul Signet",
+      "collector_number": "266",
+      "name": "Tamiyo's Safekeeping",
       "player": "Will"
     },
     {
-      "collector_number": "209",
-      "name": "Gruul War Chant",
+      "collector_number": "267",
+      "name": "Tannuk, Steadfast Second",
       "player": "Will"
     },
     {
-      "collector_number": "210",
-      "name": "Gruul War Plow",
+      "collector_number": "268",
+      "name": "Terminal Velocity",
       "player": "Will"
     },
     {
-      "collector_number": "211",
-      "name": "Heroic Intervention",
+      "collector_number": "269",
+      "name": "Terror of the Peaks",
       "player": "Will"
     },
     {
-      "collector_number": "212",
-      "name": "Ingenuity Engine",
+      "collector_number": "270",
+      "name": "The One Ring",
       "player": "Will"
     },
     {
-      "collector_number": "213",
-      "name": "Into the Flood Maw",
+      "collector_number": "271",
+      "name": "The Soul Stone",
       "player": "Will"
     },
     {
-      "collector_number": "214",
-      "name": "Izzet Signet",
+      "collector_number": "272",
+      "name": "The Ten Rings",
       "player": "Will"
     },
     {
-      "collector_number": "215",
-      "name": "Jeska's Will",
+      "collector_number": "273",
+      "name": "The Ten Rings",
       "player": "Will"
     },
     {
-      "collector_number": "216",
-      "name": "Karlach, Fury of Avernus",
+      "collector_number": "274",
+      "name": "Thickest in the Thicket",
       "player": "Will"
     },
     {
-      "collector_number": "217",
-      "name": "Keen Duelist",
+      "collector_number": "275",
+      "name": "Throne of Eldraine",
       "player": "Will"
     },
     {
-      "collector_number": "218",
-      "name": "Lightning Greaves",
+      "collector_number": "276",
+      "name": "Thunderclap Drake",
       "player": "Will"
     },
     {
-      "collector_number": "219",
-      "name": "Maelstrom Colossus",
+      "collector_number": "277",
+      "name": "Thunderhawk Gunship",
       "player": "Will"
     },
     {
-      "collector_number": "220",
-      "name": "Mana Geyser",
+      "collector_number": "278",
+      "name": "Tibalt's Trickery",
       "player": "Will"
     },
     {
-      "collector_number": "221",
-      "name": "Molten Primordial",
+      "collector_number": "279",
+      "name": "Tortured Existence",
       "player": "Will"
     },
     {
-      "collector_number": "222",
-      "name": "Muddle, the Ever-Changing",
+      "collector_number": "280",
+      "name": "Twinflame",
       "player": "Will"
     },
     {
-      "collector_number": "223",
-      "name": "Myojin of Roaring Blades",
+      "collector_number": "281",
+      "name": "Untimely Malfunction",
       "player": "Will"
     },
     {
-      "collector_number": "224",
-      "name": "N'Yami-Class Mother Ship",
+      "collector_number": "282",
+      "name": "Urza's Incubator",
       "player": "Will"
     },
     {
-      "collector_number": "225",
-      "name": "Nautiloid Ship",
+      "collector_number": "283",
+      "name": "Vedalken Orrery",
       "player": "Will"
     },
     {
-      "collector_number": "226",
-      "name": "Nulldrifter",
+      "collector_number": "284",
+      "name": "Void Beckoner",
       "player": "Will"
     },
     {
-      "collector_number": "227",
-      "name": "Octopus Form",
+      "collector_number": "285",
+      "name": "Wandertale Mentor",
       "player": "Will"
     },
     {
-      "collector_number": "228",
-      "name": "Opt",
+      "collector_number": "286",
+      "name": "Weftstalker Ardent",
       "player": "Will"
     },
     {
-      "collector_number": "229",
-      "name": "Parapet Thrasher",
+      "collector_number": "287",
+      "name": "Wild Magic Surge",
       "player": "Will"
     },
     {
-      "collector_number": "230",
-      "name": "Phyrexian Dreadnought",
+      "collector_number": "288",
+      "name": "Wildsear, Scouring Maw",
       "player": "Will"
     },
     {
-      "collector_number": "231",
-      "name": "Portal to Phyrexia",
+      "collector_number": "289",
+      "name": "Wonder",
       "player": "Will"
     },
     {
-      "collector_number": "232",
-      "name": "Professional Face-Breaker",
+      "collector_number": "290",
+      "name": "Zoyowa's Justice",
       "player": "Will"
     },
     {
-      "collector_number": "233",
-      "name": "Purphoros, God of the Forge",
+      "collector_number": "291",
+      "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
       "player": "Will"
     },
     {
-      "collector_number": "234",
-      "name": "Pym Particles",
+      "collector_number": "292",
+      "name": "Sink into Stupor // Soporific Springs",
       "player": "Will"
     },
     {
-      "collector_number": "235",
-      "name": "Ragavan, Nimble Pilferer",
+      "collector_number": "293",
+      "name": "Sundering Eruption // Volcanic Fissure",
       "player": "Will"
     },
     {
-      "collector_number": "236",
-      "name": "Raggadragga, Goreguts Boss",
+      "collector_number": "294",
+      "name": "Valakut Awakening // Valakut Stoneforge",
       "player": "Will"
     },
     {
-      "collector_number": "237",
-      "name": "Invasion of Shandalar // Leyline Surge",
+      "collector_number": "295",
+      "name": "Ooze Token",
       "player": "Will"
     }
   ],
   "updated": [],
   "already_current": [],
-  "needs_attention": [
-    {
-      "original_file": "will/Fear of Missing.jpg",
-      "moved_image": "imports/needs-attention/will/be96fa5cd2/Fear of Missing.jpg",
-      "error_file": "imports/needs-attention/will/be96fa5cd2/Fear of Missing.jpg.error.txt",
-      "error": "No exact official Magic card named 'Fear of Missing' was found"
-    },
-    {
-      "original_file": "will/Invasion of Ikoria.jpg",
-      "moved_image": "imports/needs-attention/will/be96fa5cd2/Invasion of Ikoria.jpg",
-      "error_file": "imports/needs-attention/will/be96fa5cd2/Invasion of Ikoria.jpg.error.txt",
-      "error": "Invasion of Ikoria // Zilortha, Apex of Ikoria needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
-    }
-  ]
+  "needs_attention": []
 }

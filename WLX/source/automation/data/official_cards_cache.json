@@ -2261,6 +2261,697 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-13"
+    },
+    "aeve, progenitor ooze": {
+      "name": "Aeve, Progenitor Ooze",
+      "oracle_id": "44600a74-9584-488b-a342-2fccd8fa7599",
+      "scryfall_uri": "https://scryfall.com/card/mh2/148/aeve-progenitor-ooze?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "fear of missing out": {
+      "name": "Fear of Missing Out",
+      "oracle_id": "236ce592-1321-4a7c-b695-fd84496f8924",
+      "scryfall_uri": "https://scryfall.com/card/dsk/136/fear-of-missing-out?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "garruk's uprising": {
+      "name": "Garruk's Uprising",
+      "oracle_id": "3127ae9b-a7a7-43ec-89d7-688f8445b33d",
+      "scryfall_uri": "https://scryfall.com/card/ecc/109/garruks-uprising?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "rain of riches": {
+      "name": "Rain of Riches",
+      "oracle_id": "ef1e2d3d-e977-4729-9430-eba6242e5dfe",
+      "scryfall_uri": "https://scryfall.com/card/otc/177/rain-of-riches?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "rapid hybridization": {
+      "name": "Rapid Hybridization",
+      "oracle_id": "06692cd9-ac2f-4a32-8fd1-043ba3c0fe71",
+      "scryfall_uri": "https://scryfall.com/card/soc/198/rapid-hybridization?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "razaketh, the foulblooded": {
+      "name": "Razaketh, the Foulblooded",
+      "oracle_id": "136c9ecb-59b4-4ef6-bcb2-7b8d3df3ee75",
+      "scryfall_uri": "https://scryfall.com/card/cmm/181/razaketh-the-foulblooded?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "reaver titan": {
+      "name": "Reaver Titan",
+      "oracle_id": "2951671b-ac01-4e65-857f-0b7b7c7478ce",
+      "scryfall_uri": "https://scryfall.com/card/40k/163/reaver-titan?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "redoubled stormsinger": {
+      "name": "Redoubled Stormsinger",
+      "oracle_id": "792c4d38-41e6-49eb-bd4e-de0a5ac8330f",
+      "scryfall_uri": "https://scryfall.com/card/soc/251/redoubled-stormsinger?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "rhythm of the wild": {
+      "name": "Rhythm of the Wild",
+      "oracle_id": "acfa77fd-3610-4f12-9c3c-bd860ce91700",
+      "scryfall_uri": "https://scryfall.com/card/rvr/217/rhythm-of-the-wild?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "rionya, fire dancer": {
+      "name": "Rionya, Fire Dancer",
+      "oracle_id": "be4f47e9-1bd2-4aa9-bc85-3f203ad21639",
+      "scryfall_uri": "https://scryfall.com/card/soc/252/rionya-fire-dancer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "sanctum weaver": {
+      "name": "Sanctum Weaver",
+      "oracle_id": "acfe7ec0-0606-4d5e-b1fa-25f0c7aeec47",
+      "scryfall_uri": "https://scryfall.com/card/cmm/910/sanctum-weaver?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "sarkhan's unsealing": {
+      "name": "Sarkhan's Unsealing",
+      "oracle_id": "c27c9514-7b5a-461a-a109-f8abafd83523",
+      "scryfall_uri": "https://scryfall.com/card/jmp/361/sarkhans-unsealing?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "sceptre of eternal glory": {
+      "name": "Sceptre of Eternal Glory",
+      "oracle_id": "ce08aff3-efe6-4186-9557-274e00a7ca38",
+      "scryfall_uri": "https://scryfall.com/card/40k/166/sceptre-of-eternal-glory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "shadow rift": {
+      "name": "Shadow Rift",
+      "oracle_id": "66810ef7-ea3a-4afa-92f0-b21ec52cc8d0",
+      "scryfall_uri": "https://scryfall.com/card/tpr/66/shadow-rift?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "shore up": {
+      "name": "Shore Up",
+      "oracle_id": "c9d8c983-2845-42e6-b6b8-bf7cf2729b23",
+      "scryfall_uri": "https://scryfall.com/card/blb/69/shore-up?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "soporific springs": {
+      "name": "Sink into Stupor // Soporific Springs",
+      "oracle_id": "bcc6eece-75ea-494c-b33a-d4477d504e0b",
+      "scryfall_uri": "https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sink into Stupor",
+          "side": "front",
+          "mana_cost": "{1}{U}{U}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Return target spell or nonland permanent an opponent controls to its owner's hand.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Soporific Springs",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "sink into stupor": {
+      "name": "Sink into Stupor // Soporific Springs",
+      "oracle_id": "bcc6eece-75ea-494c-b33a-d4477d504e0b",
+      "scryfall_uri": "https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sink into Stupor",
+          "side": "front",
+          "mana_cost": "{1}{U}{U}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Return target spell or nonland permanent an opponent controls to its owner's hand.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Soporific Springs",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "sink into stupor // soporific springs": {
+      "name": "Sink into Stupor // Soporific Springs",
+      "oracle_id": "bcc6eece-75ea-494c-b33a-d4477d504e0b",
+      "scryfall_uri": "https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sink into Stupor",
+          "side": "front",
+          "mana_cost": "{1}{U}{U}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Return target spell or nonland permanent an opponent controls to its owner's hand.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Soporific Springs",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "skitterbeam battalion": {
+      "name": "Skitterbeam Battalion",
+      "oracle_id": "ff1dd9c1-d1e5-49dd-b8b2-df3e4a41d3e5",
+      "scryfall_uri": "https://scryfall.com/card/bro/165/skitterbeam-battalion?utm_source=api",
+      "layout": "prototype",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "slime against humanity": {
+      "name": "Slime Against Humanity",
+      "oracle_id": "b53597f4-1a0f-4fa8-9c17-29178cdc4d2b",
+      "scryfall_uri": "https://scryfall.com/card/mkm/177/slime-against-humanity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "snap": {
+      "name": "Snap",
+      "oracle_id": "ac914d98-221e-426c-8a50-342896b15f9e",
+      "scryfall_uri": "https://scryfall.com/card/dmr/66/snap?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "soraya the falconer": {
+      "name": "Soraya the Falconer",
+      "oracle_id": "0f1c14c5-7a28-47b0-a603-33cc592b00ad",
+      "scryfall_uri": "https://scryfall.com/card/hml/18/soraya-the-falconer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "spectacular showdown": {
+      "name": "Spectacular Showdown",
+      "oracle_id": "b6f61b77-d571-4508-a5e8-435b4e097f3a",
+      "scryfall_uri": "https://scryfall.com/card/mkc/162/spectacular-showdown?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "spider manifestation": {
+      "name": "Spider Manifestation",
+      "oracle_id": "8281f2b9-e81b-48da-812a-8713b2adf8ab",
+      "scryfall_uri": "https://scryfall.com/card/spm/148/spider-manifestation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "sundering eruption": {
+      "name": "Sundering Eruption // Volcanic Fissure",
+      "oracle_id": "c95309e9-5c2f-4518-b2fd-825d3d0a4ae0",
+      "scryfall_uri": "https://scryfall.com/card/mh3/248/sundering-eruption-volcanic-fissure?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sundering Eruption",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle. Creatures without flying can't block this turn.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Volcanic Fissure",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "sundering eruption // volcanic fissure": {
+      "name": "Sundering Eruption // Volcanic Fissure",
+      "oracle_id": "c95309e9-5c2f-4518-b2fd-825d3d0a4ae0",
+      "scryfall_uri": "https://scryfall.com/card/mh3/248/sundering-eruption-volcanic-fissure?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sundering Eruption",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle. Creatures without flying can't block this turn.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Volcanic Fissure",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "volcanic fissure": {
+      "name": "Sundering Eruption // Volcanic Fissure",
+      "oracle_id": "c95309e9-5c2f-4518-b2fd-825d3d0a4ae0",
+      "scryfall_uri": "https://scryfall.com/card/mh3/248/sundering-eruption-volcanic-fissure?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Sundering Eruption",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle. Creatures without flying can't block this turn.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Volcanic Fissure",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "swan song": {
+      "name": "Swan Song",
+      "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+      "scryfall_uri": "https://scryfall.com/card/eoc/46/swan-song?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "talisman of impulse": {
+      "name": "Talisman of Impulse",
+      "oracle_id": "f2ccc9e8-8e92-4f8c-8728-8c748630e0dd",
+      "scryfall_uri": "https://scryfall.com/card/tdc/332/talisman-of-impulse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "tamiyo's safekeeping": {
+      "name": "Tamiyo's Safekeeping",
+      "oracle_id": "bb2b324c-970a-4920-884e-c92ba49669f0",
+      "scryfall_uri": "https://scryfall.com/card/neo/211/tamiyos-safekeeping?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "tannuk, steadfast second": {
+      "name": "Tannuk, Steadfast Second",
+      "oracle_id": "b5ae8016-92ed-4ae8-83a8-65068defc616",
+      "scryfall_uri": "https://scryfall.com/card/eoe/162/tannuk-steadfast-second?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "terminal velocity": {
+      "name": "Terminal Velocity",
+      "oracle_id": "cdda2f04-d59e-4ef8-a26d-964d80750940",
+      "scryfall_uri": "https://scryfall.com/card/eoe/163/terminal-velocity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "terror of the peaks": {
+      "name": "Terror of the Peaks",
+      "oracle_id": "f8e17f4f-080d-4bba-bd05-ca27e94ccecc",
+      "scryfall_uri": "https://scryfall.com/card/otj/149/terror-of-the-peaks?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "the one ring": {
+      "name": "The One Ring",
+      "oracle_id": "3aa83ed2-f48b-4ce6-a614-2c54ddf50538",
+      "scryfall_uri": "https://scryfall.com/card/ltr/246/the-one-ring?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "the soul stone": {
+      "name": "The Soul Stone",
+      "oracle_id": "92cfba68-12f6-4f97-9187-0f6a39656a0f",
+      "scryfall_uri": "https://scryfall.com/card/spm/66/the-soul-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "the ten rings": {
+      "name": "The Ten Rings",
+      "oracle_id": "a82d855c-50c8-43f2-99ba-a84fe84539c5",
+      "scryfall_uri": "https://scryfall.com/card/msh/251/the-ten-rings?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "thickest in the thicket": {
+      "name": "Thickest in the Thicket",
+      "oracle_id": "4d60dae0-7be4-4859-99ac-781a27bcfd93",
+      "scryfall_uri": "https://scryfall.com/card/blc/34/thickest-in-the-thicket?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "throne of eldraine": {
+      "name": "Throne of Eldraine",
+      "oracle_id": "5b9a2b81-a645-43be-8001-03817ac210ca",
+      "scryfall_uri": "https://scryfall.com/card/plst/WOC-28/throne-of-eldraine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "thunderclap drake": {
+      "name": "Thunderclap Drake",
+      "oracle_id": "88d0a394-79e2-42ac-9a37-1a7b78231941",
+      "scryfall_uri": "https://scryfall.com/card/soc/204/thunderclap-drake?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "thunderhawk gunship": {
+      "name": "Thunderhawk Gunship",
+      "oracle_id": "d64a4ad2-c80e-4a7f-93f2-b702916dba07",
+      "scryfall_uri": "https://scryfall.com/card/40k/167/thunderhawk-gunship?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "tibalt's trickery": {
+      "name": "Tibalt's Trickery",
+      "oracle_id": "6623cb85-fb1e-4561-8b21-0977c25096c2",
+      "scryfall_uri": "https://scryfall.com/card/khm/153/tibalts-trickery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "tortured existence": {
+      "name": "Tortured Existence",
+      "oracle_id": "fa9dfcf7-069c-4441-9ea0-133de47ecada",
+      "scryfall_uri": "https://scryfall.com/card/sth/74/tortured-existence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "twinflame": {
+      "name": "Twinflame",
+      "oracle_id": "83cf1169-5853-4332-b897-7b17d72d76ab",
+      "scryfall_uri": "https://scryfall.com/card/soc/258/twinflame?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "untimely malfunction": {
+      "name": "Untimely Malfunction",
+      "oracle_id": "2c49d24a-98a4-43c2-bb59-1ef13d4214c2",
+      "scryfall_uri": "https://scryfall.com/card/dsk/161/untimely-malfunction?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "urza's incubator": {
+      "name": "Urza's Incubator",
+      "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72",
+      "scryfall_uri": "https://scryfall.com/card/mh3/297/urzas-incubator?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "valakut awakening": {
+      "name": "Valakut Awakening // Valakut Stoneforge",
+      "oracle_id": "ff0ab867-b710-4b1a-baed-95fc3cf68f79",
+      "scryfall_uri": "https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Valakut Awakening",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Put any number of cards from your hand on the bottom of your library, then draw that many cards plus one.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Valakut Stoneforge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "valakut stoneforge": {
+      "name": "Valakut Awakening // Valakut Stoneforge",
+      "oracle_id": "ff0ab867-b710-4b1a-baed-95fc3cf68f79",
+      "scryfall_uri": "https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Valakut Awakening",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Put any number of cards from your hand on the bottom of your library, then draw that many cards plus one.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Valakut Stoneforge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "valakut awakening // valakut stoneforge": {
+      "name": "Valakut Awakening // Valakut Stoneforge",
+      "oracle_id": "ff0ab867-b710-4b1a-baed-95fc3cf68f79",
+      "scryfall_uri": "https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Valakut Awakening",
+          "side": "front",
+          "mana_cost": "{2}{R}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Put any number of cards from your hand on the bottom of your library, then draw that many cards plus one.",
+          "colors": "R",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Valakut Stoneforge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "R",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "vedalken orrery": {
+      "name": "Vedalken Orrery",
+      "oracle_id": "60d640a4-032b-4279-ac75-8f200ca776fb",
+      "scryfall_uri": "https://scryfall.com/card/2x2/317/vedalken-orrery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "void beckoner": {
+      "name": "Void Beckoner",
+      "oracle_id": "7185e345-d8a1-4dd3-a071-f90f265634b4",
+      "scryfall_uri": "https://scryfall.com/card/iko/104/void-beckoner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "wandertale mentor": {
+      "name": "Wandertale Mentor",
+      "oracle_id": "9d14c7bd-7802-401c-b02b-c7f3c51b007f",
+      "scryfall_uri": "https://scryfall.com/card/blb/240/wandertale-mentor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "weftstalker ardent": {
+      "name": "Weftstalker Ardent",
+      "oracle_id": "926d52a5-4db1-46ce-9567-17c28bf56ae7",
+      "scryfall_uri": "https://scryfall.com/card/eoe/169/weftstalker-ardent?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "wild magic surge": {
+      "name": "Wild Magic Surge",
+      "oracle_id": "41d16975-d6c0-4343-bea2-4f360ead9a1c",
+      "scryfall_uri": "https://scryfall.com/card/clb/206/wild-magic-surge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "wildsear, scouring maw": {
+      "name": "Wildsear, Scouring Maw",
+      "oracle_id": "9ceac4c6-e62e-4445-852c-b2c621e4a83b",
+      "scryfall_uri": "https://scryfall.com/card/blc/8/wildsear-scouring-maw?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "wonder": {
+      "name": "Wonder",
+      "oracle_id": "232284f7-c623-4895-9ab9-8b1a39926830",
+      "scryfall_uri": "https://scryfall.com/card/tdc/170/wonder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "zoyowa's justice": {
+      "name": "Zoyowa's Justice",
+      "oracle_id": "17e11f0c-4ac7-4060-9e0b-27cd5c151e50",
+      "scryfall_uri": "https://scryfall.com/card/lci/173/zoyowas-justice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
     }
   }
 }
