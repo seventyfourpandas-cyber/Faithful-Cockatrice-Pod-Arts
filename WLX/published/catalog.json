@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "set_code": "WLX",
   "cards": [
     {
@@ -51,9 +51,9 @@
       "collector_number": "006",
       "uuid": "ed2476c2-c159-59e3-8153-d96a2bcae779",
       "rarity": "special",
-      "image": "images/WLX/006-273ccc6e677f.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/006-273ccc6e677f.jpg",
-      "sha256": "273ccc6e677f60afde3f5d29a42dc625506973a74dddceda5ac433528e4caed9",
+      "image": "images/WLX/006-81d112c3d27f.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/006-81d112c3d27f.jpg",
+      "sha256": "81d112c3d27f22bb4f431e6bb159b5279e039c8132bf90006f4f096ead390d0d",
       "dimensions": [
         2976,
         4152
@@ -609,9 +609,9 @@
       "collector_number": "037",
       "uuid": "4d772581-260c-5b6f-8f6e-d8210fbfda7e",
       "rarity": "special",
-      "image": "images/WLX/037-9514b87554d0.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/037-9514b87554d0.jpg",
-      "sha256": "9514b87554d019a0ca73bf400d1e222fa201606837ee356d0d3e58c79984c7b4",
+      "image": "images/WLX/037-76b9bb06773c.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/037-76b9bb06773c.jpg",
+      "sha256": "76b9bb06773ccff461bdbb9a2e3977d1e779025f64a0ba2a3860f48f2628770b",
       "dimensions": [
         2976,
         4152
