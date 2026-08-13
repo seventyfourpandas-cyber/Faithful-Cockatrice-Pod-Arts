@@ -1,0 +1,5 @@
+This image was not published.
+
+Invasion of Ikoria // Zilortha, Apex of Ikoria needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
+
+Fix or rename it, then move it back into the matching imports/incoming/<player> folder.

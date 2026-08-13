@@ -35,6 +35,116 @@
       "image_sha256": "0bb9d9507937143f05bfc2d4d65b7748e3c3b835be0857e1521ae6a7a8daa7d5",
       "notes": "Submitted by @WillPower-exe through issue #28",
       "official_name": "Eriette of the Charmed Apple"
+    },
+    {
+      "collector_number": "141",
+      "uuid": "7370c22a-b974-51e7-885f-2d27bc6bd334",
+      "card_kind": "official",
+      "official_name": "All That Glitters",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-141.jpg",
+      "image_sha256": "756421ba8dd1b70999012e96b742b1b583ad427c1b2830101ed2c6021a7b083c",
+      "notes": "Imported from alex/All That Glitters.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "142",
+      "uuid": "27e6f656-20e5-5705-b8e1-b019510546b4",
+      "card_kind": "official",
+      "official_name": "An Offer You Can't Refuse",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-142.jpg",
+      "image_sha256": "55ea3c68f8bba17e80073a88602268acfeef5af8b48a1a29e7c38eaafe26202a",
+      "notes": "Imported from alex/An Offer You Can't Refuse.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "143",
+      "uuid": "0df652bc-14c4-5a70-986b-a993646dd3c8",
+      "card_kind": "official",
+      "official_name": "Avatar's Wrath",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-143.jpg",
+      "image_sha256": "607d1df831425076892d7fbc81c66c94aae4db4a5ea36969577c17c101c9dccc",
+      "notes": "Imported from alex/Avatar's Wrath.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "144",
+      "uuid": "4945e32e-cd65-5007-b94e-9e5c1110c2ff",
+      "card_kind": "official",
+      "official_name": "Dovin's Veto",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-144.jpg",
+      "image_sha256": "35f52b4a6d4bad89c01592bd1fcfa77ef0d4eaf3027f7f472de22c830e260869",
+      "notes": "Imported from alex/Dovin's Veto.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "145",
+      "uuid": "eeea02d0-6d13-53d6-b54b-d5724dbe406f",
+      "card_kind": "official",
+      "official_name": "Enlightened Tutor",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-145.jpg",
+      "image_sha256": "f887457b02e5ed196270ada9d2a5232e28aedfaeb6253df9f75d4f72fa6a464e",
+      "notes": "Imported from alex/Enlightened Tutor.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "146",
+      "uuid": "9152aff8-d76c-540c-961c-53a5f2e58bdc",
+      "card_kind": "official",
+      "official_name": "Isochron Scepter",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-146.jpg",
+      "image_sha256": "fd41f132563fb0a05751c444b99e8060643d0dcdeb38599e3f0ccd134b0a3a5d",
+      "notes": "Imported from alex/Isochron Scepter.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "147",
+      "uuid": "695ae773-a398-5413-b63d-a5e81c570e7a",
+      "card_kind": "official",
+      "official_name": "Kynaios and Tiro of Meletis",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-147.jpg",
+      "image_sha256": "a205946c83929c6884af57300484e2cc600c70910c9aa9a00e6c3f5e2444257f",
+      "notes": "Imported from alex/Kynaios and Tiro of Meletis.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "148",
+      "uuid": "9c50d8a1-754f-52fa-a4f8-0e32739e3d90",
+      "card_kind": "official",
+      "official_name": "Spectral Searchlight",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-148.jpg",
+      "image_sha256": "b1b69cf920d214c6a86ff24062a10764a96dcd24191631dd625ab97491652893",
+      "notes": "Imported from alex/Spectral Searchlight.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "149",
+      "uuid": "dd9da0c9-b82a-5019-a3b0-8613b564674f",
+      "card_kind": "official",
+      "official_name": "Veteran Explorer",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-149.jpg",
+      "image_sha256": "e691c75b36aeb08b6865b88bbb21f45550ac9620ee739018c2c8afc5ec23f467",
+      "notes": "Imported from alex/Veteran Explorer.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "150",
+      "uuid": "d8afafda-a586-52cc-bcda-7a8c530e4cff",
+      "card_kind": "official",
+      "official_name": "Wavebreak Hippocamp",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-150.jpg",
+      "image_sha256": "b590e57c256a1166135beec25753788aca28e27a7c5f1b5b6273fc76c219c956",
+      "notes": "Imported from alex/Wavebreak Hippocamp.jpg in file batch be96fa5cd2"
     }
   ]
 }

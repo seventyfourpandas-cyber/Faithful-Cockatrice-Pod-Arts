@@ -1476,6 +1476,791 @@
         }
       ],
       "verified_at": "2026-08-10"
+    },
+    "all that glitters": {
+      "name": "All That Glitters",
+      "oracle_id": "a4d751e0-41c1-4e90-853d-512f385acd81",
+      "scryfall_uri": "https://scryfall.com/card/cmm/9/all-that-glitters?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "an offer you can't refuse": {
+      "name": "An Offer You Can't Refuse",
+      "oracle_id": "234a734b-ba28-4f1b-9d01-3c3e7d516590",
+      "scryfall_uri": "https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "dovin's veto": {
+      "name": "Dovin's Veto",
+      "oracle_id": "1b388371-f9ef-45b4-82a3-ca20a8cd7807",
+      "scryfall_uri": "https://scryfall.com/card/war/193/dovins-veto?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "enlightened tutor": {
+      "name": "Enlightened Tutor",
+      "oracle_id": "c5229c17-b7be-4b05-b683-f2277edc4849",
+      "scryfall_uri": "https://scryfall.com/card/dmr/6/enlightened-tutor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "isochron scepter": {
+      "name": "Isochron Scepter",
+      "oracle_id": "ddd649f4-dbaf-48ec-8ff7-95581257772d",
+      "scryfall_uri": "https://scryfall.com/card/2xm/264/isochron-scepter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "kynaios and tiro of meletis": {
+      "name": "Kynaios and Tiro of Meletis",
+      "oracle_id": "53ee4254-fef7-49ec-aafc-0320987764e6",
+      "scryfall_uri": "https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "spectral searchlight": {
+      "name": "Spectral Searchlight",
+      "oracle_id": "511b1174-8ef7-4d17-93de-01b9b81bda6a",
+      "scryfall_uri": "https://scryfall.com/card/cmm/411/spectral-searchlight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "veteran explorer": {
+      "name": "Veteran Explorer",
+      "oracle_id": "fa9677d2-1535-4c57-baa8-c0408e15da47",
+      "scryfall_uri": "https://scryfall.com/card/2xm/186/veteran-explorer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "wavebreak hippocamp": {
+      "name": "Wavebreak Hippocamp",
+      "oracle_id": "3405c8a9-a8d6-4b45-9b64-94141076603b",
+      "scryfall_uri": "https://scryfall.com/card/thb/80/wavebreak-hippocamp?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "iroh, grand lotus": {
+      "name": "Iroh, Grand Lotus",
+      "oracle_id": "ee8e6ef3-eb96-48bd-8619-8a9112b3d4f0",
+      "scryfall_uri": "https://scryfall.com/card/tla/227/iroh-grand-lotus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "the muckslinger gang": {
+      "name": "The Muckslinger Gang",
+      "oracle_id": "56cacdcf-2f11-4969-9629-446068a15369",
+      "scryfall_uri": "https://scryfall.com/card/mbc/46/the-muckslinger-gang?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "the wise mothman": {
+      "name": "The Wise Mothman",
+      "oracle_id": "7656f93b-336f-49cb-b8fe-c2b5c014258f",
+      "scryfall_uri": "https://scryfall.com/card/sld/2455/the-wise-mothman?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "akroma's memorial": {
+      "name": "Akroma's Memorial",
+      "oracle_id": "967e8b3f-8266-4d9a-a38b-d0e10184e1e4",
+      "scryfall_uri": "https://scryfall.com/card/tsr/262/akromas-memorial?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "altar of dementia": {
+      "name": "Altar of Dementia",
+      "oracle_id": "d64e9152-ef24-4394-aeb0-9c3befc56549",
+      "scryfall_uri": "https://scryfall.com/card/mh1/218/altar-of-dementia?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "ancient stone idol": {
+      "name": "Ancient Stone Idol",
+      "oracle_id": "5f981cca-5cd9-49e4-ab1a-bbbf6fc7e737",
+      "scryfall_uri": "https://scryfall.com/card/mkc/222/ancient-stone-idol?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "anger": {
+      "name": "Anger",
+      "oracle_id": "eaabd151-2160-4bff-82c0-3fa88659be98",
+      "scryfall_uri": "https://scryfall.com/card/soc/235/anger?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "arcane denial": {
+      "name": "Arcane Denial",
+      "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37",
+      "scryfall_uri": "https://scryfall.com/card/msc/147/arcane-denial?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "arcane signet": {
+      "name": "Arcane Signet",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "scryfall_uri": "https://scryfall.com/card/msc/191/arcane-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "artful dodge": {
+      "name": "Artful Dodge",
+      "oracle_id": "c174dcbb-03a0-439c-b3d8-ed61bd46dc67",
+      "scryfall_uri": "https://scryfall.com/card/dka/27/artful-dodge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "asceticism": {
+      "name": "Asceticism",
+      "oracle_id": "9396546c-d067-4ce3-9c3d-b62cca970b4f",
+      "scryfall_uri": "https://scryfall.com/card/som/110/asceticism?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "berserkers' onslaught": {
+      "name": "Berserkers' Onslaught",
+      "oracle_id": "85d2948c-1a79-418d-80c4-bc1012a4d313",
+      "scryfall_uri": "https://scryfall.com/card/dtk/130/berserkers-onslaught?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "blasphemous act": {
+      "name": "Blasphemous Act",
+      "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+      "scryfall_uri": "https://scryfall.com/card/msc/163/blasphemous-act?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "bolt bend": {
+      "name": "Bolt Bend",
+      "oracle_id": "c20a96f7-aa5a-4c15-b8b1-806685c99b27",
+      "scryfall_uri": "https://scryfall.com/card/tle/163/bolt-bend?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "bronzebeak foragers": {
+      "name": "Bronzebeak Foragers",
+      "oracle_id": "0f5f6f3e-1b3c-43e2-b11d-bd454366845c",
+      "scryfall_uri": "https://scryfall.com/card/lcc/69/bronzebeak-foragers?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "chandra's ignition": {
+      "name": "Chandra's Ignition",
+      "oracle_id": "f61680da-606e-4d16-b0a0-361aa5210901",
+      "scryfall_uri": "https://scryfall.com/card/lcc/220/chandras-ignition?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "charming scoundrel": {
+      "name": "Charming Scoundrel",
+      "oracle_id": "9eec304d-ffcb-4287-b877-280ac1e4f496",
+      "scryfall_uri": "https://scryfall.com/card/woe/124/charming-scoundrel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "cityscape leveler": {
+      "name": "Cityscape Leveler",
+      "oracle_id": "d4d65797-2b92-4265-9169-133120c86c7f",
+      "scryfall_uri": "https://scryfall.com/card/bro/233/cityscape-leveler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "cloud key": {
+      "name": "Cloud Key",
+      "oracle_id": "2a838818-d590-4374-9a63-d9e6381a0f0d",
+      "scryfall_uri": "https://scryfall.com/card/eoc/54/cloud-key?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "collective inferno": {
+      "name": "Collective Inferno",
+      "oracle_id": "649e4969-71d4-434f-85b0-205ec2c6b24f",
+      "scryfall_uri": "https://scryfall.com/card/ecl/132/collective-inferno?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "collective resistance": {
+      "name": "Collective Resistance",
+      "oracle_id": "bffdfe7b-f17a-41b6-a460-80280fe497d4",
+      "scryfall_uri": "https://scryfall.com/card/mh3/147/collective-resistance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "combustible gearhulk": {
+      "name": "Combustible Gearhulk",
+      "oracle_id": "3494a575-f68e-4e78-9f6b-142cd8a0edea",
+      "scryfall_uri": "https://scryfall.com/card/dsc/163/combustible-gearhulk?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "crash through": {
+      "name": "Crash Through",
+      "oracle_id": "41c15160-ee8c-42e3-bc6c-593b8c8ae335",
+      "scryfall_uri": "https://scryfall.com/card/fdn/620/crash-through?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "cultivate": {
+      "name": "Cultivate",
+      "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a",
+      "scryfall_uri": "https://scryfall.com/card/msc/172/cultivate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "curiosity crafter": {
+      "name": "Curiosity Crafter",
+      "oracle_id": "0be907b2-54f9-4c8c-b6af-7c0093892e42",
+      "scryfall_uri": "https://scryfall.com/card/soc/191/curiosity-crafter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "cursed mirror": {
+      "name": "Cursed Mirror",
+      "oracle_id": "4d67e2a7-4aa7-44cc-853b-500d7aac046d",
+      "scryfall_uri": "https://scryfall.com/card/soc/242/cursed-mirror?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "cyclonic rift": {
+      "name": "Cyclonic Rift",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "scryfall_uri": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "defiler of instinct": {
+      "name": "Defiler of Instinct",
+      "oracle_id": "590137df-af61-4e93-b6f1-3a2e438b8037",
+      "scryfall_uri": "https://scryfall.com/card/dmu/119/defiler-of-instinct?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "devil dinosaur": {
+      "name": "Devil Dinosaur",
+      "oracle_id": "08de884f-1930-43d6-8c23-04353a136b4e",
+      "scryfall_uri": "https://scryfall.com/card/msc/719/devil-dinosaur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "distortion strike": {
+      "name": "Distortion Strike",
+      "oracle_id": "4c7f3fbf-6b68-492f-893d-853c73cfa463",
+      "scryfall_uri": "https://scryfall.com/card/ima/52/distortion-strike?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "dour port-mage": {
+      "name": "Dour Port-Mage",
+      "oracle_id": "cf58e309-00e8-438e-813e-2e1c1002db23",
+      "scryfall_uri": "https://scryfall.com/card/blb/47/dour-port-mage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "duplicant": {
+      "name": "Duplicant",
+      "oracle_id": "ea86abfa-6cab-4ef0-8463-34136fc25b59",
+      "scryfall_uri": "https://scryfall.com/card/cmm/946/duplicant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "eidolon of blossoms": {
+      "name": "Eidolon of Blossoms",
+      "oracle_id": "77ccbea1-70af-4194-adad-39a904221c75",
+      "scryfall_uri": "https://scryfall.com/card/cmm/892/eidolon-of-blossoms?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "enduring curiosity": {
+      "name": "Enduring Curiosity",
+      "oracle_id": "9d2460c3-8eeb-4f35-b6f6-748c478664c7",
+      "scryfall_uri": "https://scryfall.com/card/dsk/51/enduring-curiosity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "enter the enigma": {
+      "name": "Enter the Enigma",
+      "oracle_id": "67554654-e751-4679-9e92-f3588525ae4f",
+      "scryfall_uri": "https://scryfall.com/card/dsk/52/enter-the-enigma?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "eternal witness": {
+      "name": "Eternal Witness",
+      "oracle_id": "30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c",
+      "scryfall_uri": "https://scryfall.com/card/cmm/286/eternal-witness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "extinguisher battleship": {
+      "name": "Extinguisher Battleship",
+      "oracle_id": "cce3dcc3-57bb-4b95-8b70-337c67bb3c4e",
+      "scryfall_uri": "https://scryfall.com/card/eoe/242/extinguisher-battleship?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "faithless looting": {
+      "name": "Faithless Looting",
+      "oracle_id": "3d6fa57a-aa53-4b5c-b8af-a7612c823117",
+      "scryfall_uri": "https://scryfall.com/card/soc/244/faithless-looting?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "fiery emancipation": {
+      "name": "Fiery Emancipation",
+      "oracle_id": "52159875-354c-47f9-bb1c-cd65395fcc68",
+      "scryfall_uri": "https://scryfall.com/card/m21/143/fiery-emancipation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "flameshadow conjuring": {
+      "name": "Flameshadow Conjuring",
+      "oracle_id": "343460ea-7999-4d9e-b425-97fa1621f9d6",
+      "scryfall_uri": "https://scryfall.com/card/moc/280/flameshadow-conjuring?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "flow state": {
+      "name": "Flow State",
+      "oracle_id": "e7194bca-0cf4-4a86-8b84-d2f9219a08b3",
+      "scryfall_uri": "https://scryfall.com/card/sos/49/flow-state?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "frontier siege": {
+      "name": "Frontier Siege",
+      "oracle_id": "4cfaa5cf-cc3d-49a7-9544-38a8bb7e9ec1",
+      "scryfall_uri": "https://scryfall.com/card/tdc/256/frontier-siege?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "ghalta and mavren": {
+      "name": "Ghalta and Mavren",
+      "oracle_id": "756042c5-e444-45d7-8dc6-ae7c83c98438",
+      "scryfall_uri": "https://scryfall.com/card/mom/225/ghalta-and-mavren?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "gisa, the hellraiser": {
+      "name": "Gisa, the Hellraiser",
+      "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+      "scryfall_uri": "https://scryfall.com/card/otj/89/gisa-the-hellraiser?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "glorious sunrise": {
+      "name": "Glorious Sunrise",
+      "oracle_id": "844c1024-db80-4287-9770-3b10e53d0fc8",
+      "scryfall_uri": "https://scryfall.com/card/vow/200/glorious-sunrise?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "goblin anarchomancer": {
+      "name": "Goblin Anarchomancer",
+      "oracle_id": "e9319f13-1f2b-429c-9d61-e58a3cbec86a",
+      "scryfall_uri": "https://scryfall.com/card/mh2/200/goblin-anarchomancer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "goldlust triad": {
+      "name": "Goldlust Triad",
+      "oracle_id": "86d76078-9af3-45a7-90d6-72946afdc78b",
+      "scryfall_uri": "https://scryfall.com/card/tdc/34/goldlust-triad?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "great train heist": {
+      "name": "Great Train Heist",
+      "oracle_id": "afe2f7a4-9440-4d93-801f-a18b627efb21",
+      "scryfall_uri": "https://scryfall.com/card/otj/125/great-train-heist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "greater good": {
+      "name": "Greater Good",
+      "oracle_id": "dc0593c2-ccb4-4648-a592-c5bcd121dc72",
+      "scryfall_uri": "https://scryfall.com/card/msc/174/greater-good?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "gruul signet": {
+      "name": "Gruul Signet",
+      "oracle_id": "d36e0c9f-c025-4dfe-9644-9cad2461ce38",
+      "scryfall_uri": "https://scryfall.com/card/clu/223/gruul-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "gruul war chant": {
+      "name": "Gruul War Chant",
+      "oracle_id": "a9edb891-1a38-4b8a-8539-c459e8a52315",
+      "scryfall_uri": "https://scryfall.com/card/mm3/170/gruul-war-chant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "gruul war plow": {
+      "name": "Gruul War Plow",
+      "oracle_id": "6dba119e-1b08-42e0-8d0a-b606bd90af02",
+      "scryfall_uri": "https://scryfall.com/card/gpt/151/gruul-war-plow?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "heroic intervention": {
+      "name": "Heroic Intervention",
+      "oracle_id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27",
+      "scryfall_uri": "https://scryfall.com/card/cmm/295/heroic-intervention?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "ingenuity engine": {
+      "name": "Ingenuity Engine",
+      "oracle_id": "d1da2c33-2be4-4065-8e5c-613a069d2013",
+      "scryfall_uri": "https://scryfall.com/card/cmr/317/ingenuity-engine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "into the flood maw": {
+      "name": "Into the Flood Maw",
+      "oracle_id": "8cb36a67-9206-4665-a03f-64f52ba559c4",
+      "scryfall_uri": "https://scryfall.com/card/blb/52/into-the-flood-maw?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "leyline surge": {
+      "name": "Invasion of Shandalar // Leyline Surge",
+      "oracle_id": "b5fe62f0-d914-4789-afd3-3831dcdbed7b",
+      "scryfall_uri": "https://scryfall.com/card/mom/193/invasion-of-shandalar-leyline-surge?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Shandalar",
+          "side": "front",
+          "mana_cost": "{3}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return up to three target permanent cards from your graveyard to your hand.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "4"
+        },
+        {
+          "official_name": "Leyline Surge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "At the beginning of your upkeep, you may put a permanent card from your hand onto the battlefield.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "invasion of shandalar": {
+      "name": "Invasion of Shandalar // Leyline Surge",
+      "oracle_id": "b5fe62f0-d914-4789-afd3-3831dcdbed7b",
+      "scryfall_uri": "https://scryfall.com/card/mom/193/invasion-of-shandalar-leyline-surge?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Shandalar",
+          "side": "front",
+          "mana_cost": "{3}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return up to three target permanent cards from your graveyard to your hand.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "4"
+        },
+        {
+          "official_name": "Leyline Surge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "At the beginning of your upkeep, you may put a permanent card from your hand onto the battlefield.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "invasion of shandalar // leyline surge": {
+      "name": "Invasion of Shandalar // Leyline Surge",
+      "oracle_id": "b5fe62f0-d914-4789-afd3-3831dcdbed7b",
+      "scryfall_uri": "https://scryfall.com/card/mom/193/invasion-of-shandalar-leyline-surge?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Invasion of Shandalar",
+          "side": "front",
+          "mana_cost": "{3}{G}{G}",
+          "mana_value": "",
+          "type_line": "Battle — Siege",
+          "rules_text": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, return up to three target permanent cards from your graveyard to your hand.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "4"
+        },
+        {
+          "official_name": "Leyline Surge",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Enchantment",
+          "rules_text": "At the beginning of your upkeep, you may put a permanent card from your hand onto the battlefield.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-13"
+    },
+    "izzet signet": {
+      "name": "Izzet Signet",
+      "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+      "scryfall_uri": "https://scryfall.com/card/tdc/320/izzet-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "jeska's will": {
+      "name": "Jeska's Will",
+      "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+      "scryfall_uri": "https://scryfall.com/card/mkc/156/jeskas-will?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "karlach, fury of avernus": {
+      "name": "Karlach, Fury of Avernus",
+      "oracle_id": "037355be-71e7-4866-80a6-80352c304970",
+      "scryfall_uri": "https://scryfall.com/card/clb/186/karlach-fury-of-avernus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "keen duelist": {
+      "name": "Keen Duelist",
+      "oracle_id": "b8602f19-6fc2-43c4-b0c4-2cd11d5dbda2",
+      "scryfall_uri": "https://scryfall.com/card/soc/218/keen-duelist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "lightning greaves": {
+      "name": "Lightning Greaves",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "scryfall_uri": "https://scryfall.com/card/msc/202/lightning-greaves?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "maelstrom colossus": {
+      "name": "Maelstrom Colossus",
+      "oracle_id": "06fc3eb1-7a48-42a0-8a5c-d61bd5aacfff",
+      "scryfall_uri": "https://scryfall.com/card/cmr/322/maelstrom-colossus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "mana geyser": {
+      "name": "Mana Geyser",
+      "oracle_id": "a8dba58b-2956-492e-ae30-49db2ae68e53",
+      "scryfall_uri": "https://scryfall.com/card/soc/247/mana-geyser?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "molten primordial": {
+      "name": "Molten Primordial",
+      "oracle_id": "8d8c9f7b-92c7-4284-ad9c-304ce42edba5",
+      "scryfall_uri": "https://scryfall.com/card/gtc/101/molten-primordial?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "muddle, the ever-changing": {
+      "name": "Muddle, the Ever-Changing",
+      "oracle_id": "9a8f6e5e-6cde-49df-861c-a26cb09c9b12",
+      "scryfall_uri": "https://scryfall.com/card/soc/5/muddle-the-ever-changing?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "myojin of roaring blades": {
+      "name": "Myojin of Roaring Blades",
+      "oracle_id": "20d20254-0f77-429a-a74e-0aec08d18f2d",
+      "scryfall_uri": "https://scryfall.com/card/nec/36/myojin-of-roaring-blades?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "n'yami-class mother ship": {
+      "name": "N'Yami-Class Mother Ship",
+      "oracle_id": "5dec1b09-4df0-4e9b-9dca-b80134be3343",
+      "scryfall_uri": "https://scryfall.com/card/msc/110/nyami-class-mother-ship?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "nautiloid ship": {
+      "name": "Nautiloid Ship",
+      "oracle_id": "613a8774-165e-4cf6-ad43-124f9ffc9980",
+      "scryfall_uri": "https://scryfall.com/card/clb/328/nautiloid-ship?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "nulldrifter": {
+      "name": "Nulldrifter",
+      "oracle_id": "ef8d9c3a-5860-45bf-8205-14e2df9a6fc8",
+      "scryfall_uri": "https://scryfall.com/card/mh3/13/nulldrifter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "octopus form": {
+      "name": "Octopus Form",
+      "oracle_id": "6fec368d-374d-4318-861b-ff478ba51a3c",
+      "scryfall_uri": "https://scryfall.com/card/tla/66/octopus-form?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "opt": {
+      "name": "Opt",
+      "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+      "scryfall_uri": "https://scryfall.com/card/tdc/158/opt?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "parapet thrasher": {
+      "name": "Parapet Thrasher",
+      "oracle_id": "722e23d5-4f2a-43cd-bbd5-baf56b76e68d",
+      "scryfall_uri": "https://scryfall.com/card/tdc/36/parapet-thrasher?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "portal to phyrexia": {
+      "name": "Portal to Phyrexia",
+      "oracle_id": "301d1d8e-d3fc-4010-8b29-4724fa0b31cd",
+      "scryfall_uri": "https://scryfall.com/card/bro/240/portal-to-phyrexia?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "professional face-breaker": {
+      "name": "Professional Face-Breaker",
+      "oracle_id": "04152e7a-969c-4858-841b-0a569a9fc1bf",
+      "scryfall_uri": "https://scryfall.com/card/snc/116/professional-face-breaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "purphoros, god of the forge": {
+      "name": "Purphoros, God of the Forge",
+      "oracle_id": "4fdbbec2-e921-4b63-958d-f9ba1e417197",
+      "scryfall_uri": "https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "pym particles": {
+      "name": "Pym Particles",
+      "oracle_id": "636b44dc-f7e4-42d2-abf6-ae49432b6052",
+      "scryfall_uri": "https://scryfall.com/card/msh/70/pym-particles?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
+    },
+    "ragavan, nimble pilferer": {
+      "name": "Ragavan, Nimble Pilferer",
+      "oracle_id": "37108cd4-bbab-4ce3-9ed6-f60e8422e703",
+      "scryfall_uri": "https://scryfall.com/card/mh2/138/ragavan-nimble-pilferer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-13"
     }
   }
 }

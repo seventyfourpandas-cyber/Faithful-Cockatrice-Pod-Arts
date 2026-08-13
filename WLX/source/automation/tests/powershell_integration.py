@@ -206,7 +206,11 @@ def main(*, require_pwsh: bool) -> int:
             if len(migrated_markers) != 1:
                 raise AssertionError("The previous updater folder was not recoverably archived")
             original_xml_hash = wlxlib.sha256_file(installed_xml)
-            first_printing = first_state["printings"][0]
+            first_printing = next(
+                item
+                for item in first_state["printings"]
+                if item["collector_number"] == "001"
+            )
             if first_printing["uuid"] != "f6a9cc3e-beac-5fac-84aa-ca36b34d7d10":
                 raise AssertionError("The preserved WLX #001 UUID changed during installation")
 
@@ -237,7 +241,11 @@ def main(*, require_pwsh: bool) -> int:
 
             second_output = run_pwsh(pwsh, bootstrap, environment, expect_success=True)
             second_state = read_json(state_path)
-            second_printing = second_state["printings"][0]
+            second_printing = next(
+                item
+                for item in second_state["printings"]
+                if item["collector_number"] == "001"
+            )
             if second_printing["uuid"] != first_printing["uuid"]:
                 raise AssertionError("Artwork replacement changed the printing UUID")
             if second_printing["picture_url"] == first_printing["picture_url"]:

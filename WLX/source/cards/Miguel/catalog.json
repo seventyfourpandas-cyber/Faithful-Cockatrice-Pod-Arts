@@ -2,5 +2,28 @@
   "schema_version": 1,
   "player": "Miguel",
   "custom_cards": [],
-  "printings": []
+  "printings": [
+    {
+      "collector_number": "152",
+      "uuid": "6eb5576d-5f07-56f7-adb4-b164f297dca1",
+      "card_kind": "official",
+      "official_name": "The Muckslinger Gang",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-152.jpg",
+      "image_sha256": "c5b690b939cc55204fef6d480a528ea8921f65bebddf544c390441d10c79e185",
+      "notes": "Imported from miguel/The Muckslinger Gang.jpg in file batch be96fa5cd2"
+    },
+    {
+      "collector_number": "153",
+      "uuid": "5fea98db-2fa9-53f0-982b-61cd96e0c0ea",
+      "card_kind": "official",
+      "official_name": "The Wise Mothman",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-153.jpg",
+      "image_sha256": "cb6718d4f5120a5773e3496d82c3b3738d7b5643b397975d751d3685e0cadefd",
+      "notes": "Imported from miguel/The Wise Mothman.jpg in file batch be96fa5cd2"
+    }
+  ]
 }
