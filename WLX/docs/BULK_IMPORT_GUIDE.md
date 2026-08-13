@@ -76,6 +76,14 @@ so the same-set creating card selects the WLX token art.
 
 ## Replace artwork without changing its printing
 
+For a reviewed, row-based replacement, the Card Manager is the clearest route:
+stage the image in `imports/replacements/<owner>/`, enter its filename under
+`CHANGE_front_art_to` or `CHANGE_back_art_to` in `WLX/CARD_MANAGER.csv`, and
+upload the edited manager. See `WLX/docs/CARD_MANAGER_GUIDE.md`.
+
+The shorter filename-only route below remains available for experienced bulk
+uploads through `imports/incoming/`.
+
 Use the existing collector number as the filename and upload it into the
 printing owner's folder:
 
@@ -115,4 +123,3 @@ Wait for the current import Action to finish before intentionally submitting
 another 100-image batch. If another commit does arrive early, its files remain
 in the repository-backed queue; the surviving serialized run reads the current
 `main` branch and cannot lose them the way cancelled Issue events did.
-

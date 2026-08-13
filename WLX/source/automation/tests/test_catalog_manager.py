@@ -48,6 +48,19 @@ class CatalogManagerTests(unittest.TestCase):
         wlxlib.build_repository(self.fixture.root)
         return wlxlib.card_manager_path(self.fixture.root)
 
+    def stage_replacement(
+        self, owner: str, filename: str, *, offset: int
+    ) -> Path:
+        path = (
+            self.fixture.root
+            / wlxlib.REPLACEMENT_ART_RELATIVE
+            / owner.casefold()
+            / filename
+        )
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(test_png_bytes(offset=offset))
+        return path
+
     def test_build_creates_one_clean_row_per_physical_printing(self) -> None:
         catalogs = wlxlib.load_all_catalogs(self.fixture.root, self.fixture.config)
         process_issue.allocate_official_double_faced_printing(
@@ -78,7 +91,9 @@ class CatalogManagerTests(unittest.TestCase):
             "Extus, Oriq Overlord // Awaken the Blood Avatar",
         )
         self.assertEqual(double["current_back_title"], "Blood Moon")
-        self.assertEqual(double["source_images"], "WLX-002-front.png | WLX-002-back.png")
+        self.assertEqual(double["current_front_art"], "WLX-002-front.png")
+        self.assertEqual(double["current_back_art"], "WLX-002-back.png")
+        self.assertEqual(double["art_upload_folder"], "imports/replacements/will/")
         self.assertTrue(all(not row[field] for row in rows for field in manager.CHANGE_FIELDS))
         self.assertEqual(manager.requested_status(self.fixture.root), "clean")
 
@@ -237,8 +252,9 @@ class CatalogManagerTests(unittest.TestCase):
         rows = read_manager_rows(path)
         rows[0]["current_owner"] = "Will"
         write_manager_rows(path, rows)
+        self.assertEqual(manager.requested_status(self.fixture.root), "pending")
         with self.assertRaisesRegex(manager.CatalogManagerError, "view-only"):
-            manager.requested_status(self.fixture.root)
+            manager.apply_plan(self.fixture.root)
 
     def test_rarity_and_titles_can_change_or_clear(self) -> None:
         path = self.build_manager()
@@ -256,6 +272,205 @@ class CatalogManagerTests(unittest.TestCase):
         write_manager_rows(path, rows)
         manager.apply_plan(self.fixture.root)
         self.assertEqual(self.fixture.catalog("Alex")["printings"][0]["flavor_name"], "")
+
+    def test_single_face_art_replacement_preserves_printing_identity(self) -> None:
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        row = rows[0]
+        original_uuid = row["printing_uuid"]
+        original_hash = self.fixture.catalog("Alex")["printings"][0]["image_sha256"]
+        staged = self.stage_replacement(
+            "Alex", "new angel artwork.png", offset=171
+        )
+        expected_hash = wlxlib.sha256_file(staged)
+        row["CHANGE_front_art_to"] = staged.name
+        write_manager_rows(path, rows)
+
+        result = manager.apply_plan(self.fixture.root)
+
+        self.assertTrue(result["changed"])
+        self.assertEqual(result["art_replacements"], 1)
+        self.assertEqual(result["art_noops"], 0)
+        self.assertFalse(staged.exists())
+        printing = self.fixture.catalog("Alex")["printings"][0]
+        self.assertEqual(printing["collector_number"], "001")
+        self.assertEqual(printing["uuid"], original_uuid)
+        self.assertEqual(printing["image_file"], "WLX-001.png")
+        self.assertEqual(printing["image_sha256"], expected_hash)
+        self.assertNotEqual(printing["image_sha256"], original_hash)
+        refreshed = read_manager_rows(path)[0]
+        self.assertEqual(refreshed["current_front_art"], "WLX-001.png")
+        self.assertEqual(refreshed["CHANGE_front_art_to"], "")
+        _config, _state, resolved = wlxlib.validate_repository(self.fixture.root)
+        self.assertEqual(resolved[0].printing_uuid, original_uuid)
+        self.assertEqual(resolved[0].image_sha256, expected_hash)
+
+    def test_double_faced_front_and_back_art_can_be_replaced_together(self) -> None:
+        catalogs = wlxlib.load_all_catalogs(self.fixture.root, self.fixture.config)
+        process_issue.allocate_official_double_faced_printing(
+            self.fixture.root,
+            self.fixture.config,
+            self.fixture.state,
+            catalogs,
+            player="Will",
+            card_details=extus_details(),
+            front_payload=test_png_bytes(offset=41),
+            front_suffix=".png",
+            back_payload=test_png_bytes(offset=53),
+            back_suffix=".png",
+            front_flavor_name="",
+            back_flavor_name="",
+            actor="tester",
+            issue_number=2,
+        )
+        wlxlib.persist_catalogs(self.fixture.root, catalogs)
+        self.persist_state()
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        row = next(item for item in rows if item["card_kind"] == "official_double_faced")
+        original_uuid = row["printing_uuid"]
+        front = self.stage_replacement("Will", "extus-new-front.png", offset=181)
+        back = self.stage_replacement("Will", "avatar-new-back.png", offset=191)
+        front_hash = wlxlib.sha256_file(front)
+        back_hash = wlxlib.sha256_file(back)
+        row["CHANGE_front_art_to"] = front.name
+        row["CHANGE_back_art_to"] = back.name
+        write_manager_rows(path, rows)
+
+        result = manager.apply_plan(self.fixture.root)
+
+        self.assertEqual(result["art_replacements"], 2)
+        self.assertFalse(front.exists())
+        self.assertFalse(back.exists())
+        printing = next(
+            item
+            for item in self.fixture.catalog("Will")["printings"]
+            if item["uuid"] == original_uuid
+        )
+        by_side = {face["side"]: face for face in printing["faces"]}
+        self.assertEqual(by_side["front"]["image_sha256"], front_hash)
+        self.assertEqual(by_side["back"]["image_sha256"], back_hash)
+        self.assertEqual(printing["collector_number"], "002")
+        self.assertEqual(printing["uuid"], original_uuid)
+
+    def test_art_replacement_combines_with_owner_and_collector_change(self) -> None:
+        self.fixture.add_official("Will", "002", "Sol Ring", offset=71)
+        self.fixture.state["collectors"]["003"] = {
+            "status": "retired",
+            "player": "Will",
+            "uuid": wlxlib.stable_printing_uuid(
+                self.fixture.config["package_id"], "WLX", "003"
+            ),
+            "card_kind": "official",
+            "retired_at": "2026-08-01T00:00:00+00:00",
+        }
+        self.fixture.state["next_collector"] = 4
+        self.persist_state()
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        row = next(item for item in rows if item["card_name"] == "Sol Ring")
+        original_uuid = row["printing_uuid"]
+        staged = self.stage_replacement("Will", "sol-ring-new-art.png", offset=201)
+        expected_hash = wlxlib.sha256_file(staged)
+        row["CHANGE_front_art_to"] = staged.name
+        row["CHANGE_owner_to"] = "Alex"
+        row["CHANGE_collector_to"] = "003"
+        write_manager_rows(path, rows)
+
+        result = manager.apply_plan(self.fixture.root)
+
+        self.assertEqual(result["art_replacements"], 1)
+        self.assertEqual(result["owner_moves"], 1)
+        self.assertEqual(result["renumbered"], 1)
+        _config, _state, resolved = wlxlib.validate_repository(self.fixture.root)
+        moved = next(item for item in resolved if item.card_name == "Sol Ring")
+        self.assertEqual((moved.player, moved.collector_number), ("Alex", "003"))
+        self.assertEqual(moved.printing_uuid, original_uuid)
+        self.assertEqual(moved.image_sha256, expected_hash)
+        self.assertTrue(
+            (self.fixture.root / "cards" / "Alex" / "images" / "WLX-003.png").is_file()
+        )
+        self.assertFalse(
+            (self.fixture.root / "cards" / "Will" / "images" / "WLX-002.png").exists()
+        )
+
+    def test_identical_art_is_consumed_as_a_safe_noop(self) -> None:
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        source = self.fixture.root / "cards" / "Alex" / "images" / "WLX-001.png"
+        staged = (
+            self.fixture.root
+            / wlxlib.REPLACEMENT_ART_RELATIVE
+            / "alex"
+            / "same-art.png"
+        )
+        staged.parent.mkdir(parents=True, exist_ok=True)
+        staged.write_bytes(source.read_bytes())
+        rows[0]["CHANGE_front_art_to"] = staged.name
+        write_manager_rows(path, rows)
+        version_before = wlxlib.read_json(self.fixture.root / "project.json")["version"]
+
+        result = manager.apply_plan(self.fixture.root)
+
+        self.assertFalse(result["changed"])
+        self.assertEqual(result["art_replacements"], 0)
+        self.assertEqual(result["art_noops"], 1)
+        self.assertFalse(staged.exists())
+        self.assertEqual(
+            wlxlib.read_json(self.fixture.root / "project.json")["version"],
+            version_before,
+        )
+        self.assertEqual(read_manager_rows(path)[0]["CHANGE_front_art_to"], "")
+
+    def test_missing_replacement_routes_to_visible_manager_failure(self) -> None:
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        rows[0]["CHANGE_front_art_to"] = "not-uploaded.png"
+        write_manager_rows(path, rows)
+        catalog_before = (self.fixture.root / "cards" / "Alex" / "catalog.json").read_bytes()
+
+        self.assertEqual(manager.requested_status(self.fixture.root), "pending")
+        with self.assertRaisesRegex(manager.CatalogManagerError, "is missing"):
+            manager.apply_plan(self.fixture.root)
+        self.assertEqual(
+            (self.fixture.root / "cards" / "Alex" / "catalog.json").read_bytes(),
+            catalog_before,
+        )
+
+    def test_existing_artwork_cannot_be_duplicated_through_replacement(self) -> None:
+        self.fixture.add_official("Will", "002", "Sol Ring", offset=71)
+        self.fixture.state["next_collector"] = 3
+        self.persist_state()
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        existing = self.fixture.root / "cards" / "Alex" / "images" / "WLX-001.png"
+        staged = (
+            self.fixture.root
+            / wlxlib.REPLACEMENT_ART_RELATIVE
+            / "will"
+            / "duplicate-art.png"
+        )
+        staged.parent.mkdir(parents=True, exist_ok=True)
+        staged.write_bytes(existing.read_bytes())
+        next(item for item in rows if item["card_name"] == "Sol Ring")[
+            "CHANGE_front_art_to"
+        ] = staged.name
+        write_manager_rows(path, rows)
+
+        with self.assertRaisesRegex(manager.CatalogManagerError, "already published"):
+            manager.apply_plan(self.fixture.root)
+        self.assertTrue(staged.exists())
+
+    def test_single_face_back_art_request_is_rejected_before_changes(self) -> None:
+        path = self.build_manager()
+        rows = read_manager_rows(path)
+        staged = self.stage_replacement("Alex", "impossible-back.png", offset=211)
+        rows[0]["CHANGE_back_art_to"] = staged.name
+        write_manager_rows(path, rows)
+
+        with self.assertRaisesRegex(manager.CatalogManagerError, "no back-face artwork"):
+            manager.apply_plan(self.fixture.root)
+        self.assertTrue(staged.exists())
 
 
 if __name__ == "__main__":

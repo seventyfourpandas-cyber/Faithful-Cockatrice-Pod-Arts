@@ -19,13 +19,15 @@ the existing builder generates the XML, public images, manifest, readable
 catalog, installer, and status under `WLX/published/`. Never edit generated
 publication files by hand.
 
-## View, transfer, or renumber existing cards
+## View, replace art, transfer, or renumber existing cards
 
 Use `WLX/CARD_MANAGER.csv`. It lists one row per physical printing, including
 one combined row for a double-faced card. Edit only columns whose names begin
-with `CHANGE_`, then replace the file in one commit. The same serialized Action
-updates the real player catalogs, state, UUIDs, source-image folders and names,
-public XML, manifest, installer, and readable catalogs together.
+with `CHANGE_`, then replace the file in one commit. To replace artwork, first
+stage the image in the row's displayed `art_upload_folder`, then put its exact
+filename in `CHANGE_front_art_to` or `CHANGE_back_art_to`. The same serialized
+Action updates the real player catalogs, state, UUIDs, source-image folders and
+names, public XML, manifest, installer, and readable catalogs together.
 
 See [CARD_MANAGER_GUIDE.md](./CARD_MANAGER_GUIDE.md) for examples, retired-gap
 reuse, swaps, title clearing, and the failure rules. Do not edit

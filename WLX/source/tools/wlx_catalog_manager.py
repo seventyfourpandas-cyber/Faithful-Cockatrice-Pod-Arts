@@ -28,6 +28,8 @@ import wlxlib  # noqa: E402
 CHANGE_FIELDS = (
     "CHANGE_owner_to",
     "CHANGE_collector_to",
+    "CHANGE_front_art_to",
+    "CHANGE_back_art_to",
     "CHANGE_rarity_to",
     "CHANGE_front_title_to",
     "CHANGE_back_title_to",
@@ -53,6 +55,8 @@ class PlannedPrinting:
     target_rarity: str
     target_front_title: str
     target_back_title: str
+    front_art: ArtReplacement | None
+    back_art: ArtReplacement | None
     requested: bool
 
     @property
@@ -66,16 +70,34 @@ class PlannedPrinting:
                 self.target_rarity != str(self.printing.get("rarity", "")),
                 self.target_front_title != current_front,
                 self.target_back_title != current_back,
+                self.front_art is not None and self.front_art.changed,
+                self.back_art is not None and self.back_art.changed,
             )
         )
+
+
+@dataclasses.dataclass(frozen=True)
+class ArtReplacement:
+    source: Path
+    record: dict[str, Any]
+    side: str
+    suffix: str
+    sha256: str
+    current_sha256: str
+
+    @property
+    def changed(self) -> bool:
+        return self.sha256 != self.current_sha256
 
 
 @dataclasses.dataclass(frozen=True)
 class ImageMove:
     source: Path
     destination: Path
+    content_source: Path
     record: dict[str, Any]
     new_filename: str
+    replacement: ArtReplacement | None
 
 
 def utc_now() -> str:
@@ -178,6 +200,20 @@ def printing_image_records(printing: dict[str, Any]) -> list[dict[str, Any]]:
     return [printing]
 
 
+def printing_art_records(printing: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    records = printing_image_records(printing)
+    if printing.get("card_kind") != "official_double_faced":
+        return {"front": records[0]}
+    by_side = {str(record.get("side", "")): record for record in records}
+    if set(by_side) != {"front", "back"}:
+        raise CatalogManagerError("A double-faced printing has invalid face labels")
+    return by_side
+
+
+def art_upload_folder(owner: str) -> str:
+    return (wlxlib.REPLACEMENT_ART_RELATIVE / owner.casefold()).as_posix() + "/"
+
+
 def source_snapshot(
     catalogs: dict[str, dict[str, Any]]
 ) -> tuple[dict[str, dict[str, str]], dict[str, tuple[str, dict[str, Any]]]]:
@@ -193,16 +229,20 @@ def source_snapshot(
             if not printing_uuid or printing_uuid in records:
                 raise CatalogManagerError("Printing UUIDs are missing or duplicated")
             front_title, back_title = printing_titles(printing)
-            image_files = " | ".join(
-                str(record.get("image_file", ""))
-                for record in printing_image_records(printing)
-            )
+            art_records = printing_art_records(printing)
             row = {
                 "current_collector": f"WLX-{collector}",
                 "card_name": printing_name(printing, definitions),
                 "current_owner": owner,
                 "CHANGE_owner_to": "",
                 "CHANGE_collector_to": "",
+                "current_front_art": str(art_records["front"].get("image_file", "")),
+                "CHANGE_front_art_to": "",
+                "current_back_art": str(
+                    art_records.get("back", {}).get("image_file", "")
+                ),
+                "CHANGE_back_art_to": "",
+                "art_upload_folder": art_upload_folder(owner),
                 "current_rarity": str(printing.get("rarity", "")),
                 "CHANGE_rarity_to": "",
                 "current_front_title": front_title,
@@ -211,7 +251,6 @@ def source_snapshot(
                 "CHANGE_back_title_to": "",
                 "card_kind": str(printing.get("card_kind", "")),
                 "printing_uuid": printing_uuid,
-                "source_images": image_files,
                 "notes": str(printing.get("notes", "")),
             }
             rows[printing_uuid] = row
@@ -264,6 +303,130 @@ def changed_text(raw: str, current: str) -> str:
     return value
 
 
+def detected_image_suffix(path: Path) -> str:
+    with path.open("rb") as handle:
+        signature = handle.read(8)
+    if signature.startswith(b"\x89PNG\r\n\x1a\n"):
+        return ".png"
+    if signature.startswith(b"\xff\xd8"):
+        return ".jpg"
+    raise CatalogManagerError(f"{path.name} is not a real PNG or JPEG image")
+
+
+def resolve_replacement_source(root: Path, owner: str, requested: str) -> Path:
+    relative = Path(requested.strip())
+    if (
+        not requested.strip()
+        or relative.is_absolute()
+        or len(relative.parts) != 1
+        or ".." in relative.parts
+        or relative.suffix.casefold() not in wlxlib.ALLOWED_IMAGE_SUFFIXES
+    ):
+        raise CatalogManagerError(
+            f"Replacement art {requested!r} must be one PNG/JPEG filename, not a path"
+        )
+    folder = root / wlxlib.REPLACEMENT_ART_RELATIVE / owner.casefold()
+    exact = folder / relative.name
+    if exact.is_file():
+        return exact
+    matches = [
+        candidate
+        for candidate in folder.iterdir()
+        if candidate.is_file() and candidate.name.casefold() == relative.name.casefold()
+    ] if folder.is_dir() else []
+    if len(matches) == 1:
+        return matches[0]
+    raise CatalogManagerError(
+        f"Replacement art is missing: {(folder / relative.name).relative_to(root)}"
+    )
+
+
+def prepare_art_replacement(
+    root: Path,
+    owner: str,
+    requested: str,
+    record: dict[str, Any],
+    side: str,
+    collector_label: str,
+) -> ArtReplacement | None:
+    if not requested.strip():
+        return None
+    source = resolve_replacement_source(root, owner, requested)
+    size = source.stat().st_size
+    if size < 10_000:
+        raise CatalogManagerError(
+            f"Replacement art for {collector_label} is suspiciously small ({size} bytes)"
+        )
+    if size > wlxlib.MAX_SOURCE_IMAGE_BYTES:
+        limit = wlxlib.MAX_SOURCE_IMAGE_BYTES // (1024 * 1024)
+        raise CatalogManagerError(
+            f"Replacement art for {collector_label} exceeds the {limit} MiB limit"
+        )
+    suffix = detected_image_suffix(source)
+    try:
+        width, height = wlxlib.image_dimensions(source)
+    except wlxlib.WlxError as exc:
+        raise CatalogManagerError(str(exc)) from exc
+    if width < 300 or height < 400:
+        raise CatalogManagerError(
+            f"Replacement art for {collector_label} is only {width}x{height}; minimum is 300x400"
+        )
+    current_sha256 = str(record.get("image_sha256", "")).casefold().strip()
+    if not wlxlib.SHA256_RE.fullmatch(current_sha256):
+        raise CatalogManagerError(
+            f"{collector_label} has no valid current artwork hash"
+        )
+    return ArtReplacement(
+        source=source,
+        record=record,
+        side=side,
+        suffix=suffix,
+        sha256=wlxlib.sha256_file(source),
+        current_sha256=current_sha256,
+    )
+
+
+def validate_art_replacements(
+    catalogs: dict[str, dict[str, Any]], plan: list[PlannedPrinting]
+) -> None:
+    current_hashes: dict[str, str] = {}
+    definitions = custom_names(catalogs)
+    for catalog in catalogs.values():
+        for printing in catalog["printings"]:
+            label = printing_name(printing, definitions)
+            collector = str(printing.get("collector_number", ""))
+            for side, record in printing_art_records(printing).items():
+                digest = str(record.get("image_sha256", "")).casefold().strip()
+                side_label = f"-{side}" if printing.get("card_kind") == "official_double_faced" else ""
+                current_hashes[digest] = f"WLX-{collector}{side_label} ({label})"
+
+    seen_sources: set[Path] = set()
+    claimed_hashes: dict[str, str] = {}
+    for item in plan:
+        label = f"WLX-{item.original_collector}"
+        for replacement in (item.front_art, item.back_art):
+            if replacement is None:
+                continue
+            if replacement.source in seen_sources:
+                raise CatalogManagerError(
+                    f"The same staged file cannot replace two faces: {replacement.source.name}"
+                )
+            seen_sources.add(replacement.source)
+            if not replacement.changed:
+                continue
+            if replacement.sha256 in current_hashes:
+                raise CatalogManagerError(
+                    "That exact artwork is already published as "
+                    + current_hashes[replacement.sha256]
+                )
+            target = f"{label}-{replacement.side}"
+            if replacement.sha256 in claimed_hashes:
+                raise CatalogManagerError(
+                    f"The same replacement artwork was requested for {claimed_hashes[replacement.sha256]} and {target}"
+                )
+            claimed_hashes[replacement.sha256] = target
+
+
 def prepare_plan(
     root: Path,
 ) -> tuple[dict[str, Any], dict[str, Any], dict[str, dict[str, Any]], list[PlannedPrinting]]:
@@ -284,6 +447,8 @@ def prepare_plan(
         original_collector = str(printing["collector_number"])
         owner_request = row["CHANGE_owner_to"].strip()
         collector_request = row["CHANGE_collector_to"].strip()
+        front_art_request = row["CHANGE_front_art_to"].strip()
+        back_art_request = row["CHANGE_back_art_to"].strip()
         rarity_request = row["CHANGE_rarity_to"].strip()
         front_request = row["CHANGE_front_title_to"].strip()
         back_request = row["CHANGE_back_title_to"].strip()
@@ -310,8 +475,29 @@ def prepare_plan(
             raise CatalogManagerError(
                 f"{row['current_collector']} has no back-face title to change"
             )
+        if kind != "official_double_faced" and back_art_request:
+            raise CatalogManagerError(
+                f"{row['current_collector']} has no back-face artwork to change"
+            )
         target_front = changed_text(front_request, current_front)
         target_back = changed_text(back_request, current_back)
+        art_records = printing_art_records(printing)
+        front_art = prepare_art_replacement(
+            root,
+            owner,
+            front_art_request,
+            art_records["front"],
+            "front",
+            row["current_collector"],
+        )
+        back_art = prepare_art_replacement(
+            root,
+            owner,
+            back_art_request,
+            art_records["back"],
+            "back",
+            row["current_collector"],
+        ) if "back" in art_records else None
         # A manager edit changes where an existing printing lives, not which
         # printing it is. Preserve its Cockatrice UUID across renumbering.
         target_uuid = str(printing.get("uuid", ""))
@@ -326,6 +512,8 @@ def prepare_plan(
                 target_rarity=target_rarity,
                 target_front_title=target_front,
                 target_back_title=target_back,
+                front_art=front_art,
+                back_art=back_art,
                 requested=any(row[field].strip() for field in CHANGE_FIELDS),
             )
         )
@@ -345,19 +533,30 @@ def prepare_plan(
         raise CatalogManagerError(f"Two active cards cannot share a collector number: {details}")
     if len({item.target_uuid for item in plan}) != len(plan):
         raise CatalogManagerError("The requested collector numbers create duplicate UUIDs")
+    validate_art_replacements(catalogs, plan)
     return config, state, catalogs, plan
 
 
 def requested_status(root: Path) -> str:
-    _config, _state, _catalogs, plan = prepare_plan(root)
+    try:
+        _config, _state, _catalogs, plan = prepare_plan(root)
+    except (CatalogManagerError, wlxlib.WlxError, OSError, ValueError, KeyError):
+        # Route malformed or incomplete requests into --apply so the Action
+        # fails visibly instead of letting a normal import rebuild the sheet
+        # and silently clear the user's request.
+        return "pending"
     return "pending" if any(item.requested for item in plan) else "clean"
 
 
 def desired_image_filename(
-    printing: dict[str, Any], record: dict[str, Any], collector: str
+    printing: dict[str, Any],
+    record: dict[str, Any],
+    collector: str,
+    *,
+    suffix_override: str = "",
 ) -> str:
     current = Path(str(record.get("image_file", "")))
-    suffix = current.suffix.casefold()
+    suffix = suffix_override.casefold() or current.suffix.casefold()
     if suffix == ".jpeg":
         suffix = ".jpg"
     if suffix not in wlxlib.ALLOWED_IMAGE_SUFFIXES:
@@ -375,6 +574,11 @@ def plan_image_moves(root: Path, plan: list[PlannedPrinting]) -> list[ImageMove]
     all_sources: set[Path] = set()
     all_destinations: set[Path] = set()
     for item in plan:
+        replacements = {
+            id(replacement.record): replacement
+            for replacement in (item.front_art, item.back_art)
+            if replacement is not None
+        }
         for record in printing_image_records(item.printing):
             source = (
                 wlxlib.player_images_path(root, item.original_owner)
@@ -382,8 +586,16 @@ def plan_image_moves(root: Path, plan: list[PlannedPrinting]) -> list[ImageMove]
             )
             if not source.is_file():
                 raise CatalogManagerError(f"Source image is missing: {source.relative_to(root)}")
+            replacement = replacements.get(id(record))
             filename = desired_image_filename(
-                item.printing, record, item.target_collector
+                item.printing,
+                record,
+                item.target_collector,
+                suffix_override=(
+                    replacement.suffix
+                    if replacement is not None and replacement.changed
+                    else ""
+                ),
             )
             destination = wlxlib.player_images_path(root, item.target_owner) / filename
             if source in all_sources:
@@ -398,8 +610,14 @@ def plan_image_moves(root: Path, plan: list[PlannedPrinting]) -> list[ImageMove]
                 ImageMove(
                     source=source,
                     destination=destination,
+                    content_source=(
+                        replacement.source
+                        if replacement is not None and replacement.changed
+                        else source
+                    ),
                     record=record,
                     new_filename=filename,
+                    replacement=replacement,
                 )
             )
     for move in moves:
@@ -411,13 +629,18 @@ def plan_image_moves(root: Path, plan: list[PlannedPrinting]) -> list[ImageMove]
 
 
 def execute_image_moves(moves: list[ImageMove]) -> None:
-    changed = [move for move in moves if move.source != move.destination]
+    changed = [
+        move
+        for move in moves
+        if move.source != move.destination
+        or (move.replacement is not None and move.replacement.changed)
+    ]
     with tempfile.TemporaryDirectory(prefix="wlx-card-manager-") as directory:
         staging = Path(directory)
         staged: list[tuple[ImageMove, Path]] = []
         for index, move in enumerate(changed):
-            temporary = staging / f"{index:04d}{move.source.suffix.casefold()}"
-            shutil.copy2(move.source, temporary)
+            temporary = staging / f"{index:04d}{move.content_source.suffix.casefold()}"
+            shutil.copy2(move.content_source, temporary)
             staged.append((move, temporary))
         for source in {move.source for move in changed}:
             source.unlink()
@@ -428,6 +651,14 @@ def execute_image_moves(moves: list[ImageMove]) -> None:
             pending.replace(move.destination)
     for move in moves:
         move.record["image_file"] = move.new_filename
+        if move.replacement is not None and move.replacement.changed:
+            move.record["image_sha256"] = move.replacement.sha256
+    for source in {
+        move.replacement.source
+        for move in moves
+        if move.replacement is not None
+    }:
+        source.unlink()
 
 
 def archive_state(
@@ -527,13 +758,27 @@ def apply_plan(root: Path) -> dict[str, Any]:
     config, state, catalogs, plan = prepare_plan(root)
     requested = [item for item in plan if item.requested]
     changed = [item for item in plan if item.changed]
+    art_requests = [
+        replacement
+        for item in plan
+        for replacement in (item.front_art, item.back_art)
+        if replacement is not None
+    ]
     if not requested:
         return {"changed": False, "requested": 0, "updated": 0}
     if not changed:
         print("The requested values already match the current collection.")
+        if art_requests:
+            execute_image_moves(plan_image_moves(root, plan))
         current = wlxlib.validate_repository(root)[2]
         wlxlib.write_card_manager_csv(wlxlib.card_manager_path(root), current)
-        return {"changed": False, "requested": len(requested), "updated": 0}
+        return {
+            "changed": False,
+            "requested": len(requested),
+            "updated": 0,
+            "art_replacements": 0,
+            "art_noops": len(art_requests),
+        }
 
     moves = plan_image_moves(root, plan)
     owner_moves = sum(item.target_owner != item.original_owner for item in changed)
@@ -548,6 +793,10 @@ def apply_plan(root: Path) -> dict[str, Any]:
         )
         for item in changed
     )
+    art_replacements = sum(
+        replacement.changed for replacement in art_requests
+    )
+    art_noops = len(art_requests) - art_replacements
     timestamp = utc_now()
     execute_image_moves(moves)
 
@@ -585,6 +834,8 @@ def apply_plan(root: Path) -> dict[str, Any]:
         "owner_moves": owner_moves,
         "renumbered": renumbered,
         "metadata_edits": metadata_edits,
+        "art_replacements": art_replacements,
+        "art_noops": art_noops,
     }
 
 

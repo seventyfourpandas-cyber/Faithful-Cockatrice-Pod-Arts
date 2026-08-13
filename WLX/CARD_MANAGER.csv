@@ -1,133 +1,133 @@
-﻿current_collector,card_name,current_owner,CHANGE_owner_to,CHANGE_collector_to,current_rarity,CHANGE_rarity_to,current_front_title,CHANGE_front_title_to,current_back_title,CHANGE_back_title_to,card_kind,printing_uuid,source_images,notes
-WLX-001,Angel of Vitality,Alex,,,rare,,"Alex, Divine Priest",,,,official,f6a9cc3e-beac-5fac-84aa-ca36b34d7d10,WLX-001.png,Original verified WLX printing; UUID preserved from the working v1 release
-WLX-002,Wedding Ring,Alex,,,special,,,,,,official,b7ed3e04-2245-5304-a933-8ce3975f0a58,WLX-002.png,Submitted by @seventyfourpandas-cyber through issue #1
-WLX-006,Ghoulcaller Gisa,Will,,,special,,,,,,official,ed2476c2-c159-59e3-8153-d96a2bcae779,WLX-006.jpg,Submitted by @WillPower-exe through issue #9
-WLX-007,"Extus, Oriq Overlord // Awaken the Blood Avatar",Will,,,special,,,,,,official_double_faced,aa42d7ed-2f5c-521b-bd3a-84a39a40bd38,WLX-007-front.jpg | WLX-007-back.jpg,Submitted by @WillPower-exe through issue #10
-WLX-008,Invasion of Tolvada // The Broken Sky,Will,,,special,,,,,,official_double_faced,2e847228-b8a4-5e0c-b14c-bc6699af72b9,WLX-008-front.jpg | WLX-008-back.jpg,Submitted by @WillPower-exe through issue #11
-WLX-010,"Armaggon, Future Shark",Will,,,special,,,,,,official,0284d1b8-7535-5b6e-9898-ff2da5a9bd83,WLX-010.jpg,Submitted by @WillPower-exe through issue #17
-WLX-011,Breach the Multiverse,Will,,,special,,,,,,official,851a2ffc-3165-5aae-a2f5-15f25ad75846,WLX-011.jpg,Submitted by @WillPower-exe through issue #21
-WLX-013,Eriette of the Charmed Apple,Alex,,,special,,,,,,official,e01bf7bf-20c5-550f-a790-9c142c3c75d3,WLX-013.jpg,Submitted by @WillPower-exe through issue #28
-WLX-014,"Animar, Soul of Elements",Will,,,special,,,,,,official,cd3b0d09-97da-58f5-be31-cc16e24cc2b9,WLX-014.jpg,"Imported from will/Animar, Soul of Elements.jpg in file batch e88865535d"
-WLX-015,Animate Dead,Will,,,special,,,,,,official,e1a30784-a860-599e-9de3-c93187f601eb,WLX-015.jpg,Imported from will/Animate Dead.jpg in file batch e88865535d
-WLX-016,Annie Joins Up,Will,,,special,,,,,,official,588bd25c-b252-5129-9826-b7c95f21ab74,WLX-016.jpg,Imported from will/Annie Joins Up.jpg in file batch e88865535d
-WLX-017,Apex Altisaur,Will,,,special,,,,,,official,2d3b8ce8-64d6-51f4-8b58-89423368101f,WLX-017.jpg,Imported from will/Apex Altisaur.jpg in file batch e88865535d
-WLX-018,Archfiend of Despair,Will,,,special,,,,,,official,b1bb9fd4-1b93-53a0-ac4b-69adff6e4ec2,WLX-018.jpg,Imported from will/Archfiend of Despair.jpg in file batch e88865535d
-WLX-019,Aura Shards,Will,,,special,,,,,,official,5b3ae90a-7589-5031-873b-9cbb0050bf0e,WLX-019.jpg,Imported from will/Aura Shards.jpg in file batch e88865535d
-WLX-020,Avatar's Wrath,Will,,,special,,,,,,official,5d7c2ba4-4cdf-58c5-874f-b1127413b18b,WLX-020.jpg,Imported from will/Avatar's Wrath.jpg in file batch e88865535d
-WLX-021,Avenger of Zendikar,Will,,,special,,,,,,official,ec271222-ee5e-5f8b-ba3b-78fe0d06de0e,WLX-021.jpg,Imported from will/Avenger of Zendikar.jpg in file batch e88865535d
-WLX-022,Barbflare Gremlin,Will,,,special,,,,,,official,6ff1130e-f69f-538c-9976-7f8247ecb1af,WLX-022.jpg,Imported from will/Barbflare Gremlin.jpg in file batch e88865535d
-WLX-023,Bastion of Remembrance,Will,,,special,,,,,,official,a0e73ad7-e7c0-598a-8677-ef4ff46ffaa8,WLX-023.jpg,Imported from will/Bastion of Remembrance.jpg in file batch e88865535d
-WLX-024,Blood Pact,Will,,,special,,,,,,official,b642868e-32a6-546c-bb30-fff43280e472,WLX-024.jpg,Imported from will/Blood Pact.jpg in file batch e88865535d
-WLX-025,Bog Witch,Will,,,special,,,,,,official,fc7c0b6b-1d88-5359-a419-8068b8b92800,WLX-025.jpg,Imported from will/Bog Witch.jpg in file batch e88865535d
-WLX-026,Bone Shards,Will,,,special,,,,,,official,753c5f8c-3744-52fa-a3f5-307905377eb4,WLX-026.jpg,Imported from will/Bone Shards.jpg in file batch e88865535d
-WLX-027,Bonehoard Dracosaur,Will,,,special,,,,,,official,66e2a218-bb70-5306-8970-7ed1dd74feeb,WLX-027.jpg,Imported from will/Bonehoard Dracosaur.jpg in file batch e88865535d
-WLX-028,Brighthearth Banneret,Will,,,special,,,,,,official,46dc17a2-6135-5019-9666-4d6336f1fff1,WLX-028.jpg,Imported from will/Brighthearth Banneret.jpg in file batch e88865535d
-WLX-029,Cavalier of Gales,Will,,,special,,,,,,official,76eb831f-abdd-5c4b-9cde-3ffe09f67775,WLX-029.jpg,Imported from will/Cavalier of Gales.jpg in file batch e88865535d
-WLX-030,Cavalier of Thorns,Will,,,special,,,,,,official,451ac372-ef90-5c39-ab1e-b2ff03fb5fc1,WLX-030.jpg,Imported from will/Cavalier of Thorns.jpg in file batch e88865535d
-WLX-031,Champion of the Path,Will,,,special,,,,,,official,0335069f-1e3e-5841-95e3-91f82cbc2d24,WLX-031.jpg,Imported from will/Champion of the Path.jpg in file batch e88865535d
-WLX-032,Chaos Warp,Will,,,special,,,,,,official,b95e58ad-77c6-5081-8769-051f99ccdcdb,WLX-032.jpg,Imported from will/Chaos Warp.jpg in file batch e88865535d
-WLX-033,Codex Shredder,Will,,,special,,,,,,official,000a7fbe-f6f0-5c67-9691-b09ac86b7ab2,WLX-033.jpg,Imported from will/Codex Shredder.jpg in file batch e88865535d
-WLX-034,Colossus of Akros,Will,,,special,,,,,,official,2017aa0c-a126-5e0a-9d59-171556e45c25,WLX-034.jpg,Imported from will/Colossus of Akros.jpg in file batch e88865535d
-WLX-035,Corpses of the Lost,Will,,,special,,,,,,official,2ab69787-322a-5f00-a975-7586abae86dd,WLX-035.jpg,Imported from will/Corpses of the Lost.jpg in file batch e88865535d
-WLX-036,Cream of the Crop,Will,,,special,,,,,,official,b655d0c8-8752-5e69-9f86-8d9cdcb9e7e9,WLX-036.jpg,Imported from will/Cream of the Crop.jpg in file batch e88865535d
-WLX-037,Disciple of Bolas,Will,,,special,,,,,,official,4d772581-260c-5b6f-8f6e-d8210fbfda7e,WLX-037.jpg,Imported from will/Disciple of Bolas.jpg in file batch e88865535d
-WLX-038,"Doc Aurlock, Grizzled Genius",Will,,,special,,,,,,official,978b4871-2f10-5d95-acee-98eec41b8980,WLX-038.png,"Imported from will/Doc Aurlock, Grizzled Genius.png in file batch e88865535d"
-WLX-039,Eerie Interlude,Will,,,special,,,,,,official,7f148816-bf2a-5e6c-86e6-e00b4a6bba7e,WLX-039.jpg,Imported from will/Eerie Interlude.jpg in file batch e88865535d
-WLX-040,Eladamri's Call,Will,,,special,,,,,,official,bc297dc0-1071-51dc-8212-3df2a776ee32,WLX-040.jpg,Imported from will/Eladamri's Call.jpg in file batch e88865535d
-WLX-041,Elemental Bond,Will,,,special,,,,,,official,ea387e1c-9582-58f2-a700-b4622437107b,WLX-041.jpg,Imported from will/Elemental Bond.jpg in file batch e88865535d
-WLX-042,Esper Sentinel,Will,,,special,,,,,,official,092c2575-f71d-5c32-ba19-c1de6a9c855f,WLX-042.jpg,Imported from will/Esper Sentinel.jpg in file batch e88865535d
-WLX-043,Everybody Lives!,Will,,,special,,,,,,official,6677cab8-a8e9-5681-8cf8-661871813610,WLX-043.jpg,Imported from will/Everybody Lives!.jpg in file batch e88865535d
-WLX-044,Faeburrow Elder,Will,,,special,,,,,,official,14f7f6f3-5a7a-5299-9401-91351aab55f5,WLX-044.jpg,Imported from will/Faeburrow Elder.jpg in file batch e88865535d
-WLX-045,Fanatic of Rhonas,Will,,,special,,,,,,official,1701259c-f284-549b-82be-28173e805087,WLX-045.jpg,Imported from will/Fanatic of Rhonas.jpg in file batch e88865535d
-WLX-046,Far Traveler,Will,,,special,,,,,,official,5b696be6-269d-58da-af6c-8c25a721ddaf,WLX-046.jpg,Imported from will/Far Traveler.jpg in file batch e88865535d
-WLX-047,Fate Unraveler,Will,,,special,,,,,,official,b8daceae-a60b-5a42-a9de-82e10f843f72,WLX-047.jpg,Imported from will/Fate Unraveler.jpg in file batch e88865535d
-WLX-048,Fellwar Stone,Will,,,special,,,,,,official,144cc22a-c717-5a8e-adf6-c5d3840fab62,WLX-048.jpg,Imported from will/Fellwar Stone.jpg in file batch e88865535d
-WLX-049,Flamebraider,Will,,,special,,,,,,official,616bc982-15b9-53c2-a282-d6f707614aa2,WLX-049.jpg,Imported from will/Flamebraider.jpg in file batch e88865535d
-WLX-050,Flamekin Harbinger,Will,,,special,,,,,,official,2070fbf2-49d6-5195-8a31-b13801fb88bf,WLX-050.jpg,Imported from will/Flamekin Harbinger.jpg in file batch e88865535d
-WLX-051,Fog,Will,,,special,,,,,,official,a583faa6-1a11-5b52-a4fe-99be1b4bb081,WLX-051.jpg,Imported from will/Fog.jpg in file batch e88865535d
-WLX-052,Forerunner of the Empire,Will,,,special,,,,,,official,e97dae0c-ca31-5f03-8daf-d6bd6db09af1,WLX-052.jpg,Imported from will/Forerunner of the Empire.jpg in file batch e88865535d
-WLX-053,Foundation Breaker,Will,,,special,,,,,,official,6280c507-c9df-5a1f-8d5b-9aba3218d059,WLX-053.jpg,Imported from will/Foundation Breaker.jpg in file batch e88865535d
-WLX-054,Fury Storm,Will,,,special,,,,,,official,43ae2ed9-3c33-51b4-ade2-5e4e8325bed0,WLX-054.jpg,Imported from will/Fury Storm.jpg in file batch e88865535d
-WLX-055,"Garnet, Princess of Alexandria",Will,,,special,,,,,,official,7070b163-d2ee-5dac-8eed-f9956a69ef0a,WLX-055.jpg,"Imported from will/Garnet, Princess of Alexandria.jpg in file batch e88865535d"
-WLX-056,Ghostfire Slice,Will,,,special,,,,,,official,9c6ab1e3-ba45-5fc2-b73c-9cb63b24fe4f,WLX-056.jpg,Imported from will/Ghostfire Slice.jpg in file batch e88865535d
-WLX-057,"Ghyrson Starn, Kelermorph",Will,,,special,,,,,,official,c4e7832a-1859-5ee9-a17b-639fea1fb08c,WLX-057.jpg,"Imported from will/Ghyrson Starn, Kelermorph.jpg in file batch e88865535d"
-WLX-058,Gleeful Arsonist,Will,,,special,,,,,,official,614cc94a-c024-5782-974b-bb09dc1cb17c,WLX-058.jpg,Imported from will/Gleeful Arsonist.jpg in file batch e88865535d
-WLX-059,Grave Sifter,Will,,,special,,,,,,official,dea95354-aa40-5c12-a3e6-58b08b5413f7,WLX-059.jpg,Imported from will/Grave Sifter.jpg in file batch e88865535d
-WLX-060,Greenwarden of Murasa,Will,,,special,,,,,,official,3526a2e2-a5a9-5dba-b6a3-2c06865e6fa2,WLX-060.jpg,Imported from will/Greenwarden of Murasa.jpg in file batch e88865535d
-WLX-061,Harsh Mentor,Will,,,special,,,,,,official,be0db812-1b44-5561-9922-7a9f224fb268,WLX-061.jpg,Imported from will/Harsh Mentor.jpg in file batch e88865535d
-WLX-062,High Perfect Morcant,Will,,,special,,,,,,official,06d29152-c0f5-5309-be2a-cae3fcf16349,WLX-062.jpg,Imported from will/High Perfect Morcant.jpg in file batch e88865535d
-WLX-063,Hulking Raptor,Will,,,special,,,,,,official,2fc761a1-39ea-5dcc-8d2b-73e6396a958c,WLX-063.jpg,Imported from will/Hulking Raptor.jpg in file batch e88865535d
-WLX-064,Illuminor Szeras,Will,,,special,,,,,,official,e456c526-5ad3-58ed-9fb0-92205006345c,WLX-064.jpg,Imported from will/Illuminor Szeras.jpg in file batch e88865535d
-WLX-065,Incandescent Soulstoke,Will,,,special,,,,,,official,fb081480-9bfe-5634-b844-c19ad837aab0,WLX-065.jpg,Imported from will/Incandescent Soulstoke.jpg in file batch e88865535d
-WLX-066,Ingot Chewer,Will,,,special,,,,,,official,4e95ce46-e64d-5f57-a02f-13bb86b7f466,WLX-066.jpg,Imported from will/Ingot Chewer.jpg in file batch e88865535d
-WLX-067,"Kardur, Doomscourge",Will,,,special,,,,,,official,4bbaf1b3-df61-5ff6-ac6d-15388e6277b2,WLX-067.jpg,"Imported from will/Kardur, Doomscourge.jpg in file batch e88865535d"
-WLX-068,Kederekt Parasite,Will,,,special,,,,,,official,9a591606-7ab0-58a5-8277-d5d2acd9d2b5,WLX-068.jpg,Imported from will/Kederekt Parasite.jpg in file batch e88865535d
-WLX-069,Lae'zel's Acrobatics,Will,,,special,,,,,,official,d1fa16b2-9aea-5e06-a12e-0e69d7ae8a03,WLX-069.jpg,Imported from will/Lae'zel's Acrobatics.jpg in file batch e88865535d
-WLX-070,Lavaspur Boots,Will,,,special,,,,,,official,7164d953-2749-5d27-afc9-efe188d87515,WLX-070.jpg,Imported from will/Lavaspur Boots.jpg in file batch e88865535d
-WLX-071,Library of Leng,Will,,,special,,,,,,official,d8f4bece-b2a4-52a3-9cee-fa3d4e6cc66c,WLX-071.jpg,Imported from will/Library of Leng.jpg in file batch e88865535d
-WLX-072,Lurking Predators,Will,,,special,,,,,,official,b4ac4c7c-c4cd-5c9e-af56-5084a856ffff,WLX-072.jpg,Imported from will/Lurking Predators.jpg in file batch e88865535d
-WLX-073,Maelstrom Wanderer,Will,,,special,,,,,,official,532b91f7-c827-52fd-acba-31fc045fa15d,WLX-073.jpg,Imported from will/Maelstrom Wanderer.jpg in file batch e88865535d
-WLX-074,Manabarbs,Will,,,special,,,,,,official,562feb31-35f9-5754-9605-17216e91af33,WLX-074.jpg,Imported from will/Manabarbs.jpg in file batch e88865535d
-WLX-075,Mayhem Devil,Will,,,special,,,,,,official,5e8057a1-46e7-578d-bffb-909ea8867986,WLX-075.jpg,Imported from will/Mayhem Devil.jpg in file batch e88865535d
-WLX-076,Mind Stone,Will,,,special,,,,,,official,3e63f6c6-5050-5ed3-b89d-ba8045858fc4,WLX-076.jpg,Imported from will/Mind Stone.jpg in file batch e88865535d
-WLX-077,Molten Echoes,Will,,,special,,,,,,official,e9c32b86-c386-5627-ad5b-9b5d5cd5b487,WLX-077.jpg,Imported from will/Molten Echoes.jpg in file batch e88865535d
-WLX-078,Monstrous Vortex,Will,,,special,,,,,,official,25fbfd94-6bbd-5a44-b45e-9d3033e2a2c3,WLX-078.jpg,Imported from will/Monstrous Vortex.jpg in file batch e88865535d
-WLX-079,Nightshade Harvester,Will,,,special,,,,,,official,764c3846-a2a8-530e-89ac-86d5fffa6759,WLX-079.jpg,Imported from will/Nightshade Harvester.jpg in file batch e88865535d
-WLX-080,Oath of Lieges,Will,,,special,,,,,,official,9bfb3042-209d-5e9b-a75e-92c3698eead4,WLX-080.jpg,Imported from will/Oath of Lieges.jpg in file batch e88865535d
-WLX-081,"Omnath, Locus of Rage",Will,,,special,,,,,,official,c099b5a8-a680-5561-ba9e-5f6e0772e4ba,WLX-081.jpg,"Imported from will/Omnath, Locus of Rage.jpg in file batch e88865535d"
-WLX-082,"Omnath, Locus of the Roil",Will,,,special,,,,,,official,0f59ac3d-d64b-5b02-8fb6-135bf7972988,WLX-082.jpg,"Imported from will/Omnath, Locus of the Roil.jpg in file batch e88865535d"
-WLX-083,Otepec Huntmaster,Will,,,special,,,,,,official,9dcc54d5-cc34-51c4-9a5e-195d36d93fd1,WLX-083.jpg,Imported from will/Otepec Huntmaster.jpg in file batch e88865535d
-WLX-084,Overgrowth Elemental,Will,,,special,,,,,,official,bccf757f-2eab-52a9-9557-992563804a18,WLX-084.jpg,Imported from will/Overgrowth Elemental.jpg in file batch e88865535d
-WLX-085,Painful Quandary,Will,,,special,,,,,,official,c3182a5b-9f67-5482-b479-b4a264147eb4,WLX-085.jpg,Imported from will/Painful Quandary.jpg in file batch e88865535d
-WLX-086,"Pantlaza, Sun-Favored",Will,,,special,,,,,,official,74c5e994-be9c-58f7-baff-c25feaaf6b7c,WLX-086.jpg,"Imported from will/Pantlaza, Sun-Favored.jpg in file batch e88865535d"
-WLX-087,Persistent Constrictor,Will,,,special,,,,,,official,cb93f0b3-0b8c-5483-bb99-cdddaecc7e7e,WLX-087.jpg,Imported from will/Persistent Constrictor.jpg in file batch e88865535d
-WLX-089,Phyrexian Triniform,Will,,,special,,,,,,official,5e5ab8a4-d9d7-5b8e-8e8d-63b7869f1034,WLX-089.jpg,Imported from will/Phyrexian Triniform.jpg in file batch e88865535d
-WLX-090,"Plagon, Lord of the Beach",Will,,,special,,,,,,official,7ff767ae-38de-5440-96b6-eb9c22a31fd3,WLX-090.jpg,"Imported from will/Plagon, Lord of the Beach.jpg in file batch e88865535d"
-WLX-091,Pyre of Heroes,Will,,,special,,,,,,official,97c1f95e-da60-5876-84e8-a8db9ee8d115,WLX-091.jpg,Imported from will/Pyre of Heroes.jpg in file batch e88865535d
-WLX-093,Railway Brawler,Will,,,special,,,,,,official,8e571301-ea33-57b8-957d-1a780fa47d1c,WLX-093.jpg,Imported from will/Railway Brawler.jpg in file batch e88865535d
-WLX-094,Rakdos Charm,Will,,,special,,,,,,official,ada2d526-a6f3-598f-ac5e-ff15395821a6,WLX-094.jpg,Imported from will/Rakdos Charm.jpg in file batch e88865535d
-WLX-095,Rakdos Signet,Will,,,special,,,,,,official,38f78c4d-2c8c-5e36-8895-3ca89c6b10a2,WLX-095.jpg,Imported from will/Rakdos Signet.jpg in file batch e88865535d
-WLX-096,"Rakdos, Lord of Riots",Will,,,special,,,,,,official,fa5a1535-e401-53d8-9f21-7f685735a812,WLX-096.jpg,"Imported from will/Rakdos, Lord of Riots.jpg in file batch e88865535d"
-WLX-097,Rampant Growth,Will,,,special,,,,,,official,cd8d5327-ab90-5216-afe4-ca692db95ba8,WLX-097.jpg,Imported from will/Rampant Growth.jpg in file batch e88865535d
-WLX-099,Renewed Solidarity,Will,,,special,,,,,,official,b97e2b01-4a5e-545e-96b1-56664e0e36b8,WLX-099.jpg,Imported from will/Renewed Solidarity.jpg in file batch e88865535d
-WLX-100,Return of the Wildspeaker,Will,,,special,,,,,,official,4ffa2def-d05a-5171-b061-b306966450ef,WLX-100.jpg,Imported from will/Return of the Wildspeaker.jpg in file batch e88865535d
-WLX-101,"Rex, Cyber-Hound",Will,,,special,,,,,,official,09555d08-199c-5909-96cf-757d56a1a894,WLX-101.jpg,"Imported from will/Rex, Cyber-Hound.jpg in file batch e88865535d"
-WLX-102,Ripples of Undeath,Will,,,special,,,,,,official,468fe768-3049-5f51-801c-6fb84a82e434,WLX-102.jpg,Imported from will/Ripples of Undeath.jpg in file batch e88865535d
-WLX-103,Risen Reef,Will,,,special,,,,,,official,971b12bc-b572-5820-8d02-0ccf03cc44d1,WLX-103.jpg,Imported from will/Risen Reef.jpg in file batch e88865535d
-WLX-104,Roiling Vortex,Will,,,special,,,,,,official,03b2cc1d-96b1-5d93-84b6-f59836af1bf5,WLX-104.jpg,Imported from will/Roiling Vortex.jpg in file batch e88865535d
-WLX-105,Rotting Regisaur,Will,,,special,,,,,,official,9adabe42-d42b-56ba-8145-8d54a30a25c9,WLX-105.jpg,Imported from will/Rotting Regisaur.jpg in file batch e88865535d
-WLX-106,Rug of Smothering,Will,,,special,,,,,,official,31082f7e-bb34-53d2-9470-715cdde2a9a0,WLX-106.jpg,Imported from will/Rug of Smothering.jpg in file batch e88865535d
-WLX-107,Sawhorn Nemesis,Will,,,special,,,,,,official,577ae408-e88c-5d9a-b2a7-4ca03f4f42de,WLX-107.jpg,Imported from will/Sawhorn Nemesis.jpg in file batch e88865535d
-WLX-108,"Etali, Primal Conqueror // Etali, Primal Sickness",Will,,,special,,,,,,official_double_faced,5cc6c1fd-ad6b-5707-8135-5f3210657325,WLX-108-front.jpg | WLX-108-back.jpg,Imported paired face images in file batch e88865535d
-WLX-109,Scion of Calamity,Will,,,special,,,,,,official,831067cb-33c5-5457-8cd1-fe2f6cf1d11b,WLX-109.jpg,Imported from will/Scion of Calamity.jpg in file batch a7207394f9
-WLX-110,"Selvala, Heart of the Wilds",Will,,,special,,,,,,official,bcbd667e-bf58-5681-94cf-4de9415b5d9c,WLX-110.jpg,"Imported from will/Selvala, Heart of the Wilds.jpg in file batch a7207394f9"
-WLX-111,Shadowgrange Archfiend,Will,,,special,,,,,,official,72beb555-48b2-5e39-a173-4392df28a4eb,WLX-111.jpg,Imported from will/Shadowgrange Archfiend.jpg in file batch a7207394f9
-WLX-112,Sign in Blood,Will,,,special,,,,,,official,48932781-9315-560a-9bbb-4ddb4fc96b92,WLX-112.jpg,Imported from will/Sign in Blood.jpg in file batch a7207394f9
-WLX-113,Skull Storm,Will,,,special,,,,,,official,95e98a94-adb8-5870-ab38-baa7da540048,WLX-113.jpg,Imported from will/Skull Storm.jpg in file batch a7207394f9
-WLX-114,Sneak Attack,Will,,,special,,,,,,official,7da8f0ff-dc9f-5db4-96d0-d825d4c2007d,WLX-114.jpg,Imported from will/Sneak Attack.jpg in file batch a7207394f9
-WLX-115,Soldevi Adnate,Will,,,special,,,,,,official,6e0f22c8-0046-5944-8a94-64a790aba183,WLX-115.jpg,Imported from will/Soldevi Adnate.jpg in file batch a7207394f9
-WLX-116,"Solphim, Mayhem Dominus",Will,,,special,,,,,,official,088e3e7d-1a0b-5ca8-ac90-a59033f00021,WLX-116.jpg,"Imported from will/Solphim, Mayhem Dominus.jpg in file batch a7207394f9"
-WLX-117,Songs of the Damned,Will,,,special,,,,,,official,29250f84-615a-5e25-814f-301a67e3d0bf,WLX-117.jpg,Imported from will/Songs of the Damned.jpg in file batch a7207394f9
-WLX-118,Spiteful Visions,Will,,,special,,,,,,official,54588855-d49c-5382-b48f-f9490566d40b,WLX-118.jpg,Imported from will/Spiteful Visions.jpg in file batch a7207394f9
-WLX-119,Star Athlete,Will,,,special,,,,,,official,557a64d0-b5a3-56cc-aa65-e0a99f3fb01e,WLX-119.jpg,Imported from will/Star Athlete.jpg in file batch a7207394f9
-WLX-120,Stormfist Crusader,Will,,,special,,,,,,official,a39ba1b9-c840-5fcb-b949-ccb98bcccf0b,WLX-120.jpg,Imported from will/Stormfist Crusader.jpg in file batch a7207394f9
-WLX-121,Sundial of the Infinite,Will,,,special,,,,,,official,3a207b04-a6fd-588b-a74b-c92a907421fd,WLX-121.jpg,Imported from will/Sundial of the Infinite.jpg in file batch a7207394f9
-WLX-122,Suspended Sentence,Will,,,special,,,,,,official,7658cc5f-fd63-56bd-8596-5904d40d776b,WLX-122.jpg,Imported from will/Suspended Sentence.jpg in file batch a7207394f9
-WLX-123,Talisman of Indulgence,Will,,,special,,,,,,official,4ce74e2f-414e-5435-9534-5760e9c80db5,WLX-123.jpg,Imported from will/Talisman of Indulgence.jpg in file batch a7207394f9
-WLX-124,Temple Altisaur,Will,,,special,,,,,,official,396fe8d7-a4d4-578e-b179-8c3c9b18b0c7,WLX-124.jpg,Imported from will/Temple Altisaur.jpg in file batch a7207394f9
-WLX-125,Teval's Judgment,Will,,,special,,,,,,official,f8714545-a33d-5e9b-a783-e19aeebbb0cd,WLX-125.jpg,Imported from will/Teval's Judgment.jpg in file batch a7207394f9
-WLX-126,The Great Henge,Will,,,special,,,,,,official,3213f7f0-673a-5a65-9e07-9569a411ac89,WLX-126.jpg,Imported from will/The Great Henge.jpg in file batch a7207394f9
-WLX-127,The Meathook Massacre,Will,,,special,,,,,,official,cafd6ac2-33eb-549d-8089-80edf9371242,WLX-127.jpg,Imported from will/The Meathook Massacre.jpg in file batch a7207394f9
-WLX-128,Thought Vessel,Will,,,special,,,,,,official,7ca2838a-7cb1-5faa-9a06-033192490d18,WLX-128.jpg,Imported from will/Thought Vessel.jpg in file batch a7207394f9
-WLX-129,Three Visits,Will,,,special,,,,,,official,37ae3ec8-18e5-51ec-a987-01cba1fd34b6,WLX-129.jpg,Imported from will/Three Visits.jpg in file batch a7207394f9
-WLX-130,Timeless Lotus,Will,,,special,,,,,,official,3613bec9-545c-5f39-9d7d-b02f28ca388d,WLX-130.jpg,Imported from will/Timeless Lotus.jpg in file batch a7207394f9
-WLX-131,"Torbran, Thane of Red Fell",Will,,,special,,,,,,official,c82c6bf9-440d-5049-85df-bc6426693aeb,WLX-131.jpg,"Imported from will/Torbran, Thane of Red Fell.jpg in file batch a7207394f9"
-WLX-132,Umbral Collar Zealot,Will,,,special,,,,,,official,a735e69b-f9ae-5bd2-a773-ca21d4e78aa5,WLX-132.jpg,Imported from will/Umbral Collar Zealot.jpg in file batch a7207394f9
-WLX-133,"Valgavoth, Terror Eater",Will,,,special,,,,,,official,18e0dd50-06b6-5eae-9abd-7f7fb27bdfca,WLX-133.jpg,"Imported from will/Valgavoth, Terror Eater.jpg in file batch a7207394f9"
-WLX-134,Vile Entomber,Will,,,special,,,,,,official,f0d4e14d-2ab4-596c-b99f-47276b25f754,WLX-134.jpg,Imported from will/Vile Entomber.jpg in file batch a7207394f9
-WLX-135,Warstorm Surge,Will,,,special,,,,,,official,9d926a49-75e8-54d2-85f4-872bbdc7c2c9,WLX-135.jpg,Imported from will/Warstorm Surge.jpg in file batch a7207394f9
-WLX-136,Whip of Erebos,Will,,,special,,,,,,official,7381320b-ccc5-5cc6-9d28-5a269fce6a3c,WLX-136.jpg,Imported from will/Whip of Erebos.jpg in file batch a7207394f9
-WLX-137,Wrathful Raptors,Will,,,special,,,,,,official,aef21de6-606a-584a-bcee-7c0e1ce82fa1,WLX-137.jpg,Imported from will/Wrathful Raptors.jpg in file batch a7207394f9
-WLX-138,Yurlok of Scorch Thrash,Will,,,special,,,,,,official,52248ee2-127b-5eb4-87b3-432b24b685ee,WLX-138.jpg,Imported from will/Yurlok of Scorch Thrash.jpg in file batch a7207394f9
-WLX-139,Zero Point Ballad,Will,,,special,,,,,,official,bc7e50cf-d4c2-54fe-a470-36e43a53792b,WLX-139.jpg,Imported from will/Zero Point Ballad.jpg in file batch a7207394f9
-WLX-140,Avatar Token,Will,,,special,,,,,,official_token,1b2d65b7-11d5-5c54-9ac9-dcd010619788,WLX-140.png,Imported from will/TOKEN - Awaken the Blood Avatar.png in file batch a7207394f9
+﻿current_collector,card_name,current_owner,CHANGE_owner_to,CHANGE_collector_to,current_front_art,CHANGE_front_art_to,current_back_art,CHANGE_back_art_to,art_upload_folder,current_rarity,CHANGE_rarity_to,current_front_title,CHANGE_front_title_to,current_back_title,CHANGE_back_title_to,card_kind,printing_uuid,notes
+WLX-001,Angel of Vitality,Alex,,,WLX-001.png,,,,imports/replacements/alex/,rare,,"Alex, Divine Priest",,,,official,f6a9cc3e-beac-5fac-84aa-ca36b34d7d10,Original verified WLX printing; UUID preserved from the working v1 release
+WLX-002,Wedding Ring,Alex,,,WLX-002.png,,,,imports/replacements/alex/,special,,,,,,official,b7ed3e04-2245-5304-a933-8ce3975f0a58,Submitted by @seventyfourpandas-cyber through issue #1
+WLX-006,Ghoulcaller Gisa,Will,,,WLX-006.jpg,,,,imports/replacements/will/,special,,,,,,official,ed2476c2-c159-59e3-8153-d96a2bcae779,Submitted by @WillPower-exe through issue #9
+WLX-007,"Extus, Oriq Overlord // Awaken the Blood Avatar",Will,,,WLX-007-front.jpg,,WLX-007-back.jpg,,imports/replacements/will/,special,,,,,,official_double_faced,aa42d7ed-2f5c-521b-bd3a-84a39a40bd38,Submitted by @WillPower-exe through issue #10
+WLX-008,Invasion of Tolvada // The Broken Sky,Will,,,WLX-008-front.jpg,,WLX-008-back.jpg,,imports/replacements/will/,special,,,,,,official_double_faced,2e847228-b8a4-5e0c-b14c-bc6699af72b9,Submitted by @WillPower-exe through issue #11
+WLX-010,"Armaggon, Future Shark",Will,,,WLX-010.jpg,,,,imports/replacements/will/,special,,,,,,official,0284d1b8-7535-5b6e-9898-ff2da5a9bd83,Submitted by @WillPower-exe through issue #17
+WLX-011,Breach the Multiverse,Will,,,WLX-011.jpg,,,,imports/replacements/will/,special,,,,,,official,851a2ffc-3165-5aae-a2f5-15f25ad75846,Submitted by @WillPower-exe through issue #21
+WLX-013,Eriette of the Charmed Apple,Alex,,,WLX-013.jpg,,,,imports/replacements/alex/,special,,,,,,official,e01bf7bf-20c5-550f-a790-9c142c3c75d3,Submitted by @WillPower-exe through issue #28
+WLX-014,"Animar, Soul of Elements",Will,,,WLX-014.jpg,,,,imports/replacements/will/,special,,,,,,official,cd3b0d09-97da-58f5-be31-cc16e24cc2b9,"Imported from will/Animar, Soul of Elements.jpg in file batch e88865535d"
+WLX-015,Animate Dead,Will,,,WLX-015.jpg,,,,imports/replacements/will/,special,,,,,,official,e1a30784-a860-599e-9de3-c93187f601eb,Imported from will/Animate Dead.jpg in file batch e88865535d
+WLX-016,Annie Joins Up,Will,,,WLX-016.jpg,,,,imports/replacements/will/,special,,,,,,official,588bd25c-b252-5129-9826-b7c95f21ab74,Imported from will/Annie Joins Up.jpg in file batch e88865535d
+WLX-017,Apex Altisaur,Will,,,WLX-017.jpg,,,,imports/replacements/will/,special,,,,,,official,2d3b8ce8-64d6-51f4-8b58-89423368101f,Imported from will/Apex Altisaur.jpg in file batch e88865535d
+WLX-018,Archfiend of Despair,Will,,,WLX-018.jpg,,,,imports/replacements/will/,special,,,,,,official,b1bb9fd4-1b93-53a0-ac4b-69adff6e4ec2,Imported from will/Archfiend of Despair.jpg in file batch e88865535d
+WLX-019,Aura Shards,Will,,,WLX-019.jpg,,,,imports/replacements/will/,special,,,,,,official,5b3ae90a-7589-5031-873b-9cbb0050bf0e,Imported from will/Aura Shards.jpg in file batch e88865535d
+WLX-020,Avatar's Wrath,Will,,,WLX-020.jpg,,,,imports/replacements/will/,special,,,,,,official,5d7c2ba4-4cdf-58c5-874f-b1127413b18b,Imported from will/Avatar's Wrath.jpg in file batch e88865535d
+WLX-021,Avenger of Zendikar,Will,,,WLX-021.jpg,,,,imports/replacements/will/,special,,,,,,official,ec271222-ee5e-5f8b-ba3b-78fe0d06de0e,Imported from will/Avenger of Zendikar.jpg in file batch e88865535d
+WLX-022,Barbflare Gremlin,Will,,,WLX-022.jpg,,,,imports/replacements/will/,special,,,,,,official,6ff1130e-f69f-538c-9976-7f8247ecb1af,Imported from will/Barbflare Gremlin.jpg in file batch e88865535d
+WLX-023,Bastion of Remembrance,Will,,,WLX-023.jpg,,,,imports/replacements/will/,special,,,,,,official,a0e73ad7-e7c0-598a-8677-ef4ff46ffaa8,Imported from will/Bastion of Remembrance.jpg in file batch e88865535d
+WLX-024,Blood Pact,Will,,,WLX-024.jpg,,,,imports/replacements/will/,special,,,,,,official,b642868e-32a6-546c-bb30-fff43280e472,Imported from will/Blood Pact.jpg in file batch e88865535d
+WLX-025,Bog Witch,Will,,,WLX-025.jpg,,,,imports/replacements/will/,special,,,,,,official,fc7c0b6b-1d88-5359-a419-8068b8b92800,Imported from will/Bog Witch.jpg in file batch e88865535d
+WLX-026,Bone Shards,Will,,,WLX-026.jpg,,,,imports/replacements/will/,special,,,,,,official,753c5f8c-3744-52fa-a3f5-307905377eb4,Imported from will/Bone Shards.jpg in file batch e88865535d
+WLX-027,Bonehoard Dracosaur,Will,,,WLX-027.jpg,,,,imports/replacements/will/,special,,,,,,official,66e2a218-bb70-5306-8970-7ed1dd74feeb,Imported from will/Bonehoard Dracosaur.jpg in file batch e88865535d
+WLX-028,Brighthearth Banneret,Will,,,WLX-028.jpg,,,,imports/replacements/will/,special,,,,,,official,46dc17a2-6135-5019-9666-4d6336f1fff1,Imported from will/Brighthearth Banneret.jpg in file batch e88865535d
+WLX-029,Cavalier of Gales,Will,,,WLX-029.jpg,,,,imports/replacements/will/,special,,,,,,official,76eb831f-abdd-5c4b-9cde-3ffe09f67775,Imported from will/Cavalier of Gales.jpg in file batch e88865535d
+WLX-030,Cavalier of Thorns,Will,,,WLX-030.jpg,,,,imports/replacements/will/,special,,,,,,official,451ac372-ef90-5c39-ab1e-b2ff03fb5fc1,Imported from will/Cavalier of Thorns.jpg in file batch e88865535d
+WLX-031,Champion of the Path,Will,,,WLX-031.jpg,,,,imports/replacements/will/,special,,,,,,official,0335069f-1e3e-5841-95e3-91f82cbc2d24,Imported from will/Champion of the Path.jpg in file batch e88865535d
+WLX-032,Chaos Warp,Will,,,WLX-032.jpg,,,,imports/replacements/will/,special,,,,,,official,b95e58ad-77c6-5081-8769-051f99ccdcdb,Imported from will/Chaos Warp.jpg in file batch e88865535d
+WLX-033,Codex Shredder,Will,,,WLX-033.jpg,,,,imports/replacements/will/,special,,,,,,official,000a7fbe-f6f0-5c67-9691-b09ac86b7ab2,Imported from will/Codex Shredder.jpg in file batch e88865535d
+WLX-034,Colossus of Akros,Will,,,WLX-034.jpg,,,,imports/replacements/will/,special,,,,,,official,2017aa0c-a126-5e0a-9d59-171556e45c25,Imported from will/Colossus of Akros.jpg in file batch e88865535d
+WLX-035,Corpses of the Lost,Will,,,WLX-035.jpg,,,,imports/replacements/will/,special,,,,,,official,2ab69787-322a-5f00-a975-7586abae86dd,Imported from will/Corpses of the Lost.jpg in file batch e88865535d
+WLX-036,Cream of the Crop,Will,,,WLX-036.jpg,,,,imports/replacements/will/,special,,,,,,official,b655d0c8-8752-5e69-9f86-8d9cdcb9e7e9,Imported from will/Cream of the Crop.jpg in file batch e88865535d
+WLX-037,Disciple of Bolas,Will,,,WLX-037.jpg,,,,imports/replacements/will/,special,,,,,,official,4d772581-260c-5b6f-8f6e-d8210fbfda7e,Imported from will/Disciple of Bolas.jpg in file batch e88865535d
+WLX-038,"Doc Aurlock, Grizzled Genius",Will,,,WLX-038.png,,,,imports/replacements/will/,special,,,,,,official,978b4871-2f10-5d95-acee-98eec41b8980,"Imported from will/Doc Aurlock, Grizzled Genius.png in file batch e88865535d"
+WLX-039,Eerie Interlude,Will,,,WLX-039.jpg,,,,imports/replacements/will/,special,,,,,,official,7f148816-bf2a-5e6c-86e6-e00b4a6bba7e,Imported from will/Eerie Interlude.jpg in file batch e88865535d
+WLX-040,Eladamri's Call,Will,,,WLX-040.jpg,,,,imports/replacements/will/,special,,,,,,official,bc297dc0-1071-51dc-8212-3df2a776ee32,Imported from will/Eladamri's Call.jpg in file batch e88865535d
+WLX-041,Elemental Bond,Will,,,WLX-041.jpg,,,,imports/replacements/will/,special,,,,,,official,ea387e1c-9582-58f2-a700-b4622437107b,Imported from will/Elemental Bond.jpg in file batch e88865535d
+WLX-042,Esper Sentinel,Will,,,WLX-042.jpg,,,,imports/replacements/will/,special,,,,,,official,092c2575-f71d-5c32-ba19-c1de6a9c855f,Imported from will/Esper Sentinel.jpg in file batch e88865535d
+WLX-043,Everybody Lives!,Will,,,WLX-043.jpg,,,,imports/replacements/will/,special,,,,,,official,6677cab8-a8e9-5681-8cf8-661871813610,Imported from will/Everybody Lives!.jpg in file batch e88865535d
+WLX-044,Faeburrow Elder,Will,,,WLX-044.jpg,,,,imports/replacements/will/,special,,,,,,official,14f7f6f3-5a7a-5299-9401-91351aab55f5,Imported from will/Faeburrow Elder.jpg in file batch e88865535d
+WLX-045,Fanatic of Rhonas,Will,,,WLX-045.jpg,,,,imports/replacements/will/,special,,,,,,official,1701259c-f284-549b-82be-28173e805087,Imported from will/Fanatic of Rhonas.jpg in file batch e88865535d
+WLX-046,Far Traveler,Will,,,WLX-046.jpg,,,,imports/replacements/will/,special,,,,,,official,5b696be6-269d-58da-af6c-8c25a721ddaf,Imported from will/Far Traveler.jpg in file batch e88865535d
+WLX-047,Fate Unraveler,Will,,,WLX-047.jpg,,,,imports/replacements/will/,special,,,,,,official,b8daceae-a60b-5a42-a9de-82e10f843f72,Imported from will/Fate Unraveler.jpg in file batch e88865535d
+WLX-048,Fellwar Stone,Will,,,WLX-048.jpg,,,,imports/replacements/will/,special,,,,,,official,144cc22a-c717-5a8e-adf6-c5d3840fab62,Imported from will/Fellwar Stone.jpg in file batch e88865535d
+WLX-049,Flamebraider,Will,,,WLX-049.jpg,,,,imports/replacements/will/,special,,,,,,official,616bc982-15b9-53c2-a282-d6f707614aa2,Imported from will/Flamebraider.jpg in file batch e88865535d
+WLX-050,Flamekin Harbinger,Will,,,WLX-050.jpg,,,,imports/replacements/will/,special,,,,,,official,2070fbf2-49d6-5195-8a31-b13801fb88bf,Imported from will/Flamekin Harbinger.jpg in file batch e88865535d
+WLX-051,Fog,Will,,,WLX-051.jpg,,,,imports/replacements/will/,special,,,,,,official,a583faa6-1a11-5b52-a4fe-99be1b4bb081,Imported from will/Fog.jpg in file batch e88865535d
+WLX-052,Forerunner of the Empire,Will,,,WLX-052.jpg,,,,imports/replacements/will/,special,,,,,,official,e97dae0c-ca31-5f03-8daf-d6bd6db09af1,Imported from will/Forerunner of the Empire.jpg in file batch e88865535d
+WLX-053,Foundation Breaker,Will,,,WLX-053.jpg,,,,imports/replacements/will/,special,,,,,,official,6280c507-c9df-5a1f-8d5b-9aba3218d059,Imported from will/Foundation Breaker.jpg in file batch e88865535d
+WLX-054,Fury Storm,Will,,,WLX-054.jpg,,,,imports/replacements/will/,special,,,,,,official,43ae2ed9-3c33-51b4-ade2-5e4e8325bed0,Imported from will/Fury Storm.jpg in file batch e88865535d
+WLX-055,"Garnet, Princess of Alexandria",Will,,,WLX-055.jpg,,,,imports/replacements/will/,special,,,,,,official,7070b163-d2ee-5dac-8eed-f9956a69ef0a,"Imported from will/Garnet, Princess of Alexandria.jpg in file batch e88865535d"
+WLX-056,Ghostfire Slice,Will,,,WLX-056.jpg,,,,imports/replacements/will/,special,,,,,,official,9c6ab1e3-ba45-5fc2-b73c-9cb63b24fe4f,Imported from will/Ghostfire Slice.jpg in file batch e88865535d
+WLX-057,"Ghyrson Starn, Kelermorph",Will,,,WLX-057.jpg,,,,imports/replacements/will/,special,,,,,,official,c4e7832a-1859-5ee9-a17b-639fea1fb08c,"Imported from will/Ghyrson Starn, Kelermorph.jpg in file batch e88865535d"
+WLX-058,Gleeful Arsonist,Will,,,WLX-058.jpg,,,,imports/replacements/will/,special,,,,,,official,614cc94a-c024-5782-974b-bb09dc1cb17c,Imported from will/Gleeful Arsonist.jpg in file batch e88865535d
+WLX-059,Grave Sifter,Will,,,WLX-059.jpg,,,,imports/replacements/will/,special,,,,,,official,dea95354-aa40-5c12-a3e6-58b08b5413f7,Imported from will/Grave Sifter.jpg in file batch e88865535d
+WLX-060,Greenwarden of Murasa,Will,,,WLX-060.jpg,,,,imports/replacements/will/,special,,,,,,official,3526a2e2-a5a9-5dba-b6a3-2c06865e6fa2,Imported from will/Greenwarden of Murasa.jpg in file batch e88865535d
+WLX-061,Harsh Mentor,Will,,,WLX-061.jpg,,,,imports/replacements/will/,special,,,,,,official,be0db812-1b44-5561-9922-7a9f224fb268,Imported from will/Harsh Mentor.jpg in file batch e88865535d
+WLX-062,High Perfect Morcant,Will,,,WLX-062.jpg,,,,imports/replacements/will/,special,,,,,,official,06d29152-c0f5-5309-be2a-cae3fcf16349,Imported from will/High Perfect Morcant.jpg in file batch e88865535d
+WLX-063,Hulking Raptor,Will,,,WLX-063.jpg,,,,imports/replacements/will/,special,,,,,,official,2fc761a1-39ea-5dcc-8d2b-73e6396a958c,Imported from will/Hulking Raptor.jpg in file batch e88865535d
+WLX-064,Illuminor Szeras,Will,,,WLX-064.jpg,,,,imports/replacements/will/,special,,,,,,official,e456c526-5ad3-58ed-9fb0-92205006345c,Imported from will/Illuminor Szeras.jpg in file batch e88865535d
+WLX-065,Incandescent Soulstoke,Will,,,WLX-065.jpg,,,,imports/replacements/will/,special,,,,,,official,fb081480-9bfe-5634-b844-c19ad837aab0,Imported from will/Incandescent Soulstoke.jpg in file batch e88865535d
+WLX-066,Ingot Chewer,Will,,,WLX-066.jpg,,,,imports/replacements/will/,special,,,,,,official,4e95ce46-e64d-5f57-a02f-13bb86b7f466,Imported from will/Ingot Chewer.jpg in file batch e88865535d
+WLX-067,"Kardur, Doomscourge",Will,,,WLX-067.jpg,,,,imports/replacements/will/,special,,,,,,official,4bbaf1b3-df61-5ff6-ac6d-15388e6277b2,"Imported from will/Kardur, Doomscourge.jpg in file batch e88865535d"
+WLX-068,Kederekt Parasite,Will,,,WLX-068.jpg,,,,imports/replacements/will/,special,,,,,,official,9a591606-7ab0-58a5-8277-d5d2acd9d2b5,Imported from will/Kederekt Parasite.jpg in file batch e88865535d
+WLX-069,Lae'zel's Acrobatics,Will,,,WLX-069.jpg,,,,imports/replacements/will/,special,,,,,,official,d1fa16b2-9aea-5e06-a12e-0e69d7ae8a03,Imported from will/Lae'zel's Acrobatics.jpg in file batch e88865535d
+WLX-070,Lavaspur Boots,Will,,,WLX-070.jpg,,,,imports/replacements/will/,special,,,,,,official,7164d953-2749-5d27-afc9-efe188d87515,Imported from will/Lavaspur Boots.jpg in file batch e88865535d
+WLX-071,Library of Leng,Will,,,WLX-071.jpg,,,,imports/replacements/will/,special,,,,,,official,d8f4bece-b2a4-52a3-9cee-fa3d4e6cc66c,Imported from will/Library of Leng.jpg in file batch e88865535d
+WLX-072,Lurking Predators,Will,,,WLX-072.jpg,,,,imports/replacements/will/,special,,,,,,official,b4ac4c7c-c4cd-5c9e-af56-5084a856ffff,Imported from will/Lurking Predators.jpg in file batch e88865535d
+WLX-073,Maelstrom Wanderer,Will,,,WLX-073.jpg,,,,imports/replacements/will/,special,,,,,,official,532b91f7-c827-52fd-acba-31fc045fa15d,Imported from will/Maelstrom Wanderer.jpg in file batch e88865535d
+WLX-074,Manabarbs,Will,,,WLX-074.jpg,,,,imports/replacements/will/,special,,,,,,official,562feb31-35f9-5754-9605-17216e91af33,Imported from will/Manabarbs.jpg in file batch e88865535d
+WLX-075,Mayhem Devil,Will,,,WLX-075.jpg,,,,imports/replacements/will/,special,,,,,,official,5e8057a1-46e7-578d-bffb-909ea8867986,Imported from will/Mayhem Devil.jpg in file batch e88865535d
+WLX-076,Mind Stone,Will,,,WLX-076.jpg,,,,imports/replacements/will/,special,,,,,,official,3e63f6c6-5050-5ed3-b89d-ba8045858fc4,Imported from will/Mind Stone.jpg in file batch e88865535d
+WLX-077,Molten Echoes,Will,,,WLX-077.jpg,,,,imports/replacements/will/,special,,,,,,official,e9c32b86-c386-5627-ad5b-9b5d5cd5b487,Imported from will/Molten Echoes.jpg in file batch e88865535d
+WLX-078,Monstrous Vortex,Will,,,WLX-078.jpg,,,,imports/replacements/will/,special,,,,,,official,25fbfd94-6bbd-5a44-b45e-9d3033e2a2c3,Imported from will/Monstrous Vortex.jpg in file batch e88865535d
+WLX-079,Nightshade Harvester,Will,,,WLX-079.jpg,,,,imports/replacements/will/,special,,,,,,official,764c3846-a2a8-530e-89ac-86d5fffa6759,Imported from will/Nightshade Harvester.jpg in file batch e88865535d
+WLX-080,Oath of Lieges,Will,,,WLX-080.jpg,,,,imports/replacements/will/,special,,,,,,official,9bfb3042-209d-5e9b-a75e-92c3698eead4,Imported from will/Oath of Lieges.jpg in file batch e88865535d
+WLX-081,"Omnath, Locus of Rage",Will,,,WLX-081.jpg,,,,imports/replacements/will/,special,,,,,,official,c099b5a8-a680-5561-ba9e-5f6e0772e4ba,"Imported from will/Omnath, Locus of Rage.jpg in file batch e88865535d"
+WLX-082,"Omnath, Locus of the Roil",Will,,,WLX-082.jpg,,,,imports/replacements/will/,special,,,,,,official,0f59ac3d-d64b-5b02-8fb6-135bf7972988,"Imported from will/Omnath, Locus of the Roil.jpg in file batch e88865535d"
+WLX-083,Otepec Huntmaster,Will,,,WLX-083.jpg,,,,imports/replacements/will/,special,,,,,,official,9dcc54d5-cc34-51c4-9a5e-195d36d93fd1,Imported from will/Otepec Huntmaster.jpg in file batch e88865535d
+WLX-084,Overgrowth Elemental,Will,,,WLX-084.jpg,,,,imports/replacements/will/,special,,,,,,official,bccf757f-2eab-52a9-9557-992563804a18,Imported from will/Overgrowth Elemental.jpg in file batch e88865535d
+WLX-085,Painful Quandary,Will,,,WLX-085.jpg,,,,imports/replacements/will/,special,,,,,,official,c3182a5b-9f67-5482-b479-b4a264147eb4,Imported from will/Painful Quandary.jpg in file batch e88865535d
+WLX-086,"Pantlaza, Sun-Favored",Will,,,WLX-086.jpg,,,,imports/replacements/will/,special,,,,,,official,74c5e994-be9c-58f7-baff-c25feaaf6b7c,"Imported from will/Pantlaza, Sun-Favored.jpg in file batch e88865535d"
+WLX-087,Persistent Constrictor,Will,,,WLX-087.jpg,,,,imports/replacements/will/,special,,,,,,official,cb93f0b3-0b8c-5483-bb99-cdddaecc7e7e,Imported from will/Persistent Constrictor.jpg in file batch e88865535d
+WLX-089,Phyrexian Triniform,Will,,,WLX-089.jpg,,,,imports/replacements/will/,special,,,,,,official,5e5ab8a4-d9d7-5b8e-8e8d-63b7869f1034,Imported from will/Phyrexian Triniform.jpg in file batch e88865535d
+WLX-090,"Plagon, Lord of the Beach",Will,,,WLX-090.jpg,,,,imports/replacements/will/,special,,,,,,official,7ff767ae-38de-5440-96b6-eb9c22a31fd3,"Imported from will/Plagon, Lord of the Beach.jpg in file batch e88865535d"
+WLX-091,Pyre of Heroes,Will,,,WLX-091.jpg,,,,imports/replacements/will/,special,,,,,,official,97c1f95e-da60-5876-84e8-a8db9ee8d115,Imported from will/Pyre of Heroes.jpg in file batch e88865535d
+WLX-093,Railway Brawler,Will,,,WLX-093.jpg,,,,imports/replacements/will/,special,,,,,,official,8e571301-ea33-57b8-957d-1a780fa47d1c,Imported from will/Railway Brawler.jpg in file batch e88865535d
+WLX-094,Rakdos Charm,Will,,,WLX-094.jpg,,,,imports/replacements/will/,special,,,,,,official,ada2d526-a6f3-598f-ac5e-ff15395821a6,Imported from will/Rakdos Charm.jpg in file batch e88865535d
+WLX-095,Rakdos Signet,Will,,,WLX-095.jpg,,,,imports/replacements/will/,special,,,,,,official,38f78c4d-2c8c-5e36-8895-3ca89c6b10a2,Imported from will/Rakdos Signet.jpg in file batch e88865535d
+WLX-096,"Rakdos, Lord of Riots",Will,,,WLX-096.jpg,,,,imports/replacements/will/,special,,,,,,official,fa5a1535-e401-53d8-9f21-7f685735a812,"Imported from will/Rakdos, Lord of Riots.jpg in file batch e88865535d"
+WLX-097,Rampant Growth,Will,,,WLX-097.jpg,,,,imports/replacements/will/,special,,,,,,official,cd8d5327-ab90-5216-afe4-ca692db95ba8,Imported from will/Rampant Growth.jpg in file batch e88865535d
+WLX-099,Renewed Solidarity,Will,,,WLX-099.jpg,,,,imports/replacements/will/,special,,,,,,official,b97e2b01-4a5e-545e-96b1-56664e0e36b8,Imported from will/Renewed Solidarity.jpg in file batch e88865535d
+WLX-100,Return of the Wildspeaker,Will,,,WLX-100.jpg,,,,imports/replacements/will/,special,,,,,,official,4ffa2def-d05a-5171-b061-b306966450ef,Imported from will/Return of the Wildspeaker.jpg in file batch e88865535d
+WLX-101,"Rex, Cyber-Hound",Will,,,WLX-101.jpg,,,,imports/replacements/will/,special,,,,,,official,09555d08-199c-5909-96cf-757d56a1a894,"Imported from will/Rex, Cyber-Hound.jpg in file batch e88865535d"
+WLX-102,Ripples of Undeath,Will,,,WLX-102.jpg,,,,imports/replacements/will/,special,,,,,,official,468fe768-3049-5f51-801c-6fb84a82e434,Imported from will/Ripples of Undeath.jpg in file batch e88865535d
+WLX-103,Risen Reef,Will,,,WLX-103.jpg,,,,imports/replacements/will/,special,,,,,,official,971b12bc-b572-5820-8d02-0ccf03cc44d1,Imported from will/Risen Reef.jpg in file batch e88865535d
+WLX-104,Roiling Vortex,Will,,,WLX-104.jpg,,,,imports/replacements/will/,special,,,,,,official,03b2cc1d-96b1-5d93-84b6-f59836af1bf5,Imported from will/Roiling Vortex.jpg in file batch e88865535d
+WLX-105,Rotting Regisaur,Will,,,WLX-105.jpg,,,,imports/replacements/will/,special,,,,,,official,9adabe42-d42b-56ba-8145-8d54a30a25c9,Imported from will/Rotting Regisaur.jpg in file batch e88865535d
+WLX-106,Rug of Smothering,Will,,,WLX-106.jpg,,,,imports/replacements/will/,special,,,,,,official,31082f7e-bb34-53d2-9470-715cdde2a9a0,Imported from will/Rug of Smothering.jpg in file batch e88865535d
+WLX-107,Sawhorn Nemesis,Will,,,WLX-107.jpg,,,,imports/replacements/will/,special,,,,,,official,577ae408-e88c-5d9a-b2a7-4ca03f4f42de,Imported from will/Sawhorn Nemesis.jpg in file batch e88865535d
+WLX-108,"Etali, Primal Conqueror // Etali, Primal Sickness",Will,,,WLX-108-front.jpg,,WLX-108-back.jpg,,imports/replacements/will/,special,,,,,,official_double_faced,5cc6c1fd-ad6b-5707-8135-5f3210657325,Imported paired face images in file batch e88865535d
+WLX-109,Scion of Calamity,Will,,,WLX-109.jpg,,,,imports/replacements/will/,special,,,,,,official,831067cb-33c5-5457-8cd1-fe2f6cf1d11b,Imported from will/Scion of Calamity.jpg in file batch a7207394f9
+WLX-110,"Selvala, Heart of the Wilds",Will,,,WLX-110.jpg,,,,imports/replacements/will/,special,,,,,,official,bcbd667e-bf58-5681-94cf-4de9415b5d9c,"Imported from will/Selvala, Heart of the Wilds.jpg in file batch a7207394f9"
+WLX-111,Shadowgrange Archfiend,Will,,,WLX-111.jpg,,,,imports/replacements/will/,special,,,,,,official,72beb555-48b2-5e39-a173-4392df28a4eb,Imported from will/Shadowgrange Archfiend.jpg in file batch a7207394f9
+WLX-112,Sign in Blood,Will,,,WLX-112.jpg,,,,imports/replacements/will/,special,,,,,,official,48932781-9315-560a-9bbb-4ddb4fc96b92,Imported from will/Sign in Blood.jpg in file batch a7207394f9
+WLX-113,Skull Storm,Will,,,WLX-113.jpg,,,,imports/replacements/will/,special,,,,,,official,95e98a94-adb8-5870-ab38-baa7da540048,Imported from will/Skull Storm.jpg in file batch a7207394f9
+WLX-114,Sneak Attack,Will,,,WLX-114.jpg,,,,imports/replacements/will/,special,,,,,,official,7da8f0ff-dc9f-5db4-96d0-d825d4c2007d,Imported from will/Sneak Attack.jpg in file batch a7207394f9
+WLX-115,Soldevi Adnate,Will,,,WLX-115.jpg,,,,imports/replacements/will/,special,,,,,,official,6e0f22c8-0046-5944-8a94-64a790aba183,Imported from will/Soldevi Adnate.jpg in file batch a7207394f9
+WLX-116,"Solphim, Mayhem Dominus",Will,,,WLX-116.jpg,,,,imports/replacements/will/,special,,,,,,official,088e3e7d-1a0b-5ca8-ac90-a59033f00021,"Imported from will/Solphim, Mayhem Dominus.jpg in file batch a7207394f9"
+WLX-117,Songs of the Damned,Will,,,WLX-117.jpg,,,,imports/replacements/will/,special,,,,,,official,29250f84-615a-5e25-814f-301a67e3d0bf,Imported from will/Songs of the Damned.jpg in file batch a7207394f9
+WLX-118,Spiteful Visions,Will,,,WLX-118.jpg,,,,imports/replacements/will/,special,,,,,,official,54588855-d49c-5382-b48f-f9490566d40b,Imported from will/Spiteful Visions.jpg in file batch a7207394f9
+WLX-119,Star Athlete,Will,,,WLX-119.jpg,,,,imports/replacements/will/,special,,,,,,official,557a64d0-b5a3-56cc-aa65-e0a99f3fb01e,Imported from will/Star Athlete.jpg in file batch a7207394f9
+WLX-120,Stormfist Crusader,Will,,,WLX-120.jpg,,,,imports/replacements/will/,special,,,,,,official,a39ba1b9-c840-5fcb-b949-ccb98bcccf0b,Imported from will/Stormfist Crusader.jpg in file batch a7207394f9
+WLX-121,Sundial of the Infinite,Will,,,WLX-121.jpg,,,,imports/replacements/will/,special,,,,,,official,3a207b04-a6fd-588b-a74b-c92a907421fd,Imported from will/Sundial of the Infinite.jpg in file batch a7207394f9
+WLX-122,Suspended Sentence,Will,,,WLX-122.jpg,,,,imports/replacements/will/,special,,,,,,official,7658cc5f-fd63-56bd-8596-5904d40d776b,Imported from will/Suspended Sentence.jpg in file batch a7207394f9
+WLX-123,Talisman of Indulgence,Will,,,WLX-123.jpg,,,,imports/replacements/will/,special,,,,,,official,4ce74e2f-414e-5435-9534-5760e9c80db5,Imported from will/Talisman of Indulgence.jpg in file batch a7207394f9
+WLX-124,Temple Altisaur,Will,,,WLX-124.jpg,,,,imports/replacements/will/,special,,,,,,official,396fe8d7-a4d4-578e-b179-8c3c9b18b0c7,Imported from will/Temple Altisaur.jpg in file batch a7207394f9
+WLX-125,Teval's Judgment,Will,,,WLX-125.jpg,,,,imports/replacements/will/,special,,,,,,official,f8714545-a33d-5e9b-a783-e19aeebbb0cd,Imported from will/Teval's Judgment.jpg in file batch a7207394f9
+WLX-126,The Great Henge,Will,,,WLX-126.jpg,,,,imports/replacements/will/,special,,,,,,official,3213f7f0-673a-5a65-9e07-9569a411ac89,Imported from will/The Great Henge.jpg in file batch a7207394f9
+WLX-127,The Meathook Massacre,Will,,,WLX-127.jpg,,,,imports/replacements/will/,special,,,,,,official,cafd6ac2-33eb-549d-8089-80edf9371242,Imported from will/The Meathook Massacre.jpg in file batch a7207394f9
+WLX-128,Thought Vessel,Will,,,WLX-128.jpg,,,,imports/replacements/will/,special,,,,,,official,7ca2838a-7cb1-5faa-9a06-033192490d18,Imported from will/Thought Vessel.jpg in file batch a7207394f9
+WLX-129,Three Visits,Will,,,WLX-129.jpg,,,,imports/replacements/will/,special,,,,,,official,37ae3ec8-18e5-51ec-a987-01cba1fd34b6,Imported from will/Three Visits.jpg in file batch a7207394f9
+WLX-130,Timeless Lotus,Will,,,WLX-130.jpg,,,,imports/replacements/will/,special,,,,,,official,3613bec9-545c-5f39-9d7d-b02f28ca388d,Imported from will/Timeless Lotus.jpg in file batch a7207394f9
+WLX-131,"Torbran, Thane of Red Fell",Will,,,WLX-131.jpg,,,,imports/replacements/will/,special,,,,,,official,c82c6bf9-440d-5049-85df-bc6426693aeb,"Imported from will/Torbran, Thane of Red Fell.jpg in file batch a7207394f9"
+WLX-132,Umbral Collar Zealot,Will,,,WLX-132.jpg,,,,imports/replacements/will/,special,,,,,,official,a735e69b-f9ae-5bd2-a773-ca21d4e78aa5,Imported from will/Umbral Collar Zealot.jpg in file batch a7207394f9
+WLX-133,"Valgavoth, Terror Eater",Will,,,WLX-133.jpg,,,,imports/replacements/will/,special,,,,,,official,18e0dd50-06b6-5eae-9abd-7f7fb27bdfca,"Imported from will/Valgavoth, Terror Eater.jpg in file batch a7207394f9"
+WLX-134,Vile Entomber,Will,,,WLX-134.jpg,,,,imports/replacements/will/,special,,,,,,official,f0d4e14d-2ab4-596c-b99f-47276b25f754,Imported from will/Vile Entomber.jpg in file batch a7207394f9
+WLX-135,Warstorm Surge,Will,,,WLX-135.jpg,,,,imports/replacements/will/,special,,,,,,official,9d926a49-75e8-54d2-85f4-872bbdc7c2c9,Imported from will/Warstorm Surge.jpg in file batch a7207394f9
+WLX-136,Whip of Erebos,Will,,,WLX-136.jpg,,,,imports/replacements/will/,special,,,,,,official,7381320b-ccc5-5cc6-9d28-5a269fce6a3c,Imported from will/Whip of Erebos.jpg in file batch a7207394f9
+WLX-137,Wrathful Raptors,Will,,,WLX-137.jpg,,,,imports/replacements/will/,special,,,,,,official,aef21de6-606a-584a-bcee-7c0e1ce82fa1,Imported from will/Wrathful Raptors.jpg in file batch a7207394f9
+WLX-138,Yurlok of Scorch Thrash,Will,,,WLX-138.jpg,,,,imports/replacements/will/,special,,,,,,official,52248ee2-127b-5eb4-87b3-432b24b685ee,Imported from will/Yurlok of Scorch Thrash.jpg in file batch a7207394f9
+WLX-139,Zero Point Ballad,Will,,,WLX-139.jpg,,,,imports/replacements/will/,special,,,,,,official,bc7e50cf-d4c2-54fe-a470-36e43a53792b,Imported from will/Zero Point Ballad.jpg in file batch a7207394f9
+WLX-140,Avatar Token,Will,,,WLX-140.png,,,,imports/replacements/will/,special,,,,,,official_token,1b2d65b7-11d5-5c54-9ac9-dcd010619788,Imported from will/TOKEN - Awaken the Blood Avatar.png in file batch a7207394f9

@@ -44,6 +44,7 @@ INSTALLER_SOURCE_RELATIVE = Path("automation") / "installer_source"
 PROJECT_RELATIVE = Path("project.json")
 STATUS_RELATIVE = Path("STATUS.md")
 CARD_MANAGER_RELATIVE = Path("WLX") / "CARD_MANAGER.csv"
+REPLACEMENT_ART_RELATIVE = Path("imports") / "replacements"
 COCKATRICE_TOKEN_DATABASE_URL = (
     "https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml"
 )
@@ -63,6 +64,11 @@ CARD_MANAGER_FIELDS = [
     "current_owner",
     "CHANGE_owner_to",
     "CHANGE_collector_to",
+    "current_front_art",
+    "CHANGE_front_art_to",
+    "current_back_art",
+    "CHANGE_back_art_to",
+    "art_upload_folder",
     "current_rarity",
     "CHANGE_rarity_to",
     "current_front_title",
@@ -71,7 +77,6 @@ CARD_MANAGER_FIELDS = [
     "CHANGE_back_title_to",
     "card_kind",
     "printing_uuid",
-    "source_images",
     "notes",
 ]
 DOUBLE_FACED_LAYOUTS = {
@@ -1341,10 +1346,14 @@ def card_manager_rows(printings: Iterable[ResolvedPrinting]) -> list[dict[str, s
             card_name = " // ".join(item.card_name for item in faces)
             front_title = faces[0].flavor_name
             back_title = faces[1].flavor_name
+            front_art = faces[0].image_file
+            back_art = faces[1].image_file
         else:
             card_name = first.card_name.rstrip()
             front_title = first.flavor_name
             back_title = ""
+            front_art = first.image_file
+            back_art = ""
         rows.append(
             {
                 "current_collector": f"WLX-{first.collector_number}",
@@ -1352,6 +1361,14 @@ def card_manager_rows(printings: Iterable[ResolvedPrinting]) -> list[dict[str, s
                 "current_owner": first.player,
                 "CHANGE_owner_to": "",
                 "CHANGE_collector_to": "",
+                "current_front_art": front_art,
+                "CHANGE_front_art_to": "",
+                "current_back_art": back_art,
+                "CHANGE_back_art_to": "",
+                "art_upload_folder": (
+                    REPLACEMENT_ART_RELATIVE / first.player.casefold()
+                ).as_posix()
+                + "/",
                 "current_rarity": first.rarity,
                 "CHANGE_rarity_to": "",
                 "current_front_title": front_title,
@@ -1360,7 +1377,6 @@ def card_manager_rows(printings: Iterable[ResolvedPrinting]) -> list[dict[str, s
                 "CHANGE_back_title_to": "",
                 "card_kind": first.card_kind,
                 "printing_uuid": first.printing_uuid,
-                "source_images": " | ".join(item.image_file for item in faces),
                 "notes": first.notes,
             }
         )

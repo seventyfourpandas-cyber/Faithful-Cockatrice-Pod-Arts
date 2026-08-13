@@ -40,9 +40,9 @@ Open [`WLX/CARD_MANAGER.csv`](./WLX/CARD_MANAGER.csv) to see one row per
 physical printing. Download it, edit only the blank `CHANGE_` columns, and
 upload it back to the same location in one commit. The Action can move cards
 between player collections, renumber several cards atomically, deliberately
-reuse a retired gap, and change rarity or printed titles without hand-editing
-catalog JSON or image paths. Renumbering preserves the printing's permanent
-Cockatrice UUID.
+reuse a retired gap, replace single- or double-faced artwork, and change rarity
+or printed titles without hand-editing catalog JSON or image paths. Artwork
+replacement and renumbering preserve the printing's permanent Cockatrice UUID.
 
 [`CARD_MANAGER_GUIDE.md`](./WLX/docs/CARD_MANAGER_GUIDE.md) gives the exact
 spreadsheet workflow. `WLX/published/catalog.resolved.csv` remains a generated,
@@ -60,6 +60,7 @@ deliberately assigns it through `CARD_MANAGER.csv`.
 ```text
 .github/                 GitHub workflows and the removal form
 imports/                 card-art intake, results, and needs-attention queue
+imports/replacements/    Card Manager artwork staging folders
 WLX/docs/                owner, player, status, and import documentation
 WLX/CARD_MANAGER.csv     editable collection-management spreadsheet
 WLX/source/              canonical catalogs, automation, tools, and configuration

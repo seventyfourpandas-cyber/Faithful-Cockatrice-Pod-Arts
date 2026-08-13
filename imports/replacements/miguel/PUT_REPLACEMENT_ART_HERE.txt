@@ -1,0 +1,5 @@
+Upload Miguel's staged replacement PNG/JPEG files in this folder.
+
+Nothing in this folder publishes by itself. Enter the exact uploaded filename
+in the matching row of WLX/CARD_MANAGER.csv under CHANGE_front_art_to or
+CHANGE_back_art_to to apply and consume it.

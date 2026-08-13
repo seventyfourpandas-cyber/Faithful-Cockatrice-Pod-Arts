@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "incoming_dir": "imports/incoming",
+  "replacement_dir": "imports/replacements",
   "needs_attention_dir": "imports/needs-attention",
   "report_json": "imports/last-run.json",
   "report_markdown": "imports/LAST_RUN.md",
