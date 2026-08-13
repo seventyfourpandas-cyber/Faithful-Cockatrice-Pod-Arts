@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "WLX_LAYOUT_REWIRE_INSTALL.zip"
+      - "WLX/CARD_MANAGER.csv"
       - "imports/incoming/**"
   workflow_dispatch:
 
@@ -31,7 +32,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install the organized layout wiring or process the waiting batch
+      - name: Install the pending feature or process the waiting queue
         id: intake
         env:
           BATCH_ID: ${{ github.sha }}
@@ -45,6 +46,11 @@ jobs:
               --package-root "$install_dir"
             rm -f WLX_LAYOUT_REWIRE_INSTALL.zip
             echo "mode=rewire" >> "$GITHUB_OUTPUT"
+          elif [ "$(python WLX/source/tools/wlx_catalog_manager.py --repository-root . --status)" = "pending" ]; then
+            python WLX/source/tools/wlx_catalog_manager.py \
+              --repository-root . \
+              --apply
+            echo "mode=manage" >> "$GITHUB_OUTPUT"
           else
             if [ ! -f WLX/source/.wlx-bulk-importer-installed ]; then
               echo "The organized WLX importer is not installed yet." >&2
@@ -54,6 +60,15 @@ jobs:
               --repository-root . \
               --batch-id "${BATCH_ID:0:10}"
             echo "mode=import" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Refuse Action-installed workflow changes
+        run: |
+          workflow_changes="$(git status --porcelain -- .github)"
+          if [ -n "$workflow_changes" ]; then
+            echo "::error title=Unsafe installer payload::The Action-installed ZIP attempted to change .github. Workflow files must be uploaded manually before the ZIP runs."
+            printf '%s\n' "$workflow_changes"
+            exit 1
           fi
 
       - name: Install pinned validation dependency
@@ -82,12 +97,18 @@ jobs:
           git config user.name "WLX Publisher"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
+          if ! git diff --cached --quiet -- .github; then
+            echo "The verified transaction unexpectedly contains a workflow change." >&2
+            exit 1
+          fi
           if git diff --cached --quiet; then
             echo "No repository changes were needed."
             exit 0
           fi
           if [ "$MODE" = "rewire" ]; then
             message="Finish organized WLX layout migration [skip ci]"
+          elif [ "$MODE" = "manage" ]; then
+            message="Apply WLX card manager edits [skip ci]"
           else
             message="Publish WLX file import ${GITHUB_SHA:0:10} [skip ci]"
           fi
