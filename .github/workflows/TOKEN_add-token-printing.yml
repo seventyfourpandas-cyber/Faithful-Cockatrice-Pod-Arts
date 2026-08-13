@@ -1,0 +1,35 @@
+name: Add a token printing
+description: Give a token made by one of your WLX cards its own artwork.
+title: "[WLX TOKEN] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Enter the exact card face that creates the token. WLX finds that face's native Cockatrice token, copies its official rules and stats, and links this artwork to it automatically.
+  - type: dropdown
+    id: player
+    attributes:
+      label: Player collection
+      options:
+        - Alex
+        - Will
+        - Miguel
+        - Jay
+    validations:
+      required: true
+  - type: input
+    id: creating-card
+    attributes:
+      label: Creating card face
+      description: Enter the exact playable face name, not the combined double-faced name.
+      placeholder: Awaken the Blood Avatar
+    validations:
+      required: true
+  - type: upload
+    id: image
+    attributes:
+      label: Finished token image
+      description: Upload exactly one complete PNG or JPEG token image, at least 300x400 and no larger than 10 MiB.
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg"
