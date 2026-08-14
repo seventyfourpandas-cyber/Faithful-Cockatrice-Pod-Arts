@@ -2952,6 +2952,22 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-13"
+    },
+    "coveted jewel": {
+      "name": "Coveted Jewel",
+      "oracle_id": "98492d7d-3b9e-4ae1-ac45-1b508d6d2670",
+      "scryfall_uri": "https://scryfall.com/card/msc/196/coveted-jewel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-14"
+    },
+    "mithril coat": {
+      "name": "Mithril Coat",
+      "oracle_id": "3dc364f3-3094-4660-80ca-9418588c7fde",
+      "scryfall_uri": "https://scryfall.com/card/ltr/245/mithril-coat?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-14"
     }
   }
 }

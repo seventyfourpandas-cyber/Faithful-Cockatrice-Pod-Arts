@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-13T21:22:39+00:00</createdAt>
+    <createdAt>2026-08-14T01:09:09+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.3</sourceVersion>
+    <sourceVersion>3.2.4</sourceVersion>
   </info>
   <sets>
     <set>
@@ -245,6 +245,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Corpses of the Lost</name>
       <set uuid="2ab69787-322a-5f00-a975-7586abae86dd" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/035-d790e7928b18.jpg" num="035" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Coveted Jewel</name>
+      <set uuid="4fb2ff8f-eb16-5e45-9f07-5386a4cbaccd" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/296-71d3159bcca0.jpg" num="296" rarity="special">WLX</set>
     </card>
     <card>
       <name>Crash Through</name>
@@ -729,6 +733,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Mind Stone</name>
       <set uuid="3e63f6c6-5050-5ed3-b89d-ba8045858fc4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/076-16757cfd9831.jpg" num="076" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Mithril Coat</name>
+      <set uuid="d217363e-64c7-554e-9cde-3a65401de53d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/297-1dea4b032aac.jpg" num="297" rarity="special">WLX</set>
     </card>
     <card>
       <name>Molten Echoes</name>

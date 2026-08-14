@@ -1,70 +1,14 @@
 # Latest WLX File Import
 
-- Batch: `6d6432a8d3`
-- Finished: `2026-08-13T21:22:40+00:00`
-- Images found: **62**
-- New printings: **58**
+- Batch: `3dcb8fcfed`
+- Finished: `2026-08-14T01:09:10+00:00`
+- Images found: **2**
+- New printings: **2**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #238` — Aeve, Progenitor Ooze (Will)
-- `WLX #239` — Aeve, Progenitor Ooze (Will)
-- `WLX #240` — Fear of Missing Out (Will)
-- `WLX #241` — Garruk's Uprising (Will)
-- `WLX #242` — Rain of Riches (Will)
-- `WLX #243` — Rapid Hybridization (Will)
-- `WLX #244` — Razaketh, the Foulblooded (Will)
-- `WLX #245` — Reaver Titan (Will)
-- `WLX #246` — Redoubled Stormsinger (Will)
-- `WLX #247` — Reflections of Littjara (Will)
-- `WLX #248` — Rhythm of the Wild (Will)
-- `WLX #249` — Rionya, Fire Dancer (Will)
-- `WLX #250` — Sanctum Weaver (Will)
-- `WLX #251` — Sarkhan's Unsealing (Will)
-- `WLX #252` — Sceptre of Eternal Glory (Will)
-- `WLX #253` — Shadow Rift (Will)
-- `WLX #254` — Shadowheart, Dark Justiciar (Will)
-- `WLX #255` — Shore Up (Will)
-- `WLX #256` — Skitterbeam Battalion (Will)
-- `WLX #257` — Slime Against Humanity (Will)
-- `WLX #258` — Snap (Will)
-- `WLX #259` — Sneak Attack (Will)
-- `WLX #260` — Soraya the Falconer (Will)
-- `WLX #261` — Spectacular Showdown (Will)
-- `WLX #262` — Spider Manifestation (Will)
-- `WLX #263` — Sundial of the Infinite (Will)
-- `WLX #264` — Swan Song (Will)
-- `WLX #265` — Talisman of Impulse (Will)
-- `WLX #266` — Tamiyo's Safekeeping (Will)
-- `WLX #267` — Tannuk, Steadfast Second (Will)
-- `WLX #268` — Terminal Velocity (Will)
-- `WLX #269` — Terror of the Peaks (Will)
-- `WLX #270` — The One Ring (Will)
-- `WLX #271` — The Soul Stone (Will)
-- `WLX #272` — The Ten Rings (Will)
-- `WLX #273` — The Ten Rings (Will)
-- `WLX #274` — Thickest in the Thicket (Will)
-- `WLX #275` — Throne of Eldraine (Will)
-- `WLX #276` — Thunderclap Drake (Will)
-- `WLX #277` — Thunderhawk Gunship (Will)
-- `WLX #278` — Tibalt's Trickery (Will)
-- `WLX #279` — Tortured Existence (Will)
-- `WLX #280` — Twinflame (Will)
-- `WLX #281` — Untimely Malfunction (Will)
-- `WLX #282` — Urza's Incubator (Will)
-- `WLX #283` — Vedalken Orrery (Will)
-- `WLX #284` — Void Beckoner (Will)
-- `WLX #285` — Wandertale Mentor (Will)
-- `WLX #286` — Weftstalker Ardent (Will)
-- `WLX #287` — Wild Magic Surge (Will)
-- `WLX #288` — Wildsear, Scouring Maw (Will)
-- `WLX #289` — Wonder (Will)
-- `WLX #290` — Zoyowa's Justice (Will)
-- `WLX #291` — Invasion of Ikoria // Zilortha, Apex of Ikoria (Will)
-- `WLX #292` — Sink into Stupor // Soporific Springs (Will)
-- `WLX #293` — Sundering Eruption // Volcanic Fissure (Will)
-- `WLX #294` — Valakut Awakening // Valakut Stoneforge (Will)
-- `WLX #295` — Ooze Token (Will)
+- `WLX #296` — Coveted Jewel (Will)
+- `WLX #297` — Mithril Coat (Will)

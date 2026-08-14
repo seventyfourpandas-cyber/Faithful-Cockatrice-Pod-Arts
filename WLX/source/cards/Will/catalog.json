@@ -3281,6 +3281,28 @@
       "image_file": "WLX-295.jpg",
       "image_sha256": "f6c4b793b7ca6c871bf2f973b0764e9c6d89f9f469de4916e680c466614d9943",
       "notes": "Imported from will/TOKEN - Slime Against Humanity.jpg in file batch 6d6432a8d3"
+    },
+    {
+      "collector_number": "296",
+      "uuid": "4fb2ff8f-eb16-5e45-9f07-5386a4cbaccd",
+      "card_kind": "official",
+      "official_name": "Coveted Jewel",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-296.jpg",
+      "image_sha256": "71d3159bcca0196cde54affeb891108a5bbc746373d0e7aebb528d611a956c16",
+      "notes": "Imported from will/Coveted Jewel.jpg in file batch 3dcb8fcfed"
+    },
+    {
+      "collector_number": "297",
+      "uuid": "d217363e-64c7-554e-9cde-3a65401de53d",
+      "card_kind": "official",
+      "official_name": "Mithril Coat",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-297.jpg",
+      "image_sha256": "1dea4b032aaca67675a9acd0154f7f504a89d8d776bd650f722daff50cb197e4",
+      "notes": "Imported from will/Mithril Coat.jpg in file batch 3dcb8fcfed"
     }
   ]
 }

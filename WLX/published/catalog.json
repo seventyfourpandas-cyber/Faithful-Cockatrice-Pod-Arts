@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "set_code": "WLX",
   "cards": [
     {
@@ -5310,6 +5310,42 @@
       "image": "images/WLX/295-f6c4b793b7ca.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/295-f6c4b793b7ca.jpg",
       "sha256": "f6c4b793b7ca6c871bf2f973b0764e9c6d89f9f469de4916e680c466614d9943",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Coveted Jewel",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "296",
+      "uuid": "4fb2ff8f-eb16-5e45-9f07-5386a4cbaccd",
+      "rarity": "special",
+      "image": "images/WLX/296-71d3159bcca0.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/296-71d3159bcca0.jpg",
+      "sha256": "71d3159bcca0196cde54affeb891108a5bbc746373d0e7aebb528d611a956c16",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Mithril Coat",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "297",
+      "uuid": "d217363e-64c7-554e-9cde-3a65401de53d",
+      "rarity": "special",
+      "image": "images/WLX/297-1dea4b032aac.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/297-1dea4b032aac.jpg",
+      "sha256": "1dea4b032aaca67675a9acd0154f7f504a89d8d776bd650f722daff50cb197e4",
       "dimensions": [
         2976,
         4152
