@@ -3599,6 +3599,17 @@
       ],
       "rarity": "special",
       "notes": "Imported paired face images in file batch ca9bcffd33"
+    },
+    {
+      "collector_number": "322",
+      "uuid": "171d7f0c-ce6c-533e-abad-eb9fa4e33e58",
+      "card_kind": "official",
+      "official_name": "Stensian Sanguinist // Exsanguinate",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-322.jpg",
+      "image_sha256": "c77964a1912b3bca09feff8dcc167bce0f86a21bea4c162677cd0c33e1a72107",
+      "notes": "Imported from will/Stensian Sanguinist.jpg in file batch 85ac5ca7b6"
     }
   ]
 }

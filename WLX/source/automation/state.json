@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 322,
+  "next_collector": 323,
   "collectors": {
     "001": {
       "status": "active",
@@ -1935,6 +1935,12 @@
       "player": "Will",
       "uuid": "798a01d6-6c22-5b07-8ce8-7610a7540516",
       "card_kind": "official_double_faced"
+    },
+    "322": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "171d7f0c-ce6c-533e-abad-eb9fa4e33e58",
+      "card_kind": "official"
     }
   },
   "processed_issues": {

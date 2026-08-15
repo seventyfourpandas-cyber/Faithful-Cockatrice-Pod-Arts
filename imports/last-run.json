@@ -1,141 +1,19 @@
 {
   "schema_version": 1,
-  "batch_id": "ca9bcffd33",
-  "started_at": "2026-08-15T01:14:03+00:00",
-  "finished_at": "2026-08-15T01:14:05+00:00",
-  "found": 26,
-  "version_before": "3.2.5",
-  "version_after": "3.2.6",
+  "batch_id": "85ac5ca7b6",
+  "started_at": "2026-08-15T03:11:08+00:00",
+  "finished_at": "2026-08-15T03:11:09+00:00",
+  "found": 1,
+  "version_before": "3.2.6",
+  "version_after": "3.2.7",
   "added": [
     {
-      "collector_number": "298",
-      "name": "Ashnod's Altar",
-      "player": "Will"
-    },
-    {
-      "collector_number": "299",
-      "name": "Bitterbloom Bearer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "300",
-      "name": "Charismatic Conqueror",
-      "player": "Will"
-    },
-    {
-      "collector_number": "301",
-      "name": "Corpse Knight",
-      "player": "Will"
-    },
-    {
-      "collector_number": "302",
-      "name": "Cruel Celebrant",
-      "player": "Will"
-    },
-    {
-      "collector_number": "303",
-      "name": "Diresight",
-      "player": "Will"
-    },
-    {
-      "collector_number": "304",
-      "name": "Elas il-Kor, Sadistic Pilgrim",
-      "player": "Will"
-    },
-    {
-      "collector_number": "305",
-      "name": "Grave Researcher // Reanimate",
-      "player": "Will"
-    },
-    {
-      "collector_number": "306",
-      "name": "Haughty Djinn",
-      "player": "Will"
-    },
-    {
-      "collector_number": "307",
-      "name": "Imp's Mischief",
-      "player": "Will"
-    },
-    {
-      "collector_number": "308",
-      "name": "Jadar, Ghoulcaller of Nephalia",
-      "player": "Will"
-    },
-    {
-      "collector_number": "309",
-      "name": "Not Dead After All",
-      "player": "Will"
-    },
-    {
-      "collector_number": "310",
-      "name": "Not of This World",
-      "player": "Will"
-    },
-    {
-      "collector_number": "311",
-      "name": "Patriar's Seal",
-      "player": "Will"
-    },
-    {
-      "collector_number": "312",
-      "name": "Phyrexian Altar",
-      "player": "Will"
-    },
-    {
-      "collector_number": "313",
-      "name": "Shadowspear",
-      "player": "Will"
-    },
-    {
-      "collector_number": "314",
-      "name": "Skullclamp",
-      "player": "Will"
-    },
-    {
-      "collector_number": "315",
-      "name": "Skullclamp",
-      "player": "Will"
-    },
-    {
-      "collector_number": "316",
-      "name": "The Warring Triad",
-      "player": "Will"
-    },
-    {
-      "collector_number": "317",
-      "name": "Twilight Diviner",
-      "player": "Will"
-    },
-    {
-      "collector_number": "318",
-      "name": "Twinning Staff",
-      "player": "Will"
-    },
-    {
-      "collector_number": "319",
-      "name": "Undead Butler",
-      "player": "Will"
-    },
-    {
-      "collector_number": "320",
-      "name": "Unmarked Grave",
-      "player": "Will"
-    },
-    {
-      "collector_number": "321",
-      "name": "Malakir Rebirth // Malakir Mire",
+      "collector_number": "322",
+      "name": "Stensian Sanguinist // Exsanguinate",
       "player": "Will"
     }
   ],
   "updated": [],
   "already_current": [],
-  "needs_attention": [
-    {
-      "original_file": "will/Stensian Exsanguinist.jpg",
-      "moved_image": "imports/needs-attention/will/ca9bcffd33/Stensian Exsanguinist.jpg",
-      "error_file": "imports/needs-attention/will/ca9bcffd33/Stensian Exsanguinist.jpg.error.txt",
-      "error": "No exact official Magic card named 'Stensian Exsanguinist' was found"
-    }
-  ]
+  "needs_attention": []
 }
