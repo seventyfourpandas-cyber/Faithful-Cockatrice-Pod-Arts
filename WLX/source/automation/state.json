@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 298,
+  "next_collector": 322,
   "collectors": {
     "001": {
       "status": "active",
@@ -1791,6 +1791,150 @@
       "player": "Will",
       "uuid": "d217363e-64c7-554e-9cde-3a65401de53d",
       "card_kind": "official"
+    },
+    "298": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "8fe931f9-a84c-5833-bde1-71200914390c",
+      "card_kind": "official"
+    },
+    "299": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "996120de-d1ab-5e77-be4b-c771afaae4a8",
+      "card_kind": "official"
+    },
+    "300": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "c95fc816-b46d-531e-8ebb-365a0da852b9",
+      "card_kind": "official"
+    },
+    "301": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "f3324c9b-ea14-5024-9700-8543cc817b33",
+      "card_kind": "official"
+    },
+    "302": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "638a33f3-aab4-50de-aac3-5c6d4eb6b4b0",
+      "card_kind": "official"
+    },
+    "303": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "0283cb61-de98-5b3c-9b70-3196a74a0d16",
+      "card_kind": "official"
+    },
+    "304": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "514d9802-7db1-5d53-a78a-53ad6a95fed2",
+      "card_kind": "official"
+    },
+    "305": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "0990135a-069c-5cb3-a794-2522a43ea8aa",
+      "card_kind": "official"
+    },
+    "306": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "dd6d638a-906d-532f-8cd4-7b8f40aa8ddd",
+      "card_kind": "official"
+    },
+    "307": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "a9988a10-6fc6-578a-b7ac-4c72a92b7c71",
+      "card_kind": "official"
+    },
+    "308": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "1f3ec196-02d2-5dab-9bd6-0e38bb44922d",
+      "card_kind": "official"
+    },
+    "309": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "d85262f6-e1cb-5131-a095-0ba468c077bd",
+      "card_kind": "official"
+    },
+    "310": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "d7ddc890-3608-51e2-8e47-10e812ad281a",
+      "card_kind": "official"
+    },
+    "311": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "f1dba398-2704-5c8d-9e4c-41cd0245f03e",
+      "card_kind": "official"
+    },
+    "312": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "8a169e7c-6129-50e8-9fd0-72784b6c527e",
+      "card_kind": "official"
+    },
+    "313": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "ab694f8b-5c27-5c7f-a887-b406a15f6ac9",
+      "card_kind": "official"
+    },
+    "314": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "21e7622e-dc3e-5a43-9ca7-d903fc575f48",
+      "card_kind": "official"
+    },
+    "315": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "b14f7475-7523-5f18-8dd4-2a55925eb891",
+      "card_kind": "official"
+    },
+    "316": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "08aa95e3-3353-53cf-b7e2-a7ef36bbc022",
+      "card_kind": "official"
+    },
+    "317": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "b4040ae4-624c-5061-9a28-7a1adbbfd9f4",
+      "card_kind": "official"
+    },
+    "318": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "c3d426f6-19e5-56ae-aeab-1a46af1dcd7b",
+      "card_kind": "official"
+    },
+    "319": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "5338be5d-568d-5f21-8ed0-6a79a0c0f32a",
+      "card_kind": "official"
+    },
+    "320": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "47d4f4e8-84dd-5d32-a7e5-f41e0e35c0eb",
+      "card_kind": "official"
+    },
+    "321": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "798a01d6-6c22-5b07-8ce8-7610a7540516",
+      "card_kind": "official_double_faced"
     }
   },
   "processed_issues": {

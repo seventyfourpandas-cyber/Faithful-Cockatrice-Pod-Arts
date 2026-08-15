@@ -3,31 +3,31 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.5",
-  "published_at": "2026-08-15T01:10:22+00:00",
+  "version": "3.2.6",
+  "published_at": "2026-08-15T01:14:03+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "8a1af0f9721d09d803f04d462e113cd930519ad7f96c6ac010cc1f29afed2409",
-    "size_bytes": 98142,
+    "sha256": "6f45466958da09e63b172a551e722bf8f0d62c7560f51f4623fafee739eb3292",
+    "size_bytes": 106418,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "2a7f6a503f7c60e3aa8486ae0c8d28681ff0ed75b9c344db713a1683f7af3ae9",
+    "sha256": "c57ba8396a21af416649529f4667575d62a7f2fa51a58bd7225e61d5360ff3dc",
     "size_bytes": 61641
   },
-  "cards": 284,
-  "printings_count": 289,
-  "face_entries_count": 297,
+  "cards": 308,
+  "printings_count": 313,
+  "face_entries_count": 322,
   "sets": 1,
   "players": {
     "Alex": 13,
-    "Will": 273,
+    "Will": 297,
     "Miguel": 2,
     "Jay": 1
   },
@@ -2407,26 +2407,226 @@
       "player": "Will",
       "image_sha256": "1dea4b032aaca67675a9acd0154f7f504a89d8d776bd650f722daff50cb197e4",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/297-1dea4b032aac.jpg"
+    },
+    {
+      "collector_number": "298",
+      "uuid": "8fe931f9-a84c-5833-bde1-71200914390c",
+      "card_name": "Ashnod's Altar",
+      "player": "Will",
+      "image_sha256": "f11c266919f7665b33cd94fb05a3b8ac93f03dced49bc16674c724c2d56f9838",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/298-f11c266919f7.jpg"
+    },
+    {
+      "collector_number": "299",
+      "uuid": "996120de-d1ab-5e77-be4b-c771afaae4a8",
+      "card_name": "Bitterbloom Bearer",
+      "player": "Will",
+      "image_sha256": "347644a226427792364b9edc28571eeb8ede99633300d51cbf3cfa3ad9fad5b2",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/299-347644a22642.jpg"
+    },
+    {
+      "collector_number": "300",
+      "uuid": "c95fc816-b46d-531e-8ebb-365a0da852b9",
+      "card_name": "Charismatic Conqueror",
+      "player": "Will",
+      "image_sha256": "87293c2287450e61683e57837b384c3dc5cd5a966caa0be301102c8aeb5689ad",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/300-87293c228745.jpg"
+    },
+    {
+      "collector_number": "301",
+      "uuid": "f3324c9b-ea14-5024-9700-8543cc817b33",
+      "card_name": "Corpse Knight",
+      "player": "Will",
+      "image_sha256": "9f62bbba838f66774c004ca3e104950b02011974a1e37d29e703dd93f2cfb50b",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/301-9f62bbba838f.jpg"
+    },
+    {
+      "collector_number": "302",
+      "uuid": "638a33f3-aab4-50de-aac3-5c6d4eb6b4b0",
+      "card_name": "Cruel Celebrant",
+      "player": "Will",
+      "image_sha256": "ee801a84b1bd2de2ddbd85652019c8e9b33d4e4174d10c35bef383c2a652560f",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/302-ee801a84b1bd.jpg"
+    },
+    {
+      "collector_number": "303",
+      "uuid": "0283cb61-de98-5b3c-9b70-3196a74a0d16",
+      "card_name": "Diresight",
+      "player": "Will",
+      "image_sha256": "71e78529d7756834792a7de821594d511e1cf53bc386cb7fd9d4e53ce3938c87",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/303-71e78529d775.jpg"
+    },
+    {
+      "collector_number": "304",
+      "uuid": "514d9802-7db1-5d53-a78a-53ad6a95fed2",
+      "card_name": "Elas il-Kor, Sadistic Pilgrim",
+      "player": "Will",
+      "image_sha256": "25f3c25e2a76b43ee07402afbd4d1abb2175c09f4b39641e55f0d93e381e9867",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/304-25f3c25e2a76.jpg"
+    },
+    {
+      "collector_number": "305",
+      "uuid": "0990135a-069c-5cb3-a794-2522a43ea8aa",
+      "card_name": "Grave Researcher // Reanimate",
+      "player": "Will",
+      "image_sha256": "11deb0af470ca46e8098d145af88c79eed3b71aeeec108455aaed38dbe4dce6a",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/305-11deb0af470c.jpg"
+    },
+    {
+      "collector_number": "306",
+      "uuid": "dd6d638a-906d-532f-8cd4-7b8f40aa8ddd",
+      "card_name": "Haughty Djinn",
+      "player": "Will",
+      "image_sha256": "d4e5dd25869f4621b756d52aef6321f01a4b925facf2c4e0c9779d4262de20fd",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/306-d4e5dd25869f.jpg"
+    },
+    {
+      "collector_number": "307",
+      "uuid": "a9988a10-6fc6-578a-b7ac-4c72a92b7c71",
+      "card_name": "Imp's Mischief",
+      "player": "Will",
+      "image_sha256": "d7d7c96b51d333d4da102a0b583a3564a3c9b187161acd4d242a66d0221e74b7",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/307-d7d7c96b51d3.jpg"
+    },
+    {
+      "collector_number": "308",
+      "uuid": "1f3ec196-02d2-5dab-9bd6-0e38bb44922d",
+      "card_name": "Jadar, Ghoulcaller of Nephalia",
+      "player": "Will",
+      "image_sha256": "0fdfe22f1bb8d64b5a25ec0a7325b5c1d84c06aa011b26aa5ecc23eb07afdfe1",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/308-0fdfe22f1bb8.jpg"
+    },
+    {
+      "collector_number": "309",
+      "uuid": "d85262f6-e1cb-5131-a095-0ba468c077bd",
+      "card_name": "Not Dead After All",
+      "player": "Will",
+      "image_sha256": "ad0b1464cc8e238984dedbae97b3706b12843d6ab38b4f0c764d059ff12f246b",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/309-ad0b1464cc8e.jpg"
+    },
+    {
+      "collector_number": "310",
+      "uuid": "d7ddc890-3608-51e2-8e47-10e812ad281a",
+      "card_name": "Not of This World",
+      "player": "Will",
+      "image_sha256": "f31a870d49675afacbf18479f24e77d418f247c4d88a4d27a83a6f516ebfec34",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/310-f31a870d4967.jpg"
+    },
+    {
+      "collector_number": "311",
+      "uuid": "f1dba398-2704-5c8d-9e4c-41cd0245f03e",
+      "card_name": "Patriar's Seal",
+      "player": "Will",
+      "image_sha256": "167f9c3bf8941661e1edc0d0bf904f791b8f3b946c0852b831448103abc7c3b0",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/311-167f9c3bf894.jpg"
+    },
+    {
+      "collector_number": "312",
+      "uuid": "8a169e7c-6129-50e8-9fd0-72784b6c527e",
+      "card_name": "Phyrexian Altar",
+      "player": "Will",
+      "image_sha256": "9972823d5f50d4e8ea04ee70dc83da11b1625b41893004cb9b2558c05433fa9a",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/312-9972823d5f50.jpg"
+    },
+    {
+      "collector_number": "313",
+      "uuid": "ab694f8b-5c27-5c7f-a887-b406a15f6ac9",
+      "card_name": "Shadowspear",
+      "player": "Will",
+      "image_sha256": "c089fcf6e90e1a2dc851be807509651e0fc6fce3636084b9bee64a946717ba42",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/313-c089fcf6e90e.jpg"
+    },
+    {
+      "collector_number": "314",
+      "uuid": "21e7622e-dc3e-5a43-9ca7-d903fc575f48",
+      "card_name": "Skullclamp",
+      "player": "Will",
+      "image_sha256": "41e4e9c36a1711dbead6ae3319622c292bf0c03e4c2771f07285b66bfddcaa64",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/314-41e4e9c36a17.jpg"
+    },
+    {
+      "collector_number": "315",
+      "uuid": "b14f7475-7523-5f18-8dd4-2a55925eb891",
+      "card_name": "Skullclamp",
+      "player": "Will",
+      "image_sha256": "15e50b9cf50ec6c1548ba812a20add05dbc203b905c28311f5d78427303e7bac",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/315-15e50b9cf50e.jpg"
+    },
+    {
+      "collector_number": "316",
+      "uuid": "08aa95e3-3353-53cf-b7e2-a7ef36bbc022",
+      "card_name": "The Warring Triad",
+      "player": "Will",
+      "image_sha256": "df070b546867fa95536418a5d744040d0dbb6200977dcca035d1ae4fe582a550",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/316-df070b546867.jpg"
+    },
+    {
+      "collector_number": "317",
+      "uuid": "b4040ae4-624c-5061-9a28-7a1adbbfd9f4",
+      "card_name": "Twilight Diviner",
+      "player": "Will",
+      "image_sha256": "752460e07feb3d8a565b5adb964c4e7020afdde4343f7b3e2e34fe7d51d49777",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/317-752460e07feb.jpg"
+    },
+    {
+      "collector_number": "318",
+      "uuid": "c3d426f6-19e5-56ae-aeab-1a46af1dcd7b",
+      "card_name": "Twinning Staff",
+      "player": "Will",
+      "image_sha256": "3ffa7ce36058a47a80b62241f6dbbc70448fdfc96086924bd644808128cfb1b6",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/318-3ffa7ce36058.jpg"
+    },
+    {
+      "collector_number": "319",
+      "uuid": "5338be5d-568d-5f21-8ed0-6a79a0c0f32a",
+      "card_name": "Undead Butler",
+      "player": "Will",
+      "image_sha256": "3a9fe1692dd0ac16d63890abed3fed0b21682d3d450284b9c3543013f0c14f80",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/319-3a9fe1692dd0.jpg"
+    },
+    {
+      "collector_number": "320",
+      "uuid": "47d4f4e8-84dd-5d32-a7e5-f41e0e35c0eb",
+      "card_name": "Unmarked Grave",
+      "player": "Will",
+      "image_sha256": "1fc242497dfef66eb685200ac6ff9f890168d09e88f2e3fafd5cfb5968031e69",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/320-1fc242497dfe.jpg"
+    },
+    {
+      "collector_number": "321",
+      "uuid": "798a01d6-6c22-5b07-8ce8-7610a7540516",
+      "card_name": "Malakir Rebirth",
+      "player": "Will",
+      "image_sha256": "1a62df93ff5fded1d8ea2c073de79c16451d3729e739646bc93022f62aef8e69",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/321-front-1a62df93ff5f.jpg"
+    },
+    {
+      "collector_number": "321",
+      "uuid": "798a01d6-6c22-5b07-8ce8-7610a7540516",
+      "card_name": "Malakir Mire",
+      "player": "Will",
+      "image_sha256": "79f9ed439e32d04b8591b74ccffbd37f0f4a92baa17ccb389bffaf9ee869f731",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/321-back-79f9ed439e32.jpg"
     }
   ],
   "files": [
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "2a7f6a503f7c60e3aa8486ae0c8d28681ff0ed75b9c344db713a1683f7af3ae9",
+      "sha256": "c57ba8396a21af416649529f4667575d62a7f2fa51a58bd7225e61d5360ff3dc",
       "size_bytes": 61641
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "23e7b516143a57b12e561d9e9b53a4efe978bae84d083e0634dfc64fbf4327d6",
-      "size_bytes": 199513
+      "sha256": "249f68cc32014a7342f009feeea4eb25ef7de96398790b566564c33f45f19614",
+      "size_bytes": 216287
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "8a1af0f9721d09d803f04d462e113cd930519ad7f96c6ac010cc1f29afed2409",
-      "size_bytes": 98142
+      "sha256": "6f45466958da09e63b172a551e722bf8f0d62c7560f51f4623fafee739eb3292",
+      "size_bytes": 106418
     },
     {
       "path": "images/WLX/001-680c22b71393.png",
@@ -4209,6 +4409,156 @@
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/297-1dea4b032aac.jpg",
       "sha256": "1dea4b032aaca67675a9acd0154f7f504a89d8d776bd650f722daff50cb197e4",
       "size_bytes": 4068862
+    },
+    {
+      "path": "images/WLX/298-f11c266919f7.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/298-f11c266919f7.jpg",
+      "sha256": "f11c266919f7665b33cd94fb05a3b8ac93f03dced49bc16674c724c2d56f9838",
+      "size_bytes": 4137076
+    },
+    {
+      "path": "images/WLX/299-347644a22642.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/299-347644a22642.jpg",
+      "sha256": "347644a226427792364b9edc28571eeb8ede99633300d51cbf3cfa3ad9fad5b2",
+      "size_bytes": 4352997
+    },
+    {
+      "path": "images/WLX/300-87293c228745.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/300-87293c228745.jpg",
+      "sha256": "87293c2287450e61683e57837b384c3dc5cd5a966caa0be301102c8aeb5689ad",
+      "size_bytes": 4138749
+    },
+    {
+      "path": "images/WLX/301-9f62bbba838f.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/301-9f62bbba838f.jpg",
+      "sha256": "9f62bbba838f66774c004ca3e104950b02011974a1e37d29e703dd93f2cfb50b",
+      "size_bytes": 4521151
+    },
+    {
+      "path": "images/WLX/302-ee801a84b1bd.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/302-ee801a84b1bd.jpg",
+      "sha256": "ee801a84b1bd2de2ddbd85652019c8e9b33d4e4174d10c35bef383c2a652560f",
+      "size_bytes": 4250353
+    },
+    {
+      "path": "images/WLX/303-71e78529d775.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/303-71e78529d775.jpg",
+      "sha256": "71e78529d7756834792a7de821594d511e1cf53bc386cb7fd9d4e53ce3938c87",
+      "size_bytes": 4326399
+    },
+    {
+      "path": "images/WLX/304-25f3c25e2a76.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/304-25f3c25e2a76.jpg",
+      "sha256": "25f3c25e2a76b43ee07402afbd4d1abb2175c09f4b39641e55f0d93e381e9867",
+      "size_bytes": 4175828
+    },
+    {
+      "path": "images/WLX/305-11deb0af470c.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/305-11deb0af470c.jpg",
+      "sha256": "11deb0af470ca46e8098d145af88c79eed3b71aeeec108455aaed38dbe4dce6a",
+      "size_bytes": 3871708
+    },
+    {
+      "path": "images/WLX/306-d4e5dd25869f.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/306-d4e5dd25869f.jpg",
+      "sha256": "d4e5dd25869f4621b756d52aef6321f01a4b925facf2c4e0c9779d4262de20fd",
+      "size_bytes": 4345124
+    },
+    {
+      "path": "images/WLX/307-d7d7c96b51d3.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/307-d7d7c96b51d3.jpg",
+      "sha256": "d7d7c96b51d333d4da102a0b583a3564a3c9b187161acd4d242a66d0221e74b7",
+      "size_bytes": 4880711
+    },
+    {
+      "path": "images/WLX/308-0fdfe22f1bb8.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/308-0fdfe22f1bb8.jpg",
+      "sha256": "0fdfe22f1bb8d64b5a25ec0a7325b5c1d84c06aa011b26aa5ecc23eb07afdfe1",
+      "size_bytes": 6013965
+    },
+    {
+      "path": "images/WLX/309-ad0b1464cc8e.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/309-ad0b1464cc8e.jpg",
+      "sha256": "ad0b1464cc8e238984dedbae97b3706b12843d6ab38b4f0c764d059ff12f246b",
+      "size_bytes": 3906246
+    },
+    {
+      "path": "images/WLX/310-f31a870d4967.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/310-f31a870d4967.jpg",
+      "sha256": "f31a870d49675afacbf18479f24e77d418f247c4d88a4d27a83a6f516ebfec34",
+      "size_bytes": 4217699
+    },
+    {
+      "path": "images/WLX/311-167f9c3bf894.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/311-167f9c3bf894.jpg",
+      "sha256": "167f9c3bf8941661e1edc0d0bf904f791b8f3b946c0852b831448103abc7c3b0",
+      "size_bytes": 3968045
+    },
+    {
+      "path": "images/WLX/312-9972823d5f50.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/312-9972823d5f50.jpg",
+      "sha256": "9972823d5f50d4e8ea04ee70dc83da11b1625b41893004cb9b2558c05433fa9a",
+      "size_bytes": 5785570
+    },
+    {
+      "path": "images/WLX/313-c089fcf6e90e.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/313-c089fcf6e90e.jpg",
+      "sha256": "c089fcf6e90e1a2dc851be807509651e0fc6fce3636084b9bee64a946717ba42",
+      "size_bytes": 4034423
+    },
+    {
+      "path": "images/WLX/314-41e4e9c36a17.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/314-41e4e9c36a17.jpg",
+      "sha256": "41e4e9c36a1711dbead6ae3319622c292bf0c03e4c2771f07285b66bfddcaa64",
+      "size_bytes": 3843388
+    },
+    {
+      "path": "images/WLX/315-15e50b9cf50e.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/315-15e50b9cf50e.jpg",
+      "sha256": "15e50b9cf50ec6c1548ba812a20add05dbc203b905c28311f5d78427303e7bac",
+      "size_bytes": 3820910
+    },
+    {
+      "path": "images/WLX/316-df070b546867.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/316-df070b546867.jpg",
+      "sha256": "df070b546867fa95536418a5d744040d0dbb6200977dcca035d1ae4fe582a550",
+      "size_bytes": 4502544
+    },
+    {
+      "path": "images/WLX/317-752460e07feb.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/317-752460e07feb.jpg",
+      "sha256": "752460e07feb3d8a565b5adb964c4e7020afdde4343f7b3e2e34fe7d51d49777",
+      "size_bytes": 4427255
+    },
+    {
+      "path": "images/WLX/318-3ffa7ce36058.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/318-3ffa7ce36058.jpg",
+      "sha256": "3ffa7ce36058a47a80b62241f6dbbc70448fdfc96086924bd644808128cfb1b6",
+      "size_bytes": 4775301
+    },
+    {
+      "path": "images/WLX/319-3a9fe1692dd0.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/319-3a9fe1692dd0.jpg",
+      "sha256": "3a9fe1692dd0ac16d63890abed3fed0b21682d3d450284b9c3543013f0c14f80",
+      "size_bytes": 4053181
+    },
+    {
+      "path": "images/WLX/320-1fc242497dfe.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/320-1fc242497dfe.jpg",
+      "sha256": "1fc242497dfef66eb685200ac6ff9f890168d09e88f2e3fafd5cfb5968031e69",
+      "size_bytes": 3503678
+    },
+    {
+      "path": "images/WLX/321-back-79f9ed439e32.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/321-back-79f9ed439e32.jpg",
+      "sha256": "79f9ed439e32d04b8591b74ccffbd37f0f4a92baa17ccb389bffaf9ee869f731",
+      "size_bytes": 3858028
+    },
+    {
+      "path": "images/WLX/321-front-1a62df93ff5f.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/321-front-1a62df93ff5f.jpg",
+      "sha256": "1a62df93ff5fded1d8ea2c073de79c16451d3729e739646bc93022f62aef8e69",
+      "size_bytes": 3968169
     }
   ]
 }

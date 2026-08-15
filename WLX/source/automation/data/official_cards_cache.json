@@ -2968,6 +2968,384 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-14"
+    },
+    "ashnod's altar": {
+      "name": "Ashnod's Altar",
+      "oracle_id": "4d18bcba-a346-445e-a182-6cc30b7e066d",
+      "scryfall_uri": "https://scryfall.com/card/cmm/368/ashnods-altar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "bitterbloom bearer": {
+      "name": "Bitterbloom Bearer",
+      "oracle_id": "5effb651-f9e0-4c14-8192-bd0e132b8d5d",
+      "scryfall_uri": "https://scryfall.com/card/ecl/88/bitterbloom-bearer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "charismatic conqueror": {
+      "name": "Charismatic Conqueror",
+      "oracle_id": "3dcc35f3-74dc-46a8-8aa9-3411189f0547",
+      "scryfall_uri": "https://scryfall.com/card/lcc/70/charismatic-conqueror?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "corpse knight": {
+      "name": "Corpse Knight",
+      "oracle_id": "0c77b805-728d-4ae4-88a9-223f4b7b52e0",
+      "scryfall_uri": "https://scryfall.com/card/moc/321/corpse-knight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "cruel celebrant": {
+      "name": "Cruel Celebrant",
+      "oracle_id": "3ee78cfc-0e9e-4737-a7e2-b42f94228040",
+      "scryfall_uri": "https://scryfall.com/card/lcc/267/cruel-celebrant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "diresight": {
+      "name": "Diresight",
+      "oracle_id": "a7b12df9-fddd-4cd4-8c09-d54a47867ab6",
+      "scryfall_uri": "https://scryfall.com/card/tle/162/diresight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "elas il-kor, sadistic pilgrim": {
+      "name": "Elas il-Kor, Sadistic Pilgrim",
+      "oracle_id": "a4d33e21-d3fe-4d5b-903c-b75e859d6f7f",
+      "scryfall_uri": "https://scryfall.com/card/dmu/198/elas-il-kor-sadistic-pilgrim?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "grave researcher // reanimate": {
+      "name": "Grave Researcher // Reanimate",
+      "oracle_id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
+      "scryfall_uri": "https://scryfall.com/card/sos/85/grave-researcher-reanimate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Grave Researcher",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Troll Warlock",
+          "rules_text": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "3/3",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Reanimate",
+          "side": "back",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "grave researcher": {
+      "name": "Grave Researcher // Reanimate",
+      "oracle_id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
+      "scryfall_uri": "https://scryfall.com/card/sos/85/grave-researcher-reanimate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Grave Researcher",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Troll Warlock",
+          "rules_text": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "3/3",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Reanimate",
+          "side": "back",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "reanimate": {
+      "name": "Grave Researcher // Reanimate",
+      "oracle_id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
+      "scryfall_uri": "https://scryfall.com/card/sos/85/grave-researcher-reanimate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Grave Researcher",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Troll Warlock",
+          "rules_text": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "3/3",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Reanimate",
+          "side": "back",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "haughty djinn": {
+      "name": "Haughty Djinn",
+      "oracle_id": "44036bb5-f300-40bd-9180-6b246315d886",
+      "scryfall_uri": "https://scryfall.com/card/tdc/154/haughty-djinn?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "imp's mischief": {
+      "name": "Imp's Mischief",
+      "oracle_id": "30ec73ad-c7a1-4527-8dc6-44bdd65b9ba6",
+      "scryfall_uri": "https://scryfall.com/card/cmm/167/imps-mischief?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "jadar, ghoulcaller of nephalia": {
+      "name": "Jadar, Ghoulcaller of Nephalia",
+      "oracle_id": "fb3defc0-c93a-4423-9ff9-c399f8a8ef1f",
+      "scryfall_uri": "https://scryfall.com/card/soc/217/jadar-ghoulcaller-of-nephalia?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "malakir rebirth // malakir mire": {
+      "name": "Malakir Rebirth // Malakir Mire",
+      "oracle_id": "a731e87b-8d99-4b64-8ee3-8e540d652366",
+      "scryfall_uri": "https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Malakir Rebirth",
+          "side": "front",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Choose target creature. You lose 2 life. Until end of turn, that creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Malakir Mire",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "malakir rebirth": {
+      "name": "Malakir Rebirth // Malakir Mire",
+      "oracle_id": "a731e87b-8d99-4b64-8ee3-8e540d652366",
+      "scryfall_uri": "https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Malakir Rebirth",
+          "side": "front",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Choose target creature. You lose 2 life. Until end of turn, that creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Malakir Mire",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "malakir mire": {
+      "name": "Malakir Rebirth // Malakir Mire",
+      "oracle_id": "a731e87b-8d99-4b64-8ee3-8e540d652366",
+      "scryfall_uri": "https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Malakir Rebirth",
+          "side": "front",
+          "mana_cost": "{B}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Choose target creature. You lose 2 life. Until end of turn, that creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Malakir Mire",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "This land enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "not dead after all": {
+      "name": "Not Dead After All",
+      "oracle_id": "380c367f-73ea-485f-a37b-5af0ba160893",
+      "scryfall_uri": "https://scryfall.com/card/woe/101/not-dead-after-all?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "not of this world": {
+      "name": "Not of This World",
+      "oracle_id": "5da5d8a3-009e-4d8a-977e-6ebc73ba2682",
+      "scryfall_uri": "https://scryfall.com/card/cmm/807/not-of-this-world?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "patriar's seal": {
+      "name": "Patriar's Seal",
+      "oracle_id": "ad95eac2-5b48-4102-9988-a6d7b1ec30e0",
+      "scryfall_uri": "https://scryfall.com/card/clb/332/patriars-seal?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "phyrexian altar": {
+      "name": "Phyrexian Altar",
+      "oracle_id": "8d02b297-97c4-4379-9862-0a462400f66f",
+      "scryfall_uri": "https://scryfall.com/card/2x2/311/phyrexian-altar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "shadowspear": {
+      "name": "Shadowspear",
+      "oracle_id": "8b27326f-e7b8-4a4d-b589-df459246d19a",
+      "scryfall_uri": "https://scryfall.com/card/thb/236/shadowspear?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "skullclamp": {
+      "name": "Skullclamp",
+      "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a",
+      "scryfall_uri": "https://scryfall.com/card/msc/210/skullclamp?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "the warring triad": {
+      "name": "The Warring Triad",
+      "oracle_id": "df0b5995-117b-4ba8-964d-ea3c592621ef",
+      "scryfall_uri": "https://scryfall.com/card/fic/99/the-warring-triad?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "twilight diviner": {
+      "name": "Twilight Diviner",
+      "oracle_id": "05d7222b-cc08-4f1f-8e35-6058599572ba",
+      "scryfall_uri": "https://scryfall.com/card/ecl/122/twilight-diviner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "twinning staff": {
+      "name": "Twinning Staff",
+      "oracle_id": "3ca8113b-f5b8-41a7-aae6-ebb32554dfe3",
+      "scryfall_uri": "https://scryfall.com/card/ncc/383/twinning-staff?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "undead butler": {
+      "name": "Undead Butler",
+      "oracle_id": "426fa8e8-b0f9-4b6c-b22b-04ec2073187a",
+      "scryfall_uri": "https://scryfall.com/card/vow/133/undead-butler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
+    },
+    "unmarked grave": {
+      "name": "Unmarked Grave",
+      "oracle_id": "134dfb35-0c32-4143-aa63-7701f406b59e",
+      "scryfall_uri": "https://scryfall.com/card/mh2/106/unmarked-grave?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-15"
     }
   }
 }
