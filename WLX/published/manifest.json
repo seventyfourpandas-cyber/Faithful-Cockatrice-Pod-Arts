@@ -3,22 +3,22 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.4",
-  "published_at": "2026-08-14T01:09:09+00:00",
+  "version": "3.2.5",
+  "published_at": "2026-08-15T01:10:22+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "071136458384463ac295cc002179e82f342a5daba5c46e83d4d60af23ee3f73f",
+    "sha256": "8a1af0f9721d09d803f04d462e113cd930519ad7f96c6ac010cc1f29afed2409",
     "size_bytes": 98142,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "559bc4b232347ad2c7d2cdd20044cc2ced010b38d386e0184c849dbcb1b4a5b3",
+    "sha256": "2a7f6a503f7c60e3aa8486ae0c8d28681ff0ed75b9c344db713a1683f7af3ae9",
     "size_bytes": 61641
   },
   "cards": 284,
@@ -1709,8 +1709,8 @@
       "uuid": "45920af1-de57-5363-9a22-d5cb3fda3261",
       "card_name": "Jeska's Will",
       "player": "Will",
-      "image_sha256": "c6f7ab78ac9095e9daf2b413262a2962cc2c3f081e0e5eaf65120b637eb2ff5a",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/215-c6f7ab78ac90.jpg"
+      "image_sha256": "dd5515657db6ff50bcbfa79c19bdaf5a2f286cb25748efcf172f90fc4abd3c5c",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/215-dd5515657db6.jpg"
     },
     {
       "collector_number": "216",
@@ -2413,19 +2413,19 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "559bc4b232347ad2c7d2cdd20044cc2ced010b38d386e0184c849dbcb1b4a5b3",
+      "sha256": "2a7f6a503f7c60e3aa8486ae0c8d28681ff0ed75b9c344db713a1683f7af3ae9",
       "size_bytes": 61641
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "8d59dd3f11e228f211db6705a431c035300a05302c405ce4feaeb627521ef993",
+      "sha256": "23e7b516143a57b12e561d9e9b53a4efe978bae84d083e0634dfc64fbf4327d6",
       "size_bytes": 199513
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "071136458384463ac295cc002179e82f342a5daba5c46e83d4d60af23ee3f73f",
+      "sha256": "8a1af0f9721d09d803f04d462e113cd930519ad7f96c6ac010cc1f29afed2409",
       "size_bytes": 98142
     },
     {
@@ -3683,10 +3683,10 @@
       "size_bytes": 4940752
     },
     {
-      "path": "images/WLX/215-c6f7ab78ac90.jpg",
-      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/215-c6f7ab78ac90.jpg",
-      "sha256": "c6f7ab78ac9095e9daf2b413262a2962cc2c3f081e0e5eaf65120b637eb2ff5a",
-      "size_bytes": 6380285
+      "path": "images/WLX/215-dd5515657db6.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/215-dd5515657db6.jpg",
+      "sha256": "dd5515657db6ff50bcbfa79c19bdaf5a2f286cb25748efcf172f90fc4abd3c5c",
+      "size_bytes": 6480067
     },
     {
       "path": "images/WLX/216-ef6abececfdf.jpg",
