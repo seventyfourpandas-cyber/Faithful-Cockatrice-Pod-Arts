@@ -3451,6 +3451,222 @@
         }
       ],
       "verified_at": "2026-08-15"
+    },
+    "afterlife insurance": {
+      "name": "Afterlife Insurance",
+      "oracle_id": "05501e88-d4c3-4474-92a9-c02ab15b107b",
+      "scryfall_uri": "https://scryfall.com/card/clu/23/afterlife-insurance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "black market connections": {
+      "name": "Black Market Connections",
+      "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c",
+      "scryfall_uri": "https://scryfall.com/card/msc/155/black-market-connections?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "blot out the sky": {
+      "name": "Blot Out the Sky",
+      "oracle_id": "ded78090-c6a1-4c9d-b7b9-b433b1d963b6",
+      "scryfall_uri": "https://scryfall.com/card/stx/167/blot-out-the-sky?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "call the coppercoats": {
+      "name": "Call the Coppercoats",
+      "oracle_id": "73d8c33d-916a-4220-96ae-9622aad36210",
+      "scryfall_uri": "https://scryfall.com/card/ncc/195/call-the-coppercoats?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "culling the weak": {
+      "name": "Culling the Weak",
+      "oracle_id": "6385fd0d-256d-4400-9319-afa8170024db",
+      "scryfall_uri": "https://scryfall.com/card/exo/55/culling-the-weak?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "dark ritual": {
+      "name": "Dark Ritual",
+      "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b",
+      "scryfall_uri": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "debt to the deathless": {
+      "name": "Debt to the Deathless",
+      "oracle_id": "6130f22d-7901-4f9f-b777-27bb0dacc063",
+      "scryfall_uri": "https://scryfall.com/card/rvr/176/debt-to-the-deathless?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "dictate of erebos": {
+      "name": "Dictate of Erebos",
+      "oracle_id": "7c777a41-e40a-4b40-96bf-8ddd5c12924c",
+      "scryfall_uri": "https://scryfall.com/card/jou/65/dictate-of-erebos?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "finale of glory": {
+      "name": "Finale of Glory",
+      "oracle_id": "68273453-1059-4eab-8c27-5d96f998f3b1",
+      "scryfall_uri": "https://scryfall.com/card/clu/61/finale-of-glory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "grand crescendo": {
+      "name": "Grand Crescendo",
+      "oracle_id": "dc600c06-8239-409e-b53d-20f813a3f5e7",
+      "scryfall_uri": "https://scryfall.com/card/tdc/118/grand-crescendo?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "inkshield": {
+      "name": "Inkshield",
+      "oracle_id": "da93264e-4e04-401a-9809-e4e1056cf604",
+      "scryfall_uri": "https://scryfall.com/card/soc/316/inkshield?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "kambal, profiteering mayor": {
+      "name": "Kambal, Profiteering Mayor",
+      "oracle_id": "619e0686-e88c-4238-8364-75395e733533",
+      "scryfall_uri": "https://scryfall.com/card/otj/211/kambal-profiteering-mayor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "lingering souls": {
+      "name": "Lingering Souls",
+      "oracle_id": "0b8c3337-04dd-4798-8203-6d8b8cfb936b",
+      "scryfall_uri": "https://scryfall.com/card/tdc/123/lingering-souls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "monastery mentor": {
+      "name": "Monastery Mentor",
+      "oracle_id": "3979067a-9c68-443d-a85f-d9f07be880b9",
+      "scryfall_uri": "https://scryfall.com/card/tdc/125/monastery-mentor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "night's whisper": {
+      "name": "Night's Whisper",
+      "oracle_id": "7ffae8f8-3006-4969-a339-6d30678f87ea",
+      "scryfall_uri": "https://scryfall.com/card/hoc/189/nights-whisper?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "ophiomancer": {
+      "name": "Ophiomancer",
+      "oracle_id": "55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7",
+      "scryfall_uri": "https://scryfall.com/card/soc/118/ophiomancer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "orzhov signet": {
+      "name": "Orzhov Signet",
+      "oracle_id": "de3dcb5d-775a-479f-99f5-d1883ed9b1b5",
+      "scryfall_uri": "https://scryfall.com/card/tdc/323/orzhov-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "plumb the forbidden": {
+      "name": "Plumb the Forbidden",
+      "oracle_id": "b099fc54-cdbc-46cb-b4e4-7c2ca77b115b",
+      "scryfall_uri": "https://scryfall.com/card/soc/224/plumb-the-forbidden?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "sedgemoor witch": {
+      "name": "Sedgemoor Witch",
+      "oracle_id": "25dce517-ac0a-4577-89ed-04296c7c4069",
+      "scryfall_uri": "https://scryfall.com/card/stx/86/sedgemoor-witch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "smothering tithe": {
+      "name": "Smothering Tithe",
+      "oracle_id": "153376c9-dffd-458c-8ce3-a4c8269bc4e9",
+      "scryfall_uri": "https://scryfall.com/card/cmm/57/smothering-tithe?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "swords to plowshares": {
+      "name": "Swords to Plowshares",
+      "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+      "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "thalisse, reverent medium": {
+      "name": "Thalisse, Reverent Medium",
+      "oracle_id": "77cf4fb1-593f-4240-96d9-6ae9084baeac",
+      "scryfall_uri": "https://scryfall.com/card/tdc/306/thalisse-reverent-medium?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "torment of hailfire": {
+      "name": "Torment of Hailfire",
+      "oracle_id": "30a0a6c2-1fbb-4784-ab96-22611d57e62c",
+      "scryfall_uri": "https://scryfall.com/card/hou/77/torment-of-hailfire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "vampiric tutor": {
+      "name": "Vampiric Tutor",
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "scryfall_uri": "https://scryfall.com/card/dmr/108/vampiric-tutor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "village rites": {
+      "name": "Village Rites",
+      "oracle_id": "365548fb-5acc-4a8a-b20b-26d28b7d029f",
+      "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "viscera seer": {
+      "name": "Viscera Seer",
+      "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be",
+      "scryfall_uri": "https://scryfall.com/card/soc/229/viscera-seer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
+    },
+    "will of the mardu": {
+      "name": "Will of the Mardu",
+      "oracle_id": "d8df9813-0376-4d30-8cdc-30451fb67726",
+      "scryfall_uri": "https://scryfall.com/card/tdc/17/will-of-the-mardu?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-16"
     }
   }
 }

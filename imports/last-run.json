@@ -1,15 +1,150 @@
 {
   "schema_version": 1,
-  "batch_id": "85ac5ca7b6",
-  "started_at": "2026-08-15T03:11:08+00:00",
-  "finished_at": "2026-08-15T03:11:09+00:00",
-  "found": 1,
-  "version_before": "3.2.6",
-  "version_after": "3.2.7",
+  "batch_id": "f5218283f7",
+  "started_at": "2026-08-16T07:32:08+00:00",
+  "finished_at": "2026-08-16T07:32:09+00:00",
+  "found": 28,
+  "version_before": "3.2.7",
+  "version_after": "3.2.8",
   "added": [
     {
-      "collector_number": "322",
-      "name": "Stensian Sanguinist // Exsanguinate",
+      "collector_number": "323",
+      "name": "Afterlife Insurance",
+      "player": "Will"
+    },
+    {
+      "collector_number": "324",
+      "name": "Black Market Connections",
+      "player": "Will"
+    },
+    {
+      "collector_number": "325",
+      "name": "Black Market Connections",
+      "player": "Will"
+    },
+    {
+      "collector_number": "326",
+      "name": "Blot Out the Sky",
+      "player": "Will"
+    },
+    {
+      "collector_number": "327",
+      "name": "Call the Coppercoats",
+      "player": "Will"
+    },
+    {
+      "collector_number": "328",
+      "name": "Culling the Weak",
+      "player": "Will"
+    },
+    {
+      "collector_number": "329",
+      "name": "Dark Ritual",
+      "player": "Will"
+    },
+    {
+      "collector_number": "330",
+      "name": "Debt to the Deathless",
+      "player": "Will"
+    },
+    {
+      "collector_number": "331",
+      "name": "Dictate of Erebos",
+      "player": "Will"
+    },
+    {
+      "collector_number": "332",
+      "name": "Finale of Glory",
+      "player": "Will"
+    },
+    {
+      "collector_number": "333",
+      "name": "Grand Crescendo",
+      "player": "Will"
+    },
+    {
+      "collector_number": "334",
+      "name": "Inkshield",
+      "player": "Will"
+    },
+    {
+      "collector_number": "335",
+      "name": "Kambal, Profiteering Mayor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "336",
+      "name": "Lingering Souls",
+      "player": "Will"
+    },
+    {
+      "collector_number": "337",
+      "name": "Monastery Mentor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "338",
+      "name": "Night's Whisper",
+      "player": "Will"
+    },
+    {
+      "collector_number": "339",
+      "name": "Ophiomancer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "340",
+      "name": "Orzhov Signet",
+      "player": "Will"
+    },
+    {
+      "collector_number": "341",
+      "name": "Plumb the Forbidden",
+      "player": "Will"
+    },
+    {
+      "collector_number": "342",
+      "name": "Sedgemoor Witch",
+      "player": "Will"
+    },
+    {
+      "collector_number": "343",
+      "name": "Smothering Tithe",
+      "player": "Will"
+    },
+    {
+      "collector_number": "344",
+      "name": "Swords to Plowshares",
+      "player": "Will"
+    },
+    {
+      "collector_number": "345",
+      "name": "Thalisse, Reverent Medium",
+      "player": "Will"
+    },
+    {
+      "collector_number": "346",
+      "name": "Torment of Hailfire",
+      "player": "Will"
+    },
+    {
+      "collector_number": "347",
+      "name": "Vampiric Tutor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "348",
+      "name": "Village Rites",
+      "player": "Will"
+    },
+    {
+      "collector_number": "349",
+      "name": "Viscera Seer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "350",
+      "name": "Will of the Mardu",
       "player": "Will"
     }
   ],
