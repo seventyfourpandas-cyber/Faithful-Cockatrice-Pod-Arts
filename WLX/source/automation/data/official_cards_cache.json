@@ -3346,6 +3346,111 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-15"
+    },
+    "stensian sanguinist // exsanguinate": {
+      "name": "Stensian Sanguinist // Exsanguinate",
+      "oracle_id": "25877c41-39a4-4cc3-ac4b-8f3dd06d579b",
+      "scryfall_uri": "https://scryfall.com/card/soc/29/stensian-sanguinist-exsanguinate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Stensian Sanguinist",
+          "side": "front",
+          "mana_cost": "{1}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Vampire Cleric",
+          "rules_text": "Whenever you attack, target creature gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this combat, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "2/2",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Exsanguinate",
+          "side": "back",
+          "mana_cost": "{X}{B}{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Each opponent loses X life. You gain life equal to the life lost this way.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "stensian sanguinist": {
+      "name": "Stensian Sanguinist // Exsanguinate",
+      "oracle_id": "25877c41-39a4-4cc3-ac4b-8f3dd06d579b",
+      "scryfall_uri": "https://scryfall.com/card/soc/29/stensian-sanguinist-exsanguinate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Stensian Sanguinist",
+          "side": "front",
+          "mana_cost": "{1}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Vampire Cleric",
+          "rules_text": "Whenever you attack, target creature gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this combat, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "2/2",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Exsanguinate",
+          "side": "back",
+          "mana_cost": "{X}{B}{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Each opponent loses X life. You gain life equal to the life lost this way.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
+    },
+    "exsanguinate": {
+      "name": "Stensian Sanguinist // Exsanguinate",
+      "oracle_id": "25877c41-39a4-4cc3-ac4b-8f3dd06d579b",
+      "scryfall_uri": "https://scryfall.com/card/soc/29/stensian-sanguinist-exsanguinate?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Stensian Sanguinist",
+          "side": "front",
+          "mana_cost": "{1}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Vampire Cleric",
+          "rules_text": "Whenever you attack, target creature gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this combat, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "2/2",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Exsanguinate",
+          "side": "back",
+          "mana_cost": "{X}{B}{B}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Each opponent loses X life. You gain life equal to the life lost this way.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-15"
     }
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.6",
+  "version": "3.2.7",
   "set_code": "WLX",
   "cards": [
     {
@@ -5796,6 +5796,24 @@
       "image": "images/WLX/321-back-79f9ed439e32.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/321-back-79f9ed439e32.jpg",
       "sha256": "79f9ed439e32d04b8591b74ccffbd37f0f4a92baa17ccb389bffaf9ee869f731",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Stensian Sanguinist // Exsanguinate",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "322",
+      "uuid": "171d7f0c-ce6c-533e-abad-eb9fa4e33e58",
+      "rarity": "special",
+      "image": "images/WLX/322-c77964a1912b.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/322-c77964a1912b.jpg",
+      "sha256": "c77964a1912b3bca09feff8dcc167bce0f86a21bea4c162677cd0c33e1a72107",
       "dimensions": [
         2976,
         4152
