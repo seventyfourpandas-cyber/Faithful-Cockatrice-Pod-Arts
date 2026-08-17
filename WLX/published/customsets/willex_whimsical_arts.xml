@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-17T07:47:02+00:00</createdAt>
+    <createdAt>2026-08-17T08:10:12+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.10</sourceVersion>
+    <sourceVersion>3.2.11</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1671,6 +1671,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="1db872b3-f396-5dd0-81d5-c77876d46430" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/293-back-70fea527613a.jpg" num="293" rarity="special">WLX</set>
       <related attach="transform">Sundering Eruption</related>
       <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Wand of the Worldsoul</name>
+      <set uuid="e5e232b5-698b-5fd1-bb1a-1bad705317d6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/384-99b78e0e23a7.jpg" num="384" rarity="special">WLX</set>
     </card>
     <card>
       <name>Wandertale Mentor</name>

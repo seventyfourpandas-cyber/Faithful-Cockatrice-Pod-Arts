@@ -4281,6 +4281,17 @@
       "image_file": "WLX-383.jpg",
       "image_sha256": "e55ea14726393cd078799cecc6da16911a9406aa351c2bc1a594ae01645d547f",
       "notes": "Imported from will/Xathrid Necromancer.jpg in file batch 4188e655f5"
+    },
+    {
+      "collector_number": "384",
+      "uuid": "e5e232b5-698b-5fd1-bb1a-1bad705317d6",
+      "card_kind": "official",
+      "official_name": "Wand of the Worldsoul",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-384.jpg",
+      "image_sha256": "99b78e0e23a7eaa1837e3ab1e2478d74860ea9456253bad0a1bac386f6030035",
+      "notes": "Imported from will/Wand of the Worldsoul.jpg in file batch 2b2910aab0"
     }
   ]
 }

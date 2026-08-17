@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "set_code": "WLX",
   "cards": [
     {
@@ -6912,6 +6912,24 @@
       "image": "images/WLX/383-e55ea1472639.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/383-e55ea1472639.jpg",
       "sha256": "e55ea14726393cd078799cecc6da16911a9406aa351c2bc1a594ae01645d547f",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Wand of the Worldsoul",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "384",
+      "uuid": "e5e232b5-698b-5fd1-bb1a-1bad705317d6",
+      "rarity": "special",
+      "image": "images/WLX/384-99b78e0e23a7.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/384-99b78e0e23a7.jpg",
+      "sha256": "99b78e0e23a7eaa1837e3ab1e2478d74860ea9456253bad0a1bac386f6030035",
       "dimensions": [
         2976,
         4152

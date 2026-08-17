@@ -3915,6 +3915,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-17"
+    },
+    "wand of the worldsoul": {
+      "name": "Wand of the Worldsoul",
+      "oracle_id": "3d175a59-c1b4-43b8-8a1f-f7cbcefe130e",
+      "scryfall_uri": "https://scryfall.com/card/moc/20/wand-of-the-worldsoul?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
     }
   }
 }
