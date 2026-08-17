@@ -1,150 +1,175 @@
 {
   "schema_version": 1,
-  "batch_id": "f5218283f7",
-  "started_at": "2026-08-16T07:32:08+00:00",
-  "finished_at": "2026-08-16T07:32:09+00:00",
-  "found": 28,
-  "version_before": "3.2.7",
-  "version_after": "3.2.8",
+  "batch_id": "4188e655f5",
+  "started_at": "2026-08-17T06:24:35+00:00",
+  "finished_at": "2026-08-17T06:24:36+00:00",
+  "found": 33,
+  "version_before": "3.2.8",
+  "version_after": "3.2.9",
   "added": [
     {
-      "collector_number": "323",
-      "name": "Afterlife Insurance",
+      "collector_number": "351",
+      "name": "Adeline, Resplendent Cathar",
       "player": "Will"
     },
     {
-      "collector_number": "324",
-      "name": "Black Market Connections",
+      "collector_number": "352",
+      "name": "Anim Pakal, Thousandth Moon",
       "player": "Will"
     },
     {
-      "collector_number": "325",
-      "name": "Black Market Connections",
+      "collector_number": "353",
+      "name": "Anointed Procession",
       "player": "Will"
     },
     {
-      "collector_number": "326",
-      "name": "Blot Out the Sky",
+      "collector_number": "354",
+      "name": "Blood for the Blood God!",
       "player": "Will"
     },
     {
-      "collector_number": "327",
-      "name": "Call the Coppercoats",
+      "collector_number": "355",
+      "name": "Body Count",
       "player": "Will"
     },
     {
-      "collector_number": "328",
-      "name": "Culling the Weak",
+      "collector_number": "356",
+      "name": "Boros Charm",
       "player": "Will"
     },
     {
-      "collector_number": "329",
-      "name": "Dark Ritual",
+      "collector_number": "357",
+      "name": "Caesar, Legion's Emperor",
       "player": "Will"
     },
     {
-      "collector_number": "330",
-      "name": "Debt to the Deathless",
+      "collector_number": "358",
+      "name": "Clever Concealment",
       "player": "Will"
     },
     {
-      "collector_number": "331",
-      "name": "Dictate of Erebos",
+      "collector_number": "359",
+      "name": "Company Commander",
       "player": "Will"
     },
     {
-      "collector_number": "332",
-      "name": "Finale of Glory",
+      "collector_number": "360",
+      "name": "Corrupted Conviction",
       "player": "Will"
     },
     {
-      "collector_number": "333",
-      "name": "Grand Crescendo",
+      "collector_number": "361",
+      "name": "Dire Tactics",
       "player": "Will"
     },
     {
-      "collector_number": "334",
-      "name": "Inkshield",
+      "collector_number": "362",
+      "name": "Fatal Grudge",
       "player": "Will"
     },
     {
-      "collector_number": "335",
-      "name": "Kambal, Profiteering Mayor",
+      "collector_number": "363",
+      "name": "Fury Storm",
       "player": "Will"
     },
     {
-      "collector_number": "336",
-      "name": "Lingering Souls",
+      "collector_number": "364",
+      "name": "Garna, Bloodfist of Keld",
       "player": "Will"
     },
     {
-      "collector_number": "337",
-      "name": "Monastery Mentor",
+      "collector_number": "365",
+      "name": "General Ferrous Rokiric",
       "player": "Will"
     },
     {
-      "collector_number": "338",
-      "name": "Night's Whisper",
+      "collector_number": "366",
+      "name": "Geode Golem",
       "player": "Will"
     },
     {
-      "collector_number": "339",
-      "name": "Ophiomancer",
+      "collector_number": "367",
+      "name": "Harried Spearguard",
       "player": "Will"
     },
     {
-      "collector_number": "340",
-      "name": "Orzhov Signet",
+      "collector_number": "368",
+      "name": "Hero of Precinct One",
       "player": "Will"
     },
     {
-      "collector_number": "341",
-      "name": "Plumb the Forbidden",
+      "collector_number": "369",
+      "name": "Horn of Gondor",
       "player": "Will"
     },
     {
-      "collector_number": "342",
-      "name": "Sedgemoor Witch",
+      "collector_number": "370",
+      "name": "Hunted Witness",
       "player": "Will"
     },
     {
-      "collector_number": "343",
-      "name": "Smothering Tithe",
+      "collector_number": "371",
+      "name": "Idol of Oblivion",
       "player": "Will"
     },
     {
-      "collector_number": "344",
-      "name": "Swords to Plowshares",
+      "collector_number": "372",
+      "name": "Lagomos, Hand of Hatred",
       "player": "Will"
     },
     {
-      "collector_number": "345",
-      "name": "Thalisse, Reverent Medium",
+      "collector_number": "373",
+      "name": "Mahadi, Emporium Master",
       "player": "Will"
     },
     {
-      "collector_number": "346",
-      "name": "Torment of Hailfire",
+      "collector_number": "374",
+      "name": "Marionette Apprentice",
       "player": "Will"
     },
     {
-      "collector_number": "347",
-      "name": "Vampiric Tutor",
+      "collector_number": "375",
+      "name": "Mondrak, Glory Dominus",
       "player": "Will"
     },
     {
-      "collector_number": "348",
-      "name": "Village Rites",
+      "collector_number": "376",
+      "name": "Muster the Departed",
       "player": "Will"
     },
     {
-      "collector_number": "349",
-      "name": "Viscera Seer",
+      "collector_number": "377",
+      "name": "Netherborn Altar",
       "player": "Will"
     },
     {
-      "collector_number": "350",
-      "name": "Will of the Mardu",
+      "collector_number": "378",
+      "name": "Rite of Oblivion",
+      "player": "Will"
+    },
+    {
+      "collector_number": "379",
+      "name": "Ruinous Ultimatum",
+      "player": "Will"
+    },
+    {
+      "collector_number": "380",
+      "name": "Skull Storm",
+      "player": "Will"
+    },
+    {
+      "collector_number": "381",
+      "name": "Séance Board",
+      "player": "Will"
+    },
+    {
+      "collector_number": "382",
+      "name": "Voice of Victory",
+      "player": "Will"
+    },
+    {
+      "collector_number": "383",
+      "name": "Xathrid Necromancer",
       "player": "Will"
     }
   ],

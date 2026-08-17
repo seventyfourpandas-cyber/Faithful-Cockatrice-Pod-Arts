@@ -3667,6 +3667,254 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-16"
+    },
+    "adeline, resplendent cathar": {
+      "name": "Adeline, Resplendent Cathar",
+      "oracle_id": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+      "scryfall_uri": "https://scryfall.com/card/tdc/108/adeline-resplendent-cathar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "anim pakal, thousandth moon": {
+      "name": "Anim Pakal, Thousandth Moon",
+      "oracle_id": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+      "scryfall_uri": "https://scryfall.com/card/lci/223/anim-pakal-thousandth-moon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "anointed procession": {
+      "name": "Anointed Procession",
+      "oracle_id": "7246d45b-2185-4cdd-981b-5419b7d52bce",
+      "scryfall_uri": "https://scryfall.com/card/akh/2/anointed-procession?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "blood for the blood god!": {
+      "name": "Blood for the Blood God!",
+      "oracle_id": "a6079dff-9479-4665-aba5-2cddefb9a2bc",
+      "scryfall_uri": "https://scryfall.com/card/40k/108/blood-for-the-blood-god!?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "body count": {
+      "name": "Body Count",
+      "oracle_id": "9041338d-b660-4fc2-922f-cdf9d1a25993",
+      "scryfall_uri": "https://scryfall.com/card/ncc/34/body-count?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "boros charm": {
+      "name": "Boros Charm",
+      "oracle_id": "2679d0dd-ba30-4a1c-b6a0-b3ac6c790496",
+      "scryfall_uri": "https://scryfall.com/card/fdn/721/boros-charm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "caesar, legion's emperor": {
+      "name": "Caesar, Legion's Emperor",
+      "oracle_id": "8e62d05a-6efd-4764-bca8-97895e0cb613",
+      "scryfall_uri": "https://scryfall.com/card/pip/1/caesar-legions-emperor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "clever concealment": {
+      "name": "Clever Concealment",
+      "oracle_id": "42bb7ea9-f6e4-4551-8d93-3b1eae84b865",
+      "scryfall_uri": "https://scryfall.com/card/msc/125/clever-concealment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "company commander": {
+      "name": "Company Commander",
+      "oracle_id": "53643dd7-183b-4062-b7a3-e7723d23bdb0",
+      "scryfall_uri": "https://scryfall.com/card/40k/113/company-commander?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "corrupted conviction": {
+      "name": "Corrupted Conviction",
+      "oracle_id": "b45e35df-9032-4482-89a6-c7c50c6d0a79",
+      "scryfall_uri": "https://scryfall.com/card/otj/84/corrupted-conviction?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "dire tactics": {
+      "name": "Dire Tactics",
+      "oracle_id": "0c8cb2ec-5b58-497c-a6e7-2d25512d5a44",
+      "scryfall_uri": "https://scryfall.com/card/iko/183/dire-tactics?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "fatal grudge": {
+      "name": "Fatal Grudge",
+      "oracle_id": "37114872-9804-4ee8-a443-21ea6eaddb0c",
+      "scryfall_uri": "https://scryfall.com/card/snc/187/fatal-grudge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "garna, bloodfist of keld": {
+      "name": "Garna, Bloodfist of Keld",
+      "oracle_id": "3fb83218-e18d-405d-91c8-46b5e4e672a9",
+      "scryfall_uri": "https://scryfall.com/card/fdn/658/garna-bloodfist-of-keld?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "general ferrous rokiric": {
+      "name": "General Ferrous Rokiric",
+      "oracle_id": "64c15098-f893-44f2-bf7f-162db8ab80e9",
+      "scryfall_uri": "https://scryfall.com/card/mh2/198/general-ferrous-rokiric?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "geode golem": {
+      "name": "Geode Golem",
+      "oracle_id": "aaed2f39-6d5d-4880-a7c4-5a045399dab3",
+      "scryfall_uri": "https://scryfall.com/card/cmm/386/geode-golem?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "harried spearguard": {
+      "name": "Harried Spearguard",
+      "oracle_id": "e3542d0f-fcee-4df7-aa95-b55138caa2ab",
+      "scryfall_uri": "https://scryfall.com/card/woe/135/harried-spearguard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "hero of precinct one": {
+      "name": "Hero of Precinct One",
+      "oracle_id": "5a66802a-76f9-4a31-a776-24110dcfca64",
+      "scryfall_uri": "https://scryfall.com/card/dmc/101/hero-of-precinct-one?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "horn of gondor": {
+      "name": "Horn of Gondor",
+      "oracle_id": "88777fc0-286d-47fc-8e94-1e289b4964c4",
+      "scryfall_uri": "https://scryfall.com/card/ltr/240/horn-of-gondor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "hunted witness": {
+      "name": "Hunted Witness",
+      "oracle_id": "1fde570c-aa96-45ca-a6be-f59c8e4f4b6a",
+      "scryfall_uri": "https://scryfall.com/card/grn/15/hunted-witness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "idol of oblivion": {
+      "name": "Idol of Oblivion",
+      "oracle_id": "c232d974-9c65-4bce-b045-e5a7cc0c62e0",
+      "scryfall_uri": "https://scryfall.com/card/tdc/319/idol-of-oblivion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "lagomos, hand of hatred": {
+      "name": "Lagomos, Hand of Hatred",
+      "oracle_id": "12c98c1e-7e02-473d-b494-ad8a0731fe82",
+      "scryfall_uri": "https://scryfall.com/card/dmu/205/lagomos-hand-of-hatred?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "mahadi, emporium master": {
+      "name": "Mahadi, Emporium Master",
+      "oracle_id": "1b3e841e-0f8f-467d-9983-f9b8d081a67f",
+      "scryfall_uri": "https://scryfall.com/card/clb/282/mahadi-emporium-master?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "marionette apprentice": {
+      "name": "Marionette Apprentice",
+      "oracle_id": "726d9d2c-736a-4852-9938-a0f50d8fd89f",
+      "scryfall_uri": "https://scryfall.com/card/mh3/100/marionette-apprentice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "mondrak, glory dominus": {
+      "name": "Mondrak, Glory Dominus",
+      "oracle_id": "fe83087d-c6c1-40be-9295-baaa1c6b2db1",
+      "scryfall_uri": "https://scryfall.com/card/one/23/mondrak-glory-dominus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "muster the departed": {
+      "name": "Muster the Departed",
+      "oracle_id": "f0ba9cca-b946-465c-acae-0b465d7e1622",
+      "scryfall_uri": "https://scryfall.com/card/mh3/36/muster-the-departed?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "netherborn altar": {
+      "name": "Netherborn Altar",
+      "oracle_id": "a127d62a-8709-46bb-9301-96f09e7924a1",
+      "scryfall_uri": "https://scryfall.com/card/c20/45/netherborn-altar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "rite of oblivion": {
+      "name": "Rite of Oblivion",
+      "oracle_id": "99957aa7-b654-41b5-9b96-7bce47545d25",
+      "scryfall_uri": "https://scryfall.com/card/mid/237/rite-of-oblivion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "ruinous ultimatum": {
+      "name": "Ruinous Ultimatum",
+      "oracle_id": "a6f38908-aa4f-4f99-a28e-85d11dab52e4",
+      "scryfall_uri": "https://scryfall.com/card/iko/204/ruinous-ultimatum?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "séance board": {
+      "name": "Séance Board",
+      "oracle_id": "8331d2ff-3729-4014-8dcb-278644d2632a",
+      "scryfall_uri": "https://scryfall.com/card/dsc/40/s%C3%A9ance-board?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "voice of victory": {
+      "name": "Voice of Victory",
+      "oracle_id": "b12cbda1-ac09-49eb-96b3-a4df27bc37ea",
+      "scryfall_uri": "https://scryfall.com/card/tdm/33/voice-of-victory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
+    },
+    "xathrid necromancer": {
+      "name": "Xathrid Necromancer",
+      "oracle_id": "a6b38874-c8be-47f7-a656-ba49ec9e967f",
+      "scryfall_uri": "https://scryfall.com/card/c20/141/xathrid-necromancer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-17"
     }
   }
 }
