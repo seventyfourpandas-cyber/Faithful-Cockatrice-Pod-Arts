@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-17T06:24:35+00:00</createdAt>
+    <createdAt>2026-08-17T07:47:02+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.9</sourceVersion>
+    <sourceVersion>3.2.10</sourceVersion>
   </info>
   <sets>
     <set>
@@ -157,7 +157,7 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
         <colors>BR</colors>
         <coloridentity>WBR</coloridentity>
       </prop>
-      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-back-29fe4f892b95.jpg" num="007" rarity="special">WLX</set>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-back-e364cd8a9c87.jpg" num="007" rarity="special">WLX</set>
       <related attach="transform">Extus, Oriq Overlord</related>
       <tablerow>3</tablerow>
     </card>
@@ -510,7 +510,7 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
         <coloridentity>WBR</coloridentity>
         <pt>2/4</pt>
       </prop>
-      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-front-0247de4a9c85.jpg" num="007" rarity="special">WLX</set>
+      <set uuid="aa42d7ed-2f5c-521b-bd3a-84a39a40bd38" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/007-front-4a0dd4296ced.jpg" num="007" rarity="special">WLX</set>
       <related attach="transform">Awaken the Blood Avatar</related>
       <tablerow>2</tablerow>
     </card>
