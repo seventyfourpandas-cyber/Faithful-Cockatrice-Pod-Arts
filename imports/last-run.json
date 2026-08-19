@@ -1,15 +1,200 @@
 {
   "schema_version": 1,
-  "batch_id": "2b2910aab0",
-  "started_at": "2026-08-17T08:10:12+00:00",
-  "finished_at": "2026-08-17T08:10:14+00:00",
-  "found": 1,
-  "version_before": "3.2.10",
-  "version_after": "3.2.11",
+  "batch_id": "00e246675e",
+  "started_at": "2026-08-19T00:19:03+00:00",
+  "finished_at": "2026-08-19T00:19:05+00:00",
+  "found": 38,
+  "version_before": "3.2.11",
+  "version_after": "3.2.12",
   "added": [
     {
-      "collector_number": "384",
-      "name": "Wand of the Worldsoul",
+      "collector_number": "385",
+      "name": "Azure Beastbinder",
+      "player": "Will"
+    },
+    {
+      "collector_number": "386",
+      "name": "Barrin, Tolarian Archmage",
+      "player": "Will"
+    },
+    {
+      "collector_number": "387",
+      "name": "Changeling Outcast",
+      "player": "Will"
+    },
+    {
+      "collector_number": "388",
+      "name": "Chart a Course",
+      "player": "Will"
+    },
+    {
+      "collector_number": "389",
+      "name": "Cloud of Faeries",
+      "player": "Will"
+    },
+    {
+      "collector_number": "390",
+      "name": "Dauthi Voidwalker",
+      "player": "Will"
+    },
+    {
+      "collector_number": "391",
+      "name": "Dimir Signet",
+      "player": "Will"
+    },
+    {
+      "collector_number": "392",
+      "name": "Disdainful Stroke",
+      "player": "Will"
+    },
+    {
+      "collector_number": "393",
+      "name": "Faerie Dreamthief",
+      "player": "Will"
+    },
+    {
+      "collector_number": "394",
+      "name": "Faerie Seer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "395",
+      "name": "Fallen Shinobi",
+      "player": "Will"
+    },
+    {
+      "collector_number": "396",
+      "name": "Gyruda, Doom of Depths",
+      "player": "Will"
+    },
+    {
+      "collector_number": "397",
+      "name": "Insatiable Avarice",
+      "player": "Will"
+    },
+    {
+      "collector_number": "398",
+      "name": "Jin-Gitaxias, Core Augur",
+      "player": "Will"
+    },
+    {
+      "collector_number": "399",
+      "name": "Jin-Gitaxias, Core Augur",
+      "player": "Will"
+    },
+    {
+      "collector_number": "400",
+      "name": "Lord of Change",
+      "player": "Will"
+    },
+    {
+      "collector_number": "401",
+      "name": "Meteor Golem",
+      "player": "Will"
+    },
+    {
+      "collector_number": "402",
+      "name": "Mindleech Mass",
+      "player": "Will"
+    },
+    {
+      "collector_number": "403",
+      "name": "Nightveil Sprite",
+      "player": "Will"
+    },
+    {
+      "collector_number": "404",
+      "name": "Ornithopter",
+      "player": "Will"
+    },
+    {
+      "collector_number": "405",
+      "name": "Grave Researcher // Reanimate",
+      "player": "Will"
+    },
+    {
+      "collector_number": "406",
+      "name": "Grave Researcher // Reanimate",
+      "player": "Will"
+    },
+    {
+      "collector_number": "407",
+      "name": "Rhystic Study",
+      "player": "Will"
+    },
+    {
+      "collector_number": "408",
+      "name": "Rhystic Study",
+      "player": "Will"
+    },
+    {
+      "collector_number": "409",
+      "name": "Satoru Umezawa",
+      "player": "Will"
+    },
+    {
+      "collector_number": "410",
+      "name": "Sepulchral Primordial",
+      "player": "Will"
+    },
+    {
+      "collector_number": "411",
+      "name": "Silent-Blade Oni",
+      "player": "Will"
+    },
+    {
+      "collector_number": "412",
+      "name": "Silver-Fur Master",
+      "player": "Will"
+    },
+    {
+      "collector_number": "413",
+      "name": "Sire of Stagnation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "414",
+      "name": "Siren Stormtamer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "415",
+      "name": "Slither Blade",
+      "player": "Will"
+    },
+    {
+      "collector_number": "416",
+      "name": "Soul Manipulation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "417",
+      "name": "Sun Quan, Lord of Wu",
+      "player": "Will"
+    },
+    {
+      "collector_number": "418",
+      "name": "Talisman of Dominance",
+      "player": "Will"
+    },
+    {
+      "collector_number": "419",
+      "name": "Thousand-Faced Shadow",
+      "player": "Will"
+    },
+    {
+      "collector_number": "420",
+      "name": "Toxic Deluge",
+      "player": "Will"
+    },
+    {
+      "collector_number": "421",
+      "name": "Toxic Deluge",
+      "player": "Will"
+    },
+    {
+      "collector_number": "422",
+      "name": "Zareth San, the Trickster",
       "player": "Will"
     }
   ],

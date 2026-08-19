@@ -3923,6 +3923,270 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-17"
+    },
+    "azure beastbinder": {
+      "name": "Azure Beastbinder",
+      "oracle_id": "7bb51602-60e8-4730-b11c-2870d6b42e20",
+      "scryfall_uri": "https://scryfall.com/card/blb/41/azure-beastbinder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "barrin, tolarian archmage": {
+      "name": "Barrin, Tolarian Archmage",
+      "oracle_id": "f98f7cb7-90ca-41e7-9f1d-8054931ecf0e",
+      "scryfall_uri": "https://scryfall.com/card/m21/45/barrin-tolarian-archmage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "changeling outcast": {
+      "name": "Changeling Outcast",
+      "oracle_id": "a61ef0cc-1da9-49f9-b0dc-01cf9f6205be",
+      "scryfall_uri": "https://scryfall.com/card/otc/128/changeling-outcast?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "chart a course": {
+      "name": "Chart a Course",
+      "oracle_id": "05878e49-93ad-4144-9c50-a0bb86126c2e",
+      "scryfall_uri": "https://scryfall.com/card/fdn/586/chart-a-course?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "cloud of faeries": {
+      "name": "Cloud of Faeries",
+      "oracle_id": "adc1f3b4-cce7-42c9-a208-dbab1d1924f5",
+      "scryfall_uri": "https://scryfall.com/card/moc/219/cloud-of-faeries?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "dauthi voidwalker": {
+      "name": "Dauthi Voidwalker",
+      "oracle_id": "f1c2dbe2-fbe0-4058-bdf1-91d1b1832786",
+      "scryfall_uri": "https://scryfall.com/card/tdc/176/dauthi-voidwalker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "dimir signet": {
+      "name": "Dimir Signet",
+      "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+      "scryfall_uri": "https://scryfall.com/card/clu/221/dimir-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "disdainful stroke": {
+      "name": "Disdainful Stroke",
+      "oracle_id": "11e02134-7b1a-46a4-a89e-7539dd1efada",
+      "scryfall_uri": "https://scryfall.com/card/woe/47/disdainful-stroke?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "faerie dreamthief": {
+      "name": "Faerie Dreamthief",
+      "oracle_id": "d6e68414-80cb-4e08-ae84-b084a3f4b6de",
+      "scryfall_uri": "https://scryfall.com/card/woe/89/faerie-dreamthief?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "faerie seer": {
+      "name": "Faerie Seer",
+      "oracle_id": "b2e65e8b-5f08-4cc2-ab1d-00f8903dbea2",
+      "scryfall_uri": "https://scryfall.com/card/mh1/51/faerie-seer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "fallen shinobi": {
+      "name": "Fallen Shinobi",
+      "oracle_id": "4fc5f871-a809-4a4a-adfb-eb4cd52837c8",
+      "scryfall_uri": "https://scryfall.com/card/otc/226/fallen-shinobi?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "gyruda, doom of depths": {
+      "name": "Gyruda, Doom of Depths",
+      "oracle_id": "25eaa977-ca85-4f8d-8be5-9297a3edb14f",
+      "scryfall_uri": "https://scryfall.com/card/iko/221/gyruda-doom-of-depths?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "insatiable avarice": {
+      "name": "Insatiable Avarice",
+      "oracle_id": "ad3e705f-da57-4eff-84d7-2072522de988",
+      "scryfall_uri": "https://scryfall.com/card/otj/91/insatiable-avarice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "jin-gitaxias, core augur": {
+      "name": "Jin-Gitaxias, Core Augur",
+      "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+      "scryfall_uri": "https://scryfall.com/card/ima/62/jin-gitaxias-core-augur?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "lord of change": {
+      "name": "Lord of Change",
+      "oracle_id": "b575fb16-c3c3-4cad-857f-122257a4b32f",
+      "scryfall_uri": "https://scryfall.com/card/40k/24/lord-of-change?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "meteor golem": {
+      "name": "Meteor Golem",
+      "oracle_id": "d9f11aa1-9219-42a8-85a9-a8f204160706",
+      "scryfall_uri": "https://scryfall.com/card/msc/205/meteor-golem?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "mindleech mass": {
+      "name": "Mindleech Mass",
+      "oracle_id": "facc2d6f-3f28-4b87-b643-44fdf939a2b5",
+      "scryfall_uri": "https://scryfall.com/card/rvr/201/mindleech-mass?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "nightveil sprite": {
+      "name": "Nightveil Sprite",
+      "oracle_id": "8ac23863-0aa7-41bc-b9b7-c5f0566172cf",
+      "scryfall_uri": "https://scryfall.com/card/mkc/113/nightveil-sprite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "ornithopter": {
+      "name": "Ornithopter",
+      "oracle_id": "a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba",
+      "scryfall_uri": "https://scryfall.com/card/dmr/233/ornithopter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "rhystic study": {
+      "name": "Rhystic Study",
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+      "scryfall_uri": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "satoru umezawa": {
+      "name": "Satoru Umezawa",
+      "oracle_id": "ed1d21ba-ddfe-4f82-9e37-93f9e2c7ba33",
+      "scryfall_uri": "https://scryfall.com/card/neo/234/satoru-umezawa?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "sepulchral primordial": {
+      "name": "Sepulchral Primordial",
+      "oracle_id": "480454a0-fb10-432b-a963-8b0c0ffc6680",
+      "scryfall_uri": "https://scryfall.com/card/znc/54/sepulchral-primordial?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "silent-blade oni": {
+      "name": "Silent-Blade Oni",
+      "oracle_id": "4f515250-0f1f-4fb7-aa75-b703b81ccd4a",
+      "scryfall_uri": "https://scryfall.com/card/otc/241/silent-blade-oni?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "silver-fur master": {
+      "name": "Silver-Fur Master",
+      "oracle_id": "60ec735d-c9be-4776-beb7-f603ae22edbf",
+      "scryfall_uri": "https://scryfall.com/card/neo/236/silver-fur-master?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "sire of stagnation": {
+      "name": "Sire of Stagnation",
+      "oracle_id": "ed6607f4-20ab-4d3f-a8af-bcc148423336",
+      "scryfall_uri": "https://scryfall.com/card/bfz/206/sire-of-stagnation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "siren stormtamer": {
+      "name": "Siren Stormtamer",
+      "oracle_id": "59c7496b-19a2-478b-b28f-6f153c2458ae",
+      "scryfall_uri": "https://scryfall.com/card/lcc/171/siren-stormtamer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "slither blade": {
+      "name": "Slither Blade",
+      "oracle_id": "5a55641b-0818-4418-a2e5-44157056353c",
+      "scryfall_uri": "https://scryfall.com/card/otc/114/slither-blade?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "soul manipulation": {
+      "name": "Soul Manipulation",
+      "oracle_id": "419c2ae1-fec7-4c27-a7a0-99f777abb4de",
+      "scryfall_uri": "https://scryfall.com/card/znc/100/soul-manipulation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "sun quan, lord of wu": {
+      "name": "Sun Quan, Lord of Wu",
+      "oracle_id": "70503280-6bdf-431d-8213-367a9783463a",
+      "scryfall_uri": "https://scryfall.com/card/cmm/123/sun-quan-lord-of-wu?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "talisman of dominance": {
+      "name": "Talisman of Dominance",
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "scryfall_uri": "https://scryfall.com/card/msc/219/talisman-of-dominance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "thousand-faced shadow": {
+      "name": "Thousand-Faced Shadow",
+      "oracle_id": "98636623-bbc6-4935-a2bb-2234691eb6d8",
+      "scryfall_uri": "https://scryfall.com/card/neo/86/thousand-faced-shadow?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "toxic deluge": {
+      "name": "Toxic Deluge",
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "scryfall_uri": "https://scryfall.com/card/msc/161/toxic-deluge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
+    },
+    "zareth san, the trickster": {
+      "name": "Zareth San, the Trickster",
+      "oracle_id": "a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e",
+      "scryfall_uri": "https://scryfall.com/card/znr/242/zareth-san-the-trickster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-19"
     }
   }
 }
