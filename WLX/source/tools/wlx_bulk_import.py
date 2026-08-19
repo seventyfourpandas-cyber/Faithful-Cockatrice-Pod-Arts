@@ -235,13 +235,6 @@ def cache_card_details(
     official_cache: dict[str, Any], requested: str, details: dict[str, Any]
 ) -> None:
     aliases = {requested.casefold(), str(details.get("name", "")).casefold()}
-    faces = details.get("faces")
-    if isinstance(faces, list):
-        aliases.update(
-            str(face.get("official_name", "")).casefold()
-            for face in faces
-            if isinstance(face, dict)
-        )
     for alias in aliases:
         if alias:
             official_cache["cards"][alias] = details

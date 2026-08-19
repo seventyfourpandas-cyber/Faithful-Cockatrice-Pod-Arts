@@ -649,7 +649,7 @@ def verify_official_name(root: Path, requested: str, config: dict[str, Any]) -> 
 def verify_official_double_faced(
     root: Path, requested: str, config: dict[str, Any]
 ) -> dict[str, Any]:
-    """Resolve one official two-faced physical card and cache both face names."""
+    """Resolve one official two-faced physical card without caching face aliases."""
     cache_path = source_path(root, OFFICIAL_CACHE_RELATIVE)
     cache = load_official_cache(root)
     cached = cache["cards"].get(requested.casefold())
@@ -676,7 +676,7 @@ def verify_official_double_faced(
         raise WlxError("Scryfall returned malformed double-faced card data")
 
     canonical = str(result["name"])
-    aliases = {canonical.casefold(), requested.casefold(), *(name.casefold() for name in face_names)}
+    aliases = {canonical.casefold(), requested.casefold()}
     for alias in aliases:
         cache["cards"][alias] = result
     write_json(cache_path, cache)

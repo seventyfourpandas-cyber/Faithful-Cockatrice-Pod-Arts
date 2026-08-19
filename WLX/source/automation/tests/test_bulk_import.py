@@ -243,6 +243,26 @@ class BulkImportTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.fixture.close()
 
+    def test_multiface_lookup_does_not_claim_a_standalone_card_name(self) -> None:
+        prepared = {
+            "name": "Grave Researcher // Reanimate",
+            "oracle_id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
+            "scryfall_uri": "https://example.invalid/grave-researcher-reanimate",
+            "layout": "prepare",
+            "faces": [
+                {"official_name": "Grave Researcher", "side": "front"},
+                {"official_name": "Reanimate", "side": "back"},
+            ],
+        }
+        cache: dict[str, object] = {"schema_version": 1, "cards": {}}
+        bulk.cache_card_details(cache, "Grave Researcher", prepared)
+        cards = cache["cards"]
+        self.assertIsInstance(cards, dict)
+        assert isinstance(cards, dict)
+        self.assertIn("grave researcher", cards)
+        self.assertIn("grave researcher // reanimate", cards)
+        self.assertNotIn("reanimate", cards)
+
     def test_one_batch_imports_one_hundred_images_and_bumps_once(self) -> None:
         for number in range(1, 101):
             name = f"Test Card {number:03d}"

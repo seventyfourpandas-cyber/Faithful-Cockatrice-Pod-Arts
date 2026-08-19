@@ -3,25 +3,25 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.12",
-  "published_at": "2026-08-19T00:19:03+00:00",
+  "version": "3.2.13",
+  "published_at": "2026-08-19T02:37:15+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "ddd9aba2df1889fffec7635164b186c751ca3a8a775cd7b89f52b8e14409fd7f",
-    "size_bytes": 136181,
+    "sha256": "2e8b208e8cfce30062f265b34cdd9f1973f98f983a7fe88e5d37500d8d6e78f2",
+    "size_bytes": 136233,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "7f926ecc42e0cf7ae800041862075e9c8ead248da490cf2d329cc8640925cc4d",
+    "sha256": "e60386e6e15cd63f0047faff5a6def592fd2ed6dda6c083a9d3c9cb206b3eb8f",
     "size_bytes": 61643
   },
-  "cards": 401,
+  "cards": 402,
   "printings_count": 414,
   "face_entries_count": 423,
   "sets": 1,
@@ -3275,7 +3275,7 @@
     {
       "collector_number": "405",
       "uuid": "0a58a2ad-a6d5-5d73-9ad4-30a01e18fecb",
-      "card_name": "Grave Researcher // Reanimate",
+      "card_name": "Reanimate",
       "player": "Will",
       "image_sha256": "64062438aa96cd7223c93c28d534dfa5efa909b53e744ecdad5005c809f95eb1",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/405-64062438aa96.jpg"
@@ -3283,7 +3283,7 @@
     {
       "collector_number": "406",
       "uuid": "8703cd3d-4cac-5862-9cb5-5285508d5a4f",
-      "card_name": "Grave Researcher // Reanimate",
+      "card_name": "Reanimate",
       "player": "Will",
       "image_sha256": "c71c70a3a2237f9c79a813234dc7cdd915a0ac7f353b9fd2d37f9d12cbca1328",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/406-c71c70a3a223.jpg"
@@ -3421,20 +3421,20 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "7f926ecc42e0cf7ae800041862075e9c8ead248da490cf2d329cc8640925cc4d",
+      "sha256": "e60386e6e15cd63f0047faff5a6def592fd2ed6dda6c083a9d3c9cb206b3eb8f",
       "size_bytes": 61643
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "7d34a797332da61b3965eb4aab7638b8cdde32eb4c31676ad06bf270976c41cb",
-      "size_bytes": 284017
+      "sha256": "9eb28461e0b854c0a04ac9b7e6fa79825e878604a1cf9e63be6d3327be94e3ca",
+      "size_bytes": 283977
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "ddd9aba2df1889fffec7635164b186c751ca3a8a775cd7b89f52b8e14409fd7f",
-      "size_bytes": 136181
+      "sha256": "2e8b208e8cfce30062f265b34cdd9f1973f98f983a7fe88e5d37500d8d6e78f2",
+      "size_bytes": 136233
     },
     {
       "path": "images/WLX/001-680c22b71393.png",

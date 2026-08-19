@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-19T00:19:03+00:00</createdAt>
+    <createdAt>2026-08-19T02:37:15+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.12</sourceVersion>
+    <sourceVersion>3.2.13</sourceVersion>
   </info>
   <sets>
     <set>
@@ -698,8 +698,6 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
     <card>
       <name>Grave Researcher // Reanimate</name>
       <set uuid="0990135a-069c-5cb3-a794-2522a43ea8aa" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/305-11deb0af470c.jpg" num="305" rarity="special">WLX</set>
-      <set uuid="0a58a2ad-a6d5-5d73-9ad4-30a01e18fecb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/405-64062438aa96.jpg" num="405" rarity="special">WLX</set>
-      <set uuid="8703cd3d-4cac-5862-9cb5-5285508d5a4f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/406-c71c70a3a223.jpg" num="406" rarity="special">WLX</set>
     </card>
     <card>
       <name>Grave Sifter</name>
@@ -1252,6 +1250,11 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Razaketh, the Foulblooded</name>
       <set uuid="121a94a5-79f4-5bc0-a530-ab7d0c258a32" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/244-8a3a5ea0e223.jpg" num="244" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Reanimate</name>
+      <set uuid="0a58a2ad-a6d5-5d73-9ad4-30a01e18fecb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/405-64062438aa96.jpg" num="405" rarity="special">WLX</set>
+      <set uuid="8703cd3d-4cac-5862-9cb5-5285508d5a4f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/406-c71c70a3a223.jpg" num="406" rarity="special">WLX</set>
     </card>
     <card>
       <name>Reaver Titan</name>

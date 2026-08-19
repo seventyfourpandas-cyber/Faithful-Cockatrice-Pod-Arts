@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.12",
+  "version": "3.2.13",
   "set_code": "WLX",
   "cards": [
     {
@@ -7298,7 +7298,7 @@
     {
       "player": "Will",
       "card_kind": "official",
-      "card_name": "Grave Researcher // Reanimate",
+      "card_name": "Reanimate",
       "flavor_name": "",
       "set_code": "WLX",
       "set_name": "Willex's Whimsical Arts",
@@ -7316,7 +7316,7 @@
     {
       "player": "Will",
       "card_kind": "official",
-      "card_name": "Grave Researcher // Reanimate",
+      "card_name": "Reanimate",
       "flavor_name": "",
       "set_code": "WLX",
       "set_name": "Willex's Whimsical Arts",

@@ -3096,39 +3096,12 @@
       "verified_at": "2026-08-15"
     },
     "reanimate": {
-      "name": "Grave Researcher // Reanimate",
-      "oracle_id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
-      "scryfall_uri": "https://scryfall.com/card/sos/85/grave-researcher-reanimate?utm_source=api",
-      "layout": "prepare",
-      "faces": [
-        {
-          "official_name": "Grave Researcher",
-          "side": "front",
-          "mana_cost": "{2}{B}",
-          "mana_value": "",
-          "type_line": "Creature — Troll Warlock",
-          "rules_text": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
-          "colors": "",
-          "color_identity": "B",
-          "power_toughness": "3/3",
-          "loyalty": "",
-          "defense": ""
-        },
-        {
-          "official_name": "Reanimate",
-          "side": "back",
-          "mana_cost": "{B}",
-          "mana_value": "",
-          "type_line": "Sorcery",
-          "rules_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
-          "colors": "",
-          "color_identity": "B",
-          "power_toughness": "",
-          "loyalty": "",
-          "defense": ""
-        }
-      ],
-      "verified_at": "2026-08-15"
+      "name": "Reanimate",
+      "oracle_id": "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0",
+      "scryfall_uri": "https://scryfall.com/card/dsc/155/reanimate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-18"
     },
     "haughty djinn": {
       "name": "Haughty Djinn",
