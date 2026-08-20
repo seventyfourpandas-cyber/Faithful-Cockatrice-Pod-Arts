@@ -1,50 +1,41 @@
 # Latest WLX File Import
 
-- Batch: `00e246675e`
-- Finished: `2026-08-19T00:19:05+00:00`
-- Images found: **38**
-- New printings: **38**
+- Batch: `e0517ceda9`
+- Finished: `2026-08-20T20:00:20+00:00`
+- Images found: **30**
+- New printings: **29**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #385` — Azure Beastbinder (Will)
-- `WLX #386` — Barrin, Tolarian Archmage (Will)
-- `WLX #387` — Changeling Outcast (Will)
-- `WLX #388` — Chart a Course (Will)
-- `WLX #389` — Cloud of Faeries (Will)
-- `WLX #390` — Dauthi Voidwalker (Will)
-- `WLX #391` — Dimir Signet (Will)
-- `WLX #392` — Disdainful Stroke (Will)
-- `WLX #393` — Faerie Dreamthief (Will)
-- `WLX #394` — Faerie Seer (Will)
-- `WLX #395` — Fallen Shinobi (Will)
-- `WLX #396` — Gyruda, Doom of Depths (Will)
-- `WLX #397` — Insatiable Avarice (Will)
-- `WLX #398` — Jin-Gitaxias, Core Augur (Will)
-- `WLX #399` — Jin-Gitaxias, Core Augur (Will)
-- `WLX #400` — Lord of Change (Will)
-- `WLX #401` — Meteor Golem (Will)
-- `WLX #402` — Mindleech Mass (Will)
-- `WLX #403` — Nightveil Sprite (Will)
-- `WLX #404` — Ornithopter (Will)
-- `WLX #405` — Grave Researcher // Reanimate (Will)
-- `WLX #406` — Grave Researcher // Reanimate (Will)
-- `WLX #407` — Rhystic Study (Will)
-- `WLX #408` — Rhystic Study (Will)
-- `WLX #409` — Satoru Umezawa (Will)
-- `WLX #410` — Sepulchral Primordial (Will)
-- `WLX #411` — Silent-Blade Oni (Will)
-- `WLX #412` — Silver-Fur Master (Will)
-- `WLX #413` — Sire of Stagnation (Will)
-- `WLX #414` — Siren Stormtamer (Will)
-- `WLX #415` — Slither Blade (Will)
-- `WLX #416` — Soul Manipulation (Will)
-- `WLX #417` — Sun Quan, Lord of Wu (Will)
-- `WLX #418` — Talisman of Dominance (Will)
-- `WLX #419` — Thousand-Faced Shadow (Will)
-- `WLX #420` — Toxic Deluge (Will)
-- `WLX #421` — Toxic Deluge (Will)
-- `WLX #422` — Zareth San, the Trickster (Will)
+- `WLX #423` — Aftermath Analyst (Will)
+- `WLX #424` — Augur of Autumn (Will)
+- `WLX #425` — Baloth Prime (Will)
+- `WLX #426` — Bristly Bill, Spine Sower (Will)
+- `WLX #427` — Evendo Brushrazer (Will)
+- `WLX #428` — Evolution Sage (Will)
+- `WLX #429` — Exploration Broodship (Will)
+- `WLX #430` — Greater Gargadon (Will)
+- `WLX #431` — Horizon Explorer (Will)
+- `WLX #432` — Korvold, Fae-Cursed King (Will)
+- `WLX #433` — Korvold, Fae-Cursed King (Will)
+- `WLX #434` — Loading Zone (Will)
+- `WLX #435` — Mazirek, Kraul Death Priest (Will)
+- `WLX #436` — Moraug, Fury of Akoum (Will)
+- `WLX #437` — Moraug, Fury of Akoum (Will)
+- `WLX #438` — Pest Infestation (Will)
+- `WLX #439` — Planetary Annihilation (Will)
+- `WLX #440` — Putrefy (Will)
+- `WLX #441` — Rishkar's Expertise (Will)
+- `WLX #442` — Roiling Regrowth (Will)
+- `WLX #443` — Soul of Windgrace (Will)
+- `WLX #444` — Sprouting Goblin (Will)
+- `WLX #445` — Tannuk, Memorial Ensign (Will)
+- `WLX #446` — Tear Asunder (Will)
+- `WLX #447` — Tiller Engine (Will)
+- `WLX #448` — Windgrace's Judgment (Will)
+- `WLX #449` — Worldsoul's Rage (Will)
+- `WLX #450` — Zask, Skittering Swarmlord (Will)
+- `WLX #451` — Dowsing Dagger // Lost Vale (Will)

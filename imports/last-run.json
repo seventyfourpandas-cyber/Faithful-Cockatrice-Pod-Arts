@@ -1,200 +1,155 @@
 {
   "schema_version": 1,
-  "batch_id": "00e246675e",
-  "started_at": "2026-08-19T00:19:03+00:00",
-  "finished_at": "2026-08-19T00:19:05+00:00",
-  "found": 38,
-  "version_before": "3.2.11",
-  "version_after": "3.2.12",
+  "batch_id": "e0517ceda9",
+  "started_at": "2026-08-20T20:00:18+00:00",
+  "finished_at": "2026-08-20T20:00:20+00:00",
+  "found": 30,
+  "version_before": "3.2.14",
+  "version_after": "3.2.15",
   "added": [
     {
-      "collector_number": "385",
-      "name": "Azure Beastbinder",
+      "collector_number": "423",
+      "name": "Aftermath Analyst",
       "player": "Will"
     },
     {
-      "collector_number": "386",
-      "name": "Barrin, Tolarian Archmage",
+      "collector_number": "424",
+      "name": "Augur of Autumn",
       "player": "Will"
     },
     {
-      "collector_number": "387",
-      "name": "Changeling Outcast",
+      "collector_number": "425",
+      "name": "Baloth Prime",
       "player": "Will"
     },
     {
-      "collector_number": "388",
-      "name": "Chart a Course",
+      "collector_number": "426",
+      "name": "Bristly Bill, Spine Sower",
       "player": "Will"
     },
     {
-      "collector_number": "389",
-      "name": "Cloud of Faeries",
+      "collector_number": "427",
+      "name": "Evendo Brushrazer",
       "player": "Will"
     },
     {
-      "collector_number": "390",
-      "name": "Dauthi Voidwalker",
+      "collector_number": "428",
+      "name": "Evolution Sage",
       "player": "Will"
     },
     {
-      "collector_number": "391",
-      "name": "Dimir Signet",
+      "collector_number": "429",
+      "name": "Exploration Broodship",
       "player": "Will"
     },
     {
-      "collector_number": "392",
-      "name": "Disdainful Stroke",
+      "collector_number": "430",
+      "name": "Greater Gargadon",
       "player": "Will"
     },
     {
-      "collector_number": "393",
-      "name": "Faerie Dreamthief",
+      "collector_number": "431",
+      "name": "Horizon Explorer",
       "player": "Will"
     },
     {
-      "collector_number": "394",
-      "name": "Faerie Seer",
+      "collector_number": "432",
+      "name": "Korvold, Fae-Cursed King",
       "player": "Will"
     },
     {
-      "collector_number": "395",
-      "name": "Fallen Shinobi",
+      "collector_number": "433",
+      "name": "Korvold, Fae-Cursed King",
       "player": "Will"
     },
     {
-      "collector_number": "396",
-      "name": "Gyruda, Doom of Depths",
+      "collector_number": "434",
+      "name": "Loading Zone",
       "player": "Will"
     },
     {
-      "collector_number": "397",
-      "name": "Insatiable Avarice",
+      "collector_number": "435",
+      "name": "Mazirek, Kraul Death Priest",
       "player": "Will"
     },
     {
-      "collector_number": "398",
-      "name": "Jin-Gitaxias, Core Augur",
+      "collector_number": "436",
+      "name": "Moraug, Fury of Akoum",
       "player": "Will"
     },
     {
-      "collector_number": "399",
-      "name": "Jin-Gitaxias, Core Augur",
+      "collector_number": "437",
+      "name": "Moraug, Fury of Akoum",
       "player": "Will"
     },
     {
-      "collector_number": "400",
-      "name": "Lord of Change",
+      "collector_number": "438",
+      "name": "Pest Infestation",
       "player": "Will"
     },
     {
-      "collector_number": "401",
-      "name": "Meteor Golem",
+      "collector_number": "439",
+      "name": "Planetary Annihilation",
       "player": "Will"
     },
     {
-      "collector_number": "402",
-      "name": "Mindleech Mass",
+      "collector_number": "440",
+      "name": "Putrefy",
       "player": "Will"
     },
     {
-      "collector_number": "403",
-      "name": "Nightveil Sprite",
+      "collector_number": "441",
+      "name": "Rishkar's Expertise",
       "player": "Will"
     },
     {
-      "collector_number": "404",
-      "name": "Ornithopter",
+      "collector_number": "442",
+      "name": "Roiling Regrowth",
       "player": "Will"
     },
     {
-      "collector_number": "405",
-      "name": "Grave Researcher // Reanimate",
+      "collector_number": "443",
+      "name": "Soul of Windgrace",
       "player": "Will"
     },
     {
-      "collector_number": "406",
-      "name": "Grave Researcher // Reanimate",
+      "collector_number": "444",
+      "name": "Sprouting Goblin",
       "player": "Will"
     },
     {
-      "collector_number": "407",
-      "name": "Rhystic Study",
+      "collector_number": "445",
+      "name": "Tannuk, Memorial Ensign",
       "player": "Will"
     },
     {
-      "collector_number": "408",
-      "name": "Rhystic Study",
+      "collector_number": "446",
+      "name": "Tear Asunder",
       "player": "Will"
     },
     {
-      "collector_number": "409",
-      "name": "Satoru Umezawa",
+      "collector_number": "447",
+      "name": "Tiller Engine",
       "player": "Will"
     },
     {
-      "collector_number": "410",
-      "name": "Sepulchral Primordial",
+      "collector_number": "448",
+      "name": "Windgrace's Judgment",
       "player": "Will"
     },
     {
-      "collector_number": "411",
-      "name": "Silent-Blade Oni",
+      "collector_number": "449",
+      "name": "Worldsoul's Rage",
       "player": "Will"
     },
     {
-      "collector_number": "412",
-      "name": "Silver-Fur Master",
+      "collector_number": "450",
+      "name": "Zask, Skittering Swarmlord",
       "player": "Will"
     },
     {
-      "collector_number": "413",
-      "name": "Sire of Stagnation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "414",
-      "name": "Siren Stormtamer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "415",
-      "name": "Slither Blade",
-      "player": "Will"
-    },
-    {
-      "collector_number": "416",
-      "name": "Soul Manipulation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "417",
-      "name": "Sun Quan, Lord of Wu",
-      "player": "Will"
-    },
-    {
-      "collector_number": "418",
-      "name": "Talisman of Dominance",
-      "player": "Will"
-    },
-    {
-      "collector_number": "419",
-      "name": "Thousand-Faced Shadow",
-      "player": "Will"
-    },
-    {
-      "collector_number": "420",
-      "name": "Toxic Deluge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "421",
-      "name": "Toxic Deluge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "422",
-      "name": "Zareth San, the Trickster",
+      "collector_number": "451",
+      "name": "Dowsing Dagger // Lost Vale",
       "player": "Will"
     }
   ],

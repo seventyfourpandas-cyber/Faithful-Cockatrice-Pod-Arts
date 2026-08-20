@@ -4160,6 +4160,319 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-19"
+    },
+    "aftermath analyst": {
+      "name": "Aftermath Analyst",
+      "oracle_id": "374e54d8-8e73-4268-9dde-c28c77bbbf32",
+      "scryfall_uri": "https://scryfall.com/card/eoc/91/aftermath-analyst?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "augur of autumn": {
+      "name": "Augur of Autumn",
+      "oracle_id": "9e774188-caa1-4b62-b9cc-547f8e444b7f",
+      "scryfall_uri": "https://scryfall.com/card/eoc/92/augur-of-autumn?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "baloth prime": {
+      "name": "Baloth Prime",
+      "oracle_id": "dba3dcc1-2177-4a8c-8cf3-7d4fb83c7a16",
+      "scryfall_uri": "https://scryfall.com/card/eoc/13/baloth-prime?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "bristly bill, spine sower": {
+      "name": "Bristly Bill, Spine Sower",
+      "oracle_id": "d3b2d8a2-d3bc-448c-9cf6-6bead6010c28",
+      "scryfall_uri": "https://scryfall.com/card/otj/157/bristly-bill-spine-sower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "dowsing dagger": {
+      "name": "Dowsing Dagger // Lost Vale",
+      "oracle_id": "df34a6ad-ae1c-4470-8c9e-49815bba1973",
+      "scryfall_uri": "https://scryfall.com/card/xln/235/dowsing-dagger-lost-vale?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Dowsing Dagger",
+          "side": "front",
+          "mana_cost": "{2}",
+          "mana_value": "",
+          "type_line": "Artifact — Equipment",
+          "rules_text": "When this Equipment enters, target opponent creates two 0/2 green Plant creature tokens with defender.\nEquipped creature gets +2/+1.\nWhenever equipped creature deals combat damage to a player, you may transform this Equipment.\nEquip {2}",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Lost Vale",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color.",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-20"
+    },
+    "dowsing dagger // lost vale": {
+      "name": "Dowsing Dagger // Lost Vale",
+      "oracle_id": "df34a6ad-ae1c-4470-8c9e-49815bba1973",
+      "scryfall_uri": "https://scryfall.com/card/xln/235/dowsing-dagger-lost-vale?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Dowsing Dagger",
+          "side": "front",
+          "mana_cost": "{2}",
+          "mana_value": "",
+          "type_line": "Artifact — Equipment",
+          "rules_text": "When this Equipment enters, target opponent creates two 0/2 green Plant creature tokens with defender.\nEquipped creature gets +2/+1.\nWhenever equipped creature deals combat damage to a player, you may transform this Equipment.\nEquip {2}",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Lost Vale",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color.",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-20"
+    },
+    "evendo brushrazer": {
+      "name": "Evendo Brushrazer",
+      "oracle_id": "795bc0b0-4b0a-49d6-ac8e-a52a10a93be8",
+      "scryfall_uri": "https://scryfall.com/card/eoc/10/evendo-brushrazer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "evolution sage": {
+      "name": "Evolution Sage",
+      "oracle_id": "b45fdeab-00cc-4422-af9f-66f30a880a7c",
+      "scryfall_uri": "https://scryfall.com/card/ecc/105/evolution-sage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "exploration broodship": {
+      "name": "Exploration Broodship",
+      "oracle_id": "8a83ecee-092b-456c-803f-a9aaa17c4da9",
+      "scryfall_uri": "https://scryfall.com/card/eoc/14/exploration-broodship?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "greater gargadon": {
+      "name": "Greater Gargadon",
+      "oracle_id": "406b4b1d-756b-4062-897d-3693832086a0",
+      "scryfall_uri": "https://scryfall.com/card/2x2/111/greater-gargadon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "horizon explorer": {
+      "name": "Horizon Explorer",
+      "oracle_id": "e8d20361-d9b7-4f9c-8ec5-3ac7c460dcb2",
+      "scryfall_uri": "https://scryfall.com/card/eoc/15/horizon-explorer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "korvold, fae-cursed king": {
+      "name": "Korvold, Fae-Cursed King",
+      "oracle_id": "9ae669dd-7e60-4649-b96e-35da28be641a",
+      "scryfall_uri": "https://scryfall.com/card/eoc/120/korvold-fae-cursed-king?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "loading zone": {
+      "name": "Loading Zone",
+      "oracle_id": "16156274-8dc0-439c-94c4-e8c89bbb5687",
+      "scryfall_uri": "https://scryfall.com/card/eoe/196/loading-zone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "lost vale": {
+      "name": "Dowsing Dagger // Lost Vale",
+      "oracle_id": "df34a6ad-ae1c-4470-8c9e-49815bba1973",
+      "scryfall_uri": "https://scryfall.com/card/xln/235/dowsing-dagger-lost-vale?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Dowsing Dagger",
+          "side": "front",
+          "mana_cost": "{2}",
+          "mana_value": "",
+          "type_line": "Artifact — Equipment",
+          "rules_text": "When this Equipment enters, target opponent creates two 0/2 green Plant creature tokens with defender.\nEquipped creature gets +2/+1.\nWhenever equipped creature deals combat damage to a player, you may transform this Equipment.\nEquip {2}",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Lost Vale",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color.",
+          "colors": "",
+          "color_identity": "",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-20"
+    },
+    "mazirek, kraul death priest": {
+      "name": "Mazirek, Kraul Death Priest",
+      "oracle_id": "e0420f2c-d578-421e-ae75-e7dc5f70661a",
+      "scryfall_uri": "https://scryfall.com/card/soc/319/mazirek-kraul-death-priest?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "moraug, fury of akoum": {
+      "name": "Moraug, Fury of Akoum",
+      "oracle_id": "6288c0cb-cf32-4ae9-abf0-104ec71654fa",
+      "scryfall_uri": "https://scryfall.com/card/eoc/89/moraug-fury-of-akoum?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "pest infestation": {
+      "name": "Pest Infestation",
+      "oracle_id": "1b704798-0c69-4c18-ac7e-42933ce90028",
+      "scryfall_uri": "https://scryfall.com/card/soc/282/pest-infestation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "planetary annihilation": {
+      "name": "Planetary Annihilation",
+      "oracle_id": "1d45f248-5b83-4377-a3ba-4eae48e63ca1",
+      "scryfall_uri": "https://scryfall.com/card/eoc/12/planetary-annihilation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "putrefy": {
+      "name": "Putrefy",
+      "oracle_id": "9b271430-f53d-42d6-a547-2f286dd9bcb6",
+      "scryfall_uri": "https://scryfall.com/card/ecc/131/putrefy?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "rishkar's expertise": {
+      "name": "Rishkar's Expertise",
+      "oracle_id": "97407cd0-2bd2-4074-94d3-4ec3d243fa78",
+      "scryfall_uri": "https://scryfall.com/card/lcc/254/rishkars-expertise?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "roiling regrowth": {
+      "name": "Roiling Regrowth",
+      "oracle_id": "65d63518-3261-40b5-87b8-19c152b29ee3",
+      "scryfall_uri": "https://scryfall.com/card/eoc/105/roiling-regrowth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "soul of windgrace": {
+      "name": "Soul of Windgrace",
+      "oracle_id": "2d73a3bd-f052-4f48-9a72-12db03e27249",
+      "scryfall_uri": "https://scryfall.com/card/eoc/126/soul-of-windgrace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "sprouting goblin": {
+      "name": "Sprouting Goblin",
+      "oracle_id": "b0871e12-b156-4fa6-b01c-acaae222b3a5",
+      "scryfall_uri": "https://scryfall.com/card/eoc/90/sprouting-goblin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "tannuk, memorial ensign": {
+      "name": "Tannuk, Memorial Ensign",
+      "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+      "scryfall_uri": "https://scryfall.com/card/eoe/233/tannuk-memorial-ensign?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "tear asunder": {
+      "name": "Tear Asunder",
+      "oracle_id": "610af0f7-b5e3-43fb-9d02-7c59bd99034c",
+      "scryfall_uri": "https://scryfall.com/card/eoc/109/tear-asunder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "tiller engine": {
+      "name": "Tiller Engine",
+      "oracle_id": "62f6baba-da3b-45b8-a3c1-efb75763cca8",
+      "scryfall_uri": "https://scryfall.com/card/dmc/20/tiller-engine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "windgrace's judgment": {
+      "name": "Windgrace's Judgment",
+      "oracle_id": "de1ca6ed-b275-4f62-ba05-f31b3659b352",
+      "scryfall_uri": "https://scryfall.com/card/eoc/129/windgraces-judgment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "worldsoul's rage": {
+      "name": "Worldsoul's Rage",
+      "oracle_id": "3b6ef144-bb98-4686-9718-204f1c3cf020",
+      "scryfall_uri": "https://scryfall.com/card/eoc/130/worldsouls-rage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
+    },
+    "zask, skittering swarmlord": {
+      "name": "Zask, Skittering Swarmlord",
+      "oracle_id": "3c4966b9-26f9-46ff-8d41-7fd01c70986d",
+      "scryfall_uri": "https://scryfall.com/card/j22/47/zask-skittering-swarmlord?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-20"
     }
   }
 }
