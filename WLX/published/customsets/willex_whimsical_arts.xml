@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-19T02:37:15+00:00</createdAt>
+    <createdAt>2026-08-20T00:16:08+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.13</sourceVersion>
+    <sourceVersion>3.2.14</sourceVersion>
   </info>
   <sets>
     <set>
@@ -232,7 +232,7 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     </card>
     <card>
       <name>Breach the Multiverse</name>
-      <set uuid="851a2ffc-3165-5aae-a2f5-15f25ad75846" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/011-15dc271b053a.jpg" num="011" rarity="special">WLX</set>
+      <set uuid="851a2ffc-3165-5aae-a2f5-15f25ad75846" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/011-ce50a2b789b3.jpg" num="011" rarity="special">WLX</set>
     </card>
     <card>
       <name>Brighthearth Banneret</name>
@@ -1759,7 +1759,7 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
     </card>
     <card>
       <name>Valgavoth, Terror Eater</name>
-      <set uuid="18e0dd50-06b6-5eae-9abd-7f7fb27bdfca" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/133-794cd536aa3f.jpg" num="133" rarity="special">WLX</set>
+      <set uuid="18e0dd50-06b6-5eae-9abd-7f7fb27bdfca" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/133-b87ef0569b85.jpg" num="133" rarity="special">WLX</set>
     </card>
     <card>
       <name>Vampiric Tutor</name>
