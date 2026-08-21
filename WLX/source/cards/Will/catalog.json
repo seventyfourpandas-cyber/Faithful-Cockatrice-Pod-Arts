@@ -5061,6 +5061,116 @@
       ],
       "rarity": "special",
       "notes": "Imported paired face images in file batch e0517ceda9"
+    },
+    {
+      "collector_number": "452",
+      "uuid": "26589e49-9e56-5fe3-8a02-d936efa6331f",
+      "card_kind": "official",
+      "official_name": "Assassin's Trophy",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-452.jpg",
+      "image_sha256": "55eff2b15de4d84b6da881d686ab0e7bdc421141810de3ffbe0f7a867eb16144",
+      "notes": "Imported from will/Assassin's Trophy.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "453",
+      "uuid": "e6b619eb-0ddb-5ed6-9655-c4eed39336cf",
+      "card_kind": "official",
+      "official_name": "Lotus Cobra",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-453.jpg",
+      "image_sha256": "39f3eb4d8072adda352bb5c56fc76a1cb405d5f8fc1466fed127d90c6ef68e8d",
+      "notes": "Imported from will/Lotus Cobra.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "454",
+      "uuid": "c3254648-7c8f-5552-a238-403757b4993f",
+      "card_kind": "official",
+      "official_name": "Oracle of Mul Daya",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-454.jpg",
+      "image_sha256": "e2e0118d433f25a0a20a5e8683bfd587bc49d1ca43b403707cd6c6ffff87998c",
+      "notes": "Imported from will/Oracle of Mul Daya.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "455",
+      "uuid": "3a6c35d3-15ba-5443-95d6-df71a6f2137f",
+      "card_kind": "official",
+      "official_name": "Rampaging Baloths",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-455.jpg",
+      "image_sha256": "400c72f91cfc20acad2295a7e173fd291e7f72d9839736dd677e5d42aaa8fab6",
+      "notes": "Imported from will/Rampaging Baloths.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "456",
+      "uuid": "6c533303-d875-566f-a1c6-ad6aab5522c1",
+      "card_kind": "official",
+      "official_name": "Splendid Reclamation",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-456.jpg",
+      "image_sha256": "48d4a251662961673d42e9d3228c84c880ab9fe14c6c1aa30863956357ea20c3",
+      "notes": "Imported from will/Splendid Reclamation.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "457",
+      "uuid": "4b16f44d-3648-51c0-82e2-514e20c0202b",
+      "card_kind": "official",
+      "official_name": "Springbloom Druid",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-457.jpg",
+      "image_sha256": "67b601d58d13824c582f2485c765e3437fbc946ebfbd78bae1e476ad1da9af49",
+      "notes": "Imported from will/Springbloom Druid.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "458",
+      "uuid": "be6f7d7b-d61e-5b5b-9b01-4d3762b6525d",
+      "card_kind": "official",
+      "official_name": "The Gitrog Monster",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-458.jpg",
+      "image_sha256": "7233f0fab00f2bda33ee3c92bceaef3a89d25938cf30736269a1058539bb6569",
+      "notes": "Imported from will/The Gitrog Monster __ 1.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "459",
+      "uuid": "b3a00bba-5831-5757-80ab-bce9b68f2b3a",
+      "card_kind": "official",
+      "official_name": "The Gitrog Monster",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-459.jpg",
+      "image_sha256": "92aec4db607cfe6afe6234756632ed276b85771cc02fde0b5c65febf17f15acd",
+      "notes": "Imported from will/The Gitrog Monster.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "460",
+      "uuid": "73561c03-f100-5de2-8524-592b444bf847",
+      "card_kind": "official",
+      "official_name": "Tireless Provisioner",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-460.jpg",
+      "image_sha256": "db2afa7bb91d6473f4145fd53514c305d223301e9933755d9d65d7b9942bb1ee",
+      "notes": "Imported from will/Tireless Provisioner.jpg in file batch 9c4b80c9c2"
+    },
+    {
+      "collector_number": "461",
+      "uuid": "f07c97ce-5ba2-5821-8f35-9b75074c1742",
+      "card_kind": "official",
+      "official_name": "Valakut Exploration",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-461.jpg",
+      "image_sha256": "c09e99c14b7227d4ac16074b87bce1a7b579082d748ecb505b7db5a8e8f20fed",
+      "notes": "Imported from will/Valakut Exploration.jpg in file batch 9c4b80c9c2"
     }
   ]
 }

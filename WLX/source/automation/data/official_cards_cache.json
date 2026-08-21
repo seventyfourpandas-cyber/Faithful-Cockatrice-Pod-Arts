@@ -4473,6 +4473,78 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-20"
+    },
+    "assassin's trophy": {
+      "name": "Assassin's Trophy",
+      "oracle_id": "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5",
+      "scryfall_uri": "https://scryfall.com/card/soc/294/assassins-trophy?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "lotus cobra": {
+      "name": "Lotus Cobra",
+      "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+      "scryfall_uri": "https://scryfall.com/card/znr/193/lotus-cobra?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "oracle of mul daya": {
+      "name": "Oracle of Mul Daya",
+      "oracle_id": "6c5b02eb-7829-436a-8555-fea200e4b67f",
+      "scryfall_uri": "https://scryfall.com/card/eoc/102/oracle-of-mul-daya?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "rampaging baloths": {
+      "name": "Rampaging Baloths",
+      "oracle_id": "2d3e6549-6cc6-434f-a189-ba3b55e64c34",
+      "scryfall_uri": "https://scryfall.com/card/eoc/104/rampaging-baloths?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "splendid reclamation": {
+      "name": "Splendid Reclamation",
+      "oracle_id": "13fe5e46-77a6-45d8-ac0b-c3d740eccf86",
+      "scryfall_uri": "https://scryfall.com/card/eoc/108/splendid-reclamation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "springbloom druid": {
+      "name": "Springbloom Druid",
+      "oracle_id": "788a4896-3414-40bf-b391-d2efea2fb5f9",
+      "scryfall_uri": "https://scryfall.com/card/fdn/767/springbloom-druid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "the gitrog monster": {
+      "name": "The Gitrog Monster",
+      "oracle_id": "a5e54d2b-aad8-4ddd-af4b-13668913762b",
+      "scryfall_uri": "https://scryfall.com/card/eoc/117/the-gitrog-monster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "tireless provisioner": {
+      "name": "Tireless Provisioner",
+      "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+      "scryfall_uri": "https://scryfall.com/card/moc/313/tireless-provisioner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
+    },
+    "valakut exploration": {
+      "name": "Valakut Exploration",
+      "oracle_id": "d6861319-ae16-4e6c-af87-a264f667d694",
+      "scryfall_uri": "https://scryfall.com/card/znr/175/valakut-exploration?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-21"
     }
   }
 }

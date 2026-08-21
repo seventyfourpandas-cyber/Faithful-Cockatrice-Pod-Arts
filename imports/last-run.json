@@ -1,155 +1,60 @@
 {
   "schema_version": 1,
-  "batch_id": "e0517ceda9",
-  "started_at": "2026-08-20T20:00:18+00:00",
-  "finished_at": "2026-08-20T20:00:20+00:00",
-  "found": 30,
-  "version_before": "3.2.14",
-  "version_after": "3.2.15",
+  "batch_id": "9c4b80c9c2",
+  "started_at": "2026-08-21T01:37:27+00:00",
+  "finished_at": "2026-08-21T01:37:29+00:00",
+  "found": 10,
+  "version_before": "3.2.15",
+  "version_after": "3.2.16",
   "added": [
     {
-      "collector_number": "423",
-      "name": "Aftermath Analyst",
+      "collector_number": "452",
+      "name": "Assassin's Trophy",
       "player": "Will"
     },
     {
-      "collector_number": "424",
-      "name": "Augur of Autumn",
+      "collector_number": "453",
+      "name": "Lotus Cobra",
       "player": "Will"
     },
     {
-      "collector_number": "425",
-      "name": "Baloth Prime",
+      "collector_number": "454",
+      "name": "Oracle of Mul Daya",
       "player": "Will"
     },
     {
-      "collector_number": "426",
-      "name": "Bristly Bill, Spine Sower",
+      "collector_number": "455",
+      "name": "Rampaging Baloths",
       "player": "Will"
     },
     {
-      "collector_number": "427",
-      "name": "Evendo Brushrazer",
+      "collector_number": "456",
+      "name": "Splendid Reclamation",
       "player": "Will"
     },
     {
-      "collector_number": "428",
-      "name": "Evolution Sage",
+      "collector_number": "457",
+      "name": "Springbloom Druid",
       "player": "Will"
     },
     {
-      "collector_number": "429",
-      "name": "Exploration Broodship",
+      "collector_number": "458",
+      "name": "The Gitrog Monster",
       "player": "Will"
     },
     {
-      "collector_number": "430",
-      "name": "Greater Gargadon",
+      "collector_number": "459",
+      "name": "The Gitrog Monster",
       "player": "Will"
     },
     {
-      "collector_number": "431",
-      "name": "Horizon Explorer",
+      "collector_number": "460",
+      "name": "Tireless Provisioner",
       "player": "Will"
     },
     {
-      "collector_number": "432",
-      "name": "Korvold, Fae-Cursed King",
-      "player": "Will"
-    },
-    {
-      "collector_number": "433",
-      "name": "Korvold, Fae-Cursed King",
-      "player": "Will"
-    },
-    {
-      "collector_number": "434",
-      "name": "Loading Zone",
-      "player": "Will"
-    },
-    {
-      "collector_number": "435",
-      "name": "Mazirek, Kraul Death Priest",
-      "player": "Will"
-    },
-    {
-      "collector_number": "436",
-      "name": "Moraug, Fury of Akoum",
-      "player": "Will"
-    },
-    {
-      "collector_number": "437",
-      "name": "Moraug, Fury of Akoum",
-      "player": "Will"
-    },
-    {
-      "collector_number": "438",
-      "name": "Pest Infestation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "439",
-      "name": "Planetary Annihilation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "440",
-      "name": "Putrefy",
-      "player": "Will"
-    },
-    {
-      "collector_number": "441",
-      "name": "Rishkar's Expertise",
-      "player": "Will"
-    },
-    {
-      "collector_number": "442",
-      "name": "Roiling Regrowth",
-      "player": "Will"
-    },
-    {
-      "collector_number": "443",
-      "name": "Soul of Windgrace",
-      "player": "Will"
-    },
-    {
-      "collector_number": "444",
-      "name": "Sprouting Goblin",
-      "player": "Will"
-    },
-    {
-      "collector_number": "445",
-      "name": "Tannuk, Memorial Ensign",
-      "player": "Will"
-    },
-    {
-      "collector_number": "446",
-      "name": "Tear Asunder",
-      "player": "Will"
-    },
-    {
-      "collector_number": "447",
-      "name": "Tiller Engine",
-      "player": "Will"
-    },
-    {
-      "collector_number": "448",
-      "name": "Windgrace's Judgment",
-      "player": "Will"
-    },
-    {
-      "collector_number": "449",
-      "name": "Worldsoul's Rage",
-      "player": "Will"
-    },
-    {
-      "collector_number": "450",
-      "name": "Zask, Skittering Swarmlord",
-      "player": "Will"
-    },
-    {
-      "collector_number": "451",
-      "name": "Dowsing Dagger // Lost Vale",
+      "collector_number": "461",
+      "name": "Valakut Exploration",
       "player": "Will"
     }
   ],
