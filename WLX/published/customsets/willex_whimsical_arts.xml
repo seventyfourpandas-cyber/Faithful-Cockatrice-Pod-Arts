@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-21T01:37:27+00:00</createdAt>
+    <createdAt>2026-08-23T02:40:17+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.16</sourceVersion>
+    <sourceVersion>3.2.17</sourceVersion>
   </info>
   <sets>
     <set>
@@ -16,6 +16,10 @@
     </set>
   </sets>
   <cards>
+    <card>
+      <name>Abrupt Decay</name>
+      <set uuid="736c6613-5334-5a50-90de-427a20ed30ab" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/462-43535274c1f8.jpg" num="462" rarity="special">WLX</set>
+    </card>
     <card>
       <name>Adeline, Resplendent Cathar</name>
       <set uuid="3300fd48-0e8a-5f6f-861f-aad7e3022c4c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/351-16925bb4b41f.jpg" num="351" rarity="special">WLX</set>
@@ -34,6 +38,10 @@
       <set uuid="ea6b35d2-72e4-568a-819a-fb1335af4286" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/423-2b07b0347d23.jpg" num="423" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Aggressive Mining</name>
+      <set uuid="69e73821-efe4-54f4-a282-9b301d56724d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/463-4c70bbd0978f.jpg" num="463" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Akroma's Memorial</name>
       <set uuid="1675469d-48c3-531d-b4df-35b1b683d095" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/154-785eff4a895a.jpg" num="154" rarity="special">WLX</set>
     </card>
@@ -49,6 +57,10 @@
       <name>An Offer You Can't Refuse</name>
       <set uuid="27e6f656-20e5-5705-b8e1-b019510546b4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/142-55ea3c68f8bb.jpg" num="142" rarity="special">WLX</set>
       <set uuid="2cf3343b-744c-5fc9-a031-b39d38bf94e2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/156-90c44e3d0600.jpg" num="156" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Ancient Greenwarden</name>
+      <set uuid="1563b81e-7bcc-5853-8989-0d05774fde41" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/464-50426ed9357e.jpg" num="464" rarity="special">WLX</set>
     </card>
     <card>
       <name>Ancient Stone Idol</name>
@@ -116,6 +128,10 @@
       <set uuid="d8e2c9f2-3f90-50d3-bb03-bc468263d259" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/167-43797c2f74f5.jpg" num="167" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Ashaya, Soul of the Wild</name>
+      <set uuid="7361596f-1777-51fa-8fcd-37911a2a81d3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/465-bff277862f9a.jpg" num="465" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Ashnod's Altar</name>
       <set uuid="8fe931f9-a84c-5833-bde1-71200914390c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/298-f11c266919f7.jpg" num="298" rarity="special">WLX</set>
     </card>
@@ -176,6 +192,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Azure Beastbinder</name>
       <set uuid="15b31c18-bdca-5a94-9614-96eff96e1810" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/385-a721e330f757.jpg" num="385" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Azusa, Lost but Seeking</name>
+      <set uuid="7e730c8b-5ebe-5f94-b713-a13ae3dfe305" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/466-9dc41050daf2.jpg" num="466" rarity="special">WLX</set>
     </card>
     <card>
       <name>Baloth Prime</name>
@@ -348,6 +368,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
       <set uuid="ed75813b-2c6d-5882-a42a-e8075fcf1755" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/359-cadcbd8e29ed.jpg" num="359" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Constant Mists</name>
+      <set uuid="6dae03b2-7f4d-5961-925d-748dc13233da" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/467-3eced2bb6d92.jpg" num="467" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Corpse Knight</name>
       <set uuid="f3324c9b-ea14-5024-9700-8543cc817b33" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/301-9f62bbba838f.jpg" num="301" rarity="special">WLX</set>
     </card>
@@ -370,6 +394,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Cream of the Crop</name>
       <set uuid="b655d0c8-8752-5e69-9f86-8d9cdcb9e7e9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/036-4c8799db28c5.jpg" num="036" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Crop Rotation</name>
+      <set uuid="b927413b-9c5f-5f1b-a307-fcf99fb27b05" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/468-26388ee469e6.jpg" num="468" rarity="special">WLX</set>
     </card>
     <card>
       <name>Cruel Celebrant</name>
@@ -474,6 +502,14 @@ Equip {2}</text>
       <tablerow>1</tablerow>
     </card>
     <card>
+      <name>Dread Presence</name>
+      <set uuid="20865b2d-5b02-5483-93e1-cc019508dc8e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/469-155e15eb023a.jpg" num="469" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Dryad of the Ilysian Grove</name>
+      <set uuid="ebfe664e-3840-550b-bbc6-30b012eae370" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/470-d4096e5212a0.jpg" num="470" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Duplicant</name>
       <set uuid="ef941a0e-da10-577e-bbeb-6b399b0a2cd7" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/190-36b526d2341e.jpg" num="190" rarity="special">WLX</set>
     </card>
@@ -496,6 +532,10 @@ Equip {2}</text>
     <card>
       <name>Elemental Bond</name>
       <set uuid="ea387e1c-9582-58f2-a700-b4622437107b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/041-b004bce278f8.jpg" num="041" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Elvish Reclaimer</name>
+      <set uuid="4c48e364-401b-5ee4-b39e-66ce8320c3a2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/471-a26b8ce66b9c.jpg" num="471" rarity="special">WLX</set>
     </card>
     <card>
       <name>Enduring Curiosity</name>
@@ -568,6 +608,10 @@ Whenever Etali deals combat damage to a player, they get that many poison counte
     <card>
       <name>Evolution Sage</name>
       <set uuid="7e66652a-b4bf-5cad-bcef-4571850e2133" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/428-1d2643f0ea03.jpg" num="428" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Exploration</name>
+      <set uuid="817b9dbf-8fb5-551c-b336-3a81580720d8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/472-f0b35ccfb640.jpg" num="472" rarity="special">WLX</set>
     </card>
     <card>
       <name>Exploration Broodship</name>
@@ -817,6 +861,10 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
       <set uuid="24a477b2-5b90-5a90-b095-66876ec4f10b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/369-41fcfbf08142.jpg" num="369" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Hugs, Grisly Guardian</name>
+      <set uuid="fa9823f1-9143-556a-be21-2e6646db4fbe" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/473-92bcbfe766a3.jpg" num="473" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Hulking Raptor</name>
       <set uuid="2fc761a1-39ea-5dcc-8d2b-73e6396a958c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/063-f7c114a3c463.jpg" num="063" rarity="special">WLX</set>
     </card>
@@ -915,6 +963,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <tablerow>1</tablerow>
     </card>
     <card>
+      <name>Iridescent Vinelasher</name>
+      <set uuid="baa3ab89-eb10-59f0-825d-eb517c5f87a2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/474-f8aae662b9cf.jpg" num="474" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Iroh, Grand Lotus</name>
       <set uuid="eb2f4a79-bb91-5242-8cd2-afbbf7faaba0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/151-6b7cf660b91b.png" num="151" rarity="special">WLX</set>
     </card>
@@ -963,6 +1015,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <name>Korvold, Fae-Cursed King</name>
       <set uuid="c18142cc-4f8d-5dec-a8c0-19a379ee4de0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/432-cacc1b076994.jpg" num="432" rarity="special">WLX</set>
       <set uuid="6f20de31-5f27-5ba4-9282-1b39bc68edaf" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/433-c739c840aaac.jpg" num="433" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Krosan Grip</name>
+      <set uuid="468d7167-ef9b-5446-8324-6413e06ee966" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/475-169e685927ce.jpg" num="475" rarity="special">WLX</set>
     </card>
     <card>
       <name>Kynaios and Tiro of Meletis</name>
@@ -1178,6 +1234,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="2c1d183b-e013-5af6-9bbb-d8bd11aa0bd7" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/403-7a8d7df0e58b.jpg" num="403" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Nissa, Resurgent Animist</name>
+      <set uuid="e96f7bb3-c291-5315-8c7d-03e4f87103e4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/476-5d09800a27d6.jpg" num="476" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Not Dead After All</name>
       <set uuid="d85262f6-e1cb-5131-a095-0ba468c077bd" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/309-ad0b1464cc8e.jpg" num="309" rarity="special">WLX</set>
     </card>
@@ -1231,6 +1291,11 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Oracle of Mul Daya</name>
       <set uuid="c3254648-7c8f-5552-a238-403757b4993f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/454-e2e0118d433f.jpg" num="454" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Orcish Lumberjack</name>
+      <set uuid="ea7a7006-1a6c-58ca-965a-e6f1d8c26589" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/477-66f96504c629.jpg" num="477" rarity="special">WLX</set>
+      <set uuid="11a2bb48-232a-5f97-941f-0eea2e81971c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/478-484f03900dd9.jpg" num="478" rarity="special">WLX</set>
     </card>
     <card>
       <name>Ornithopter</name>
@@ -1299,6 +1364,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Portal to Phyrexia</name>
       <set uuid="047c73cb-0420-5f8f-a221-11d7f039b4e0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/231-e27077832945.jpg" num="231" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Prismatic Omen</name>
+      <set uuid="f1086c7a-3dc3-5a65-bf74-4493cc0c45f7" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/479-49c3b0b0b97f.jpg" num="479" rarity="special">WLX</set>
     </card>
     <card>
       <name>Professional Face-Breaker</name>
@@ -1386,6 +1455,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="b97e2b01-4a5e-545e-96b1-56664e0e36b8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/099-b7cd81c6d2d7.jpg" num="099" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Retreat to Hagra</name>
+      <set uuid="69043914-7b47-51dc-ab67-536f6ffc3285" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/480-439cb36062e6.jpg" num="480" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Return of the Wildspeaker</name>
       <set uuid="4ffa2def-d05a-5171-b061-b306966450ef" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/100-2a2cae478a81.jpg" num="100" rarity="special">WLX</set>
     </card>
@@ -1465,6 +1538,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Scion of Calamity</name>
       <set uuid="831067cb-33c5-5457-8cd1-fe2f6cf1d11b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/109-bf7e58450ce7.jpg" num="109" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Scute Swarm</name>
+      <set uuid="758cdcc7-43da-51d4-84c3-6edf10554ddc" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/481-19e0da887f98.jpg" num="481" rarity="special">WLX</set>
     </card>
     <card>
       <name>Sedgemoor Witch</name>
@@ -1615,6 +1692,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Spectral Searchlight</name>
       <set uuid="9c50d8a1-754f-52fa-a4f8-0e32739e3d90" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/148-b1b69cf920d2.jpg" num="148" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Spelunking</name>
+      <set uuid="5ca4bc79-1f33-56d5-abcf-30becb3b563c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/482-6143f3530588.jpg" num="482" rarity="special">WLX</set>
     </card>
     <card>
       <name>Spider Manifestation</name>
@@ -1936,6 +2017,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="dd9da0c9-b82a-5019-a3b0-8613b564674f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/149-e691c75b36ae.jpg" num="149" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Vexing Shusher</name>
+      <set uuid="d9aa394f-cf46-5a08-a693-957207c1d4f2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/483-969ee6236db9.jpg" num="483" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Vile Entomber</name>
       <set uuid="f0d4e14d-2ab4-596c-b99f-47276b25f754" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/134-a46da6494948.jpg" num="134" rarity="special">WLX</set>
     </card>
@@ -1987,6 +2072,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="d8afafda-a586-52cc-bcda-7a8c530e4cff" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/150-b590e57c256a.jpg" num="150" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Wayward Swordtooth</name>
+      <set uuid="a8070138-29fe-5a54-a8dd-8acd530f7ded" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/484-6d176fc490fc.jpg" num="484" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Wedding Ring</name>
       <set uuid="b7ed3e04-2245-5304-a933-8ce3975f0a58" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/002-469c6a028a1c.png" num="002" rarity="special">WLX</set>
     </card>
@@ -2017,6 +2106,15 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
     <card>
       <name>Wonder</name>
       <set uuid="5f9663cf-97d7-577e-8e00-1b7eae9b6b9e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/289-a120aaa4d058.jpg" num="289" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>World Shaper</name>
+      <set uuid="acd7c781-bb26-55fe-98e8-c502b305e2ad" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/485-bc0024e58f4d.jpg" num="485" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Worldly Tutor</name>
+      <set uuid="fef76151-21b9-54d9-b356-1b3d59cf3ce5" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/486-eac5aad0f789.jpg" num="486" rarity="special">WLX</set>
+      <set uuid="f3f9bc6e-bc5f-5000-8e71-da168ae1f1e8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/487-fc77d6e7a3eb.jpg" num="487" rarity="special">WLX</set>
     </card>
     <card>
       <name>Worldsoul's Rage</name>

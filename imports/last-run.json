@@ -1,60 +1,140 @@
 {
   "schema_version": 1,
-  "batch_id": "9c4b80c9c2",
-  "started_at": "2026-08-21T01:37:27+00:00",
-  "finished_at": "2026-08-21T01:37:29+00:00",
-  "found": 10,
-  "version_before": "3.2.15",
-  "version_after": "3.2.16",
+  "batch_id": "a55770fe35",
+  "started_at": "2026-08-23T02:40:17+00:00",
+  "finished_at": "2026-08-23T02:40:19+00:00",
+  "found": 26,
+  "version_before": "3.2.16",
+  "version_after": "3.2.17",
   "added": [
     {
-      "collector_number": "452",
-      "name": "Assassin's Trophy",
+      "collector_number": "462",
+      "name": "Abrupt Decay",
       "player": "Will"
     },
     {
-      "collector_number": "453",
-      "name": "Lotus Cobra",
+      "collector_number": "463",
+      "name": "Aggressive Mining",
       "player": "Will"
     },
     {
-      "collector_number": "454",
-      "name": "Oracle of Mul Daya",
+      "collector_number": "464",
+      "name": "Ancient Greenwarden",
       "player": "Will"
     },
     {
-      "collector_number": "455",
-      "name": "Rampaging Baloths",
+      "collector_number": "465",
+      "name": "Ashaya, Soul of the Wild",
       "player": "Will"
     },
     {
-      "collector_number": "456",
-      "name": "Splendid Reclamation",
+      "collector_number": "466",
+      "name": "Azusa, Lost but Seeking",
       "player": "Will"
     },
     {
-      "collector_number": "457",
-      "name": "Springbloom Druid",
+      "collector_number": "467",
+      "name": "Constant Mists",
       "player": "Will"
     },
     {
-      "collector_number": "458",
-      "name": "The Gitrog Monster",
+      "collector_number": "468",
+      "name": "Crop Rotation",
       "player": "Will"
     },
     {
-      "collector_number": "459",
-      "name": "The Gitrog Monster",
+      "collector_number": "469",
+      "name": "Dread Presence",
       "player": "Will"
     },
     {
-      "collector_number": "460",
-      "name": "Tireless Provisioner",
+      "collector_number": "470",
+      "name": "Dryad of the Ilysian Grove",
       "player": "Will"
     },
     {
-      "collector_number": "461",
-      "name": "Valakut Exploration",
+      "collector_number": "471",
+      "name": "Elvish Reclaimer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "472",
+      "name": "Exploration",
+      "player": "Will"
+    },
+    {
+      "collector_number": "473",
+      "name": "Hugs, Grisly Guardian",
+      "player": "Will"
+    },
+    {
+      "collector_number": "474",
+      "name": "Iridescent Vinelasher",
+      "player": "Will"
+    },
+    {
+      "collector_number": "475",
+      "name": "Krosan Grip",
+      "player": "Will"
+    },
+    {
+      "collector_number": "476",
+      "name": "Nissa, Resurgent Animist",
+      "player": "Will"
+    },
+    {
+      "collector_number": "477",
+      "name": "Orcish Lumberjack",
+      "player": "Will"
+    },
+    {
+      "collector_number": "478",
+      "name": "Orcish Lumberjack",
+      "player": "Will"
+    },
+    {
+      "collector_number": "479",
+      "name": "Prismatic Omen",
+      "player": "Will"
+    },
+    {
+      "collector_number": "480",
+      "name": "Retreat to Hagra",
+      "player": "Will"
+    },
+    {
+      "collector_number": "481",
+      "name": "Scute Swarm",
+      "player": "Will"
+    },
+    {
+      "collector_number": "482",
+      "name": "Spelunking",
+      "player": "Will"
+    },
+    {
+      "collector_number": "483",
+      "name": "Vexing Shusher",
+      "player": "Will"
+    },
+    {
+      "collector_number": "484",
+      "name": "Wayward Swordtooth",
+      "player": "Will"
+    },
+    {
+      "collector_number": "485",
+      "name": "World Shaper",
+      "player": "Will"
+    },
+    {
+      "collector_number": "486",
+      "name": "Worldly Tutor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "487",
+      "name": "Worldly Tutor",
       "player": "Will"
     }
   ],

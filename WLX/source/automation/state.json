@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 462,
+  "next_collector": 488,
   "collectors": {
     "001": {
       "status": "active",
@@ -2774,6 +2774,162 @@
       "status": "active",
       "player": "Will",
       "uuid": "f07c97ce-5ba2-5821-8f35-9b75074c1742",
+      "card_kind": "official"
+    },
+    "462": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "736c6613-5334-5a50-90de-427a20ed30ab",
+      "card_kind": "official"
+    },
+    "463": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "69e73821-efe4-54f4-a282-9b301d56724d",
+      "card_kind": "official"
+    },
+    "464": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "1563b81e-7bcc-5853-8989-0d05774fde41",
+      "card_kind": "official"
+    },
+    "465": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "7361596f-1777-51fa-8fcd-37911a2a81d3",
+      "card_kind": "official"
+    },
+    "466": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "7e730c8b-5ebe-5f94-b713-a13ae3dfe305",
+      "card_kind": "official"
+    },
+    "467": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "6dae03b2-7f4d-5961-925d-748dc13233da",
+      "card_kind": "official"
+    },
+    "468": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "b927413b-9c5f-5f1b-a307-fcf99fb27b05",
+      "card_kind": "official"
+    },
+    "469": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "20865b2d-5b02-5483-93e1-cc019508dc8e",
+      "card_kind": "official"
+    },
+    "470": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "ebfe664e-3840-550b-bbc6-30b012eae370",
+      "card_kind": "official"
+    },
+    "471": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "4c48e364-401b-5ee4-b39e-66ce8320c3a2",
+      "card_kind": "official"
+    },
+    "472": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "817b9dbf-8fb5-551c-b336-3a81580720d8",
+      "card_kind": "official"
+    },
+    "473": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "fa9823f1-9143-556a-be21-2e6646db4fbe",
+      "card_kind": "official"
+    },
+    "474": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "baa3ab89-eb10-59f0-825d-eb517c5f87a2",
+      "card_kind": "official"
+    },
+    "475": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "468d7167-ef9b-5446-8324-6413e06ee966",
+      "card_kind": "official"
+    },
+    "476": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "e96f7bb3-c291-5315-8c7d-03e4f87103e4",
+      "card_kind": "official"
+    },
+    "477": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "ea7a7006-1a6c-58ca-965a-e6f1d8c26589",
+      "card_kind": "official"
+    },
+    "478": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "11a2bb48-232a-5f97-941f-0eea2e81971c",
+      "card_kind": "official"
+    },
+    "479": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "f1086c7a-3dc3-5a65-bf74-4493cc0c45f7",
+      "card_kind": "official"
+    },
+    "480": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "69043914-7b47-51dc-ab67-536f6ffc3285",
+      "card_kind": "official"
+    },
+    "481": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "758cdcc7-43da-51d4-84c3-6edf10554ddc",
+      "card_kind": "official"
+    },
+    "482": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "5ca4bc79-1f33-56d5-abcf-30becb3b563c",
+      "card_kind": "official"
+    },
+    "483": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "d9aa394f-cf46-5a08-a693-957207c1d4f2",
+      "card_kind": "official"
+    },
+    "484": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "a8070138-29fe-5a54-a8dd-8acd530f7ded",
+      "card_kind": "official"
+    },
+    "485": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "acd7c781-bb26-55fe-98e8-c502b305e2ad",
+      "card_kind": "official"
+    },
+    "486": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "fef76151-21b9-54d9-b356-1b3d59cf3ce5",
+      "card_kind": "official"
+    },
+    "487": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "f3f9bc6e-bc5f-5000-8e71-da168ae1f1e8",
       "card_kind": "official"
     }
   },

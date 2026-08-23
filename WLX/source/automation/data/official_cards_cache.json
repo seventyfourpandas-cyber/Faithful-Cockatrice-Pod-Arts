@@ -4545,6 +4545,198 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-21"
+    },
+    "abrupt decay": {
+      "name": "Abrupt Decay",
+      "oracle_id": "1c747fe2-289e-492a-a846-aa77707e2dc3",
+      "scryfall_uri": "https://scryfall.com/card/mm3/146/abrupt-decay?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "aggressive mining": {
+      "name": "Aggressive Mining",
+      "oracle_id": "ff321c13-03ae-4cb9-b371-1242290f8433",
+      "scryfall_uri": "https://scryfall.com/card/m15/127/aggressive-mining?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "ancient greenwarden": {
+      "name": "Ancient Greenwarden",
+      "oracle_id": "3bcf090c-e890-4a9f-a8aa-6079e4ec9947",
+      "scryfall_uri": "https://scryfall.com/card/otc/186/ancient-greenwarden?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "ashaya, soul of the wild": {
+      "name": "Ashaya, Soul of the Wild",
+      "oracle_id": "162572f2-1757-42e9-bd97-e6bd9a762c0e",
+      "scryfall_uri": "https://scryfall.com/card/dsc/170/ashaya-soul-of-the-wild?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "azusa, lost but seeking": {
+      "name": "Azusa, Lost but Seeking",
+      "oracle_id": "6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51",
+      "scryfall_uri": "https://scryfall.com/card/cmm/274/azusa-lost-but-seeking?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "constant mists": {
+      "name": "Constant Mists",
+      "oracle_id": "c850a29e-dc40-4ab6-89f1-d501a1a350d1",
+      "scryfall_uri": "https://scryfall.com/card/sth/104/constant-mists?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "crop rotation": {
+      "name": "Crop Rotation",
+      "oracle_id": "28b46183-c62f-47b1-9fee-3ba148202cab",
+      "scryfall_uri": "https://scryfall.com/card/dmr/154/crop-rotation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "dread presence": {
+      "name": "Dread Presence",
+      "oracle_id": "1690a782-9e54-4231-9a72-abae5ed7050c",
+      "scryfall_uri": "https://scryfall.com/card/m20/96/dread-presence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "dryad of the ilysian grove": {
+      "name": "Dryad of the Ilysian Grove",
+      "oracle_id": "bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9",
+      "scryfall_uri": "https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "elvish reclaimer": {
+      "name": "Elvish Reclaimer",
+      "oracle_id": "94f01534-7bb3-4b1e-8f77-e84156408686",
+      "scryfall_uri": "https://scryfall.com/card/m20/169/elvish-reclaimer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "exploration": {
+      "name": "Exploration",
+      "oracle_id": "0c2841bb-038c-4fbf-8360-bc0a1522b58d",
+      "scryfall_uri": "https://scryfall.com/card/dmr/159/exploration?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "hugs, grisly guardian": {
+      "name": "Hugs, Grisly Guardian",
+      "oracle_id": "3c5c227a-335b-4995-9821-d4269a0a233a",
+      "scryfall_uri": "https://scryfall.com/card/blb/218/hugs-grisly-guardian?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "iridescent vinelasher": {
+      "name": "Iridescent Vinelasher",
+      "oracle_id": "4f8c4927-46c2-4c18-b5af-c6288dbaff6d",
+      "scryfall_uri": "https://scryfall.com/card/blb/99/iridescent-vinelasher?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "krosan grip": {
+      "name": "Krosan Grip",
+      "oracle_id": "3e39224c-72ce-4ecc-aa17-12c071ea1f3e",
+      "scryfall_uri": "https://scryfall.com/card/c21/198/krosan-grip?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "nissa, resurgent animist": {
+      "name": "Nissa, Resurgent Animist",
+      "oracle_id": "c1fc5923-c3cd-448a-98d1-c154661c2812",
+      "scryfall_uri": "https://scryfall.com/card/mat/22/nissa-resurgent-animist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "orcish lumberjack": {
+      "name": "Orcish Lumberjack",
+      "oracle_id": "383e3fe4-8558-4561-8632-6eadb5d5963c",
+      "scryfall_uri": "https://scryfall.com/card/vma/179/orcish-lumberjack?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "prismatic omen": {
+      "name": "Prismatic Omen",
+      "oracle_id": "d90882ae-6572-4214-8d9c-0bdfb75f9be2",
+      "scryfall_uri": "https://scryfall.com/card/shm/126/prismatic-omen?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "retreat to hagra": {
+      "name": "Retreat to Hagra",
+      "oracle_id": "73cbb4f0-90d6-4228-9341-791e3e9c4b48",
+      "scryfall_uri": "https://scryfall.com/card/c18/116/retreat-to-hagra?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "scute swarm": {
+      "name": "Scute Swarm",
+      "oracle_id": "aa854d50-444c-49d9-bfb1-5476b33c1c0b",
+      "scryfall_uri": "https://scryfall.com/card/dsc/197/scute-swarm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "spelunking": {
+      "name": "Spelunking",
+      "oracle_id": "2962fe4c-bf48-454b-8a6b-0f8253352ae8",
+      "scryfall_uri": "https://scryfall.com/card/lci/213/spelunking?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "vexing shusher": {
+      "name": "Vexing Shusher",
+      "oracle_id": "a20a7cf8-2075-47ad-9229-36264b112e61",
+      "scryfall_uri": "https://scryfall.com/card/2xm/225/vexing-shusher?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "wayward swordtooth": {
+      "name": "Wayward Swordtooth",
+      "oracle_id": "3875aef0-3102-4fbf-be90-e4139f7a2348",
+      "scryfall_uri": "https://scryfall.com/card/lcc/263/wayward-swordtooth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "world shaper": {
+      "name": "World Shaper",
+      "oracle_id": "3c075bb6-1831-4521-bd8d-4ed2825ae796",
+      "scryfall_uri": "https://scryfall.com/card/otc/214/world-shaper?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "worldly tutor": {
+      "name": "Worldly Tutor",
+      "oracle_id": "e8863518-0bfa-49c3-8c6e-6c9116a81051",
+      "scryfall_uri": "https://scryfall.com/card/dmr/185/worldly-tutor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
     }
   }
 }
