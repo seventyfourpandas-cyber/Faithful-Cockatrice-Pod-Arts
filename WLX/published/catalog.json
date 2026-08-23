@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.20",
+  "version": "3.2.21",
   "set_code": "WLX",
   "cards": [
     {
@@ -9756,6 +9756,24 @@
       "image": "images/WLX/538-49d9cb51f246.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/538-49d9cb51f246.jpg",
       "sha256": "49d9cb51f24634ff25c2600990e68d8a34f174a8298c9781fb69dda658d071bc",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Etherium Sculptor",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "539",
+      "uuid": "482e67cf-4d0e-56c9-888c-6e7e9d3fb3a3",
+      "rarity": "special",
+      "image": "images/WLX/539-b7e3a765a51b.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/539-b7e3a765a51b.jpg",
+      "sha256": "b7e3a765a51bbb971dee64020225514bc5461c6d6bd9e1affe925399101c51ad",
       "dimensions": [
         2976,
         4152

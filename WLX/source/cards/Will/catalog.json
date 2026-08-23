@@ -6082,6 +6082,17 @@
       "image_file": "WLX-538.jpg",
       "image_sha256": "49d9cb51f24634ff25c2600990e68d8a34f174a8298c9781fb69dda658d071bc",
       "notes": "Imported from will/Uthros Research Craft.jpg in file batch 156f8801ef"
+    },
+    {
+      "collector_number": "539",
+      "uuid": "482e67cf-4d0e-56c9-888c-6e7e9d3fb3a3",
+      "card_kind": "official",
+      "official_name": "Etherium Sculptor",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-539.jpg",
+      "image_sha256": "b7e3a765a51bbb971dee64020225514bc5461c6d6bd9e1affe925399101c51ad",
+      "notes": "Imported from will/Etherium Sculptor.jpg in file batch 9915f0330b"
     }
   ]
 }

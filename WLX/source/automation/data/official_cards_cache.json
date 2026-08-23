@@ -5315,6 +5315,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-23"
+    },
+    "etherium sculptor": {
+      "name": "Etherium Sculptor",
+      "oracle_id": "96b87445-6362-4a17-91b2-cbf203fd03fd",
+      "scryfall_uri": "https://scryfall.com/card/eoc/72/etherium-sculptor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
     }
   }
 }

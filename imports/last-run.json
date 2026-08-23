@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "batch_id": "156f8801ef",
-  "started_at": "2026-08-23T11:27:38+00:00",
-  "finished_at": "2026-08-23T11:27:40+00:00",
+  "batch_id": "9915f0330b",
+  "started_at": "2026-08-23T11:44:59+00:00",
+  "finished_at": "2026-08-23T11:45:02+00:00",
   "found": 1,
-  "version_before": "3.2.19",
-  "version_after": "3.2.20",
+  "version_before": "3.2.20",
+  "version_after": "3.2.21",
   "added": [
     {
-      "collector_number": "538",
-      "name": "Uthros Research Craft",
+      "collector_number": "539",
+      "name": "Etherium Sculptor",
       "player": "Will"
     }
   ],
