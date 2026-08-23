@@ -4955,6 +4955,358 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-23"
+    },
+    "alibou, ancient witness": {
+      "name": "Alibou, Ancient Witness",
+      "oracle_id": "e5e8e116-10fe-48b0-b3d8-6edb39bd5f90",
+      "scryfall_uri": "https://scryfall.com/card/eoc/113/alibou-ancient-witness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "all will be one": {
+      "name": "All Will Be One",
+      "oracle_id": "477374dc-042c-48f7-9ebe-99c15d8ae04f",
+      "scryfall_uri": "https://scryfall.com/card/one/118/all-will-be-one?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "astral cornucopia": {
+      "name": "Astral Cornucopia",
+      "oracle_id": "1bc42024-52da-4d93-8b47-544f0a4a72a1",
+      "scryfall_uri": "https://scryfall.com/card/soc/342/astral-cornucopia?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "coalition relic": {
+      "name": "Coalition Relic",
+      "oracle_id": "008cb342-79f5-4df6-a6b7-0e9e22ed693f",
+      "scryfall_uri": "https://scryfall.com/card/dmc/180/coalition-relic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "coretapper": {
+      "name": "Coretapper",
+      "oracle_id": "66e37011-f3d2-41ed-8e09-7bba9464e8c3",
+      "scryfall_uri": "https://scryfall.com/card/eoc/132/coretapper?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "crystalline crawler": {
+      "name": "Crystalline Crawler",
+      "oracle_id": "5ea3e672-ae14-49a4-badb-f713497dd126",
+      "scryfall_uri": "https://scryfall.com/card/eoc/133/crystalline-crawler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "cyberdrive awakener": {
+      "name": "Cyberdrive Awakener",
+      "oracle_id": "126a5d0b-e7d6-458e-87af-47d845678014",
+      "scryfall_uri": "https://scryfall.com/card/eoc/69/cyberdrive-awakener?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "darksteel reactor": {
+      "name": "Darksteel Reactor",
+      "oracle_id": "bc483bab-14fb-498d-9310-9c070766c7ae",
+      "scryfall_uri": "https://scryfall.com/card/eoc/134/darksteel-reactor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "deepglow skate": {
+      "name": "Deepglow Skate",
+      "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
+      "scryfall_uri": "https://scryfall.com/card/eoc/70/deepglow-skate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "deflecting palm": {
+      "name": "Deflecting Palm",
+      "oracle_id": "dc5dffc8-fac5-4956-bac4-1ad2cc16f6be",
+      "scryfall_uri": "https://scryfall.com/card/mkc/205/deflecting-palm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "desynchronization": {
+      "name": "Desynchronization",
+      "oracle_id": "dab64d0f-1246-4a4d-9a79-6db2ca0c8882",
+      "scryfall_uri": "https://scryfall.com/card/acr/16/desynchronization?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "dispatch": {
+      "name": "Dispatch",
+      "oracle_id": "133c99c0-3652-410f-8100-68015a47af9f",
+      "scryfall_uri": "https://scryfall.com/card/msc/130/dispatch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "dreamtide whale": {
+      "name": "Dreamtide Whale",
+      "oracle_id": "ee8c0b4c-03c5-4da5-b4f1-028c845384af",
+      "scryfall_uri": "https://scryfall.com/card/mh3/59/dreamtide-whale?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "emry, lurker of the loch": {
+      "name": "Emry, Lurker of the Loch",
+      "oracle_id": "da3e7d3d-2ca0-40c3-9602-fca37c92f507",
+      "scryfall_uri": "https://scryfall.com/card/eoc/71/emry-lurker-of-the-loch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "enthusiastic mechanaut": {
+      "name": "Enthusiastic Mechanaut",
+      "oracle_id": "c9722086-23e8-43dc-8a8c-541ff6962318",
+      "scryfall_uri": "https://scryfall.com/card/eoc/114/enthusiastic-mechanaut?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "everflowing chalice": {
+      "name": "Everflowing Chalice",
+      "oracle_id": "0a79237e-0811-4a8a-bd4d-db3ca91bff22",
+      "scryfall_uri": "https://scryfall.com/card/eoc/137/everflowing-chalice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "excalibur, sword of eden": {
+      "name": "Excalibur, Sword of Eden",
+      "oracle_id": "9fb6bd72-031b-40a1-83c5-8a1c82f84e12",
+      "scryfall_uri": "https://scryfall.com/card/acr/72/excalibur-sword-of-eden?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "experimental augury": {
+      "name": "Experimental Augury",
+      "oracle_id": "2ee08dcd-5558-45be-b619-8a550f3865ad",
+      "scryfall_uri": "https://scryfall.com/card/eoc/73/experimental-augury?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "filigree vector": {
+      "name": "Filigree Vector",
+      "oracle_id": "44b90948-e85a-4f69-a9e2-aba63775ba40",
+      "scryfall_uri": "https://scryfall.com/card/moc/15/filigree-vector?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "illustrious wanderglyph": {
+      "name": "Illustrious Wanderglyph",
+      "oracle_id": "72adf091-4491-4afe-b893-b8d20ad38a86",
+      "scryfall_uri": "https://scryfall.com/card/lcc/9/illustrious-wanderglyph?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "insight engine": {
+      "name": "Insight Engine",
+      "oracle_id": "83409a22-10de-4d51-90a3-e0579ca8cbea",
+      "scryfall_uri": "https://scryfall.com/card/eoc/6/insight-engine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "jhoira, weatherlight captain": {
+      "name": "Jhoira, Weatherlight Captain",
+      "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+      "scryfall_uri": "https://scryfall.com/card/eoc/118/jhoira-weatherlight-captain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "kappa cannoneer": {
+      "name": "Kappa Cannoneer",
+      "oracle_id": "7fffbe7f-ad78-4bb6-a611-c37e495c6ee0",
+      "scryfall_uri": "https://scryfall.com/card/eoc/74/kappa-cannoneer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "lion sash": {
+      "name": "Lion Sash",
+      "oracle_id": "50330e48-db74-4c5f-a0bc-f9a8607e8f31",
+      "scryfall_uri": "https://scryfall.com/card/neo/26/lion-sash?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "lux artillery": {
+      "name": "Lux Artillery",
+      "oracle_id": "cbd76b22-d04e-48e7-bcab-c7f5466d67d8",
+      "scryfall_uri": "https://scryfall.com/card/eoc/140/lux-artillery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "lux cannon": {
+      "name": "Lux Cannon",
+      "oracle_id": "ebdf26a4-77ee-4635-8d52-926bdca623f7",
+      "scryfall_uri": "https://scryfall.com/card/eoc/141/lux-cannon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "moxite refinery": {
+      "name": "Moxite Refinery",
+      "oracle_id": "3fe9367b-def1-4820-9e23-92ce3d7a4afc",
+      "scryfall_uri": "https://scryfall.com/card/eoc/17/moxite-refinery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "patrolling peacemaker": {
+      "name": "Patrolling Peacemaker",
+      "oracle_id": "aa44171d-1c76-40a7-82fc-5ef2abbca647",
+      "scryfall_uri": "https://scryfall.com/card/eoc/5/patrolling-peacemaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "pentad prism": {
+      "name": "Pentad Prism",
+      "oracle_id": "72e8d67a-41e6-4074-bcbd-b54ead995237",
+      "scryfall_uri": "https://scryfall.com/card/eoc/56/pentad-prism?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "phyrexian metamorph": {
+      "name": "Phyrexian Metamorph",
+      "oracle_id": "340bbe8b-e987-4c3e-ab4e-9dee63e57d4f",
+      "scryfall_uri": "https://scryfall.com/card/eoc/75/phyrexian-metamorph?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "resourceful defense": {
+      "name": "Resourceful Defense",
+      "oracle_id": "83e78565-e61f-4bbc-b834-f47941f7e3ec",
+      "scryfall_uri": "https://scryfall.com/card/eoc/67/resourceful-defense?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "solar array": {
+      "name": "Solar Array",
+      "oracle_id": "e8e2f273-5e74-4f16-8d49-2e86e9c9f2dc",
+      "scryfall_uri": "https://scryfall.com/card/eoc/18/solar-array?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "soul-guide lantern": {
+      "name": "Soul-Guide Lantern",
+      "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+      "scryfall_uri": "https://scryfall.com/card/eoc/143/soul-guide-lantern?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "steel overseer": {
+      "name": "Steel Overseer",
+      "oracle_id": "986ae327-f433-4c58-93dc-afc544b9bfcb",
+      "scryfall_uri": "https://scryfall.com/card/eoc/144/steel-overseer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "surge conductor": {
+      "name": "Surge Conductor",
+      "oracle_id": "dc11d9dc-7d18-45dc-955b-d0ba71fc0db8",
+      "scryfall_uri": "https://scryfall.com/card/eoc/19/surge-conductor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "sword of truth and justice": {
+      "name": "Sword of Truth and Justice",
+      "oracle_id": "7a8baaf9-e21f-41a0-9f15-80764f6e5e68",
+      "scryfall_uri": "https://scryfall.com/card/mh1/229/sword-of-truth-and-justice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "tekuthal, inquiry dominus": {
+      "name": "Tekuthal, Inquiry Dominus",
+      "oracle_id": "4716ab91-30e6-4c63-8389-a9db8f9414d8",
+      "scryfall_uri": "https://scryfall.com/card/eoc/78/tekuthal-inquiry-dominus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "tezzeret's gambit": {
+      "name": "Tezzeret's Gambit",
+      "oracle_id": "b33d2b77-f068-4fdc-a1a8-0353a35e3973",
+      "scryfall_uri": "https://scryfall.com/card/eoc/47/tezzerets-gambit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "thirst for knowledge": {
+      "name": "Thirst for Knowledge",
+      "oracle_id": "939e6f71-185e-41f2-9d54-72cce06f1dce",
+      "scryfall_uri": "https://scryfall.com/card/msh/79/thirst-for-knowledge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "thought monitor": {
+      "name": "Thought Monitor",
+      "oracle_id": "9deded8b-cec4-4ede-a50b-131404d456d4",
+      "scryfall_uri": "https://scryfall.com/card/eoc/79/thought-monitor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "transit mage": {
+      "name": "Transit Mage",
+      "oracle_id": "991efbf1-299d-4892-aeab-8ff9827f7168",
+      "scryfall_uri": "https://scryfall.com/card/dft/70/transit-mage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "vanquish the horde": {
+      "name": "Vanquish the Horde",
+      "oracle_id": "a332e80a-dc51-4dc6-bc85-e114a1c6fdb8",
+      "scryfall_uri": "https://scryfall.com/card/msc/146/vanquish-the-horde?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "voyager quickwelder": {
+      "name": "Voyager Quickwelder",
+      "oracle_id": "87e8c044-5f83-437d-a89e-8a95559045f6",
+      "scryfall_uri": "https://scryfall.com/card/dft/37/voyager-quickwelder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
+    },
+    "weatherlight": {
+      "name": "Weatherlight",
+      "oracle_id": "73b3682f-396a-4ebe-aaac-6ce3ee36283a",
+      "scryfall_uri": "https://scryfall.com/card/nec/165/weatherlight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
     }
   }
 }
