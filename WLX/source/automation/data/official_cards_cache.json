@@ -4737,6 +4737,224 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-23"
+    },
+    "boggart trawler // boggart bog": {
+      "name": "Boggart Trawler // Boggart Bog",
+      "oracle_id": "727f3201-1cfc-4ab2-9dfe-be4f7251f42f",
+      "scryfall_uri": "https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Boggart Trawler",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Goblin",
+          "rules_text": "When this creature enters, exile target player's graveyard.",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "3/1",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boggart Bog",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "boggart bog": {
+      "name": "Boggart Trawler // Boggart Bog",
+      "oracle_id": "727f3201-1cfc-4ab2-9dfe-be4f7251f42f",
+      "scryfall_uri": "https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Boggart Trawler",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Goblin",
+          "rules_text": "When this creature enters, exile target player's graveyard.",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "3/1",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boggart Bog",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "boggart trawler": {
+      "name": "Boggart Trawler // Boggart Bog",
+      "oracle_id": "727f3201-1cfc-4ab2-9dfe-be4f7251f42f",
+      "scryfall_uri": "https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Boggart Trawler",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Goblin",
+          "rules_text": "When this creature enters, exile target player's graveyard.",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "3/1",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boggart Bog",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "growing rites of itlimoc // itlimoc, cradle of the sun": {
+      "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+      "oracle_id": "ea9c459a-6047-43aa-968f-a582be4000e8",
+      "scryfall_uri": "https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Growing Rites of Itlimoc",
+          "side": "front",
+          "mana_cost": "{2}{G}",
+          "mana_value": "",
+          "type_line": "Legendary Enchantment",
+          "rules_text": "When Growing Rites of Itlimoc enters, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Itlimoc, Cradle of the Sun",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Land",
+          "rules_text": "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "growing rites of itlimoc": {
+      "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+      "oracle_id": "ea9c459a-6047-43aa-968f-a582be4000e8",
+      "scryfall_uri": "https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Growing Rites of Itlimoc",
+          "side": "front",
+          "mana_cost": "{2}{G}",
+          "mana_value": "",
+          "type_line": "Legendary Enchantment",
+          "rules_text": "When Growing Rites of Itlimoc enters, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Itlimoc, Cradle of the Sun",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Land",
+          "rules_text": "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "itlimoc, cradle of the sun": {
+      "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+      "oracle_id": "ea9c459a-6047-43aa-968f-a582be4000e8",
+      "scryfall_uri": "https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun?utm_source=api",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Growing Rites of Itlimoc",
+          "side": "front",
+          "mana_cost": "{2}{G}",
+          "mana_value": "",
+          "type_line": "Legendary Enchantment",
+          "rules_text": "When Growing Rites of Itlimoc enters, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Itlimoc, Cradle of the Sun",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Land",
+          "rules_text": "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-23"
+    },
+    "nissa, vital force": {
+      "name": "Nissa, Vital Force",
+      "oracle_id": "31d4d8ce-36ba-4297-8c7a-34a83ba25255",
+      "scryfall_uri": "https://scryfall.com/card/kld/163/nissa-vital-force?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
     }
   }
 }

@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-23T02:40:17+00:00</createdAt>
+    <createdAt>2026-08-23T05:57:09+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.17</sourceVersion>
+    <sourceVersion>3.2.18</sourceVersion>
   </info>
   <sets>
     <set>
@@ -249,6 +249,38 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Bog Witch</name>
       <set uuid="fc7c0b6b-1d88-5359-a419-8068b8b92800" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/025-ddd0fa5bb35d.jpg" num="025" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Boggart Bog</name>
+      <text>As this land enters, you may pay 3 life. If you don't, it enters tapped.
+{T}: Add {B}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>B</coloridentity>
+      </prop>
+      <set uuid="667dca33-3043-5c14-b68d-3ccdd9e892b0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/489-back-a3d90d2b4a71.jpg" num="489" rarity="special">WLX</set>
+      <related attach="transform">Boggart Trawler</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Boggart Trawler</name>
+      <text>When this creature enters, exile target player's graveyard.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Creature — Goblin</type>
+        <maintype>Creature</maintype>
+        <manacost>{2}{B}</manacost>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/1</pt>
+      </prop>
+      <set uuid="667dca33-3043-5c14-b68d-3ccdd9e892b0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/489-front-4862ccadf0ee.jpg" num="489" rarity="special">WLX</set>
+      <related attach="transform">Boggart Bog</related>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Bolt Bend</name>
@@ -813,6 +845,23 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
       <set uuid="3526a2e2-a5a9-5dba-b6a3-2c06865e6fa2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/060-dfa5e21a15b9.jpg" num="060" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Growing Rites of Itlimoc</name>
+      <text>When Growing Rites of Itlimoc enters, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.</text>
+      <prop>
+        <layout>transform</layout>
+        <side>front</side>
+        <type>Legendary Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <manacost>{2}{G}</manacost>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+      </prop>
+      <set uuid="28711614-7a53-5030-9545-dc15d4e92237" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/490-front-51b96322ab0f.jpg" num="490" rarity="special">WLX</set>
+      <related attach="transform">Itlimoc, Cradle of the Sun</related>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
       <name>Gruul Signet</name>
       <set uuid="9219c192-b1b6-5dcd-902a-849eed67ec9c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/208-e57ddce45ea2.jpg" num="208" rarity="special">WLX</set>
     </card>
@@ -973,6 +1022,22 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Isochron Scepter</name>
       <set uuid="9152aff8-d76c-540c-961c-53a5f2e58bdc" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/146-fd41f132563f.jpg" num="146" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Itlimoc, Cradle of the Sun</name>
+      <text>(Transforms from Growing Rites of Itlimoc.)
+{T}: Add {G}.
+{T}: Add {G} for each creature you control.</text>
+      <prop>
+        <layout>transform</layout>
+        <side>back</side>
+        <type>Legendary Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>G</coloridentity>
+      </prop>
+      <set uuid="28711614-7a53-5030-9545-dc15d4e92237" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/490-back-498272009388.jpg" num="490" rarity="special">WLX</set>
+      <related attach="transform">Growing Rites of Itlimoc</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Izzet Signet</name>
@@ -1236,6 +1301,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Nissa, Resurgent Animist</name>
       <set uuid="e96f7bb3-c291-5315-8c7d-03e4f87103e4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/476-5d09800a27d6.jpg" num="476" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Nissa, Vital Force</name>
+      <set uuid="899c31c6-b52d-5f6e-8d60-56e729dc9e57" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/488-2116bc5a0579.jpg" num="488" rarity="special">WLX</set>
     </card>
     <card>
       <name>Not Dead After All</name>

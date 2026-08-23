@@ -1,140 +1,25 @@
 {
   "schema_version": 1,
-  "batch_id": "a55770fe35",
-  "started_at": "2026-08-23T02:40:17+00:00",
-  "finished_at": "2026-08-23T02:40:19+00:00",
-  "found": 26,
-  "version_before": "3.2.16",
-  "version_after": "3.2.17",
+  "batch_id": "11aeac0a46",
+  "started_at": "2026-08-23T05:57:09+00:00",
+  "finished_at": "2026-08-23T05:57:11+00:00",
+  "found": 5,
+  "version_before": "3.2.17",
+  "version_after": "3.2.18",
   "added": [
     {
-      "collector_number": "462",
-      "name": "Abrupt Decay",
+      "collector_number": "488",
+      "name": "Nissa, Vital Force",
       "player": "Will"
     },
     {
-      "collector_number": "463",
-      "name": "Aggressive Mining",
+      "collector_number": "489",
+      "name": "Boggart Trawler // Boggart Bog",
       "player": "Will"
     },
     {
-      "collector_number": "464",
-      "name": "Ancient Greenwarden",
-      "player": "Will"
-    },
-    {
-      "collector_number": "465",
-      "name": "Ashaya, Soul of the Wild",
-      "player": "Will"
-    },
-    {
-      "collector_number": "466",
-      "name": "Azusa, Lost but Seeking",
-      "player": "Will"
-    },
-    {
-      "collector_number": "467",
-      "name": "Constant Mists",
-      "player": "Will"
-    },
-    {
-      "collector_number": "468",
-      "name": "Crop Rotation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "469",
-      "name": "Dread Presence",
-      "player": "Will"
-    },
-    {
-      "collector_number": "470",
-      "name": "Dryad of the Ilysian Grove",
-      "player": "Will"
-    },
-    {
-      "collector_number": "471",
-      "name": "Elvish Reclaimer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "472",
-      "name": "Exploration",
-      "player": "Will"
-    },
-    {
-      "collector_number": "473",
-      "name": "Hugs, Grisly Guardian",
-      "player": "Will"
-    },
-    {
-      "collector_number": "474",
-      "name": "Iridescent Vinelasher",
-      "player": "Will"
-    },
-    {
-      "collector_number": "475",
-      "name": "Krosan Grip",
-      "player": "Will"
-    },
-    {
-      "collector_number": "476",
-      "name": "Nissa, Resurgent Animist",
-      "player": "Will"
-    },
-    {
-      "collector_number": "477",
-      "name": "Orcish Lumberjack",
-      "player": "Will"
-    },
-    {
-      "collector_number": "478",
-      "name": "Orcish Lumberjack",
-      "player": "Will"
-    },
-    {
-      "collector_number": "479",
-      "name": "Prismatic Omen",
-      "player": "Will"
-    },
-    {
-      "collector_number": "480",
-      "name": "Retreat to Hagra",
-      "player": "Will"
-    },
-    {
-      "collector_number": "481",
-      "name": "Scute Swarm",
-      "player": "Will"
-    },
-    {
-      "collector_number": "482",
-      "name": "Spelunking",
-      "player": "Will"
-    },
-    {
-      "collector_number": "483",
-      "name": "Vexing Shusher",
-      "player": "Will"
-    },
-    {
-      "collector_number": "484",
-      "name": "Wayward Swordtooth",
-      "player": "Will"
-    },
-    {
-      "collector_number": "485",
-      "name": "World Shaper",
-      "player": "Will"
-    },
-    {
-      "collector_number": "486",
-      "name": "Worldly Tutor",
-      "player": "Will"
-    },
-    {
-      "collector_number": "487",
-      "name": "Worldly Tutor",
+      "collector_number": "490",
+      "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
       "player": "Will"
     }
   ],

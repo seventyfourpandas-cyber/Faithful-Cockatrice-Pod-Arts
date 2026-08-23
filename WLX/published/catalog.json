@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.17",
+  "version": "3.2.18",
   "set_code": "WLX",
   "cards": [
     {
@@ -8802,6 +8802,96 @@
       "image": "images/WLX/487-fc77d6e7a3eb.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/487-fc77d6e7a3eb.jpg",
       "sha256": "fc77d6e7a3eb6cf8d7282e1260a5dd3c15ca3821ece5cf2a745fe4f430cae031",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Nissa, Vital Force",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "488",
+      "uuid": "899c31c6-b52d-5f6e-8d60-56e729dc9e57",
+      "rarity": "special",
+      "image": "images/WLX/488-2116bc5a0579.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/488-2116bc5a0579.jpg",
+      "sha256": "2116bc5a0579460365bbc91a0524f355985047fd22ed6efaedbf93f6fb77cee8",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "Boggart Trawler",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "489",
+      "uuid": "667dca33-3043-5c14-b68d-3ccdd9e892b0",
+      "rarity": "special",
+      "image": "images/WLX/489-front-4862ccadf0ee.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/489-front-4862ccadf0ee.jpg",
+      "sha256": "4862ccadf0ee186df5e2357ff3c4d8ff8574ad1bd247d68e9ddb597c3047e0cb",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "Boggart Bog",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "489",
+      "uuid": "667dca33-3043-5c14-b68d-3ccdd9e892b0",
+      "rarity": "special",
+      "image": "images/WLX/489-back-a3d90d2b4a71.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/489-back-a3d90d2b4a71.jpg",
+      "sha256": "a3d90d2b4a71505721ec505c74e1a82f717c12ceaee4883d4b07c36b3b6bf858",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "Growing Rites of Itlimoc",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "490",
+      "uuid": "28711614-7a53-5030-9545-dc15d4e92237",
+      "rarity": "special",
+      "image": "images/WLX/490-front-51b96322ab0f.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/490-front-51b96322ab0f.jpg",
+      "sha256": "51b96322ab0ff883d28124f5cc9ce3dc1b661c7f48c749f225f27fe19182bc0a",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official_double_faced",
+      "card_name": "Itlimoc, Cradle of the Sun",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "490",
+      "uuid": "28711614-7a53-5030-9545-dc15d4e92237",
+      "rarity": "special",
+      "image": "images/WLX/490-back-498272009388.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/490-back-498272009388.jpg",
+      "sha256": "498272009388103dbff0c9a50e3aae6cfeb11a644b33af4373126f91fdd45a10",
       "dimensions": [
         2976,
         4152

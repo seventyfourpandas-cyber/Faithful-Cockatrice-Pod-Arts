@@ -5457,6 +5457,103 @@
       "image_file": "WLX-487.jpg",
       "image_sha256": "fc77d6e7a3eb6cf8d7282e1260a5dd3c15ca3821ece5cf2a745fe4f430cae031",
       "notes": "Imported from will/Worldly Tutor.jpg in file batch a55770fe35"
+    },
+    {
+      "collector_number": "488",
+      "uuid": "899c31c6-b52d-5f6e-8d60-56e729dc9e57",
+      "card_kind": "official",
+      "official_name": "Nissa, Vital Force",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-488.jpg",
+      "image_sha256": "2116bc5a0579460365bbc91a0524f355985047fd22ed6efaedbf93f6fb77cee8",
+      "notes": "Imported from will/Nissa, Vital Force.jpg in file batch 11aeac0a46"
+    },
+    {
+      "collector_number": "489",
+      "uuid": "667dca33-3043-5c14-b68d-3ccdd9e892b0",
+      "card_kind": "official_double_faced",
+      "official_name": "Boggart Trawler // Boggart Bog",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Boggart Trawler",
+          "side": "front",
+          "mana_cost": "{2}{B}",
+          "mana_value": "",
+          "type_line": "Creature — Goblin",
+          "rules_text": "When this creature enters, exile target player's graveyard.",
+          "colors": "B",
+          "color_identity": "B",
+          "power_toughness": "3/1",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-489-front.jpg",
+          "image_sha256": "4862ccadf0ee186df5e2357ff3c4d8ff8574ad1bd247d68e9ddb597c3047e0cb"
+        },
+        {
+          "official_name": "Boggart Bog",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "B",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-489-back.jpg",
+          "image_sha256": "a3d90d2b4a71505721ec505c74e1a82f717c12ceaee4883d4b07c36b3b6bf858"
+        }
+      ],
+      "rarity": "special",
+      "notes": "Imported paired face images in file batch 11aeac0a46"
+    },
+    {
+      "collector_number": "490",
+      "uuid": "28711614-7a53-5030-9545-dc15d4e92237",
+      "card_kind": "official_double_faced",
+      "official_name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+      "layout": "transform",
+      "faces": [
+        {
+          "official_name": "Growing Rites of Itlimoc",
+          "side": "front",
+          "mana_cost": "{2}{G}",
+          "mana_value": "",
+          "type_line": "Legendary Enchantment",
+          "rules_text": "When Growing Rites of Itlimoc enters, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+          "colors": "G",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-490-front.jpg",
+          "image_sha256": "51b96322ab0ff883d28124f5cc9ce3dc1b661c7f48c749f225f27fe19182bc0a"
+        },
+        {
+          "official_name": "Itlimoc, Cradle of the Sun",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Legendary Land",
+          "rules_text": "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": "",
+          "flavor_name": "",
+          "image_file": "WLX-490-back.jpg",
+          "image_sha256": "498272009388103dbff0c9a50e3aae6cfeb11a644b33af4373126f91fdd45a10"
+        }
+      ],
+      "rarity": "special",
+      "notes": "Imported paired face images in file batch 11aeac0a46"
     }
   ]
 }
