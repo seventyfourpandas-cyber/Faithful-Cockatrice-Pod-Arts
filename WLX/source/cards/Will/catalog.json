@@ -6071,6 +6071,17 @@
       "image_file": "WLX-537.jpg",
       "image_sha256": "23528b68c1e7df5cfee27412c7d6988dbc391fd8b58a5ea8bb7d8ed3b0f16000",
       "notes": "Imported from will/Weatherlight.jpg in file batch 94f7869844"
+    },
+    {
+      "collector_number": "538",
+      "uuid": "b8e01e18-17a1-50b5-a771-e73f8c736cd4",
+      "card_kind": "official",
+      "official_name": "Uthros Research Craft",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-538.jpg",
+      "image_sha256": "49d9cb51f24634ff25c2600990e68d8a34f174a8298c9781fb69dda658d071bc",
+      "notes": "Imported from will/Uthros Research Craft.jpg in file batch 156f8801ef"
     }
   ]
 }

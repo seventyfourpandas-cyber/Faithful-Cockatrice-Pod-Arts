@@ -5307,6 +5307,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-23"
+    },
+    "uthros research craft": {
+      "name": "Uthros Research Craft",
+      "oracle_id": "e1c9783a-1d1b-40d7-872e-0ca11b229ce6",
+      "scryfall_uri": "https://scryfall.com/card/eoc/7/uthros-research-craft?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-23"
     }
   }
 }
