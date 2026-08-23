@@ -1,4 +1,4 @@
-current_collector,card_name,current_owner,CHANGE_owner_to,CHANGE_collector_to,current_front_art,CHANGE_front_art_to,current_back_art,CHANGE_back_art_to,art_upload_folder,current_rarity,CHANGE_rarity_to,current_front_title,CHANGE_front_title_to,current_back_title,CHANGE_back_title_to,card_kind,printing_uuid,notes
+﻿current_collector,card_name,current_owner,CHANGE_owner_to,CHANGE_collector_to,current_front_art,CHANGE_front_art_to,current_back_art,CHANGE_back_art_to,art_upload_folder,current_rarity,CHANGE_rarity_to,current_front_title,CHANGE_front_title_to,current_back_title,CHANGE_back_title_to,card_kind,printing_uuid,notes
 WLX-001,Angel of Vitality,Alex,,,WLX-001.png,,,,imports/replacements/alex/,rare,,"Alex, Divine Priest",,,,official,f6a9cc3e-beac-5fac-84aa-ca36b34d7d10,Original verified WLX printing; UUID preserved from the working v1 release
 WLX-002,Wedding Ring,Alex,,,WLX-002.png,,,,imports/replacements/alex/,special,,,,,,official,b7ed3e04-2245-5304-a933-8ce3975f0a58,Submitted by @seventyfourpandas-cyber through issue #1
 WLX-006,Ghoulcaller Gisa,Will,,,WLX-006.jpg,,,,imports/replacements/will/,special,,,,,,official,ed2476c2-c159-59e3-8153-d96a2bcae779,Submitted by @WillPower-exe through issue #9
@@ -528,5 +528,5 @@ WLX-534,Transit Mage,Will,,,WLX-534.jpg,,,,imports/replacements/will/,special,,,
 WLX-535,Vanquish the Horde,Will,,,WLX-535.jpg,,,,imports/replacements/will/,special,,,,,,official,149bd62f-bc2a-54cc-98a5-39300157ba79,Imported from will/Vanquish the Horde.jpg in file batch 94f7869844
 WLX-536,Voyager Quickwelder,Will,,,WLX-536.jpg,,,,imports/replacements/will/,special,,,,,,official,88919bc5-5690-5731-9446-2094779ca0c4,Imported from will/Voyager Quickwelder.jpg in file batch 94f7869844
 WLX-537,Weatherlight,Will,,,WLX-537.jpg,,,,imports/replacements/will/,special,,,,,,official,65b3d828-e5b7-5c90-a732-5ab16cae5399,Imported from will/Weatherlight.jpg in file batch 94f7869844
-WLX-538,Uthros Research Craft,Will,,,WLX-538.jpg,Uthros Research Craft.jpg,,,imports/replacements/will/,special,,,,,,official,b8e01e18-17a1-50b5-a771-e73f8c736cd4,Imported from will/Uthros Research Craft.jpg in file batch 156f8801ef
+WLX-538,Uthros Research Craft,Will,,,WLX-538.jpg,,,,imports/replacements/will/,special,,,,,,official,b8e01e18-17a1-50b5-a771-e73f8c736cd4,Imported from will/Uthros Research Craft.jpg in file batch 156f8801ef
 WLX-539,Etherium Sculptor,Will,,,WLX-539.jpg,,,,imports/replacements/will/,special,,,,,,official,482e67cf-4d0e-56c9-888c-6e7e9d3fb3a3,Imported from will/Etherium Sculptor.jpg in file batch 9915f0330b

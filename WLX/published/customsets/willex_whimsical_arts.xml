@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-23T11:44:59+00:00</createdAt>
+    <createdAt>2026-08-23T20:26:33+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.21</sourceVersion>
+    <sourceVersion>3.2.22</sourceVersion>
   </info>
   <sets>
     <set>
@@ -2207,7 +2207,7 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
     </card>
     <card>
       <name>Uthros Research Craft</name>
-      <set uuid="b8e01e18-17a1-50b5-a771-e73f8c736cd4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/538-49d9cb51f246.jpg" num="538" rarity="special">WLX</set>
+      <set uuid="b8e01e18-17a1-50b5-a771-e73f8c736cd4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/538-ac07745faf8c.jpg" num="538" rarity="special">WLX</set>
     </card>
     <card>
       <name>Valakut Awakening</name>
