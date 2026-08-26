@@ -3,22 +3,22 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.22",
-  "published_at": "2026-08-23T20:26:33+00:00",
+  "version": "3.2.23",
+  "published_at": "2026-08-26T02:58:55+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "109b3ebdf8a3521c05d77552d0dd1968e21a428f0e22a985f4caca749810a37b",
+    "sha256": "34aa9d4b835a4c85155d983f8762b586570b761fee68710f159317aacbd38989",
     "size_bytes": 174520,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "45901e2927044df118eb789f3b22c45a9f7049f45a465a0b63c64a79d82731dc",
+    "sha256": "06bd9b10589951648c48acd7fd1aafbe17473e7ffe20126b5148f89a9f52b6e1",
     "size_bytes": 61643
   },
   "cards": 514,
@@ -501,8 +501,8 @@
       "uuid": "06d29152-c0f5-5309-be2a-cae3fcf16349",
       "card_name": "High Perfect Morcant",
       "player": "Will",
-      "image_sha256": "41acef0f1d2bf27ea6f34e07660640261f71e02ab8870444bd3d551091d61cbc",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/062-41acef0f1d2b.jpg"
+      "image_sha256": "c0de109d8033da92222c4e0e2ccc144bfefb5e9cc11ca514dacdda919fa97b6f",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/062-c0de109d8033.jpg"
     },
     {
       "collector_number": "063",
@@ -4381,19 +4381,19 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "45901e2927044df118eb789f3b22c45a9f7049f45a465a0b63c64a79d82731dc",
+      "sha256": "06bd9b10589951648c48acd7fd1aafbe17473e7ffe20126b5148f89a9f52b6e1",
       "size_bytes": 61643
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "71198220f526bba3c6be2fcc8a08680d0b26682761aaa4f0781cd3db2a6a2408",
+      "sha256": "a2afca31c6ea1025d80c6c0373c37b5dcf9a759853286f9295db4371fce15321",
       "size_bytes": 364521
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "109b3ebdf8a3521c05d77552d0dd1968e21a428f0e22a985f4caca749810a37b",
+      "sha256": "34aa9d4b835a4c85155d983f8762b586570b761fee68710f159317aacbd38989",
       "size_bytes": 174520
     },
     {
@@ -4745,10 +4745,10 @@
       "size_bytes": 4201376
     },
     {
-      "path": "images/WLX/062-41acef0f1d2b.jpg",
-      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/062-41acef0f1d2b.jpg",
-      "sha256": "41acef0f1d2bf27ea6f34e07660640261f71e02ab8870444bd3d551091d61cbc",
-      "size_bytes": 4698610
+      "path": "images/WLX/062-c0de109d8033.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/062-c0de109d8033.jpg",
+      "sha256": "c0de109d8033da92222c4e0e2ccc144bfefb5e9cc11ca514dacdda919fa97b6f",
+      "size_bytes": 4710975
     },
     {
       "path": "images/WLX/063-f7c114a3c463.jpg",
