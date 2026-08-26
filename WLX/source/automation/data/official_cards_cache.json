@@ -5323,6 +5323,238 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-23"
+    },
+    "abomination of llanowar": {
+      "name": "Abomination of Llanowar",
+      "oracle_id": "5146ba3f-2c5f-4a86-95d7-a34ce1e842b0",
+      "scryfall_uri": "https://scryfall.com/card/khc/81/abomination-of-llanowar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "beast whisperer": {
+      "name": "Beast Whisperer",
+      "oracle_id": "5da7eea8-bb9e-47ce-a554-8a1ee058bd7a",
+      "scryfall_uri": "https://scryfall.com/card/clu/158/beast-whisperer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "blight rot": {
+      "name": "Blight Rot",
+      "oracle_id": "cf5b1cf9-dcd3-44d1-b8b2-338651ebb2a1",
+      "scryfall_uri": "https://scryfall.com/card/ecl/89/blight-rot?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "blowfly infestation": {
+      "name": "Blowfly Infestation",
+      "oracle_id": "3859873f-2a0f-463b-8ed9-7f2ab5ed393a",
+      "scryfall_uri": "https://scryfall.com/card/ecc/46/blowfly-infestation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "champions of the perfect": {
+      "name": "Champions of the Perfect",
+      "oracle_id": "9cb7f23f-322d-4a87-b6c6-15b9d446aef3",
+      "scryfall_uri": "https://scryfall.com/card/ecl/171/champions-of-the-perfect?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "cover of darkness": {
+      "name": "Cover of Darkness",
+      "oracle_id": "d78654fc-7d90-40ce-9c36-a211424d1a88",
+      "scryfall_uri": "https://scryfall.com/card/ons/133/cover-of-darkness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "craterhoof behemoth": {
+      "name": "Craterhoof Behemoth",
+      "oracle_id": "8c52bd39-0586-48ca-b263-17210cf9feb6",
+      "scryfall_uri": "https://scryfall.com/card/tdm/138/craterhoof-behemoth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "dawnhand eulogist": {
+      "name": "Dawnhand Eulogist",
+      "oracle_id": "57bbd80b-290f-461e-8dc6-26ba4d673fa9",
+      "scryfall_uri": "https://scryfall.com/card/ecl/99/dawnhand-eulogist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "deathrite shaman": {
+      "name": "Deathrite Shaman",
+      "oracle_id": "22f1a4a4-c423-4d1c-8775-0ed604a9fa51",
+      "scryfall_uri": "https://scryfall.com/card/rvr/175/deathrite-shaman?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "eclipsed elf": {
+      "name": "Eclipsed Elf",
+      "oracle_id": "7c89ef4d-b375-4644-ac8b-034effdbe98c",
+      "scryfall_uri": "https://scryfall.com/card/ecl/218/eclipsed-elf?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "eladamri, korvecdal": {
+      "name": "Eladamri, Korvecdal",
+      "oracle_id": "9aff3d55-e25d-4f06-a783-c3aa9eb9fd50",
+      "scryfall_uri": "https://scryfall.com/card/mh3/149/eladamri-korvecdal?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "elderfang venom": {
+      "name": "Elderfang Venom",
+      "oracle_id": "4741d842-12e6-4a8c-96b1-9e68c7074874",
+      "scryfall_uri": "https://scryfall.com/card/khc/15/elderfang-venom?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "elvish archdruid": {
+      "name": "Elvish Archdruid",
+      "oracle_id": "6e2c2423-d854-4478-99e6-64f29851f026",
+      "scryfall_uri": "https://scryfall.com/card/hoc/204/elvish-archdruid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "elvish warmaster": {
+      "name": "Elvish Warmaster",
+      "oracle_id": "bda83ef4-e345-495d-878c-4da171f997ba",
+      "scryfall_uri": "https://scryfall.com/card/khm/167/elvish-warmaster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "flourishing defenses": {
+      "name": "Flourishing Defenses",
+      "oracle_id": "f1b26eb1-6337-42d6-a475-53ad6427f00f",
+      "scryfall_uri": "https://scryfall.com/card/ecc/107/flourishing-defenses?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "formidable speaker": {
+      "name": "Formidable Speaker",
+      "oracle_id": "5bd06f9e-9a42-455d-ad26-24bc04e51c7c",
+      "scryfall_uri": "https://scryfall.com/card/ecl/176/formidable-speaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "gathering stone": {
+      "name": "Gathering Stone",
+      "oracle_id": "9f6d6e90-7462-46e5-bf2f-725b4badc394",
+      "scryfall_uri": "https://scryfall.com/card/ecl/257/gathering-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "glissa sunslayer": {
+      "name": "Glissa Sunslayer",
+      "oracle_id": "8859a692-d107-4de2-9110-4681fc2761c7",
+      "scryfall_uri": "https://scryfall.com/card/ecc/122/glissa-sunslayer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "grim affliction": {
+      "name": "Grim Affliction",
+      "oracle_id": "411ba1a2-30bb-4618-b874-6be0d996f07d",
+      "scryfall_uri": "https://scryfall.com/card/mm2/84/grim-affliction?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "imperious perfect": {
+      "name": "Imperious Perfect",
+      "oracle_id": "3fa71348-fa4d-4f39-a451-cf1570591991",
+      "scryfall_uri": "https://scryfall.com/card/fdn/719/imperious-perfect?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "kindred summons": {
+      "name": "Kindred Summons",
+      "oracle_id": "b488e75f-af9c-43e2-8aca-f269fa2c720e",
+      "scryfall_uri": "https://scryfall.com/card/ecc/112/kindred-summons?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "leaf-crowned visionary": {
+      "name": "Leaf-Crowned Visionary",
+      "oracle_id": "ef693b9f-11e3-49bf-8387-b8f480b9007a",
+      "scryfall_uri": "https://scryfall.com/card/dmu/167/leaf-crowned-visionary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "lion umbra": {
+      "name": "Lion Umbra",
+      "oracle_id": "95e8e6bb-d83b-46fd-bfdf-fc042d8edd4a",
+      "scryfall_uri": "https://scryfall.com/card/mh3/160/lion-umbra?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "llanowar visionary": {
+      "name": "Llanowar Visionary",
+      "oracle_id": "f75ed312-3a23-4624-80c5-03980aa22d0b",
+      "scryfall_uri": "https://scryfall.com/card/m21/193/llanowar-visionary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "lys alana informant": {
+      "name": "Lys Alana Informant",
+      "oracle_id": "b5058b5c-0359-42ec-ba9e-ae1371bb9c22",
+      "scryfall_uri": "https://scryfall.com/card/ecl/181/lys-alana-informant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "marwyn, the nurturer": {
+      "name": "Marwyn, the Nurturer",
+      "oracle_id": "ee35de1c-aef1-4bd4-85fd-fe77bc927790",
+      "scryfall_uri": "https://scryfall.com/card/khc/68/marwyn-the-nurturer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "massacre girl, known killer": {
+      "name": "Massacre Girl, Known Killer",
+      "oracle_id": "ccb39f4a-2684-4eb7-9066-aad81ae08962",
+      "scryfall_uri": "https://scryfall.com/card/ecc/79/massacre-girl-known-killer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "metallic mimic": {
+      "name": "Metallic Mimic",
+      "oracle_id": "1f91297a-ec2b-4ea8-9198-aa1daac20ff8",
+      "scryfall_uri": "https://scryfall.com/card/msc/203/metallic-mimic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
+    },
+    "moon-vigil adherents": {
+      "name": "Moon-Vigil Adherents",
+      "oracle_id": "d0fa43f6-d8f6-4674-b538-6d546b7dcf40",
+      "scryfall_uri": "https://scryfall.com/card/ecl/184/moon-vigil-adherents?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-26"
     }
   }
 }
