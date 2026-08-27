@@ -1,42 +1,30 @@
 # Latest WLX File Import
 
-- Batch: `58b8fe4823`
-- Finished: `2026-08-26T03:14:11+00:00`
-- Images found: **30**
-- New printings: **30**
+- Batch: `a4ba638f34`
+- Finished: `2026-08-27T04:30:35+00:00`
+- Images found: **18**
+- New printings: **18**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #540` — Abomination of Llanowar (Will)
-- `WLX #541` — Beast Whisperer (Will)
-- `WLX #542` — Blight Rot (Will)
-- `WLX #543` — Blowfly Infestation (Will)
-- `WLX #544` — Champions of the Perfect (Will)
-- `WLX #545` — Cover of Darkness (Will)
-- `WLX #546` — Craterhoof Behemoth (Will)
-- `WLX #547` — Dawnhand Eulogist (Will)
-- `WLX #548` — Deathrite Shaman (Will)
-- `WLX #549` — Deathrite Shaman (Will)
-- `WLX #550` — Eclipsed Elf (Will)
-- `WLX #551` — Eladamri, Korvecdal (Will)
-- `WLX #552` — Elderfang Venom (Will)
-- `WLX #553` — Elvish Archdruid (Will)
-- `WLX #554` — Elvish Warmaster (Will)
-- `WLX #555` — Flourishing Defenses (Will)
-- `WLX #556` — Formidable Speaker (Will)
-- `WLX #557` — Gathering Stone (Will)
-- `WLX #558` — Glissa Sunslayer (Will)
-- `WLX #559` — Grim Affliction (Will)
-- `WLX #560` — Imperious Perfect (Will)
-- `WLX #561` — Kindred Summons (Will)
-- `WLX #562` — Leaf-Crowned Visionary (Will)
-- `WLX #563` — Lion Umbra (Will)
-- `WLX #564` — Llanowar Visionary (Will)
-- `WLX #565` — Lys Alana Informant (Will)
-- `WLX #566` — Marwyn, the Nurturer (Will)
-- `WLX #567` — Massacre Girl, Known Killer (Will)
-- `WLX #568` — Metallic Mimic (Will)
-- `WLX #569` — Moon-Vigil Adherents (Will)
+- `WLX #570` — Morcant's Eyes (Will)
+- `WLX #571` — Morcant's Loyalist (Will)
+- `WLX #572` — Necroskitter (Will)
+- `WLX #573` — Patchwork Banner (Will)
+- `WLX #574` — Poison-Tip Archer (Will)
+- `WLX #575` — Priest of Titania (Will)
+- `WLX #576` — Prowess of the Fair (Will)
+- `WLX #577` — Realmwalker (Will)
+- `WLX #578` — Ruthless Winnower (Will)
+- `WLX #579` — Scarblade's Malice (Will)
+- `WLX #580` — Shaman of the Pack (Will)
+- `WLX #581` — Skemfar Shadowsage (Will)
+- `WLX #582` — Springleaf Parade (Will)
+- `WLX #583` — Trystan's Command (Will)
+- `WLX #584` — Virulent Emissary (Will)
+- `WLX #585` — Voice of Many (Will)
+- `WLX #586` — Woodland Weavemaster (Will)
+- `WLX #587` — Yeva, Nature's Herald (Will)

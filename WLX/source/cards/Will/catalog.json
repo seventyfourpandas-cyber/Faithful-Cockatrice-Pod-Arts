@@ -6423,6 +6423,204 @@
       "image_file": "WLX-569.jpg",
       "image_sha256": "3b4c12989033889b4d1fa38c8c8f4d1192a4eb8f7ed995759c8e900c0a646295",
       "notes": "Imported from will/Moon-Vigil Adherents.jpg in file batch 58b8fe4823"
+    },
+    {
+      "collector_number": "570",
+      "uuid": "b314d2fa-aad2-5f7f-a7cd-3e45cb00381f",
+      "card_kind": "official",
+      "official_name": "Morcant's Eyes",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-570.jpg",
+      "image_sha256": "40d42e3fa3575887236615bc686a01d5cd6100ddfce3af54749b43ce5ef1da3f",
+      "notes": "Imported from will/Morcant's Eyes.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "571",
+      "uuid": "c17842b8-fa0a-5b90-a249-cbf2374b95ad",
+      "card_kind": "official",
+      "official_name": "Morcant's Loyalist",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-571.jpg",
+      "image_sha256": "7214df213fc78ce4bb90d6ec48cd662137ecfa227c200fbc6d1ba124b538286e",
+      "notes": "Imported from will/Morcant's Loyalist.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "572",
+      "uuid": "1a8a95f9-672f-53fc-9256-f266f944d53c",
+      "card_kind": "official",
+      "official_name": "Necroskitter",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-572.jpg",
+      "image_sha256": "ac6ea96ac3f862c743ae2326b6936869fd3050665d3826143f81e4e2b47ff7e6",
+      "notes": "Imported from will/Necroskitter.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "573",
+      "uuid": "88c155b4-f42e-57d4-82a4-fad94ff49d81",
+      "card_kind": "official",
+      "official_name": "Patchwork Banner",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-573.jpg",
+      "image_sha256": "f583898519e32054b0d64548424e8638cbc021378bf151f68ab0f52ce4aaa8c0",
+      "notes": "Imported from will/Patchwork Banner.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "574",
+      "uuid": "ed31e94b-cf2f-5a44-b276-983a635cccc8",
+      "card_kind": "official",
+      "official_name": "Poison-Tip Archer",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-574.jpg",
+      "image_sha256": "42ecfcb36c8bcd3f496a993b3928fffa561e07801adf34be966c8050534d6bbc",
+      "notes": "Imported from will/Poison-Tip Archer.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "575",
+      "uuid": "2cda1fab-d2b5-5653-9d04-2df021c31c76",
+      "card_kind": "official",
+      "official_name": "Priest of Titania",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-575.jpg",
+      "image_sha256": "8d45966145ec5da3de16245ceb563dd91aaffd72a95d7cff98c4629642a5fa6d",
+      "notes": "Imported from will/Priest of Titania.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "576",
+      "uuid": "10b0abdd-03e8-5ed6-b3f6-85e05f8ab856",
+      "card_kind": "official",
+      "official_name": "Prowess of the Fair",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-576.jpg",
+      "image_sha256": "548f621bae28c8dfd89a41c9b81607e646ceb655d2346a17fd57ffd118e3514b",
+      "notes": "Imported from will/Prowess of the Fair.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "577",
+      "uuid": "224fa119-a8c7-592f-ab9c-3419778b7ca3",
+      "card_kind": "official",
+      "official_name": "Realmwalker",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-577.jpg",
+      "image_sha256": "829bc11a422733bf476f62efe4997b08f60cc843a5bfd91a1128680db9960199",
+      "notes": "Imported from will/Realmwalker.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "578",
+      "uuid": "fe37a462-b3d7-5250-8415-ee81038e5582",
+      "card_kind": "official",
+      "official_name": "Ruthless Winnower",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-578.jpg",
+      "image_sha256": "6d0cc1f0b178abbe515fe4590de1bea51a4b41be54f021e235ea1293b4108995",
+      "notes": "Imported from will/Ruthless Winnower.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "579",
+      "uuid": "d6a0912e-aaa2-5752-8f10-5858574fdb20",
+      "card_kind": "official",
+      "official_name": "Scarblade's Malice",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-579.jpg",
+      "image_sha256": "7b3c3545e18cc3ec38484c724d0a991830881dfe1e35cd66eb7712b761a9516f",
+      "notes": "Imported from will/Scarblade's Malice.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "580",
+      "uuid": "889d7f9f-2d9c-5984-a72a-0c9a822d5047",
+      "card_kind": "official",
+      "official_name": "Shaman of the Pack",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-580.jpg",
+      "image_sha256": "566f8ffb767a13ca1290746a1fd6c447a0f89061f229afacf0e4d75313462f44",
+      "notes": "Imported from will/Shaman of the Pack.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "581",
+      "uuid": "b8166a5e-b286-5a39-9260-bcf0267fb21d",
+      "card_kind": "official",
+      "official_name": "Skemfar Shadowsage",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-581.jpg",
+      "image_sha256": "006095578afbb3790be9231e234362f3ceddfe37b349bff5e4032c5bf350dc52",
+      "notes": "Imported from will/Skemfar Shadowsage.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "582",
+      "uuid": "a6cb7e72-fdd1-543a-932f-bed1354ad093",
+      "card_kind": "official",
+      "official_name": "Springleaf Parade",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-582.jpg",
+      "image_sha256": "0ee050f7b24ac8988740fce617eee93577c765e22c0470c000628b2fd490eebc",
+      "notes": "Imported from will/Springleaf Parade.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "583",
+      "uuid": "c8fd1b6e-1fc4-532a-b1cf-56cb0ea2179e",
+      "card_kind": "official",
+      "official_name": "Trystan's Command",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-583.jpg",
+      "image_sha256": "d00c7876a957bd378c2c83873127f9287d5549722b6e41ca6ecc657b1b559125",
+      "notes": "Imported from will/Trystan's Command.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "584",
+      "uuid": "68d7e838-23b4-5854-9219-7c1dab744167",
+      "card_kind": "official",
+      "official_name": "Virulent Emissary",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-584.jpg",
+      "image_sha256": "533a75785f9714c545e397ec70aa6dc1ba1c9aca021d23b0a9dbafe73a25e3e6",
+      "notes": "Imported from will/Virulent Emissary.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "585",
+      "uuid": "d784bde2-46f7-589b-a567-d88537792763",
+      "card_kind": "official",
+      "official_name": "Voice of Many",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-585.jpg",
+      "image_sha256": "920a17533028de7366e77b87521f7eb36fc057df73a5328ccf4f73463d00d203",
+      "notes": "Imported from will/Voice of Many.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "586",
+      "uuid": "507c6a2b-f778-5d18-b50d-29f498f9f96b",
+      "card_kind": "official",
+      "official_name": "Woodland Weavemaster",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-586.jpg",
+      "image_sha256": "e2b0ef45f773a12ce87822b9344b1a9e268920f3f0e1a48da1d57df7e98a569f",
+      "notes": "Imported from will/Woodland Weavemaster.jpg in file batch a4ba638f34"
+    },
+    {
+      "collector_number": "587",
+      "uuid": "4ed1d354-aba3-594c-9f12-cb8540497df9",
+      "card_kind": "official",
+      "official_name": "Yeva, Nature's Herald",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-587.jpg",
+      "image_sha256": "31f1252a99d2f55084530ee1f0aace5be70e540d976d7ab45bfa4c8d4e5c4994",
+      "notes": "Imported from will/Yeva, Nature's Herald.jpg in file batch a4ba638f34"
     }
   ]
 }

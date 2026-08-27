@@ -5555,6 +5555,150 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-26"
+    },
+    "morcant's eyes": {
+      "name": "Morcant's Eyes",
+      "oracle_id": "c55a27cc-8e25-4714-b1da-86e5c1c6661a",
+      "scryfall_uri": "https://scryfall.com/card/ecl/185/morcants-eyes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "morcant's loyalist": {
+      "name": "Morcant's Loyalist",
+      "oracle_id": "b2c30683-cc7f-4341-add1-b08cb9b93eeb",
+      "scryfall_uri": "https://scryfall.com/card/ecl/236/morcants-loyalist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "necroskitter": {
+      "name": "Necroskitter",
+      "oracle_id": "536f7c92-2f1e-49e7-98de-47382a9488f1",
+      "scryfall_uri": "https://scryfall.com/card/ecc/48/necroskitter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "patchwork banner": {
+      "name": "Patchwork Banner",
+      "oracle_id": "4fb00dbe-1f82-4ba6-b18c-97e816d10d3a",
+      "scryfall_uri": "https://scryfall.com/card/msc/207/patchwork-banner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "poison-tip archer": {
+      "name": "Poison-Tip Archer",
+      "oracle_id": "d0e810bb-5f38-4045-a718-30d423c05659",
+      "scryfall_uri": "https://scryfall.com/card/khc/90/poison-tip-archer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "priest of titania": {
+      "name": "Priest of Titania",
+      "oracle_id": "3a198a16-17b9-481e-b516-5bc945c7e247",
+      "scryfall_uri": "https://scryfall.com/card/mh3/286/priest-of-titania?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "prowess of the fair": {
+      "name": "Prowess of the Fair",
+      "oracle_id": "31324235-8a2b-4ce4-b0d4-6d947489b930",
+      "scryfall_uri": "https://scryfall.com/card/khc/53/prowess-of-the-fair?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "realmwalker": {
+      "name": "Realmwalker",
+      "oracle_id": "b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f",
+      "scryfall_uri": "https://scryfall.com/card/ecc/114/realmwalker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "ruthless winnower": {
+      "name": "Ruthless Winnower",
+      "oracle_id": "61f68cf6-e083-4264-89b4-cc17749b2a8b",
+      "scryfall_uri": "https://scryfall.com/card/khc/10/ruthless-winnower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "scarblade's malice": {
+      "name": "Scarblade's Malice",
+      "oracle_id": "66d57851-2844-4b9d-be78-e90fc620b750",
+      "scryfall_uri": "https://scryfall.com/card/ecl/119/scarblades-malice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "shaman of the pack": {
+      "name": "Shaman of the Pack",
+      "oracle_id": "39c7d2cc-4fd1-4f1a-be1a-a6ae56d2356d",
+      "scryfall_uri": "https://scryfall.com/card/khc/92/shaman-of-the-pack?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "skemfar shadowsage": {
+      "name": "Skemfar Shadowsage",
+      "oracle_id": "496ecb73-f508-4ac7-b101-23e03404580f",
+      "scryfall_uri": "https://scryfall.com/card/khm/110/skemfar-shadowsage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "springleaf parade": {
+      "name": "Springleaf Parade",
+      "oracle_id": "b1305916-53cc-4021-897e-bbefc65dce78",
+      "scryfall_uri": "https://scryfall.com/card/ecc/19/springleaf-parade?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "trystan's command": {
+      "name": "Trystan's Command",
+      "oracle_id": "ecc4e230-a546-4cb4-987c-87300060bbe2",
+      "scryfall_uri": "https://scryfall.com/card/ecl/247/trystans-command?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "virulent emissary": {
+      "name": "Virulent Emissary",
+      "oracle_id": "3d4bec90-7bbc-4385-a2b8-303c7a8d0a0f",
+      "scryfall_uri": "https://scryfall.com/card/ecl/202/virulent-emissary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "voice of many": {
+      "name": "Voice of Many",
+      "oracle_id": "9b40faad-1b96-4461-89d8-9a207b58e832",
+      "scryfall_uri": "https://scryfall.com/card/khc/77/voice-of-many?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "woodland weavemaster": {
+      "name": "Woodland Weavemaster",
+      "oracle_id": "28ffddca-a3c4-467d-a2dc-2c5e62393e11",
+      "scryfall_uri": "https://scryfall.com/card/hob/143/woodland-weavemaster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
+    },
+    "yeva, nature's herald": {
+      "name": "Yeva, Nature's Herald",
+      "oracle_id": "2d513c3e-bd27-479e-af32-7f66d96d0de0",
+      "scryfall_uri": "https://scryfall.com/card/rvr/162/yeva-natures-herald?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-27"
     }
   }
 }

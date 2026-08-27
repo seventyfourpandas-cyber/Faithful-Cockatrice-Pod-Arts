@@ -1,160 +1,100 @@
 {
   "schema_version": 1,
-  "batch_id": "58b8fe4823",
-  "started_at": "2026-08-26T03:14:08+00:00",
-  "finished_at": "2026-08-26T03:14:11+00:00",
-  "found": 30,
-  "version_before": "3.2.23",
-  "version_after": "3.2.24",
+  "batch_id": "a4ba638f34",
+  "started_at": "2026-08-27T04:30:32+00:00",
+  "finished_at": "2026-08-27T04:30:35+00:00",
+  "found": 18,
+  "version_before": "3.2.24",
+  "version_after": "3.2.25",
   "added": [
     {
-      "collector_number": "540",
-      "name": "Abomination of Llanowar",
+      "collector_number": "570",
+      "name": "Morcant's Eyes",
       "player": "Will"
     },
     {
-      "collector_number": "541",
-      "name": "Beast Whisperer",
+      "collector_number": "571",
+      "name": "Morcant's Loyalist",
       "player": "Will"
     },
     {
-      "collector_number": "542",
-      "name": "Blight Rot",
+      "collector_number": "572",
+      "name": "Necroskitter",
       "player": "Will"
     },
     {
-      "collector_number": "543",
-      "name": "Blowfly Infestation",
+      "collector_number": "573",
+      "name": "Patchwork Banner",
       "player": "Will"
     },
     {
-      "collector_number": "544",
-      "name": "Champions of the Perfect",
+      "collector_number": "574",
+      "name": "Poison-Tip Archer",
       "player": "Will"
     },
     {
-      "collector_number": "545",
-      "name": "Cover of Darkness",
+      "collector_number": "575",
+      "name": "Priest of Titania",
       "player": "Will"
     },
     {
-      "collector_number": "546",
-      "name": "Craterhoof Behemoth",
+      "collector_number": "576",
+      "name": "Prowess of the Fair",
       "player": "Will"
     },
     {
-      "collector_number": "547",
-      "name": "Dawnhand Eulogist",
+      "collector_number": "577",
+      "name": "Realmwalker",
       "player": "Will"
     },
     {
-      "collector_number": "548",
-      "name": "Deathrite Shaman",
+      "collector_number": "578",
+      "name": "Ruthless Winnower",
       "player": "Will"
     },
     {
-      "collector_number": "549",
-      "name": "Deathrite Shaman",
+      "collector_number": "579",
+      "name": "Scarblade's Malice",
       "player": "Will"
     },
     {
-      "collector_number": "550",
-      "name": "Eclipsed Elf",
+      "collector_number": "580",
+      "name": "Shaman of the Pack",
       "player": "Will"
     },
     {
-      "collector_number": "551",
-      "name": "Eladamri, Korvecdal",
+      "collector_number": "581",
+      "name": "Skemfar Shadowsage",
       "player": "Will"
     },
     {
-      "collector_number": "552",
-      "name": "Elderfang Venom",
+      "collector_number": "582",
+      "name": "Springleaf Parade",
       "player": "Will"
     },
     {
-      "collector_number": "553",
-      "name": "Elvish Archdruid",
+      "collector_number": "583",
+      "name": "Trystan's Command",
       "player": "Will"
     },
     {
-      "collector_number": "554",
-      "name": "Elvish Warmaster",
+      "collector_number": "584",
+      "name": "Virulent Emissary",
       "player": "Will"
     },
     {
-      "collector_number": "555",
-      "name": "Flourishing Defenses",
+      "collector_number": "585",
+      "name": "Voice of Many",
       "player": "Will"
     },
     {
-      "collector_number": "556",
-      "name": "Formidable Speaker",
+      "collector_number": "586",
+      "name": "Woodland Weavemaster",
       "player": "Will"
     },
     {
-      "collector_number": "557",
-      "name": "Gathering Stone",
-      "player": "Will"
-    },
-    {
-      "collector_number": "558",
-      "name": "Glissa Sunslayer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "559",
-      "name": "Grim Affliction",
-      "player": "Will"
-    },
-    {
-      "collector_number": "560",
-      "name": "Imperious Perfect",
-      "player": "Will"
-    },
-    {
-      "collector_number": "561",
-      "name": "Kindred Summons",
-      "player": "Will"
-    },
-    {
-      "collector_number": "562",
-      "name": "Leaf-Crowned Visionary",
-      "player": "Will"
-    },
-    {
-      "collector_number": "563",
-      "name": "Lion Umbra",
-      "player": "Will"
-    },
-    {
-      "collector_number": "564",
-      "name": "Llanowar Visionary",
-      "player": "Will"
-    },
-    {
-      "collector_number": "565",
-      "name": "Lys Alana Informant",
-      "player": "Will"
-    },
-    {
-      "collector_number": "566",
-      "name": "Marwyn, the Nurturer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "567",
-      "name": "Massacre Girl, Known Killer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "568",
-      "name": "Metallic Mimic",
-      "player": "Will"
-    },
-    {
-      "collector_number": "569",
-      "name": "Moon-Vigil Adherents",
+      "collector_number": "587",
+      "name": "Yeva, Nature's Herald",
       "player": "Will"
     }
   ],
