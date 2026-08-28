@@ -6962,6 +6962,28 @@
       "image_file": "WLX-618.jpg",
       "image_sha256": "07245c904171e9b401425b8013801f78eddd077e0825cafa29a83bbd38c158da",
       "notes": "Imported from will/Ygra, Eater of All.jpg in file batch 777122b275"
+    },
+    {
+      "collector_number": "619",
+      "uuid": "1bfa2979-95b3-5ca7-ada6-3633c04d9b95",
+      "card_kind": "official",
+      "official_name": "Nuka-Cola Vending Machine",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-619.jpg",
+      "image_sha256": "bf354995a62c978971088e6e446f614bd05ed47a86f94d1f418f7aa4d887d1e1",
+      "notes": "Imported from will/Nuka-Cola Vending Machine.jpg in file batch beec823e11"
+    },
+    {
+      "collector_number": "620",
+      "uuid": "d911fffb-fc0c-521d-9dfa-d8bb20759723",
+      "card_kind": "official",
+      "official_name": "Vaultborn Tyrant",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-620.jpg",
+      "image_sha256": "da7f4340e1f5c229f527314a8905e356ef4d5ac39076f0c1058e8d3d96d4b5e4",
+      "notes": "Imported from will/Vaultborn Tyrant.jpg in file batch beec823e11"
     }
   ]
 }

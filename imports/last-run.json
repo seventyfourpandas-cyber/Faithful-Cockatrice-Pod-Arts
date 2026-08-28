@@ -1,165 +1,20 @@
 {
   "schema_version": 1,
-  "batch_id": "777122b275",
-  "started_at": "2026-08-28T15:20:25+00:00",
-  "finished_at": "2026-08-28T15:20:28+00:00",
-  "found": 31,
-  "version_before": "3.2.25",
-  "version_after": "3.2.26",
+  "batch_id": "beec823e11",
+  "started_at": "2026-08-28T16:01:41+00:00",
+  "finished_at": "2026-08-28T16:01:43+00:00",
+  "found": 2,
+  "version_before": "3.2.26",
+  "version_after": "3.2.27",
   "added": [
     {
-      "collector_number": "588",
-      "name": "Aberrant",
+      "collector_number": "619",
+      "name": "Nuka-Cola Vending Machine",
       "player": "Will"
     },
     {
-      "collector_number": "589",
-      "name": "Academy Manufactor",
-      "player": "Will"
-    },
-    {
-      "collector_number": "590",
-      "name": "Bane of Progress",
-      "player": "Will"
-    },
-    {
-      "collector_number": "591",
-      "name": "Bloodroot Apothecary",
-      "player": "Will"
-    },
-    {
-      "collector_number": "592",
-      "name": "Braids, Arisen Nightmare",
-      "player": "Will"
-    },
-    {
-      "collector_number": "593",
-      "name": "Cankerbloom",
-      "player": "Will"
-    },
-    {
-      "collector_number": "594",
-      "name": "Cankerbloom",
-      "player": "Will"
-    },
-    {
-      "collector_number": "595",
-      "name": "Canopy Cover",
-      "player": "Will"
-    },
-    {
-      "collector_number": "596",
-      "name": "Cauldron Familiar",
-      "player": "Will"
-    },
-    {
-      "collector_number": "597",
-      "name": "Experimental Confectioner",
-      "player": "Will"
-    },
-    {
-      "collector_number": "598",
-      "name": "Gruff Triplets",
-      "player": "Will"
-    },
-    {
-      "collector_number": "599",
-      "name": "Gyome, Master Chef",
-      "player": "Will"
-    },
-    {
-      "collector_number": "600",
-      "name": "Haywire Mite",
-      "player": "Will"
-    },
-    {
-      "collector_number": "601",
-      "name": "Hazel's Brewmaster",
-      "player": "Will"
-    },
-    {
-      "collector_number": "602",
-      "name": "Kokusho, the Evening Star",
-      "player": "Will"
-    },
-    {
-      "collector_number": "603",
-      "name": "Liquimetal Coating",
-      "player": "Will"
-    },
-    {
-      "collector_number": "604",
-      "name": "Manglehorn",
-      "player": "Will"
-    },
-    {
-      "collector_number": "605",
-      "name": "Moonsilver Key",
-      "player": "Will"
-    },
-    {
-      "collector_number": "606",
-      "name": "Pawpatch Formation",
-      "player": "Will"
-    },
-    {
-      "collector_number": "607",
-      "name": "Peregrin Took",
-      "player": "Will"
-    },
-    {
-      "collector_number": "608",
-      "name": "Rampaging Yao Guai",
-      "player": "Will"
-    },
-    {
-      "collector_number": "609",
-      "name": "Rancor",
-      "player": "Will"
-    },
-    {
-      "collector_number": "610",
-      "name": "Rapacious Guest",
-      "player": "Will"
-    },
-    {
-      "collector_number": "611",
-      "name": "Savvy Hunter",
-      "player": "Will"
-    },
-    {
-      "collector_number": "612",
-      "name": "Scavenger's Talent",
-      "player": "Will"
-    },
-    {
-      "collector_number": "613",
-      "name": "Silverback Elder",
-      "player": "Will"
-    },
-    {
-      "collector_number": "614",
-      "name": "Sword of Light and Shadow",
-      "player": "Will"
-    },
-    {
-      "collector_number": "615",
-      "name": "Tom, Bert, and William",
-      "player": "Will"
-    },
-    {
-      "collector_number": "616",
-      "name": "Viridian Revel",
-      "player": "Will"
-    },
-    {
-      "collector_number": "617",
-      "name": "Vito, Thorn of the Dusk Rose",
-      "player": "Will"
-    },
-    {
-      "collector_number": "618",
-      "name": "Ygra, Eater of All",
+      "collector_number": "620",
+      "name": "Vaultborn Tyrant",
       "player": "Will"
     }
   ],

@@ -5939,6 +5939,22 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-28"
+    },
+    "nuka-cola vending machine": {
+      "name": "Nuka-Cola Vending Machine",
+      "oracle_id": "6cfb03e5-aca6-4fe2-a3f1-93e1f0cbf9e1",
+      "scryfall_uri": "https://scryfall.com/card/sld/2462/nuka-cola-vending-machine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "vaultborn tyrant": {
+      "name": "Vaultborn Tyrant",
+      "oracle_id": "e8d0accc-b320-4c07-8a71-a09db860351e",
+      "scryfall_uri": "https://scryfall.com/card/big/20/vaultborn-tyrant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
     }
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.26",
+  "version": "3.2.27",
   "set_code": "WLX",
   "cards": [
     {
@@ -11196,6 +11196,42 @@
       "image": "images/WLX/618-07245c904171.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/618-07245c904171.jpg",
       "sha256": "07245c904171e9b401425b8013801f78eddd077e0825cafa29a83bbd38c158da",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Nuka-Cola Vending Machine",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "619",
+      "uuid": "1bfa2979-95b3-5ca7-ada6-3633c04d9b95",
+      "rarity": "special",
+      "image": "images/WLX/619-bf354995a62c.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/619-bf354995a62c.jpg",
+      "sha256": "bf354995a62c978971088e6e446f614bd05ed47a86f94d1f418f7aa4d887d1e1",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Vaultborn Tyrant",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "620",
+      "uuid": "d911fffb-fc0c-521d-9dfa-d8bb20759723",
+      "rarity": "special",
+      "image": "images/WLX/620-da7f4340e1f5.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/620-da7f4340e1f5.jpg",
+      "sha256": "da7f4340e1f5c229f527314a8905e356ef4d5ac39076f0c1058e8d3d96d4b5e4",
       "dimensions": [
         2976,
         4152

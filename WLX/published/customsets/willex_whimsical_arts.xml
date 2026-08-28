@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-28T15:20:25+00:00</createdAt>
+    <createdAt>2026-08-28T16:01:41+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.26</sourceVersion>
+    <sourceVersion>3.2.27</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1627,6 +1627,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="d7ddc890-3608-51e2-8e47-10e812ad281a" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/310-f31a870d4967.jpg" num="310" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Nuka-Cola Vending Machine</name>
+      <set uuid="1bfa2979-95b3-5ca7-ada6-3633c04d9b95" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/619-bf354995a62c.jpg" num="619" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Nulldrifter</name>
       <set uuid="1dafe2e1-5aff-5195-b466-f75dbba76067" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/226-28ca5f1e6c3a.jpg" num="226" rarity="special">WLX</set>
     </card>
@@ -2537,6 +2541,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
     <card>
       <name>Vanquish the Horde</name>
       <set uuid="149bd62f-bc2a-54cc-98a5-39300157ba79" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/535-419c227e8d2f.jpg" num="535" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Vaultborn Tyrant</name>
+      <set uuid="d911fffb-fc0c-521d-9dfa-d8bb20759723" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/620-da7f4340e1f5.jpg" num="620" rarity="special">WLX</set>
     </card>
     <card>
       <name>Vedalken Orrery</name>
