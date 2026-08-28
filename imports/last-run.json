@@ -1,100 +1,165 @@
 {
   "schema_version": 1,
-  "batch_id": "a4ba638f34",
-  "started_at": "2026-08-27T04:30:32+00:00",
-  "finished_at": "2026-08-27T04:30:35+00:00",
-  "found": 18,
-  "version_before": "3.2.24",
-  "version_after": "3.2.25",
+  "batch_id": "777122b275",
+  "started_at": "2026-08-28T15:20:25+00:00",
+  "finished_at": "2026-08-28T15:20:28+00:00",
+  "found": 31,
+  "version_before": "3.2.25",
+  "version_after": "3.2.26",
   "added": [
     {
-      "collector_number": "570",
-      "name": "Morcant's Eyes",
+      "collector_number": "588",
+      "name": "Aberrant",
       "player": "Will"
     },
     {
-      "collector_number": "571",
-      "name": "Morcant's Loyalist",
+      "collector_number": "589",
+      "name": "Academy Manufactor",
       "player": "Will"
     },
     {
-      "collector_number": "572",
-      "name": "Necroskitter",
+      "collector_number": "590",
+      "name": "Bane of Progress",
       "player": "Will"
     },
     {
-      "collector_number": "573",
-      "name": "Patchwork Banner",
+      "collector_number": "591",
+      "name": "Bloodroot Apothecary",
       "player": "Will"
     },
     {
-      "collector_number": "574",
-      "name": "Poison-Tip Archer",
+      "collector_number": "592",
+      "name": "Braids, Arisen Nightmare",
       "player": "Will"
     },
     {
-      "collector_number": "575",
-      "name": "Priest of Titania",
+      "collector_number": "593",
+      "name": "Cankerbloom",
       "player": "Will"
     },
     {
-      "collector_number": "576",
-      "name": "Prowess of the Fair",
+      "collector_number": "594",
+      "name": "Cankerbloom",
       "player": "Will"
     },
     {
-      "collector_number": "577",
-      "name": "Realmwalker",
+      "collector_number": "595",
+      "name": "Canopy Cover",
       "player": "Will"
     },
     {
-      "collector_number": "578",
-      "name": "Ruthless Winnower",
+      "collector_number": "596",
+      "name": "Cauldron Familiar",
       "player": "Will"
     },
     {
-      "collector_number": "579",
-      "name": "Scarblade's Malice",
+      "collector_number": "597",
+      "name": "Experimental Confectioner",
       "player": "Will"
     },
     {
-      "collector_number": "580",
-      "name": "Shaman of the Pack",
+      "collector_number": "598",
+      "name": "Gruff Triplets",
       "player": "Will"
     },
     {
-      "collector_number": "581",
-      "name": "Skemfar Shadowsage",
+      "collector_number": "599",
+      "name": "Gyome, Master Chef",
       "player": "Will"
     },
     {
-      "collector_number": "582",
-      "name": "Springleaf Parade",
+      "collector_number": "600",
+      "name": "Haywire Mite",
       "player": "Will"
     },
     {
-      "collector_number": "583",
-      "name": "Trystan's Command",
+      "collector_number": "601",
+      "name": "Hazel's Brewmaster",
       "player": "Will"
     },
     {
-      "collector_number": "584",
-      "name": "Virulent Emissary",
+      "collector_number": "602",
+      "name": "Kokusho, the Evening Star",
       "player": "Will"
     },
     {
-      "collector_number": "585",
-      "name": "Voice of Many",
+      "collector_number": "603",
+      "name": "Liquimetal Coating",
       "player": "Will"
     },
     {
-      "collector_number": "586",
-      "name": "Woodland Weavemaster",
+      "collector_number": "604",
+      "name": "Manglehorn",
       "player": "Will"
     },
     {
-      "collector_number": "587",
-      "name": "Yeva, Nature's Herald",
+      "collector_number": "605",
+      "name": "Moonsilver Key",
+      "player": "Will"
+    },
+    {
+      "collector_number": "606",
+      "name": "Pawpatch Formation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "607",
+      "name": "Peregrin Took",
+      "player": "Will"
+    },
+    {
+      "collector_number": "608",
+      "name": "Rampaging Yao Guai",
+      "player": "Will"
+    },
+    {
+      "collector_number": "609",
+      "name": "Rancor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "610",
+      "name": "Rapacious Guest",
+      "player": "Will"
+    },
+    {
+      "collector_number": "611",
+      "name": "Savvy Hunter",
+      "player": "Will"
+    },
+    {
+      "collector_number": "612",
+      "name": "Scavenger's Talent",
+      "player": "Will"
+    },
+    {
+      "collector_number": "613",
+      "name": "Silverback Elder",
+      "player": "Will"
+    },
+    {
+      "collector_number": "614",
+      "name": "Sword of Light and Shadow",
+      "player": "Will"
+    },
+    {
+      "collector_number": "615",
+      "name": "Tom, Bert, and William",
+      "player": "Will"
+    },
+    {
+      "collector_number": "616",
+      "name": "Viridian Revel",
+      "player": "Will"
+    },
+    {
+      "collector_number": "617",
+      "name": "Vito, Thorn of the Dusk Rose",
+      "player": "Will"
+    },
+    {
+      "collector_number": "618",
+      "name": "Ygra, Eater of All",
       "player": "Will"
     }
   ],

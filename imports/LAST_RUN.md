@@ -1,30 +1,43 @@
 # Latest WLX File Import
 
-- Batch: `a4ba638f34`
-- Finished: `2026-08-27T04:30:35+00:00`
-- Images found: **18**
-- New printings: **18**
+- Batch: `777122b275`
+- Finished: `2026-08-28T15:20:28+00:00`
+- Images found: **31**
+- New printings: **31**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #570` — Morcant's Eyes (Will)
-- `WLX #571` — Morcant's Loyalist (Will)
-- `WLX #572` — Necroskitter (Will)
-- `WLX #573` — Patchwork Banner (Will)
-- `WLX #574` — Poison-Tip Archer (Will)
-- `WLX #575` — Priest of Titania (Will)
-- `WLX #576` — Prowess of the Fair (Will)
-- `WLX #577` — Realmwalker (Will)
-- `WLX #578` — Ruthless Winnower (Will)
-- `WLX #579` — Scarblade's Malice (Will)
-- `WLX #580` — Shaman of the Pack (Will)
-- `WLX #581` — Skemfar Shadowsage (Will)
-- `WLX #582` — Springleaf Parade (Will)
-- `WLX #583` — Trystan's Command (Will)
-- `WLX #584` — Virulent Emissary (Will)
-- `WLX #585` — Voice of Many (Will)
-- `WLX #586` — Woodland Weavemaster (Will)
-- `WLX #587` — Yeva, Nature's Herald (Will)
+- `WLX #588` — Aberrant (Will)
+- `WLX #589` — Academy Manufactor (Will)
+- `WLX #590` — Bane of Progress (Will)
+- `WLX #591` — Bloodroot Apothecary (Will)
+- `WLX #592` — Braids, Arisen Nightmare (Will)
+- `WLX #593` — Cankerbloom (Will)
+- `WLX #594` — Cankerbloom (Will)
+- `WLX #595` — Canopy Cover (Will)
+- `WLX #596` — Cauldron Familiar (Will)
+- `WLX #597` — Experimental Confectioner (Will)
+- `WLX #598` — Gruff Triplets (Will)
+- `WLX #599` — Gyome, Master Chef (Will)
+- `WLX #600` — Haywire Mite (Will)
+- `WLX #601` — Hazel's Brewmaster (Will)
+- `WLX #602` — Kokusho, the Evening Star (Will)
+- `WLX #603` — Liquimetal Coating (Will)
+- `WLX #604` — Manglehorn (Will)
+- `WLX #605` — Moonsilver Key (Will)
+- `WLX #606` — Pawpatch Formation (Will)
+- `WLX #607` — Peregrin Took (Will)
+- `WLX #608` — Rampaging Yao Guai (Will)
+- `WLX #609` — Rancor (Will)
+- `WLX #610` — Rapacious Guest (Will)
+- `WLX #611` — Savvy Hunter (Will)
+- `WLX #612` — Scavenger's Talent (Will)
+- `WLX #613` — Silverback Elder (Will)
+- `WLX #614` — Sword of Light and Shadow (Will)
+- `WLX #615` — Tom, Bert, and William (Will)
+- `WLX #616` — Viridian Revel (Will)
+- `WLX #617` — Vito, Thorn of the Dusk Rose (Will)
+- `WLX #618` — Ygra, Eater of All (Will)

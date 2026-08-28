@@ -5699,6 +5699,246 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-27"
+    },
+    "aberrant": {
+      "name": "Aberrant",
+      "oracle_id": "46b5f12e-9fe5-44f6-b895-ee8c33205521",
+      "scryfall_uri": "https://scryfall.com/card/40k/86/aberrant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "academy manufactor": {
+      "name": "Academy Manufactor",
+      "oracle_id": "f36d1d8b-8303-44a9-ab56-531931641ea2",
+      "scryfall_uri": "https://scryfall.com/card/otc/251/academy-manufactor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "bane of progress": {
+      "name": "Bane of Progress",
+      "oracle_id": "51f9a6cc-8eb2-44ed-a2d9-913ac514ad67",
+      "scryfall_uri": "https://scryfall.com/card/ecc/99/bane-of-progress?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "bloodroot apothecary": {
+      "name": "Bloodroot Apothecary",
+      "oracle_id": "09ecb8df-2a17-4e5a-814c-474bce54794d",
+      "scryfall_uri": "https://scryfall.com/card/blc/27/bloodroot-apothecary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "braids, arisen nightmare": {
+      "name": "Braids, Arisen Nightmare",
+      "oracle_id": "e0445c80-fa53-4c3e-881e-940e9fce7f57",
+      "scryfall_uri": "https://scryfall.com/card/eoc/82/braids-arisen-nightmare?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "cankerbloom": {
+      "name": "Cankerbloom",
+      "oracle_id": "d5b80895-621a-40df-bf48-6c7295658f21",
+      "scryfall_uri": "https://scryfall.com/card/one/161/cankerbloom?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "canopy cover": {
+      "name": "Canopy Cover",
+      "oracle_id": "5b84101e-7e23-437d-835c-409bc061ecbb",
+      "scryfall_uri": "https://scryfall.com/card/wwk/98/canopy-cover?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "cauldron familiar": {
+      "name": "Cauldron Familiar",
+      "oracle_id": "a7dc2e62-1c50-4ed7-b71f-2d782a447a5e",
+      "scryfall_uri": "https://scryfall.com/card/jmp/216/cauldron-familiar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "experimental confectioner": {
+      "name": "Experimental Confectioner",
+      "oracle_id": "87f82d15-5b6b-400f-8a15-d45a2a735f7d",
+      "scryfall_uri": "https://scryfall.com/card/woe/314/experimental-confectioner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "gruff triplets": {
+      "name": "Gruff Triplets",
+      "oracle_id": "32de1b70-f993-4423-b0ef-0762c2b4d1b1",
+      "scryfall_uri": "https://scryfall.com/card/woe/172/gruff-triplets?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "gyome, master chef": {
+      "name": "Gyome, Master Chef",
+      "oracle_id": "0f1b5cea-2035-444c-9f63-87dcb9782c74",
+      "scryfall_uri": "https://scryfall.com/card/soc/313/gyome-master-chef?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "haywire mite": {
+      "name": "Haywire Mite",
+      "oracle_id": "749d2994-44e7-40d3-8630-7bebed239e9e",
+      "scryfall_uri": "https://scryfall.com/card/soc/349/haywire-mite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "hazel's brewmaster": {
+      "name": "Hazel's Brewmaster",
+      "oracle_id": "e8180024-1979-4677-9a0d-e08d4b7c825a",
+      "scryfall_uri": "https://scryfall.com/card/blc/17/hazels-brewmaster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "kokusho, the evening star": {
+      "name": "Kokusho, the Evening Star",
+      "oracle_id": "cf631c93-b7fb-4e4f-b405-3778c15b1117",
+      "scryfall_uri": "https://scryfall.com/card/ima/95/kokusho-the-evening-star?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "liquimetal coating": {
+      "name": "Liquimetal Coating",
+      "oracle_id": "f4bdc551-c2eb-4a34-a3e3-b4a017c925af",
+      "scryfall_uri": "https://scryfall.com/card/cm2/197/liquimetal-coating?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "manglehorn": {
+      "name": "Manglehorn",
+      "oracle_id": "b67db32b-30a9-49d2-b4c2-90a9f80c36eb",
+      "scryfall_uri": "https://scryfall.com/card/akh/175/manglehorn?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "moonsilver key": {
+      "name": "Moonsilver Key",
+      "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+      "scryfall_uri": "https://scryfall.com/card/mid/255/moonsilver-key?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "pawpatch formation": {
+      "name": "Pawpatch Formation",
+      "oracle_id": "fa99cf82-ebf1-4526-ab9c-b24eb2970f2a",
+      "scryfall_uri": "https://scryfall.com/card/blb/186/pawpatch-formation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "peregrin took": {
+      "name": "Peregrin Took",
+      "oracle_id": "188da0ad-8524-4fb2-915e-1876dc9df89f",
+      "scryfall_uri": "https://scryfall.com/card/ltr/181/peregrin-took?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "rampaging yao guai": {
+      "name": "Rampaging Yao Guai",
+      "oracle_id": "d37e8f75-c7cb-4270-bb2f-0125e972ed15",
+      "scryfall_uri": "https://scryfall.com/card/pip/82/rampaging-yao-guai?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "rancor": {
+      "name": "Rancor",
+      "oracle_id": "9d2d6479-531c-4ce1-b52b-00e36fa63b64",
+      "scryfall_uri": "https://scryfall.com/card/2x2/156/rancor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "rapacious guest": {
+      "name": "Rapacious Guest",
+      "oracle_id": "54accd4a-b471-4ae5-b3b2-a5cec44023b7",
+      "scryfall_uri": "https://scryfall.com/card/ltc/28/rapacious-guest?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "savvy hunter": {
+      "name": "Savvy Hunter",
+      "oracle_id": "602132c2-8ee8-41f8-bfac-cb17d32203f5",
+      "scryfall_uri": "https://scryfall.com/card/eld/200/savvy-hunter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "scavenger's talent": {
+      "name": "Scavenger's Talent",
+      "oracle_id": "aefea339-8a0d-4531-8a62-afaecc88d078",
+      "scryfall_uri": "https://scryfall.com/card/blb/111/scavengers-talent?utm_source=api",
+      "layout": "class",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "silverback elder": {
+      "name": "Silverback Elder",
+      "oracle_id": "b1a0ae56-77aa-43ad-9aa8-dc1ab779e9d9",
+      "scryfall_uri": "https://scryfall.com/card/dmu/177/silverback-elder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "sword of light and shadow": {
+      "name": "Sword of Light and Shadow",
+      "oracle_id": "01c8a554-45a6-46ca-b40a-af0fd4529e40",
+      "scryfall_uri": "https://scryfall.com/card/2xm/298/sword-of-light-and-shadow?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "tom, bert, and william": {
+      "name": "Tom, Bert, and William",
+      "oracle_id": "0ea58cfe-b37c-49a6-a3be-7e60065b8238",
+      "scryfall_uri": "https://scryfall.com/card/hob/169/tom-bert-and-william?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "viridian revel": {
+      "name": "Viridian Revel",
+      "oracle_id": "c24b0c7d-1a4b-4eca-8d83-9e81ed3b3b27",
+      "scryfall_uri": "https://scryfall.com/card/som/132/viridian-revel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "vito, thorn of the dusk rose": {
+      "name": "Vito, Thorn of the Dusk Rose",
+      "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+      "scryfall_uri": "https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
+    },
+    "ygra, eater of all": {
+      "name": "Ygra, Eater of All",
+      "oracle_id": "62511d43-8eaf-405a-9c81-7bd593d3a01e",
+      "scryfall_uri": "https://scryfall.com/card/blb/241/ygra-eater-of-all?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-28"
     }
   }
 }
