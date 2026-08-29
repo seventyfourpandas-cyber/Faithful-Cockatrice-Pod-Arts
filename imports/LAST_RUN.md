@@ -1,14 +1,51 @@
 # Latest WLX File Import
 
-- Batch: `beec823e11`
-- Finished: `2026-08-28T16:01:43+00:00`
-- Images found: **2**
-- New printings: **2**
+- Batch: `c1e2a88a24`
+- Finished: `2026-08-29T03:19:42+00:00`
+- Images found: **39**
+- New printings: **39**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #619` — Nuka-Cola Vending Machine (Will)
-- `WLX #620` — Vaultborn Tyrant (Will)
+- `WLX #621` — Alandra, Sky Dreamer (Will)
+- `WLX #622` — Azorius Signet (Will)
+- `WLX #623` — Chasm Skulker (Will)
+- `WLX #624` — Counterspell (Will)
+- `WLX #625` — Dovin's Veto (Will)
+- `WLX #626` — Drake Haven (Will)
+- `WLX #627` — Enlightened Tutor (Will)
+- `WLX #628` — Glaring Fleshraker (Will)
+- `WLX #629` — Grasp of Fate (Will)
+- `WLX #630` — Imposter Mech (Will)
+- `WLX #631` — Krang, the All-Powerful (Will)
+- `WLX #632` — Liberator, Urza's Battlethopter (Will)
+- `WLX #633` — Manifold Key (Will)
+- `WLX #634` — Mechan Navigator (Will)
+- `WLX #635` — Monument to Endurance (Will)
+- `WLX #636` — Mystic Remora (Will)
+- `WLX #637` — Nanoform Sentinel (Will)
+- `WLX #638` — Ominous Seas (Will)
+- `WLX #639` — Out of Time (Will)
+- `WLX #640` — Padeem, Consul of Innovation (Will)
+- `WLX #641` — Parhelion II (Will)
+- `WLX #642` — Proft's Eidetic Memory (Will)
+- `WLX #643` — Psychosis Crawler (Will)
+- `WLX #644` — Scour for Scrap (Will)
+- `WLX #645` — Sculpting Steel (Will)
+- `WLX #646` — Securitron Squadron (Will)
+- `WLX #647` — Sevinne's Reclamation (Will)
+- `WLX #648` — Smuggler's Copter (Will)
+- `WLX #649` — Stenn, Paranoid Partisan (Will)
+- `WLX #650` — Stroke of Midnight (Will)
+- `WLX #651` — Supreme Verdict (Will)
+- `WLX #652` — Talisman of Progress (Will)
+- `WLX #653` — Teferi's Ageless Insight (Will)
+- `WLX #654` — Toothy, Imaginary Friend (Will)
+- `WLX #655` — Unlicensed Hearse (Will)
+- `WLX #656` — Unstoppable Plan (Will)
+- `WLX #657` — Unwinding Clock (Will)
+- `WLX #658` — Voltaic Key (Will)
+- `WLX #659` — Voltaic Servant (Will)

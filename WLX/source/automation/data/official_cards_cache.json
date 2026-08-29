@@ -5955,6 +5955,302 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-28"
+    },
+    "alandra, sky dreamer": {
+      "name": "Alandra, Sky Dreamer",
+      "oracle_id": "97bb1589-2941-4a75-a5f6-916871e51e9e",
+      "scryfall_uri": "https://scryfall.com/card/mkc/94/alandra-sky-dreamer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "azorius signet": {
+      "name": "Azorius Signet",
+      "oracle_id": "e018773f-95b3-49a3-9674-6f04ddef2092",
+      "scryfall_uri": "https://scryfall.com/card/tdc/312/azorius-signet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "chasm skulker": {
+      "name": "Chasm Skulker",
+      "oracle_id": "69facbc7-3859-4716-b627-5199571fb3cf",
+      "scryfall_uri": "https://scryfall.com/card/moc/218/chasm-skulker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "counterspell": {
+      "name": "Counterspell",
+      "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+      "scryfall_uri": "https://scryfall.com/card/dsc/114/counterspell?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "drake haven": {
+      "name": "Drake Haven",
+      "oracle_id": "86d3def3-53fa-4cad-bb25-d3275af1e3f5",
+      "scryfall_uri": "https://scryfall.com/card/c20/110/drake-haven?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "glaring fleshraker": {
+      "name": "Glaring Fleshraker",
+      "oracle_id": "0ffce5e0-6b1d-4d1a-9318-1a1a219df532",
+      "scryfall_uri": "https://scryfall.com/card/mh3/7/glaring-fleshraker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "grasp of fate": {
+      "name": "Grasp of Fate",
+      "oracle_id": "1b26a54f-6c27-4940-b77e-2a66175c5eff",
+      "scryfall_uri": "https://scryfall.com/card/cmm/823/grasp-of-fate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "imposter mech": {
+      "name": "Imposter Mech",
+      "oracle_id": "f434e266-d9d6-4058-96ff-a1bd4029d8dc",
+      "scryfall_uri": "https://scryfall.com/card/nec/13/imposter-mech?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "krang, the all-powerful": {
+      "name": "Krang, the All-Powerful",
+      "oracle_id": "466d5226-f4c7-4d69-9f56-4f893010127f",
+      "scryfall_uri": "https://scryfall.com/card/tmc/13/krang-the-all-powerful?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "liberator, urza's battlethopter": {
+      "name": "Liberator, Urza's Battlethopter",
+      "oracle_id": "798a4a6f-7443-4e8e-afcb-0a694fdfcbb3",
+      "scryfall_uri": "https://scryfall.com/card/bro/237/liberator-urzas-battlethopter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "manifold key": {
+      "name": "Manifold Key",
+      "oracle_id": "370c37f7-2484-40e8-8fd9-c10cf6f5d5f2",
+      "scryfall_uri": "https://scryfall.com/card/clb/319/manifold-key?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "mechan navigator": {
+      "name": "Mechan Navigator",
+      "oracle_id": "fa72c607-7eb4-41b7-9af1-f3d6c69abf09",
+      "scryfall_uri": "https://scryfall.com/card/eoe/64/mechan-navigator?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "monument to endurance": {
+      "name": "Monument to Endurance",
+      "oracle_id": "e69e8de4-b521-4888-8074-17f1efe2f345",
+      "scryfall_uri": "https://scryfall.com/card/dft/237/monument-to-endurance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "mystic remora": {
+      "name": "Mystic Remora",
+      "oracle_id": "8a52f3c0-2552-4425-b2e3-5496eb2232a7",
+      "scryfall_uri": "https://scryfall.com/card/dmr/59/mystic-remora?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "nanoform sentinel": {
+      "name": "Nanoform Sentinel",
+      "oracle_id": "07155470-c5ab-41ae-ade3-bdc06d357379",
+      "scryfall_uri": "https://scryfall.com/card/eoe/71/nanoform-sentinel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "ominous seas": {
+      "name": "Ominous Seas",
+      "oracle_id": "58ea9b0a-1bef-4ccb-acb7-f03c8daf3df3",
+      "scryfall_uri": "https://scryfall.com/card/iko/61/ominous-seas?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "out of time": {
+      "name": "Out of Time",
+      "oracle_id": "8491de1e-dc37-4a89-b4f7-56a2c668f0fc",
+      "scryfall_uri": "https://scryfall.com/card/mh2/23/out-of-time?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "padeem, consul of innovation": {
+      "name": "Padeem, Consul of Innovation",
+      "oracle_id": "0c7ba712-6a99-4d2f-9242-a2163a11f69c",
+      "scryfall_uri": "https://scryfall.com/card/cmm/109/padeem-consul-of-innovation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "parhelion ii": {
+      "name": "Parhelion II",
+      "oracle_id": "24d22bcb-8a77-4c47-a508-6f4bc093c1d0",
+      "scryfall_uri": "https://scryfall.com/card/nec/87/parhelion-ii?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "proft's eidetic memory": {
+      "name": "Proft's Eidetic Memory",
+      "oracle_id": "b749e9e4-0f2a-4157-8cca-facd6b48157f",
+      "scryfall_uri": "https://scryfall.com/card/mkm/67/profts-eidetic-memory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "psychosis crawler": {
+      "name": "Psychosis Crawler",
+      "oracle_id": "2876e74f-a242-4995-9702-0b737a1ab67a",
+      "scryfall_uri": "https://scryfall.com/card/mkc/234/psychosis-crawler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "scour for scrap": {
+      "name": "Scour for Scrap",
+      "oracle_id": "da422b3e-1092-47ad-97d6-a7a3ef060a53",
+      "scryfall_uri": "https://scryfall.com/card/eoe/73/scour-for-scrap?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "sculpting steel": {
+      "name": "Sculpting Steel",
+      "oracle_id": "6c85271c-c711-49b0-a72e-9e576c33714d",
+      "scryfall_uri": "https://scryfall.com/card/moc/374/sculpting-steel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "securitron squadron": {
+      "name": "Securitron Squadron",
+      "oracle_id": "96312b75-3110-4506-9f95-0c6c17d9da11",
+      "scryfall_uri": "https://scryfall.com/card/pip/23/securitron-squadron?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "sevinne's reclamation": {
+      "name": "Sevinne's Reclamation",
+      "oracle_id": "1b9f9f5b-8712-4f00-90cb-1b7b9970eccc",
+      "scryfall_uri": "https://scryfall.com/card/soc/170/sevinnes-reclamation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "smuggler's copter": {
+      "name": "Smuggler's Copter",
+      "oracle_id": "49136bdc-bc50-49a2-999a-1ef9c16ea130",
+      "scryfall_uri": "https://scryfall.com/card/nec/160/smugglers-copter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "stenn, paranoid partisan": {
+      "name": "Stenn, Paranoid Partisan",
+      "oracle_id": "03d2d7dd-54b6-469e-8b1c-c48db8cc0925",
+      "scryfall_uri": "https://scryfall.com/card/dmu/221/stenn-paranoid-partisan?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "stroke of midnight": {
+      "name": "Stroke of Midnight",
+      "oracle_id": "9a107e48-3d50-4941-95b1-10f2b29a4245",
+      "scryfall_uri": "https://scryfall.com/card/tdc/132/stroke-of-midnight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "supreme verdict": {
+      "name": "Supreme Verdict",
+      "oracle_id": "0230de18-8d15-4cfa-9d42-7ccddd9f9570",
+      "scryfall_uri": "https://scryfall.com/card/clu/211/supreme-verdict?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "talisman of progress": {
+      "name": "Talisman of Progress",
+      "oracle_id": "00e35322-1a9a-41e3-9ce1-359c8eaa3bc7",
+      "scryfall_uri": "https://scryfall.com/card/msc/221/talisman-of-progress?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "teferi's ageless insight": {
+      "name": "Teferi's Ageless Insight",
+      "oracle_id": "1c9e1f75-73f0-4846-b53f-458a0984b1bb",
+      "scryfall_uri": "https://scryfall.com/card/mkc/119/teferis-ageless-insight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "toothy, imaginary friend": {
+      "name": "Toothy, Imaginary Friend",
+      "oracle_id": "41d6cce0-b852-4d0e-aee2-081df13dd9b8",
+      "scryfall_uri": "https://scryfall.com/card/bbd/12/toothy-imaginary-friend?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "unlicensed hearse": {
+      "name": "Unlicensed Hearse",
+      "oracle_id": "c640654c-487e-4a2c-aced-126ed835b78f",
+      "scryfall_uri": "https://scryfall.com/card/snc/246/unlicensed-hearse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "unstoppable plan": {
+      "name": "Unstoppable Plan",
+      "oracle_id": "3f6f4c98-ed7e-4fb1-8bfe-4210a39f77f2",
+      "scryfall_uri": "https://scryfall.com/card/dft/72/unstoppable-plan?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "unwinding clock": {
+      "name": "Unwinding Clock",
+      "oracle_id": "153fac93-5d2b-4348-a468-a5eef6a12da3",
+      "scryfall_uri": "https://scryfall.com/card/c18/228/unwinding-clock?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "voltaic key": {
+      "name": "Voltaic Key",
+      "oracle_id": "09aeea91-b1dc-443f-a509-4758f052c0a7",
+      "scryfall_uri": "https://scryfall.com/card/m11/219/voltaic-key?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
+    },
+    "voltaic servant": {
+      "name": "Voltaic Servant",
+      "oracle_id": "d0c2703b-bd74-41ac-b516-c46c654de1bb",
+      "scryfall_uri": "https://scryfall.com/card/dom/236/voltaic-servant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-29"
     }
   }
 }
