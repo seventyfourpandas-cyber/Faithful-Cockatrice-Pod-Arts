@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-08-29T03:19:38+00:00</createdAt>
+    <createdAt>2026-08-29T14:57:24+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.28</sourceVersion>
+    <sourceVersion>3.2.29</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1839,7 +1839,7 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     </card>
     <card>
       <name>Plagon, Lord of the Beach</name>
-      <set uuid="7ff767ae-38de-5440-96b6-eb9c22a31fd3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/090-a8a9c077a6c4.jpg" num="090" rarity="special">WLX</set>
+      <set uuid="7ff767ae-38de-5440-96b6-eb9c22a31fd3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/090-08906826c510.jpg" num="090" rarity="special">WLX</set>
     </card>
     <card>
       <name>Planetary Annihilation</name>

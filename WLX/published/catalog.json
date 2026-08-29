@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.28",
+  "version": "3.2.29",
   "set_code": "WLX",
   "cards": [
     {
@@ -1545,9 +1545,9 @@
       "collector_number": "090",
       "uuid": "7ff767ae-38de-5440-96b6-eb9c22a31fd3",
       "rarity": "special",
-      "image": "images/WLX/090-a8a9c077a6c4.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/090-a8a9c077a6c4.jpg",
-      "sha256": "a8a9c077a6c40c8b71506bcd1c46b270333888d6187a25c633ee1aaea5858728",
+      "image": "images/WLX/090-08906826c510.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/090-08906826c510.jpg",
+      "sha256": "08906826c510d40f9afe2954706f3cfaa15399fdc89894e9acd3f7f25c99527c",
       "dimensions": [
         2976,
         4152
