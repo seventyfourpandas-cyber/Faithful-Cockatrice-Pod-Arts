@@ -6251,6 +6251,555 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-29"
+    },
+    "aegis turtle": {
+      "name": "Aegis Turtle",
+      "oracle_id": "f84c30e7-2ea8-43ff-9356-1f907558cfd9",
+      "scryfall_uri": "https://scryfall.com/card/fdn/150/aegis-turtle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "baldin, century herdmaster": {
+      "name": "Baldin, Century Herdmaster",
+      "oracle_id": "14493624-fdc7-4630-9b1e-f35668651108",
+      "scryfall_uri": "https://scryfall.com/card/tdc/110/baldin-century-herdmaster?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "brago, king eternal": {
+      "name": "Brago, King Eternal",
+      "oracle_id": "fcb0c7db-bd07-4c25-b7f8-b6c207e4f6be",
+      "scryfall_uri": "https://scryfall.com/card/khc/82/brago-king-eternal?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "candlekeep sage": {
+      "name": "Candlekeep Sage",
+      "oracle_id": "f9516b60-36dd-4f8a-bebb-ac1bc0961f07",
+      "scryfall_uri": "https://scryfall.com/card/clb/60/candlekeep-sage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "captain america's shield": {
+      "name": "Captain America's Shield",
+      "oracle_id": "8255a797-ddd3-4db0-a3f5-dd8f38c3b908",
+      "scryfall_uri": "https://scryfall.com/card/msh/244/captain-americas-shield?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "charix, the raging isle": {
+      "name": "Charix, the Raging Isle",
+      "oracle_id": "c38cc5fe-936a-4d61-a816-9be773ae1d02",
+      "scryfall_uri": "https://scryfall.com/card/znr/49/charix-the-raging-isle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "cloudshift": {
+      "name": "Cloudshift",
+      "oracle_id": "6879f5ce-7a1b-4606-bad1-885779b0d456",
+      "scryfall_uri": "https://scryfall.com/card/tle/152/cloudshift?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "delney, streetwise lookout": {
+      "name": "Delney, Streetwise Lookout",
+      "oracle_id": "245d0ccf-87b6-460a-8b99-9e2079f2d375",
+      "scryfall_uri": "https://scryfall.com/card/mkm/12/delney-streetwise-lookout?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "disorder in the court": {
+      "name": "Disorder in the Court",
+      "oracle_id": "5e7586dd-d42e-4ac6-adb8-d46b6cdef923",
+      "scryfall_uri": "https://scryfall.com/card/mkc/209/disorder-in-the-court?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "displacer kitten": {
+      "name": "Displacer Kitten",
+      "oracle_id": "09ef446c-a13d-49d9-a94c-cd5f5a2d440b",
+      "scryfall_uri": "https://scryfall.com/card/clb/63/displacer-kitten?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "dusk // dawn": {
+      "name": "Dusk // Dawn",
+      "oracle_id": "7bc3f92f-68a2-4934-afc4-89f6d0e8cf98",
+      "scryfall_uri": "https://scryfall.com/card/mkc/61/dusk-dawn?utm_source=api",
+      "layout": "split",
+      "faces": [
+        {
+          "official_name": "Dusk",
+          "side": "front",
+          "mana_cost": "{2}{W}{W}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Destroy all creatures with power 3 or greater.",
+          "colors": "",
+          "color_identity": "W",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Dawn",
+          "side": "back",
+          "mana_cost": "{3}{W}{W}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)\nReturn all creature cards with power 2 or less from your graveyard to your hand.",
+          "colors": "",
+          "color_identity": "W",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "dusk _ dawn": {
+      "name": "Dusk // Dawn",
+      "oracle_id": "7bc3f92f-68a2-4934-afc4-89f6d0e8cf98",
+      "scryfall_uri": "https://scryfall.com/card/mkc/61/dusk-dawn?utm_source=api",
+      "layout": "split",
+      "faces": [
+        {
+          "official_name": "Dusk",
+          "side": "front",
+          "mana_cost": "{2}{W}{W}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Destroy all creatures with power 3 or greater.",
+          "colors": "",
+          "color_identity": "W",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Dawn",
+          "side": "back",
+          "mana_cost": "{3}{W}{W}",
+          "mana_value": "",
+          "type_line": "Sorcery",
+          "rules_text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)\nReturn all creature cards with power 2 or less from your graveyard to your hand.",
+          "colors": "",
+          "color_identity": "W",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "elesh norn, mother of machines": {
+      "name": "Elesh Norn, Mother of Machines",
+      "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+      "scryfall_uri": "https://scryfall.com/card/one/10/elesh-norn-mother-of-machines?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "ephemerate": {
+      "name": "Ephemerate",
+      "oracle_id": "0fd57894-b917-41c8-a394-360d1d31b236",
+      "scryfall_uri": "https://scryfall.com/card/mh1/7/ephemerate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "essence of antiquity": {
+      "name": "Essence of Antiquity",
+      "oracle_id": "26a7f92d-6914-466d-b7c7-9ac121dd5118",
+      "scryfall_uri": "https://scryfall.com/card/mkm/15/essence-of-antiquity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "ghostly flicker": {
+      "name": "Ghostly Flicker",
+      "oracle_id": "ad0070db-6454-41cb-861f-8f5b8fc2a3b8",
+      "scryfall_uri": "https://scryfall.com/card/cmm/98/ghostly-flicker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "ghostly prison": {
+      "name": "Ghostly Prison",
+      "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028",
+      "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "ghostway": {
+      "name": "Ghostway",
+      "oracle_id": "c8981af1-b0aa-4c19-8520-a7fb59018bc8",
+      "scryfall_uri": "https://scryfall.com/card/rvr/19/ghostway?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "high alert": {
+      "name": "High Alert",
+      "oracle_id": "5f657279-cc0f-4431-b517-47bd1c7109b6",
+      "scryfall_uri": "https://scryfall.com/card/rna/182/high-alert?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "hydroelectric specimen // hydroelectric laboratory": {
+      "name": "Hydroelectric Specimen // Hydroelectric Laboratory",
+      "oracle_id": "573151f0-00d4-4a8a-8a09-745c5f376532",
+      "scryfall_uri": "https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Hydroelectric Specimen",
+          "side": "front",
+          "mana_cost": "{2}{U}",
+          "mana_value": "",
+          "type_line": "Creature — Weird",
+          "rules_text": "Flash\nWhen this creature enters, you may change the target of target instant or sorcery spell with a single target to this creature.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "1/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Hydroelectric Laboratory",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "hydroelectric laboratory": {
+      "name": "Hydroelectric Specimen // Hydroelectric Laboratory",
+      "oracle_id": "573151f0-00d4-4a8a-8a09-745c5f376532",
+      "scryfall_uri": "https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Hydroelectric Specimen",
+          "side": "front",
+          "mana_cost": "{2}{U}",
+          "mana_value": "",
+          "type_line": "Creature — Weird",
+          "rules_text": "Flash\nWhen this creature enters, you may change the target of target instant or sorcery spell with a single target to this creature.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "1/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Hydroelectric Laboratory",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "hydroelectric specimen": {
+      "name": "Hydroelectric Specimen // Hydroelectric Laboratory",
+      "oracle_id": "573151f0-00d4-4a8a-8a09-745c5f376532",
+      "scryfall_uri": "https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Hydroelectric Specimen",
+          "side": "front",
+          "mana_cost": "{2}{U}",
+          "mana_value": "",
+          "type_line": "Creature — Weird",
+          "rules_text": "Flash\nWhen this creature enters, you may change the target of target instant or sorcery spell with a single target to this creature.",
+          "colors": "U",
+          "color_identity": "U",
+          "power_toughness": "1/4",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Hydroelectric Laboratory",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "meekstone": {
+      "name": "Meekstone",
+      "oracle_id": "5ba73182-30a7-4bad-9cb6-c0feecc2db33",
+      "scryfall_uri": "https://scryfall.com/card/7ed/307/meekstone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "mnemonic wall": {
+      "name": "Mnemonic Wall",
+      "oracle_id": "f2933616-211b-4d3f-8064-2be61c26079a",
+      "scryfall_uri": "https://scryfall.com/card/ima/67/mnemonic-wall?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "ornithopter of paradise": {
+      "name": "Ornithopter of Paradise",
+      "oracle_id": "3a940dfa-a026-4969-8981-ef90cdfbe9ef",
+      "scryfall_uri": "https://scryfall.com/card/cmm/966/ornithopter-of-paradise?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "panharmonicon": {
+      "name": "Panharmonicon",
+      "oracle_id": "76678885-3674-443d-b9a2-2a460cf6aac0",
+      "scryfall_uri": "https://scryfall.com/card/2x2/310/panharmonicon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "phyrexian walker": {
+      "name": "Phyrexian Walker",
+      "oracle_id": "7af75024-6c9b-4844-aeb6-81de25464822",
+      "scryfall_uri": "https://scryfall.com/card/vis/152/phyrexian-walker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "pollywog prodigy": {
+      "name": "Pollywog Prodigy",
+      "oracle_id": "99a3cea9-f4ab-4da3-a085-c09dc93fc8cb",
+      "scryfall_uri": "https://scryfall.com/card/blc/15/pollywog-prodigy?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "preston, the vanisher": {
+      "name": "Preston, the Vanisher",
+      "oracle_id": "2e00ccc9-6d5f-4de3-bbec-48b49d363244",
+      "scryfall_uri": "https://scryfall.com/card/j22/8/preston-the-vanisher?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "pupu ufo": {
+      "name": "PuPu UFO",
+      "oracle_id": "b1412eda-e3a4-41b2-932e-795a0ba0f7f8",
+      "scryfall_uri": "https://scryfall.com/card/fin/266/pupu-ufo?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "rasaad yn bashir": {
+      "name": "Rasaad yn Bashir",
+      "oracle_id": "3848ad74-8ee7-4546-9394-30db88e1d1e6",
+      "scryfall_uri": "https://scryfall.com/card/clb/37/rasaad-yn-bashir?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "riptide gearhulk": {
+      "name": "Riptide Gearhulk",
+      "oracle_id": "f3838ff1-5403-4f3f-8531-36029c13fcfc",
+      "scryfall_uri": "https://scryfall.com/card/dft/219/riptide-gearhulk?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "skycoach conductor // all aboard": {
+      "name": "Skycoach Conductor // All Aboard",
+      "oracle_id": "788d3cfa-7706-4728-9c48-cf7bc963d002",
+      "scryfall_uri": "https://scryfall.com/card/sos/67/skycoach-conductor-all-aboard?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Skycoach Conductor",
+          "side": "front",
+          "mana_cost": "{2}{U}",
+          "mana_value": "",
+          "type_line": "Creature — Bird Pilot",
+          "rules_text": "Flash\nFlying, vigilance\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "2/3",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "All Aboard",
+          "side": "back",
+          "mana_cost": "{U}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "skycoach conductor": {
+      "name": "Skycoach Conductor // All Aboard",
+      "oracle_id": "788d3cfa-7706-4728-9c48-cf7bc963d002",
+      "scryfall_uri": "https://scryfall.com/card/sos/67/skycoach-conductor-all-aboard?utm_source=api",
+      "layout": "prepare",
+      "faces": [
+        {
+          "official_name": "Skycoach Conductor",
+          "side": "front",
+          "mana_cost": "{2}{U}",
+          "mana_value": "",
+          "type_line": "Creature — Bird Pilot",
+          "rules_text": "Flash\nFlying, vigilance\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "2/3",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "All Aboard",
+          "side": "back",
+          "mana_cost": "{U}",
+          "mana_value": "",
+          "type_line": "Instant",
+          "rules_text": "Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control.",
+          "colors": "",
+          "color_identity": "U",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-08-31"
+    },
+    "soulherder": {
+      "name": "Soulherder",
+      "oracle_id": "92019547-f6db-4ea6-8356-d0a90ace5662",
+      "scryfall_uri": "https://scryfall.com/card/khc/93/soulherder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "spellskite": {
+      "name": "Spellskite",
+      "oracle_id": "e0aa6ce0-ca31-433b-ac6c-32b8675cdb71",
+      "scryfall_uri": "https://scryfall.com/card/clb/873/spellskite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "starfield vocalist": {
+      "name": "Starfield Vocalist",
+      "oracle_id": "4add809e-9caa-45ae-bb0d-4760a360b8e2",
+      "scryfall_uri": "https://scryfall.com/card/eoe/78/starfield-vocalist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "stoneskin": {
+      "name": "Stoneskin",
+      "oracle_id": "6d1d53e3-60ee-40a1-89a5-0648760cd83f",
+      "scryfall_uri": "https://scryfall.com/card/clb/45/stoneskin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "teleportation circle": {
+      "name": "Teleportation Circle",
+      "oracle_id": "c786a0aa-d86f-42c3-a7ea-5cb6ab72b5ec",
+      "scryfall_uri": "https://scryfall.com/card/afr/39/teleportation-circle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "tetsuko umezawa, fugitive": {
+      "name": "Tetsuko Umezawa, Fugitive",
+      "oracle_id": "ceeeacbc-01b0-4421-aaca-2ce6cdbe45d7",
+      "scryfall_uri": "https://scryfall.com/card/cmm/126/tetsuko-umezawa-fugitive?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "thassa, deep-dwelling": {
+      "name": "Thassa, Deep-Dwelling",
+      "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+      "scryfall_uri": "https://scryfall.com/card/thb/71/thassa-deep-dwelling?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "the battle of bywater": {
+      "name": "The Battle of Bywater",
+      "oracle_id": "a94c191d-a938-458e-bc1b-2f44fd8873a3",
+      "scryfall_uri": "https://scryfall.com/card/ltr/2/the-battle-of-bywater?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "the reality chip": {
+      "name": "The Reality Chip",
+      "oracle_id": "751f22bc-bcea-4213-a37b-b5f72448a4c4",
+      "scryfall_uri": "https://scryfall.com/card/neo/74/the-reality-chip?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "touch the spirit realm": {
+      "name": "Touch the Spirit Realm",
+      "oracle_id": "52f0dcbd-ccf3-4525-8e55-2d38b4991834",
+      "scryfall_uri": "https://scryfall.com/card/neo/40/touch-the-spirit-realm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
+    },
+    "welcoming vampire": {
+      "name": "Welcoming Vampire",
+      "oracle_id": "605c1ee0-5e8a-4e0a-a99b-42a38873f822",
+      "scryfall_uri": "https://scryfall.com/card/tdc/140/welcoming-vampire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-08-31"
     }
   }
 }

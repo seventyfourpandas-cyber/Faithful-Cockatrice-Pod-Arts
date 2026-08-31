@@ -1,205 +1,240 @@
 {
   "schema_version": 1,
-  "batch_id": "c1e2a88a24",
-  "started_at": "2026-08-29T03:19:38+00:00",
-  "finished_at": "2026-08-29T03:19:42+00:00",
-  "found": 39,
-  "version_before": "3.2.27",
-  "version_after": "3.2.28",
+  "batch_id": "8258aef2ce",
+  "started_at": "2026-08-31T13:46:41+00:00",
+  "finished_at": "2026-08-31T13:46:43+00:00",
+  "found": 47,
+  "version_before": "3.2.29",
+  "version_after": "3.2.30",
   "added": [
     {
-      "collector_number": "621",
-      "name": "Alandra, Sky Dreamer",
+      "collector_number": "660",
+      "name": "Aegis Turtle",
       "player": "Will"
     },
     {
-      "collector_number": "622",
-      "name": "Azorius Signet",
+      "collector_number": "661",
+      "name": "Baldin, Century Herdmaster",
       "player": "Will"
     },
     {
-      "collector_number": "623",
-      "name": "Chasm Skulker",
+      "collector_number": "662",
+      "name": "Brago, King Eternal",
       "player": "Will"
     },
     {
-      "collector_number": "624",
-      "name": "Counterspell",
+      "collector_number": "663",
+      "name": "Candlekeep Sage",
       "player": "Will"
     },
     {
-      "collector_number": "625",
-      "name": "Dovin's Veto",
+      "collector_number": "664",
+      "name": "Captain America's Shield",
       "player": "Will"
     },
     {
-      "collector_number": "626",
-      "name": "Drake Haven",
+      "collector_number": "665",
+      "name": "Charix, the Raging Isle",
       "player": "Will"
     },
     {
-      "collector_number": "627",
-      "name": "Enlightened Tutor",
+      "collector_number": "666",
+      "name": "Cloudshift",
       "player": "Will"
     },
     {
-      "collector_number": "628",
-      "name": "Glaring Fleshraker",
+      "collector_number": "667",
+      "name": "Delney, Streetwise Lookout",
       "player": "Will"
     },
     {
-      "collector_number": "629",
-      "name": "Grasp of Fate",
+      "collector_number": "668",
+      "name": "Disorder in the Court",
       "player": "Will"
     },
     {
-      "collector_number": "630",
-      "name": "Imposter Mech",
+      "collector_number": "669",
+      "name": "Displacer Kitten",
       "player": "Will"
     },
     {
-      "collector_number": "631",
-      "name": "Krang, the All-Powerful",
+      "collector_number": "670",
+      "name": "Dusk // Dawn",
       "player": "Will"
     },
     {
-      "collector_number": "632",
-      "name": "Liberator, Urza's Battlethopter",
+      "collector_number": "671",
+      "name": "Elesh Norn, Mother of Machines",
       "player": "Will"
     },
     {
-      "collector_number": "633",
-      "name": "Manifold Key",
+      "collector_number": "672",
+      "name": "Elesh Norn, Mother of Machines",
       "player": "Will"
     },
     {
-      "collector_number": "634",
-      "name": "Mechan Navigator",
+      "collector_number": "673",
+      "name": "Elesh Norn, Mother of Machines",
       "player": "Will"
     },
     {
-      "collector_number": "635",
-      "name": "Monument to Endurance",
+      "collector_number": "674",
+      "name": "Elesh Norn, Mother of Machines",
       "player": "Will"
     },
     {
-      "collector_number": "636",
-      "name": "Mystic Remora",
+      "collector_number": "675",
+      "name": "Ephemerate",
       "player": "Will"
     },
     {
-      "collector_number": "637",
-      "name": "Nanoform Sentinel",
+      "collector_number": "676",
+      "name": "Ephemerate",
       "player": "Will"
     },
     {
-      "collector_number": "638",
-      "name": "Ominous Seas",
+      "collector_number": "677",
+      "name": "Essence of Antiquity",
       "player": "Will"
     },
     {
-      "collector_number": "639",
-      "name": "Out of Time",
+      "collector_number": "678",
+      "name": "Ghostly Flicker",
       "player": "Will"
     },
     {
-      "collector_number": "640",
-      "name": "Padeem, Consul of Innovation",
+      "collector_number": "679",
+      "name": "Ghostly Prison",
       "player": "Will"
     },
     {
-      "collector_number": "641",
-      "name": "Parhelion II",
+      "collector_number": "680",
+      "name": "Ghostway",
       "player": "Will"
     },
     {
-      "collector_number": "642",
-      "name": "Proft's Eidetic Memory",
+      "collector_number": "681",
+      "name": "High Alert",
       "player": "Will"
     },
     {
-      "collector_number": "643",
-      "name": "Psychosis Crawler",
+      "collector_number": "682",
+      "name": "Meekstone",
       "player": "Will"
     },
     {
-      "collector_number": "644",
-      "name": "Scour for Scrap",
+      "collector_number": "683",
+      "name": "Mnemonic Wall",
       "player": "Will"
     },
     {
-      "collector_number": "645",
-      "name": "Sculpting Steel",
+      "collector_number": "684",
+      "name": "Ornithopter of Paradise",
       "player": "Will"
     },
     {
-      "collector_number": "646",
-      "name": "Securitron Squadron",
+      "collector_number": "685",
+      "name": "Panharmonicon",
       "player": "Will"
     },
     {
-      "collector_number": "647",
-      "name": "Sevinne's Reclamation",
+      "collector_number": "686",
+      "name": "Phyrexian Walker",
       "player": "Will"
     },
     {
-      "collector_number": "648",
-      "name": "Smuggler's Copter",
+      "collector_number": "687",
+      "name": "Pollywog Prodigy",
       "player": "Will"
     },
     {
-      "collector_number": "649",
-      "name": "Stenn, Paranoid Partisan",
+      "collector_number": "688",
+      "name": "Preston, the Vanisher",
       "player": "Will"
     },
     {
-      "collector_number": "650",
-      "name": "Stroke of Midnight",
+      "collector_number": "689",
+      "name": "PuPu UFO",
       "player": "Will"
     },
     {
-      "collector_number": "651",
-      "name": "Supreme Verdict",
+      "collector_number": "690",
+      "name": "Rasaad yn Bashir",
       "player": "Will"
     },
     {
-      "collector_number": "652",
-      "name": "Talisman of Progress",
+      "collector_number": "691",
+      "name": "Riptide Gearhulk",
       "player": "Will"
     },
     {
-      "collector_number": "653",
-      "name": "Teferi's Ageless Insight",
+      "collector_number": "692",
+      "name": "Skycoach Conductor // All Aboard",
       "player": "Will"
     },
     {
-      "collector_number": "654",
-      "name": "Toothy, Imaginary Friend",
+      "collector_number": "693",
+      "name": "Soulherder",
       "player": "Will"
     },
     {
-      "collector_number": "655",
-      "name": "Unlicensed Hearse",
+      "collector_number": "694",
+      "name": "Spellskite",
       "player": "Will"
     },
     {
-      "collector_number": "656",
-      "name": "Unstoppable Plan",
+      "collector_number": "695",
+      "name": "Spellskite",
       "player": "Will"
     },
     {
-      "collector_number": "657",
-      "name": "Unwinding Clock",
+      "collector_number": "696",
+      "name": "Starfield Vocalist",
       "player": "Will"
     },
     {
-      "collector_number": "658",
-      "name": "Voltaic Key",
+      "collector_number": "697",
+      "name": "Stoneskin",
       "player": "Will"
     },
     {
-      "collector_number": "659",
-      "name": "Voltaic Servant",
+      "collector_number": "698",
+      "name": "Teleportation Circle",
+      "player": "Will"
+    },
+    {
+      "collector_number": "699",
+      "name": "Tetsuko Umezawa, Fugitive",
+      "player": "Will"
+    },
+    {
+      "collector_number": "700",
+      "name": "Thassa, Deep-Dwelling",
+      "player": "Will"
+    },
+    {
+      "collector_number": "701",
+      "name": "The Battle of Bywater",
+      "player": "Will"
+    },
+    {
+      "collector_number": "702",
+      "name": "The Reality Chip",
+      "player": "Will"
+    },
+    {
+      "collector_number": "703",
+      "name": "Touch the Spirit Realm",
+      "player": "Will"
+    },
+    {
+      "collector_number": "704",
+      "name": "Welcoming Vampire",
+      "player": "Will"
+    },
+    {
+      "collector_number": "705",
+      "name": "Hydroelectric Specimen // Hydroelectric Laboratory",
       "player": "Will"
     }
   ],
