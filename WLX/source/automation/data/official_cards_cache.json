@@ -6800,6 +6800,308 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-08-31"
+    },
+    "armored scrapgorger": {
+      "name": "Armored Scrapgorger",
+      "oracle_id": "0d3a4db2-df79-4946-8f87-b174cf9c293c",
+      "scryfall_uri": "https://scryfall.com/card/one/158/armored-scrapgorger?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "bramble familiar // fetch quest": {
+      "name": "Bramble Familiar // Fetch Quest",
+      "oracle_id": "68f36dfa-bbd2-4860-b09b-37e35136be72",
+      "scryfall_uri": "https://scryfall.com/card/woe/164/bramble-familiar-fetch-quest?utm_source=api",
+      "layout": "adventure",
+      "faces": [
+        {
+          "official_name": "Bramble Familiar",
+          "side": "front",
+          "mana_cost": "{1}{G}",
+          "mana_value": "",
+          "type_line": "Creature — Elemental Raccoon",
+          "rules_text": "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return this creature to its owner's hand.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "2/2",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Fetch Quest",
+          "side": "back",
+          "mana_cost": "{5}{G}{G}",
+          "mana_value": "",
+          "type_line": "Sorcery — Adventure",
+          "rules_text": "Mill seven cards. Then put a creature, enchantment, or land card from among the milled cards onto the battlefield.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-09-02"
+    },
+    "bramble familiar": {
+      "name": "Bramble Familiar // Fetch Quest",
+      "oracle_id": "68f36dfa-bbd2-4860-b09b-37e35136be72",
+      "scryfall_uri": "https://scryfall.com/card/woe/164/bramble-familiar-fetch-quest?utm_source=api",
+      "layout": "adventure",
+      "faces": [
+        {
+          "official_name": "Bramble Familiar",
+          "side": "front",
+          "mana_cost": "{1}{G}",
+          "mana_value": "",
+          "type_line": "Creature — Elemental Raccoon",
+          "rules_text": "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return this creature to its owner's hand.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "2/2",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Fetch Quest",
+          "side": "back",
+          "mana_cost": "{5}{G}{G}",
+          "mana_value": "",
+          "type_line": "Sorcery — Adventure",
+          "rules_text": "Mill seven cards. Then put a creature, enchantment, or land card from among the milled cards onto the battlefield.",
+          "colors": "",
+          "color_identity": "G",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-09-02"
+    },
+    "broodguard elite": {
+      "name": "Broodguard Elite",
+      "oracle_id": "c90da077-de8c-4402-abfc-b63dd15853da",
+      "scryfall_uri": "https://scryfall.com/card/eoe/175/broodguard-elite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "chord of calling": {
+      "name": "Chord of Calling",
+      "oracle_id": "6789a170-f2c5-4fc0-8a45-2b2361e67410",
+      "scryfall_uri": "https://scryfall.com/card/rvr/134/chord-of-calling?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "circle of dreams druid": {
+      "name": "Circle of Dreams Druid",
+      "oracle_id": "1c857fa4-e823-494d-9ea4-7eb9e719c9b6",
+      "scryfall_uri": "https://scryfall.com/card/afr/176/circle-of-dreams-druid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "comet storm": {
+      "name": "Comet Storm",
+      "oracle_id": "9c2b262b-53c0-41a1-8f1a-0c336453d4bf",
+      "scryfall_uri": "https://scryfall.com/card/cmr/411/comet-storm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "cradle clearcutter": {
+      "name": "Cradle Clearcutter",
+      "oracle_id": "225f53ef-da42-47a0-b773-d2aad3338c72",
+      "scryfall_uri": "https://scryfall.com/card/bro/198/cradle-clearcutter?utm_source=api",
+      "layout": "prototype",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "devoted druid": {
+      "name": "Devoted Druid",
+      "oracle_id": "cb814e16-acf7-41d5-a357-1323dcc369f3",
+      "scryfall_uri": "https://scryfall.com/card/ecc/104/devoted-druid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "doc samson, super psychiatrist": {
+      "name": "Doc Samson, Super Psychiatrist",
+      "oracle_id": "699610c9-c991-4faf-b712-d015ef0799ad",
+      "scryfall_uri": "https://scryfall.com/card/msh/164/doc-samson-super-psychiatrist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "drivnod, carnage dominus": {
+      "name": "Drivnod, Carnage Dominus",
+      "oracle_id": "51780f71-bf60-4208-94ea-76fa84790fb6",
+      "scryfall_uri": "https://scryfall.com/card/one/90/drivnod-carnage-dominus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "exponential growth": {
+      "name": "Exponential Growth",
+      "oracle_id": "18616f70-e30c-4ff7-b62a-55939a96ca1b",
+      "scryfall_uri": "https://scryfall.com/card/stx/130/exponential-growth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "freyalise, llanowar's fury": {
+      "name": "Freyalise, Llanowar's Fury",
+      "oracle_id": "659dfdbf-5e9d-4828-a967-348cb3bcf05a",
+      "scryfall_uri": "https://scryfall.com/card/cmm/290/freyalise-llanowars-fury?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "fyndhorn elves": {
+      "name": "Fyndhorn Elves",
+      "oracle_id": "df317532-7d36-40fd-938f-e972749c8792",
+      "scryfall_uri": "https://scryfall.com/card/cmr/228/fyndhorn-elves?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "gilanra, caller of wirewood": {
+      "name": "Gilanra, Caller of Wirewood",
+      "oracle_id": "4bda947d-493f-47a0-b0d2-516a6ef6b2c0",
+      "scryfall_uri": "https://scryfall.com/card/cmr/230/gilanra-caller-of-wirewood?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "heronblade elite": {
+      "name": "Heronblade Elite",
+      "oracle_id": "e3e255e0-ab04-4488-bdc1-bb1542f51e16",
+      "scryfall_uri": "https://scryfall.com/card/mic/26/heronblade-elite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "ilysian caryatid": {
+      "name": "Ilysian Caryatid",
+      "oracle_id": "5f2be3c2-060a-43e1-b63b-9cd3c78ffcb0",
+      "scryfall_uri": "https://scryfall.com/card/cmm/297/ilysian-caryatid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "incubation druid": {
+      "name": "Incubation Druid",
+      "oracle_id": "34428f42-03ac-4795-8286-6cbea796df2b",
+      "scryfall_uri": "https://scryfall.com/card/moc/302/incubation-druid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "jaya's immolating inferno": {
+      "name": "Jaya's Immolating Inferno",
+      "oracle_id": "f5f0deb0-070a-45b6-9b81-0bc8143f3040",
+      "scryfall_uri": "https://scryfall.com/card/cmr/415/jayas-immolating-inferno?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "kami of whispered hopes": {
+      "name": "Kami of Whispered Hopes",
+      "oracle_id": "f122624f-f30d-444e-a62a-939829241045",
+      "scryfall_uri": "https://scryfall.com/card/soc/273/kami-of-whispered-hopes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "karametra's acolyte": {
+      "name": "Karametra's Acolyte",
+      "oracle_id": "e8cf80a1-6908-4adb-88e7-2015672d4905",
+      "scryfall_uri": "https://scryfall.com/card/ths/160/karametras-acolyte?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "leyline of abundance": {
+      "name": "Leyline of Abundance",
+      "oracle_id": "1197a595-3afc-4f18-b868-bbb096771922",
+      "scryfall_uri": "https://scryfall.com/card/m20/179/leyline-of-abundance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "mona lisa, science geek": {
+      "name": "Mona Lisa, Science Geek",
+      "oracle_id": "e6490e98-37a9-4a8b-a04c-cceeb22b0c35",
+      "scryfall_uri": "https://scryfall.com/card/tmt/123/mona-lisa-science-geek?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "natural order": {
+      "name": "Natural Order",
+      "oracle_id": "8c1fe337-375a-4add-93b6-0ac39ed72b4f",
+      "scryfall_uri": "https://scryfall.com/card/ema/177/natural-order?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "rainveil rejuvenator": {
+      "name": "Rainveil Rejuvenator",
+      "oracle_id": "6ccf72ee-a86a-4b13-9e76-e308d0d28523",
+      "scryfall_uri": "https://scryfall.com/card/tdm/152/rainveil-rejuvenator?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "ruby, daring tracker": {
+      "name": "Ruby, Daring Tracker",
+      "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
+      "scryfall_uri": "https://scryfall.com/card/fdn/245/ruby-daring-tracker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "topiary lecturer": {
+      "name": "Topiary Lecturer",
+      "oracle_id": "5f5fe039-4be4-42ae-9fa4-4392328aa665",
+      "scryfall_uri": "https://scryfall.com/card/sos/165/topiary-lecturer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "tribute to the world tree": {
+      "name": "Tribute to the World Tree",
+      "oracle_id": "72deedab-7c17-4505-aeca-4bc8596d80a5",
+      "scryfall_uri": "https://scryfall.com/card/mom/211/tribute-to-the-world-tree?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "tyvar's stand": {
+      "name": "Tyvar's Stand",
+      "oracle_id": "4247b667-a0a8-4995-97c7-622d20132f7d",
+      "scryfall_uri": "https://scryfall.com/card/soc/291/tyvars-stand?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "viridian joiner": {
+      "name": "Viridian Joiner",
+      "oracle_id": "84244aa6-11be-4940-b102-e029f955fc9a",
+      "scryfall_uri": "https://scryfall.com/card/mrd/138/viridian-joiner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
+    },
+    "zopandrel, hunger dominus": {
+      "name": "Zopandrel, Hunger Dominus",
+      "oracle_id": "b168e4e6-f572-4d9f-b98f-95b2611354cb",
+      "scryfall_uri": "https://scryfall.com/card/one/195/zopandrel-hunger-dominus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-02"
     }
   }
 }

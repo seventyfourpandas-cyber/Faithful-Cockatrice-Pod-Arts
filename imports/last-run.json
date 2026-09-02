@@ -1,240 +1,160 @@
 {
   "schema_version": 1,
-  "batch_id": "8258aef2ce",
-  "started_at": "2026-08-31T13:46:41+00:00",
-  "finished_at": "2026-08-31T13:46:43+00:00",
-  "found": 47,
-  "version_before": "3.2.29",
-  "version_after": "3.2.30",
+  "batch_id": "8ef0783c44",
+  "started_at": "2026-09-02T00:43:51+00:00",
+  "finished_at": "2026-09-02T00:43:55+00:00",
+  "found": 30,
+  "version_before": "3.2.30",
+  "version_after": "3.2.31",
   "added": [
     {
-      "collector_number": "660",
-      "name": "Aegis Turtle",
+      "collector_number": "706",
+      "name": "Armored Scrapgorger",
       "player": "Will"
     },
     {
-      "collector_number": "661",
-      "name": "Baldin, Century Herdmaster",
+      "collector_number": "707",
+      "name": "Bramble Familiar // Fetch Quest",
       "player": "Will"
     },
     {
-      "collector_number": "662",
-      "name": "Brago, King Eternal",
+      "collector_number": "708",
+      "name": "Broodguard Elite",
       "player": "Will"
     },
     {
-      "collector_number": "663",
-      "name": "Candlekeep Sage",
+      "collector_number": "709",
+      "name": "Chord of Calling",
       "player": "Will"
     },
     {
-      "collector_number": "664",
-      "name": "Captain America's Shield",
+      "collector_number": "710",
+      "name": "Circle of Dreams Druid",
       "player": "Will"
     },
     {
-      "collector_number": "665",
-      "name": "Charix, the Raging Isle",
+      "collector_number": "711",
+      "name": "Comet Storm",
       "player": "Will"
     },
     {
-      "collector_number": "666",
-      "name": "Cloudshift",
+      "collector_number": "712",
+      "name": "Cradle Clearcutter",
       "player": "Will"
     },
     {
-      "collector_number": "667",
-      "name": "Delney, Streetwise Lookout",
+      "collector_number": "713",
+      "name": "Devoted Druid",
       "player": "Will"
     },
     {
-      "collector_number": "668",
-      "name": "Disorder in the Court",
+      "collector_number": "714",
+      "name": "Doc Samson, Super Psychiatrist",
       "player": "Will"
     },
     {
-      "collector_number": "669",
-      "name": "Displacer Kitten",
+      "collector_number": "715",
+      "name": "Drivnod, Carnage Dominus",
       "player": "Will"
     },
     {
-      "collector_number": "670",
-      "name": "Dusk // Dawn",
+      "collector_number": "716",
+      "name": "Exponential Growth",
       "player": "Will"
     },
     {
-      "collector_number": "671",
-      "name": "Elesh Norn, Mother of Machines",
+      "collector_number": "717",
+      "name": "Freyalise, Llanowar's Fury",
       "player": "Will"
     },
     {
-      "collector_number": "672",
-      "name": "Elesh Norn, Mother of Machines",
+      "collector_number": "718",
+      "name": "Fyndhorn Elves",
       "player": "Will"
     },
     {
-      "collector_number": "673",
-      "name": "Elesh Norn, Mother of Machines",
+      "collector_number": "719",
+      "name": "Gilanra, Caller of Wirewood",
       "player": "Will"
     },
     {
-      "collector_number": "674",
-      "name": "Elesh Norn, Mother of Machines",
+      "collector_number": "720",
+      "name": "Heronblade Elite",
       "player": "Will"
     },
     {
-      "collector_number": "675",
-      "name": "Ephemerate",
+      "collector_number": "721",
+      "name": "Ilysian Caryatid",
       "player": "Will"
     },
     {
-      "collector_number": "676",
-      "name": "Ephemerate",
+      "collector_number": "722",
+      "name": "Incubation Druid",
       "player": "Will"
     },
     {
-      "collector_number": "677",
-      "name": "Essence of Antiquity",
+      "collector_number": "723",
+      "name": "Jaya's Immolating Inferno",
       "player": "Will"
     },
     {
-      "collector_number": "678",
-      "name": "Ghostly Flicker",
+      "collector_number": "724",
+      "name": "Kami of Whispered Hopes",
       "player": "Will"
     },
     {
-      "collector_number": "679",
-      "name": "Ghostly Prison",
+      "collector_number": "725",
+      "name": "Karametra's Acolyte",
       "player": "Will"
     },
     {
-      "collector_number": "680",
-      "name": "Ghostway",
+      "collector_number": "726",
+      "name": "Leyline of Abundance",
       "player": "Will"
     },
     {
-      "collector_number": "681",
-      "name": "High Alert",
+      "collector_number": "727",
+      "name": "Mona Lisa, Science Geek",
       "player": "Will"
     },
     {
-      "collector_number": "682",
-      "name": "Meekstone",
+      "collector_number": "728",
+      "name": "Natural Order",
       "player": "Will"
     },
     {
-      "collector_number": "683",
-      "name": "Mnemonic Wall",
+      "collector_number": "729",
+      "name": "Rainveil Rejuvenator",
       "player": "Will"
     },
     {
-      "collector_number": "684",
-      "name": "Ornithopter of Paradise",
+      "collector_number": "730",
+      "name": "Ruby, Daring Tracker",
       "player": "Will"
     },
     {
-      "collector_number": "685",
-      "name": "Panharmonicon",
+      "collector_number": "731",
+      "name": "Topiary Lecturer",
       "player": "Will"
     },
     {
-      "collector_number": "686",
-      "name": "Phyrexian Walker",
+      "collector_number": "732",
+      "name": "Tribute to the World Tree",
       "player": "Will"
     },
     {
-      "collector_number": "687",
-      "name": "Pollywog Prodigy",
+      "collector_number": "733",
+      "name": "Tyvar's Stand",
       "player": "Will"
     },
     {
-      "collector_number": "688",
-      "name": "Preston, the Vanisher",
+      "collector_number": "734",
+      "name": "Viridian Joiner",
       "player": "Will"
     },
     {
-      "collector_number": "689",
-      "name": "PuPu UFO",
-      "player": "Will"
-    },
-    {
-      "collector_number": "690",
-      "name": "Rasaad yn Bashir",
-      "player": "Will"
-    },
-    {
-      "collector_number": "691",
-      "name": "Riptide Gearhulk",
-      "player": "Will"
-    },
-    {
-      "collector_number": "692",
-      "name": "Skycoach Conductor // All Aboard",
-      "player": "Will"
-    },
-    {
-      "collector_number": "693",
-      "name": "Soulherder",
-      "player": "Will"
-    },
-    {
-      "collector_number": "694",
-      "name": "Spellskite",
-      "player": "Will"
-    },
-    {
-      "collector_number": "695",
-      "name": "Spellskite",
-      "player": "Will"
-    },
-    {
-      "collector_number": "696",
-      "name": "Starfield Vocalist",
-      "player": "Will"
-    },
-    {
-      "collector_number": "697",
-      "name": "Stoneskin",
-      "player": "Will"
-    },
-    {
-      "collector_number": "698",
-      "name": "Teleportation Circle",
-      "player": "Will"
-    },
-    {
-      "collector_number": "699",
-      "name": "Tetsuko Umezawa, Fugitive",
-      "player": "Will"
-    },
-    {
-      "collector_number": "700",
-      "name": "Thassa, Deep-Dwelling",
-      "player": "Will"
-    },
-    {
-      "collector_number": "701",
-      "name": "The Battle of Bywater",
-      "player": "Will"
-    },
-    {
-      "collector_number": "702",
-      "name": "The Reality Chip",
-      "player": "Will"
-    },
-    {
-      "collector_number": "703",
-      "name": "Touch the Spirit Realm",
-      "player": "Will"
-    },
-    {
-      "collector_number": "704",
-      "name": "Welcoming Vampire",
-      "player": "Will"
-    },
-    {
-      "collector_number": "705",
-      "name": "Hydroelectric Specimen // Hydroelectric Laboratory",
+      "collector_number": "735",
+      "name": "Zopandrel, Hunger Dominus",
       "player": "Will"
     }
   ],
