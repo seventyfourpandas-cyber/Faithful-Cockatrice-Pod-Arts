@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-09-02T00:43:51+00:00</createdAt>
+    <createdAt>2026-09-03T01:47:36+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.31</sourceVersion>
+    <sourceVersion>3.2.32</sourceVersion>
   </info>
   <sets>
     <set>
@@ -2474,6 +2474,7 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <name>Sneak Attack</name>
       <set uuid="7da8f0ff-dc9f-5db4-96d0-d825d4c2007d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/114-06ebd9301984.jpg" num="114" rarity="special">WLX</set>
       <set uuid="270fb1ab-2c1a-5b46-b50a-bba14a0662e8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/259-8541cb37364b.png" num="259" rarity="special">WLX</set>
+      <set uuid="c84e1e6f-eff1-5f7e-a324-36b833cda583" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/736-a47015ae49de.jpg" num="736" rarity="special">WLX</set>
     </card>
     <card>
       <name>Solar Array</name>
@@ -2570,6 +2571,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Star Athlete</name>
       <set uuid="557a64d0-b5a3-56cc-aa65-e0a99f3fb01e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/119-09647ba640ae.jpg" num="119" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Starfall Invocation</name>
+      <set uuid="7e96e0cd-7947-5fb3-957c-9055c7b875a4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/737-22ccb7f870d6.jpg" num="737" rarity="special">WLX</set>
     </card>
     <card>
       <name>Starfield Vocalist</name>

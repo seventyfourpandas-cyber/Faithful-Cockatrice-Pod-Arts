@@ -8281,6 +8281,28 @@
       "image_file": "WLX-735.jpg",
       "image_sha256": "55a50a70331c140a87768cc17930b83771166a91212f692ae2e32ca19c1c5792",
       "notes": "Imported from will/Zopandrel, Hunger Dominus.jpg in file batch 8ef0783c44"
+    },
+    {
+      "collector_number": "736",
+      "uuid": "c84e1e6f-eff1-5f7e-a324-36b833cda583",
+      "card_kind": "official",
+      "official_name": "Sneak Attack",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-736.jpg",
+      "image_sha256": "a47015ae49dedec587d93de19857ab3c69b3ef0e130f13b1b430963ac78f0294",
+      "notes": "Imported from will/Sneak Attack.jpg in file batch cbfe175a8e"
+    },
+    {
+      "collector_number": "737",
+      "uuid": "7e96e0cd-7947-5fb3-957c-9055c7b875a4",
+      "card_kind": "official",
+      "official_name": "Starfall Invocation",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-737.jpg",
+      "image_sha256": "22ccb7f870d65bf9a17a0c22cc6fe5d7479e6a67f881ab2fc5ea5360d7dceb6d",
+      "notes": "Imported from will/Starfall Invocation.jpg in file batch cbfe175a8e"
     }
   ]
 }

@@ -7102,6 +7102,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-02"
+    },
+    "starfall invocation": {
+      "name": "Starfall Invocation",
+      "oracle_id": "7024532b-f99b-43a7-b0ed-5b3e7ec7592b",
+      "scryfall_uri": "https://scryfall.com/card/blb/34/starfall-invocation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-03"
     }
   }
 }

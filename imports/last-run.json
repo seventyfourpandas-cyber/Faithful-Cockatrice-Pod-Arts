@@ -1,160 +1,20 @@
 {
   "schema_version": 1,
-  "batch_id": "8ef0783c44",
-  "started_at": "2026-09-02T00:43:51+00:00",
-  "finished_at": "2026-09-02T00:43:55+00:00",
-  "found": 30,
-  "version_before": "3.2.30",
-  "version_after": "3.2.31",
+  "batch_id": "cbfe175a8e",
+  "started_at": "2026-09-03T01:47:36+00:00",
+  "finished_at": "2026-09-03T01:47:39+00:00",
+  "found": 2,
+  "version_before": "3.2.31",
+  "version_after": "3.2.32",
   "added": [
     {
-      "collector_number": "706",
-      "name": "Armored Scrapgorger",
+      "collector_number": "736",
+      "name": "Sneak Attack",
       "player": "Will"
     },
     {
-      "collector_number": "707",
-      "name": "Bramble Familiar // Fetch Quest",
-      "player": "Will"
-    },
-    {
-      "collector_number": "708",
-      "name": "Broodguard Elite",
-      "player": "Will"
-    },
-    {
-      "collector_number": "709",
-      "name": "Chord of Calling",
-      "player": "Will"
-    },
-    {
-      "collector_number": "710",
-      "name": "Circle of Dreams Druid",
-      "player": "Will"
-    },
-    {
-      "collector_number": "711",
-      "name": "Comet Storm",
-      "player": "Will"
-    },
-    {
-      "collector_number": "712",
-      "name": "Cradle Clearcutter",
-      "player": "Will"
-    },
-    {
-      "collector_number": "713",
-      "name": "Devoted Druid",
-      "player": "Will"
-    },
-    {
-      "collector_number": "714",
-      "name": "Doc Samson, Super Psychiatrist",
-      "player": "Will"
-    },
-    {
-      "collector_number": "715",
-      "name": "Drivnod, Carnage Dominus",
-      "player": "Will"
-    },
-    {
-      "collector_number": "716",
-      "name": "Exponential Growth",
-      "player": "Will"
-    },
-    {
-      "collector_number": "717",
-      "name": "Freyalise, Llanowar's Fury",
-      "player": "Will"
-    },
-    {
-      "collector_number": "718",
-      "name": "Fyndhorn Elves",
-      "player": "Will"
-    },
-    {
-      "collector_number": "719",
-      "name": "Gilanra, Caller of Wirewood",
-      "player": "Will"
-    },
-    {
-      "collector_number": "720",
-      "name": "Heronblade Elite",
-      "player": "Will"
-    },
-    {
-      "collector_number": "721",
-      "name": "Ilysian Caryatid",
-      "player": "Will"
-    },
-    {
-      "collector_number": "722",
-      "name": "Incubation Druid",
-      "player": "Will"
-    },
-    {
-      "collector_number": "723",
-      "name": "Jaya's Immolating Inferno",
-      "player": "Will"
-    },
-    {
-      "collector_number": "724",
-      "name": "Kami of Whispered Hopes",
-      "player": "Will"
-    },
-    {
-      "collector_number": "725",
-      "name": "Karametra's Acolyte",
-      "player": "Will"
-    },
-    {
-      "collector_number": "726",
-      "name": "Leyline of Abundance",
-      "player": "Will"
-    },
-    {
-      "collector_number": "727",
-      "name": "Mona Lisa, Science Geek",
-      "player": "Will"
-    },
-    {
-      "collector_number": "728",
-      "name": "Natural Order",
-      "player": "Will"
-    },
-    {
-      "collector_number": "729",
-      "name": "Rainveil Rejuvenator",
-      "player": "Will"
-    },
-    {
-      "collector_number": "730",
-      "name": "Ruby, Daring Tracker",
-      "player": "Will"
-    },
-    {
-      "collector_number": "731",
-      "name": "Topiary Lecturer",
-      "player": "Will"
-    },
-    {
-      "collector_number": "732",
-      "name": "Tribute to the World Tree",
-      "player": "Will"
-    },
-    {
-      "collector_number": "733",
-      "name": "Tyvar's Stand",
-      "player": "Will"
-    },
-    {
-      "collector_number": "734",
-      "name": "Viridian Joiner",
-      "player": "Will"
-    },
-    {
-      "collector_number": "735",
-      "name": "Zopandrel, Hunger Dominus",
+      "collector_number": "737",
+      "name": "Starfall Invocation",
       "player": "Will"
     }
   ],

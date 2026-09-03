@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.31",
+  "version": "3.2.32",
   "set_code": "WLX",
   "cards": [
     {
@@ -13320,6 +13320,42 @@
       "image": "images/WLX/735-55a50a70331c.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/735-55a50a70331c.jpg",
       "sha256": "55a50a70331c140a87768cc17930b83771166a91212f692ae2e32ca19c1c5792",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sneak Attack",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "736",
+      "uuid": "c84e1e6f-eff1-5f7e-a324-36b833cda583",
+      "rarity": "special",
+      "image": "images/WLX/736-a47015ae49de.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/736-a47015ae49de.jpg",
+      "sha256": "a47015ae49dedec587d93de19857ab3c69b3ef0e130f13b1b430963ac78f0294",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Starfall Invocation",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "737",
+      "uuid": "7e96e0cd-7947-5fb3-957c-9055c7b875a4",
+      "rarity": "special",
+      "image": "images/WLX/737-22ccb7f870d6.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/737-22ccb7f870d6.jpg",
+      "sha256": "22ccb7f870d65bf9a17a0c22cc6fe5d7479e6a67f881ab2fc5ea5360d7dceb6d",
       "dimensions": [
         2976,
         4152
