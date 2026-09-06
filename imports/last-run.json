@@ -1,20 +1,130 @@
 {
   "schema_version": 1,
-  "batch_id": "cbfe175a8e",
-  "started_at": "2026-09-03T01:47:36+00:00",
-  "finished_at": "2026-09-03T01:47:39+00:00",
-  "found": 2,
-  "version_before": "3.2.31",
-  "version_after": "3.2.32",
+  "batch_id": "62311041c9",
+  "started_at": "2026-09-06T21:42:31+00:00",
+  "finished_at": "2026-09-06T21:42:35+00:00",
+  "found": 24,
+  "version_before": "3.2.32",
+  "version_after": "3.2.33",
   "added": [
     {
-      "collector_number": "736",
-      "name": "Sneak Attack",
+      "collector_number": "738",
+      "name": "Afterlife from the Loam",
       "player": "Will"
     },
     {
-      "collector_number": "737",
-      "name": "Starfall Invocation",
+      "collector_number": "739",
+      "name": "Buried Alive",
+      "player": "Will"
+    },
+    {
+      "collector_number": "740",
+      "name": "Cauldron of Essence",
+      "player": "Will"
+    },
+    {
+      "collector_number": "741",
+      "name": "Colossal Grave-Reaver",
+      "player": "Will"
+    },
+    {
+      "collector_number": "742",
+      "name": "Consuming Aberration",
+      "player": "Will"
+    },
+    {
+      "collector_number": "743",
+      "name": "Hedge Shredder",
+      "player": "Will"
+    },
+    {
+      "collector_number": "744",
+      "name": "Insidious Roots",
+      "player": "Will"
+    },
+    {
+      "collector_number": "745",
+      "name": "Kheru Goldkeeper",
+      "player": "Will"
+    },
+    {
+      "collector_number": "746",
+      "name": "Kishla Skimmer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "747",
+      "name": "Lethal Scheme",
+      "player": "Will"
+    },
+    {
+      "collector_number": "748",
+      "name": "Living Death",
+      "player": "Will"
+    },
+    {
+      "collector_number": "749",
+      "name": "Lord of Extinction",
+      "player": "Will"
+    },
+    {
+      "collector_number": "750",
+      "name": "Meren of Clan Nel Toth",
+      "player": "Will"
+    },
+    {
+      "collector_number": "751",
+      "name": "Mole Man, Moloid Master",
+      "player": "Will"
+    },
+    {
+      "collector_number": "752",
+      "name": "Parallel Lives",
+      "player": "Will"
+    },
+    {
+      "collector_number": "753",
+      "name": "Phyrexian Reclamation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "754",
+      "name": "Reality Shift",
+      "player": "Will"
+    },
+    {
+      "collector_number": "755",
+      "name": "Sakura-Tribe Elder",
+      "player": "Will"
+    },
+    {
+      "collector_number": "756",
+      "name": "Sidisi, Brood Tyrant",
+      "player": "Will"
+    },
+    {
+      "collector_number": "757",
+      "name": "Teval, the Balanced Scale",
+      "player": "Will"
+    },
+    {
+      "collector_number": "758",
+      "name": "The Scarab God",
+      "player": "Will"
+    },
+    {
+      "collector_number": "759",
+      "name": "Timeless Witness",
+      "player": "Will"
+    },
+    {
+      "collector_number": "760",
+      "name": "Tormod, the Desecrator",
+      "player": "Will"
+    },
+    {
+      "collector_number": "761",
+      "name": "Will of the Sultai",
       "player": "Will"
     }
   ],

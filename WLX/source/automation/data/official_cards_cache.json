@@ -7110,6 +7110,198 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-03"
+    },
+    "afterlife from the loam": {
+      "name": "Afterlife from the Loam",
+      "oracle_id": "151c867f-cc77-42de-9ae5-5fd2233ccdab",
+      "scryfall_uri": "https://scryfall.com/card/tdc/25/afterlife-from-the-loam?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "buried alive": {
+      "name": "Buried Alive",
+      "oracle_id": "8203c621-a1a0-4865-8c9a-0d4064c86107",
+      "scryfall_uri": "https://scryfall.com/card/mh3/273/buried-alive?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "cauldron of essence": {
+      "name": "Cauldron of Essence",
+      "oracle_id": "a2f8cde8-bf7b-4234-89f0-a95f9dc937e3",
+      "scryfall_uri": "https://scryfall.com/card/sos/179/cauldron-of-essence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "colossal grave-reaver": {
+      "name": "Colossal Grave-Reaver",
+      "oracle_id": "df8e0d1b-b47c-4807-9c9b-84dcec835254",
+      "scryfall_uri": "https://scryfall.com/card/tdc/50/colossal-grave-reaver?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "consuming aberration": {
+      "name": "Consuming Aberration",
+      "oracle_id": "9b55fb72-237d-4935-b645-8ebc6eb4140e",
+      "scryfall_uri": "https://scryfall.com/card/tdc/283/consuming-aberration?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "hedge shredder": {
+      "name": "Hedge Shredder",
+      "oracle_id": "f22665cd-4710-48df-83c1-3c9081097cb5",
+      "scryfall_uri": "https://scryfall.com/card/dsk/183/hedge-shredder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "insidious roots": {
+      "name": "Insidious Roots",
+      "oracle_id": "d75b2b8e-05c9-47da-b359-a867256d78ea",
+      "scryfall_uri": "https://scryfall.com/card/mkm/208/insidious-roots?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "kheru goldkeeper": {
+      "name": "Kheru Goldkeeper",
+      "oracle_id": "aef4ab0e-c81f-428c-ab23-64504a9fb989",
+      "scryfall_uri": "https://scryfall.com/card/tdm/199/kheru-goldkeeper?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "kishla skimmer": {
+      "name": "Kishla Skimmer",
+      "oracle_id": "a3275d80-112b-4839-a014-e44ef48d2e6b",
+      "scryfall_uri": "https://scryfall.com/card/tdm/201/kishla-skimmer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "lethal scheme": {
+      "name": "Lethal Scheme",
+      "oracle_id": "c4660b3c-a234-4a3e-83e7-e2fa9d556685",
+      "scryfall_uri": "https://scryfall.com/card/msc/157/lethal-scheme?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "living death": {
+      "name": "Living Death",
+      "oracle_id": "9e6a3df4-67a3-452e-a6ef-f04dbadb21ef",
+      "scryfall_uri": "https://scryfall.com/card/tdc/185/living-death?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "lord of extinction": {
+      "name": "Lord of Extinction",
+      "oracle_id": "ea5e3401-bd6c-47bb-a52a-8eec5f09455d",
+      "scryfall_uri": "https://scryfall.com/card/tdc/295/lord-of-extinction?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "meren of clan nel toth": {
+      "name": "Meren of Clan Nel Toth",
+      "oracle_id": "0310dfdb-0498-488d-9f1a-279f8239e024",
+      "scryfall_uri": "https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "mole man, moloid master": {
+      "name": "Mole Man, Moloid Master",
+      "oracle_id": "34994475-b914-44f6-8ca1-c2747b6d5956",
+      "scryfall_uri": "https://scryfall.com/card/msh/177/mole-man-moloid-master?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "parallel lives": {
+      "name": "Parallel Lives",
+      "oracle_id": "84dc94b2-95fb-4d53-aaa2-191cb645639f",
+      "scryfall_uri": "https://scryfall.com/card/isd/199/parallel-lives?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "phyrexian reclamation": {
+      "name": "Phyrexian Reclamation",
+      "oracle_id": "647ca69e-cc01-4b2b-b376-bee2a98331e8",
+      "scryfall_uri": "https://scryfall.com/card/tdc/194/phyrexian-reclamation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "reality shift": {
+      "name": "Reality Shift",
+      "oracle_id": "70dc830e-d05b-4fc7-88dd-879e140b3fbf",
+      "scryfall_uri": "https://scryfall.com/card/soc/199/reality-shift?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "sakura-tribe elder": {
+      "name": "Sakura-Tribe Elder",
+      "oracle_id": "e3afc704-220f-498f-9eaa-0821b17dc24c",
+      "scryfall_uri": "https://scryfall.com/card/soc/285/sakura-tribe-elder?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "sidisi, brood tyrant": {
+      "name": "Sidisi, Brood Tyrant",
+      "oracle_id": "3fad7072-21e3-446e-a28f-615038c8bfea",
+      "scryfall_uri": "https://scryfall.com/card/cmm/355/sidisi-brood-tyrant?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "teval, the balanced scale": {
+      "name": "Teval, the Balanced Scale",
+      "oracle_id": "c8cbf0ec-ec98-4cb3-8068-60e92bbd740d",
+      "scryfall_uri": "https://scryfall.com/card/tdc/8/teval-the-balanced-scale?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "the scarab god": {
+      "name": "The Scarab God",
+      "oracle_id": "c75e55f2-fd6c-4816-9d96-21eeb8369aff",
+      "scryfall_uri": "https://scryfall.com/card/cmm/353/the-scarab-god?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "timeless witness": {
+      "name": "Timeless Witness",
+      "oracle_id": "a52a06aa-56fc-4845-bbcd-a54f16369b34",
+      "scryfall_uri": "https://scryfall.com/card/tdc/274/timeless-witness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "tormod, the desecrator": {
+      "name": "Tormod, the Desecrator",
+      "oracle_id": "6dc0150d-7145-41e2-bd3d-2564d9d32301",
+      "scryfall_uri": "https://scryfall.com/card/cmr/155/tormod-the-desecrator?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
+    },
+    "will of the sultai": {
+      "name": "Will of the Sultai",
+      "oracle_id": "951a0e34-e610-477f-b441-6680df55a29b",
+      "scryfall_uri": "https://scryfall.com/card/tdc/49/will-of-the-sultai?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-06"
     }
   }
 }
