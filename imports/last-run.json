@@ -1,130 +1,190 @@
 {
   "schema_version": 1,
-  "batch_id": "62311041c9",
-  "started_at": "2026-09-06T21:42:31+00:00",
-  "finished_at": "2026-09-06T21:42:35+00:00",
-  "found": 24,
-  "version_before": "3.2.32",
-  "version_after": "3.2.33",
+  "batch_id": "9aa1f77bc0",
+  "started_at": "2026-09-07T09:24:06+00:00",
+  "finished_at": "2026-09-07T09:24:09+00:00",
+  "found": 36,
+  "version_before": "3.2.33",
+  "version_after": "3.2.34",
   "added": [
     {
-      "collector_number": "738",
-      "name": "Afterlife from the Loam",
+      "collector_number": "762",
+      "name": "Archive Trap",
       "player": "Will"
     },
     {
-      "collector_number": "739",
-      "name": "Buried Alive",
+      "collector_number": "763",
+      "name": "Basking Broodscale",
       "player": "Will"
     },
     {
-      "collector_number": "740",
-      "name": "Cauldron of Essence",
+      "collector_number": "764",
+      "name": "Brightglass Gearhulk",
       "player": "Will"
     },
     {
-      "collector_number": "741",
-      "name": "Colossal Grave-Reaver",
+      "collector_number": "765",
+      "name": "Cut Your Losses",
       "player": "Will"
     },
     {
-      "collector_number": "742",
-      "name": "Consuming Aberration",
+      "collector_number": "766",
+      "name": "Emrakul's Messenger",
       "player": "Will"
     },
     {
-      "collector_number": "743",
-      "name": "Hedge Shredder",
+      "collector_number": "767",
+      "name": "Evolution Witness",
       "player": "Will"
     },
     {
-      "collector_number": "744",
-      "name": "Insidious Roots",
+      "collector_number": "768",
+      "name": "Faerie Mastermind",
       "player": "Will"
     },
     {
-      "collector_number": "745",
-      "name": "Kheru Goldkeeper",
+      "collector_number": "769",
+      "name": "Farewell",
       "player": "Will"
     },
     {
-      "collector_number": "746",
-      "name": "Kishla Skimmer",
+      "collector_number": "770",
+      "name": "Farseek",
       "player": "Will"
     },
     {
-      "collector_number": "747",
-      "name": "Lethal Scheme",
+      "collector_number": "771",
+      "name": "Fellwar Stone",
       "player": "Will"
     },
     {
-      "collector_number": "748",
-      "name": "Living Death",
+      "collector_number": "772",
+      "name": "Freestrider Lookout",
       "player": "Will"
     },
     {
-      "collector_number": "749",
-      "name": "Lord of Extinction",
+      "collector_number": "773",
+      "name": "Gleaming Splendor",
       "player": "Will"
     },
     {
-      "collector_number": "750",
-      "name": "Meren of Clan Nel Toth",
+      "collector_number": "774",
+      "name": "Glen Elendra Archmage",
       "player": "Will"
     },
     {
-      "collector_number": "751",
-      "name": "Mole Man, Moloid Master",
+      "collector_number": "775",
+      "name": "Grindstone",
       "player": "Will"
     },
     {
-      "collector_number": "752",
-      "name": "Parallel Lives",
+      "collector_number": "776",
+      "name": "Grindstone",
       "player": "Will"
     },
     {
-      "collector_number": "753",
-      "name": "Phyrexian Reclamation",
+      "collector_number": "777",
+      "name": "Howling Mine",
       "player": "Will"
     },
     {
-      "collector_number": "754",
-      "name": "Reality Shift",
+      "collector_number": "778",
+      "name": "Idyllic Tutor",
       "player": "Will"
     },
     {
-      "collector_number": "755",
-      "name": "Sakura-Tribe Elder",
+      "collector_number": "779",
+      "name": "Jolrael, Mwonvuli Recluse",
       "player": "Will"
     },
     {
-      "collector_number": "756",
-      "name": "Sidisi, Brood Tyrant",
+      "collector_number": "780",
+      "name": "Kutzil, Malamet Exemplar",
       "player": "Will"
     },
     {
-      "collector_number": "757",
-      "name": "Teval, the Balanced Scale",
+      "collector_number": "781",
+      "name": "Long River's Pull",
       "player": "Will"
     },
     {
-      "collector_number": "758",
-      "name": "The Scarab God",
+      "collector_number": "782",
+      "name": "Loran of the Third Path",
       "player": "Will"
     },
     {
-      "collector_number": "759",
-      "name": "Timeless Witness",
+      "collector_number": "783",
+      "name": "Ms. Bumbleflower",
       "player": "Will"
     },
     {
-      "collector_number": "760",
-      "name": "Tormod, the Desecrator",
+      "collector_number": "784",
+      "name": "Peerless Recycling",
       "player": "Will"
     },
     {
-      "collector_number": "761",
-      "name": "Will of the Sultai",
+      "collector_number": "785",
+      "name": "Perch Protection",
+      "player": "Will"
+    },
+    {
+      "collector_number": "786",
+      "name": "Propaganda",
+      "player": "Will"
+    },
+    {
+      "collector_number": "787",
+      "name": "Psychic Possession",
+      "player": "Will"
+    },
+    {
+      "collector_number": "788",
+      "name": "Rewind",
+      "player": "Will"
+    },
+    {
+      "collector_number": "789",
+      "name": "Shrieking Drake",
+      "player": "Will"
+    },
+    {
+      "collector_number": "790",
+      "name": "Sphinx's Tutelage",
+      "player": "Will"
+    },
+    {
+      "collector_number": "791",
+      "name": "Teferi's Tutelage",
+      "player": "Will"
+    },
+    {
+      "collector_number": "792",
+      "name": "The Council of Four",
+      "player": "Will"
+    },
+    {
+      "collector_number": "793",
+      "name": "Unwind",
+      "player": "Will"
+    },
+    {
+      "collector_number": "794",
+      "name": "Uthros Psionicist",
+      "player": "Will"
+    },
+    {
+      "collector_number": "795",
+      "name": "Wear Down",
+      "player": "Will"
+    },
+    {
+      "collector_number": "796",
+      "name": "Whitemane Lion",
+      "player": "Will"
+    },
+    {
+      "collector_number": "797",
+      "name": "Wilderness Reclamation",
       "player": "Will"
     }
   ],

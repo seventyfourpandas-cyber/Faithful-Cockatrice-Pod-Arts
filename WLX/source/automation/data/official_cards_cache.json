@@ -7302,6 +7302,278 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-06"
+    },
+    "archive trap": {
+      "name": "Archive Trap",
+      "oracle_id": "d412b175-2365-4b2c-a8f5-3e4e9d06280d",
+      "scryfall_uri": "https://scryfall.com/card/zen/41/archive-trap?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "basking broodscale": {
+      "name": "Basking Broodscale",
+      "oracle_id": "a7c69802-99c4-4778-934e-cc09ba58c267",
+      "scryfall_uri": "https://scryfall.com/card/mh3/145/basking-broodscale?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "brightglass gearhulk": {
+      "name": "Brightglass Gearhulk",
+      "oracle_id": "0c7019a7-3cca-481a-9af0-abedb89c15ad",
+      "scryfall_uri": "https://scryfall.com/card/dft/191/brightglass-gearhulk?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "cut your losses": {
+      "name": "Cut Your Losses",
+      "oracle_id": "54530a84-8278-4c93-a2cb-f5c86619a053",
+      "scryfall_uri": "https://scryfall.com/card/snc/38/cut-your-losses?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "emrakul's messenger": {
+      "name": "Emrakul's Messenger",
+      "oracle_id": "f1409c9e-f0d9-49e1-b02e-d0f04a658331",
+      "scryfall_uri": "https://scryfall.com/card/mh3/61/emrakuls-messenger?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "evolution witness": {
+      "name": "Evolution Witness",
+      "oracle_id": "0e07f1af-5ff6-4da5-8683-aea4cc390975",
+      "scryfall_uri": "https://scryfall.com/card/mh3/151/evolution-witness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "faerie mastermind": {
+      "name": "Faerie Mastermind",
+      "oracle_id": "a984db23-40ea-428d-829f-e944267280f8",
+      "scryfall_uri": "https://scryfall.com/card/soc/114/faerie-mastermind?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "farewell": {
+      "name": "Farewell",
+      "oracle_id": "4eb813fd-2d5a-4b02-8193-662681ef4e7d",
+      "scryfall_uri": "https://scryfall.com/card/mkc/64/farewell?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "farseek": {
+      "name": "Farseek",
+      "oracle_id": "495e52e6-4c2b-4574-9474-eadbdcc8b4ac",
+      "scryfall_uri": "https://scryfall.com/card/msc/173/farseek?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "freestrider lookout": {
+      "name": "Freestrider Lookout",
+      "oracle_id": "b7d3e234-0954-4422-96c0-cda91101faa3",
+      "scryfall_uri": "https://scryfall.com/card/otj/163/freestrider-lookout?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "gleaming splendor": {
+      "name": "Gleaming Splendor",
+      "oracle_id": "c01aeaa5-1d3b-4493-9575-30175dcd780d",
+      "scryfall_uri": "https://scryfall.com/card/hob/15/gleaming-splendor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "glen elendra archmage": {
+      "name": "Glen Elendra Archmage",
+      "oracle_id": "5f3f68b5-8c6a-4181-bb8a-9c73967d198a",
+      "scryfall_uri": "https://scryfall.com/card/uma/58/glen-elendra-archmage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "grindstone": {
+      "name": "Grindstone",
+      "oracle_id": "97560adc-814e-450c-9ca7-f9364e910a0b",
+      "scryfall_uri": "https://scryfall.com/card/tpr/223/grindstone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "howling mine": {
+      "name": "Howling Mine",
+      "oracle_id": "d26b27db-a567-4631-b4b6-7294222fbdd1",
+      "scryfall_uri": "https://scryfall.com/card/c16/257/howling-mine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "idyllic tutor": {
+      "name": "Idyllic Tutor",
+      "oracle_id": "57c9ff89-dd30-467b-bb3e-499eeea8cb94",
+      "scryfall_uri": "https://scryfall.com/card/thb/24/idyllic-tutor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "jolrael, mwonvuli recluse": {
+      "name": "Jolrael, Mwonvuli Recluse",
+      "oracle_id": "f8640899-2458-40f2-98a3-35c402ee9a7a",
+      "scryfall_uri": "https://scryfall.com/card/mkc/173/jolrael-mwonvuli-recluse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "kutzil, malamet exemplar": {
+      "name": "Kutzil, Malamet Exemplar",
+      "oracle_id": "3233af43-7826-4895-b67e-03c6102c2cd5",
+      "scryfall_uri": "https://scryfall.com/card/lci/232/kutzil-malamet-exemplar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "long river's pull": {
+      "name": "Long River's Pull",
+      "oracle_id": "f1993767-1d07-49c8-b8dc-04ec9840a999",
+      "scryfall_uri": "https://scryfall.com/card/blb/58/long-rivers-pull?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "loran of the third path": {
+      "name": "Loran of the Third Path",
+      "oracle_id": "b3d81980-76f2-44e2-b1c9-01e30c726312",
+      "scryfall_uri": "https://scryfall.com/card/mkc/71/loran-of-the-third-path?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "ms. bumbleflower": {
+      "name": "Ms. Bumbleflower",
+      "oracle_id": "25636214-c6ea-4655-a5e8-98e735da5b05",
+      "scryfall_uri": "https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "peerless recycling": {
+      "name": "Peerless Recycling",
+      "oracle_id": "938c03fc-8adf-4c7a-8ae1-eca8401f7a83",
+      "scryfall_uri": "https://scryfall.com/card/blb/188/peerless-recycling?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "perch protection": {
+      "name": "Perch Protection",
+      "oracle_id": "295fe873-ecb5-4d5e-a73c-3af6c478afc5",
+      "scryfall_uri": "https://scryfall.com/card/plst/BLC-11/perch-protection?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "propaganda": {
+      "name": "Propaganda",
+      "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+      "scryfall_uri": "https://scryfall.com/card/msc/151/propaganda?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "psychic possession": {
+      "name": "Psychic Possession",
+      "oracle_id": "d2458d63-c627-4e75-8bda-23bca38cae93",
+      "scryfall_uri": "https://scryfall.com/card/dis/30/psychic-possession?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "rewind": {
+      "name": "Rewind",
+      "oracle_id": "bb27bfdf-fe8d-45bd-ad62-8118dce06eda",
+      "scryfall_uri": "https://scryfall.com/card/m21/63/rewind?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "shrieking drake": {
+      "name": "Shrieking Drake",
+      "oracle_id": "2a8e14be-6f93-428d-a204-e2399dc93797",
+      "scryfall_uri": "https://scryfall.com/card/mh3/272/shrieking-drake?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "sphinx's tutelage": {
+      "name": "Sphinx's Tutelage",
+      "oracle_id": "158db438-52ba-4c30-b7bf-d1c4f76da917",
+      "scryfall_uri": "https://scryfall.com/card/ori/76/sphinxs-tutelage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "teferi's tutelage": {
+      "name": "Teferi's Tutelage",
+      "oracle_id": "c6b94e03-61c0-4077-b3da-a70795e97278",
+      "scryfall_uri": "https://scryfall.com/card/m21/78/teferis-tutelage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "the council of four": {
+      "name": "The Council of Four",
+      "oracle_id": "3dfb006f-6620-4602-ac3c-d40a5a15a981",
+      "scryfall_uri": "https://scryfall.com/card/clb/271/the-council-of-four?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "unwind": {
+      "name": "Unwind",
+      "oracle_id": "e38b8ecb-e7ae-474d-b6a4-29cc1aa8ccd9",
+      "scryfall_uri": "https://scryfall.com/card/dom/72/unwind?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "uthros psionicist": {
+      "name": "Uthros Psionicist",
+      "oracle_id": "7f51aede-fb86-4b7e-9027-2ba8be62b567",
+      "scryfall_uri": "https://scryfall.com/card/eoe/84/uthros-psionicist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "wear down": {
+      "name": "Wear Down",
+      "oracle_id": "27905301-333e-4cdd-90cf-188159fcf8e9",
+      "scryfall_uri": "https://scryfall.com/card/blb/203/wear-down?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "whitemane lion": {
+      "name": "Whitemane Lion",
+      "oracle_id": "e8d6084b-9b72-438e-a30a-851b888f3e4d",
+      "scryfall_uri": "https://scryfall.com/card/dmr/35/whitemane-lion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
+    },
+    "wilderness reclamation": {
+      "name": "Wilderness Reclamation",
+      "oracle_id": "6f856f99-4cb4-479d-958d-964220965ed6",
+      "scryfall_uri": "https://scryfall.com/card/dsc/205/wilderness-reclamation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-07"
     }
   }
 }
