@@ -7574,6 +7574,294 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-07"
+    },
+    "aether refinery": {
+      "name": "Aether Refinery",
+      "oracle_id": "9e9cde32-0568-44bc-a00a-9709f15c1350",
+      "scryfall_uri": "https://scryfall.com/card/m3c/54/aether-refinery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aether revolt": {
+      "name": "Aether Revolt",
+      "oracle_id": "b73661a6-d136-4c65-804c-461e83484f4b",
+      "scryfall_uri": "https://scryfall.com/card/mh3/113/aether-revolt?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aether spike": {
+      "name": "Aether Spike",
+      "oracle_id": "e4a85647-0b8c-40b2-a5d5-43c78877ce36",
+      "scryfall_uri": "https://scryfall.com/card/mh3/50/aether-spike?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aetherflux conduit": {
+      "name": "Aetherflux Conduit",
+      "oracle_id": "775617cd-7264-4365-94c4-ffae4eb9ec8b",
+      "scryfall_uri": "https://scryfall.com/card/drc/17/aetherflux-conduit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aethergeode miner": {
+      "name": "Aethergeode Miner",
+      "oracle_id": "92045f6c-9ec2-4bf0-826c-e21ef253011c",
+      "scryfall_uri": "https://scryfall.com/card/aer/4/aethergeode-miner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aetheric amplifier": {
+      "name": "Aetheric Amplifier",
+      "oracle_id": "295cd8e1-0830-46c1-9957-556afd4bcee6",
+      "scryfall_uri": "https://scryfall.com/card/drc/18/aetheric-amplifier?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aetherstorm roc": {
+      "name": "Aetherstorm Roc",
+      "oracle_id": "06f09e5a-5cfb-437f-9dd1-1682d71f4e7f",
+      "scryfall_uri": "https://scryfall.com/card/kld/3/aetherstorm-roc?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aethertide whale": {
+      "name": "Aethertide Whale",
+      "oracle_id": "53b2c8f2-db9a-4ab0-a4e8-17385b2fa3bd",
+      "scryfall_uri": "https://scryfall.com/card/aer/27/aethertide-whale?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aetherworks marvel": {
+      "name": "Aetherworks Marvel",
+      "oracle_id": "470ec98e-120c-446d-ade6-7d80aa836b55",
+      "scryfall_uri": "https://scryfall.com/card/kld/193/aetherworks-marvel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "akroma's will": {
+      "name": "Akroma's Will",
+      "oracle_id": "fd949f82-fc10-4e37-8aa9-6c7569fe3c55",
+      "scryfall_uri": "https://scryfall.com/card/lcc/125/akromas-will?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "amped raptor": {
+      "name": "Amped Raptor",
+      "oracle_id": "3ed14ea7-ee62-4604-af3b-deafb00108c3",
+      "scryfall_uri": "https://scryfall.com/card/mh3/114/amped-raptor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "assaultron dominator": {
+      "name": "Assaultron Dominator",
+      "oracle_id": "2c7818f4-a818-4603-9af1-05aee2d56ec8",
+      "scryfall_uri": "https://scryfall.com/card/pip/54/assaultron-dominator?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "aurora shifter": {
+      "name": "Aurora Shifter",
+      "oracle_id": "d499e473-aed8-4c8b-8cf0-a43bcc5f40cf",
+      "scryfall_uri": "https://scryfall.com/card/m3c/45/aurora-shifter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "behemoth of vault 0": {
+      "name": "Behemoth of Vault 0",
+      "oracle_id": "7d05ffe2-e52b-42af-87ca-6aae488b9f41",
+      "scryfall_uri": "https://scryfall.com/card/pip/127/behemoth-of-vault-0?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "dawn's truce": {
+      "name": "Dawn's Truce",
+      "oracle_id": "37c06f89-db36-4937-9404-2b07cd22e1a6",
+      "scryfall_uri": "https://scryfall.com/card/blb/9/dawns-truce?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "decoction module": {
+      "name": "Decoction Module",
+      "oracle_id": "1daba4f6-2a7d-426a-97d1-0298a7100c45",
+      "scryfall_uri": "https://scryfall.com/card/kld/205/decoction-module?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "electrosiphon": {
+      "name": "Electrosiphon",
+      "oracle_id": "bff9105f-d8d4-4412-88d9-c9697581ebe9",
+      "scryfall_uri": "https://scryfall.com/card/pip/104/electrosiphon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "galvanic discharge": {
+      "name": "Galvanic Discharge",
+      "oracle_id": "ef0f06f1-3991-4897-bf62-d4cab7ec79a0",
+      "scryfall_uri": "https://scryfall.com/card/mh3/122/galvanic-discharge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "goldspan dragon": {
+      "name": "Goldspan Dragon",
+      "oracle_id": "716b3ea2-45b7-4a8f-af72-de7f4e510eff",
+      "scryfall_uri": "https://scryfall.com/card/soc/245/goldspan-dragon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "gonti's aether heart": {
+      "name": "Gonti's Aether Heart",
+      "oracle_id": "69428825-3c40-486d-b051-14e97a598ce6",
+      "scryfall_uri": "https://scryfall.com/card/aer/152/gontis-aether-heart?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "guide of souls": {
+      "name": "Guide of Souls",
+      "oracle_id": "b304ac72-7f40-40de-b8d6-6392909b6029",
+      "scryfall_uri": "https://scryfall.com/card/mh3/29/guide-of-souls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "invert polarity": {
+      "name": "Invert Polarity",
+      "oracle_id": "69e12b1f-0fd9-43a9-b3db-fe08290442c6",
+      "scryfall_uri": "https://scryfall.com/card/mh3/190/invert-polarity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "izzet generatorium": {
+      "name": "Izzet Generatorium",
+      "oracle_id": "6a618c4a-e604-4dce-a078-755fd35ac5d9",
+      "scryfall_uri": "https://scryfall.com/card/mh3/191/izzet-generatorium?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "jolted awake": {
+      "name": "Jolted Awake",
+      "oracle_id": "4306a9e5-6845-4fd4-96ad-8888147612aa",
+      "scryfall_uri": "https://scryfall.com/card/mh3/33/jolted-awake?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "liberty prime, recharged": {
+      "name": "Liberty Prime, Recharged",
+      "oracle_id": "b31026fe-faad-49b3-93b0-1324e32bb816",
+      "scryfall_uri": "https://scryfall.com/card/pip/5/liberty-prime-recharged?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "lightning runner": {
+      "name": "Lightning Runner",
+      "oracle_id": "2f82b232-21ff-44cc-bc35-0999a1d1c52f",
+      "scryfall_uri": "https://scryfall.com/card/aer/90/lightning-runner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "reconnaissance": {
+      "name": "Reconnaissance",
+      "oracle_id": "32599d7c-243b-447b-9d5d-e8e29830ac61",
+      "scryfall_uri": "https://scryfall.com/card/exo/17/reconnaissance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "riddle gate gargoyle": {
+      "name": "Riddle Gate Gargoyle",
+      "oracle_id": "c5830515-9316-4b08-a990-3026ee15ffea",
+      "scryfall_uri": "https://scryfall.com/card/mh3/201/riddle-gate-gargoyle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "roil cartographer": {
+      "name": "Roil Cartographer",
+      "oracle_id": "3cd7ef87-4cb4-42ff-842f-e9a465dab165",
+      "scryfall_uri": "https://scryfall.com/card/mh3/67/roil-cartographer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "salvation colossus": {
+      "name": "Salvation Colossus",
+      "oracle_id": "8b5c6754-36bd-44ac-b0c0-5a3cd2d9f2c3",
+      "scryfall_uri": "https://scryfall.com/card/m3c/43/salvation-colossus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "satya, aetherflux genius": {
+      "name": "Satya, Aetherflux Genius",
+      "oracle_id": "ce8af7dd-49df-4419-9776-4157efc60b0f",
+      "scryfall_uri": "https://scryfall.com/card/m3c/3/satya-aetherflux-genius?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "solar transformer": {
+      "name": "Solar Transformer",
+      "oracle_id": "cb377c27-39a6-42b4-8c89-80a9a2350e81",
+      "scryfall_uri": "https://scryfall.com/card/mh3/211/solar-transformer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "spark double": {
+      "name": "Spark Double",
+      "oracle_id": "8dcb35e5-ae44-455f-86e3-4a77d496ff34",
+      "scryfall_uri": "https://scryfall.com/card/rvr/62/spark-double?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "sword of feast and famine": {
+      "name": "Sword of Feast and Famine",
+      "oracle_id": "d0901053-6de0-46d0-9ee3-8d40510236c1",
+      "scryfall_uri": "https://scryfall.com/card/2xm/296/sword-of-feast-and-famine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "trouble in pairs": {
+      "name": "Trouble in Pairs",
+      "oracle_id": "f349f58b-8cc8-45e4-9565-2b46fdf976c9",
+      "scryfall_uri": "https://scryfall.com/card/mkc/15/trouble-in-pairs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
+    },
+    "tune the narrative": {
+      "name": "Tune the Narrative",
+      "oracle_id": "4262a726-d1da-4bdc-ab14-73212aa83f9c",
+      "scryfall_uri": "https://scryfall.com/card/mh3/75/tune-the-narrative?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-08"
     }
   }
 }
