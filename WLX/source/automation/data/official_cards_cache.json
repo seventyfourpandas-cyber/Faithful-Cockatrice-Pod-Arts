@@ -7862,6 +7862,302 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-08"
+    },
+    "angelic destiny": {
+      "name": "Angelic Destiny",
+      "oracle_id": "8ba36878-0816-44c7-b543-8ebfc28c2ecd",
+      "scryfall_uri": "https://scryfall.com/card/soc/134/angelic-destiny?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "anguished unmaking": {
+      "name": "Anguished Unmaking",
+      "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
+      "scryfall_uri": "https://scryfall.com/card/soc/293/anguished-unmaking?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "archon of sun's grace": {
+      "name": "Archon of Sun's Grace",
+      "oracle_id": "48a99dce-0aa9-4aac-81df-cec5f94c639d",
+      "scryfall_uri": "https://scryfall.com/card/soc/137/archon-of-suns-grace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "changing loyalty": {
+      "name": "Changing Loyalty",
+      "oracle_id": "cdfa9de4-7d7d-4638-8ac4-793ece6372dd",
+      "scryfall_uri": "https://scryfall.com/card/soc/23/changing-loyalty?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "court of grace": {
+      "name": "Court of Grace",
+      "oracle_id": "f63c2438-27d4-449a-828f-f0a2ea86ff16",
+      "scryfall_uri": "https://scryfall.com/card/cmr/16/court-of-grace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "curse of disturbance": {
+      "name": "Curse of Disturbance",
+      "oracle_id": "6cbd36d9-de47-41b0-9ef4-a72ca01adccd",
+      "scryfall_uri": "https://scryfall.com/card/c21/138/curse-of-disturbance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "ethereal armor": {
+      "name": "Ethereal Armor",
+      "oracle_id": "dbba75f5-2404-4bd5-982b-f6c4effa5316",
+      "scryfall_uri": "https://scryfall.com/card/dsk/7/ethereal-armor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "ghoulish impetus": {
+      "name": "Ghoulish Impetus",
+      "oracle_id": "276eccd6-4a76-46e8-b604-94472e618115",
+      "scryfall_uri": "https://scryfall.com/card/soc/214/ghoulish-impetus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "gift of immortality": {
+      "name": "Gift of Immortality",
+      "oracle_id": "2c11c72f-5b04-47d8-bdf8-8d9d197ebc1b",
+      "scryfall_uri": "https://scryfall.com/card/msc/134/gift-of-immortality?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "grand abolisher": {
+      "name": "Grand Abolisher",
+      "oracle_id": "c749f23c-40c0-4159-b84c-a70cbb062c14",
+      "scryfall_uri": "https://scryfall.com/card/big/2/grand-abolisher?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "oracle_id": "a3b39590-34b7-4fd0-877f-748e6df30e88",
+      "scryfall_uri": "https://scryfall.com/card/soc/215/hateful-eidolon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "heliod's pilgrim": {
+      "name": "Heliod's Pilgrim",
+      "oracle_id": "0fe01c7d-f435-44c1-82f1-0ec2c47d4704",
+      "scryfall_uri": "https://scryfall.com/card/thb/20/heliods-pilgrim?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "kaya's ghostform": {
+      "name": "Kaya's Ghostform",
+      "oracle_id": "b15c6203-6311-44eb-916d-a4c271960c74",
+      "scryfall_uri": "https://scryfall.com/card/war/94/kayas-ghostform?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "killian, ink duelist": {
+      "name": "Killian, Ink Duelist",
+      "oracle_id": "e233cb5b-7237-4271-8157-9179cc897b6c",
+      "scryfall_uri": "https://scryfall.com/card/soc/317/killian-ink-duelist?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "kor spiritdancer": {
+      "name": "Kor Spiritdancer",
+      "oracle_id": "2bfc7467-1316-43d3-9ca6-ff36cc2de607",
+      "scryfall_uri": "https://scryfall.com/card/soc/152/kor-spiritdancer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "mesa enchantress": {
+      "name": "Mesa Enchantress",
+      "oracle_id": "8f4b8a19-72f4-48ed-ac05-62a7c7525797",
+      "scryfall_uri": "https://scryfall.com/card/dsc/68/mesa-enchantress?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "minion's return": {
+      "name": "Minion's Return",
+      "oracle_id": "6cbe76c6-2b64-4389-b5f9-0b221cd92312",
+      "scryfall_uri": "https://scryfall.com/card/thb/104/minions-return?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "neva, stalked by nightmares": {
+      "name": "Neva, Stalked by Nightmares",
+      "oracle_id": "ba5895e1-f12b-43c7-b47c-376588d9d2d2",
+      "scryfall_uri": "https://scryfall.com/card/woe/209/neva-stalked-by-nightmares?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "open the armory": {
+      "name": "Open the Armory",
+      "oracle_id": "2ecf7771-8061-4710-ad2e-80b092ae0b4b",
+      "scryfall_uri": "https://scryfall.com/card/cmr/34/open-the-armory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "parasitic impetus": {
+      "name": "Parasitic Impetus",
+      "oracle_id": "ff3de07d-86c3-49e1-9de0-97c85301ff93",
+      "scryfall_uri": "https://scryfall.com/card/soc/222/parasitic-impetus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "path to exile": {
+      "name": "Path to Exile",
+      "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+      "scryfall_uri": "https://scryfall.com/card/msc/141/path-to-exile?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "pearl-ear, imperial advisor": {
+      "name": "Pearl-Ear, Imperial Advisor",
+      "oracle_id": "9bdc1e63-1cf9-4ddb-a7d5-f2a2eb91bdfd",
+      "scryfall_uri": "https://scryfall.com/card/soc/160/pearl-ear-imperial-advisor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "planar disruption": {
+      "name": "Planar Disruption",
+      "oracle_id": "6128679e-7e54-41e4-ab6e-25aeeffed49f",
+      "scryfall_uri": "https://scryfall.com/card/one/28/planar-disruption?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "redemption arc": {
+      "name": "Redemption Arc",
+      "oracle_id": "c22e5fc6-9b4e-4197-b472-70d168eb4330",
+      "scryfall_uri": "https://scryfall.com/card/soc/163/redemption-arc?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "resurgent belief": {
+      "name": "Resurgent Belief",
+      "oracle_id": "0fcfef04-a954-4423-82b0-c70dc64a8fbc",
+      "scryfall_uri": "https://scryfall.com/card/mh2/26/resurgent-belief?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "retether": {
+      "name": "Retether",
+      "oracle_id": "b693c24f-07d9-40fa-aa4a-8f7ba61f3452",
+      "scryfall_uri": "https://scryfall.com/card/plc/13/retether?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "sage's reverie": {
+      "name": "Sage's Reverie",
+      "oracle_id": "bd92cacd-c7d8-43a2-a261-ea4754fefdc5",
+      "scryfall_uri": "https://scryfall.com/card/soc/165/sages-reverie?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "sigil of the empty throne": {
+      "name": "Sigil of the Empty Throne",
+      "oracle_id": "3b9b5b22-5a7d-4e37-a870-ca0f0efa4f36",
+      "scryfall_uri": "https://scryfall.com/card/dsc/103/sigil-of-the-empty-throne?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "sphere of safety": {
+      "name": "Sphere of Safety",
+      "oracle_id": "92f6c063-a740-4c3c-a60a-569fd298854d",
+      "scryfall_uri": "https://scryfall.com/card/dsc/104/sphere-of-safety?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "sram, senior edificer": {
+      "name": "Sram, Senior Edificer",
+      "oracle_id": "7e00b0cd-d212-4604-ba07-da21f4fe00b0",
+      "scryfall_uri": "https://scryfall.com/card/soc/176/sram-senior-edificer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "starfield mystic": {
+      "name": "Starfield Mystic",
+      "oracle_id": "2975590d-6a5b-41e5-8a3b-e9325e71226a",
+      "scryfall_uri": "https://scryfall.com/card/soc/177/starfield-mystic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "starnheim courser": {
+      "name": "Starnheim Courser",
+      "oracle_id": "01317d6c-8c11-40e1-8f7b-d36050973ada",
+      "scryfall_uri": "https://scryfall.com/card/khm/32/starnheim-courser?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "sun titan": {
+      "name": "Sun Titan",
+      "oracle_id": "b2e950fb-cb7e-40a0-a311-5bbdd0477b29",
+      "scryfall_uri": "https://scryfall.com/card/soc/178/sun-titan?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "timely ward": {
+      "name": "Timely Ward",
+      "oracle_id": "8e589dca-d31e-4d2f-81b1-18e5f9198795",
+      "scryfall_uri": "https://scryfall.com/card/dsc/107/timely-ward?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "trespasser's curse": {
+      "name": "Trespasser's Curse",
+      "oracle_id": "2769751d-ca67-4d6e-93c9-9587367ae8ab",
+      "scryfall_uri": "https://scryfall.com/card/akh/112/trespassers-curse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "unquestioned authority": {
+      "name": "Unquestioned Authority",
+      "oracle_id": "3d50266f-5a2f-4a48-ab15-87e733624fd4",
+      "scryfall_uri": "https://scryfall.com/card/cmr/389/unquestioned-authority?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
+    },
+    "vizkopa guildmage": {
+      "name": "Vizkopa Guildmage",
+      "oracle_id": "f19e7c5c-67fa-4ae4-89b8-afa0e08a6c48",
+      "scryfall_uri": "https://scryfall.com/card/ima/211/vizkopa-guildmage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-12"
     }
   }
 }

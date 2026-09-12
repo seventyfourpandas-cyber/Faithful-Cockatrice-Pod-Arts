@@ -1,195 +1,210 @@
 {
   "schema_version": 1,
-  "batch_id": "1a31428e1a",
-  "started_at": "2026-09-08T01:29:12+00:00",
-  "finished_at": "2026-09-08T01:29:15+00:00",
-  "found": 37,
-  "version_before": "3.2.34",
-  "version_after": "3.2.35",
+  "batch_id": "7446236f30",
+  "started_at": "2026-09-12T03:20:01+00:00",
+  "finished_at": "2026-09-12T03:20:04+00:00",
+  "found": 40,
+  "version_before": "3.2.36",
+  "version_after": "3.2.37",
   "added": [
     {
-      "collector_number": "798",
-      "name": "Aether Refinery",
-      "player": "Will"
+      "collector_number": "835",
+      "name": "Angelic Destiny",
+      "player": "Alex"
     },
     {
-      "collector_number": "799",
-      "name": "Aether Revolt",
-      "player": "Will"
+      "collector_number": "836",
+      "name": "Anguished Unmaking",
+      "player": "Alex"
     },
     {
-      "collector_number": "800",
-      "name": "Aether Spike",
-      "player": "Will"
+      "collector_number": "837",
+      "name": "Archon of Sun's Grace",
+      "player": "Alex"
     },
     {
-      "collector_number": "801",
-      "name": "Aetherflux Conduit",
-      "player": "Will"
+      "collector_number": "838",
+      "name": "Changing Loyalty",
+      "player": "Alex"
     },
     {
-      "collector_number": "802",
-      "name": "Aethergeode Miner",
-      "player": "Will"
+      "collector_number": "839",
+      "name": "Court of Grace",
+      "player": "Alex"
     },
     {
-      "collector_number": "803",
-      "name": "Aetheric Amplifier",
-      "player": "Will"
+      "collector_number": "840",
+      "name": "Curse of Disturbance",
+      "player": "Alex"
     },
     {
-      "collector_number": "804",
-      "name": "Aetherstorm Roc",
-      "player": "Will"
+      "collector_number": "841",
+      "name": "Ethereal Armor",
+      "player": "Alex"
     },
     {
-      "collector_number": "805",
-      "name": "Aethertide Whale",
-      "player": "Will"
+      "collector_number": "842",
+      "name": "Ghoulish Impetus",
+      "player": "Alex"
     },
     {
-      "collector_number": "806",
-      "name": "Aetherworks Marvel",
-      "player": "Will"
+      "collector_number": "843",
+      "name": "Gift of Immortality",
+      "player": "Alex"
     },
     {
-      "collector_number": "807",
-      "name": "Akroma's Will",
-      "player": "Will"
+      "collector_number": "844",
+      "name": "Grand Abolisher",
+      "player": "Alex"
     },
     {
-      "collector_number": "808",
-      "name": "Amped Raptor",
-      "player": "Will"
+      "collector_number": "845",
+      "name": "Hateful Eidolon",
+      "player": "Alex"
     },
     {
-      "collector_number": "809",
-      "name": "Assaultron Dominator",
-      "player": "Will"
+      "collector_number": "846",
+      "name": "Heliod's Pilgrim",
+      "player": "Alex"
     },
     {
-      "collector_number": "810",
-      "name": "Aurora Shifter",
-      "player": "Will"
+      "collector_number": "847",
+      "name": "Kaya's Ghostform",
+      "player": "Alex"
     },
     {
-      "collector_number": "811",
-      "name": "Behemoth of Vault 0",
-      "player": "Will"
+      "collector_number": "848",
+      "name": "Killian, Ink Duelist",
+      "player": "Alex"
     },
     {
-      "collector_number": "812",
-      "name": "Dawn's Truce",
-      "player": "Will"
+      "collector_number": "849",
+      "name": "Kor Spiritdancer",
+      "player": "Alex"
     },
     {
-      "collector_number": "813",
-      "name": "Decoction Module",
-      "player": "Will"
+      "collector_number": "850",
+      "name": "Mesa Enchantress",
+      "player": "Alex"
     },
     {
-      "collector_number": "814",
-      "name": "Electrosiphon",
-      "player": "Will"
+      "collector_number": "851",
+      "name": "Minion's Return",
+      "player": "Alex"
     },
     {
-      "collector_number": "815",
-      "name": "Galvanic Discharge",
-      "player": "Will"
+      "collector_number": "852",
+      "name": "Neva, Stalked by Nightmares",
+      "player": "Alex"
     },
     {
-      "collector_number": "816",
-      "name": "Goldspan Dragon",
-      "player": "Will"
+      "collector_number": "853",
+      "name": "Open the Armory",
+      "player": "Alex"
     },
     {
-      "collector_number": "817",
-      "name": "Gonti's Aether Heart",
-      "player": "Will"
+      "collector_number": "854",
+      "name": "Orzhov Signet",
+      "player": "Alex"
     },
     {
-      "collector_number": "818",
-      "name": "Guide of Souls",
-      "player": "Will"
+      "collector_number": "855",
+      "name": "Parasitic Impetus",
+      "player": "Alex"
     },
     {
-      "collector_number": "819",
-      "name": "Invert Polarity",
-      "player": "Will"
+      "collector_number": "856",
+      "name": "Path to Exile",
+      "player": "Alex"
     },
     {
-      "collector_number": "820",
-      "name": "Izzet Generatorium",
-      "player": "Will"
+      "collector_number": "857",
+      "name": "Pearl-Ear, Imperial Advisor",
+      "player": "Alex"
     },
     {
-      "collector_number": "821",
-      "name": "Jolted Awake",
-      "player": "Will"
+      "collector_number": "858",
+      "name": "Planar Disruption",
+      "player": "Alex"
     },
     {
-      "collector_number": "822",
-      "name": "Liberty Prime, Recharged",
-      "player": "Will"
+      "collector_number": "859",
+      "name": "Redemption Arc",
+      "player": "Alex"
     },
     {
-      "collector_number": "823",
-      "name": "Lightning Runner",
-      "player": "Will"
+      "collector_number": "860",
+      "name": "Resurgent Belief",
+      "player": "Alex"
     },
     {
-      "collector_number": "824",
-      "name": "Reconnaissance",
-      "player": "Will"
+      "collector_number": "861",
+      "name": "Retether",
+      "player": "Alex"
     },
     {
-      "collector_number": "825",
-      "name": "Riddle Gate Gargoyle",
-      "player": "Will"
+      "collector_number": "862",
+      "name": "Sage's Reverie",
+      "player": "Alex"
     },
     {
-      "collector_number": "826",
-      "name": "Roil Cartographer",
-      "player": "Will"
+      "collector_number": "863",
+      "name": "Sigil of the Empty Throne",
+      "player": "Alex"
     },
     {
-      "collector_number": "827",
-      "name": "Salvation Colossus",
-      "player": "Will"
+      "collector_number": "864",
+      "name": "Sphere of Safety",
+      "player": "Alex"
     },
     {
-      "collector_number": "828",
-      "name": "Satya, Aetherflux Genius",
-      "player": "Will"
+      "collector_number": "865",
+      "name": "Sram, Senior Edificer",
+      "player": "Alex"
     },
     {
-      "collector_number": "829",
-      "name": "Satya, Aetherflux Genius",
-      "player": "Will"
+      "collector_number": "866",
+      "name": "Starfield Mystic",
+      "player": "Alex"
     },
     {
-      "collector_number": "830",
-      "name": "Solar Transformer",
-      "player": "Will"
+      "collector_number": "867",
+      "name": "Starnheim Courser",
+      "player": "Alex"
     },
     {
-      "collector_number": "831",
-      "name": "Spark Double",
-      "player": "Will"
+      "collector_number": "868",
+      "name": "Sun Titan",
+      "player": "Alex"
     },
     {
-      "collector_number": "832",
-      "name": "Sword of Feast and Famine",
-      "player": "Will"
+      "collector_number": "869",
+      "name": "Swords to Plowshares",
+      "player": "Alex"
     },
     {
-      "collector_number": "833",
-      "name": "Trouble in Pairs",
-      "player": "Will"
+      "collector_number": "870",
+      "name": "Timely Ward",
+      "player": "Alex"
     },
     {
-      "collector_number": "834",
-      "name": "Tune the Narrative",
+      "collector_number": "871",
+      "name": "Trespasser's Curse",
+      "player": "Alex"
+    },
+    {
+      "collector_number": "872",
+      "name": "Unquestioned Authority",
+      "player": "Alex"
+    },
+    {
+      "collector_number": "873",
+      "name": "Vizkopa Guildmage",
+      "player": "Alex"
+    },
+    {
+      "collector_number": "874",
+      "name": "Sun Titan",
       "player": "Will"
     }
   ],

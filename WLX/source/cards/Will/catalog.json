@@ -9370,6 +9370,17 @@
       "image_file": "WLX-834.jpg",
       "image_sha256": "5ffaf03aafa858c9f9e5b8bff180e32732382709d1d1c58550dd1d5529ec53c0",
       "notes": "Imported from will/Tune the Narrative.jpg in file batch 1a31428e1a"
+    },
+    {
+      "collector_number": "874",
+      "uuid": "6a52631f-2fe3-52a1-aae3-e9545b3535d6",
+      "card_kind": "official",
+      "official_name": "Sun Titan",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-874.jpg",
+      "image_sha256": "487a7e351865db4f8606f60ddf2dca00e7658b53edc6bd10c03e042f4bd38120",
+      "notes": "Imported from will/Sun Titan.jpg in file batch 7446236f30"
     }
   ]
 }
