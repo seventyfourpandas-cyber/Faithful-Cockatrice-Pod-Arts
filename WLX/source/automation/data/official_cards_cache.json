@@ -8158,6 +8158,214 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-12"
+    },
+    "birthing pod": {
+      "name": "Birthing Pod",
+      "oracle_id": "f8b9dd54-0837-47f4-ad14-7a0322d46d5f",
+      "scryfall_uri": "https://scryfall.com/card/nph/104/birthing-pod?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "brenard, ginger sculptor": {
+      "name": "Brenard, Ginger Sculptor",
+      "oracle_id": "1a2ab12a-5778-40df-a2ec-2733a7121cb4",
+      "scryfall_uri": "https://scryfall.com/card/plst/WOC-27/brenard-ginger-sculptor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "copy": {
+      "name": "Copy",
+      "oracle_id": "88c78601-87f0-45e7-b2e0-e7ffcfb1cb70",
+      "scryfall_uri": "https://scryfall.com/card/tmsc/1/copy?utm_source=api",
+      "layout": "token",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "displaced dinosaurs": {
+      "name": "Displaced Dinosaurs",
+      "oracle_id": "bc0daba2-c51c-44b0-a4a3-806f2acd9aa6",
+      "scryfall_uri": "https://scryfall.com/card/who/100/displaced-dinosaurs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "eldritch evolution": {
+      "name": "Eldritch Evolution",
+      "oracle_id": "0f77c0c9-4dc4-489a-b547-e93287c4d1a5",
+      "scryfall_uri": "https://scryfall.com/card/inr/195/eldritch-evolution?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "evolutionary leap": {
+      "name": "Evolutionary Leap",
+      "oracle_id": "44cf5ef4-2b0f-4d9d-bf87-8835424721d0",
+      "scryfall_uri": "https://scryfall.com/card/ncc/288/evolutionary-leap?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "exalted sunborn": {
+      "name": "Exalted Sunborn",
+      "oracle_id": "43febbcd-ecbe-4edb-ad90-7fc6dc381d05",
+      "scryfall_uri": "https://scryfall.com/card/eoe/15/exalted-sunborn?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "fanatical devotion": {
+      "name": "Fanatical Devotion",
+      "oracle_id": "34e56412-4649-481d-be51-357b331d0b75",
+      "scryfall_uri": "https://scryfall.com/card/nem/8/fanatical-devotion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "gingerbrute": {
+      "name": "Gingerbrute",
+      "oracle_id": "10b8d4c7-7553-4d76-b643-d98b80701e13",
+      "scryfall_uri": "https://scryfall.com/card/woe/246/gingerbrute?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "inspiring statuary": {
+      "name": "Inspiring Statuary",
+      "oracle_id": "78b2b68d-6e27-49f3-8373-6e19faf6f679",
+      "scryfall_uri": "https://scryfall.com/card/mkc/230/inspiring-statuary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "krark-clan ironworks": {
+      "name": "Krark-Clan Ironworks",
+      "oracle_id": "68e1f7e0-a9b3-437f-8086-0c0cb85f2880",
+      "scryfall_uri": "https://scryfall.com/card/5dn/134/krark-clan-ironworks?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "losheel, clockwork scholar": {
+      "name": "Losheel, Clockwork Scholar",
+      "oracle_id": "f8c2a972-e38f-47e5-a355-6f30ad09b1ae",
+      "scryfall_uri": "https://scryfall.com/card/cmm/38/losheel-clockwork-scholar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "maskwood nexus": {
+      "name": "Maskwood Nexus",
+      "oracle_id": "9b2cdbed-c733-409b-b0e4-2c8960c25111",
+      "scryfall_uri": "https://scryfall.com/card/clb/865/maskwood-nexus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "masterful replication": {
+      "name": "Masterful Replication",
+      "oracle_id": "cc6e6e16-da2b-4fc0-91ad-b76f0a101306",
+      "scryfall_uri": "https://scryfall.com/card/moc/227/masterful-replication?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "nature's lore": {
+      "name": "Nature's Lore",
+      "oracle_id": "78826359-fe63-44ad-adc4-a17ffcd710e4",
+      "scryfall_uri": "https://scryfall.com/card/msc/177/natures-lore?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "nesting dovehawk": {
+      "name": "Nesting Dovehawk",
+      "oracle_id": "fe8fc442-ed17-40b2-8624-69f2eed3f9be",
+      "scryfall_uri": "https://scryfall.com/card/moc/17/nesting-dovehawk?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "nettlecyst": {
+      "name": "Nettlecyst",
+      "oracle_id": "04c7f4fe-2098-4311-866d-6733c08d5178",
+      "scryfall_uri": "https://scryfall.com/card/mkc/233/nettlecyst?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "night of the sweets' revenge": {
+      "name": "Night of the Sweets' Revenge",
+      "oracle_id": "4bcf4f12-470e-4f73-a19a-643a20084e16",
+      "scryfall_uri": "https://scryfall.com/card/woe/178/night-of-the-sweets-revenge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "ninja pizza": {
+      "name": "Ninja Pizza",
+      "oracle_id": "58c615f3-8c3b-47bf-8032-809fc4232ccb",
+      "scryfall_uri": "https://scryfall.com/card/tmc/32/ninja-pizza?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "oltec matterweaver": {
+      "name": "Oltec Matterweaver",
+      "oracle_id": "3cb91696-242f-4e91-806b-61b1bb45a20c",
+      "scryfall_uri": "https://scryfall.com/card/big/3/oltec-matterweaver?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "organic extinction": {
+      "name": "Organic Extinction",
+      "oracle_id": "d9e24d7c-0907-45c1-b5d3-9fb16a929868",
+      "scryfall_uri": "https://scryfall.com/card/eoc/66/organic-extinction?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "sakashima of a thousand faces": {
+      "name": "Sakashima of a Thousand Faces",
+      "oracle_id": "8ecdaf4b-4442-42da-9714-4257a83faf50",
+      "scryfall_uri": "https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "selfless spirit": {
+      "name": "Selfless Spirit",
+      "oracle_id": "71d785a9-ddc8-472e-a778-a551b444a4bd",
+      "scryfall_uri": "https://scryfall.com/card/soc/167/selfless-spirit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "syr ginger, the meal ender": {
+      "name": "Syr Ginger, the Meal Ender",
+      "oracle_id": "2eb16535-718f-4b88-92bc-96429d796327",
+      "scryfall_uri": "https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "tough cookie": {
+      "name": "Tough Cookie",
+      "oracle_id": "8a1a5862-c027-4c15-99a7-1795d0da96da",
+      "scryfall_uri": "https://scryfall.com/card/woe/193/tough-cookie?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
+    },
+    "witch's oven": {
+      "name": "Witch's Oven",
+      "oracle_id": "8fa0fe02-2452-4386-8e0c-165757b0f0a3",
+      "scryfall_uri": "https://scryfall.com/card/eld/237/witchs-oven?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-17"
     }
   }
 }

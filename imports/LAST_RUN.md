@@ -1,52 +1,43 @@
 # Latest WLX File Import
 
-- Batch: `7446236f30`
-- Finished: `2026-09-12T03:20:04+00:00`
-- Images found: **40**
-- New printings: **40**
+- Batch: `40ae4423a5`
+- Finished: `2026-09-17T03:56:46+00:00`
+- Images found: **31**
+- New printings: **31**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #835` — Angelic Destiny (Alex)
-- `WLX #836` — Anguished Unmaking (Alex)
-- `WLX #837` — Archon of Sun's Grace (Alex)
-- `WLX #838` — Changing Loyalty (Alex)
-- `WLX #839` — Court of Grace (Alex)
-- `WLX #840` — Curse of Disturbance (Alex)
-- `WLX #841` — Ethereal Armor (Alex)
-- `WLX #842` — Ghoulish Impetus (Alex)
-- `WLX #843` — Gift of Immortality (Alex)
-- `WLX #844` — Grand Abolisher (Alex)
-- `WLX #845` — Hateful Eidolon (Alex)
-- `WLX #846` — Heliod's Pilgrim (Alex)
-- `WLX #847` — Kaya's Ghostform (Alex)
-- `WLX #848` — Killian, Ink Duelist (Alex)
-- `WLX #849` — Kor Spiritdancer (Alex)
-- `WLX #850` — Mesa Enchantress (Alex)
-- `WLX #851` — Minion's Return (Alex)
-- `WLX #852` — Neva, Stalked by Nightmares (Alex)
-- `WLX #853` — Open the Armory (Alex)
-- `WLX #854` — Orzhov Signet (Alex)
-- `WLX #855` — Parasitic Impetus (Alex)
-- `WLX #856` — Path to Exile (Alex)
-- `WLX #857` — Pearl-Ear, Imperial Advisor (Alex)
-- `WLX #858` — Planar Disruption (Alex)
-- `WLX #859` — Redemption Arc (Alex)
-- `WLX #860` — Resurgent Belief (Alex)
-- `WLX #861` — Retether (Alex)
-- `WLX #862` — Sage's Reverie (Alex)
-- `WLX #863` — Sigil of the Empty Throne (Alex)
-- `WLX #864` — Sphere of Safety (Alex)
-- `WLX #865` — Sram, Senior Edificer (Alex)
-- `WLX #866` — Starfield Mystic (Alex)
-- `WLX #867` — Starnheim Courser (Alex)
-- `WLX #868` — Sun Titan (Alex)
-- `WLX #869` — Swords to Plowshares (Alex)
-- `WLX #870` — Timely Ward (Alex)
-- `WLX #871` — Trespasser's Curse (Alex)
-- `WLX #872` — Unquestioned Authority (Alex)
-- `WLX #873` — Vizkopa Guildmage (Alex)
-- `WLX #874` — Sun Titan (Will)
+- `WLX #875` — Altar of Dementia (Alex)
+- `WLX #876` — Arcane Denial (Alex)
+- `WLX #877` — Birthing Pod (Alex)
+- `WLX #878` — Brenard, Ginger Sculptor (Alex)
+- `WLX #879` — Copy (Alex)
+- `WLX #880` — Displaced Dinosaurs (Alex)
+- `WLX #881` — Eldritch Evolution (Alex)
+- `WLX #882` — Eternal Witness (Alex)
+- `WLX #883` — Evolutionary Leap (Alex)
+- `WLX #884` — Exalted Sunborn (Alex)
+- `WLX #885` — Fanatical Devotion (Alex)
+- `WLX #886` — Gingerbrute (Alex)
+- `WLX #887` — Inspiring Statuary (Alex)
+- `WLX #888` — Krark-Clan Ironworks (Alex)
+- `WLX #889` — Losheel, Clockwork Scholar (Alex)
+- `WLX #890` — Maskwood Nexus (Alex)
+- `WLX #891` — Masterful Replication (Alex)
+- `WLX #892` — Nature's Lore (Alex)
+- `WLX #893` — Nesting Dovehawk (Alex)
+- `WLX #894` — Nettlecyst (Alex)
+- `WLX #895` — Night of the Sweets' Revenge (Alex)
+- `WLX #896` — Ninja Pizza (Alex)
+- `WLX #897` — Oltec Matterweaver (Alex)
+- `WLX #898` — Organic Extinction (Alex)
+- `WLX #899` — Sakashima of a Thousand Faces (Alex)
+- `WLX #900` — Sakura-Tribe Elder (Alex)
+- `WLX #901` — Selfless Spirit (Alex)
+- `WLX #902` — Syr Ginger, the Meal Ender (Alex)
+- `WLX #903` — Tough Cookie (Alex)
+- `WLX #904` — Witch's Oven (Alex)
+- `WLX #905` — Exalted Sunborn (Will)

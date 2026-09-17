@@ -9381,6 +9381,17 @@
       "image_file": "WLX-874.jpg",
       "image_sha256": "487a7e351865db4f8606f60ddf2dca00e7658b53edc6bd10c03e042f4bd38120",
       "notes": "Imported from will/Sun Titan.jpg in file batch 7446236f30"
+    },
+    {
+      "collector_number": "905",
+      "uuid": "d85f993c-0c21-5c66-96b1-888d03b776e7",
+      "card_kind": "official",
+      "official_name": "Exalted Sunborn",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-905.jpg",
+      "image_sha256": "90721dae6adb6c882adc2c89b7b300cd38630db94002ba947b3f6f21329c6522",
+      "notes": "Imported from will/Exalted Sunborn __ 1.jpg in file batch 40ae4423a5"
     }
   ]
 }

@@ -1,210 +1,165 @@
 {
   "schema_version": 1,
-  "batch_id": "7446236f30",
-  "started_at": "2026-09-12T03:20:01+00:00",
-  "finished_at": "2026-09-12T03:20:04+00:00",
-  "found": 40,
-  "version_before": "3.2.36",
-  "version_after": "3.2.37",
+  "batch_id": "40ae4423a5",
+  "started_at": "2026-09-17T03:56:42+00:00",
+  "finished_at": "2026-09-17T03:56:46+00:00",
+  "found": 31,
+  "version_before": "3.2.37",
+  "version_after": "3.2.38",
   "added": [
     {
-      "collector_number": "835",
-      "name": "Angelic Destiny",
+      "collector_number": "875",
+      "name": "Altar of Dementia",
       "player": "Alex"
     },
     {
-      "collector_number": "836",
-      "name": "Anguished Unmaking",
+      "collector_number": "876",
+      "name": "Arcane Denial",
       "player": "Alex"
     },
     {
-      "collector_number": "837",
-      "name": "Archon of Sun's Grace",
+      "collector_number": "877",
+      "name": "Birthing Pod",
       "player": "Alex"
     },
     {
-      "collector_number": "838",
-      "name": "Changing Loyalty",
+      "collector_number": "878",
+      "name": "Brenard, Ginger Sculptor",
       "player": "Alex"
     },
     {
-      "collector_number": "839",
-      "name": "Court of Grace",
+      "collector_number": "879",
+      "name": "Copy",
       "player": "Alex"
     },
     {
-      "collector_number": "840",
-      "name": "Curse of Disturbance",
+      "collector_number": "880",
+      "name": "Displaced Dinosaurs",
       "player": "Alex"
     },
     {
-      "collector_number": "841",
-      "name": "Ethereal Armor",
+      "collector_number": "881",
+      "name": "Eldritch Evolution",
       "player": "Alex"
     },
     {
-      "collector_number": "842",
-      "name": "Ghoulish Impetus",
+      "collector_number": "882",
+      "name": "Eternal Witness",
       "player": "Alex"
     },
     {
-      "collector_number": "843",
-      "name": "Gift of Immortality",
+      "collector_number": "883",
+      "name": "Evolutionary Leap",
       "player": "Alex"
     },
     {
-      "collector_number": "844",
-      "name": "Grand Abolisher",
+      "collector_number": "884",
+      "name": "Exalted Sunborn",
       "player": "Alex"
     },
     {
-      "collector_number": "845",
-      "name": "Hateful Eidolon",
+      "collector_number": "885",
+      "name": "Fanatical Devotion",
       "player": "Alex"
     },
     {
-      "collector_number": "846",
-      "name": "Heliod's Pilgrim",
+      "collector_number": "886",
+      "name": "Gingerbrute",
       "player": "Alex"
     },
     {
-      "collector_number": "847",
-      "name": "Kaya's Ghostform",
+      "collector_number": "887",
+      "name": "Inspiring Statuary",
       "player": "Alex"
     },
     {
-      "collector_number": "848",
-      "name": "Killian, Ink Duelist",
+      "collector_number": "888",
+      "name": "Krark-Clan Ironworks",
       "player": "Alex"
     },
     {
-      "collector_number": "849",
-      "name": "Kor Spiritdancer",
+      "collector_number": "889",
+      "name": "Losheel, Clockwork Scholar",
       "player": "Alex"
     },
     {
-      "collector_number": "850",
-      "name": "Mesa Enchantress",
+      "collector_number": "890",
+      "name": "Maskwood Nexus",
       "player": "Alex"
     },
     {
-      "collector_number": "851",
-      "name": "Minion's Return",
+      "collector_number": "891",
+      "name": "Masterful Replication",
       "player": "Alex"
     },
     {
-      "collector_number": "852",
-      "name": "Neva, Stalked by Nightmares",
+      "collector_number": "892",
+      "name": "Nature's Lore",
       "player": "Alex"
     },
     {
-      "collector_number": "853",
-      "name": "Open the Armory",
+      "collector_number": "893",
+      "name": "Nesting Dovehawk",
       "player": "Alex"
     },
     {
-      "collector_number": "854",
-      "name": "Orzhov Signet",
+      "collector_number": "894",
+      "name": "Nettlecyst",
       "player": "Alex"
     },
     {
-      "collector_number": "855",
-      "name": "Parasitic Impetus",
+      "collector_number": "895",
+      "name": "Night of the Sweets' Revenge",
       "player": "Alex"
     },
     {
-      "collector_number": "856",
-      "name": "Path to Exile",
+      "collector_number": "896",
+      "name": "Ninja Pizza",
       "player": "Alex"
     },
     {
-      "collector_number": "857",
-      "name": "Pearl-Ear, Imperial Advisor",
+      "collector_number": "897",
+      "name": "Oltec Matterweaver",
       "player": "Alex"
     },
     {
-      "collector_number": "858",
-      "name": "Planar Disruption",
+      "collector_number": "898",
+      "name": "Organic Extinction",
       "player": "Alex"
     },
     {
-      "collector_number": "859",
-      "name": "Redemption Arc",
+      "collector_number": "899",
+      "name": "Sakashima of a Thousand Faces",
       "player": "Alex"
     },
     {
-      "collector_number": "860",
-      "name": "Resurgent Belief",
+      "collector_number": "900",
+      "name": "Sakura-Tribe Elder",
       "player": "Alex"
     },
     {
-      "collector_number": "861",
-      "name": "Retether",
+      "collector_number": "901",
+      "name": "Selfless Spirit",
       "player": "Alex"
     },
     {
-      "collector_number": "862",
-      "name": "Sage's Reverie",
+      "collector_number": "902",
+      "name": "Syr Ginger, the Meal Ender",
       "player": "Alex"
     },
     {
-      "collector_number": "863",
-      "name": "Sigil of the Empty Throne",
+      "collector_number": "903",
+      "name": "Tough Cookie",
       "player": "Alex"
     },
     {
-      "collector_number": "864",
-      "name": "Sphere of Safety",
+      "collector_number": "904",
+      "name": "Witch's Oven",
       "player": "Alex"
     },
     {
-      "collector_number": "865",
-      "name": "Sram, Senior Edificer",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "866",
-      "name": "Starfield Mystic",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "867",
-      "name": "Starnheim Courser",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "868",
-      "name": "Sun Titan",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "869",
-      "name": "Swords to Plowshares",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "870",
-      "name": "Timely Ward",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "871",
-      "name": "Trespasser's Curse",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "872",
-      "name": "Unquestioned Authority",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "873",
-      "name": "Vizkopa Guildmage",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "874",
-      "name": "Sun Titan",
+      "collector_number": "905",
+      "name": "Exalted Sunborn",
       "player": "Will"
     }
   ],
