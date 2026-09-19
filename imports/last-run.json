@@ -1,165 +1,20 @@
 {
   "schema_version": 1,
-  "batch_id": "40ae4423a5",
-  "started_at": "2026-09-17T03:56:42+00:00",
-  "finished_at": "2026-09-17T03:56:46+00:00",
-  "found": 31,
-  "version_before": "3.2.37",
-  "version_after": "3.2.38",
+  "batch_id": "336977aa55",
+  "started_at": "2026-09-19T01:46:35+00:00",
+  "finished_at": "2026-09-19T01:46:39+00:00",
+  "found": 2,
+  "version_before": "3.2.38",
+  "version_after": "3.2.39",
   "added": [
     {
-      "collector_number": "875",
-      "name": "Altar of Dementia",
-      "player": "Alex"
+      "collector_number": "906",
+      "name": "Fblthp, the Lost",
+      "player": "Will"
     },
     {
-      "collector_number": "876",
-      "name": "Arcane Denial",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "877",
-      "name": "Birthing Pod",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "878",
-      "name": "Brenard, Ginger Sculptor",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "879",
-      "name": "Copy",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "880",
-      "name": "Displaced Dinosaurs",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "881",
-      "name": "Eldritch Evolution",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "882",
-      "name": "Eternal Witness",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "883",
-      "name": "Evolutionary Leap",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "884",
-      "name": "Exalted Sunborn",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "885",
-      "name": "Fanatical Devotion",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "886",
-      "name": "Gingerbrute",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "887",
-      "name": "Inspiring Statuary",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "888",
-      "name": "Krark-Clan Ironworks",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "889",
-      "name": "Losheel, Clockwork Scholar",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "890",
-      "name": "Maskwood Nexus",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "891",
-      "name": "Masterful Replication",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "892",
-      "name": "Nature's Lore",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "893",
-      "name": "Nesting Dovehawk",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "894",
-      "name": "Nettlecyst",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "895",
-      "name": "Night of the Sweets' Revenge",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "896",
-      "name": "Ninja Pizza",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "897",
-      "name": "Oltec Matterweaver",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "898",
-      "name": "Organic Extinction",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "899",
-      "name": "Sakashima of a Thousand Faces",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "900",
-      "name": "Sakura-Tribe Elder",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "901",
-      "name": "Selfless Spirit",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "902",
-      "name": "Syr Ginger, the Meal Ender",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "903",
-      "name": "Tough Cookie",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "904",
-      "name": "Witch's Oven",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "905",
-      "name": "Exalted Sunborn",
+      "collector_number": "907",
+      "name": "Halfdane",
       "player": "Will"
     }
   ],

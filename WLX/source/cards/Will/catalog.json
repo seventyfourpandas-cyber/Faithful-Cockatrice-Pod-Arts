@@ -9392,6 +9392,28 @@
       "image_file": "WLX-905.jpg",
       "image_sha256": "90721dae6adb6c882adc2c89b7b300cd38630db94002ba947b3f6f21329c6522",
       "notes": "Imported from will/Exalted Sunborn __ 1.jpg in file batch 40ae4423a5"
+    },
+    {
+      "collector_number": "906",
+      "uuid": "10058d1d-146a-5f0a-a131-eb3156694ea6",
+      "card_kind": "official",
+      "official_name": "Fblthp, the Lost",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-906.jpg",
+      "image_sha256": "674b3882591f3bf1a3022c259e1214cf9496ee65289853527adc97e65173ebb6",
+      "notes": "Imported from will/Fblthp, the Lost.jpg in file batch 336977aa55"
+    },
+    {
+      "collector_number": "907",
+      "uuid": "714f43f2-4408-51a2-a1ad-3c0c5839426f",
+      "card_kind": "official",
+      "official_name": "Halfdane",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-907.jpg",
+      "image_sha256": "94acf11e33a7701ce58364b6892f349a17378a667afa410bd6e85cf0ea6d11a7",
+      "notes": "Imported from will/Halfdane.jpg in file batch 336977aa55"
     }
   ]
 }

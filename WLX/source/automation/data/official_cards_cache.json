@@ -8366,6 +8366,22 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-17"
+    },
+    "fblthp, the lost": {
+      "name": "Fblthp, the Lost",
+      "oracle_id": "ba5a7ac0-b625-42e9-af05-2680a01a95ed",
+      "scryfall_uri": "https://scryfall.com/card/rvr/44/fblthp-the-lost?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-19"
+    },
+    "halfdane": {
+      "name": "Halfdane",
+      "oracle_id": "2ee13155-a3b8-4cad-8e68-5d2c5aba3bb4",
+      "scryfall_uri": "https://scryfall.com/card/me3/150/halfdane?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-19"
     }
   }
 }

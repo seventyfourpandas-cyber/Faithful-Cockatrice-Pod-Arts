@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-09-17T03:56:42+00:00</createdAt>
+    <createdAt>2026-09-19T01:46:35+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.38</sourceVersion>
+    <sourceVersion>3.2.39</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1193,6 +1193,10 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
       <set uuid="b8daceae-a60b-5a42-a9de-82e10f843f72" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/047-8c34b8e7eb4b.jpg" num="047" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Fblthp, the Lost</name>
+      <set uuid="10058d1d-146a-5f0a-a131-eb3156694ea6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/906-674b3882591f.jpg" num="906" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Fear of Missing Out</name>
       <set uuid="7aaa0896-8c27-5623-8777-171ed5534432" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/240-0f966dbc5225.jpg" num="240" rarity="special">WLX</set>
     </card>
@@ -1475,6 +1479,10 @@ At the beginning of your end step, if you control four or more creatures, transf
     <card>
       <name>Gyruda, Doom of Depths</name>
       <set uuid="a9eeb1d2-1683-5fdd-b6ef-a9289a069a05" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/396-e9d595d78304.jpg" num="396" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Halfdane</name>
+      <set uuid="714f43f2-4408-51a2-a1ad-3c0c5839426f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/907-94acf11e33a7.jpg" num="907" rarity="special">WLX</set>
     </card>
     <card>
       <name>Harried Spearguard</name>
