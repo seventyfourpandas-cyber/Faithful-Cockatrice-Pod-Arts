@@ -1,6 +1,6 @@
 # Willex's Whimsical Arts — Published Status
 
-- Version: `3.2.39`
+- Version: `3.2.40`
 - Set: `WLX` — Willex's Whimsical Arts
 - Active card identities: **862**
 - Active printings: **899**

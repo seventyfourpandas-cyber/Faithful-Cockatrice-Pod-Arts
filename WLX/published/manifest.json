@@ -3,23 +3,23 @@
   "publisher_schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.39",
-  "published_at": "2026-09-19T01:46:35+00:00",
+  "version": "3.2.40",
+  "published_at": "2026-09-20T07:58:12+00:00",
   "release_ready": true,
   "base_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/",
   "cockatrice_xml": {
     "path": "customsets/willex_whimsical_arts.xml",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
     "install_filename": "willex_whimsical_arts.xml",
-    "sha256": "75172cc60276262d3ce7b3a96c9af118763ffb223ffd56cb68f978a294fd5a7a",
+    "sha256": "fe56457edefd097ec5b134efc78d73cbfcc3b7db88d7c9df9da9b16b7d7193b5",
     "size_bytes": 284582,
     "database_version": 4
   },
   "cockatrice_installer": {
     "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
     "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-    "sha256": "98eb1070937c36b6504fb02a20a2262eb50f551bdd8ad32ee3568e918e79b88a",
-    "size_bytes": 61644
+    "sha256": "e15e8fed470a1040408f7e66f098261907895c1ee2f7b2b3b97cf36f7be078e2",
+    "size_bytes": 61643
   },
   "cards": 862,
   "printings_count": 899,
@@ -1093,8 +1093,8 @@
       "uuid": "52248ee2-127b-5eb4-87b3-432b24b685ee",
       "card_name": "Yurlok of Scorch Thrash",
       "player": "Will",
-      "image_sha256": "b326a42052a7580ab069abcb7d0a84bc1166c45de7c83fb694e40073f86576dc",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-b326a42052a7.jpg"
+      "image_sha256": "8098b253d12907676e7fb4c466b91111bca6c2ad42b9eeec92de019e7edcc94b",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-8098b253d129.jpg"
     },
     {
       "collector_number": "139",
@@ -7333,19 +7333,19 @@
     {
       "path": "Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/Willexs_Whimsical_Arts_Cockatrice_Installer.zip",
-      "sha256": "98eb1070937c36b6504fb02a20a2262eb50f551bdd8ad32ee3568e918e79b88a",
-      "size_bytes": 61644
+      "sha256": "e15e8fed470a1040408f7e66f098261907895c1ee2f7b2b3b97cf36f7be078e2",
+      "size_bytes": 61643
     },
     {
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/catalog.json",
-      "sha256": "e268566c49e94b8d86d2cf6ad58e13f9540b672d7584572d80384487cd2be1a6",
+      "sha256": "2b342e1d09141ece7f64080813153619335461089f8ecc6a1afa934b4373588e",
       "size_bytes": 611834
     },
     {
       "path": "customsets/willex_whimsical_arts.xml",
       "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/customsets/willex_whimsical_arts.xml",
-      "sha256": "75172cc60276262d3ce7b3a96c9af118763ffb223ffd56cb68f978a294fd5a7a",
+      "sha256": "fe56457edefd097ec5b134efc78d73cbfcc3b7db88d7c9df9da9b16b7d7193b5",
       "size_bytes": 284582
     },
     {
@@ -8141,10 +8141,10 @@
       "size_bytes": 4352692
     },
     {
-      "path": "images/WLX/138-b326a42052a7.jpg",
-      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-b326a42052a7.jpg",
-      "sha256": "b326a42052a7580ab069abcb7d0a84bc1166c45de7c83fb694e40073f86576dc",
-      "size_bytes": 4914298
+      "path": "images/WLX/138-8098b253d129.jpg",
+      "url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-8098b253d129.jpg",
+      "sha256": "8098b253d12907676e7fb4c466b91111bca6c2ad42b9eeec92de019e7edcc94b",
+      "size_bytes": 4346306
     },
     {
       "path": "images/WLX/139-9e2c4d1b08c1.jpg",
