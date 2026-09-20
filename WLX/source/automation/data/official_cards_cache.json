@@ -8382,6 +8382,254 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-19"
+    },
+    "calming verse": {
+      "name": "Calming Verse",
+      "oracle_id": "c70ae479-0bd1-481c-885f-16bfa096cf58",
+      "scryfall_uri": "https://scryfall.com/card/pcy/110/calming-verse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "cindervines": {
+      "name": "Cindervines",
+      "oracle_id": "92d95e12-fa51-4360-88e4-9078ccc5d8d3",
+      "scryfall_uri": "https://scryfall.com/card/rvr/171/cindervines?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "citadel of pain": {
+      "name": "Citadel of Pain",
+      "oracle_id": "2233c079-5ca6-4992-8bd2-84dbf9ed53a9",
+      "scryfall_uri": "https://scryfall.com/card/pcy/86/citadel-of-pain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "city of solitude": {
+      "name": "City of Solitude",
+      "oracle_id": "671458ac-7441-4332-9e59-a42ec8b62f31",
+      "scryfall_uri": "https://scryfall.com/card/vis/102/city-of-solitude?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "deflecting swat": {
+      "name": "Deflecting Swat",
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "scryfall_uri": "https://scryfall.com/card/cmm/214/deflecting-swat?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "dosan the falling leaf": {
+      "name": "Dosan the Falling Leaf",
+      "oracle_id": "70e4025f-41de-4b47-a590-3c922dc1e209",
+      "scryfall_uri": "https://scryfall.com/card/chk/205/dosan-the-falling-leaf?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "electro, assaulting battery": {
+      "name": "Electro, Assaulting Battery",
+      "oracle_id": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+      "scryfall_uri": "https://scryfall.com/card/spm/76/electro-assaulting-battery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "horizon stone": {
+      "name": "Horizon Stone",
+      "oracle_id": "add46292-470e-47fa-a261-4884d02e65fe",
+      "scryfall_uri": "https://scryfall.com/card/cmr/315/horizon-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "ignoble hierarch": {
+      "name": "Ignoble Hierarch",
+      "oracle_id": "c8de43a3-ebd3-4000-b343-a6ffed11d34d",
+      "scryfall_uri": "https://scryfall.com/card/ecc/52/ignoble-hierarch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "kaervek the merciless": {
+      "name": "Kaervek the Merciless",
+      "oracle_id": "c7b72d38-0aa0-4e17-9dd5-9276d7cb21ec",
+      "scryfall_uri": "https://scryfall.com/card/dsc/222/kaervek-the-merciless?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "klothys, god of destiny": {
+      "name": "Klothys, God of Destiny",
+      "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
+      "scryfall_uri": "https://scryfall.com/card/thb/220/klothys-god-of-destiny?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "magewright's stone": {
+      "name": "Magewright's Stone",
+      "oracle_id": "9e500094-c430-4c10-89cc-97f4f18b08bc",
+      "scryfall_uri": "https://scryfall.com/card/dis/162/magewrights-stone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "magus of the candelabra": {
+      "name": "Magus of the Candelabra",
+      "oracle_id": "30e58e88-ac99-4d32-b2fe-6d6cb6288af3",
+      "scryfall_uri": "https://scryfall.com/card/bbd/206/magus-of-the-candelabra?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "magus of the vineyard": {
+      "name": "Magus of the Vineyard",
+      "oracle_id": "e6788809-6b34-4701-89af-b422ba35efb2",
+      "scryfall_uri": "https://scryfall.com/card/cmd/166/magus-of-the-vineyard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "mana reflection": {
+      "name": "Mana Reflection",
+      "oracle_id": "a3a8a044-283d-443e-bc40-c2f826d70c22",
+      "scryfall_uri": "https://scryfall.com/card/2xm/175/mana-reflection?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "mana web": {
+      "name": "Mana Web",
+      "oracle_id": "82909ff4-f6f7-44f1-bbd0-6e54afa5ee6d",
+      "scryfall_uri": "https://scryfall.com/card/wth/152/mana-web?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "marvin, murderous mimic": {
+      "name": "Marvin, Murderous Mimic",
+      "oracle_id": "22f0dbbb-9d8d-42bc-8903-fc0b65e00952",
+      "scryfall_uri": "https://scryfall.com/card/dsk/253/marvin-murderous-mimic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "nyxbloom ancient": {
+      "name": "Nyxbloom Ancient",
+      "oracle_id": "8b610f8f-c8dd-4eeb-bc6e-3bc706d5f63e",
+      "scryfall_uri": "https://scryfall.com/card/thb/190/nyxbloom-ancient?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "overabundance": {
+      "name": "Overabundance",
+      "oracle_id": "b1ee0503-be92-4a06-89cd-5dfa937930d3",
+      "scryfall_uri": "https://scryfall.com/card/inv/259/overabundance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "phyrexian arena": {
+      "name": "Phyrexian Arena",
+      "oracle_id": "ee579a32-a048-4335-b966-231ba731cdea",
+      "scryfall_uri": "https://scryfall.com/card/fdn/180/phyrexian-arena?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "power surge": {
+      "name": "Power Surge",
+      "oracle_id": "156b2228-f7b2-4816-b894-c4953a32c05f",
+      "scryfall_uri": "https://scryfall.com/card/4ed/216/power-surge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "price of glory": {
+      "name": "Price of Glory",
+      "oracle_id": "35064a72-c052-496f-8f1a-6dbc5e617d3f",
+      "scryfall_uri": "https://scryfall.com/card/ody/214/price-of-glory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "shang-chi, master of kung fu": {
+      "name": "Shang-Chi, Master of Kung Fu",
+      "oracle_id": "700ef9c8-698b-45f7-a1fd-dec74e553224",
+      "scryfall_uri": "https://scryfall.com/card/msh/187/shang-chi-master-of-kung-fu?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "smoke": {
+      "name": "Smoke",
+      "oracle_id": "8aa97d25-cd51-4ceb-b7eb-af64f0914a8c",
+      "scryfall_uri": "https://scryfall.com/card/me4/137/smoke?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "stoneshaker shaman": {
+      "name": "Stoneshaker Shaman",
+      "oracle_id": "5458689c-48e0-48b6-bda8-048fa4718734",
+      "scryfall_uri": "https://scryfall.com/card/rav/145/stoneshaker-shaman?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "syphon mind": {
+      "name": "Syphon Mind",
+      "oracle_id": "abc37d6c-6300-47b5-a679-9db5b83eb54f",
+      "scryfall_uri": "https://scryfall.com/card/msc/159/syphon-mind?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "tyvar, jubilant brawler": {
+      "name": "Tyvar, Jubilant Brawler",
+      "oracle_id": "848c2b8f-8086-4047-8ad0-24b701dc4d0d",
+      "scryfall_uri": "https://scryfall.com/card/one/218/tyvar-jubilant-brawler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "victory chimes": {
+      "name": "Victory Chimes",
+      "oracle_id": "be8b36ce-52c1-4ca0-9141-4c9a80dca3ea",
+      "scryfall_uri": "https://scryfall.com/card/c21/274/victory-chimes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "war's toll": {
+      "name": "War's Toll",
+      "oracle_id": "ba4e4afb-24bb-47de-aba8-89d21b11d45c",
+      "scryfall_uri": "https://scryfall.com/card/bbd/187/wars-toll?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "wound reflection": {
+      "name": "Wound Reflection",
+      "oracle_id": "b09206a4-8b73-4125-8b79-53f6fd511b16",
+      "scryfall_uri": "https://scryfall.com/card/2xm/113/wound-reflection?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
+    },
+    "zhur-taa druid": {
+      "name": "Zhur-Taa Druid",
+      "oracle_id": "5979310e-38c8-489f-ab9e-2723af98a3a5",
+      "scryfall_uri": "https://scryfall.com/card/c16/232/zhur-taa-druid?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
     }
   }
 }
