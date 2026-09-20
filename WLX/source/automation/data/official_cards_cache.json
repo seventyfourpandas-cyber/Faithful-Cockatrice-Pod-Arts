@@ -8630,6 +8630,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-20"
+    },
+    "faceless one": {
+      "name": "Faceless One",
+      "oracle_id": "ef220170-c01a-4ca5-b887-f248c50227ee",
+      "scryfall_uri": "https://scryfall.com/card/clb/1/faceless-one?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-20"
     }
   }
 }

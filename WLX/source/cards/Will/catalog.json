@@ -9414,6 +9414,17 @@
       "image_file": "WLX-907.jpg",
       "image_sha256": "94acf11e33a7701ce58364b6892f349a17378a667afa410bd6e85cf0ea6d11a7",
       "notes": "Imported from will/Halfdane.jpg in file batch 336977aa55"
+    },
+    {
+      "collector_number": "941",
+      "uuid": "79f6e031-ef3d-5bf0-ade8-f8191804d04e",
+      "card_kind": "official",
+      "official_name": "Faceless One",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-941.jpg",
+      "image_sha256": "f161852a056377e8c72a74c91ce18dc723371427e7b339e6e129b2a8c2d465d9",
+      "notes": "Imported from will/Faceless One.jpg in file batch da7544d8c6"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.41",
+  "version": "3.2.42",
   "set_code": "WLX",
   "cards": [
     {
@@ -17010,6 +17010,24 @@
       "image": "images/WLX/940-405d08858bac.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/940-405d08858bac.jpg",
       "sha256": "405d08858bacbaa455609ad11fd6c9f4c6495b887060b2d03e9ff9a7cb790a19",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Faceless One",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "941",
+      "uuid": "79f6e031-ef3d-5bf0-ade8-f8191804d04e",
+      "rarity": "special",
+      "image": "images/WLX/941-f161852a0563.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/941-f161852a0563.jpg",
+      "sha256": "f161852a056377e8c72a74c91ce18dc723371427e7b339e6e129b2a8c2d465d9",
       "dimensions": [
         2976,
         4152

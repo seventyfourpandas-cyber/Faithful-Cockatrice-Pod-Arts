@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 941,
+  "next_collector": 942,
   "collectors": {
     "001": {
       "status": "active",
@@ -5648,6 +5648,12 @@
       "status": "active",
       "player": "Alex",
       "uuid": "ca0721d7-0616-513d-9d3d-28870a1a8ac0",
+      "card_kind": "official"
+    },
+    "941": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "79f6e031-ef3d-5bf0-ade8-f8191804d04e",
       "card_kind": "official"
     }
   },
