@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-09-21T14:19:47+00:00</createdAt>
+    <createdAt>2026-09-21T14:26:25+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.43</sourceVersion>
+    <sourceVersion>3.2.44</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1508,10 +1508,6 @@ At the beginning of your end step, if you control four or more creatures, transf
     <card>
       <name>Gyruda, Doom of Depths</name>
       <set uuid="a9eeb1d2-1683-5fdd-b6ef-a9289a069a05" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/396-e9d595d78304.jpg" num="396" rarity="special">WLX</set>
-    </card>
-    <card>
-      <name>Halfdane</name>
-      <set uuid="714f43f2-4408-51a2-a1ad-3c0c5839426f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/907-94acf11e33a7.jpg" num="907" rarity="special">WLX</set>
     </card>
     <card>
       <name>Harried Spearguard</name>

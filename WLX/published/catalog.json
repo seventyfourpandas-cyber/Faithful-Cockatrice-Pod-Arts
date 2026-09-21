@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.43",
+  "version": "3.2.44",
   "set_code": "WLX",
   "cards": [
     {
@@ -16380,24 +16380,6 @@
       "image": "images/WLX/905-90721dae6adb.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/905-90721dae6adb.jpg",
       "sha256": "90721dae6adb6c882adc2c89b7b300cd38630db94002ba947b3f6f21329c6522",
-      "dimensions": [
-        2976,
-        4152
-      ]
-    },
-    {
-      "player": "Will",
-      "card_kind": "official",
-      "card_name": "Halfdane",
-      "flavor_name": "",
-      "set_code": "WLX",
-      "set_name": "Willex's Whimsical Arts",
-      "collector_number": "907",
-      "uuid": "714f43f2-4408-51a2-a1ad-3c0c5839426f",
-      "rarity": "special",
-      "image": "images/WLX/907-94acf11e33a7.jpg",
-      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/907-94acf11e33a7.jpg",
-      "sha256": "94acf11e33a7701ce58364b6892f349a17378a667afa410bd6e85cf0ea6d11a7",
       "dimensions": [
         2976,
         4152
