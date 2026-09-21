@@ -9392,17 +9392,6 @@
       "image_file": "WLX-905.jpg",
       "image_sha256": "90721dae6adb6c882adc2c89b7b300cd38630db94002ba947b3f6f21329c6522",
       "notes": "Imported from will/Exalted Sunborn __ 1.jpg in file batch 40ae4423a5"
-    },
-    {
-      "collector_number": "941",
-      "uuid": "79f6e031-ef3d-5bf0-ade8-f8191804d04e",
-      "card_kind": "official",
-      "official_name": "Faceless One",
-      "flavor_name": "",
-      "rarity": "special",
-      "image_file": "WLX-941.jpg",
-      "image_sha256": "f161852a056377e8c72a74c91ce18dc723371427e7b339e6e129b2a8c2d465d9",
-      "notes": "Imported from will/Faceless One.jpg in file batch da7544d8c6"
     }
   ]
 }
