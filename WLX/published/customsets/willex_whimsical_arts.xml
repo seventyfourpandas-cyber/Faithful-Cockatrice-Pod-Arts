@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-09-20T23:13:56+00:00</createdAt>
+    <createdAt>2026-09-21T14:19:47+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.42</sourceVersion>
+    <sourceVersion>3.2.43</sourceVersion>
   </info>
   <sets>
     <set>
@@ -1224,10 +1224,6 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
     <card>
       <name>Fate Unraveler</name>
       <set uuid="b8daceae-a60b-5a42-a9de-82e10f843f72" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/047-8c34b8e7eb4b.jpg" num="047" rarity="special">WLX</set>
-    </card>
-    <card>
-      <name>Fblthp, the Lost</name>
-      <set uuid="10058d1d-146a-5f0a-a131-eb3156694ea6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/906-674b3882591f.jpg" num="906" rarity="special">WLX</set>
     </card>
     <card>
       <name>Fear of Missing Out</name>
