@@ -8638,6 +8638,30 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-20"
+    },
+    "omnath, locus of the void": {
+      "name": "Omnath, Locus of the Void",
+      "oracle_id": "579225b5-50e2-4891-8871-0bf6dbc07e33",
+      "scryfall_uri": "https://scryfall.com/card/frc/3/omnath-locus-of-the-void?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-21"
+    },
+    "sphinx of false conclusions": {
+      "name": "Sphinx of False Conclusions",
+      "oracle_id": "9f004382-c57b-4fde-af97-0c85516c3cf4",
+      "scryfall_uri": "https://scryfall.com/card/fra/40/sphinx-of-false-conclusions?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-21"
+    },
+    "the ur-sphinx": {
+      "name": "The Ur-Sphinx",
+      "oracle_id": "4a3fdb8e-4699-4bd9-84e6-3cc7fea0e1ef",
+      "scryfall_uri": "https://scryfall.com/card/frc/12/the-ur-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-21"
     }
   }
 }

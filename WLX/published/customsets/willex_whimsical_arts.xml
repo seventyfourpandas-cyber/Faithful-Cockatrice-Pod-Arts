@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-09-21T14:39:22+00:00</createdAt>
+    <createdAt>2026-09-21T14:48:39+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.45</sourceVersion>
+    <sourceVersion>3.2.46</sourceVersion>
   </info>
   <sets>
     <set>
@@ -2397,6 +2397,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="0f59ac3d-d64b-5b02-8fb6-135bf7972988" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/082-90399ded5283.jpg" num="082" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Omnath, Locus of the Void</name>
+      <set uuid="cd5d292c-bf84-5fef-b8a9-6f05a24a2b98" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/942-f161852a0563.jpg" num="942" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Ooze Token       </name>
       <text>Trample</text>
       <prop>
@@ -3172,6 +3176,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="a2fde24b-9370-5490-945b-60ff402046e2" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/864-a3657e853c2e.jpg" num="864" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Sphinx of False Conclusions</name>
+      <set uuid="5af734e0-1025-5a51-9759-8412171fe1d8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/943-674b3882591f.jpg" num="943" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Sphinx's Tutelage</name>
       <set uuid="de05a0c3-9665-500b-884b-c9b308292e5c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/790-c6ce17816d19.jpg" num="790" rarity="special">WLX</set>
     </card>
@@ -3471,6 +3479,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <name>The Ten Rings</name>
       <set uuid="e7142bb0-1191-5cb4-afd5-0e7a54cfe45b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/272-0438db812e6e.jpg" num="272" rarity="special">WLX</set>
       <set uuid="fbde1da4-956b-5c44-a054-c695bb38036a" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/273-9b3c70fa7922.jpg" num="273" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>The Ur-Sphinx</name>
+      <set uuid="b0da06c8-0625-587d-8772-3d8802fbed31" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/944-94acf11e33a7.jpg" num="944" rarity="special">WLX</set>
     </card>
     <card>
       <name>The Warring Triad</name>

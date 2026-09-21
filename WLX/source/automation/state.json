@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 942,
+  "next_collector": 945,
   "collectors": {
     "001": {
       "status": "active",
@@ -5658,6 +5658,24 @@
       "uuid": "79f6e031-ef3d-5bf0-ade8-f8191804d04e",
       "card_kind": "official",
       "retired_at": "2026-09-21T14:39:22+00:00"
+    },
+    "942": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "cd5d292c-bf84-5fef-b8a9-6f05a24a2b98",
+      "card_kind": "official"
+    },
+    "943": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "5af734e0-1025-5a51-9759-8412171fe1d8",
+      "card_kind": "official"
+    },
+    "944": {
+      "status": "active",
+      "player": "Will",
+      "uuid": "b0da06c8-0625-587d-8772-3d8802fbed31",
+      "card_kind": "official"
     }
   },
   "processed_issues": {

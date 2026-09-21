@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.45",
+  "version": "3.2.46",
   "set_code": "WLX",
   "cards": [
     {
@@ -16974,6 +16974,60 @@
       "image": "images/WLX/940-405d08858bac.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/940-405d08858bac.jpg",
       "sha256": "405d08858bacbaa455609ad11fd6c9f4c6495b887060b2d03e9ff9a7cb790a19",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Omnath, Locus of the Void",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "942",
+      "uuid": "cd5d292c-bf84-5fef-b8a9-6f05a24a2b98",
+      "rarity": "special",
+      "image": "images/WLX/942-f161852a0563.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/942-f161852a0563.jpg",
+      "sha256": "f161852a056377e8c72a74c91ce18dc723371427e7b339e6e129b2a8c2d465d9",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sphinx of False Conclusions",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "943",
+      "uuid": "5af734e0-1025-5a51-9759-8412171fe1d8",
+      "rarity": "special",
+      "image": "images/WLX/943-674b3882591f.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/943-674b3882591f.jpg",
+      "sha256": "674b3882591f3bf1a3022c259e1214cf9496ee65289853527adc97e65173ebb6",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "The Ur-Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "944",
+      "uuid": "b0da06c8-0625-587d-8772-3d8802fbed31",
+      "rarity": "special",
+      "image": "images/WLX/944-94acf11e33a7.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/944-94acf11e33a7.jpg",
+      "sha256": "94acf11e33a7701ce58364b6892f349a17378a667afa410bd6e85cf0ea6d11a7",
       "dimensions": [
         2976,
         4152
