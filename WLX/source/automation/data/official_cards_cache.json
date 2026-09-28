@@ -8662,6 +8662,302 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-21"
+    },
+    "archivist of oghma": {
+      "name": "Archivist of Oghma",
+      "oracle_id": "08b13e1f-27ca-40a8-b5ed-88ac933d24bf",
+      "scryfall_uri": "https://scryfall.com/card/clb/4/archivist-of-oghma?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "archpriest of iona": {
+      "name": "Archpriest of Iona",
+      "oracle_id": "a8730922-3f47-4c07-bdd5-4a0f557a3d3d",
+      "scryfall_uri": "https://scryfall.com/card/clb/686/archpriest-of-iona?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "aven interrupter": {
+      "name": "Aven Interrupter",
+      "oracle_id": "d31fd12f-b4dd-4bc3-ace4-703dabd0f607",
+      "scryfall_uri": "https://scryfall.com/card/otj/4/aven-interrupter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "aven mindcensor": {
+      "name": "Aven Mindcensor",
+      "oracle_id": "d9517c5d-66d0-4178-96fb-a8c04f311ad8",
+      "scryfall_uri": "https://scryfall.com/card/clb/688/aven-mindcensor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "burakos, party leader": {
+      "name": "Burakos, Party Leader",
+      "oracle_id": "883ad210-917b-40e6-8682-31d6eb3ed12a",
+      "scryfall_uri": "https://scryfall.com/card/clb/653/burakos-party-leader?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "coveted prize": {
+      "name": "Coveted Prize",
+      "oracle_id": "56204530-7ab5-4610-9570-fba2673725ad",
+      "scryfall_uri": "https://scryfall.com/card/znr/95/coveted-prize?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "diabolic tutor": {
+      "name": "Diabolic Tutor",
+      "oracle_id": "14589b6b-1814-46f9-a364-83cc15dacac2",
+      "scryfall_uri": "https://scryfall.com/card/cma/54/diabolic-tutor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "dungeon map": {
+      "name": "Dungeon Map",
+      "oracle_id": "20f1bba5-d398-4d6e-a76a-75e29df42aec",
+      "scryfall_uri": "https://scryfall.com/card/afr/242/dungeon-map?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "hama pashar, ruin seeker": {
+      "name": "Hama Pashar, Ruin Seeker",
+      "oracle_id": "c7371040-160c-4502-b7f9-77b7f54cc020",
+      "scryfall_uri": "https://scryfall.com/card/afr/224/hama-pashar-ruin-seeker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "harper recruiter": {
+      "name": "Harper Recruiter",
+      "oracle_id": "9ecbc7de-9399-42f4-9c39-b9255080f48c",
+      "scryfall_uri": "https://scryfall.com/card/clb/659/harper-recruiter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "kamiz, obscura oculus": {
+      "name": "Kamiz, Obscura Oculus",
+      "oracle_id": "49da6a78-f3b2-4691-975c-efbb644311f3",
+      "scryfall_uri": "https://scryfall.com/card/ncc/3/kamiz-obscura-oculus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "linvala, shield of sea gate": {
+      "name": "Linvala, Shield of Sea Gate",
+      "oracle_id": "afd8ff3e-1d57-4fc5-91dc-1a8400c98787",
+      "scryfall_uri": "https://scryfall.com/card/znr/226/linvala-shield-of-sea-gate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "mana drain": {
+      "name": "Mana Drain",
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "scryfall_uri": "https://scryfall.com/card/2x2/57/mana-drain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "mana sculpt": {
+      "name": "Mana Sculpt",
+      "oracle_id": "35e2f82e-7ca3-4a92-9134-b7999eef5337",
+      "scryfall_uri": "https://scryfall.com/card/sos/57/mana-sculpt?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "mardu strike leader": {
+      "name": "Mardu Strike Leader",
+      "oracle_id": "9be8e04f-f87f-4477-93f3-c546e9b346f0",
+      "scryfall_uri": "https://scryfall.com/card/clb/761/mardu-strike-leader?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "midnight pathlighter": {
+      "name": "Midnight Pathlighter",
+      "oracle_id": "e49228d6-6488-4cbc-aa53-303afd3a549b",
+      "scryfall_uri": "https://scryfall.com/card/afc/52/midnight-pathlighter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "mirror entity": {
+      "name": "Mirror Entity",
+      "oracle_id": "17e905ca-c0bd-473d-95a7-e180ba5fea43",
+      "scryfall_uri": "https://scryfall.com/card/otc/83/mirror-entity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "multiclass baldric": {
+      "name": "Multiclass Baldric",
+      "oracle_id": "5b173737-d33e-482f-a91e-f37e3e428e86",
+      "scryfall_uri": "https://scryfall.com/card/clb/684/multiclass-baldric?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "nadaar, selfless paladin": {
+      "name": "Nadaar, Selfless Paladin",
+      "oracle_id": "0e3f9345-d986-4d60-a343-45598ab59aff",
+      "scryfall_uri": "https://scryfall.com/card/afr/27/nadaar-selfless-paladin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "nalia de'arnise": {
+      "name": "Nalia de'Arnise",
+      "oracle_id": "1bf6248c-658c-4540-8bee-81af79d349be",
+      "scryfall_uri": "https://scryfall.com/card/clb/649/nalia-dearnise?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "radiant solar": {
+      "name": "Radiant Solar",
+      "oracle_id": "21a86dcd-03e3-409b-b214-5feed07db584",
+      "scryfall_uri": "https://scryfall.com/card/afc/9/radiant-solar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "restoration magic": {
+      "name": "Restoration Magic",
+      "oracle_id": "ddbe0d17-5cac-417c-afc0-e4aebae83205",
+      "scryfall_uri": "https://scryfall.com/card/fin/30/restoration-magic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "seasoned dungeoneer": {
+      "name": "Seasoned Dungeoneer",
+      "oracle_id": "5ea675aa-88d6-4387-a14d-e606fa9c3aec",
+      "scryfall_uri": "https://scryfall.com/card/clb/660/seasoned-dungeoneer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "sefris of the hidden ways": {
+      "name": "Sefris of the Hidden Ways",
+      "oracle_id": "9b21e056-57e7-4e39-b2b4-2fdf8719d0d2",
+      "scryfall_uri": "https://scryfall.com/card/afc/3/sefris-of-the-hidden-ways?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "squad commander": {
+      "name": "Squad Commander",
+      "oracle_id": "11f21b50-b4b6-449e-a66a-eedd2920ed93",
+      "scryfall_uri": "https://scryfall.com/card/clb/709/squad-commander?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "stick together": {
+      "name": "Stick Together",
+      "oracle_id": "4abda0ad-0a2b-4bd9-81c7-56329e62311d",
+      "scryfall_uri": "https://scryfall.com/card/clb/661/stick-together?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "thorough investigation": {
+      "name": "Thorough Investigation",
+      "oracle_id": "e7504407-bb72-4baf-be4a-8152e4198e2b",
+      "scryfall_uri": "https://scryfall.com/card/afc/12/thorough-investigation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "thwart the grave": {
+      "name": "Thwart the Grave",
+      "oracle_id": "b545e26f-2034-409c-80cc-51b72e75e6e4",
+      "scryfall_uri": "https://scryfall.com/card/clb/773/thwart-the-grave?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "tivit, seller of secrets": {
+      "name": "Tivit, Seller of Secrets",
+      "oracle_id": "f4e0b557-4f80-4b7c-bfcc-6d4c468faf2e",
+      "scryfall_uri": "https://scryfall.com/card/ncc/10/tivit-seller-of-secrets?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "tymna the weaver": {
+      "name": "Tymna the Weaver",
+      "oracle_id": "d15642e4-e61c-4d29-af48-de837991245e",
+      "scryfall_uri": "https://scryfall.com/card/c16/48/tymna-the-weaver?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "unbreakable formation": {
+      "name": "Unbreakable Formation",
+      "oracle_id": "97435e03-2fff-4fe0-8fa9-69ab0a046a33",
+      "scryfall_uri": "https://scryfall.com/card/rvr/32/unbreakable-formation?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "unsettled mariner": {
+      "name": "Unsettled Mariner",
+      "oracle_id": "7e4d1ce3-92f0-4acc-962b-8073d41d3673",
+      "scryfall_uri": "https://scryfall.com/card/mh1/216/unsettled-mariner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "void rend": {
+      "name": "Void Rend",
+      "oracle_id": "713f16db-95ec-479e-a48c-7a69f7668d7f",
+      "scryfall_uri": "https://scryfall.com/card/snc/230/void-rend?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "weathered wayfarer": {
+      "name": "Weathered Wayfarer",
+      "oracle_id": "1093fdb6-bd4f-46a8-92e3-5aa46b52bb4f",
+      "scryfall_uri": "https://scryfall.com/card/2x2/34/weathered-wayfarer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "white plume adventurer": {
+      "name": "White Plume Adventurer",
+      "oracle_id": "51f091a7-9b0b-4362-8e9c-c174752f369b",
+      "scryfall_uri": "https://scryfall.com/card/clb/49/white-plume-adventurer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "wizard's staff": {
+      "name": "Wizard's Staff",
+      "oracle_id": "30c3c700-46f4-4a77-8c45-5c7e3a21bd62",
+      "scryfall_uri": "https://scryfall.com/card/hob/59/wizards-staff?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
+    },
+    "yuan-ti malison": {
+      "name": "Yuan-Ti Malison",
+      "oracle_id": "f0e4dda1-2ffb-4353-a292-dcbc966967b4",
+      "scryfall_uri": "https://scryfall.com/card/afr/86/yuan-ti-malison?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-09-28"
     }
   }
 }

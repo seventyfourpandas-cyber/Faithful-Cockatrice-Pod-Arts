@@ -1,25 +1,205 @@
 {
   "schema_version": 1,
-  "batch_id": "fcbe77185b",
-  "started_at": "2026-09-21T14:48:39+00:00",
-  "finished_at": "2026-09-21T14:48:43+00:00",
-  "found": 3,
-  "version_before": "3.2.45",
-  "version_after": "3.2.46",
+  "batch_id": "97b30e0df6",
+  "started_at": "2026-09-28T23:46:06+00:00",
+  "finished_at": "2026-09-28T23:46:10+00:00",
+  "found": 39,
+  "version_before": "3.2.46",
+  "version_after": "3.2.47",
   "added": [
     {
-      "collector_number": "942",
-      "name": "Omnath, Locus of the Void",
+      "collector_number": "945",
+      "name": "Archivist of Oghma",
       "player": "Will"
     },
     {
-      "collector_number": "943",
-      "name": "Sphinx of False Conclusions",
+      "collector_number": "946",
+      "name": "Archpriest of Iona",
       "player": "Will"
     },
     {
-      "collector_number": "944",
-      "name": "The Ur-Sphinx",
+      "collector_number": "947",
+      "name": "Aven Interrupter",
+      "player": "Will"
+    },
+    {
+      "collector_number": "948",
+      "name": "Aven Mindcensor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "949",
+      "name": "Burakos, Party Leader",
+      "player": "Will"
+    },
+    {
+      "collector_number": "950",
+      "name": "Coveted Prize",
+      "player": "Will"
+    },
+    {
+      "collector_number": "951",
+      "name": "Diabolic Tutor",
+      "player": "Will"
+    },
+    {
+      "collector_number": "952",
+      "name": "Dungeon Map",
+      "player": "Will"
+    },
+    {
+      "collector_number": "953",
+      "name": "Grand Abolisher",
+      "player": "Will"
+    },
+    {
+      "collector_number": "954",
+      "name": "Hama Pashar, Ruin Seeker",
+      "player": "Will"
+    },
+    {
+      "collector_number": "955",
+      "name": "Harper Recruiter",
+      "player": "Will"
+    },
+    {
+      "collector_number": "956",
+      "name": "Kamiz, Obscura Oculus",
+      "player": "Will"
+    },
+    {
+      "collector_number": "957",
+      "name": "Linvala, Shield of Sea Gate",
+      "player": "Will"
+    },
+    {
+      "collector_number": "958",
+      "name": "Mana Drain",
+      "player": "Will"
+    },
+    {
+      "collector_number": "959",
+      "name": "Mana Drain",
+      "player": "Will"
+    },
+    {
+      "collector_number": "960",
+      "name": "Mana Sculpt",
+      "player": "Will"
+    },
+    {
+      "collector_number": "961",
+      "name": "Mardu Strike Leader",
+      "player": "Will"
+    },
+    {
+      "collector_number": "962",
+      "name": "Midnight Pathlighter",
+      "player": "Will"
+    },
+    {
+      "collector_number": "963",
+      "name": "Mirror Entity",
+      "player": "Will"
+    },
+    {
+      "collector_number": "964",
+      "name": "Multiclass Baldric",
+      "player": "Will"
+    },
+    {
+      "collector_number": "965",
+      "name": "Nadaar, Selfless Paladin",
+      "player": "Will"
+    },
+    {
+      "collector_number": "966",
+      "name": "Nalia de'Arnise",
+      "player": "Will"
+    },
+    {
+      "collector_number": "967",
+      "name": "Radiant Solar",
+      "player": "Will"
+    },
+    {
+      "collector_number": "968",
+      "name": "Restoration Magic",
+      "player": "Will"
+    },
+    {
+      "collector_number": "969",
+      "name": "Seasoned Dungeoneer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "970",
+      "name": "Sefris of the Hidden Ways",
+      "player": "Will"
+    },
+    {
+      "collector_number": "971",
+      "name": "Squad Commander",
+      "player": "Will"
+    },
+    {
+      "collector_number": "972",
+      "name": "Stick Together",
+      "player": "Will"
+    },
+    {
+      "collector_number": "973",
+      "name": "Thorough Investigation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "974",
+      "name": "Thwart the Grave",
+      "player": "Will"
+    },
+    {
+      "collector_number": "975",
+      "name": "Tivit, Seller of Secrets",
+      "player": "Will"
+    },
+    {
+      "collector_number": "976",
+      "name": "Tymna the Weaver",
+      "player": "Will"
+    },
+    {
+      "collector_number": "977",
+      "name": "Unbreakable Formation",
+      "player": "Will"
+    },
+    {
+      "collector_number": "978",
+      "name": "Unsettled Mariner",
+      "player": "Will"
+    },
+    {
+      "collector_number": "979",
+      "name": "Void Rend",
+      "player": "Will"
+    },
+    {
+      "collector_number": "980",
+      "name": "Weathered Wayfarer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "981",
+      "name": "White Plume Adventurer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "982",
+      "name": "Wizard's Staff",
+      "player": "Will"
+    },
+    {
+      "collector_number": "983",
+      "name": "Yuan-Ti Malison",
       "player": "Will"
     }
   ],

@@ -1,15 +1,51 @@
 # Latest WLX File Import
 
-- Batch: `fcbe77185b`
-- Finished: `2026-09-21T14:48:43+00:00`
-- Images found: **3**
-- New printings: **3**
+- Batch: `97b30e0df6`
+- Finished: `2026-09-28T23:46:10+00:00`
+- Images found: **39**
+- New printings: **39**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #942` — Omnath, Locus of the Void (Will)
-- `WLX #943` — Sphinx of False Conclusions (Will)
-- `WLX #944` — The Ur-Sphinx (Will)
+- `WLX #945` — Archivist of Oghma (Will)
+- `WLX #946` — Archpriest of Iona (Will)
+- `WLX #947` — Aven Interrupter (Will)
+- `WLX #948` — Aven Mindcensor (Will)
+- `WLX #949` — Burakos, Party Leader (Will)
+- `WLX #950` — Coveted Prize (Will)
+- `WLX #951` — Diabolic Tutor (Will)
+- `WLX #952` — Dungeon Map (Will)
+- `WLX #953` — Grand Abolisher (Will)
+- `WLX #954` — Hama Pashar, Ruin Seeker (Will)
+- `WLX #955` — Harper Recruiter (Will)
+- `WLX #956` — Kamiz, Obscura Oculus (Will)
+- `WLX #957` — Linvala, Shield of Sea Gate (Will)
+- `WLX #958` — Mana Drain (Will)
+- `WLX #959` — Mana Drain (Will)
+- `WLX #960` — Mana Sculpt (Will)
+- `WLX #961` — Mardu Strike Leader (Will)
+- `WLX #962` — Midnight Pathlighter (Will)
+- `WLX #963` — Mirror Entity (Will)
+- `WLX #964` — Multiclass Baldric (Will)
+- `WLX #965` — Nadaar, Selfless Paladin (Will)
+- `WLX #966` — Nalia de'Arnise (Will)
+- `WLX #967` — Radiant Solar (Will)
+- `WLX #968` — Restoration Magic (Will)
+- `WLX #969` — Seasoned Dungeoneer (Will)
+- `WLX #970` — Sefris of the Hidden Ways (Will)
+- `WLX #971` — Squad Commander (Will)
+- `WLX #972` — Stick Together (Will)
+- `WLX #973` — Thorough Investigation (Will)
+- `WLX #974` — Thwart the Grave (Will)
+- `WLX #975` — Tivit, Seller of Secrets (Will)
+- `WLX #976` — Tymna the Weaver (Will)
+- `WLX #977` — Unbreakable Formation (Will)
+- `WLX #978` — Unsettled Mariner (Will)
+- `WLX #979` — Void Rend (Will)
+- `WLX #980` — Weathered Wayfarer (Will)
+- `WLX #981` — White Plume Adventurer (Will)
+- `WLX #982` — Wizard's Staff (Will)
+- `WLX #983` — Yuan-Ti Malison (Will)
