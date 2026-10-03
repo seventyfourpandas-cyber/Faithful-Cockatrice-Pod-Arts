@@ -1,51 +1,36 @@
 # Latest WLX File Import
 
-- Batch: `97b30e0df6`
-- Finished: `2026-09-28T23:46:10+00:00`
-- Images found: **39**
-- New printings: **39**
+- Batch: `f8bcc8d1c8`
+- Finished: `2026-10-03T05:56:09+00:00`
+- Images found: **24**
+- New printings: **24**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
 - Needs attention: **0**
 
 ## Added
 
-- `WLX #945` — Archivist of Oghma (Will)
-- `WLX #946` — Archpriest of Iona (Will)
-- `WLX #947` — Aven Interrupter (Will)
-- `WLX #948` — Aven Mindcensor (Will)
-- `WLX #949` — Burakos, Party Leader (Will)
-- `WLX #950` — Coveted Prize (Will)
-- `WLX #951` — Diabolic Tutor (Will)
-- `WLX #952` — Dungeon Map (Will)
-- `WLX #953` — Grand Abolisher (Will)
-- `WLX #954` — Hama Pashar, Ruin Seeker (Will)
-- `WLX #955` — Harper Recruiter (Will)
-- `WLX #956` — Kamiz, Obscura Oculus (Will)
-- `WLX #957` — Linvala, Shield of Sea Gate (Will)
-- `WLX #958` — Mana Drain (Will)
-- `WLX #959` — Mana Drain (Will)
-- `WLX #960` — Mana Sculpt (Will)
-- `WLX #961` — Mardu Strike Leader (Will)
-- `WLX #962` — Midnight Pathlighter (Will)
-- `WLX #963` — Mirror Entity (Will)
-- `WLX #964` — Multiclass Baldric (Will)
-- `WLX #965` — Nadaar, Selfless Paladin (Will)
-- `WLX #966` — Nalia de'Arnise (Will)
-- `WLX #967` — Radiant Solar (Will)
-- `WLX #968` — Restoration Magic (Will)
-- `WLX #969` — Seasoned Dungeoneer (Will)
-- `WLX #970` — Sefris of the Hidden Ways (Will)
-- `WLX #971` — Squad Commander (Will)
-- `WLX #972` — Stick Together (Will)
-- `WLX #973` — Thorough Investigation (Will)
-- `WLX #974` — Thwart the Grave (Will)
-- `WLX #975` — Tivit, Seller of Secrets (Will)
-- `WLX #976` — Tymna the Weaver (Will)
-- `WLX #977` — Unbreakable Formation (Will)
-- `WLX #978` — Unsettled Mariner (Will)
-- `WLX #979` — Void Rend (Will)
-- `WLX #980` — Weathered Wayfarer (Will)
-- `WLX #981` — White Plume Adventurer (Will)
-- `WLX #982` — Wizard's Staff (Will)
-- `WLX #983` — Yuan-Ti Malison (Will)
+- `WLX #984` — Arbiter of Knollridge (Alex)
+- `WLX #985` — Baleful Mastery (Alex)
+- `WLX #986` — Beast Within (Alex)
+- `WLX #987` — Biomancer's Familiar (Alex)
+- `WLX #988` — Counterspell (Alex)
+- `WLX #989` — Cut a Deal (Alex)
+- `WLX #990` — Dawn Charm (Alex)
+- `WLX #991` — Dictate of Kruphix (Alex)
+- `WLX #992` — Generous Gift (Alex)
+- `WLX #993` — Generous Patron (Alex)
+- `WLX #994` — Gluntch, the Bestower (Alex)
+- `WLX #995` — Humble Defector (Alex)
+- `WLX #996` — Pir's Whim (Alex)
+- `WLX #997` — Reprieve (Alex)
+- `WLX #998` — Reverse the Sands (Alex)
+- `WLX #999` — Selfless Squire (Alex)
+- `WLX #1000` — Serra Paragon (Alex)
+- `WLX #1001` — Summary Dismissal (Alex)
+- `WLX #1002` — Tale's End (Alex)
+- `WLX #1003` — Teferi's Protection (Alex)
+- `WLX #1004` — Tragic Arrogance (Alex)
+- `WLX #1005` — Training Grounds (Alex)
+- `WLX #1006` — Vision Skeins (Alex)
+- `WLX #1007` — Zirda, the Dawnwaker (Alex)

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_collector": 984,
+  "next_collector": 1008,
   "collectors": {
     "001": {
       "status": "active",
@@ -5909,6 +5909,150 @@
       "status": "active",
       "player": "Will",
       "uuid": "bf1d475e-d3f2-50ba-a4c1-cfe8e703c195",
+      "card_kind": "official"
+    },
+    "984": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "acded778-4b19-569f-8978-d94af8960d5f",
+      "card_kind": "official"
+    },
+    "985": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "86cb2e70-a362-579e-b033-b9f0493053f6",
+      "card_kind": "official"
+    },
+    "986": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "1fb46ffa-edf5-518d-bbe7-8807f3de6bf4",
+      "card_kind": "official"
+    },
+    "987": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "fe959c2d-938c-5378-ada6-4b7c18ec3651",
+      "card_kind": "official"
+    },
+    "988": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "73957648-96d5-5016-962f-f98f69d41184",
+      "card_kind": "official"
+    },
+    "989": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "63be45ed-097c-52af-858c-23c04aa6a641",
+      "card_kind": "official"
+    },
+    "990": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "387bf6cc-9b4c-5c03-8ff1-8bd64bad131c",
+      "card_kind": "official"
+    },
+    "991": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "637a0d77-1224-5d9a-ab2a-93e18b018993",
+      "card_kind": "official"
+    },
+    "992": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "15ff4118-d8e7-5060-869f-0141cf7c0830",
+      "card_kind": "official"
+    },
+    "993": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "9638e421-346e-5d00-ab34-a6696d70fe74",
+      "card_kind": "official"
+    },
+    "994": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "eb86eb93-b499-5c1e-8a2f-93f6814c2f63",
+      "card_kind": "official"
+    },
+    "995": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "48ab26dd-ffa9-57b2-9283-e8813d356d1d",
+      "card_kind": "official"
+    },
+    "996": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "da482894-2bbe-519f-aaba-996a2c9a60be",
+      "card_kind": "official"
+    },
+    "997": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "b9827657-8c51-5b54-a72f-53caac70401f",
+      "card_kind": "official"
+    },
+    "998": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "55a0be8d-8d47-56db-bad6-229e5bd5ed71",
+      "card_kind": "official"
+    },
+    "999": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "6735b364-f49e-5ada-ba26-fe4308fbdb3a",
+      "card_kind": "official"
+    },
+    "1000": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "5b06d8b7-c8bf-5dab-a8ce-3de250d31c9a",
+      "card_kind": "official"
+    },
+    "1001": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "48228f3c-570d-58c7-b683-c562c08d93a3",
+      "card_kind": "official"
+    },
+    "1002": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "e5fb03ee-17ab-584d-8500-c7a71f046234",
+      "card_kind": "official"
+    },
+    "1003": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "66af0fae-9452-58f0-b2fe-1230102ab50a",
+      "card_kind": "official"
+    },
+    "1004": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "23f93654-687f-5c1e-896a-c0d2071f0b25",
+      "card_kind": "official"
+    },
+    "1005": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "826ea9f1-8a1a-5117-beb7-7c28fc593d55",
+      "card_kind": "official"
+    },
+    "1006": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "1598b656-0c8e-56f8-b0d1-e9a2eb72109c",
+      "card_kind": "official"
+    },
+    "1007": {
+      "status": "active",
+      "player": "Alex",
+      "uuid": "8d4a8c91-ce39-54a3-88ab-90664cef6b83",
       "card_kind": "official"
     }
   },

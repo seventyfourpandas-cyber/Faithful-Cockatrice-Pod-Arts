@@ -8958,6 +8958,190 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-09-28"
+    },
+    "arbiter of knollridge": {
+      "name": "Arbiter of Knollridge",
+      "oracle_id": "62705a41-7c4d-4e6c-85b0-36a9d27ab5ae",
+      "scryfall_uri": "https://scryfall.com/card/cm2/17/arbiter-of-knollridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "baleful mastery": {
+      "name": "Baleful Mastery",
+      "oracle_id": "adfcdadd-ddda-477b-8e72-0cae2430fb63",
+      "scryfall_uri": "https://scryfall.com/card/otc/126/baleful-mastery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "beast within": {
+      "name": "Beast Within",
+      "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+      "scryfall_uri": "https://scryfall.com/card/msc/169/beast-within?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "biomancer's familiar": {
+      "name": "Biomancer's Familiar",
+      "oracle_id": "923d44a9-774d-459c-9cec-1d5b081b51f0",
+      "scryfall_uri": "https://scryfall.com/card/rna/158/biomancers-familiar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "cut a deal": {
+      "name": "Cut a Deal",
+      "oracle_id": "8b5cffd5-5db3-4151-9275-d91387554412",
+      "scryfall_uri": "https://scryfall.com/card/msc/127/cut-a-deal?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "dawn charm": {
+      "name": "Dawn Charm",
+      "oracle_id": "a8f5cfa7-4956-4182-8e44-acf3493239f0",
+      "scryfall_uri": "https://scryfall.com/card/cmr/371/dawn-charm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "dictate of kruphix": {
+      "name": "Dictate of Kruphix",
+      "oracle_id": "be74a4c1-d569-4203-b28a-3e2ac6a82990",
+      "scryfall_uri": "https://scryfall.com/card/fdn/587/dictate-of-kruphix?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "generous gift": {
+      "name": "Generous Gift",
+      "oracle_id": "fae37e28-e137-4177-b973-fa8b4dd8f409",
+      "scryfall_uri": "https://scryfall.com/card/msc/133/generous-gift?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "generous patron": {
+      "name": "Generous Patron",
+      "oracle_id": "fb084141-cb80-479e-b5d4-114c1f31eb6c",
+      "scryfall_uri": "https://scryfall.com/card/bbd/70/generous-patron?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "gluntch, the bestower": {
+      "name": "Gluntch, the Bestower",
+      "oracle_id": "0222dc7c-459b-4909-a037-72b2eb248599",
+      "scryfall_uri": "https://scryfall.com/card/clb/275/gluntch-the-bestower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "humble defector": {
+      "name": "Humble Defector",
+      "oracle_id": "1582e16d-4825-4cc5-b12c-449c45e4e449",
+      "scryfall_uri": "https://scryfall.com/card/otc/170/humble-defector?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "pir's whim": {
+      "name": "Pir's Whim",
+      "oracle_id": "01c2b66a-66d1-4282-a078-b1fa737c57f4",
+      "scryfall_uri": "https://scryfall.com/card/bbd/73/pirs-whim?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "reprieve": {
+      "name": "Reprieve",
+      "oracle_id": "f0449cbd-855c-4c20-a1f5-f76a395d8d39",
+      "scryfall_uri": "https://scryfall.com/card/ltr/26/reprieve?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "reverse the sands": {
+      "name": "Reverse the Sands",
+      "oracle_id": "b353f0ab-266c-4448-b93b-fafb68b03765",
+      "scryfall_uri": "https://scryfall.com/card/c16/75/reverse-the-sands?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "selfless squire": {
+      "name": "Selfless Squire",
+      "oracle_id": "7d079c78-b2a9-444f-ab54-c61c041baa6d",
+      "scryfall_uri": "https://scryfall.com/card/mkc/82/selfless-squire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "serra paragon": {
+      "name": "Serra Paragon",
+      "oracle_id": "ecd8d7f4-7b11-4097-afc0-ef3c81edd90c",
+      "scryfall_uri": "https://scryfall.com/card/soc/169/serra-paragon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "summary dismissal": {
+      "name": "Summary Dismissal",
+      "oracle_id": "f69d65e0-4d8a-4e27-b4dd-dd8c50acb8eb",
+      "scryfall_uri": "https://scryfall.com/card/inr/88/summary-dismissal?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "tale's end": {
+      "name": "Tale's End",
+      "oracle_id": "8ebb6fe0-3ed1-4cc9-bcb1-5317de199efc",
+      "scryfall_uri": "https://scryfall.com/card/m20/77/tales-end?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "teferi's protection": {
+      "name": "Teferi's Protection",
+      "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757",
+      "scryfall_uri": "https://scryfall.com/card/2x2/32/teferis-protection?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "tragic arrogance": {
+      "name": "Tragic Arrogance",
+      "oracle_id": "8a29bd35-33ef-4317-9fe5-8aaff5d7d64d",
+      "scryfall_uri": "https://scryfall.com/card/msc/144/tragic-arrogance?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "training grounds": {
+      "name": "Training Grounds",
+      "oracle_id": "8de3eabe-9a8f-4865-beef-a4888c081d39",
+      "scryfall_uri": "https://scryfall.com/card/mat/9/training-grounds?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "vision skeins": {
+      "name": "Vision Skeins",
+      "oracle_id": "6d42dff5-97ec-4768-b112-84a3584d0b87",
+      "scryfall_uri": "https://scryfall.com/card/e01/29/vision-skeins?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
+    },
+    "zirda, the dawnwaker": {
+      "name": "Zirda, the Dawnwaker",
+      "oracle_id": "7b515c56-7b1e-42a8-82b0-1b30201fb162",
+      "scryfall_uri": "https://scryfall.com/card/iko/233/zirda-the-dawnwaker?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
     }
   }
 }
