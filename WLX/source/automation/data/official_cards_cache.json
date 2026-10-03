@@ -9142,6 +9142,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-03"
+    },
+    "promise of loyalty": {
+      "name": "Promise of Loyalty",
+      "oracle_id": "e1d294e8-67b1-4a4a-86b8-f98f28a327d9",
+      "scryfall_uri": "https://scryfall.com/card/msc/142/promise-of-loyalty?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-03"
     }
   }
 }

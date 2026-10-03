@@ -1,130 +1,15 @@
 {
   "schema_version": 1,
-  "batch_id": "f8bcc8d1c8",
-  "started_at": "2026-10-03T05:56:05+00:00",
-  "finished_at": "2026-10-03T05:56:09+00:00",
-  "found": 24,
-  "version_before": "3.2.47",
-  "version_after": "3.2.48",
+  "batch_id": "8c35bcdcd7",
+  "started_at": "2026-10-03T07:14:08+00:00",
+  "finished_at": "2026-10-03T07:14:13+00:00",
+  "found": 1,
+  "version_before": "3.2.48",
+  "version_after": "3.2.49",
   "added": [
     {
-      "collector_number": "984",
-      "name": "Arbiter of Knollridge",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "985",
-      "name": "Baleful Mastery",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "986",
-      "name": "Beast Within",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "987",
-      "name": "Biomancer's Familiar",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "988",
-      "name": "Counterspell",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "989",
-      "name": "Cut a Deal",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "990",
-      "name": "Dawn Charm",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "991",
-      "name": "Dictate of Kruphix",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "992",
-      "name": "Generous Gift",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "993",
-      "name": "Generous Patron",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "994",
-      "name": "Gluntch, the Bestower",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "995",
-      "name": "Humble Defector",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "996",
-      "name": "Pir's Whim",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "997",
-      "name": "Reprieve",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "998",
-      "name": "Reverse the Sands",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "999",
-      "name": "Selfless Squire",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1000",
-      "name": "Serra Paragon",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1001",
-      "name": "Summary Dismissal",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1002",
-      "name": "Tale's End",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1003",
-      "name": "Teferi's Protection",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1004",
-      "name": "Tragic Arrogance",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1005",
-      "name": "Training Grounds",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1006",
-      "name": "Vision Skeins",
-      "player": "Alex"
-    },
-    {
-      "collector_number": "1007",
-      "name": "Zirda, the Dawnwaker",
+      "collector_number": "1008",
+      "name": "Promise of Loyalty",
       "player": "Alex"
     }
   ],

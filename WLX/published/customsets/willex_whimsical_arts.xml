@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-10-03T05:56:05+00:00</createdAt>
+    <createdAt>2026-10-03T07:14:08+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.48</sourceVersion>
+    <sourceVersion>3.2.49</sourceVersion>
   </info>
   <sets>
     <set>
@@ -2764,6 +2764,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Proft's Eidetic Memory</name>
       <set uuid="57e40ffe-c7ad-5e7e-839d-6eb4eb44d6f4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/642-ff14d68477c0.jpg" num="642" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Promise of Loyalty</name>
+      <set uuid="81e65359-233b-5fe3-9c3b-302ce7c0a40b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1008-cfc0be57c064.jpg" num="1008" rarity="special">WLX</set>
     </card>
     <card>
       <name>Propaganda</name>

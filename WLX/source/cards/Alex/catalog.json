@@ -1531,6 +1531,17 @@
       "image_file": "WLX-1007.jpg",
       "image_sha256": "2d25733c227985ff4c6b669972f8884dc8a903de851b253c51160c75caad8ad4",
       "notes": "Imported from alex/Zirda, the Dawnwaker.jpg in file batch f8bcc8d1c8"
+    },
+    {
+      "collector_number": "1008",
+      "uuid": "81e65359-233b-5fe3-9c3b-302ce7c0a40b",
+      "card_kind": "official",
+      "official_name": "Promise of Loyalty",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1008.jpg",
+      "image_sha256": "cfc0be57c064d7451b83f6eb52d1bfefb310a661ca9e645542535584728e0a93",
+      "notes": "Imported from alex/Promise of Loyalty.jpg in file batch 8c35bcdcd7"
     }
   ]
 }
