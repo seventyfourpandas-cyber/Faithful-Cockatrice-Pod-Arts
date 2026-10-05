@@ -1,16 +1,151 @@
 {
   "schema_version": 1,
-  "batch_id": "8c35bcdcd7",
-  "started_at": "2026-10-03T07:14:08+00:00",
-  "finished_at": "2026-10-03T07:14:13+00:00",
-  "found": 1,
-  "version_before": "3.2.48",
-  "version_after": "3.2.49",
+  "batch_id": "1bdba42688",
+  "started_at": "2026-10-05T18:21:16+00:00",
+  "finished_at": "2026-10-05T18:21:21+00:00",
+  "found": 28,
+  "version_before": "3.2.49",
+  "version_after": "3.2.50",
   "added": [
     {
-      "collector_number": "1008",
-      "name": "Promise of Loyalty",
-      "player": "Alex"
+      "collector_number": "1009",
+      "name": "Arcane Signet",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1010",
+      "name": "Atemsis, All-Seeing",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1011",
+      "name": "Authority of the Consuls",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1012",
+      "name": "Azor, the Lawbringer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1013",
+      "name": "Consecrated Sphinx",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1014",
+      "name": "Crib Swap",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1015",
+      "name": "Curator of Mysteries",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1016",
+      "name": "Dazzling Sphinx",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1017",
+      "name": "Defiler of Dreams",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1018",
+      "name": "Denzilore Fatehold",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1019",
+      "name": "Dream Eater",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1020",
+      "name": "Dream Trawler",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1021",
+      "name": "Ethersworn Sphinx",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1022",
+      "name": "Firdoch Core",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1023",
+      "name": "Keeper of the Accord",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1024",
+      "name": "Magister Sphinx",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1025",
+      "name": "Marauding Sphinx",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1026",
+      "name": "Medomai the Ageless",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1027",
+      "name": "Omni-Changeling",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1028",
+      "name": "Raffine, Scheming Seer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1029",
+      "name": "Sharuum the Hegemon",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1030",
+      "name": "Sphinx of Enlightenment",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1031",
+      "name": "Sphinx of Foresight",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1032",
+      "name": "Sphinx Summoner",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1033",
+      "name": "Uldaros Theorix",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1034",
+      "name": "Unesh, Criosphinx Sovereign",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1035",
+      "name": "Wash Away",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1036",
+      "name": "Yennett, Cryptic Sovereign",
+      "player": "Will"
     }
   ],
   "updated": [],

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.49",
+  "version": "3.2.50",
   "set_code": "WLX",
   "cards": [
     {
@@ -18180,6 +18180,510 @@
       "image": "images/WLX/1008-cfc0be57c064.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1008-cfc0be57c064.jpg",
       "sha256": "cfc0be57c064d7451b83f6eb52d1bfefb310a661ca9e645542535584728e0a93",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Arcane Signet",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1009",
+      "uuid": "e6b6e428-8a5c-5274-ab17-5c893fb52ce1",
+      "rarity": "special",
+      "image": "images/WLX/1009-3a56076db950.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1009-3a56076db950.jpg",
+      "sha256": "3a56076db9503f07de366e37c423ff06ec420216ed5629ada2c6c09ac78d2ab7",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Atemsis, All-Seeing",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1010",
+      "uuid": "4d84c323-4cfe-5b98-abb3-aa38211b672d",
+      "rarity": "special",
+      "image": "images/WLX/1010-9b33565a2991.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1010-9b33565a2991.jpg",
+      "sha256": "9b33565a2991c67e293d557c0b62c3f65fa398f8842ee15c787ca0c4beb6203c",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Authority of the Consuls",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1011",
+      "uuid": "5d661a3a-603f-5d47-8273-bc455c3443c8",
+      "rarity": "special",
+      "image": "images/WLX/1011-b8428e76dfb0.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1011-b8428e76dfb0.jpg",
+      "sha256": "b8428e76dfb0a20034db7990c9850e09f1b4777299ce8d7de8b210723627c67e",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Azor, the Lawbringer",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1012",
+      "uuid": "d91170cb-d436-5f01-a583-f7e7be90a66e",
+      "rarity": "special",
+      "image": "images/WLX/1012-74f83c9a55f1.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1012-74f83c9a55f1.jpg",
+      "sha256": "74f83c9a55f1e61132f897adc7c3648bfe0c0db9d41f541e8fd82b9274128205",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Consecrated Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1013",
+      "uuid": "1c145286-744a-54fd-b291-de605228591b",
+      "rarity": "special",
+      "image": "images/WLX/1013-8413f1a0e3b4.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1013-8413f1a0e3b4.jpg",
+      "sha256": "8413f1a0e3b45bc64ce6cc64dabf18743ae588c1c12427c7f93c149f7a9f8afe",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Crib Swap",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1014",
+      "uuid": "b332dd12-e06a-5e92-bd8e-50b108658308",
+      "rarity": "special",
+      "image": "images/WLX/1014-03d6aef3e818.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1014-03d6aef3e818.jpg",
+      "sha256": "03d6aef3e818cc051b9a7da02f7ec9af13e133fd64325da5b5939faf4c35c6cd",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Curator of Mysteries",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1015",
+      "uuid": "84527850-85b5-52b8-9c01-6602a39b9448",
+      "rarity": "special",
+      "image": "images/WLX/1015-6f08cf995162.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1015-6f08cf995162.jpg",
+      "sha256": "6f08cf995162a848075f42545a94a9b230a2e86d68ed03dccdee1b1a007f5188",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Dazzling Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1016",
+      "uuid": "f6a67bf3-f630-5c4e-ad9b-4e2446ac29fd",
+      "rarity": "special",
+      "image": "images/WLX/1016-318a247276d7.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1016-318a247276d7.jpg",
+      "sha256": "318a247276d7256855776b465ea2bd6e9c632587d61e46f1ee4fb990bd698c61",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Defiler of Dreams",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1017",
+      "uuid": "d59109d2-a8e6-52b8-8701-23a1c881522a",
+      "rarity": "special",
+      "image": "images/WLX/1017-7d85cea93f71.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1017-7d85cea93f71.jpg",
+      "sha256": "7d85cea93f7131c03a465fc7053c0b3aba5bac93abaf70741b171fc9d1c7e37e",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Denzilore Fatehold",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1018",
+      "uuid": "2150f1b7-4463-5f46-b579-f2ecd929e42b",
+      "rarity": "special",
+      "image": "images/WLX/1018-51a8d904f941.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1018-51a8d904f941.jpg",
+      "sha256": "51a8d904f941dec43ae870d970e0feaed0a68c832cb2d2dd30d42e00d39123ed",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Dream Eater",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1019",
+      "uuid": "ed675b4b-4d86-5723-bf6f-adc5f228c7e9",
+      "rarity": "special",
+      "image": "images/WLX/1019-0606e4013d2d.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1019-0606e4013d2d.jpg",
+      "sha256": "0606e4013d2d47ef1f5740e8ade6619df969b4f7185f1adce2c1b253ff662a29",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Dream Trawler",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1020",
+      "uuid": "4eadedf7-0c21-5d6a-b0d3-03b1fa684459",
+      "rarity": "special",
+      "image": "images/WLX/1020-eab7ef9d2204.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1020-eab7ef9d2204.jpg",
+      "sha256": "eab7ef9d2204bae565a18d75199408f051eeab9eac31c4c6c185f0f55b078688",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Ethersworn Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1021",
+      "uuid": "e324e23f-3ec8-5aa1-bf9a-227946f065ba",
+      "rarity": "special",
+      "image": "images/WLX/1021-a70ac6e448bc.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1021-a70ac6e448bc.jpg",
+      "sha256": "a70ac6e448bc2eb7d6dc4ee1dafce506aae7c82b4a4df6ed81a7835c19e5c7fe",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Firdoch Core",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1022",
+      "uuid": "004eabb3-0175-566f-86a9-3987df76bc08",
+      "rarity": "special",
+      "image": "images/WLX/1022-9503c3c0b689.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1022-9503c3c0b689.jpg",
+      "sha256": "9503c3c0b689fcf4b88bde16f7351aa945fed2f71092ac28f8eefff69d97fed5",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Keeper of the Accord",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1023",
+      "uuid": "68b3749f-3145-5624-87cf-b7a35bdece3d",
+      "rarity": "special",
+      "image": "images/WLX/1023-2bedd64b6f97.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1023-2bedd64b6f97.jpg",
+      "sha256": "2bedd64b6f97adc3eab04215280de1ca547b9f362f3a17dc26f11338b839e1ab",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Magister Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1024",
+      "uuid": "c1d6bbe1-d102-54e5-91f6-9528c55a2485",
+      "rarity": "special",
+      "image": "images/WLX/1024-d370900e7553.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1024-d370900e7553.jpg",
+      "sha256": "d370900e7553bcfc03e96806506b1d2cf8c89615b035a4447fca751e5ac9af91",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Marauding Sphinx",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1025",
+      "uuid": "40d3df73-6676-5d23-b03f-611fbe9d7c08",
+      "rarity": "special",
+      "image": "images/WLX/1025-7198000f9f13.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1025-7198000f9f13.jpg",
+      "sha256": "7198000f9f13b99420ded993292e54833c07a743ee44fce324981ae3cb30a3ae",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Medomai the Ageless",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1026",
+      "uuid": "69bcc1e1-0547-55ea-a122-f8194dabc98a",
+      "rarity": "special",
+      "image": "images/WLX/1026-19a5e1cdce35.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1026-19a5e1cdce35.jpg",
+      "sha256": "19a5e1cdce35b2c564b7a30ad243f765c5f8c89399cccb2c405cedda6b5df7a6",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Omni-Changeling",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1027",
+      "uuid": "6976ae85-12e6-56b0-9d10-f040a0834514",
+      "rarity": "special",
+      "image": "images/WLX/1027-01222352ad5a.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1027-01222352ad5a.jpg",
+      "sha256": "01222352ad5a210549f592916d7338fdaec3a9f71539968dd29ddaa787eede37",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Raffine, Scheming Seer",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1028",
+      "uuid": "37e67149-ac2f-53ba-97f3-3ee6d801085e",
+      "rarity": "special",
+      "image": "images/WLX/1028-1e62a4cb1d3c.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1028-1e62a4cb1d3c.jpg",
+      "sha256": "1e62a4cb1d3c781e49e3a0f85b9d07ca89767736a906bddfa2767513b7f6ec95",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sharuum the Hegemon",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1029",
+      "uuid": "7e8e8d2b-0640-56fd-b475-4b9703e8483e",
+      "rarity": "special",
+      "image": "images/WLX/1029-65352b3ce362.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1029-65352b3ce362.jpg",
+      "sha256": "65352b3ce3623e3916183ba08fb84e99d945f5c1fef14ed054ad9e9842f25e91",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sphinx of Enlightenment",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1030",
+      "uuid": "efb5721e-0530-5428-ab57-18f80260d335",
+      "rarity": "special",
+      "image": "images/WLX/1030-e14e62f95cbc.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1030-e14e62f95cbc.jpg",
+      "sha256": "e14e62f95cbc7520a27727e4b41ffe4e640c650419b1a055918405c6fc53fb90",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sphinx of Foresight",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1031",
+      "uuid": "7f999c88-a9e5-5a70-8269-ac5aeb7290c1",
+      "rarity": "special",
+      "image": "images/WLX/1031-75ed458e1682.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1031-75ed458e1682.jpg",
+      "sha256": "75ed458e1682ffc4b38e02f54ea7a1591d3310171e0f6a7d22012272dd712a0c",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Sphinx Summoner",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1032",
+      "uuid": "4c06ebd1-8df7-5394-88c1-e0c3098062ea",
+      "rarity": "special",
+      "image": "images/WLX/1032-3bd47e948633.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1032-3bd47e948633.jpg",
+      "sha256": "3bd47e94863315b4a4b7e283604cbc4a39bf8428ba0bd728ab2154b319373860",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Uldaros Theorix",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1033",
+      "uuid": "13d5d21b-ab0c-5d2e-a764-c64e8aec888b",
+      "rarity": "special",
+      "image": "images/WLX/1033-4a23507e3de7.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1033-4a23507e3de7.jpg",
+      "sha256": "4a23507e3de7ba358e925690ac84fc10d6d57ff6e88b1e3a2960f1f3d3cfa5fb",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Unesh, Criosphinx Sovereign",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1034",
+      "uuid": "e50f7d40-e627-5248-9320-c719c48fc732",
+      "rarity": "special",
+      "image": "images/WLX/1034-4dc348c2acaa.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1034-4dc348c2acaa.jpg",
+      "sha256": "4dc348c2acaa31b648d16f0d9d14ca70f22b702120fed48f1e97f9fb68de1d8c",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Wash Away",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1035",
+      "uuid": "030975e6-2811-532f-8a88-1ce5839b9de0",
+      "rarity": "special",
+      "image": "images/WLX/1035-5992e9824baa.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1035-5992e9824baa.jpg",
+      "sha256": "5992e9824baabb37f5e3efa906fffc95f10b6a1fe7a364e89abfc4495f264266",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Yennett, Cryptic Sovereign",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1036",
+      "uuid": "4fd143d9-6716-59dc-94ca-bf0ba05a5adf",
+      "rarity": "special",
+      "image": "images/WLX/1036-d35fb282cfe1.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1036-d35fb282cfe1.jpg",
+      "sha256": "d35fb282cfe19a5555368cefa8fa187bb097ca9187ca7bd5d14d57b91b1e8030",
       "dimensions": [
         2976,
         4152

@@ -9150,6 +9150,222 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-03"
+    },
+    "atemsis, all-seeing": {
+      "name": "Atemsis, All-Seeing",
+      "oracle_id": "f557aa26-8b79-4116-9249-a067b21b88ef",
+      "scryfall_uri": "https://scryfall.com/card/m20/46/atemsis-all-seeing?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "authority of the consuls": {
+      "name": "Authority of the Consuls",
+      "oracle_id": "55f3c721-e13a-406e-bc8e-d6cdc91ac477",
+      "scryfall_uri": "https://scryfall.com/card/fdn/137/authority-of-the-consuls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "azor, the lawbringer": {
+      "name": "Azor, the Lawbringer",
+      "oracle_id": "89812139-9fc1-4fc9-b1d0-d07067d62083",
+      "scryfall_uri": "https://scryfall.com/card/rix/154/azor-the-lawbringer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "consecrated sphinx": {
+      "name": "Consecrated Sphinx",
+      "oracle_id": "311a449d-dc74-46e6-9a47-6a597931f736",
+      "scryfall_uri": "https://scryfall.com/card/2x2/43/consecrated-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "crib swap": {
+      "name": "Crib Swap",
+      "oracle_id": "2987c385-011a-4032-a516-a46d1e9dc9e8",
+      "scryfall_uri": "https://scryfall.com/card/ecl/11/crib-swap?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "curator of mysteries": {
+      "name": "Curator of Mysteries",
+      "oracle_id": "04858b93-0a2a-44d0-942d-7fadf589cbb7",
+      "scryfall_uri": "https://scryfall.com/card/afc/81/curator-of-mysteries?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "dazzling sphinx": {
+      "name": "Dazzling Sphinx",
+      "oracle_id": "00e8b4c9-3a79-4864-a730-c0081d397c5b",
+      "scryfall_uri": "https://scryfall.com/card/otc/93/dazzling-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "defiler of dreams": {
+      "name": "Defiler of Dreams",
+      "oracle_id": "9d4ec5e5-5520-45c3-8071-53191811117d",
+      "scryfall_uri": "https://scryfall.com/card/dmu/46/defiler-of-dreams?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "denzilore fatehold": {
+      "name": "Denzilore Fatehold",
+      "oracle_id": "0f8de7f0-c61d-415d-b4db-4959374343da",
+      "scryfall_uri": "https://scryfall.com/card/fra/128/denzilore-fatehold?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "dream eater": {
+      "name": "Dream Eater",
+      "oracle_id": "4ec84bb3-796a-4074-ac9a-1bd277158896",
+      "scryfall_uri": "https://scryfall.com/card/dsc/116/dream-eater?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "dream trawler": {
+      "name": "Dream Trawler",
+      "oracle_id": "661b2159-4040-4a44-b182-46085416ebd9",
+      "scryfall_uri": "https://scryfall.com/card/thb/214/dream-trawler?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "ethersworn sphinx": {
+      "name": "Ethersworn Sphinx",
+      "oracle_id": "71366469-04ea-4526-bf24-7abc02fdc5ab",
+      "scryfall_uri": "https://scryfall.com/card/mh2/195/ethersworn-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "firdoch core": {
+      "name": "Firdoch Core",
+      "oracle_id": "126c75c0-414b-4e55-8747-2b5566ce716f",
+      "scryfall_uri": "https://scryfall.com/card/ecl/255/firdoch-core?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "keeper of the accord": {
+      "name": "Keeper of the Accord",
+      "oracle_id": "49b9a3ac-d245-431a-bf40-64d1b8dc2b91",
+      "scryfall_uri": "https://scryfall.com/card/mkc/70/keeper-of-the-accord?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "magister sphinx": {
+      "name": "Magister Sphinx",
+      "oracle_id": "1d86ae29-4705-4bbc-8922-9b4e031df5b1",
+      "scryfall_uri": "https://scryfall.com/card/2x2/247/magister-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "marauding sphinx": {
+      "name": "Marauding Sphinx",
+      "oracle_id": "70bea459-f6e9-411a-bd33-339bf95ea47a",
+      "scryfall_uri": "https://scryfall.com/card/otj/56/marauding-sphinx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "medomai the ageless": {
+      "name": "Medomai the Ageless",
+      "oracle_id": "b6b91ea7-a22c-4835-8c62-3360b0fd3a8b",
+      "scryfall_uri": "https://scryfall.com/card/ths/196/medomai-the-ageless?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "omni-changeling": {
+      "name": "Omni-Changeling",
+      "oracle_id": "66d4370e-19b9-4680-9b1e-a192537bc002",
+      "scryfall_uri": "https://scryfall.com/card/ecl/62/omni-changeling?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "raffine, scheming seer": {
+      "name": "Raffine, Scheming Seer",
+      "oracle_id": "9307f7e9-bcd9-41f9-88f8-0fb9700a6b12",
+      "scryfall_uri": "https://scryfall.com/card/snc/213/raffine-scheming-seer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "sharuum the hegemon": {
+      "name": "Sharuum the Hegemon",
+      "oracle_id": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+      "scryfall_uri": "https://scryfall.com/card/2xm/219/sharuum-the-hegemon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "sphinx of enlightenment": {
+      "name": "Sphinx of Enlightenment",
+      "oracle_id": "e6284fb3-7cf8-4730-b156-10085b70b0e8",
+      "scryfall_uri": "https://scryfall.com/card/gn2/2/sphinx-of-enlightenment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "sphinx of foresight": {
+      "name": "Sphinx of Foresight",
+      "oracle_id": "d1108bd1-87b2-4795-9690-54ff4504e04f",
+      "scryfall_uri": "https://scryfall.com/card/rna/55/sphinx-of-foresight?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "sphinx summoner": {
+      "name": "Sphinx Summoner",
+      "oracle_id": "77ae7caa-e180-4efb-9348-ab389364b186",
+      "scryfall_uri": "https://scryfall.com/card/2xm/220/sphinx-summoner?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "uldaros theorix": {
+      "name": "Uldaros Theorix",
+      "oracle_id": "020d561b-2e5d-439e-9e6a-318d23e73542",
+      "scryfall_uri": "https://scryfall.com/card/fra/159/uldaros-theorix?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "unesh, criosphinx sovereign": {
+      "name": "Unesh, Criosphinx Sovereign",
+      "oracle_id": "7492ea06-24d5-4a1f-a6ac-c33743e91aa7",
+      "scryfall_uri": "https://scryfall.com/card/hou/52/unesh-criosphinx-sovereign?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "wash away": {
+      "name": "Wash Away",
+      "oracle_id": "a4630da0-fe9b-4ead-9621-eac4b7825c35",
+      "scryfall_uri": "https://scryfall.com/card/vow/87/wash-away?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
+    },
+    "yennett, cryptic sovereign": {
+      "name": "Yennett, Cryptic Sovereign",
+      "oracle_id": "4eec6838-3565-407f-8941-ce9421402f0b",
+      "scryfall_uri": "https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-05"
     }
   }
 }
