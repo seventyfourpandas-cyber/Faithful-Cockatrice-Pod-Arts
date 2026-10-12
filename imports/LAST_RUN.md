@@ -1,114 +1,34 @@
 # Latest WLX File Import
 
-- Batch: `aa0329e1cf`
-- Finished: `2026-10-12T05:50:48+00:00`
-- Images found: **100**
-- New printings: **93**
+- Batch: `36e305b0b9`
+- Finished: `2026-10-12T06:06:42+00:00`
+- Images found: **28**
+- New printings: **18**
 - Artwork replacements: **0**
 - Already-current inputs cleared: **0**
-- Needs attention: **6**
+- Needs attention: **1**
 
 ## Added
 
-- `WLX #1037` — Abandoned Air Temple (Will)
-- `WLX #1038` — Abraded Bluffs (Will)
-- `WLX #1039` — Abstergo Entertainment (Will)
-- `WLX #1040` — Abundant Countryside (Will)
-- `WLX #1041` — Adarkar Wastes (Will)
-- `WLX #1042` — Aether Hub (Will)
-- `WLX #1043` — Alchemist's Refuge (Will)
-- `WLX #1044` — Alpine Meadow (Will)
-- `WLX #1045` — Amonkhet Raceway (Will)
-- `WLX #1046` — Ancient Ziggurat (Will)
-- `WLX #1047` — Arcane Lighthouse (Will)
-- `WLX #1048` — Arcane Sanctum (Will)
-- `WLX #1049` — Arch of Orazca (Will)
-- `WLX #1050` — Arctic Treeline (Will)
-- `WLX #1051` — Arid Archway (Will)
-- `WLX #1052` — Ash Barrens (Will)
-- `WLX #1053` — Avishkar Raceway (Will)
-- `WLX #1054` — Bad River (Will)
-- `WLX #1055` — Bant Panorama (Will)
-- `WLX #1056` — Base Camp (Will)
-- `WLX #1057` — Battlefield Forge (Will)
-- `WLX #1058` — Blighted Woodland (Will)
-- `WLX #1059` — Bojuka Bog (Will)
-- `WLX #1060` — Bountiful Landscape (Will)
-- `WLX #1061` — Bountiful Promenade (Will)
-- `WLX #1062` — Bristling Backwoods (Will)
-- `WLX #1063` — Brokers Hideout (Will)
-- `WLX #1064` — Brushland (Will)
-- `WLX #1065` — Bucolic Ranch (Will)
-- `WLX #1066` — Buried Ruin (Will)
-- `WLX #1067` — Cabal Stronghold (Will)
-- `WLX #1068` — Cabaretti Courtyard (Will)
-- `WLX #1069` — Cascade Bluffs (Will)
-- `WLX #1070` — Castle Ardenvale (Will)
-- `WLX #1071` — Castle Embereth (Will)
-- `WLX #1072` — Castle Garenbrig (Will)
-- `WLX #1073` — Castle Locthwain (Will)
-- `WLX #1074` — Castle Vantress (Will)
-- `WLX #1075` — Cavern of Souls (Will)
-- `WLX #1076` — Caves of Koilos (Will)
-- `WLX #1077` — Cephalid Coliseum (Will)
-- `WLX #1078` — Choked Estuary (Will)
-- `WLX #1079` — Clifftop Retreat (Will)
-- `WLX #1080` — Command Beacon (Will)
-- `WLX #1081` — Conduit Pylons (Will)
-- `WLX #1082` — Contaminated Aquifer (Will)
-- `WLX #1083` — Contaminated Landscape (Will)
-- `WLX #1084` — Crawling Barrens (Will)
-- `WLX #1085` — Creosote Heath (Will)
-- `WLX #1086` — Crumbling Necropolis (Will)
-- `WLX #1087` — Crypt of Agadeem (Will)
-- `WLX #1088` — Dakmor Salvage (Will)
-- `WLX #1089` — Dark Depths (Will)
-- `WLX #1090` — Darkmoss Bridge (Will)
-- `WLX #1091` — Darksteel Citadel (Will)
-- `WLX #1092` — Darkwater Catacombs (Will)
-- `WLX #1093` — Deceptive Landscape (Will)
-- `WLX #1094` — Demolition Field (Will)
-- `WLX #1095` — Desolate Mire (Will)
-- `WLX #1096` — Dragonskull Summit (Will)
-- `WLX #1097` — Drossforge Bridge (Will)
-- `WLX #1098` — Drowned Catacomb (Will)
-- `WLX #1099` — Eclipsed Realms (Will)
-- `WLX #1100` — Emergence Zone (Will)
-- `WLX #1101` — Emeria, the Sky Ruin (Will)
-- `WLX #1102` — Eroded Canyon (Will)
-- `WLX #1103` — Escape Tunnel (Will)
-- `WLX #1104` — Esper Panorama (Will)
-- `WLX #1105` — Eumidian Hatchery (Will)
-- `WLX #1106` — Evolving Wilds (Will)
-- `WLX #1107` — Exotic Orchard (Will)
-- `WLX #1108` — Fabled Passage (Will)
-- `WLX #1109` — Ferrous Lake (Will)
-- `WLX #1110` — Festering Gulch (Will)
-- `WLX #1111` — Fetid Heath (Will)
-- `WLX #1112` — Field of Ruin (Will)
-- `WLX #1113` — Field of the Dead (Will)
-- `WLX #1114` — Fire-Lit Thicket (Will)
-- `WLX #1115` — Flagstones of Trokair (Will)
-- `WLX #1116` — Flamekin Village (Will)
-- `WLX #1117` — Flood Plain (Will)
-- `WLX #1118` — Flooded Grove (Will)
-- `WLX #1119` — Fomori Vault (Will)
-- `WLX #1120` — Forbidden Orchard (Will)
-- `WLX #1121` — Foreboding Landscape (Will)
-- `WLX #1122` — Foreboding Ruins (Will)
-- `WLX #1123` — Forlorn Flats (Will)
-- `WLX #1124` — Fortified Village (Will)
-- `WLX #1125` — Frontier Bivouac (Will)
-- `WLX #1126` — Frostboil Snarl (Will)
-- `WLX #1127` — Furycalm Snarl (Will)
-- `WLX #1128` — Gaea's Cradle (Will)
-- `WLX #1129` — Branchloft Pathway // Boulderloft Pathway (Will)
+- `WLX #1130` — Woodland Chasm (Will)
+- `WLX #1131` — Xander's Lounge (Will)
+- `WLX #1132` — Yavimaya Coast (Will)
+- `WLX #1133` — Yavimaya Hollow (Will)
+- `WLX #1134` — Yavimaya, Cradle of Growth (Will)
+- `WLX #1135` — Zagoth Triome (Will)
+- `WLX #1136` — Zhalfirin Void (Will)
+- `WLX #1137` — Ziatora's Proving Ground (Will)
+- `WLX #1138` — Zoetic Cavern (Will)
+- `WLX #1139` — Barkchannel Pathway // Tidechannel Pathway (Will)
+- `WLX #1140` — Blightstep Pathway // Searstep Pathway (Will)
+- `WLX #1141` — Brightclimb Pathway // Grimclimb Pathway (Will)
+- `WLX #1142` — Clearwater Pathway // Murkwater Pathway (Will)
+- `WLX #1143` — Cragcrown Pathway // Timbercrown Pathway (Will)
+- `WLX #1144` — Darkbore Pathway // Slitherbore Pathway (Will)
+- `WLX #1145` — Hengegate Pathway // Mistgate Pathway (Will)
+- `WLX #1146` — Needleverge Pathway // Pillarverge Pathway (Will)
+- `WLX #1147` — Riverglide Pathway // Lavaglide Pathway (Will)
 
 ## Needs attention
 
-- `will/Barkchannel Pathway.jpg` — Barkchannel Pathway // Tidechannel Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
-- `will/Blightstep Pathway.jpg` — Blightstep Pathway // Searstep Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
-- `will/Brightclimb Pathway.jpg` — Brightclimb Pathway // Grimclimb Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
-- `will/Clearwater Pathway.jpg` — Clearwater Pathway // Murkwater Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
-- `will/Cragcrown Pathway.jpg` — Cragcrown Pathway // Timbercrown Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
-- `will/Darkbore Pathway.jpg` — Darkbore Pathway // Slitherbore Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch.
+- `will/TOKEN - Dark Depth.jpg` — Cockatrice has no official token linked to 'Dark Depth'

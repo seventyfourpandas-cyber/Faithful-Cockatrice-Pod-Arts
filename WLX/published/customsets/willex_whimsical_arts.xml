@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-10-12T05:50:43+00:00</createdAt>
+    <createdAt>2026-10-12T06:06:38+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.51</sourceVersion>
+    <sourceVersion>3.2.52</sourceVersion>
   </info>
   <sets>
     <set>
@@ -442,6 +442,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
       <set uuid="6ff1130e-f69f-538c-9976-7f8247ecb1af" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/022-2eaf099372b7.jpg" num="022" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Barkchannel Pathway</name>
+      <text>{T}: Add {G}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UG</coloridentity>
+      </prop>
+      <set uuid="e34395d3-a0e6-572e-a478-26f72a1ea22e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1139-front-76a79f668b15.jpg" num="1139" rarity="special">WLX</set>
+      <related attach="transform">Tidechannel Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Barrin, Tolarian Archmage</name>
       <set uuid="f2c28e6b-5a58-5604-8af6-9b676ffc69b3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/386-c3adc798753c.jpg" num="386" rarity="special">WLX</set>
     </card>
@@ -505,6 +519,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Blighted Woodland</name>
       <set uuid="c074508e-221d-5a32-9c0c-74ceaf2b642d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1058-234ce7740976.jpg" num="1058" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Blightstep Pathway</name>
+      <text>{T}: Add {B}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>BR</coloridentity>
+      </prop>
+      <set uuid="9387a5e1-8dcd-5f51-9326-7aa803fa33f4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1140-front-ce28ddca119f.jpg" num="1140" rarity="special">WLX</set>
+      <related attach="transform">Searstep Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Blood for the Blood God!</name>
@@ -641,6 +669,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Brenard, Ginger Sculptor</name>
       <set uuid="7c139383-23cc-5e60-b01b-83e9bc554dac" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/878-0719cca6e458.jpg" num="878" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Brightclimb Pathway</name>
+      <text>{T}: Add {W}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WB</coloridentity>
+      </prop>
+      <set uuid="a0c7ccd0-9200-50aa-b4d7-5824d1f9da1c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1141-front-72a7e8eaf805.jpg" num="1141" rarity="special">WLX</set>
+      <related attach="transform">Grimclimb Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Brightglass Gearhulk</name>
@@ -853,6 +895,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
       <set uuid="08ce4e32-16df-5765-adc8-1989bbc71c21" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/175-06a9b3e4a812.jpg" num="175" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Clearwater Pathway</name>
+      <text>{T}: Add {U}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UB</coloridentity>
+      </prop>
+      <set uuid="23790a0c-aaef-57c7-b6fd-596e1549ef66" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1142-front-e19b9378cb46.jpg" num="1142" rarity="special">WLX</set>
+      <related attach="transform">Murkwater Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Clever Concealment</name>
       <set uuid="6800eece-276a-5bf5-9459-1bc6533bfc77" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/358-7f3555932836.jpg" num="358" rarity="special">WLX</set>
     </card>
@@ -982,6 +1038,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
       <set uuid="1920722d-04f6-5395-92fd-4a3e88dd756e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/712-234c8a1ed21e.jpg" num="712" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Cragcrown Pathway</name>
+      <text>{T}: Add {R}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>RG</coloridentity>
+      </prop>
+      <set uuid="e7d4f4f2-31c8-5999-91b4-5993e0b4b332" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1143-front-0a1b67e8f724.jpg" num="1143" rarity="special">WLX</set>
+      <related attach="transform">Timbercrown Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Crash Through</name>
       <set uuid="acf5c569-f921-5dc4-a550-7f57c735cce9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/180-508e3ced7ed5.jpg" num="180" rarity="special">WLX</set>
     </card>
@@ -1077,6 +1147,20 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Dark Ritual</name>
       <set uuid="65c5b6ac-68a8-5d4c-ae5f-b1422e776f23" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/329-14a1e67a7512.jpg" num="329" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Darkbore Pathway</name>
+      <text>{T}: Add {B}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>BG</coloridentity>
+      </prop>
+      <set uuid="3b496457-e1a6-5b3a-bbd3-cd5d096ffc25" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1144-front-49f8562a1222.jpg" num="1144" rarity="special">WLX</set>
+      <related attach="transform">Slitherbore Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Darkmoss Bridge</name>
@@ -1979,6 +2063,20 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
       <set uuid="e709c91e-1add-51f4-887e-6a593e799695" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/559-383af8d284b2.jpg" num="559" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Grimclimb Pathway</name>
+      <text>{T}: Add {B}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WB</coloridentity>
+      </prop>
+      <set uuid="a0c7ccd0-9200-50aa-b4d7-5824d1f9da1c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1141-back-e543864067da.jpg" num="1141" rarity="special">WLX</set>
+      <related attach="transform">Brightclimb Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Grindstone</name>
       <set uuid="fc6e11dc-ac34-5d22-b6b8-b3cc328e8b62" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/775-7e8d3787b9a2.jpg" num="775" rarity="special">WLX</set>
       <set uuid="1535b809-b8a4-5980-84cf-9553685d20ab" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/776-b682f1e90f38.jpg" num="776" rarity="special">WLX</set>
@@ -2067,6 +2165,20 @@ At the beginning of your end step, if you control four or more creatures, transf
     <card>
       <name>Heliod's Pilgrim</name>
       <set uuid="ddd737f4-00f0-56a9-b9de-712ccbb40968" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/846-6b626e476555.jpg" num="846" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Hengegate Pathway</name>
+      <text>{T}: Add {W}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WU</coloridentity>
+      </prop>
+      <set uuid="0688cf93-f4ce-57a1-9665-7d1c2314285b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1145-front-599b1acf4a28.jpg" num="1145" rarity="special">WLX</set>
+      <related attach="transform">Mistgate Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Hero of Precinct One</name>
@@ -2462,6 +2574,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="8f2965e7-3fe9-5690-951e-8e391bd95240" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/372-934abd33f802.jpg" num="372" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Lavaglide Pathway</name>
+      <text>{T}: Add {R}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UR</coloridentity>
+      </prop>
+      <set uuid="bedba0d5-934e-51d2-8b62-75980b3c030c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1147-back-3b6bc341da9d.jpg" num="1147" rarity="special">WLX</set>
+      <related attach="transform">Riverglide Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Lavaspur Boots</name>
       <set uuid="7164d953-2749-5d27-afc9-efe188d87515" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/070-70413822a3b9.jpg" num="070" rarity="special">WLX</set>
     </card>
@@ -2780,6 +2906,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="7a35fc48-72cb-57e0-8cb2-03ff3403d08c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/963-bafe7e1ccfdf.jpg" num="963" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Mistgate Pathway</name>
+      <text>{T}: Add {U}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WU</coloridentity>
+      </prop>
+      <set uuid="0688cf93-f4ce-57a1-9665-7d1c2314285b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1145-back-1d157110391e.jpg" num="1145" rarity="special">WLX</set>
+      <related attach="transform">Hengegate Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Mithril Coat</name>
       <set uuid="d217363e-64c7-554e-9cde-3a65401de53d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/297-1dea4b032aac.jpg" num="297" rarity="special">WLX</set>
     </card>
@@ -2857,6 +2997,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="f2582160-6c4d-505a-81d7-d064b70cb201" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/964-64239c877095.jpg" num="964" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Murkwater Pathway</name>
+      <text>{T}: Add {B}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UB</coloridentity>
+      </prop>
+      <set uuid="23790a0c-aaef-57c7-b6fd-596e1549ef66" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1142-back-fa0e85afd752.jpg" num="1142" rarity="special">WLX</set>
+      <related attach="transform">Clearwater Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Muster the Departed</name>
       <set uuid="35d8c85b-eb43-53ab-b18e-7924835b21f8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/376-28d6be4c238a.jpg" num="376" rarity="special">WLX</set>
     </card>
@@ -2899,6 +3053,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Necroskitter</name>
       <set uuid="1a8a95f9-672f-53fc-9256-f266f944d53c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/572-ac6ea96ac3f8.jpg" num="572" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Needleverge Pathway</name>
+      <text>{T}: Add {R}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WR</coloridentity>
+      </prop>
+      <set uuid="2f17fe44-b327-5039-b27b-c0d5ebd0d8e8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1146-front-179fcf4a421c.jpg" num="1146" rarity="special">WLX</set>
+      <related attach="transform">Pillarverge Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Nesting Dovehawk</name>
@@ -3173,6 +3341,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Phyrexian Walker</name>
       <set uuid="8448a2ef-58c5-5bc6-9aed-5d5a2bb43cda" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/686-62b023862b66.jpg" num="686" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Pillarverge Pathway</name>
+      <text>{T}: Add {W}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>WR</coloridentity>
+      </prop>
+      <set uuid="2f17fe44-b327-5039-b27b-c0d5ebd0d8e8" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1146-back-a947f4a22398.jpg" num="1146" rarity="special">WLX</set>
+      <related attach="transform">Needleverge Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Pir's Whim</name>
@@ -3461,6 +3643,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="0da07170-ec15-5f4c-ad5d-2999e50f0457" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/378-ee034c368139.jpg" num="378" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Riverglide Pathway</name>
+      <text>{T}: Add {U}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>front</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UR</coloridentity>
+      </prop>
+      <set uuid="bedba0d5-934e-51d2-8b62-75980b3c030c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1147-front-c13f61ae07ab.jpg" num="1147" rarity="special">WLX</set>
+      <related attach="transform">Lavaglide Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Roil Cartographer</name>
       <set uuid="ed4f680f-dba9-5862-a210-09eacb424d96" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/826-534bfd844ffd.jpg" num="826" rarity="special">WLX</set>
     </card>
@@ -3561,6 +3757,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Scute Swarm</name>
       <set uuid="758cdcc7-43da-51d4-84c3-6edf10554ddc" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/481-19e0da887f98.jpg" num="481" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Searstep Pathway</name>
+      <text>{T}: Add {R}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>BR</coloridentity>
+      </prop>
+      <set uuid="9387a5e1-8dcd-5f51-9326-7aa803fa33f4" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1140-back-27cddc8fba03.jpg" num="1140" rarity="special">WLX</set>
+      <related attach="transform">Blightstep Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Seasoned Dungeoneer</name>
@@ -3715,6 +3925,20 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Slither Blade</name>
       <set uuid="c93e021f-9809-5df5-9b13-629f9eeeb04d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/415-78ff91e96099.jpg" num="415" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Slitherbore Pathway</name>
+      <text>{T}: Add {G}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>BG</coloridentity>
+      </prop>
+      <set uuid="3b496457-e1a6-5b3a-bbd3-cd5d096ffc25" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1144-back-951130f7dbad.jpg" num="1144" rarity="special">WLX</set>
+      <related attach="transform">Darkbore Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Smoke</name>
@@ -4217,8 +4441,36 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="08359403-ed12-52cd-ad04-1c838eb2cfcb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/278-8edb2707b78c.jpg" num="278" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Tidechannel Pathway</name>
+      <text>{T}: Add {U}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>UG</coloridentity>
+      </prop>
+      <set uuid="e34395d3-a0e6-572e-a478-26f72a1ea22e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1139-back-508950f2ae1a.jpg" num="1139" rarity="special">WLX</set>
+      <related attach="transform">Barkchannel Pathway</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
       <name>Tiller Engine</name>
       <set uuid="49e56c1b-bee9-5179-b6e9-af21b6c87ada" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/447-c4c8a47bb4c4.jpg" num="447" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Timbercrown Pathway</name>
+      <text>{T}: Add {G}.</text>
+      <prop>
+        <layout>modal_dfc</layout>
+        <side>back</side>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <coloridentity>RG</coloridentity>
+      </prop>
+      <set uuid="e7d4f4f2-31c8-5999-91b4-5993e0b4b332" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1143-back-31d054714868.jpg" num="1143" rarity="special">WLX</set>
+      <related attach="transform">Cragcrown Pathway</related>
+      <tablerow>0</tablerow>
     </card>
     <card>
       <name>Timeless Lotus</name>
@@ -4648,6 +4900,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="5f9663cf-97d7-577e-8e00-1b7eae9b6b9e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/289-a120aaa4d058.jpg" num="289" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Woodland Chasm</name>
+      <set uuid="60fdcbc6-f143-54c4-969d-afb5b09ffdd3" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1130-c10867475df2.jpg" num="1130" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Woodland Weavemaster</name>
       <set uuid="507c6a2b-f778-5d18-b50d-29f498f9f96b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/586-e2b0ef45f773.jpg" num="586" rarity="special">WLX</set>
     </card>
@@ -4673,8 +4929,24 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="aef21de6-606a-584a-bcee-7c0e1ce82fa1" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/137-a396ef696b14.jpg" num="137" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Xander's Lounge</name>
+      <set uuid="f27d5c09-a663-516a-bbd0-b9856e6200b6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1131-2a0853cc142a.jpg" num="1131" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Xathrid Necromancer</name>
       <set uuid="1b0f3c5a-71bd-504f-b28f-45a8276cd998" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/383-e55ea1472639.jpg" num="383" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Yavimaya Coast</name>
+      <set uuid="43c6adeb-5cc0-55c3-9f88-a24926b5a759" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1132-616c1816512a.jpg" num="1132" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Yavimaya Hollow</name>
+      <set uuid="61aae162-fb31-5834-b24b-b142f52e459e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1133-739b3f1ed62b.jpg" num="1133" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Yavimaya, Cradle of Growth</name>
+      <set uuid="71256a44-fe23-5d87-84b1-426c47eea8ff" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1134-21df350cd25b.jpg" num="1134" rarity="special">WLX</set>
     </card>
     <card>
       <name>Yennett, Cryptic Sovereign</name>
@@ -4697,6 +4969,10 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="52248ee2-127b-5eb4-87b3-432b24b685ee" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/138-8098b253d129.jpg" num="138" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Zagoth Triome</name>
+      <set uuid="5dde47d2-6d80-5211-8f60-b27e5c74b1a0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1135-807ad6efd6aa.jpg" num="1135" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Zareth San, the Trickster</name>
       <set uuid="5c7b5a6d-ff0e-5281-b43c-b992f7ca495d" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/422-b53d6cb110fe.jpg" num="422" rarity="special">WLX</set>
     </card>
@@ -4709,8 +4985,16 @@ At the beginning of your end step, create a 1/1 white and black Spirit creature 
       <set uuid="bc7e50cf-d4c2-54fe-a470-36e43a53792b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/139-9e2c4d1b08c1.jpg" num="139" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Zhalfirin Void</name>
+      <set uuid="02481e37-14d7-523b-9590-8367a8e83685" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1136-5e18f89c6e6a.jpg" num="1136" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Zhur-Taa Druid</name>
       <set uuid="ca0721d7-0616-513d-9d3d-28870a1a8ac0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/940-405d08858bac.jpg" num="940" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Ziatora's Proving Ground</name>
+      <set uuid="c1cb3327-d466-5895-8ac9-7da6a0edf008" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1137-2232a9beea21.jpg" num="1137" rarity="special">WLX</set>
     </card>
     <card>
       <name>Zilortha, Apex of Ikoria</name>
@@ -4732,6 +5016,10 @@ For each non-Human creature you control, you may have that creature assign its c
     <card>
       <name>Zirda, the Dawnwaker</name>
       <set uuid="8d4a8c91-ce39-54a3-88ab-90664cef6b83" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1007-2d25733c2279.jpg" num="1007" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Zoetic Cavern</name>
+      <set uuid="aaa09601-c95c-5fa8-af18-b25670b31cec" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1138-9ee48323cb52.jpg" num="1138" rarity="special">WLX</set>
     </card>
     <card>
       <name>Zopandrel, Hunger Dominus</name>
