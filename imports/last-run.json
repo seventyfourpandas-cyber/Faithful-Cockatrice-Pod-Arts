@@ -1,510 +1,60 @@
 {
   "schema_version": 1,
-  "batch_id": "d86e0054d5",
-  "started_at": "2026-10-12T06:38:43+00:00",
-  "finished_at": "2026-10-12T06:38:49+00:00",
-  "found": 100,
-  "version_before": "3.2.53",
-  "version_after": "3.2.54",
+  "batch_id": "b9839c2045",
+  "started_at": "2026-10-12T07:34:38+00:00",
+  "finished_at": "2026-10-12T07:34:41+00:00",
+  "found": 10,
+  "version_before": "3.2.54",
+  "version_after": "3.2.55",
   "added": [
     {
-      "collector_number": "1240",
-      "name": "Sea of Clouds",
+      "collector_number": "1340",
+      "name": "Canopy Vista",
       "player": "Will"
     },
     {
-      "collector_number": "1241",
-      "name": "Seaside Citadel",
+      "collector_number": "1341",
+      "name": "Cinder Glade",
       "player": "Will"
     },
     {
-      "collector_number": "1242",
-      "name": "Secluded Courtyard",
+      "collector_number": "1342",
+      "name": "Eclipsed Steppe",
       "player": "Will"
     },
     {
-      "collector_number": "1243",
-      "name": "Seething Landscape",
+      "collector_number": "1343",
+      "name": "Prairie Stream",
       "player": "Will"
     },
     {
-      "collector_number": "1244",
-      "name": "Serra's Sanctum",
+      "collector_number": "1344",
+      "name": "Radiant Summit",
       "player": "Will"
     },
     {
-      "collector_number": "1245",
-      "name": "Shadowblood Ridge",
+      "collector_number": "1345",
+      "name": "Scorched Geyser",
       "player": "Will"
     },
     {
-      "collector_number": "1246",
-      "name": "Shattered Landscape",
+      "collector_number": "1346",
+      "name": "Smoldering Marsh",
       "player": "Will"
     },
     {
-      "collector_number": "1247",
-      "name": "Shelldock Isle",
+      "collector_number": "1347",
+      "name": "Sodden Verdure",
       "player": "Will"
     },
     {
-      "collector_number": "1248",
-      "name": "Sheltering Landscape",
+      "collector_number": "1348",
+      "name": "Sunken Hollow",
       "player": "Will"
     },
     {
-      "collector_number": "1249",
-      "name": "Shineshadow Snarl",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1250",
-      "name": "Shire Terrace",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1251",
-      "name": "Shivan Gorge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1252",
-      "name": "Shivan Reef",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1253",
-      "name": "Shizo, Death's Storehouse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1254",
-      "name": "Shrine of the Forsaken Gods",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1255",
-      "name": "Silverbluff Bridge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1256",
-      "name": "Skemfar Elderhall",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1257",
-      "name": "Skycloud Expanse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1258",
-      "name": "Slagwoods Bridge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1259",
-      "name": "Slayers' Stronghold",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1260",
-      "name": "Snowfield Sinkhole",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1261",
-      "name": "Soured Springs",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1262",
-      "name": "Spara's Headquarters",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1263",
-      "name": "Spinerock Knoll",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1264",
-      "name": "Spire Garden",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1265",
-      "name": "Spire of Industry",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1266",
-      "name": "Starting Town",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1267",
-      "name": "Strip Mine",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1268",
-      "name": "Sulfur Falls",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1269",
-      "name": "Sulfurous Mire",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1270",
-      "name": "Sulfurous Springs",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1271",
-      "name": "Sungrass Prairie",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1272",
-      "name": "Sunhome, Fortress of the Legion",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1273",
-      "name": "Sunken Ruins",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1274",
-      "name": "Sunlit Marsh",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1275",
-      "name": "Sunpetal Grove",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1276",
-      "name": "Sunscorched Divide",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1277",
-      "name": "Tainted Field",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1278",
-      "name": "Tainted Isle",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1279",
-      "name": "Tainted Peak",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1280",
-      "name": "Tainted Wood",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1281",
-      "name": "Talon Gates of Madara",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1282",
-      "name": "Tangled Islet",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1283",
-      "name": "Tanglepool Bridge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1284",
-      "name": "Tarnation Vista",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1285",
-      "name": "Temple of Abandon",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1286",
-      "name": "Temple of Deceit",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1287",
-      "name": "Temple of Enlightenment",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1288",
-      "name": "Temple of Epiphany",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1289",
-      "name": "Temple of Malady",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1290",
-      "name": "Temple of Malice",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1291",
-      "name": "Temple of Mystery",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1292",
-      "name": "Temple of Plenty",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1293",
-      "name": "Temple of Silence",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1294",
-      "name": "Temple of the Dragon Queen",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1295",
-      "name": "Temple of Triumph",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1296",
-      "name": "Terramorphic Expanse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1297",
-      "name": "The Mycosynth Gardens",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1298",
-      "name": "The World Tree",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1299",
-      "name": "Thornglint Bridge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1300",
-      "name": "Thriving Bluff",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1301",
-      "name": "Thriving Grove",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1302",
-      "name": "Thriving Heath",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1303",
-      "name": "Thriving Isle",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1304",
-      "name": "Thriving Moor",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1305",
-      "name": "Tranquil Landscape",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1306",
-      "name": "Treasure Vault",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1307",
-      "name": "Turbulent Crater",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1308",
-      "name": "Turbulent Fen",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1309",
-      "name": "Turbulent Moor",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1310",
-      "name": "Turbulent Shore",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1311",
-      "name": "Turbulent Springs",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1312",
-      "name": "Turbulent Steppe",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1313",
-      "name": "Turbulent Wetlands",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1314",
-      "name": "Turbulent Wilderness",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1315",
-      "name": "Twilight Mire",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1316",
-      "name": "Twisted Landscape",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1317",
-      "name": "Umbral Expanse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1318",
-      "name": "Unclaimed Territory",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1319",
-      "name": "Underground River",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1320",
-      "name": "Undiscovered Paradise",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1321",
-      "name": "Urza's Cave",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1322",
-      "name": "Urza's Factory",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1323",
-      "name": "Urza's Workshop",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1324",
-      "name": "Valakut, the Molten Pinnacle",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1325",
-      "name": "Valgavoth's Lair",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1326",
-      "name": "Vault of the Archangel",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1327",
-      "name": "Vesuva",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1328",
-      "name": "Vibrant Cityscape",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1329",
-      "name": "Vineglimmer Snarl",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1330",
-      "name": "Viridescent Bog",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1331",
-      "name": "Volatile Fjord",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1332",
-      "name": "War Room",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1333",
-      "name": "Windbrisk Heights",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1334",
-      "name": "Wirewood Lodge",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1335",
-      "name": "Witch's Clinic",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1336",
-      "name": "Witch's Cottage",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1337",
-      "name": "Wooded Bastion",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1338",
-      "name": "Wooded Ridgeline",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1339",
-      "name": "Woodland Cemetery",
+      "collector_number": "1349",
+      "name": "Vernal Fen",
       "player": "Will"
     }
   ],
