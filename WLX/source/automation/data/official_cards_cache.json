@@ -11224,6 +11224,742 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-12"
+    },
+    "game trail": {
+      "name": "Game Trail",
+      "oracle_id": "00de57d2-7cb6-4337-9bc6-f6711e4dfabf",
+      "scryfall_uri": "https://scryfall.com/card/mkc/264/game-trail?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "geothermal bog": {
+      "name": "Geothermal Bog",
+      "oracle_id": "e3b67368-1dd6-419b-a95d-7131b1dba23f",
+      "scryfall_uri": "https://scryfall.com/card/dsc/278/geothermal-bog?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ghost quarter": {
+      "name": "Ghost Quarter",
+      "oracle_id": "2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc",
+      "scryfall_uri": "https://scryfall.com/card/cm2/253/ghost-quarter?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ghost town": {
+      "name": "Ghost Town",
+      "oracle_id": "f2c861d3-b302-4e84-b647-099551007269",
+      "scryfall_uri": "https://scryfall.com/card/tmp/318/ghost-town?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "gingerbread cabin": {
+      "name": "Gingerbread Cabin",
+      "oracle_id": "fa98c367-0312-49c6-abef-72e5ead4cc7d",
+      "scryfall_uri": "https://scryfall.com/card/c21/290/gingerbread-cabin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "glacial floodplain": {
+      "name": "Glacial Floodplain",
+      "oracle_id": "5d3563dd-a2c1-463c-a0ed-5ac22388bdbe",
+      "scryfall_uri": "https://scryfall.com/card/khm/257/glacial-floodplain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "glacial fortress": {
+      "name": "Glacial Fortress",
+      "oracle_id": "027dd013-baa7-4111-b3c9-f4d1414e9c45",
+      "scryfall_uri": "https://scryfall.com/card/frc/73/glacial-fortress?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "goldmire bridge": {
+      "name": "Goldmire Bridge",
+      "oracle_id": "c9b7ea9c-3bcb-4538-aa25-cdb82a52037e",
+      "scryfall_uri": "https://scryfall.com/card/moc/407/goldmire-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "grasslands": {
+      "name": "Grasslands",
+      "oracle_id": "e80bd454-8bc5-4921-90cf-6ad28a27a88b",
+      "scryfall_uri": "https://scryfall.com/card/cmm/1002/grasslands?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "graven cairns": {
+      "name": "Graven Cairns",
+      "oracle_id": "5004b84a-33b7-4f6f-b2c2-7086b9087535",
+      "scryfall_uri": "https://scryfall.com/card/dsc/280/graven-cairns?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "grixis panorama": {
+      "name": "Grixis Panorama",
+      "oracle_id": "743f4488-fef1-4f4d-b745-d2de92423e00",
+      "scryfall_uri": "https://scryfall.com/card/ncc/407/grixis-panorama?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "guildless commons": {
+      "name": "Guildless Commons",
+      "oracle_id": "ee723c7c-ec9f-4ffb-8f36-cd7637eb1fae",
+      "scryfall_uri": "https://scryfall.com/card/cmm/1003/guildless-commons?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "hall of heliod's generosity": {
+      "name": "Hall of Heliod's Generosity",
+      "oracle_id": "2fc070dc-f2f7-4648-8069-31d74790a39c",
+      "scryfall_uri": "https://scryfall.com/card/dsc/283/hall-of-heliods-generosity?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "haunted mire": {
+      "name": "Haunted Mire",
+      "oracle_id": "b0b58a03-462c-4964-97c7-42bc777ec23e",
+      "scryfall_uri": "https://scryfall.com/card/soc/379/haunted-mire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "haven of the spirit dragon": {
+      "name": "Haven of the Spirit Dragon",
+      "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
+      "scryfall_uri": "https://scryfall.com/card/tdc/370/haven-of-the-spirit-dragon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "helios one": {
+      "name": "HELIOS One",
+      "oracle_id": "cfb1a656-0bf1-484d-b099-33087914250b",
+      "scryfall_uri": "https://scryfall.com/card/pip/149/helios-one?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "hidden grotto": {
+      "name": "Hidden Grotto",
+      "oracle_id": "382d18a2-438e-4ae7-a83f-1658ef1f9b07",
+      "scryfall_uri": "https://scryfall.com/card/blb/254/hidden-grotto?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "hidden lair": {
+      "name": "Hidden Lair",
+      "oracle_id": "7069d241-4e66-40bf-afd1-551a4a5457f0",
+      "scryfall_uri": "https://scryfall.com/card/msh/269/hidden-lair?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "highland forest": {
+      "name": "Highland Forest",
+      "oracle_id": "35137378-6754-4bb1-a38e-5940890ccab1",
+      "scryfall_uri": "https://scryfall.com/card/clb/896/highland-forest?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "hinterland harbor": {
+      "name": "Hinterland Harbor",
+      "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6",
+      "scryfall_uri": "https://scryfall.com/card/msc/250/hinterland-harbor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "hobbit hole": {
+      "name": "Hobbit Hole",
+      "oracle_id": "17492186-9814-4c41-8111-1f000a96c212",
+      "scryfall_uri": "https://scryfall.com/card/hob/184/hobbit-hole?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "howltooth hollow": {
+      "name": "Howltooth Hollow",
+      "oracle_id": "463fc699-f4fc-4112-a6b3-6dcb642203e6",
+      "scryfall_uri": "https://scryfall.com/card/lrw/269/howltooth-hollow?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ice tunnel": {
+      "name": "Ice Tunnel",
+      "oracle_id": "40c5d6fe-854a-436d-9f80-13eb5f1f8f68",
+      "scryfall_uri": "https://scryfall.com/card/khm/262/ice-tunnel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "idyllic beachfront": {
+      "name": "Idyllic Beachfront",
+      "oracle_id": "0aea7e5d-40d7-46c7-a8a6-479cb8061e49",
+      "scryfall_uri": "https://scryfall.com/card/dmu/249/idyllic-beachfront?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "idyllic grange": {
+      "name": "Idyllic Grange",
+      "oracle_id": "23d349a0-e441-40b8-b634-13e61440a7c8",
+      "scryfall_uri": "https://scryfall.com/card/eld/246/idyllic-grange?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "indatha triome": {
+      "name": "Indatha Triome",
+      "oracle_id": "ec2b3779-55f7-4169-aa66-6312fb52721f",
+      "scryfall_uri": "https://scryfall.com/card/iko/248/indatha-triome?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "isolated chapel": {
+      "name": "Isolated Chapel",
+      "oracle_id": "7e5d9efe-48a9-434b-bb09-056e0e09cc9a",
+      "scryfall_uri": "https://scryfall.com/card/frc/74/isolated-chapel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "jagged barrens": {
+      "name": "Jagged Barrens",
+      "oracle_id": "64ee02f1-afdb-474b-a893-31538ad7219a",
+      "scryfall_uri": "https://scryfall.com/card/otj/259/jagged-barrens?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "jetmir's garden": {
+      "name": "Jetmir's Garden",
+      "oracle_id": "f5896356-5744-4f7e-a4e5-1cc36dde5958",
+      "scryfall_uri": "https://scryfall.com/card/snc/250/jetmirs-garden?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "jund panorama": {
+      "name": "Jund Panorama",
+      "oracle_id": "f39f33ac-074d-442d-ae4c-1d694ee315f3",
+      "scryfall_uri": "https://scryfall.com/card/ncc/408/jund-panorama?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "jungle shrine": {
+      "name": "Jungle Shrine",
+      "oracle_id": "2e69537c-c898-4e13-a72d-ce3957a90304",
+      "scryfall_uri": "https://scryfall.com/card/ecc/154/jungle-shrine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "karn's bastion": {
+      "name": "Karn's Bastion",
+      "oracle_id": "9fb8cd81-403a-4988-8f1c-b8eccf8abd9c",
+      "scryfall_uri": "https://scryfall.com/card/eoc/163/karns-bastion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "karplusan forest": {
+      "name": "Karplusan Forest",
+      "oracle_id": "bd912666-f37f-4767-af6f-9e6d0fcccacf",
+      "scryfall_uri": "https://scryfall.com/card/eoc/164/karplusan-forest?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "kessig wolf run": {
+      "name": "Kessig Wolf Run",
+      "oracle_id": "c6911265-54ef-4c16-bcf2-1ffb24b7d426",
+      "scryfall_uri": "https://scryfall.com/card/tdc/375/kessig-wolf-run?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ketria triome": {
+      "name": "Ketria Triome",
+      "oracle_id": "6bae00e8-06cf-4ac4-a1cc-757e454109fe",
+      "scryfall_uri": "https://scryfall.com/card/iko/250/ketria-triome?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "kher keep": {
+      "name": "Kher Keep",
+      "oracle_id": "79638767-fbc7-451a-b29f-d93f2ac6f102",
+      "scryfall_uri": "https://scryfall.com/card/frc/75/kher-keep?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "krosan verge": {
+      "name": "Krosan Verge",
+      "oracle_id": "d9a10971-f32b-4978-952d-fed0a5bc9e36",
+      "scryfall_uri": "https://scryfall.com/card/otc/304/krosan-verge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "leechridden swamp": {
+      "name": "Leechridden Swamp",
+      "oracle_id": "d83c86c1-126d-49e9-9b13-9e55784c49c5",
+      "scryfall_uri": "https://scryfall.com/card/dsc/286/leechridden-swamp?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "llanowar wastes": {
+      "name": "Llanowar Wastes",
+      "oracle_id": "32116127-cf96-4a1b-8896-a1ebc087b597",
+      "scryfall_uri": "https://scryfall.com/card/soc/383/llanowar-wastes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "lonely arroyo": {
+      "name": "Lonely Arroyo",
+      "oracle_id": "36508a8a-d1a4-400e-bfda-09436bc4d5d4",
+      "scryfall_uri": "https://scryfall.com/card/otj/260/lonely-arroyo?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "lush oasis": {
+      "name": "Lush Oasis",
+      "oracle_id": "b6a965eb-cffb-41c1-925a-7cf3e8e2f248",
+      "scryfall_uri": "https://scryfall.com/card/otj/261/lush-oasis?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "luxury suite": {
+      "name": "Luxury Suite",
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "scryfall_uri": "https://scryfall.com/card/msc/252/luxury-suite?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "maelstrom of the spirit dragon": {
+      "name": "Maelstrom of the Spirit Dragon",
+      "oracle_id": "49e9fba7-8465-4bbb-95db-73a7e149f494",
+      "scryfall_uri": "https://scryfall.com/card/tdm/260/maelstrom-of-the-spirit-dragon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "maze of ith": {
+      "name": "Maze of Ith",
+      "oracle_id": "38a12bd7-4394-44a8-91a0-6a4ff7fa4f71",
+      "scryfall_uri": "https://scryfall.com/card/dmr/250/maze-of-ith?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mech hangar": {
+      "name": "Mech Hangar",
+      "oracle_id": "abc04775-171d-41f3-83ea-4b4eb72723d5",
+      "scryfall_uri": "https://scryfall.com/card/neo/270/mech-hangar?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mirage mesa": {
+      "name": "Mirage Mesa",
+      "oracle_id": "e103f422-85c0-43f8-8a2f-8b7863e503fa",
+      "scryfall_uri": "https://scryfall.com/card/otj/262/mirage-mesa?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mishra's workshop": {
+      "name": "Mishra's Workshop",
+      "oracle_id": "ba284fe6-bb29-455c-8321-9714a0cdc05e",
+      "scryfall_uri": "https://scryfall.com/card/vma/305/mishras-workshop?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mistvault bridge": {
+      "name": "Mistvault Bridge",
+      "oracle_id": "33ee23bc-6327-4a54-a704-dfd83be36bb5",
+      "scryfall_uri": "https://scryfall.com/card/mh2/249/mistvault-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "molten tributary": {
+      "name": "Molten Tributary",
+      "oracle_id": "58c592ed-20fc-481b-909b-2315567e5f20",
+      "scryfall_uri": "https://scryfall.com/card/soc/387/molten-tributary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "morphic pool": {
+      "name": "Morphic Pool",
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "scryfall_uri": "https://scryfall.com/card/clb/357/morphic-pool?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mossfire valley": {
+      "name": "Mossfire Valley",
+      "oracle_id": "23bbd091-f6ff-4514-97aa-42c08164b4eb",
+      "scryfall_uri": "https://scryfall.com/card/tdc/378/mossfire-valley?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mosswort bridge": {
+      "name": "Mosswort Bridge",
+      "oracle_id": "7cb9e29f-835f-4155-a2a5-4b778866c773",
+      "scryfall_uri": "https://scryfall.com/card/tdc/379/mosswort-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mountain valley": {
+      "name": "Mountain Valley",
+      "oracle_id": "0b7393aa-d563-45bc-9946-8e7d1729d498",
+      "scryfall_uri": "https://scryfall.com/card/eoc/61/mountain-valley?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "muraganda raceway": {
+      "name": "Muraganda Raceway",
+      "oracle_id": "b5fa5651-d714-44d6-867b-be0e3224b7ed",
+      "scryfall_uri": "https://scryfall.com/card/dft/257/muraganda-raceway?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "myriad landscape": {
+      "name": "Myriad Landscape",
+      "oracle_id": "2549bc57-9ffb-4053-9f10-f2a5f792b845",
+      "scryfall_uri": "https://scryfall.com/card/eoc/169/myriad-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mystic gate": {
+      "name": "Mystic Gate",
+      "oracle_id": "e9f5feb2-2c1a-46ce-885a-4f378d7d10af",
+      "scryfall_uri": "https://scryfall.com/card/frc/76/mystic-gate?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "mystic monastery": {
+      "name": "Mystic Monastery",
+      "oracle_id": "834b8f71-9a45-42ae-9e99-e749fa6fb45e",
+      "scryfall_uri": "https://scryfall.com/card/msc/253/mystic-monastery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "naya panorama": {
+      "name": "Naya Panorama",
+      "oracle_id": "71e28800-c42c-48c0-95e5-0296be54a4e8",
+      "scryfall_uri": "https://scryfall.com/card/ncc/417/naya-panorama?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "necroblossom snarl": {
+      "name": "Necroblossom Snarl",
+      "oracle_id": "761ee6f9-b0fa-43c9-8d1f-9591ea18e52d",
+      "scryfall_uri": "https://scryfall.com/card/soc/389/necroblossom-snarl?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "nimbus maze": {
+      "name": "Nimbus Maze",
+      "oracle_id": "d7e1d4eb-1d4e-460e-9304-7db9ab50ccb5",
+      "scryfall_uri": "https://scryfall.com/card/afc/252/nimbus-maze?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "nomad outpost": {
+      "name": "Nomad Outpost",
+      "oracle_id": "4619de7e-3d6e-4c6b-8e6e-e24db324839d",
+      "scryfall_uri": "https://scryfall.com/card/tdm/263/nomad-outpost?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "nykthos, shrine to nyx": {
+      "name": "Nykthos, Shrine to Nyx",
+      "oracle_id": "84dc18f0-8225-4b40-a165-b10321e41769",
+      "scryfall_uri": "https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "obscura storefront": {
+      "name": "Obscura Storefront",
+      "oracle_id": "dc31a6f8-6228-4a25-b937-5d8d78514333",
+      "scryfall_uri": "https://scryfall.com/card/dsc/291/obscura-storefront?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "opal palace": {
+      "name": "Opal Palace",
+      "oracle_id": "aa6723a2-75da-49f5-a1ba-cbfa82c55301",
+      "scryfall_uri": "https://scryfall.com/card/soc/390/opal-palace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "opulent palace": {
+      "name": "Opulent Palace",
+      "oracle_id": "f9e7e855-1e3b-42d3-91b0-64ba8b5b8982",
+      "scryfall_uri": "https://scryfall.com/card/ecc/157/opulent-palace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "oran-rief, the vastwood": {
+      "name": "Oran-Rief, the Vastwood",
+      "oracle_id": "e88027a6-24cc-4a8b-86db-734f26149ea8",
+      "scryfall_uri": "https://scryfall.com/card/soc/391/oran-rief-the-vastwood?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "overflowing basin": {
+      "name": "Overflowing Basin",
+      "oracle_id": "5ac8e01c-b0a7-4855-a122-1cd26b07c4a5",
+      "scryfall_uri": "https://scryfall.com/card/soc/392/overflowing-basin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "path of ancestry": {
+      "name": "Path of Ancestry",
+      "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+      "scryfall_uri": "https://scryfall.com/card/mbc/80/path-of-ancestry?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "perilous landscape": {
+      "name": "Perilous Landscape",
+      "oracle_id": "e2b472dd-047d-47eb-9ebb-df6aa4b52dd4",
+      "scryfall_uri": "https://scryfall.com/card/frc/78/perilous-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "planar nexus": {
+      "name": "Planar Nexus",
+      "oracle_id": "26005003-afcb-4c32-a760-be950246ff0f",
+      "scryfall_uri": "https://scryfall.com/card/m3c/80/planar-nexus?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "port town": {
+      "name": "Port Town",
+      "oracle_id": "458d2b12-f578-4392-98d3-c3bc83f316c4",
+      "scryfall_uri": "https://scryfall.com/card/msc/256/port-town?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "primal beyond": {
+      "name": "Primal Beyond",
+      "oracle_id": "541744d9-449d-420a-a5a1-2fffba18450f",
+      "scryfall_uri": "https://scryfall.com/card/ecc/159/primal-beyond?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "promising vein": {
+      "name": "Promising Vein",
+      "oracle_id": "861eb7d7-7616-4620-a4fd-4b8c3bf00dd1",
+      "scryfall_uri": "https://scryfall.com/card/lci/279/promising-vein?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "radiant grove": {
+      "name": "Radiant Grove",
+      "oracle_id": "32c91719-f3dd-4cc7-9e32-7d5ccf18f07c",
+      "scryfall_uri": "https://scryfall.com/card/tdc/385/radiant-grove?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "raffine's tower": {
+      "name": "Raffine's Tower",
+      "oracle_id": "6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b",
+      "scryfall_uri": "https://scryfall.com/card/snc/254/raffines-tower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "raugrin triome": {
+      "name": "Raugrin Triome",
+      "oracle_id": "c7fa1dda-9312-4ec8-82cd-a1ba7bc33497",
+      "scryfall_uri": "https://scryfall.com/card/iko/251/raugrin-triome?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "razortide bridge": {
+      "name": "Razortide Bridge",
+      "oracle_id": "6cb37ac1-dd11-4a8c-bca5-ef44d828059f",
+      "scryfall_uri": "https://scryfall.com/card/eoc/171/razortide-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "reflecting pool": {
+      "name": "Reflecting Pool",
+      "oracle_id": "67f43ac6-2a58-4b53-b5d7-0330e2a252e2",
+      "scryfall_uri": "https://scryfall.com/card/frc/23/reflecting-pool?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "reliquary tower": {
+      "name": "Reliquary Tower",
+      "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f",
+      "scryfall_uri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rimewood falls": {
+      "name": "Rimewood Falls",
+      "oracle_id": "983739cd-0b36-40d9-9a03-7b6aa7ffd0df",
+      "scryfall_uri": "https://scryfall.com/card/khm/266/rimewood-falls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "riptide laboratory": {
+      "name": "Riptide Laboratory",
+      "oracle_id": "444d50dd-a44a-42db-bbf6-d0978e3bd6a3",
+      "scryfall_uri": "https://scryfall.com/card/mh2/303/riptide-laboratory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "riveteers overlook": {
+      "name": "Riveteers Overlook",
+      "oracle_id": "5548ff43-e5f6-4a63-8562-a2b1de06d6f5",
+      "scryfall_uri": "https://scryfall.com/card/ecc/162/riveteers-overlook?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rocky tar pit": {
+      "name": "Rocky Tar Pit",
+      "oracle_id": "8709b5b1-ef9e-45b2-bf4f-ef4c4d613dcd",
+      "scryfall_uri": "https://scryfall.com/card/eoc/173/rocky-tar-pit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rogue's passage": {
+      "name": "Rogue's Passage",
+      "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+      "scryfall_uri": "https://scryfall.com/card/hoc/212/rogues-passage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rootbound crag": {
+      "name": "Rootbound Crag",
+      "oracle_id": "9516c4c1-d72d-434f-97e1-6a862434a169",
+      "scryfall_uri": "https://scryfall.com/card/msc/261/rootbound-crag?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rugged prairie": {
+      "name": "Rugged Prairie",
+      "oracle_id": "8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8",
+      "scryfall_uri": "https://scryfall.com/card/soc/401/rugged-prairie?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rustvale bridge": {
+      "name": "Rustvale Bridge",
+      "oracle_id": "a3faf70d-c034-4692-9e92-1922029e3852",
+      "scryfall_uri": "https://scryfall.com/card/eoc/175/rustvale-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sacred peaks": {
+      "name": "Sacred Peaks",
+      "oracle_id": "fb69bc57-f05a-41c2-9b7b-9a9761ef0cd3",
+      "scryfall_uri": "https://scryfall.com/card/soc/402/sacred-peaks?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sandsteppe citadel": {
+      "name": "Sandsteppe Citadel",
+      "oracle_id": "544dbabd-cbfc-40da-a5ba-2fea9cddb453",
+      "scryfall_uri": "https://scryfall.com/card/ecc/164/sandsteppe-citadel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sandstorm verge": {
+      "name": "Sandstorm Verge",
+      "oracle_id": "de417a82-8f03-4d7e-aee7-48f7d7eba61a",
+      "scryfall_uri": "https://scryfall.com/card/otj/263/sandstorm-verge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "savage lands": {
+      "name": "Savage Lands",
+      "oracle_id": "a3292406-3f49-42d6-a547-e43dd5797f84",
+      "scryfall_uri": "https://scryfall.com/card/msc/827/savage-lands?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "savai triome": {
+      "name": "Savai Triome",
+      "oracle_id": "00625242-9348-4ef4-b975-f2ac82fee21d",
+      "scryfall_uri": "https://scryfall.com/card/iko/253/savai-triome?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
     }
   }
 }
