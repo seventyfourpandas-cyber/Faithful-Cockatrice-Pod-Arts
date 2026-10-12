@@ -11960,6 +11960,806 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-12"
+    },
+    "sea of clouds": {
+      "name": "Sea of Clouds",
+      "oracle_id": "672e190d-8ea0-4a2e-b74f-5d35304631e4",
+      "scryfall_uri": "https://scryfall.com/card/clb/360/sea-of-clouds?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "seaside citadel": {
+      "name": "Seaside Citadel",
+      "oracle_id": "2ae77795-6a80-498b-bf69-6fd612f601e4",
+      "scryfall_uri": "https://scryfall.com/card/ecc/166/seaside-citadel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "secluded courtyard": {
+      "name": "Secluded Courtyard",
+      "oracle_id": "79ba18fd-f184-43c1-86df-56ee18ce806c",
+      "scryfall_uri": "https://scryfall.com/card/msc/265/secluded-courtyard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "seething landscape": {
+      "name": "Seething Landscape",
+      "oracle_id": "2d8635bd-ed96-4bb1-8718-6962a0eee3d5",
+      "scryfall_uri": "https://scryfall.com/card/mh3/225/seething-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "serra's sanctum": {
+      "name": "Serra's Sanctum",
+      "oracle_id": "34187c71-6033-4058-aadc-2bc266f762be",
+      "scryfall_uri": "https://scryfall.com/card/usg/325/serras-sanctum?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shadowblood ridge": {
+      "name": "Shadowblood Ridge",
+      "oracle_id": "15687ee3-3cdb-4a8f-a726-46b73bceb792",
+      "scryfall_uri": "https://scryfall.com/card/dsc/296/shadowblood-ridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shattered landscape": {
+      "name": "Shattered Landscape",
+      "oracle_id": "7fbad3f2-66f6-4e3a-b9e0-1ddbcd94d42a",
+      "scryfall_uri": "https://scryfall.com/card/tdc/390/shattered-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shelldock isle": {
+      "name": "Shelldock Isle",
+      "oracle_id": "f748b2fb-6c2a-400a-8e96-fa4e4a1dfe80",
+      "scryfall_uri": "https://scryfall.com/card/lrw/272/shelldock-isle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sheltering landscape": {
+      "name": "Sheltering Landscape",
+      "oracle_id": "5b932be0-4dac-41b9-9c59-f79e4cecc31a",
+      "scryfall_uri": "https://scryfall.com/card/mh3/227/sheltering-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shineshadow snarl": {
+      "name": "Shineshadow Snarl",
+      "oracle_id": "c9fc13d6-bd10-47bc-b2b6-7f67a1f3371e",
+      "scryfall_uri": "https://scryfall.com/card/soc/403/shineshadow-snarl?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shire terrace": {
+      "name": "Shire Terrace",
+      "oracle_id": "619173f4-0403-49cd-9659-2fedd5028a90",
+      "scryfall_uri": "https://scryfall.com/card/ltr/261/shire-terrace?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shivan gorge": {
+      "name": "Shivan Gorge",
+      "oracle_id": "e90a1381-c9c1-4f57-928c-5d19dc065274",
+      "scryfall_uri": "https://scryfall.com/card/dsc/297/shivan-gorge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shivan reef": {
+      "name": "Shivan Reef",
+      "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+      "scryfall_uri": "https://scryfall.com/card/frc/83/shivan-reef?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shizo, death's storehouse": {
+      "name": "Shizo, Death's Storehouse",
+      "oracle_id": "008f2698-1721-45a3-8353-10f2f400dc8f",
+      "scryfall_uri": "https://scryfall.com/card/dmc/233/shizo-deaths-storehouse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "shrine of the forsaken gods": {
+      "name": "Shrine of the Forsaken Gods",
+      "oracle_id": "8ea46945-d5ab-4209-b473-4769e7b8b962",
+      "scryfall_uri": "https://scryfall.com/card/mkc/292/shrine-of-the-forsaken-gods?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "silverbluff bridge": {
+      "name": "Silverbluff Bridge",
+      "oracle_id": "081bfd50-a436-463b-9d2c-5bc8a32b387c",
+      "scryfall_uri": "https://scryfall.com/card/eoc/180/silverbluff-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "skemfar elderhall": {
+      "name": "Skemfar Elderhall",
+      "oracle_id": "70965b80-c8ad-4718-ae20-12a4d8228898",
+      "scryfall_uri": "https://scryfall.com/card/khm/268/skemfar-elderhall?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "skycloud expanse": {
+      "name": "Skycloud Expanse",
+      "oracle_id": "76f335d0-7f71-4b1a-b60d-73de954cbe2c",
+      "scryfall_uri": "https://scryfall.com/card/eoc/181/skycloud-expanse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "slagwoods bridge": {
+      "name": "Slagwoods Bridge",
+      "oracle_id": "e040a8e6-b90c-42d1-a1b1-771d954c61ab",
+      "scryfall_uri": "https://scryfall.com/card/mh2/256/slagwoods-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "slayers' stronghold": {
+      "name": "Slayers' Stronghold",
+      "oracle_id": "2de7367b-a5a4-43f4-8f8f-b931ea28150d",
+      "scryfall_uri": "https://scryfall.com/card/mkc/295/slayers-stronghold?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "snowfield sinkhole": {
+      "name": "Snowfield Sinkhole",
+      "oracle_id": "749c2c8e-9588-4e83-b07f-3c37eb63338b",
+      "scryfall_uri": "https://scryfall.com/card/clb/915/snowfield-sinkhole?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "soured springs": {
+      "name": "Soured Springs",
+      "oracle_id": "e579edd7-4f6c-4f22-a72f-0a20d7a698a2",
+      "scryfall_uri": "https://scryfall.com/card/otj/264/soured-springs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "spara's headquarters": {
+      "name": "Spara's Headquarters",
+      "oracle_id": "3123ec89-8e95-4761-ba17-747ec667509f",
+      "scryfall_uri": "https://scryfall.com/card/snc/257/sparas-headquarters?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "spinerock knoll": {
+      "name": "Spinerock Knoll",
+      "oracle_id": "690c7f8e-fea2-4920-afa7-02ff120701a1",
+      "scryfall_uri": "https://scryfall.com/card/dsc/300/spinerock-knoll?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "spire garden": {
+      "name": "Spire Garden",
+      "oracle_id": "45fe016e-1a09-410c-bbe3-4663ba06c5b7",
+      "scryfall_uri": "https://scryfall.com/card/tmc/75/spire-garden?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "spire of industry": {
+      "name": "Spire of Industry",
+      "oracle_id": "55a519b4-61cb-448a-875b-4d6dbe00580f",
+      "scryfall_uri": "https://scryfall.com/card/eoc/183/spire-of-industry?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "starting town": {
+      "name": "Starting Town",
+      "oracle_id": "d04e0975-f401-41b8-a9db-9bcf9cbbce66",
+      "scryfall_uri": "https://scryfall.com/card/fin/289/starting-town?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "strip mine": {
+      "name": "Strip Mine",
+      "oracle_id": "d21a89eb-7c5b-459a-acc7-12b20b13bf79",
+      "scryfall_uri": "https://scryfall.com/card/vma/316/strip-mine?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sulfur falls": {
+      "name": "Sulfur Falls",
+      "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+      "scryfall_uri": "https://scryfall.com/card/frc/84/sulfur-falls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sulfurous mire": {
+      "name": "Sulfurous Mire",
+      "oracle_id": "77cf536e-246e-4c18-8e04-c904fcad3f40",
+      "scryfall_uri": "https://scryfall.com/card/khm/270/sulfurous-mire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sulfurous springs": {
+      "name": "Sulfurous Springs",
+      "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+      "scryfall_uri": "https://scryfall.com/card/frc/85/sulfurous-springs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sungrass prairie": {
+      "name": "Sungrass Prairie",
+      "oracle_id": "0a28dff0-2bd6-4105-b73a-b6c4735833fd",
+      "scryfall_uri": "https://scryfall.com/card/msc/270/sungrass-prairie?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sunhome, fortress of the legion": {
+      "name": "Sunhome, Fortress of the Legion",
+      "oracle_id": "a9f8344c-1705-4254-81d6-aa05e0c69c29",
+      "scryfall_uri": "https://scryfall.com/card/otc/324/sunhome-fortress-of-the-legion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sunken ruins": {
+      "name": "Sunken Ruins",
+      "oracle_id": "e6415ffb-8b7a-41c3-bedf-0d4112b7b795",
+      "scryfall_uri": "https://scryfall.com/card/frc/86/sunken-ruins?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sunlit marsh": {
+      "name": "Sunlit Marsh",
+      "oracle_id": "a5e5a259-5fa7-4b01-93cb-a2b4aaf80927",
+      "scryfall_uri": "https://scryfall.com/card/soc/409/sunlit-marsh?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sunpetal grove": {
+      "name": "Sunpetal Grove",
+      "oracle_id": "402ec768-76fb-474e-ae74-babc90d833c4",
+      "scryfall_uri": "https://scryfall.com/card/msc/272/sunpetal-grove?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sunscorched divide": {
+      "name": "Sunscorched Divide",
+      "oracle_id": "8d2b2675-19df-4f40-9e8e-196ec097b91c",
+      "scryfall_uri": "https://scryfall.com/card/soc/410/sunscorched-divide?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tainted field": {
+      "name": "Tainted Field",
+      "oracle_id": "439de49b-1091-4688-9ffb-80a025df31c2",
+      "scryfall_uri": "https://scryfall.com/card/dsc/302/tainted-field?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tainted isle": {
+      "name": "Tainted Isle",
+      "oracle_id": "0222414f-98b5-458a-a0fd-831a66cd8b07",
+      "scryfall_uri": "https://scryfall.com/card/dsc/303/tainted-isle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tainted peak": {
+      "name": "Tainted Peak",
+      "oracle_id": "b2bae7fc-0668-4b34-9cd6-0d80aea52275",
+      "scryfall_uri": "https://scryfall.com/card/dsc/304/tainted-peak?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tainted wood": {
+      "name": "Tainted Wood",
+      "oracle_id": "fa6d05a1-3df4-4751-b1a0-8d9693faec73",
+      "scryfall_uri": "https://scryfall.com/card/dsc/305/tainted-wood?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "talon gates of madara": {
+      "name": "Talon Gates of Madara",
+      "oracle_id": "8c45bf9d-a017-43bf-9e32-67810a8a217b",
+      "scryfall_uri": "https://scryfall.com/card/m3c/82/talon-gates-of-madara?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tangled islet": {
+      "name": "Tangled Islet",
+      "oracle_id": "4b1f68a2-b606-4c64-bd44-a9714808316d",
+      "scryfall_uri": "https://scryfall.com/card/soc/411/tangled-islet?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tanglepool bridge": {
+      "name": "Tanglepool Bridge",
+      "oracle_id": "29cd8a7c-108a-43d1-af63-f603a27c24f2",
+      "scryfall_uri": "https://scryfall.com/card/mh2/257/tanglepool-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tarnation vista": {
+      "name": "Tarnation Vista",
+      "oracle_id": "b0be3f25-edb1-4299-959c-9aad909730ca",
+      "scryfall_uri": "https://scryfall.com/card/big/30/tarnation-vista?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of abandon": {
+      "name": "Temple of Abandon",
+      "oracle_id": "3baa8e38-ef93-435d-b63e-f781d5bfcc68",
+      "scryfall_uri": "https://scryfall.com/card/tdc/400/temple-of-abandon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of deceit": {
+      "name": "Temple of Deceit",
+      "oracle_id": "33b9b3bd-33ca-46f3-b8bb-a978bc3d1085",
+      "scryfall_uri": "https://scryfall.com/card/fdn/697/temple-of-deceit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of enlightenment": {
+      "name": "Temple of Enlightenment",
+      "oracle_id": "89f43e27-790b-4ca1-8ba7-0882b31e0783",
+      "scryfall_uri": "https://scryfall.com/card/eoc/186/temple-of-enlightenment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of epiphany": {
+      "name": "Temple of Epiphany",
+      "oracle_id": "79f94050-d850-41ca-b1db-5ae0cf743f0a",
+      "scryfall_uri": "https://scryfall.com/card/soc/412/temple-of-epiphany?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of malady": {
+      "name": "Temple of Malady",
+      "oracle_id": "dc55421f-dee8-4263-9df0-2365df5f14bb",
+      "scryfall_uri": "https://scryfall.com/card/soc/413/temple-of-malady?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of malice": {
+      "name": "Temple of Malice",
+      "oracle_id": "7c439c18-31dc-41fe-b03d-3fca06e6fc0b",
+      "scryfall_uri": "https://scryfall.com/card/fdn/701/temple-of-malice?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of mystery": {
+      "name": "Temple of Mystery",
+      "oracle_id": "7e26f0b7-20e6-46d5-8130-d98c14d6aa29",
+      "scryfall_uri": "https://scryfall.com/card/soc/414/temple-of-mystery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of plenty": {
+      "name": "Temple of Plenty",
+      "oracle_id": "e521322b-0e83-458c-8936-7021a80ee279",
+      "scryfall_uri": "https://scryfall.com/card/tdc/405/temple-of-plenty?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of silence": {
+      "name": "Temple of Silence",
+      "oracle_id": "e6e6fce8-0f6a-4b84-865e-d4e4a4182f9f",
+      "scryfall_uri": "https://scryfall.com/card/soc/415/temple-of-silence?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of the dragon queen": {
+      "name": "Temple of the Dragon Queen",
+      "oracle_id": "169a26d2-7bc9-4403-9c92-98d4bd5ca4f3",
+      "scryfall_uri": "https://scryfall.com/card/tdc/104/temple-of-the-dragon-queen?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "temple of triumph": {
+      "name": "Temple of Triumph",
+      "oracle_id": "6f0d94d9-64bb-4175-83bc-301e8f79f54f",
+      "scryfall_uri": "https://scryfall.com/card/soc/417/temple-of-triumph?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "terramorphic expanse": {
+      "name": "Terramorphic Expanse",
+      "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a",
+      "scryfall_uri": "https://scryfall.com/card/msc/273/terramorphic-expanse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "the mycosynth gardens": {
+      "name": "The Mycosynth Gardens",
+      "oracle_id": "03f5c566-825c-4c46-9c01-a2f9b1e70a13",
+      "scryfall_uri": "https://scryfall.com/card/eoc/168/the-mycosynth-gardens?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "the world tree": {
+      "name": "The World Tree",
+      "oracle_id": "3437d504-bf62-4c27-b15f-f6330182ff7e",
+      "scryfall_uri": "https://scryfall.com/card/khm/275/the-world-tree?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thornglint bridge": {
+      "name": "Thornglint Bridge",
+      "oracle_id": "99720c65-be96-4220-8ed4-720660bf6928",
+      "scryfall_uri": "https://scryfall.com/card/mh2/258/thornglint-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thriving bluff": {
+      "name": "Thriving Bluff",
+      "oracle_id": "91fceb34-0f2d-4392-be27-00dcd765637f",
+      "scryfall_uri": "https://scryfall.com/card/msc/578/thriving-bluff?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thriving grove": {
+      "name": "Thriving Grove",
+      "oracle_id": "a8052556-8962-4130-86a8-6fb7b6a324f7",
+      "scryfall_uri": "https://scryfall.com/card/msc/579/thriving-grove?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thriving heath": {
+      "name": "Thriving Heath",
+      "oracle_id": "d1946630-e224-40db-8f0d-388b09622288",
+      "scryfall_uri": "https://scryfall.com/card/msc/580/thriving-heath?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thriving isle": {
+      "name": "Thriving Isle",
+      "oracle_id": "69fc70b8-b143-4662-ac95-e2743037239d",
+      "scryfall_uri": "https://scryfall.com/card/msc/581/thriving-isle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "thriving moor": {
+      "name": "Thriving Moor",
+      "oracle_id": "bff416bb-d193-4c45-b2c1-7c297dbfad08",
+      "scryfall_uri": "https://scryfall.com/card/msc/582/thriving-moor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "tranquil landscape": {
+      "name": "Tranquil Landscape",
+      "oracle_id": "d4eb65d5-99fd-4daf-b7d3-8ebf99ee9c61",
+      "scryfall_uri": "https://scryfall.com/card/mh3/231/tranquil-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "treasure vault": {
+      "name": "Treasure Vault",
+      "oracle_id": "3c43efd6-b1a8-452c-ae20-9a936c3340ab",
+      "scryfall_uri": "https://scryfall.com/card/afr/261/treasure-vault?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent crater": {
+      "name": "Turbulent Crater",
+      "oracle_id": "e86a0b64-fe4a-4ea8-99e8-35860dbac765",
+      "scryfall_uri": "https://scryfall.com/card/frc/16/turbulent-crater?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent fen": {
+      "name": "Turbulent Fen",
+      "oracle_id": "114dd40d-5ad8-4913-a08f-572b9521eb5b",
+      "scryfall_uri": "https://scryfall.com/card/soc/55/turbulent-fen?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent moor": {
+      "name": "Turbulent Moor",
+      "oracle_id": "2eb4da30-2600-4a7f-8e6c-6a090faa9a8d",
+      "scryfall_uri": "https://scryfall.com/card/soc/56/turbulent-moor?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent shore": {
+      "name": "Turbulent Shore",
+      "oracle_id": "c13c5f07-dac5-47d0-a088-e24b9fbec3c5",
+      "scryfall_uri": "https://scryfall.com/card/frc/17/turbulent-shore?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent springs": {
+      "name": "Turbulent Springs",
+      "oracle_id": "9aef7510-9f06-4939-8cae-f71330d1105e",
+      "scryfall_uri": "https://scryfall.com/card/soc/57/turbulent-springs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent steppe": {
+      "name": "Turbulent Steppe",
+      "oracle_id": "db444f9d-4dde-4308-b0f2-7acfe6de871a",
+      "scryfall_uri": "https://scryfall.com/card/soc/58/turbulent-steppe?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent wetlands": {
+      "name": "Turbulent Wetlands",
+      "oracle_id": "b51c8659-ec4f-4213-beb1-49a7acd7366c",
+      "scryfall_uri": "https://scryfall.com/card/frc/18/turbulent-wetlands?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "turbulent wilderness": {
+      "name": "Turbulent Wilderness",
+      "oracle_id": "bd8adca6-4f16-45f8-994a-fe55bd573bd0",
+      "scryfall_uri": "https://scryfall.com/card/soc/59/turbulent-wilderness?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "twilight mire": {
+      "name": "Twilight Mire",
+      "oracle_id": "db623754-e078-4030-ba07-818803c348a8",
+      "scryfall_uri": "https://scryfall.com/card/soc/418/twilight-mire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "twisted landscape": {
+      "name": "Twisted Landscape",
+      "oracle_id": "db659cae-2078-423e-a6ed-63898dbab87f",
+      "scryfall_uri": "https://scryfall.com/card/mh3/232/twisted-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "umbral expanse": {
+      "name": "Umbral Expanse",
+      "oracle_id": "5a1dfc60-645d-4bc0-8883-e06ed9c80706",
+      "scryfall_uri": "https://scryfall.com/card/soc/60/umbral-expanse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "unclaimed territory": {
+      "name": "Unclaimed Territory",
+      "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+      "scryfall_uri": "https://scryfall.com/card/msc/275/unclaimed-territory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "underground river": {
+      "name": "Underground River",
+      "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+      "scryfall_uri": "https://scryfall.com/card/frc/87/underground-river?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "undiscovered paradise": {
+      "name": "Undiscovered Paradise",
+      "oracle_id": "76c33d54-ce55-400e-bec5-79d33a5a20fb",
+      "scryfall_uri": "https://scryfall.com/card/vis/167/undiscovered-paradise?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "urza's cave": {
+      "name": "Urza's Cave",
+      "oracle_id": "4474ecee-0ec3-409b-90df-738d9313fe3c",
+      "scryfall_uri": "https://scryfall.com/card/mh3/234/urzas-cave?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "urza's factory": {
+      "name": "Urza's Factory",
+      "oracle_id": "5a620d20-f14e-43d0-8e57-c2a197e2ec51",
+      "scryfall_uri": "https://scryfall.com/card/tsr/288/urzas-factory?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "urza's workshop": {
+      "name": "Urza's Workshop",
+      "oracle_id": "71099427-e110-488f-ab29-7867241fc7f0",
+      "scryfall_uri": "https://scryfall.com/card/brc/28/urzas-workshop?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "valakut, the molten pinnacle": {
+      "name": "Valakut, the Molten Pinnacle",
+      "oracle_id": "1bc44216-4e06-4f66-89b7-5c327004604e",
+      "scryfall_uri": "https://scryfall.com/card/zen/228/valakut-the-molten-pinnacle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "valgavoth's lair": {
+      "name": "Valgavoth's Lair",
+      "oracle_id": "660d44a2-391a-416c-b46c-ddcc3739f527",
+      "scryfall_uri": "https://scryfall.com/card/dsk/271/valgavoths-lair?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "vault of the archangel": {
+      "name": "Vault of the Archangel",
+      "oracle_id": "eeaac65a-3480-475a-bb28-e6375d53f487",
+      "scryfall_uri": "https://scryfall.com/card/tdc/410/vault-of-the-archangel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "vesuva": {
+      "name": "Vesuva",
+      "oracle_id": "4001b868-ada1-43f4-92e2-27ab0e80c913",
+      "scryfall_uri": "https://scryfall.com/card/tsr/289/vesuva?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "vibrant cityscape": {
+      "name": "Vibrant Cityscape",
+      "oracle_id": "6a7f3e1f-6798-4644-b64c-7765f81f0938",
+      "scryfall_uri": "https://scryfall.com/card/tmc/82/vibrant-cityscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "vineglimmer snarl": {
+      "name": "Vineglimmer Snarl",
+      "oracle_id": "33f52df8-4b44-4422-8b0a-37fead9c894b",
+      "scryfall_uri": "https://scryfall.com/card/soc/420/vineglimmer-snarl?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "viridescent bog": {
+      "name": "Viridescent Bog",
+      "oracle_id": "6bd6d259-1af7-4dff-a79c-48a616d2a36e",
+      "scryfall_uri": "https://scryfall.com/card/soc/421/viridescent-bog?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "volatile fjord": {
+      "name": "Volatile Fjord",
+      "oracle_id": "96262c15-9130-409c-8242-71f84be719b7",
+      "scryfall_uri": "https://scryfall.com/card/khm/273/volatile-fjord?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "war room": {
+      "name": "War Room",
+      "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d",
+      "scryfall_uri": "https://scryfall.com/card/soc/422/war-room?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "windbrisk heights": {
+      "name": "Windbrisk Heights",
+      "oracle_id": "3589bcfc-42b0-414a-adce-bc690dc631c8",
+      "scryfall_uri": "https://scryfall.com/card/tdc/411/windbrisk-heights?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "wirewood lodge": {
+      "name": "Wirewood Lodge",
+      "oracle_id": "1275653f-de4e-4fe9-aad8-88555fa11680",
+      "scryfall_uri": "https://scryfall.com/card/evg/27/wirewood-lodge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "witch's clinic": {
+      "name": "Witch's Clinic",
+      "oracle_id": "05899372-9784-4bdb-9c28-504c71fed906",
+      "scryfall_uri": "https://scryfall.com/card/dsc/325/witchs-clinic?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "witch's cottage": {
+      "name": "Witch's Cottage",
+      "oracle_id": "6c8f276e-4e7b-4974-ab02-9356cc0ffb2b",
+      "scryfall_uri": "https://scryfall.com/card/eld/249/witchs-cottage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "wooded bastion": {
+      "name": "Wooded Bastion",
+      "oracle_id": "61b85077-64aa-4bcc-890d-2d88da9543c0",
+      "scryfall_uri": "https://scryfall.com/card/2xm/332/wooded-bastion?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "wooded ridgeline": {
+      "name": "Wooded Ridgeline",
+      "oracle_id": "c2ca3e20-23ca-4d2a-88a1-5e98ff884abb",
+      "scryfall_uri": "https://scryfall.com/card/dmu/260/wooded-ridgeline?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "woodland cemetery": {
+      "name": "Woodland Cemetery",
+      "oracle_id": "c9fe1383-1331-4a58-a45a-3320250221a9",
+      "scryfall_uri": "https://scryfall.com/card/soc/424/woodland-cemetery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
     }
   }
 }
