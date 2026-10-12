@@ -13925,6 +13925,137 @@
       "image_file": "WLX-1349.jpg",
       "image_sha256": "529d561ac1d119b3da55129760e9516db5eb2b661d8542c745a09932ae7ed4d4",
       "notes": "Imported from will/Vernal Fen.jpg in file batch b9839c2045"
+    },
+    {
+      "collector_number": "1350",
+      "uuid": "a050d7fc-5456-51a4-8bba-2b1bfe70a0eb",
+      "card_kind": "official",
+      "official_name": "Canyon Slough",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1350.jpg",
+      "image_sha256": "f3f32733457b22099c6950f92a61115aaed20a8e6424ff0e1f704aa0e4ce1592",
+      "notes": "Imported from will/Canyon Slough.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1351",
+      "uuid": "0d4d5cf3-9628-5a68-a864-068819394b6c",
+      "card_kind": "official",
+      "official_name": "Coastal Peak",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1351.jpg",
+      "image_sha256": "0a733e73ceeb25a0fb185b51328c3d519ec5aea9131fb279840e9b221255378b",
+      "notes": "Imported from will/Coastal Peak.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1352",
+      "uuid": "13a0fcc3-3b99-5074-a869-fb0c824c0237",
+      "card_kind": "official",
+      "official_name": "Festering Thicket",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1352.jpg",
+      "image_sha256": "4e78ee66ae8b9e1c661f26a7115e1c9581c6332756d115e7ff563fe8c6cf0b47",
+      "notes": "Imported from will/Festering Thicket.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1353",
+      "uuid": "f66cde6d-9331-5c0d-9f4d-94a1dc625920",
+      "card_kind": "official",
+      "official_name": "Fetid Pools",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1353.jpg",
+      "image_sha256": "05139863946089f9217aa59afa8753d623d8d486f7db2c78ec995de5eeefe5b4",
+      "notes": "Imported from will/Fetid Pools.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1354",
+      "uuid": "10440e6c-632e-5f4f-8e2e-ace485ad6176",
+      "card_kind": "official",
+      "official_name": "Glittering Massif",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1354.jpg",
+      "image_sha256": "ad8586eccb815f81df9050aa5e0c22382e1380dd89c8639175872adc6f180bd3",
+      "notes": "Imported from will/Glittering Massif.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1355",
+      "uuid": "ea50cda6-694c-57d8-a0a6-a5609d9d1982",
+      "card_kind": "official",
+      "official_name": "Irrigated Farmland",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1355.jpg",
+      "image_sha256": "24129b0160ead9032acddde9ee8bf95c004b27f77a137df4b3a916eb51ea4c54",
+      "notes": "Imported from will/Irrigated Farmland.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1356",
+      "uuid": "e069c254-11a2-50a6-a988-093a1128277b",
+      "card_kind": "official",
+      "official_name": "Rain-Slicked Copse",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1356.jpg",
+      "image_sha256": "e5db512c45fcfc1affb7cc1524d96b1d91d75175b3c11c68b436375c73206ba7",
+      "notes": "Imported from will/Rain-Slicked Copse.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1357",
+      "uuid": "7a6a7238-abae-5c3e-9837-33f99e0c9046",
+      "card_kind": "official",
+      "official_name": "Scattered Groves",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1357.jpg",
+      "image_sha256": "970c0562605968e1de8c2488e2aeaf89d282e62c7620b5a5e7db1975c398ab6d",
+      "notes": "Imported from will/Scattered Groves.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1358",
+      "uuid": "2213506b-1d9e-5370-97f1-ef6b1f01bca0",
+      "card_kind": "official",
+      "official_name": "Sheltered Thicket",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1358.jpg",
+      "image_sha256": "02aa2ac20658e4e309b87276a14b98f4978eb06c5becba5f87baee68598db327",
+      "notes": "Imported from will/Sheltered Thicket.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1359",
+      "uuid": "61af97cb-9d23-51fb-9370-364aeed0a95f",
+      "card_kind": "official_token",
+      "creator_card": "Dark Depths",
+      "token_metadata": {
+        "name": "Marit Lage",
+        "display_name": "Marit Lage",
+        "rules_text": "Flying, indestructible",
+        "type_line": "Token Legendary Creature — Avatar",
+        "main_type": "Creature",
+        "mana_cost": "",
+        "mana_value": "0",
+        "colors": "B",
+        "color_identity": "",
+        "power_toughness": "20/20",
+        "loyalty": "",
+        "defense": "",
+        "tablerow": "2",
+        "reverse_related": [
+          {
+            "name": "Dark Depths"
+          }
+        ],
+        "verified_at": "2026-10-12",
+        "source_url": "https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml"
+      },
+      "rarity": "special",
+      "image_file": "WLX-1359.jpg",
+      "image_sha256": "c989b07ebdc7c1ad010367cca69bea78eb1d03874b9debf1d7b59a4e5a8f19c3",
+      "notes": "Imported from will/TOKEN - Dark Depths.jpg in file batch 231e65ca86"
     }
   ]
 }

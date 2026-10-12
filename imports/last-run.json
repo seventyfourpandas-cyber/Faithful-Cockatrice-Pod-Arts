@@ -1,60 +1,60 @@
 {
   "schema_version": 1,
-  "batch_id": "b9839c2045",
-  "started_at": "2026-10-12T07:34:38+00:00",
-  "finished_at": "2026-10-12T07:34:41+00:00",
+  "batch_id": "231e65ca86",
+  "started_at": "2026-10-12T22:23:34+00:00",
+  "finished_at": "2026-10-12T22:23:40+00:00",
   "found": 10,
-  "version_before": "3.2.54",
-  "version_after": "3.2.55",
+  "version_before": "3.2.55",
+  "version_after": "3.2.56",
   "added": [
     {
-      "collector_number": "1340",
-      "name": "Canopy Vista",
+      "collector_number": "1350",
+      "name": "Canyon Slough",
       "player": "Will"
     },
     {
-      "collector_number": "1341",
-      "name": "Cinder Glade",
+      "collector_number": "1351",
+      "name": "Coastal Peak",
       "player": "Will"
     },
     {
-      "collector_number": "1342",
-      "name": "Eclipsed Steppe",
+      "collector_number": "1352",
+      "name": "Festering Thicket",
       "player": "Will"
     },
     {
-      "collector_number": "1343",
-      "name": "Prairie Stream",
+      "collector_number": "1353",
+      "name": "Fetid Pools",
       "player": "Will"
     },
     {
-      "collector_number": "1344",
-      "name": "Radiant Summit",
+      "collector_number": "1354",
+      "name": "Glittering Massif",
       "player": "Will"
     },
     {
-      "collector_number": "1345",
-      "name": "Scorched Geyser",
+      "collector_number": "1355",
+      "name": "Irrigated Farmland",
       "player": "Will"
     },
     {
-      "collector_number": "1346",
-      "name": "Smoldering Marsh",
+      "collector_number": "1356",
+      "name": "Rain-Slicked Copse",
       "player": "Will"
     },
     {
-      "collector_number": "1347",
-      "name": "Sodden Verdure",
+      "collector_number": "1357",
+      "name": "Scattered Groves",
       "player": "Will"
     },
     {
-      "collector_number": "1348",
-      "name": "Sunken Hollow",
+      "collector_number": "1358",
+      "name": "Sheltered Thicket",
       "player": "Will"
     },
     {
-      "collector_number": "1349",
-      "name": "Vernal Fen",
+      "collector_number": "1359",
+      "name": "Marit Lage",
       "player": "Will"
     }
   ],

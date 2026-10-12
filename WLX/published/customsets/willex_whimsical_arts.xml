@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-10-12T07:34:38+00:00</createdAt>
+    <createdAt>2026-10-12T22:23:34+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.55</sourceVersion>
+    <sourceVersion>3.2.56</sourceVersion>
   </info>
   <sets>
     <set>
@@ -770,6 +770,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
       <set uuid="6e834283-8ba2-5190-8bce-8ce8f9dd1398" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1340-793b840cab80.jpg" num="1340" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Canyon Slough</name>
+      <set uuid="a050d7fc-5456-51a4-8bba-2b1bfe70a0eb" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1350-f3f32733457b.jpg" num="1350" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Captain America's Shield</name>
       <set uuid="91718753-c74c-5603-9349-390cebad5b0b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/664-e0e44adf0dec.jpg" num="664" rarity="special">WLX</set>
     </card>
@@ -939,6 +943,10 @@ Each opponent sacrifices a creature of their choice. Create a 3/6 black and red 
     <card>
       <name>Coalition Relic</name>
       <set uuid="af475612-87b0-5e7a-b73c-bb8604a17bd1" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/494-dd3bc8fa5158.jpg" num="494" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Coastal Peak</name>
+      <set uuid="0d4d5cf3-9628-5a68-a864-068819394b6c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1351-0a733e73ceeb.jpg" num="1351" rarity="special">WLX</set>
     </card>
     <card>
       <name>Codex Shredder</name>
@@ -1761,8 +1769,16 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
       <set uuid="9e3820d2-da1d-5a75-9cb9-bfda02010b4e" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1110-a6f6c4ccfcb2.jpg" num="1110" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Festering Thicket</name>
+      <set uuid="13a0fcc3-3b99-5074-a869-fb0c824c0237" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1352-4e78ee66ae8b.jpg" num="1352" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Fetid Heath</name>
       <set uuid="ee7c1fa0-fddd-5f89-aca8-aa99e0165add" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1111-e2eb8b07f416.jpg" num="1111" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Fetid Pools</name>
+      <set uuid="f66cde6d-9331-5c0d-9f4d-94a1dc625920" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1353-051398639460.jpg" num="1353" rarity="special">WLX</set>
     </card>
     <card>
       <name>Field of Ruin</name>
@@ -2036,6 +2052,10 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, return targ
     <card>
       <name>Glissa Sunslayer</name>
       <set uuid="0fc98a4d-ad39-59c9-8c4e-48435e4777f9" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/558-c2940409cf1a.jpg" num="558" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Glittering Massif</name>
+      <set uuid="10440e6c-632e-5f4f-8e2e-ace485ad6176" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1354-ad8586eccb81.jpg" num="1354" rarity="special">WLX</set>
     </card>
     <card>
       <name>Glorious Sunrise</name>
@@ -2522,6 +2542,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Iroh, Grand Lotus</name>
       <set uuid="eb2f4a79-bb91-5242-8cd2-afbbf7faaba0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/151-6b7cf660b91b.png" num="151" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Irrigated Farmland</name>
+      <set uuid="ea50cda6-694c-57d8-a0a6-a5609d9d1982" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1355-24129b0160ea.jpg" num="1355" rarity="special">WLX</set>
     </card>
     <card>
       <name>Isochron Scepter</name>
@@ -3011,6 +3035,21 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Marionette Apprentice</name>
       <set uuid="89bdfe86-45ab-57cd-8658-0571531b8c79" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/374-1fb2d05bc0d0.jpg" num="374" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Marit Lage</name>
+      <text>Flying, indestructible</text>
+      <prop>
+        <type>Token Legendary Creature — Avatar</type>
+        <maintype>Creature</maintype>
+        <cmc>0</cmc>
+        <colors>B</colors>
+        <pt>20/20</pt>
+      </prop>
+      <set uuid="61af97cb-9d23-51fb-9370-364aeed0a95f" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1359-c989b07ebdc7.jpg" num="1359" rarity="special">WLX</set>
+      <reverse-related>Dark Depths</reverse-related>
+      <token>true</token>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Marvin, Murderous Mimic</name>
@@ -3801,6 +3840,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="b1c12aff-9452-5682-af71-87e151427950" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/242-4fe53f3e8a9f.jpg" num="242" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Rain-Slicked Copse</name>
+      <set uuid="e069c254-11a2-50a6-a988-093a1128277b" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1356-e5db512c45fc.jpg" num="1356" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Rainveil Rejuvenator</name>
       <set uuid="4b8bf5b8-ce8b-5909-a924-bf0a25005a12" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/729-1203fc06916c.jpg" num="729" rarity="special">WLX</set>
     </card>
@@ -4123,6 +4166,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
       <set uuid="d6a0912e-aaa2-5752-8f10-5858574fdb20" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/579-7b3c3545e18c.jpg" num="579" rarity="special">WLX</set>
     </card>
     <card>
+      <name>Scattered Groves</name>
+      <set uuid="7a6a7238-abae-5c3e-9837-33f99e0c9046" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1357-970c05626059.jpg" num="1357" rarity="special">WLX</set>
+    </card>
+    <card>
       <name>Scavenger's Talent</name>
       <set uuid="73551fda-34e1-5977-976a-6d8c868be97c" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/612-f432b551d5f5.png" num="612" rarity="special">WLX</set>
     </card>
@@ -4263,6 +4310,10 @@ When this Siege enters, return target nonbattle permanent card from your graveya
     <card>
       <name>Shelldock Isle</name>
       <set uuid="9c7eeb50-7c4e-5a9b-8b79-6c1679697f94" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1247-574d3e95a95d.jpg" num="1247" rarity="special">WLX</set>
+    </card>
+    <card>
+      <name>Sheltered Thicket</name>
+      <set uuid="2213506b-1d9e-5370-97f1-ef6b1f01bca0" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1358-02aa2ac20658.jpg" num="1358" rarity="special">WLX</set>
     </card>
     <card>
       <name>Sheltering Landscape</name>

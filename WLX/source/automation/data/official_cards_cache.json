@@ -12840,6 +12840,78 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-12"
+    },
+    "canyon slough": {
+      "name": "Canyon Slough",
+      "oracle_id": "2031b17c-0536-446f-a9aa-b46fe79b7ea7",
+      "scryfall_uri": "https://scryfall.com/card/msc/228/canyon-slough?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "coastal peak": {
+      "name": "Coastal Peak",
+      "oracle_id": "0e25faa2-efb0-4ca5-b280-18c38faa860c",
+      "scryfall_uri": "https://scryfall.com/card/msc/232/coastal-peak?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "festering thicket": {
+      "name": "Festering Thicket",
+      "oracle_id": "bdb9b2ce-342c-4935-8943-d0c3971b1e38",
+      "scryfall_uri": "https://scryfall.com/card/soc/371/festering-thicket?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fetid pools": {
+      "name": "Fetid Pools",
+      "oracle_id": "32b03b48-06da-4a74-a7ac-e5ae39a4f428",
+      "scryfall_uri": "https://scryfall.com/card/msc/243/fetid-pools?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "glittering massif": {
+      "name": "Glittering Massif",
+      "oracle_id": "23732d20-aba6-46cc-89d0-0542629bc6b5",
+      "scryfall_uri": "https://scryfall.com/card/msc/249/glittering-massif?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "irrigated farmland": {
+      "name": "Irrigated Farmland",
+      "oracle_id": "406eabe2-df62-49e2-bb39-c0227509d875",
+      "scryfall_uri": "https://scryfall.com/card/msc/251/irrigated-farmland?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "rain-slicked copse": {
+      "name": "Rain-Slicked Copse",
+      "oracle_id": "633a41f0-3889-49a0-b2fc-9baf59f4ddc2",
+      "scryfall_uri": "https://scryfall.com/card/soc/397/rain-slicked-copse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "scattered groves": {
+      "name": "Scattered Groves",
+      "oracle_id": "3c87ea85-ca29-45a7-b5b2-758c62898b0a",
+      "scryfall_uri": "https://scryfall.com/card/msc/262/scattered-groves?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "sheltered thicket": {
+      "name": "Sheltered Thicket",
+      "oracle_id": "db8d8643-3d0b-4f20-bf53-f4cd26a0e8df",
+      "scryfall_uri": "https://scryfall.com/card/ecc/167/sheltered-thicket?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
     }
   }
 }
