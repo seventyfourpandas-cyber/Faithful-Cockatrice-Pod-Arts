@@ -9366,6 +9366,1267 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-05"
+    },
+    "abandoned air temple": {
+      "name": "Abandoned Air Temple",
+      "oracle_id": "9575d7ce-f26d-4b90-87a3-6329e9799572",
+      "scryfall_uri": "https://scryfall.com/card/tla/263/abandoned-air-temple?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "abraded bluffs": {
+      "name": "Abraded Bluffs",
+      "oracle_id": "ca7d093c-0533-493f-9ad3-8af30118fbfc",
+      "scryfall_uri": "https://scryfall.com/card/otj/251/abraded-bluffs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "abstergo entertainment": {
+      "name": "Abstergo Entertainment",
+      "oracle_id": "d06a8026-1657-4404-8dff-64e44f1a14f8",
+      "scryfall_uri": "https://scryfall.com/card/acr/79/abstergo-entertainment?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "abundant countryside": {
+      "name": "Abundant Countryside",
+      "oracle_id": "e3eb6f90-ccfc-41e7-bff6-0b378226bc7e",
+      "scryfall_uri": "https://scryfall.com/card/ecc/22/abundant-countryside?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "adarkar wastes": {
+      "name": "Adarkar Wastes",
+      "oracle_id": "d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b",
+      "scryfall_uri": "https://scryfall.com/card/eoc/147/adarkar-wastes?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "aether hub": {
+      "name": "Aether Hub",
+      "oracle_id": "61c89b11-65c9-4fda-bbcd-d84de25df801",
+      "scryfall_uri": "https://scryfall.com/card/kld/242/aether-hub?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "alchemist's refuge": {
+      "name": "Alchemist's Refuge",
+      "oracle_id": "357ed28b-899f-404b-94ff-6fb2ef81d87b",
+      "scryfall_uri": "https://scryfall.com/card/soc/360/alchemists-refuge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "alpine meadow": {
+      "name": "Alpine Meadow",
+      "oracle_id": "8c281ebe-d9a1-48af-b58b-19c55aa4625b",
+      "scryfall_uri": "https://scryfall.com/card/khm/248/alpine-meadow?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "amonkhet raceway": {
+      "name": "Amonkhet Raceway",
+      "oracle_id": "fe174586-d36b-40f6-babd-1f98e76eec22",
+      "scryfall_uri": "https://scryfall.com/card/dft/248/amonkhet-raceway?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ancient ziggurat": {
+      "name": "Ancient Ziggurat",
+      "oracle_id": "0baabe39-72ae-47bd-a095-cbf7eb8a6361",
+      "scryfall_uri": "https://scryfall.com/card/ecc/144/ancient-ziggurat?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "arcane lighthouse": {
+      "name": "Arcane Lighthouse",
+      "oracle_id": "30ac68e6-160a-41f9-9f0f-0e0eef383150",
+      "scryfall_uri": "https://scryfall.com/card/soc/361/arcane-lighthouse?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "arcane sanctum": {
+      "name": "Arcane Sanctum",
+      "oracle_id": "7d7cf15c-06b9-4062-a1eb-32614c458a3b",
+      "scryfall_uri": "https://scryfall.com/card/dsc/259/arcane-sanctum?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "arch of orazca": {
+      "name": "Arch of Orazca",
+      "oracle_id": "3bb518ff-399b-4ce7-b9ad-a1d563dd7792",
+      "scryfall_uri": "https://scryfall.com/card/lcc/319/arch-of-orazca?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "arctic treeline": {
+      "name": "Arctic Treeline",
+      "oracle_id": "32fb0096-546c-4633-b6e3-ba3f2d9fa49c",
+      "scryfall_uri": "https://scryfall.com/card/khm/249/arctic-treeline?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "arid archway": {
+      "name": "Arid Archway",
+      "oracle_id": "3be3d7e6-7860-438a-b8c8-ef154c18c163",
+      "scryfall_uri": "https://scryfall.com/card/otj/252/arid-archway?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ash barrens": {
+      "name": "Ash Barrens",
+      "oracle_id": "58257464-278e-45fa-8e0b-bcd9a7500bc1",
+      "scryfall_uri": "https://scryfall.com/card/tmc/60/ash-barrens?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "avishkar raceway": {
+      "name": "Avishkar Raceway",
+      "oracle_id": "e2c35551-1ba5-4424-baf9-821b49bbcc8c",
+      "scryfall_uri": "https://scryfall.com/card/dft/249/avishkar-raceway?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "bad river": {
+      "name": "Bad River",
+      "oracle_id": "259fc423-d078-4668-9e95-8c1a0d2e49ba",
+      "scryfall_uri": "https://scryfall.com/card/dmc/197/bad-river?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "bant panorama": {
+      "name": "Bant Panorama",
+      "oracle_id": "0a1d817d-dce8-4e83-a380-909f7c9eee46",
+      "scryfall_uri": "https://scryfall.com/card/ncc/387/bant-panorama?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "barkchannel pathway": {
+      "name": "Barkchannel Pathway // Tidechannel Pathway",
+      "oracle_id": "59d22de5-e310-44d7-89cf-ef3529e40cef",
+      "scryfall_uri": "https://scryfall.com/card/khm/251/barkchannel-pathway-tidechannel-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Barkchannel Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "UG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Tidechannel Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "UG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "barkchannel pathway // tidechannel pathway": {
+      "name": "Barkchannel Pathway // Tidechannel Pathway",
+      "oracle_id": "59d22de5-e310-44d7-89cf-ef3529e40cef",
+      "scryfall_uri": "https://scryfall.com/card/khm/251/barkchannel-pathway-tidechannel-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Barkchannel Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "UG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Tidechannel Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "UG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "base camp": {
+      "name": "Base Camp",
+      "oracle_id": "41fbf835-baee-4530-9155-e2c1b9045567",
+      "scryfall_uri": "https://scryfall.com/card/znr/257/base-camp?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "battlefield forge": {
+      "name": "Battlefield Forge",
+      "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa",
+      "scryfall_uri": "https://scryfall.com/card/frc/65/battlefield-forge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "blighted woodland": {
+      "name": "Blighted Woodland",
+      "oracle_id": "02679a2e-303d-412f-87d8-0a37a8ca259c",
+      "scryfall_uri": "https://scryfall.com/card/clb/881/blighted-woodland?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "blightstep pathway // searstep pathway": {
+      "name": "Blightstep Pathway // Searstep Pathway",
+      "oracle_id": "e580a229-e800-4746-9d37-c32fcef8de28",
+      "scryfall_uri": "https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Blightstep Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "BR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Searstep Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "BR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "blightstep pathway": {
+      "name": "Blightstep Pathway // Searstep Pathway",
+      "oracle_id": "e580a229-e800-4746-9d37-c32fcef8de28",
+      "scryfall_uri": "https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Blightstep Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "BR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Searstep Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "BR",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "bojuka bog": {
+      "name": "Bojuka Bog",
+      "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce",
+      "scryfall_uri": "https://scryfall.com/card/soc/363/bojuka-bog?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "boulderloft pathway": {
+      "name": "Branchloft Pathway // Boulderloft Pathway",
+      "oracle_id": "7c304547-a4b1-46c9-baed-16d2bfbe16eb",
+      "scryfall_uri": "https://scryfall.com/card/znr/258/branchloft-pathway-boulderloft-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Branchloft Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boulderloft Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {W}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "branchloft pathway // boulderloft pathway": {
+      "name": "Branchloft Pathway // Boulderloft Pathway",
+      "oracle_id": "7c304547-a4b1-46c9-baed-16d2bfbe16eb",
+      "scryfall_uri": "https://scryfall.com/card/znr/258/branchloft-pathway-boulderloft-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Branchloft Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boulderloft Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {W}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "bountiful landscape": {
+      "name": "Bountiful Landscape",
+      "oracle_id": "2eb69a8f-9456-4852-b868-85ae609d3441",
+      "scryfall_uri": "https://scryfall.com/card/tdc/342/bountiful-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "bountiful promenade": {
+      "name": "Bountiful Promenade",
+      "oracle_id": "761cb262-f83b-4a99-9345-b773182a7671",
+      "scryfall_uri": "https://scryfall.com/card/msc/226/bountiful-promenade?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "branchloft pathway": {
+      "name": "Branchloft Pathway // Boulderloft Pathway",
+      "oracle_id": "7c304547-a4b1-46c9-baed-16d2bfbe16eb",
+      "scryfall_uri": "https://scryfall.com/card/znr/258/branchloft-pathway-boulderloft-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Branchloft Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Boulderloft Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {W}.",
+          "colors": "",
+          "color_identity": "WG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "brightclimb pathway": {
+      "name": "Brightclimb Pathway // Grimclimb Pathway",
+      "oracle_id": "1c633e02-95ef-445e-b4e0-fbfbc5ed9cc9",
+      "scryfall_uri": "https://scryfall.com/card/znr/259/brightclimb-pathway-grimclimb-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Brightclimb Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {W}.",
+          "colors": "",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Grimclimb Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "brightclimb pathway // grimclimb pathway": {
+      "name": "Brightclimb Pathway // Grimclimb Pathway",
+      "oracle_id": "1c633e02-95ef-445e-b4e0-fbfbc5ed9cc9",
+      "scryfall_uri": "https://scryfall.com/card/znr/259/brightclimb-pathway-grimclimb-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Brightclimb Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {W}.",
+          "colors": "",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Grimclimb Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "WB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "bristling backwoods": {
+      "name": "Bristling Backwoods",
+      "oracle_id": "9cbc9f83-8979-42a5-a466-a8d89c8e6de8",
+      "scryfall_uri": "https://scryfall.com/card/otj/253/bristling-backwoods?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "brokers hideout": {
+      "name": "Brokers Hideout",
+      "oracle_id": "bd002797-a545-4bee-88bf-b878436e7cca",
+      "scryfall_uri": "https://scryfall.com/card/snc/248/brokers-hideout?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "brushland": {
+      "name": "Brushland",
+      "oracle_id": "5eb8b497-ec9a-4a89-ad29-1ec3ca82da7c",
+      "scryfall_uri": "https://scryfall.com/card/bro/259/brushland?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "bucolic ranch": {
+      "name": "Bucolic Ranch",
+      "oracle_id": "8f5902bf-4bc4-4d0c-84ea-a425307a4eb2",
+      "scryfall_uri": "https://scryfall.com/card/otj/265/bucolic-ranch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "buried ruin": {
+      "name": "Buried Ruin",
+      "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
+      "scryfall_uri": "https://scryfall.com/card/eoc/150/buried-ruin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cabal stronghold": {
+      "name": "Cabal Stronghold",
+      "oracle_id": "066cd584-773c-4623-be53-8f6feda5a26a",
+      "scryfall_uri": "https://scryfall.com/card/dom/238/cabal-stronghold?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cabaretti courtyard": {
+      "name": "Cabaretti Courtyard",
+      "oracle_id": "65424bea-fd53-4f85-9757-0b91a6d40ba4",
+      "scryfall_uri": "https://scryfall.com/card/eoc/151/cabaretti-courtyard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cascade bluffs": {
+      "name": "Cascade Bluffs",
+      "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+      "scryfall_uri": "https://scryfall.com/card/soc/364/cascade-bluffs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "castle ardenvale": {
+      "name": "Castle Ardenvale",
+      "oracle_id": "f8f4fc60-725d-46d8-8e8f-e68e00d20589",
+      "scryfall_uri": "https://scryfall.com/card/tdc/346/castle-ardenvale?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "castle embereth": {
+      "name": "Castle Embereth",
+      "oracle_id": "91fbb25b-8521-483f-88b0-77778d25f7fd",
+      "scryfall_uri": "https://scryfall.com/card/tdc/347/castle-embereth?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "castle garenbrig": {
+      "name": "Castle Garenbrig",
+      "oracle_id": "de75e5dd-8a52-406c-b55c-96d686885500",
+      "scryfall_uri": "https://scryfall.com/card/eld/240/castle-garenbrig?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "castle locthwain": {
+      "name": "Castle Locthwain",
+      "oracle_id": "be811e70-aaaa-41f3-bf9e-5d3f9f719b49",
+      "scryfall_uri": "https://scryfall.com/card/clb/884/castle-locthwain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "castle vantress": {
+      "name": "Castle Vantress",
+      "oracle_id": "cdf41cf4-4e77-453d-be5b-0abbbd358934",
+      "scryfall_uri": "https://scryfall.com/card/dsc/267/castle-vantress?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cavern of souls": {
+      "name": "Cavern of Souls",
+      "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+      "scryfall_uri": "https://scryfall.com/card/lci/269/cavern-of-souls?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "caves of koilos": {
+      "name": "Caves of Koilos",
+      "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
+      "scryfall_uri": "https://scryfall.com/card/frc/66/caves-of-koilos?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cephalid coliseum": {
+      "name": "Cephalid Coliseum",
+      "oracle_id": "c733873e-77db-471f-8061-139db24f7e7c",
+      "scryfall_uri": "https://scryfall.com/card/tdc/349/cephalid-coliseum?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "choked estuary": {
+      "name": "Choked Estuary",
+      "oracle_id": "d473b507-8c33-4118-bc10-b0a268776074",
+      "scryfall_uri": "https://scryfall.com/card/msc/229/choked-estuary?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "clearwater pathway // murkwater pathway": {
+      "name": "Clearwater Pathway // Murkwater Pathway",
+      "oracle_id": "144119bc-7fd1-45c5-9e29-f742e7c255ac",
+      "scryfall_uri": "https://scryfall.com/card/znr/260/clearwater-pathway-murkwater-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Clearwater Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "UB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Murkwater Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "UB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "clearwater pathway": {
+      "name": "Clearwater Pathway // Murkwater Pathway",
+      "oracle_id": "144119bc-7fd1-45c5-9e29-f742e7c255ac",
+      "scryfall_uri": "https://scryfall.com/card/znr/260/clearwater-pathway-murkwater-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Clearwater Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {U}.",
+          "colors": "",
+          "color_identity": "UB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Murkwater Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "UB",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "clifftop retreat": {
+      "name": "Clifftop Retreat",
+      "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+      "scryfall_uri": "https://scryfall.com/card/frc/67/clifftop-retreat?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "command beacon": {
+      "name": "Command Beacon",
+      "oracle_id": "7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e",
+      "scryfall_uri": "https://scryfall.com/card/tdc/352/command-beacon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "conduit pylons": {
+      "name": "Conduit Pylons",
+      "oracle_id": "37f924e1-7c25-4f06-88bb-054693a21e5a",
+      "scryfall_uri": "https://scryfall.com/card/otj/254/conduit-pylons?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "contaminated aquifer": {
+      "name": "Contaminated Aquifer",
+      "oracle_id": "c27b771d-b5ec-459a-a101-f078cb8d0184",
+      "scryfall_uri": "https://scryfall.com/card/tdc/353/contaminated-aquifer?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "contaminated landscape": {
+      "name": "Contaminated Landscape",
+      "oracle_id": "28196fd9-00c9-4cd0-b603-0eec8511ec79",
+      "scryfall_uri": "https://scryfall.com/card/frc/68/contaminated-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "cragcrown pathway": {
+      "name": "Cragcrown Pathway // Timbercrown Pathway",
+      "oracle_id": "727ca426-f4cc-4218-8ae5-8c427af2e816",
+      "scryfall_uri": "https://scryfall.com/card/znr/261/cragcrown-pathway-timbercrown-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Cragcrown Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "RG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Timbercrown Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "RG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "cragcrown pathway // timbercrown pathway": {
+      "name": "Cragcrown Pathway // Timbercrown Pathway",
+      "oracle_id": "727ca426-f4cc-4218-8ae5-8c427af2e816",
+      "scryfall_uri": "https://scryfall.com/card/znr/261/cragcrown-pathway-timbercrown-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Cragcrown Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {R}.",
+          "colors": "",
+          "color_identity": "RG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Timbercrown Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "RG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "crawling barrens": {
+      "name": "Crawling Barrens",
+      "oracle_id": "dfe1a112-97aa-4e81-8431-81552ba2cdcf",
+      "scryfall_uri": "https://scryfall.com/card/fdn/685/crawling-barrens?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "creosote heath": {
+      "name": "Creosote Heath",
+      "oracle_id": "c116b787-5f7e-47ef-a694-58709770dd32",
+      "scryfall_uri": "https://scryfall.com/card/otj/255/creosote-heath?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "crumbling necropolis": {
+      "name": "Crumbling Necropolis",
+      "oracle_id": "7190debf-708b-4f41-9714-0d0a5bd5a74e",
+      "scryfall_uri": "https://scryfall.com/card/msc/237/crumbling-necropolis?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "crypt of agadeem": {
+      "name": "Crypt of Agadeem",
+      "oracle_id": "4fe8af73-c84a-44bd-9739-ee5c8b027874",
+      "scryfall_uri": "https://scryfall.com/card/tdc/354/crypt-of-agadeem?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "dakmor salvage": {
+      "name": "Dakmor Salvage",
+      "oracle_id": "cdc4048a-73ec-4ec1-a179-2b36c397bf1a",
+      "scryfall_uri": "https://scryfall.com/card/eoc/156/dakmor-salvage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "dark depths": {
+      "name": "Dark Depths",
+      "oracle_id": "c9b82110-7dfd-4617-9399-9510be449043",
+      "scryfall_uri": "https://scryfall.com/card/dmr/244/dark-depths?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "darkbore pathway": {
+      "name": "Darkbore Pathway // Slitherbore Pathway",
+      "oracle_id": "868e6e68-4367-4073-a864-235d5961ae56",
+      "scryfall_uri": "https://scryfall.com/card/khm/254/darkbore-pathway-slitherbore-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Darkbore Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "BG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Slitherbore Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "BG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "darkbore pathway // slitherbore pathway": {
+      "name": "Darkbore Pathway // Slitherbore Pathway",
+      "oracle_id": "868e6e68-4367-4073-a864-235d5961ae56",
+      "scryfall_uri": "https://scryfall.com/card/khm/254/darkbore-pathway-slitherbore-pathway?utm_source=api",
+      "layout": "modal_dfc",
+      "faces": [
+        {
+          "official_name": "Darkbore Pathway",
+          "side": "front",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {B}.",
+          "colors": "",
+          "color_identity": "BG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        },
+        {
+          "official_name": "Slitherbore Pathway",
+          "side": "back",
+          "mana_cost": "",
+          "mana_value": "",
+          "type_line": "Land",
+          "rules_text": "{T}: Add {G}.",
+          "colors": "",
+          "color_identity": "BG",
+          "power_toughness": "",
+          "loyalty": "",
+          "defense": ""
+        }
+      ],
+      "verified_at": "2026-10-12"
+    },
+    "darkmoss bridge": {
+      "name": "Darkmoss Bridge",
+      "oracle_id": "2065cada-4078-41c4-9e06-2460d2a2e8ee",
+      "scryfall_uri": "https://scryfall.com/card/dsc/269/darkmoss-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "darksteel citadel": {
+      "name": "Darksteel Citadel",
+      "oracle_id": "8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc",
+      "scryfall_uri": "https://scryfall.com/card/c21/285/darksteel-citadel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "darkwater catacombs": {
+      "name": "Darkwater Catacombs",
+      "oracle_id": "4869a530-757f-4364-8d8e-4dc8001f433c",
+      "scryfall_uri": "https://scryfall.com/card/tdc/355/darkwater-catacombs?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "deceptive landscape": {
+      "name": "Deceptive Landscape",
+      "oracle_id": "1831fe12-dbe0-437f-8fc8-f01bbb701fe1",
+      "scryfall_uri": "https://scryfall.com/card/tdc/356/deceptive-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "demolition field": {
+      "name": "Demolition Field",
+      "oracle_id": "93953926-a644-49bb-9b5a-4c8f19114c7e",
+      "scryfall_uri": "https://scryfall.com/card/fdn/687/demolition-field?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "desolate mire": {
+      "name": "Desolate Mire",
+      "oracle_id": "3edf9201-265f-4cd9-b27b-8073bf1a4cf2",
+      "scryfall_uri": "https://scryfall.com/card/soc/367/desolate-mire?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "dragonskull summit": {
+      "name": "Dragonskull Summit",
+      "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+      "scryfall_uri": "https://scryfall.com/card/msc/238/dragonskull-summit?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "drossforge bridge": {
+      "name": "Drossforge Bridge",
+      "oracle_id": "44b83535-fdbf-4307-bf53-ca20470a768d",
+      "scryfall_uri": "https://scryfall.com/card/mh2/246/drossforge-bridge?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "drowned catacomb": {
+      "name": "Drowned Catacomb",
+      "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+      "scryfall_uri": "https://scryfall.com/card/frc/69/drowned-catacomb?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "eclipsed realms": {
+      "name": "Eclipsed Realms",
+      "oracle_id": "5715ed43-395c-4877-99a7-8e28e7bf9dce",
+      "scryfall_uri": "https://scryfall.com/card/ecl/263/eclipsed-realms?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "emergence zone": {
+      "name": "Emergence Zone",
+      "oracle_id": "7536eb66-959d-4dca-9b75-895572ef733c",
+      "scryfall_uri": "https://scryfall.com/card/war/245/emergence-zone?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "emeria, the sky ruin": {
+      "name": "Emeria, the Sky Ruin",
+      "oracle_id": "cc999cf2-c99b-4911-8c52-6cc4a99fcc7b",
+      "scryfall_uri": "https://scryfall.com/card/soc/368/emeria-the-sky-ruin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "eroded canyon": {
+      "name": "Eroded Canyon",
+      "oracle_id": "852c6520-d148-4923-a312-05a9af821f24",
+      "scryfall_uri": "https://scryfall.com/card/otj/256/eroded-canyon?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "escape tunnel": {
+      "name": "Escape Tunnel",
+      "oracle_id": "0056fc91-4398-471c-b561-7ff99750ac8a",
+      "scryfall_uri": "https://scryfall.com/card/tmt/184/escape-tunnel?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "esper panorama": {
+      "name": "Esper Panorama",
+      "oracle_id": "6b9cd3d0-4316-4945-b960-12f51052d260",
+      "scryfall_uri": "https://scryfall.com/card/ncc/399/esper-panorama?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "eumidian hatchery": {
+      "name": "Eumidian Hatchery",
+      "oracle_id": "5b6d933e-2830-4f5a-b244-a421aa9615dc",
+      "scryfall_uri": "https://scryfall.com/card/eoc/20/eumidian-hatchery?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "evolving wilds": {
+      "name": "Evolving Wilds",
+      "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+      "scryfall_uri": "https://scryfall.com/card/msc/240/evolving-wilds?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "exotic orchard": {
+      "name": "Exotic Orchard",
+      "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+      "scryfall_uri": "https://scryfall.com/card/mbc/79/exotic-orchard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fabled passage": {
+      "name": "Fabled Passage",
+      "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54",
+      "scryfall_uri": "https://scryfall.com/card/frc/71/fabled-passage?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "ferrous lake": {
+      "name": "Ferrous Lake",
+      "oracle_id": "62c15af0-40e1-407d-b056-7a3d909e3fdb",
+      "scryfall_uri": "https://scryfall.com/card/soc/370/ferrous-lake?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "festering gulch": {
+      "name": "Festering Gulch",
+      "oracle_id": "9d3b60af-3e38-4d36-95fc-11b31c38f955",
+      "scryfall_uri": "https://scryfall.com/card/otj/257/festering-gulch?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fetid heath": {
+      "name": "Fetid Heath",
+      "oracle_id": "42bf259d-4bb9-49c3-b4ec-223dca62f4d6",
+      "scryfall_uri": "https://scryfall.com/card/frc/72/fetid-heath?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "field of ruin": {
+      "name": "Field of Ruin",
+      "oracle_id": "f825c98f-a327-440b-8c0d-ebe02e23bfb7",
+      "scryfall_uri": "https://scryfall.com/card/moc/400/field-of-ruin?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "field of the dead": {
+      "name": "Field of the Dead",
+      "oracle_id": "aa959340-c869-4caa-92c7-572bd8d23eef",
+      "scryfall_uri": "https://scryfall.com/card/m20/247/field-of-the-dead?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fire-lit thicket": {
+      "name": "Fire-Lit Thicket",
+      "oracle_id": "d99a1d9a-7721-4331-bf22-1c6ee0bd825a",
+      "scryfall_uri": "https://scryfall.com/card/2xm/317/fire-lit-thicket?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "flagstones of trokair": {
+      "name": "Flagstones of Trokair",
+      "oracle_id": "f73979bb-91a5-4388-b70b-0cd7a4e14291",
+      "scryfall_uri": "https://scryfall.com/card/tsr/278/flagstones-of-trokair?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "flamekin village": {
+      "name": "Flamekin Village",
+      "oracle_id": "34a1eb04-08f6-49d8-a1d1-b987a76bd8b1",
+      "scryfall_uri": "https://scryfall.com/card/ecc/149/flamekin-village?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "flood plain": {
+      "name": "Flood Plain",
+      "oracle_id": "9043d8d5-b38a-406f-a44c-49f579c644f0",
+      "scryfall_uri": "https://scryfall.com/card/cmm/994/flood-plain?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "flooded grove": {
+      "name": "Flooded Grove",
+      "oracle_id": "dc974eb4-72b9-4213-887b-8ee684b93420",
+      "scryfall_uri": "https://scryfall.com/card/soc/373/flooded-grove?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fomori vault": {
+      "name": "Fomori Vault",
+      "oracle_id": "622a53bd-d894-422c-a606-7126041afa02",
+      "scryfall_uri": "https://scryfall.com/card/big/29/fomori-vault?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "forbidden orchard": {
+      "name": "Forbidden Orchard",
+      "oracle_id": "cfd60d1f-9832-4408-b84e-0fd3018b015b",
+      "scryfall_uri": "https://scryfall.com/card/2x2/323/forbidden-orchard?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "foreboding landscape": {
+      "name": "Foreboding Landscape",
+      "oracle_id": "bcfe1653-e602-4d38-abe7-bfcc7f203f9d",
+      "scryfall_uri": "https://scryfall.com/card/tdc/365/foreboding-landscape?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "foreboding ruins": {
+      "name": "Foreboding Ruins",
+      "oracle_id": "5c87e2fa-77f1-4978-b25f-f14d227301d1",
+      "scryfall_uri": "https://scryfall.com/card/msc/244/foreboding-ruins?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "forlorn flats": {
+      "name": "Forlorn Flats",
+      "oracle_id": "ebb3e2ff-2214-4e11-88fb-e0fa84288cf1",
+      "scryfall_uri": "https://scryfall.com/card/otj/258/forlorn-flats?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "fortified village": {
+      "name": "Fortified Village",
+      "oracle_id": "56f1a16a-9f41-41fb-b580-c200bca27cd6",
+      "scryfall_uri": "https://scryfall.com/card/msc/245/fortified-village?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "frontier bivouac": {
+      "name": "Frontier Bivouac",
+      "oracle_id": "e4cf6c2f-0f1e-4980-9ef9-e4eabcae42a9",
+      "scryfall_uri": "https://scryfall.com/card/ecc/150/frontier-bivouac?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "frostboil snarl": {
+      "name": "Frostboil Snarl",
+      "oracle_id": "7137aae6-260d-41de-8b4e-42a8cf752697",
+      "scryfall_uri": "https://scryfall.com/card/msc/246/frostboil-snarl?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "furycalm snarl": {
+      "name": "Furycalm Snarl",
+      "oracle_id": "651dea9c-2375-4e44-8e65-ba8e40f0c0ef",
+      "scryfall_uri": "https://scryfall.com/card/msc/247/furycalm-snarl?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
+    },
+    "gaea's cradle": {
+      "name": "Gaea's Cradle",
+      "oracle_id": "7c427c3d-ecd8-45ef-bebd-8f10f4a311db",
+      "scryfall_uri": "https://scryfall.com/card/usg/321/gaeas-cradle?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-12"
     }
   }
 }

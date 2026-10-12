@@ -1,154 +1,516 @@
 {
   "schema_version": 1,
-  "batch_id": "1bdba42688",
-  "started_at": "2026-10-05T18:21:16+00:00",
-  "finished_at": "2026-10-05T18:21:21+00:00",
-  "found": 28,
-  "version_before": "3.2.49",
-  "version_after": "3.2.50",
+  "batch_id": "aa0329e1cf",
+  "started_at": "2026-10-12T05:50:43+00:00",
+  "finished_at": "2026-10-12T05:50:48+00:00",
+  "found": 100,
+  "version_before": "3.2.50",
+  "version_after": "3.2.51",
   "added": [
     {
-      "collector_number": "1009",
-      "name": "Arcane Signet",
+      "collector_number": "1037",
+      "name": "Abandoned Air Temple",
       "player": "Will"
     },
     {
-      "collector_number": "1010",
-      "name": "Atemsis, All-Seeing",
+      "collector_number": "1038",
+      "name": "Abraded Bluffs",
       "player": "Will"
     },
     {
-      "collector_number": "1011",
-      "name": "Authority of the Consuls",
+      "collector_number": "1039",
+      "name": "Abstergo Entertainment",
       "player": "Will"
     },
     {
-      "collector_number": "1012",
-      "name": "Azor, the Lawbringer",
+      "collector_number": "1040",
+      "name": "Abundant Countryside",
       "player": "Will"
     },
     {
-      "collector_number": "1013",
-      "name": "Consecrated Sphinx",
+      "collector_number": "1041",
+      "name": "Adarkar Wastes",
       "player": "Will"
     },
     {
-      "collector_number": "1014",
-      "name": "Crib Swap",
+      "collector_number": "1042",
+      "name": "Aether Hub",
       "player": "Will"
     },
     {
-      "collector_number": "1015",
-      "name": "Curator of Mysteries",
+      "collector_number": "1043",
+      "name": "Alchemist's Refuge",
       "player": "Will"
     },
     {
-      "collector_number": "1016",
-      "name": "Dazzling Sphinx",
+      "collector_number": "1044",
+      "name": "Alpine Meadow",
       "player": "Will"
     },
     {
-      "collector_number": "1017",
-      "name": "Defiler of Dreams",
+      "collector_number": "1045",
+      "name": "Amonkhet Raceway",
       "player": "Will"
     },
     {
-      "collector_number": "1018",
-      "name": "Denzilore Fatehold",
+      "collector_number": "1046",
+      "name": "Ancient Ziggurat",
       "player": "Will"
     },
     {
-      "collector_number": "1019",
-      "name": "Dream Eater",
+      "collector_number": "1047",
+      "name": "Arcane Lighthouse",
       "player": "Will"
     },
     {
-      "collector_number": "1020",
-      "name": "Dream Trawler",
+      "collector_number": "1048",
+      "name": "Arcane Sanctum",
       "player": "Will"
     },
     {
-      "collector_number": "1021",
-      "name": "Ethersworn Sphinx",
+      "collector_number": "1049",
+      "name": "Arch of Orazca",
       "player": "Will"
     },
     {
-      "collector_number": "1022",
-      "name": "Firdoch Core",
+      "collector_number": "1050",
+      "name": "Arctic Treeline",
       "player": "Will"
     },
     {
-      "collector_number": "1023",
-      "name": "Keeper of the Accord",
+      "collector_number": "1051",
+      "name": "Arid Archway",
       "player": "Will"
     },
     {
-      "collector_number": "1024",
-      "name": "Magister Sphinx",
+      "collector_number": "1052",
+      "name": "Ash Barrens",
       "player": "Will"
     },
     {
-      "collector_number": "1025",
-      "name": "Marauding Sphinx",
+      "collector_number": "1053",
+      "name": "Avishkar Raceway",
       "player": "Will"
     },
     {
-      "collector_number": "1026",
-      "name": "Medomai the Ageless",
+      "collector_number": "1054",
+      "name": "Bad River",
       "player": "Will"
     },
     {
-      "collector_number": "1027",
-      "name": "Omni-Changeling",
+      "collector_number": "1055",
+      "name": "Bant Panorama",
       "player": "Will"
     },
     {
-      "collector_number": "1028",
-      "name": "Raffine, Scheming Seer",
+      "collector_number": "1056",
+      "name": "Base Camp",
       "player": "Will"
     },
     {
-      "collector_number": "1029",
-      "name": "Sharuum the Hegemon",
+      "collector_number": "1057",
+      "name": "Battlefield Forge",
       "player": "Will"
     },
     {
-      "collector_number": "1030",
-      "name": "Sphinx of Enlightenment",
+      "collector_number": "1058",
+      "name": "Blighted Woodland",
       "player": "Will"
     },
     {
-      "collector_number": "1031",
-      "name": "Sphinx of Foresight",
+      "collector_number": "1059",
+      "name": "Bojuka Bog",
       "player": "Will"
     },
     {
-      "collector_number": "1032",
-      "name": "Sphinx Summoner",
+      "collector_number": "1060",
+      "name": "Bountiful Landscape",
       "player": "Will"
     },
     {
-      "collector_number": "1033",
-      "name": "Uldaros Theorix",
+      "collector_number": "1061",
+      "name": "Bountiful Promenade",
       "player": "Will"
     },
     {
-      "collector_number": "1034",
-      "name": "Unesh, Criosphinx Sovereign",
+      "collector_number": "1062",
+      "name": "Bristling Backwoods",
       "player": "Will"
     },
     {
-      "collector_number": "1035",
-      "name": "Wash Away",
+      "collector_number": "1063",
+      "name": "Brokers Hideout",
       "player": "Will"
     },
     {
-      "collector_number": "1036",
-      "name": "Yennett, Cryptic Sovereign",
+      "collector_number": "1064",
+      "name": "Brushland",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1065",
+      "name": "Bucolic Ranch",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1066",
+      "name": "Buried Ruin",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1067",
+      "name": "Cabal Stronghold",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1068",
+      "name": "Cabaretti Courtyard",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1069",
+      "name": "Cascade Bluffs",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1070",
+      "name": "Castle Ardenvale",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1071",
+      "name": "Castle Embereth",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1072",
+      "name": "Castle Garenbrig",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1073",
+      "name": "Castle Locthwain",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1074",
+      "name": "Castle Vantress",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1075",
+      "name": "Cavern of Souls",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1076",
+      "name": "Caves of Koilos",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1077",
+      "name": "Cephalid Coliseum",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1078",
+      "name": "Choked Estuary",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1079",
+      "name": "Clifftop Retreat",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1080",
+      "name": "Command Beacon",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1081",
+      "name": "Conduit Pylons",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1082",
+      "name": "Contaminated Aquifer",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1083",
+      "name": "Contaminated Landscape",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1084",
+      "name": "Crawling Barrens",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1085",
+      "name": "Creosote Heath",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1086",
+      "name": "Crumbling Necropolis",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1087",
+      "name": "Crypt of Agadeem",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1088",
+      "name": "Dakmor Salvage",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1089",
+      "name": "Dark Depths",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1090",
+      "name": "Darkmoss Bridge",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1091",
+      "name": "Darksteel Citadel",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1092",
+      "name": "Darkwater Catacombs",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1093",
+      "name": "Deceptive Landscape",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1094",
+      "name": "Demolition Field",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1095",
+      "name": "Desolate Mire",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1096",
+      "name": "Dragonskull Summit",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1097",
+      "name": "Drossforge Bridge",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1098",
+      "name": "Drowned Catacomb",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1099",
+      "name": "Eclipsed Realms",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1100",
+      "name": "Emergence Zone",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1101",
+      "name": "Emeria, the Sky Ruin",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1102",
+      "name": "Eroded Canyon",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1103",
+      "name": "Escape Tunnel",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1104",
+      "name": "Esper Panorama",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1105",
+      "name": "Eumidian Hatchery",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1106",
+      "name": "Evolving Wilds",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1107",
+      "name": "Exotic Orchard",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1108",
+      "name": "Fabled Passage",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1109",
+      "name": "Ferrous Lake",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1110",
+      "name": "Festering Gulch",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1111",
+      "name": "Fetid Heath",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1112",
+      "name": "Field of Ruin",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1113",
+      "name": "Field of the Dead",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1114",
+      "name": "Fire-Lit Thicket",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1115",
+      "name": "Flagstones of Trokair",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1116",
+      "name": "Flamekin Village",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1117",
+      "name": "Flood Plain",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1118",
+      "name": "Flooded Grove",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1119",
+      "name": "Fomori Vault",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1120",
+      "name": "Forbidden Orchard",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1121",
+      "name": "Foreboding Landscape",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1122",
+      "name": "Foreboding Ruins",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1123",
+      "name": "Forlorn Flats",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1124",
+      "name": "Fortified Village",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1125",
+      "name": "Frontier Bivouac",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1126",
+      "name": "Frostboil Snarl",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1127",
+      "name": "Furycalm Snarl",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1128",
+      "name": "Gaea's Cradle",
+      "player": "Will"
+    },
+    {
+      "collector_number": "1129",
+      "name": "Branchloft Pathway // Boulderloft Pathway",
       "player": "Will"
     }
   ],
   "updated": [],
   "already_current": [],
-  "needs_attention": []
+  "needs_attention": [
+    {
+      "original_file": "will/Barkchannel Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Barkchannel Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Barkchannel Pathway.jpg.error.txt",
+      "error": "Barkchannel Pathway // Tidechannel Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    },
+    {
+      "original_file": "will/Blightstep Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Blightstep Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Blightstep Pathway.jpg.error.txt",
+      "error": "Blightstep Pathway // Searstep Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    },
+    {
+      "original_file": "will/Brightclimb Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Brightclimb Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Brightclimb Pathway.jpg.error.txt",
+      "error": "Brightclimb Pathway // Grimclimb Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    },
+    {
+      "original_file": "will/Clearwater Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Clearwater Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Clearwater Pathway.jpg.error.txt",
+      "error": "Clearwater Pathway // Murkwater Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    },
+    {
+      "original_file": "will/Cragcrown Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Cragcrown Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Cragcrown Pathway.jpg.error.txt",
+      "error": "Cragcrown Pathway // Timbercrown Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    },
+    {
+      "original_file": "will/Darkbore Pathway.jpg",
+      "moved_image": "imports/needs-attention/will/aa0329e1cf/Darkbore Pathway.jpg",
+      "error_file": "imports/needs-attention/will/aa0329e1cf/Darkbore Pathway.jpg.error.txt",
+      "error": "Darkbore Pathway // Slitherbore Pathway needs exactly one front image and one back image with the same optional ' __ label' suffix in this batch."
+    }
+  ]
 }
