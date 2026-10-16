@@ -14056,6 +14056,17 @@
       "image_file": "WLX-1359.jpg",
       "image_sha256": "c989b07ebdc7c1ad010367cca69bea78eb1d03874b9debf1d7b59a4e5a8f19c3",
       "notes": "Imported from will/TOKEN - Dark Depths.jpg in file batch 231e65ca86"
+    },
+    {
+      "collector_number": "1360",
+      "uuid": "0e14a4fd-aa7a-537a-afd2-6d22cbe475b1",
+      "card_kind": "official",
+      "official_name": "Zimone and Dina",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1360.jpg",
+      "image_sha256": "f9047f668e60036406ed8412d70fa83a2e8446ddb05d88dcdc47a1a2517ff19d",
+      "notes": "Imported from will/Zimone and Dina.jpg in file batch bbc159f3b6"
     }
   ]
 }

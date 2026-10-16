@@ -2,9 +2,9 @@
 <cockatrice_carddatabase version="4">
   <info>
     <author>Alex</author>
-    <createdAt>2026-10-12T22:23:34+00:00</createdAt>
+    <createdAt>2026-10-16T22:12:20+00:00</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/manifest.json</sourceUrl>
-    <sourceVersion>3.2.56</sourceVersion>
+    <sourceVersion>3.2.57</sourceVersion>
   </info>
   <sets>
     <set>
@@ -5871,6 +5871,10 @@ For each non-Human creature you control, you may have that creature assign its c
       <set uuid="9bbdb64a-122b-5c6e-9f8b-7868b319f3b6" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/291-back-c62348059b61.jpg" num="291" rarity="special">WLX</set>
       <related attach="transform">Invasion of Ikoria</related>
       <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Zimone and Dina</name>
+      <set uuid="0e14a4fd-aa7a-537a-afd2-6d22cbe475b1" picurl="https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1360-f9047f668e60.jpg" num="1360" rarity="special">WLX</set>
     </card>
     <card>
       <name>Zirda, the Dawnwaker</name>

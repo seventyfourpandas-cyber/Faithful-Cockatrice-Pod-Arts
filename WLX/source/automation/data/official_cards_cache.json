@@ -12912,6 +12912,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-12"
+    },
+    "zimone and dina": {
+      "name": "Zimone and Dina",
+      "oracle_id": "5bc66b18-22ac-4138-b527-fa711116e298",
+      "scryfall_uri": "https://scryfall.com/card/mom/257/zimone-and-dina?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-16"
     }
   }
 }

@@ -1,60 +1,15 @@
 {
   "schema_version": 1,
-  "batch_id": "231e65ca86",
-  "started_at": "2026-10-12T22:23:34+00:00",
-  "finished_at": "2026-10-12T22:23:40+00:00",
-  "found": 10,
-  "version_before": "3.2.55",
-  "version_after": "3.2.56",
+  "batch_id": "bbc159f3b6",
+  "started_at": "2026-10-16T22:12:20+00:00",
+  "finished_at": "2026-10-16T22:12:25+00:00",
+  "found": 1,
+  "version_before": "3.2.56",
+  "version_after": "3.2.57",
   "added": [
     {
-      "collector_number": "1350",
-      "name": "Canyon Slough",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1351",
-      "name": "Coastal Peak",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1352",
-      "name": "Festering Thicket",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1353",
-      "name": "Fetid Pools",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1354",
-      "name": "Glittering Massif",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1355",
-      "name": "Irrigated Farmland",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1356",
-      "name": "Rain-Slicked Copse",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1357",
-      "name": "Scattered Groves",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1358",
-      "name": "Sheltered Thicket",
-      "player": "Will"
-    },
-    {
-      "collector_number": "1359",
-      "name": "Marit Lage",
+      "collector_number": "1360",
+      "name": "Zimone and Dina",
       "player": "Will"
     }
   ],
