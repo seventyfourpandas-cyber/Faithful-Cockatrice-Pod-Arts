@@ -2,7 +2,7 @@
   "schema_version": 2,
   "package_id": "willexs-whimsical-arts",
   "display_name": "Willex's Whimsical Arts",
-  "version": "3.2.57",
+  "version": "3.2.58",
   "set_code": "WLX",
   "cards": [
     {
@@ -24696,6 +24696,24 @@
       "image": "images/WLX/1360-f9047f668e60.jpg",
       "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1360-f9047f668e60.jpg",
       "sha256": "f9047f668e60036406ed8412d70fa83a2e8446ddb05d88dcdc47a1a2517ff19d",
+      "dimensions": [
+        2976,
+        4152
+      ]
+    },
+    {
+      "player": "Will",
+      "card_kind": "official",
+      "card_name": "Uugguu, the Omniplasm",
+      "flavor_name": "",
+      "set_code": "WLX",
+      "set_name": "Willex's Whimsical Arts",
+      "collector_number": "1361",
+      "uuid": "07769a2f-5dfc-5c24-bf2c-6a99beaf36ad",
+      "rarity": "special",
+      "image": "images/WLX/1361-b04a67091393.jpg",
+      "picture_url": "https://raw.githubusercontent.com/seventyfourpandas-cyber/Faithful-Cockatrice-Pod-Arts/main/WLX/published/images/WLX/1361-b04a67091393.jpg",
+      "sha256": "b04a67091393fe218e13117972908e3364ff1ee0b89ddc7a16ed8d1506c2342a",
       "dimensions": [
         2976,
         4152

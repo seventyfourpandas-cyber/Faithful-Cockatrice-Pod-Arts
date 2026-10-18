@@ -14067,6 +14067,17 @@
       "image_file": "WLX-1360.jpg",
       "image_sha256": "f9047f668e60036406ed8412d70fa83a2e8446ddb05d88dcdc47a1a2517ff19d",
       "notes": "Imported from will/Zimone and Dina.jpg in file batch bbc159f3b6"
+    },
+    {
+      "collector_number": "1361",
+      "uuid": "07769a2f-5dfc-5c24-bf2c-6a99beaf36ad",
+      "card_kind": "official",
+      "official_name": "Uugguu, the Omniplasm",
+      "flavor_name": "",
+      "rarity": "special",
+      "image_file": "WLX-1361.jpg",
+      "image_sha256": "b04a67091393fe218e13117972908e3364ff1ee0b89ddc7a16ed8d1506c2342a",
+      "notes": "Imported from will/Uugguu, the Omniplasm.jpg in file batch b15ac18394"
     }
   ]
 }

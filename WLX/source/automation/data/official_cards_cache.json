@@ -12920,6 +12920,14 @@
       "layout": "normal",
       "faces": [],
       "verified_at": "2026-10-16"
+    },
+    "uugguu, the omniplasm": {
+      "name": "Uugguu, the Omniplasm",
+      "oracle_id": "df9bb1fc-135d-4efb-b143-81950fc95a27",
+      "scryfall_uri": "https://scryfall.com/card/mbc/54/uugguu-the-omniplasm?utm_source=api",
+      "layout": "normal",
+      "faces": [],
+      "verified_at": "2026-10-18"
     }
   }
 }
